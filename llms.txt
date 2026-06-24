@@ -1,0 +1,23 @@
+# Don Bigotes
+
+> Don Bigotes es una app móvil para padres que crea la carta del Ratoncito Pérez personalizada con el nombre de su hijo o hija para la noche del diente. La carta es gratuita; un Pack Mágico opcional añade nota de voz y fotomontaje.
+
+## Qué es
+- Producto: aplicación móvil (Android primero, iPhone después).
+- Idioma y mercado: español, España.
+- Estado: pendiente de lanzamiento. La web recoge contactos para avisar del lanzamiento.
+
+## Qué ofrece
+- Carta del Ratoncito Pérez personalizada con el nombre del niño o niña, con sello de la "Oficina del Ratoncito Pérez". Gratis. Lista para imprimir o guardar en PDF.
+- Pack Mágico (opcional): nota de voz del Ratoncito Pérez y fotomontaje "¡Pillado!".
+
+## Preguntas frecuentes
+- ¿Cómo hacer una carta del Ratoncito Pérez? Con Don Bigotes: se escribe el nombre del peque y se genera al instante, lista para imprimir o en PDF.
+- ¿Es gratis? La carta personalizada sí. La nota de voz y el fotomontaje son del Pack Mágico opcional.
+- ¿En qué móviles? Android (Google Play) primero; iPhone (App Store) después.
+
+## Aviso
+Don Bigotes es un producto independiente, no afiliado a ninguna entidad titular de marcas relacionadas con "El Ratoncito Pérez". El personaje se usa como referencia folclórica de dominio público. Marca e ilustraciones propias.
+
+## Contacto
+hola@donbigotes.app
