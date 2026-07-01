@@ -196,7 +196,18 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
 .gen-go{margin-top:24px;width:100%;font-size:1.05rem}
 .gen-result{display:none}
 .gen-result.show{display:block}
-.gen-paper{width:100%;max-width:420px;margin:0 auto;transform:none}
+.gen-paper{width:100%;max-width:420px;margin:0 auto;transform:none;background:radial-gradient(120% 120% at 20% 0%,#FFFBF1,#FBF7EC 55%,#F3EAD6 100%);padding:26px 28px 150px}
+.gen-paper::after{border:1.5px solid rgba(185,136,47,.55);inset:10px;border-radius:8px}
+.l-head{display:flex;align-items:center;gap:12px;padding-bottom:10px;border-bottom:1px solid rgba(185,136,47,.75);margin-bottom:12px}
+.l-avatar{width:52px;height:52px;border-radius:50%;object-fit:cover}
+.l-office-t{font-family:'Fraunces',Georgia,serif;font-weight:700;font-size:1.05rem;line-height:1.15;color:var(--ink)}
+.l-office-s{font-size:.6rem;letter-spacing:.09em;text-transform:uppercase;color:#8C7A6B;margin-top:3px}
+.l-date{font-family:'Caveat',cursive;text-align:right;color:#8C7A6B;font-size:1.18rem;margin-bottom:8px}
+.gen-paper .l-greeting{font-size:2.1rem}
+.gen-paper .l-body{font-size:1.28rem;line-height:1.32}
+.gen-paper .l-body p{margin:0 0 .55em}
+.l-close{font-family:'Caveat',cursive;font-size:1.45rem;color:var(--ink);text-align:right;margin-top:12px;padding-right:4px}
+.gen-ia{text-align:center;color:var(--ink-soft);font-size:.78rem;margin:12px auto 0;opacity:.85}
 .gen-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:26px}
 .btn-ghost{font-family:inherit;font-weight:700;font-size:1rem;cursor:pointer;padding:14px 24px;border-radius:12px;border:1.5px solid var(--paper-edge);background:#fff;color:var(--ink)}
 .btn-ghost:hover{border-color:var(--gold-deep)}
@@ -476,18 +487,36 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
         <button type="button" class="chip" data-v="colmillo">Un colmillo</button>
         <button type="button" class="chip" data-v="diente">No estoy seguro</button>
       </div>
+      <span class="gen-label">¿Es su primer diente… o el último?</span>
+      <div class="chips" id="gtramo">
+        <button type="button" class="chip" data-v="primero">Es el primero</button>
+        <button type="button" class="chip" data-v="ultimo">Es el último</button>
+        <button type="button" class="chip" data-v="ninguno">Ninguno de los dos</button>
+      </div>
+      <label class="gen-label" for="gcosa">Una cosa que hace muy bien (opcional)</label>
+      <input id="gcosa" class="gen-input" type="text" maxlength="60" placeholder="p. ej., recoger sus juguetes" autocomplete="off">
       <p class="gen-err" id="genErr">Escribe al menos el nombre de tu peque.</p>
       <button type="button" class="btn-gold gen-go" onclick="makeLetter()">Crear la carta ✨</button>
     </div>
     <div class="gen-result" id="genResult">
       <div id="print-letter">
         <div class="letter-paper gen-paper">
+          <div class="l-head">
+            <img class="l-avatar" src="data:image/jpeg;base64,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" alt="Retrato del Ratoncito Pérez">
+            <div>
+              <div class="l-office-t">Oficina del Ratoncito Pérez</div>
+              <div class="l-office-s">Departamento de Dientes de Leche · desde 1894</div>
+            </div>
+          </div>
+          <div class="l-date" id="gDate"></div>
           <div class="l-greeting" id="gGreet"></div>
           <div class="l-body" id="gBody"></div>
+          <div class="l-close">Con bigotes y cariño,</div>
           <img class="l-stamp" id="gStamp" alt="Sello de la Oficina del Ratoncito Pérez">
           <img class="l-sign" id="gSign" alt="Firma del Ratoncito Pérez">
         </div>
       </div>
+      <p class="gen-ia">Texto e ilustraciones generados digitalmente.</p>
       <div class="gen-actions">
         <button type="button" class="btn-gold" onclick="window.print()">Imprimir o guardar en PDF</button>
         <button type="button" class="btn-ghost" onclick="resetGen()">Crear otra</button>
@@ -498,26 +527,46 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
 </div>
 
 <script>
-var GEN={sexo:null,diente:null};
+var GEN={sexo:null,diente:null,tramo:null};
 function openGen(){plausible('Crear carta - clic');document.getElementById('gen').classList.add('open');document.body.style.overflow='hidden';}
 function closeGen(){document.getElementById('gen').classList.remove('open');document.body.style.overflow='';}
 function resetGen(){document.getElementById('genResult').classList.remove('show');document.getElementById('genForm').style.display='block';}
 document.getElementById('gen').addEventListener('click',function(e){if(e.target===this)closeGen();});
 document.addEventListener('keydown',function(e){if(e.key==='Escape')closeGen();});
 function bindChips(g,k){document.querySelectorAll('#'+g+' .chip').forEach(function(c){c.addEventListener('click',function(){document.querySelectorAll('#'+g+' .chip').forEach(function(x){x.classList.remove('sel');});c.classList.add('sel');GEN[k]=c.dataset.v;});});}
-bindChips('gsexo','sexo');bindChips('gdiente','diente');
+bindChips('gsexo','sexo');bindChips('gdiente','diente');bindChips('gtramo','tramo');
+var MESES=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+var DIENTES={
+  'palita de arriba':{txt:'tu paleta de arriba',pron:'La'},
+  'palita de abajo':{txt:'tu paleta de abajo',pron:'La'},
+  'muela':{txt:'tu muelita',pron:'La'},
+  'colmillo':{txt:'tu colmillito',pron:'Lo'},
+  'diente':{txt:'tu dientecito',pron:'Lo'}
+};
+var TRAMOS={
+  primero:'Y déjame que te diga una cosa importante: este es tu PRIMER diente, y los primeros son los más especiales de toda mi colección. Este lo guardaré en un lugar de honor.',
+  ultimo:'Y qué momento tan solemne: es tu ÚLTIMO diente de leche. Toda mi Oficina se ha puesto elegante para despedirlo como se merece, y tu nombre quedará escrito con letras doradas en mi gran libro de dientes.',
+  ninguno:''
+};
 function makeLetter(){
   var nombre=(document.getElementById('gnombre').value||'').trim();
   if(!nombre){document.getElementById('genErr').classList.add('show');return;}
   document.getElementById('genErr').classList.remove('show');
-  var sexo=GEN.sexo||'neutro', diente=GEN.diente||'diente';
+  var sexo=GEN.sexo||'neutro';
+  var d=DIENTES[GEN.diente||'diente']||DIENTES.diente;
+  var tramo=TRAMOS[GEN.tramo||'ninguno']||'';
+  var cosa=(document.getElementById('gcosa').value||'').trim().replace(/[.!\s]+$/,'');
   var n=nombre.charAt(0).toUpperCase()+nombre.slice(1);
+  var hoy=new Date();
+  document.getElementById('gDate').textContent='Desde mi ratonera, a '+hoy.getDate()+' de '+MESES[hoy.getMonth()]+' de '+hoy.getFullYear();
   var greet=sexo==='nino'?'Querido '+n+',':(sexo==='nina'?'Querida '+n+',':'¡Hola, '+n+'!');
-  var peq=sexo==='nino'?', pequeño':(sexo==='nina'?', pequeña':'');
-  var tooth=diente==='diente'?'tu diente':'tu '+diente;
-  var body='¡Has sido muy valiente! Anoche pasé por tu almohada y recogí '+tooth+' con muchísimo cuidado. Ahora está a salvo en mi casita, junto a otros dientes muy especiales. Te he dejado un poquito de magia a cambio. Sigue cuidando esa sonrisa tan bonita'+peq+'… ¡Nos vemos en la próxima!';
+  var p1='Esta noche he venido de puntillas hasta tu almohada y he encontrado '+d.txt+'. ¡Qué tesoro! '+d.pron+' he envuelto con mucho cuidado y ya viaja en mi saquito hacia mi Oficina, donde brillará junto a los dientes más bonitos del mundo.'+(tramo?' '+tramo:'');
+  var p2=cosa?'Mis ayudantes me han contado lo bien que se te da '+cosa+', y eso, en mi gran libro de dientes, vale tanto como el diente más blanco.':'Mis ayudantes ya me habían contado lo valiente que eres, y esta noche lo he visto con mis propios ojos: ni una pizca de miedo.';
+  var p3='Ya sabes que detrás de cada diente que se cae asoma uno nuevo y más fuerte. Cuídalo mucho: cepíllate cada mañana y cada noche, que la próxima vez que pase por aquí quiero encontrarme una sonrisa reluciente.';
+  var p4='Gracias por dejarme '+d.txt+'. Esta vieja Oficina te tiene entre sus personas favoritas.';
   document.getElementById('gGreet').textContent=greet;
-  document.getElementById('gBody').textContent=body;
+  var body=document.getElementById('gBody');body.innerHTML='';
+  [p1,p2,p3,p4].forEach(function(t){var p=document.createElement('p');p.textContent=t;body.appendChild(p);});
   document.getElementById('gStamp').src=document.querySelector('.l-stamp').src;
   document.getElementById('gSign').src=document.querySelector('.l-sign').src;
   document.getElementById('genForm').style.display='none';
