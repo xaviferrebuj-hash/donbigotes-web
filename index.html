@@ -520,8 +520,17 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
         <button type="button" class="chip" data-v="ultimo">Es el último</button>
         <button type="button" class="chip" data-v="ninguno">Ninguno de los dos</button>
       </div>
-      <label class="gen-label" for="gcosa">Una cosa que hace muy bien (opcional)</label>
-      <input id="gcosa" class="gen-input" type="text" maxlength="60" placeholder="p. ej., recoger sus juguetes" autocomplete="off">
+      <span class="gen-label">Una cosa que hace muy bien (opcional)</span>
+      <div class="chips" id="grasgo">
+        <button type="button" class="chip" data-v="valiente">Es muy valiente</button>
+        <button type="button" class="chip" data-v="cuida-dientes">Cuida mucho sus dientes</button>
+        <button type="button" class="chip" data-v="sonrisa">Tiene una sonrisa preciosa</button>
+        <button type="button" class="chip" data-v="ayuda-casa">Ayuda mucho en casa</button>
+        <button type="button" class="chip" data-v="dormilon">Le encanta dormir</button>
+        <button type="button" class="chip" data-v="risueno">Se ríe muchísimo</button>
+        <button type="button" class="chip" data-v="curioso">Lo pregunta todo</button>
+        <button type="button" class="chip" data-v="abrazos">Reparte abrazos a todas horas</button>
+      </div>
       <p class="gen-err" id="genErr">Escribe al menos el nombre de tu peque.</p>
       <button type="button" class="btn-gold gen-go" onclick="makeLetter()">Crear la carta ✨</button>
     </div>
@@ -554,7 +563,7 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
 </div>
 
 <script>
-var GEN={sexo:null,diente:null,tramo:null};
+var GEN={sexo:null,diente:null,tramo:null,rasgo:null};
 function openGen(){plausible('Crear carta - clic');document.getElementById('gen').classList.add('open');document.body.style.overflow='hidden';}
 function closeGen(){document.getElementById('gen').classList.remove('open');document.body.style.overflow='';}
 function resetGen(){document.getElementById('genResult').classList.remove('show');document.getElementById('genForm').style.display='block';}
@@ -562,6 +571,17 @@ document.getElementById('gen').addEventListener('click',function(e){if(e.target=
 document.addEventListener('keydown',function(e){if(e.key==='Escape')closeGen();});
 function bindChips(g,k){document.querySelectorAll('#'+g+' .chip').forEach(function(c){c.addEventListener('click',function(){document.querySelectorAll('#'+g+' .chip').forEach(function(x){x.classList.remove('sel');});c.classList.add('sel');GEN[k]=c.dataset.v;});});}
 bindChips('gsexo','sexo');bindChips('gdiente','diente');bindChips('gtramo','tramo');
+document.querySelectorAll('#grasgo .chip').forEach(function(c){c.addEventListener('click',function(){var sel=c.classList.contains('sel');document.querySelectorAll('#grasgo .chip').forEach(function(x){x.classList.remove('sel');});if(sel){GEN.rasgo=null;}else{c.classList.add('sel');GEN.rasgo=c.dataset.v;}});});
+var RASGOS={
+  'valiente':'Mis ayudantes ya me habían contado lo valiente que eres, y esta noche lo he visto con mis propios ojos: ni una pizca de miedo.',
+  'cuida-dientes':'Se nota de lejos que cuidas mucho tus dientes: el que me llevo esta noche brilla como las perlas más finas de mi colección.',
+  'sonrisa':'Y qué sonrisa tan preciosa tienes; en mi Oficina llevan días sin hablar de otra cosa.',
+  'ayuda-casa':'También sé que ayudas muchísimo en casa, y eso, en mi gran libro de dientes, vale tanto como el diente más blanco.',
+  'dormilon':'Como me han dicho que te encanta dormir, he trabajado de puntillas y en silencio para no despertarte.',
+  'risueno':'Dicen que tu risa se oye hasta en mi ratonera, y te aseguro que es la música que más nos gusta a los ratones.',
+  'curioso':'Sé que te gusta preguntarlo todo, como a los ratones sabios, así que te lo confirmo por escrito: tu diente queda en muy buenas patas.',
+  'abrazos':'Y me consta que repartes abrazos como nadie; yo guardaré tu diente con ese mismo cariño.'
+};
 var MESES=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
 var DIENTES={
   'palita de arriba':{txt:'tu paleta de arriba',pron:'La'},
@@ -584,17 +604,16 @@ function makeLetter(){
   var sexo=GEN.sexo||'neutro';
   var d=DIENTES[GEN.diente||'diente']||DIENTES.diente;
   var tramo=TRAMOS[GEN.tramo||'ninguno']||'';
-  var cosa=(document.getElementById('gcosa').value||'').trim().replace(/[.!\s]+$/,'');
   var n=nombre.charAt(0).toUpperCase()+nombre.slice(1);
   document.getElementById('gDate').textContent=fechaRatonera();
   var greet=sexo==='nino'?'Querido '+n+',':(sexo==='nina'?'Querida '+n+',':'¡Hola, '+n+'!');
   var p1='Esta noche he venido de puntillas hasta tu almohada y he encontrado '+d.txt+'. ¡Qué tesoro! '+d.pron+' he envuelto con mucho cuidado y ya viaja en mi saquito hacia mi Oficina, donde brillará junto a los dientes más bonitos del mundo.'+(tramo?' '+tramo:'');
-  var p2=cosa?'Mis ayudantes me han contado lo bien que se te da '+cosa+', y eso, en mi gran libro de dientes, vale tanto como el diente más blanco.':'Mis ayudantes ya me habían contado lo valiente que eres, y esta noche lo he visto con mis propios ojos: ni una pizca de miedo.';
+  var p2=GEN.rasgo&&RASGOS[GEN.rasgo]?RASGOS[GEN.rasgo]:'';
   var p3='Ya sabes que detrás de cada diente que se cae asoma uno nuevo y más fuerte. Cuídalo mucho: cepíllate cada mañana y cada noche, que la próxima vez que pase por aquí quiero encontrarme una sonrisa reluciente.';
   var p4='Gracias por dejarme '+d.txt+'. Esta vieja Oficina te tiene entre sus personas favoritas.';
   document.getElementById('gGreet').textContent=greet;
   var body=document.getElementById('gBody');body.innerHTML='';
-  [p1,p2,p3,p4].forEach(function(t){var p=document.createElement('p');p.textContent=t;body.appendChild(p);});
+  [p1,p2,p3,p4].forEach(function(t){if(!t)return;var p=document.createElement('p');p.textContent=t;body.appendChild(p);});
   document.getElementById('gStamp').src=document.querySelector('.l-stamp').src;
   document.getElementById('gSign').src=document.querySelector('.l-sign').src;
   document.getElementById('genForm').style.display='none';
