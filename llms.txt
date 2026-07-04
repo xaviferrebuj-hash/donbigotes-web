@@ -20,6 +20,21 @@
 - Certificado / Diploma de Valentía: https://donbigotes.app/certificado-raton-perez/
 - El viaje del diente: https://donbigotes.app/viaje-del-diente/
 
+## Versiones markdown
+Cada página tiene una versión en markdown puro (mismo contenido, sin HTML):
+- https://donbigotes.app/index.md
+- https://donbigotes.app/app-raton-perez/index.md
+- https://donbigotes.app/carta-para-imprimir/index.md
+- https://donbigotes.app/video-raton-perez/index.md
+- https://donbigotes.app/foto-raton-perez/index.md
+- https://donbigotes.app/voz-raton-perez/index.md
+- https://donbigotes.app/viaje-del-diente/index.md
+- https://donbigotes.app/certificado-raton-perez/index.md
+- https://donbigotes.app/editable/index.md
+- https://donbigotes.app/el-ratoncito-perez-existe/index.md
+- https://donbigotes.app/primer-diente/index.md
+- https://donbigotes.app/ultimo-diente/index.md
+
 ## Notas
 - Idioma: español (España y Latinoamérica)
 - Don Bigotes no está afiliado a ninguna marca registrada; el Ratoncito
