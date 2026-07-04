@@ -1,0 +1,4 @@
+exclude:
+  - CLAUDE.md
+  - tools/
+  - README.md
