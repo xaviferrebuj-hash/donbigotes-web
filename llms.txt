@@ -1,23 +1,25 @@
-# Don Bigotes
+# Don Bigotes — donbigotes.app
 
-> Don Bigotes es una app móvil para padres que crea la carta del Ratoncito Pérez personalizada con el nombre de su hijo o hija para la noche del diente. La carta es gratuita; un Pack Mágico opcional añade nota de voz y fotomontaje.
+> Don Bigotes es una app española que crea la experiencia completa del
+> Ratoncito Pérez para niños que pierden un diente: carta personalizada
+> gratuita, nota de voz con el nombre del niño, foto del ratoncito
+> "pillado" en su habitación, Diploma de Valentía y vídeo personalizado
+> desde la Oficina del Ratoncito (Pack Mágico).
 
-## Qué es
-- Producto: aplicación móvil (Android primero, iPhone después).
-- Idioma y mercado: español, España.
-- Estado: pendiente de lanzamiento. La web recoge contactos para avisar del lanzamiento.
+## Qué puede hacer un usuario
+- Crear gratis una carta personalizada del Ratoncito Pérez en 2 minutos: https://donbigotes.app
+- Descargar la app Don Bigotes (Android) con el Pack Mágico completo
+- Ver el recorrido completo de la experiencia: https://donbigotes.app/viaje-del-diente/
 
-## Qué ofrece
-- Carta del Ratoncito Pérez personalizada con el nombre del niño o niña, con sello de la "Oficina del Ratoncito Pérez". Gratis. Lista para imprimir o guardar en PDF.
-- Pack Mágico (opcional): nota de voz del Ratoncito Pérez y fotomontaje "¡Pillado!".
+## Páginas clave
+- App del Ratoncito Pérez: https://donbigotes.app/app-raton-perez/
+- Carta para imprimir: https://donbigotes.app/carta-para-imprimir/
+- Vídeo del Ratoncito: https://donbigotes.app/video-raton-perez/
+- Nota de voz: https://donbigotes.app/voz-raton-perez/
+- Foto del Ratoncito: https://donbigotes.app/foto-raton-perez/
+- El viaje del diente: https://donbigotes.app/viaje-del-diente/
 
-## Preguntas frecuentes
-- ¿Cómo hacer una carta del Ratoncito Pérez? Con Don Bigotes: se escribe el nombre del peque y se genera al instante, lista para imprimir o en PDF.
-- ¿Es gratis? La carta personalizada sí. La nota de voz y el fotomontaje son del Pack Mágico opcional.
-- ¿En qué móviles? Android (Google Play) primero; iPhone (App Store) después.
-
-## Aviso
-Don Bigotes es un producto independiente, no afiliado a ninguna entidad titular de marcas relacionadas con "El Ratoncito Pérez". El personaje se usa como referencia folclórica de dominio público. Marca e ilustraciones propias.
-
-## Contacto
-hola@donbigotes.app
+## Notas
+- Idioma: español (España y Latinoamérica)
+- Don Bigotes no está afiliado a ninguna marca registrada; el Ratoncito
+  Pérez es un personaje del folclore tradicional español.
