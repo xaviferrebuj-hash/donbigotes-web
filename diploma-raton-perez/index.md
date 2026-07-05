@@ -42,7 +42,7 @@ Sí. Se guarda como imagen en tu móvil y puedes imprimirlo en casa o enmarcarlo
 
 ## Crea la experiencia completa en la app Don Bigotes
 
-Voz, foto y Diploma de Valentía personalizados, Gratis durante el lanzamiento.
+Voz, foto y Diploma de Valentía personalizados. Gratis durante el lanzamiento.
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

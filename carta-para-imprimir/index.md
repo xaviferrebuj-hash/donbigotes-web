@@ -6,7 +6,7 @@ Sin registro · Lista en 1 minuto · Gratis
 
 ## Crea la experiencia completa en la app Don Bigotes
 
-Voz, foto y Diploma de Valentía personalizados, Gratis durante el lanzamiento.
+Voz, foto y Diploma de Valentía personalizados. Gratis durante el lanzamiento.
 
 ## De su nombre a la carta impresa
 

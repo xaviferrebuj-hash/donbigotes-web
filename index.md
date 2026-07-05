@@ -10,7 +10,7 @@ Mientras tu peque duerme, el Ratoncito Pérez escribe su carta con su nombre. Po
 
 ## Crea la experiencia completa en la app Don Bigotes
 
-Voz, foto y Diploma de Valentía personalizados, Gratis durante el lanzamiento.
+Voz, foto y Diploma de Valentía personalizados. Gratis durante el lanzamiento.
 
 ## Una carta gratis. Y, si quieres, mucha más magia.
 
