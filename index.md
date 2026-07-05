@@ -30,7 +30,7 @@ Un mensaje del propio Ratoncito Pérez, con su nombre, para escuchar en la cama.
 
 ### El Diploma de Valentía
 
-Un diploma con su nombre y su foto que premia lo valiente que ha sido. Para imprimir y enmarcar.
+Un diploma con su nombre y su foto —el certificado del Ratoncito Pérez— que premia lo valiente que ha sido. Para imprimir y enmarcar.
 
 ## Tres pasos. Dos minutos.
 

@@ -24,7 +24,7 @@ Un vídeo personalizado en el que el Ratoncito prepara la visita a tu casa. Disp
 
 ### El Diploma de Valentía
 
-Un diploma personalizado, con su nombre y su foto, que premia a tu peque por su valentía al perder el diente. Listo para imprimir, guardar y enmarcar.
+Un diploma personalizado —el certificado del Ratoncito Pérez—, con su nombre y su foto, que premia a tu peque por su valentía al perder el diente. Listo para imprimir, guardar y enmarcar.
 
 ## Rápido, privado y tuyo
 
