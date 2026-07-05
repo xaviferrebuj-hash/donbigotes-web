@@ -32,7 +32,7 @@ El diploma está pensado para las dos cosas: imprimirlo en A4 y colgarlo en su c
 
 **¿Cómo consigo un certificado del Ratoncito Pérez personalizado?**
 
-Con la app Don Bigotes: eliges el nombre del niño y en un minuto tienes el Diploma de Valentía listo para imprimir o enseñar en el móvil. Forma parte del Pack Mágico.
+Con la app Don Bigotes: eliges el nombre del niño y en un minuto tienes el [Diploma de Valentía](https://donbigotes.app/diploma-raton-perez/) listo para imprimir o enseñar en el móvil. Forma parte del Pack Mágico.
 
 **¿Puedo añadir la foto de mi hijo al diploma?**
 

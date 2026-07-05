@@ -16,8 +16,8 @@ DOMINIO = "https://donbigotes.app"
 PAGINAS = [
     "", "app-raton-perez", "carta-para-imprimir", "video-raton-perez",
     "foto-raton-perez", "voz-raton-perez", "viaje-del-diente",
-    "certificado-raton-perez", "editable", "el-ratoncito-perez-existe",
-    "primer-diente", "ultimo-diente",
+    "certificado-raton-perez", "diploma-raton-perez", "editable",
+    "el-ratoncito-perez-existe", "primer-diente", "ultimo-diente",
 ]
 
 # Subárboles que no aportan contenido textual (interfaz, decoración, formularios)
