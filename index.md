@@ -12,25 +12,33 @@ Mientras tu peque duerme, el Ratoncito Pérez escribe su carta con su nombre. Po
 
 Voz, foto y Diploma de Valentía personalizados. Gratis durante el lanzamiento.
 
-## Una carta gratis. Y, si quieres, mucha más magia.
+## Un día entero de magia
 
-La carta personalizada es siempre gratuita. El Pack Mágico suma una nota de voz, un fotomontaje y un Diploma de Valentía para una noche inolvidable. Descubre [el viaje del diente](https://donbigotes.app/viaje-del-diente/): todo el recorrido, paso a paso, desde que se cae hasta el vídeo final.
+Desde que se cae el diente hasta que se apaga la luz, Don Bigotes acompaña cada momento.
 
-### La carta personalizada
+### Nota de voz del Ratoncito
 
-Con su nombre y el sello de la Oficina. Lista para imprimir o guardar en PDF.
+Al momento, con el nombre de tu peque. La sorpresa empieza ya.
 
-### El fotomontaje «¡Pillado!»
+### El diente, bajo la almohada
 
-El Ratoncito Pérez «aparece» en una foto en casa. La prueba de que estuvo allí.
+Mientras duerme, tú lo dejas todo listo en la app en dos minutos.
 
-### La nota de voz
+### La carta del Ratoncito Pérez
 
-Un mensaje del propio Ratoncito Pérez, con su nombre, para escuchar en la cama.
+Escrita para él, con su nombre y su hazaña. Junto a la almohada.
 
-### El Diploma de Valentía
+### ¡Pillado! La foto de la prueba
 
-Un diploma con su nombre y su foto —el certificado del Ratoncito Pérez— que premia lo valiente que ha sido. Para imprimir y enmarcar.
+El Ratoncito, cazado por la cámara en su habitación.
+
+### Diploma de Valentía
+
+Con su nombre, para imprimir y colgar en su cuarto.
+
+### Vídeo desde la Oficina Mágica
+
+Don Bigotes dice su nombre y le da las buenas noches. Broche final.
 
 ## Tres pasos. Dos minutos.
 
