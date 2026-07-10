@@ -270,9 +270,9 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
         <a class="btn-gold" data-enlace="webapp" style="min-width:240px;text-align:center;text-decoration:none">&#10024; Abrir la app ahora</a>
       </div>
       <div class="badges">
-        <a class="badge" data-enlace="playstore" aria-label="Pr&oacute;ximamente en Google Play">
+        <a class="badge" data-enlace="playstore" aria-label="Disponible en Google Play">
           <svg viewBox="0 0 512 512" aria-hidden="true"><path fill="#00D3FF" d="M47 21 296 256 47 491c-9-5-15-15-15-27V48c0-12 6-22 15-27z"/><path fill="#00F076" d="M47 21c7-4 16-4 24 1l228 132-59 59L47 21z"/><path fill="#FF3A44" d="M299 154l79 46c20 12 20 40 0 52l-79 46-59-59 59-59z"/><path fill="#FFC500" d="M240 256l59 59L71 447c-8 5-17 5-24 1l193-192z"/></svg>
-          <span class="b-txt"><span class="b-top">Pr&oacute;ximamente en</span><span class="b-main">Google Play</span></span>
+          <span class="b-txt"><span class="b-top">Disponible en</span><span class="b-main">Google Play</span></span>
         </a>
         <a class="badge" data-enlace="appstore" aria-label="Don Bigotes en App Store">
           <svg viewBox="0 0 384 512" aria-hidden="true"><path fill="#fff" d="M318 271c-1-58 47-86 49-87-27-39-68-44-83-45-35-4-69 21-87 21-18 0-46-20-75-20-38 1-74 22-94 56-40 70-10 173 29 230 19 28 42 59 72 58 29-1 40-19 75-19s45 19 75 18c31 0 50-28 69-56 22-32 31-63 31-65-1-1-59-23-60-91zM261 99c16-19 27-46 24-73-23 1-51 15-67 34-15 17-28 44-25 70 26 2 52-13 68-31z"/></svg>
@@ -363,13 +363,13 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
         <a href="https://play.google.com/store/apps/details?id=es.donbigotes.app" target="_blank" rel="noopener"><img src="/assets/img/google-play-badge-es.png" alt="Disponible en Google Play" style="height:72px"></a>
       </div>
       <form class="capture dl-capture" id="cap3">
-        <p class="hint">Déjanos tu email o móvil y <b>te avisamos el día del lanzamiento</b>.</p>
+        <p class="hint">¿Tienes iPhone? <b>Te avisamos cuando el Ratoncito llegue a la App Store.</b></p>
         <div class="form-row">
           <input type="text" name="contacto" placeholder="Tu email o móvil" autocomplete="email" required>
           <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off">
           <button type="submit" class="btn-gold">Avísame</button>
         </div>
-        <div class="form-ok">¡Hecho! Te escribiremos cuando Don Bigotes esté disponible. ✨</div>
+        <div class="form-ok">¡Hecho! Te escribiremos cuando Don Bigotes llegue a la App Store. ✨</div>
       </form>
     </div>
   </div>
@@ -443,7 +443,7 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
       var data = new FormData();
       data.append("contacto", input.value.trim());
       data.append("access_key", "b43b8fa1-6e3d-428c-9298-24b1dbef4e4a");
-      data.append("subject", "Nuevo aviso de lanzamiento - Don Bigotes");
+      data.append("subject", form.id === "cap3" ? "Aviso iOS - Don Bigotes" : "Nuevo aviso de lanzamiento - Don Bigotes");
       data.append("pagina", location.pathname);
       data.append("origen", form.id || "landing");
       fetch(ENDPOINT, {method:"POST", body:data, headers:{"Accept":"application/json"}}).catch(function(){});

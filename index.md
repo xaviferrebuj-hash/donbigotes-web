@@ -74,7 +74,7 @@ Escribes el nombre de tu peque y un par de detalles, y la app la genera al insta
 
 **¿En qué móviles funciona?**
 
-Llega primero a Android, en Google Play, y justo después a iPhone en la App Store. Déjanos tu contacto y te avisamos el día del lanzamiento.
+Ya está disponible para Android en Google Play. La versión para iPhone llegará muy pronto: déjanos tu contacto y te avisamos cuando esté en la App Store.
 
 ## Que la próxima caída de diente sea inolvidable
 
