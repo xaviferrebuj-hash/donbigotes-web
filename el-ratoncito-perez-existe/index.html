@@ -397,13 +397,13 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
     <section class="cta-final">
       <h2>Que la próxima caída de diente sea inolvidable</h2>
       <form class="capture" id="cap2">
-        <p class="hint">Te avisamos en cuanto Don Bigotes esté disponible.</p>
+        <p class="hint">¿Tienes iPhone? <b>Te avisamos cuando el Ratoncito llegue a la App Store.</b></p>
         <div class="form-row">
           <input type="text" name="contacto" placeholder="Tu email o móvil" autocomplete="email" required>
           <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off">
           <button type="submit" class="btn-gold">Avísame</button>
         </div>
-        <div class="form-ok">¡Hecho! Te escribiremos pronto. ✨</div>
+        <div class="form-ok">¡Hecho! Te escribiremos cuando Don Bigotes llegue a la App Store. ✨</div>
       </form>
     </section>
 
@@ -445,7 +445,7 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
       var data = new FormData();
       data.append("contacto", input.value.trim());
       data.append("access_key", "b43b8fa1-6e3d-428c-9298-24b1dbef4e4a");
-      data.append("subject", form.id === "cap3" ? "Aviso iOS - Don Bigotes" : "Nuevo aviso de lanzamiento - Don Bigotes");
+      data.append("subject", (form.id === "cap2" || form.id === "cap3") ? "Aviso iOS - Don Bigotes" : "Nuevo aviso de lanzamiento - Don Bigotes");
       data.append("pagina", location.pathname);
       data.append("origen", form.id || "landing");
       fetch(ENDPOINT, {method:"POST", body:data, headers:{"Accept":"application/json"}}).catch(function(){});
