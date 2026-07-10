@@ -436,7 +436,7 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
 
 <script>
 (function(){
-  var ENDPOINT = "https://formsubmit.co/ajax/hola@donbigotes.app";
+  var ENDPOINT = "https://api.web3forms.com/submit";
   document.querySelectorAll("form.capture").forEach(function(form){
     form.addEventListener("submit", function(e){
       e.preventDefault();
@@ -451,7 +451,9 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
       var hint = form.querySelector(".hint"); if (hint) hint.style.display = "none";
       var data = new FormData();
       data.append("contacto", input.value.trim());
-      data.append("_subject", "Nuevo aviso de lanzamiento - Don Bigotes");
+      data.append("access_key", "b43b8fa1-6e3d-428c-9298-24b1dbef4e4a");
+      data.append("subject", "Nuevo aviso de lanzamiento - Don Bigotes");
+      data.append("pagina", location.pathname);
       data.append("origen", form.id || "landing");
       fetch(ENDPOINT, {method:"POST", body:data, headers:{"Accept":"application/json"}}).catch(function(){});
     });

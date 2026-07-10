@@ -7,5 +7,5 @@
 4. Publicación vía GitHub Pages: el push despliega en 1-2 min. Verificar en producción tras cambios visuales.
 5. Tras cambiar cualquier página HTML, regenerar las versiones markdown con tools/generar_md.py (añadir páginas nuevas a la lista PAGINAS).
 6. El directorio _partials/ contiene parciales reutilizables (Jekyll no publica directorios con _). CTA de app: _partials/cta-app.html. Enlaces de app centralizados en enlaces-app.js.
-7. FormSubmit apunta SIEMPRE a hola@donbigotes.app.
+7. Formularios web: Web3Forms (endpoint https://api.web3forms.com/submit, access_key pública b43b8fa1-6e3d-428c-9298-24b1dbef4e4a) → entrega a hola@donbigotes.app → reenvío Zoho a hola@donbigotes.app. NUNCA exponer emails en el HTML. NUNCA nodoambar. FormSubmit está retirado: no reintroducirlo.
 8. No tocar nunca los registros DNS de Zoho Mail (MX, SPF TXT, verificación TXT, CNAME).
