@@ -23,9 +23,8 @@
     // TODO Xavi: confirmar la URL real de la web app (uso inmediato, sin instalar).
     webapp: "https://donbigotes.app/",
 
-    // Cuando la app esté en PRODUCCIÓN pública, pega aquí la URL de la ficha de Google Play.
-    // Mientras sea null, el badge de Play lleva a la web app (mismo destino que "Abrir la app").
-    playstore: null,
+    // Ficha pública de Google Play (rollout Android).
+    playstore: "https://play.google.com/store/apps/details?id=es.donbigotes.app",
 
     // Cuando exista versión iOS, pega aquí la URL de App Store.
     // Mientras sea null, el badge de App Store se oculta.
