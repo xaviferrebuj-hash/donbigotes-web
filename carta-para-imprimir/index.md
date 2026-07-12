@@ -52,6 +52,8 @@ Sí. Puedes adaptar el mensaje al primer diente, a uno más entre varios o a la 
 
 Una plantilla es genérica y la rellenas a mano. Aquí la carta sale ya personalizada con el nombre y el sello de la Oficina, lista en un minuto.
 
+Última actualización: 11 de julio de 2026
+
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez».
 
 [App del Ratoncito Pérez](https://donbigotes.app/app-raton-perez/) · [Vídeo del Ratoncito Pérez](https://donbigotes.app/video-raton-perez/) · [Foto del Ratoncito Pérez](https://donbigotes.app/foto-raton-perez/) · [Voz del Ratoncito Pérez](https://donbigotes.app/voz-raton-perez/) · [El viaje del diente](https://donbigotes.app/viaje-del-diente/)
