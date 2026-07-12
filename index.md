@@ -54,9 +54,9 @@ Don Bigotes crea la carta del Ratoncito Pérez personalizada al instante.
 
 Imprímela o guárdala en PDF y déjala lista para la noche del diente.
 
-## Llega muy pronto a Android y iPhone
+## Ya disponible en Google Play
 
-Primero a Android, y justo después a iPhone.
+Para Android hoy; muy pronto también en iPhone.
 
 ## Preguntas frecuentes
 
@@ -74,7 +74,7 @@ Escribes el nombre de tu peque y un par de detalles, y la app la genera al insta
 
 **¿En qué móviles funciona?**
 
-Llega primero a Android, en Google Play, y justo después a iPhone en la App Store. Déjanos tu contacto y te avisamos el día del lanzamiento.
+Ya está disponible para Android en Google Play. La versión para iPhone llegará muy pronto: déjanos tu contacto y te avisamos cuando esté en la App Store.
 
 ## Que la próxima caída de diente sea inolvidable
 
