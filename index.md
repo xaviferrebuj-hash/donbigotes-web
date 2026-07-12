@@ -78,6 +78,8 @@ Ya está disponible para Android en Google Play. La versión para iPhone llegar�
 
 ## Que la próxima caída de diente sea inolvidable
 
+Última actualización: 11 de julio de 2026
+
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 
 ---
