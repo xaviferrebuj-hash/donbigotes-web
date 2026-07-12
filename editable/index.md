@@ -46,9 +46,9 @@ Don Bigotes crea la carta del Ratoncito Pérez personalizada al instante.
 
 Imprímela o guárdala en PDF y déjala lista para la noche del diente.
 
-## Ya disponible en Google Play
+## Llega muy pronto a Android y iPhone
 
-Para Android hoy; muy pronto también en iPhone.
+Primero a Android, y justo después a iPhone.
 
 ## Preguntas frecuentes
 
