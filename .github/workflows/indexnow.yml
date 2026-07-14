@@ -1,0 +1,80 @@
+name: IndexNow ping
+
+# Notifica a IndexNow (Bing/Yandex) SOLO las páginas cuyo index.html cambió en el push.
+# No necesita secretos: la clave IndexNow es pública (se sirve en <clave>.txt en la raíz).
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: indexnow-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (con historial para el diff)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Detectar páginas modificadas y notificar a IndexNow
+        env:
+          HOST: donbigotes.app
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+
+          # 1) Localizar el archivo de clave IndexNow (<clave>.txt en la raíz)
+          KEYFILE=$(ls | grep -E '^[0-9a-fA-F]{16,128}\.txt$' | head -1 || true)
+          if [ -z "$KEYFILE" ]; then
+            echo "No hay archivo de clave IndexNow en la raíz; nada que hacer."
+            exit 0
+          fi
+          KEY="${KEYFILE%.txt}"
+
+          # 2) Rango de diff. En el primer push / push forzado, BEFORE puede ser todo ceros
+          #    o un commit ausente: en ese caso se toman los archivos del commit HEAD.
+          if git rev-parse --quiet --verify "${BEFORE}^{commit}" >/dev/null 2>&1; then
+            CHANGED=$(git diff --name-only "$BEFORE" "$AFTER")
+          else
+            CHANGED=$(git diff-tree --no-commit-id --name-only -r "$AFTER")
+          fi
+
+          # 3) Mapear cada index.html publicado a su URL (raíz y subdirectorios).
+          #    Se excluyen dirs que Jekyll no publica (_partials, .github…).
+          URLS=$(printf '%s\n' "$CHANGED" \
+            | grep -E '(^|/)index\.html$' \
+            | grep -vE '(^|/)[_.]' \
+            | while read -r f; do
+                dir=$(dirname "$f")
+                if [ "$dir" = "." ]; then echo "https://$HOST/"; else echo "https://$HOST/$dir/"; fi
+              done | sort -u)
+
+          if [ -z "$URLS" ]; then
+            echo "Ningún index.html de página modificado; sin ping."
+            exit 0
+          fi
+
+          echo "URLs a notificar:"
+          printf '%s\n' "$URLS"
+
+          # 4) Construir urlList JSON y enviar el ping
+          URLLIST=$(printf '%s\n' "$URLS" | while read -r u; do printf '"%s",' "$u"; done)
+          URLLIST="[${URLLIST%,}]"
+          BODY=$(printf '{"host":"%s","key":"%s","keyLocation":"https://%s/%s","urlList":%s}' \
+            "$HOST" "$KEY" "$HOST" "$KEYFILE" "$URLLIST")
+
+          CODE=$(curl -s -o /dev/null -w '%{http_code}' -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" -d "$BODY")
+          echo "IndexNow respondió HTTP $CODE"
+          case "$CODE" in
+            200|202) echo "OK" ;;
+            *) echo "Aviso: IndexNow devolvió $CODE"; exit 1 ;;
+          esac
