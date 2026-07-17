@@ -42,3 +42,26 @@ Metodología: prompts en chats nuevos, 2-6 pases por prompt. Limitaciones: ChatG
 
 ### Rutina mensual actualizada
 Prompts fijos: los 4 originales + P5 "plantilla carta ratoncito perez gratis". Motores: ChatGPT, Perplexity, Gemini. Recomendación metodológica: pases en incógnito/sin login cuando sea posible. Próximo pase: ~12 agosto.
+
+---
+
+## 17-jul-2026 — Reel 1 Instagram publicado + estado Play
+
+**Reel 1 IG publicado**: "Bienvenidos a la Oficina" (saludo_canal.mp4
+reescalado a 1080x1920, audio corregido a 48 kHz).
+- Reel: https://www.instagram.com/reel/Da5IdvLorik/
+- Perfil: https://www.instagram.com/donbigotesapp
+- Caption con q09 literal ("app del ratoncito pérez") en primera línea,
+  etiqueta IA activada, 5 hashtags (#ratoncitoperez #ratonperez
+  #donbigotes #dientedeleche #primerdiente), CTA a bio (el enlace a
+  Play se añadirá al caption el Día D editándolo, sin republicar).
+- Siguientes: Reel 2 (q11) 18-jul, Reel 3 (q12) 19-jul.
+
+**Nit de producción**: saludo_canal.mp4 se renderizó con audio a 96 kHz
+(fuera de spec; IG/YT esperan 44,1/48). Detectado 17-jul al preparar el
+Reel, corregido con reencode aac 48 kHz. En futuros renders, forzar
+-ar 48000 en el paso final de montaje.
+
+**Estado Play (día 7 de revisión)**: sin email de Google, ficha 404 en
+incógnito, "Promocionar versión > Producción" deshabilitado. 18-jul:
+si sigue igual, ticket a soporte Play Console (día 8).
