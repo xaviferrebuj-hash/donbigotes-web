@@ -49,9 +49,11 @@ jobs:
 
           # 3) Mapear cada index.html publicado a su URL (raíz y subdirectorios).
           #    Se excluyen dirs que Jekyll no publica (_partials, .github…).
+          #    grep sin coincidencias sale con 1: con pipefail hay que tolerarlo
+          #    para que un push sin páginas no marque el workflow en rojo.
           URLS=$(printf '%s\n' "$CHANGED" \
-            | grep -E '(^|/)index\.html$' \
-            | grep -vE '(^|/)[_.]' \
+            | { grep -E '(^|/)index\.html$' || true; } \
+            | { grep -vE '(^|/)[_.]' || true; } \
             | while read -r f; do
                 dir=$(dirname "$f")
                 if [ "$dir" = "." ]; then echo "https://$HOST/"; else echo "https://$HOST/$dir/"; fi
