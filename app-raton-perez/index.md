@@ -20,7 +20,7 @@ Crea la foto imposible: el Ratoncito Pérez sorprendido en plena visita, junto a
 
 ### El vídeo desde la Oficina del Ratoncito
 
-Un vídeo personalizado en el que el Ratoncito prepara la visita a tu casa. Disponible muy pronto.
+Un vídeo personalizado en el que el Ratoncito prepara la visita a tu casa desde su Oficina. Para ver en familia antes de dormir.
 
 ### El Diploma de Valentía
 
