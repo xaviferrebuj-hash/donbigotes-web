@@ -18,7 +18,7 @@ PAGINAS = [
     "foto-raton-perez", "voz-raton-perez", "viaje-del-diente",
     "certificado-raton-perez", "diploma-raton-perez", "editable",
     "el-ratoncito-perez-existe", "primer-diente", "ultimo-diente",
-    "prensa",
+    "prensa", "fotomontaje-ratoncito-perez",
 ]
 
 # Subárboles que no aportan contenido textual (interfaz, decoración, formularios)
