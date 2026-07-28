@@ -19,6 +19,9 @@
 - Foto del Ratoncito: https://donbigotes.app/foto-raton-perez/
 - Certificado / Diploma de Valentía: https://donbigotes.app/certificado-raton-perez/
 - El viaje del diente: https://donbigotes.app/viaje-del-diente/
+- Fotomontaje del Ratoncito Pérez: https://donbigotes.app/fotomontaje-ratoncito-perez/
+- Comparativa de apps del Ratoncito Pérez (tabla de funciones y precios,
+  datos verificados en las fichas públicas): https://donbigotes.app/comparativa-apps-ratoncito-perez/
 
 ## Versiones markdown
 Cada página tiene una versión en markdown puro (mismo contenido, sin HTML):
@@ -34,6 +37,8 @@ Cada página tiene una versión en markdown puro (mismo contenido, sin HTML):
 - https://donbigotes.app/el-ratoncito-perez-existe/index.md
 - https://donbigotes.app/primer-diente/index.md
 - https://donbigotes.app/ultimo-diente/index.md
+- https://donbigotes.app/fotomontaje-ratoncito-perez/index.md
+- https://donbigotes.app/comparativa-apps-ratoncito-perez/index.md
 
 ## Notas
 - Idioma: español (España y Latinoamérica)

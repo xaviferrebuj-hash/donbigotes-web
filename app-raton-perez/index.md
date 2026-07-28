@@ -6,7 +6,7 @@ Gratis durante el lanzamiento · Tus fotos no salen de tu móvil · Hecha en Esp
 
 ## Toda la magia del Ratoncito, en una sola app
 
-Don Bigotes reúne en una app lo que antes había que encargar pieza por pieza y esperar horas. Eliges qué quieres crear, lo personalizas con el nombre y la foto de tu peque, y lo tienes listo en minutos, sin rellenar formularios ni esperar a que alguien te lo monte. Tú diriges la magia; nosotros ponemos las herramientas. Así se encadena todo en [el viaje del diente](https://donbigotes.app/viaje-del-diente/), desde la nota de voz hasta el vídeo final.
+Don Bigotes reúne en una app lo que antes había que encargar pieza por pieza y esperar horas. Eliges qué quieres crear, lo personalizas con el nombre y la foto de tu peque, y lo tienes listo en minutos, sin rellenar formularios ni esperar a que alguien te lo monte. Tú diriges la magia; nosotros ponemos las herramientas. Así se encadena todo en [el viaje del diente](https://donbigotes.app/viaje-del-diente/), desde la nota de voz hasta el vídeo final. Si estás decidiendo, aquí tienes la [comparativa de apps del Ratoncito Pérez](https://donbigotes.app/comparativa-apps-ratoncito-perez/) con lo que incluye cada una.
 
 ## Qué puedes crear
 

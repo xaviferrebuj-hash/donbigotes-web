@@ -19,6 +19,7 @@ PAGINAS = [
     "certificado-raton-perez", "diploma-raton-perez", "editable",
     "el-ratoncito-perez-existe", "primer-diente", "ultimo-diente",
     "prensa", "fotomontaje-ratoncito-perez",
+    "comparativa-apps-ratoncito-perez",
 ]
 
 # Subárboles que no aportan contenido textual (interfaz, decoración, formularios)
@@ -30,7 +31,7 @@ TAGS_EXCLUIDOS = {"script", "style", "svg", "form", "noscript", "input",
                   "button", "select", "textarea", "iframe"}
 # Bloques cuyo texto se captura (tag, atributo class opcional)
 TAGS_BLOQUE = {"h1": "# ", "h2": "## ", "h3": "### ", "p": "", "li": "- ",
-               "summary": "**", "figcaption": ""}
+               "summary": "**", "figcaption": "", "caption": ""}
 # Etiquetas sin cierre: no deben tocar el contador de profundidad excluida
 TAGS_VOID = {"img", "br", "meta", "link", "input", "hr", "source", "wbr",
              "area", "col", "embed", "track"}
@@ -45,6 +46,8 @@ class Extractor(HTMLParser):
         self.buffer = []
         self.href = None       # enlace inline abierto dentro de un bloque
         self.en_details = False
+        self.filas = None      # tabla en curso: lista de filas, cada una lista de celdas
+        self.fila = None
 
     @staticmethod
     def _clase(attrs):
@@ -79,6 +82,19 @@ class Extractor(HTMLParser):
             self.href = dict(attrs).get("href")
             self.buffer.append("[")
             return
+        if tag == "small" and self.tag_abierto is not None:
+            self.buffer.append(" — ")
+            return
+        if tag == "table":
+            self.filas = []
+            return
+        if tag == "tr" and self.filas is not None:
+            self.fila = []
+            return
+        if tag in ("th", "td") and self.fila is not None:
+            self.tag_abierto = tag
+            self.buffer = []
+            return
         if self.tag_abierto is None:
             if tag in TAGS_BLOQUE:
                 self.tag_abierto = tag
@@ -102,6 +118,26 @@ class Extractor(HTMLParser):
                 url = DOMINIO + url
             self.buffer.append(f"]({url})")
             self.href = None
+            return
+        if tag in ("th", "td") and self.fila is not None and self.tag_abierto == tag:
+            texto = re.sub(r"\s+", " ", "".join(self.buffer)).strip()
+            self.fila.append(texto.replace("|", "\\|"))
+            self.tag_abierto = None
+            self.buffer = []
+            return
+        if tag == "tr" and self.fila is not None:
+            if self.fila:
+                self.filas.append(self.fila)
+            self.fila = None
+            return
+        if tag == "table" and self.filas is not None:
+            if self.filas:
+                ancho = max(len(f) for f in self.filas)
+                lineas = ["| " + " | ".join(f + [""] * (ancho - len(f))) + " |"
+                          for f in self.filas]
+                lineas.insert(1, "| " + " | ".join(["---"] * ancho) + " |")
+                self.bloques.append("\n".join(lineas))
+            self.filas = None
             return
         if self.tag_abierto and tag == self.tag_abierto.split(".")[0]:
             texto = re.sub(r"\s+", " ", "".join(self.buffer)).strip()

@@ -28,7 +28,7 @@ La guardas en la galería para enseñársela por la mañana, o la imprimes como 
 
 Es el mismo fotomontaje se le llame como se le llame en tu casa: Ratoncito Pérez en España, Ratón Pérez en buena parte de Latinoamérica y Ratón de los Dientes en otros países. La costumbre es idéntica: el diente bajo la almohada y la visita de madrugada.
 
-La app está en español y disponible en 18 países, así que la foto del ratón pillado funciona igual en Madrid, en Ciudad de México o en Bogotá.
+La app está en español y disponible en 18 países, así que la foto del ratón pillado funciona igual en Madrid, en Ciudad de México o en Bogotá. Si quieres ver qué ofrece cada aplicación, hemos publicado una [comparativa de apps del Ratoncito Pérez](https://donbigotes.app/comparativa-apps-ratoncito-perez/).
 
 ## La foto de tu peque se queda en tu móvil
 
