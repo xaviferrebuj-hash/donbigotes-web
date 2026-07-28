@@ -23,7 +23,7 @@ PAGINAS = [
 
 # Subárboles que no aportan contenido textual (interfaz, decoración, formularios)
 CLASES_EXCLUIDAS = (
-    "gen-overlay", "badges", "honey", "form-ok", "capture", "letter-stage",
+    "gen-overlay", "badges", "honey", "form-ok", "form-legal", "capture", "letter-stage",
     "moon", "spark", "glow", "foot-links", "foot-brand", "nav",
 )
 TAGS_EXCLUIDOS = {"script", "style", "svg", "form", "noscript", "input",
