@@ -164,6 +164,13 @@
   .chip{display:inline-block;background:rgba(255,255,255,.04);border:1px solid var(--borde);border-radius:999px;padding:11px 20px;text-decoration:none;color:var(--texto);font-weight:700;font-size:.95rem;transition:border-color .15s,color .15s}
   .chip:hover{border-color:var(--oro);color:#fff}
 
+  /* badges de tienda (patrón unificado: Google Play + aviso iOS) */
+  .badges{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:30px}
+  .badge{display:inline-flex;align-items:center;gap:11px;background:#111;color:#fff;border-radius:13px;padding:11px 20px;text-decoration:none;min-width:200px}
+  .badge .b-top{font-size:.66rem;letter-spacing:.04em;opacity:.82;text-transform:uppercase}
+  .badge .b-main{font-family:'Fraunces',serif;font-weight:600;font-size:1.18rem;line-height:1.05}
+  .badge .b-txt{text-align:left}
+
   /* faq */
   .faq{max-width:720px;margin:0 auto}
   details{border-bottom:1px solid var(--borde);padding:18px 0}
@@ -265,12 +272,9 @@
       <h2 style="color:var(--noche);font-size:1.55rem;margin:0 auto .4em;max-width:18ch">Haz el fotomontaje en la app Don Bigotes</h2>
       <p style="max-width:560px;margin:0 auto 1.4em;color:#5a5238">Voz, foto del &laquo;&iexcl;Pillado!&raquo; y Diploma de Valent&iacute;a personalizados. Gratis durante el lanzamiento.</p>
       <a class="cta" href="https://play.google.com/store/apps/details?id=es.donbigotes.app" data-enlace="playstore" target="_blank" rel="noopener" style="text-decoration:none">&#10024; Abrir la app ahora</a>
-      <div style="margin-top:20px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap">
-        <a data-enlace="playstore" aria-label="Disponible en Google Play" style="display:inline-flex;align-items:center;gap:11px;background:#111;color:#fff;border-radius:13px;padding:11px 20px;text-decoration:none;min-width:210px;justify-content:center">
-          <span style="width:24px;height:24px;flex:none;display:inline-flex"><svg viewBox="0 0 512 512" aria-hidden="true"><path fill="#00D3FF" d="M47 21 296 256 47 491c-9-5-15-15-15-27V48c0-12 6-22 15-27z"/><path fill="#00F076" d="M47 21c7-4 16-4 24 1l228 132-59 59L47 21z"/><path fill="#FF3A44" d="M299 154l79 46c20 12 20 40 0 52l-79 46-59-59 59-59z"/><path fill="#FFC500" d="M240 256l59 59L71 447c-8 5-17 5-24 1l193-192z"/></svg></span>
-          <span style="text-align:left"><span style="display:block;font-size:.64rem;letter-spacing:.04em;opacity:.82;text-transform:uppercase">Disponible en</span><span style="display:block;font-family:'Fraunces',serif;font-weight:600;font-size:1.16rem;line-height:1.05">Google Play</span></span>
-        </a>
-        <a data-enlace="appstore" aria-label="Don Bigotes en App Store" style="display:none"></a>
+      <div class="badges">
+        <a href="https://play.google.com/store/apps/details?id=es.donbigotes.app" target="_blank" rel="noopener"><img src="/assets/img/google-play-badge-es.png" alt="Disponible en Google Play" style="width:186px;height:72px"></a>
+        <a class="badge" href="/#cap2" style="width:186px;height:72px;box-sizing:border-box;min-width:0;flex:none;justify-content:center" aria-label="Muy pronto en App Store: déjanos tu contacto y te avisamos"><span class="b-txt" style="display:flex;flex-direction:column"><span class="b-top">Muy pronto en</span><span class="b-main">App Store</span></span></a>
       </div>
     </div>
   </section>
