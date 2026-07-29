@@ -50,6 +50,11 @@
   var CLAVES_UTM = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"];
   var GUARDADO = "db_utm";
 
+  // Fallback cuando la visita llega SIN ningún utm_* (Google orgánico, directo):
+  // así el clic entra en Play con atribución al propio badge de la web.
+  // Sin utm_campaign a propósito (queda vacío).
+  var UTM_FALLBACK = "utm_source=donbigotes-web&utm_medium=badge";
+
   // Devuelve "utm_source=x&utm_medium=y&..." o "" si no hay nada.
   // Si la visita trae utm_*, los guarda para el resto de la sesión
   // (el usuario puede navegar a otra página antes de pulsar el botón).
@@ -102,7 +107,7 @@
   }
 
   function aplicar() {
-    var utm = utmDeLaVisita();
+    var utm = utmDeLaVisita() || UTM_FALLBACK;
     var i, el, url;
 
     // 1) Enlaces gestionados por atributo (botón dorado, badges con data-enlace).
