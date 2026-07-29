@@ -1,6 +1,6 @@
 # El mensaje de voz del Ratón Pérez para tu hijo
 
-El Ratoncito le habla por su nombre, le felicita por su diente y le recuerda lavárselos. Una nota de voz tierna y personalizada que parece de verdad, lista en minutos desde tu móvil.
+Con Don Bigotes creas en segundos una nota de voz del Ratoncito Pérez que pronuncia el nombre de tu hijo: voz grabada con más de 200 nombres, se reproduce sin conexión y el nombre nunca sale de tu móvil. Única app del ratón de los dientes con nota de voz personalizada.
 
 Gratis durante el lanzamiento · Al instante · Hecho en España
 

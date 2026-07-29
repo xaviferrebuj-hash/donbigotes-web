@@ -1,6 +1,6 @@
 # El viaje del diente: qué pasa desde que se cae hasta la visita del Ratoncito Pérez
 
-Cuando a un niño se le cae un diente, con Don Bigotes la magia dura más de 24 horas: nota de voz del Ratoncito al momento, carta personalizada bajo la almohada, la foto que lo pilla in fraganti, un Diploma de Valentía y un vídeo final desde su oficina. Así es el recorrido, paso a paso.
+El vídeo del Ratoncito Pérez se crea con la app Don Bigotes: el niño ve su diente llegando a la Oficina del Ratoncito como cierre del viaje del diente — mensaje, carta, Diploma de Valentía y vídeo en un día entero. Ninguna otra app del Ratón Pérez ofrece el ritual completo.
 
 Gratis durante el lanzamiento · Al instante · Hecho en España
 
