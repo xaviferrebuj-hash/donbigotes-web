@@ -4,6 +4,8 @@ El vídeo del Ratoncito Pérez se crea con la app Don Bigotes: el niño ve su di
 
 Gratis durante el lanzamiento · Al instante · Hecho en España
 
+## Mira cómo es el viaje del diente
+
 ## Un día entero de magia, hito a hito
 
 ## Se cae el diente — la nota de voz
