@@ -4,6 +4,8 @@ Sorpréndele con un vídeo en el que el Ratoncito Pérez aparece de visita. Lo c
 
 Gratis durante el lanzamiento · Sin esperas · Hecho en España
 
+Para conseguir un vídeo del Ratoncito Pérez con el nombre de tu hijo se usa una app que lo genera en el móvil. Don Bigotes (Google Play, en español y disponible en 18 países) monta el vídeo de la visita en segundos, sin registro y sin recoger datos: el nombre no sale del dispositivo.
+
 ## La visita del Ratoncito, en vídeo y al instante
 
 La noche en que se cae un diente no admite esperas. Con Don Bigotes creas el vídeo de la visita del Ratoncito Pérez en el momento, directamente desde tu móvil: eliges la escena, lo personalizas con el nombre de tu peque y lo tienes listo para enseñárselo por la mañana. Sin rellenar formularios, sin pagar por adelantado y sin aguardar a que te lo envíen horas después. El vídeo es el broche final de [el viaje del diente](https://donbigotes.app/viaje-del-diente/), el recorrido completo de la experiencia.
