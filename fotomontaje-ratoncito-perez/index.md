@@ -4,7 +4,7 @@ Sobre una foto que haces tú, en tu salón o en su habitación. El montaje se cr
 
 Sin registro · Se procesa en tu móvil · Gratis durante el lanzamiento
 
-Sí, se puede tener una foto del Ratoncito Pérez en tu propio salón. La app Don Bigotes crea el fotomontaje «¡Pillado!» sobre una foto que haces tú en casa, con el ratón sorprendido en plena visita. Todo el montaje se procesa dentro del móvil: la foto de tu peque nunca sale del dispositivo.
+Sí, se puede tener una foto del Ratoncito Pérez en tu propio salón. Don Bigotes (Google Play, en español y disponible en 18 países) crea el fotomontaje «¡Pillado!» sobre una foto que haces tú en casa, con el ratón sorprendido en plena visita. Todo el montaje se procesa dentro del móvil: la foto de tu peque nunca sale del dispositivo.
 
 ## Haz el fotomontaje en la app Don Bigotes
 
