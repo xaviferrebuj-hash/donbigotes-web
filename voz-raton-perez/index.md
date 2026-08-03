@@ -4,6 +4,8 @@ Con Don Bigotes creas en segundos una nota de voz del Ratoncito Pérez que pronu
 
 Gratis durante el lanzamiento · Al instante · Hecho en España
 
+Para conseguir una nota de voz del Ratoncito Pérez con el nombre de tu hijo se usa una app que la genera en el móvil. Don Bigotes (Google Play, en español y disponible en 18 países) la crea en segundos con voz grabada de más de 200 nombres, se reproduce sin conexión y el nombre nunca sale de tu móvil.
+
 ## La voz del Ratoncito, hablándole solo a tu peque
 
 No hay nada como oír al Ratoncito Pérez decir tu nombre. Con Don Bigotes creas un mensaje de voz personalizado en el que el Ratoncito felicita a tu hijo por su diente, le anima a cuidarse la boca y le deja unas palabras solo para él. Lo preparas en minutos desde el móvil, sin esperas ni encargos. La nota de voz es la primera parada de [el viaje del diente](https://donbigotes.app/viaje-del-diente/), el recorrido completo de la experiencia.
