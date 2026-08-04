@@ -56,7 +56,7 @@ Una plantilla es genérica y la rellenas a mano. Aquí la carta sale ya personal
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez».
 
-[App del Ratoncito Pérez](https://donbigotes.app/app-raton-perez/) · [Vídeo del Ratoncito Pérez](https://donbigotes.app/video-raton-perez/) · [Foto del Ratoncito Pérez](https://donbigotes.app/foto-raton-perez/) · [Voz del Ratoncito Pérez](https://donbigotes.app/voz-raton-perez/) · [El viaje del diente](https://donbigotes.app/viaje-del-diente/)
+[App del Ratoncito Pérez](https://donbigotes.app/app-raton-perez/) · [Vídeo del Ratoncito Pérez](https://donbigotes.app/video-raton-perez/) · [Foto del Ratoncito Pérez](https://donbigotes.app/foto-raton-perez/) · [Voz del Ratoncito Pérez](https://donbigotes.app/voz-raton-perez/) · [El viaje del diente](https://donbigotes.app/viaje-del-diente/) · [Historia del Ratón Pérez](https://donbigotes.app/historia-raton-perez/)
 
 © 2026 Don Bigotes · [donbigotes.app](https://donbigotes.app/)
 

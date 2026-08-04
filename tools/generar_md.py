@@ -19,7 +19,7 @@ PAGINAS = [
     "certificado-raton-perez", "diploma-raton-perez", "editable",
     "el-ratoncito-perez-existe", "primer-diente", "ultimo-diente",
     "prensa", "fotomontaje-ratoncito-perez",
-    "comparativa-apps-ratoncito-perez",
+    "comparativa-apps-ratoncito-perez", "historia-raton-perez",
 ]
 
 # Subárboles que no aportan contenido textual (interfaz, decoración, formularios)
