@@ -147,6 +147,14 @@
   .chip{display:inline-block;background:rgba(255,255,255,.04);border:1px solid var(--borde);border-radius:999px;padding:11px 20px;text-decoration:none;color:var(--texto);font-weight:700;font-size:.95rem;transition:border-color .15s,color .15s}
   .chip:hover{border-color:var(--oro);color:#fff}
 
+  /* ilustración de cabecera */
+  .hero-ilustracion{margin:6px 0 0;line-height:0}
+  .hero-ilustracion img{
+    width:100%;height:auto;display:block;border-radius:20px;
+    border:1px solid var(--borde);
+    box-shadow:0 24px 60px -28px rgba(0,0,0,.75);
+  }
+
   /* badges de tienda (patrón unificado: Google Play + aviso iOS) */
   .badges{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:30px}
   .badge{display:inline-flex;align-items:center;gap:11px;background:#111;color:#fff;border-radius:13px;padding:11px 20px;text-decoration:none;min-width:200px}
@@ -263,6 +271,13 @@
       <div class="sello-pie">Desde 1894</div>
     </div>
   </section>
+
+  <!-- ILUSTRACIÓN DE CABECERA -->
+  <figure class="hero-ilustracion anim d3">
+    <img src="/assets/img/historia-raton-perez-hero.webp" width="1344" height="768"
+         alt="Ilustración de cuento: un ratón con levita y bigotes escribe una carta con pluma a la luz de una vela, en un despacho lleno de sobres y frascos con dientes de leche."
+         loading="eager" decoding="async">
+  </figure>
 
   <!-- CÁPSULA DE RESPUESTA -->
   <section style="padding-top:10px">
