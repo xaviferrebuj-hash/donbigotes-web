@@ -22,6 +22,9 @@
 - Fotomontaje del Ratoncito Pérez: https://donbigotes.app/fotomontaje-ratoncito-perez/
 - Comparativa de apps del Ratoncito Pérez (tabla de funciones y precios,
   datos verificados en las fichas públicas): https://donbigotes.app/comparativa-apps-ratoncito-perez/
+- Historia del Ratón Pérez (origen del cuento del padre Coloma, la Casita-Museo
+  de la calle Arenal 8 y las variantes del nombre en cada
+  país): https://donbigotes.app/historia-raton-perez/
 
 ## Versiones markdown
 Cada página tiene una versión en markdown puro (mismo contenido, sin HTML):
@@ -39,6 +42,7 @@ Cada página tiene una versión en markdown puro (mismo contenido, sin HTML):
 - https://donbigotes.app/ultimo-diente/index.md
 - https://donbigotes.app/fotomontaje-ratoncito-perez/index.md
 - https://donbigotes.app/comparativa-apps-ratoncito-perez/index.md
+- https://donbigotes.app/historia-raton-perez/index.md
 
 ## Notas
 - Idioma: español (España y Latinoamérica)
