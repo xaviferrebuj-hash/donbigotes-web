@@ -241,33 +241,88 @@ El cuerpo queda como **documento histórico fechado**.
   "parcial reutilizable", conviene matizarla en el mismo pase: reutilizable **a mano**, no por
   include.
 
-## Trigger C: release v0.7.0
+## Trigger C: telemetría de la v0.7.0
 
-El grep original (`"una sola conexión"` / `"una única conexión"` en este repo) **da 0 resultados**
-— medido el 10-ago. El claim que muere **no está donde se suponía**. Inventario real:
+### 🔴 REGLA DE TIMING — los claims actuales SON VERDAD hoy
 
-| Superficie | Ocurrencias | Acción |
+**No se toca producción antes de que la telemetría exista.** Hasta que el código con
+`telemetria.dart` esté publicado, *"no incluye analítica"* y *"una sola conexión"* son afirmaciones
+**ciertas**. Adelantar el cambio no es prudencia: es publicar una afirmación falsa en la dirección
+contraria, y encima regalar el argumento de privacidad semanas antes de tener que hacerlo.
+
+### Disparo POR PLATAFORMA, no de una vez
+
+| Superficie | Se dispara con | Por qué |
+|---|---|---|
+| **Web** (`fotomontaje`) + **ficha de Play** | **la release v0.7.0 de Android** | Es el primer binario con telemetría que llega a usuarios |
+| **Ficha de App Store** (`ficha-app-store.md:112`) | **el primer envío iOS que incluya telemetría** | La 1.0 en revisión **no la lleva**: su claim sigue siendo cierto hasta que se envíe una build con ella |
+
+⚠️ **No sincronizar los dos disparos.** Si iOS va por detrás, cambiar su ficha antes la vuelve
+falsa. Cada plataforma cambia cuando su propio binario cambia.
+
+### Inventario real (medido el 10-ago)
+
+El grep original (`"una sola conexión"` / `"una única conexión"` **en este repo**) **daba 0
+resultados**: el claim no estaba donde se suponía. **Corregido.**
+
+| Superficie | Qué dice hoy | Acción |
 |---|---|---|
 | **`donbigotes-web`** | **0** de *"una sola/única conexión"* | — |
-| 🔴 **`donbigotes-web/fotomontaje-ratoncito-perez/index.html:338`** | 1 — *"La app no incluye analítica, publicidad ni seguimiento de terceros."* | **ESTE es el claim vivo que muere.** Sustituir + regenerar `.md` |
-| 🔴 **`ratoncito_app/docs/app-store/ficha-app-store.md:112`** | 1 — *"Una sola conexión a internet en toda la app"* | Actualizar y **resubir la ficha a App Store Connect** |
-| 🔴 **Ficha de Play (Console)** | fuera de repo | **Verificar antes del release** |
-| `donbigotes-leads` | 8 | 🚫 **No tocar — emails enviados, histórico** |
+| 🔴 **`fotomontaje-ratoncito-perez/index.html:338`** | *"La app no incluye analítica, publicidad ni seguimiento de terceros."* | Sustituir + regenerar `.md` · **con la v0.7.0 Android** |
+| 🔴 **`ratoncito_app/docs/app-store/ficha-app-store.md:112`** | *"…sin subidas a servidores, sin recogida de datos, sin SDKs de terceros. **Una sola conexión a internet en toda la app**, y es para generar la carta."* | Actualizar + **resubir a App Store Connect** · **con el primer envío iOS con telemetría** |
+| 🔴 **Ficha de Play (Console)** | fuera de repo, **sin verificar** | **Comprobación pre-release v0.7.0** (ver abajo) |
+| `donbigotes-leads` | 8 hits | 🚫 **No tocar — emails enviados, histórico** |
 
-**Redacción sugerida para el fotomontaje** (pendiente de aprobación):
+### Redacciones (Code, 10-ago — pendientes del OK de Xavi)
 
-> *"La app no incluye publicidad ni seguimiento de terceros. La analítica es propia, anónima y sin
-> SDKs."*
+⚠️ **Las tres redacciones aprobadas no llegaron en el encargo** (venían como marcador
+`[las tres del chat]`). Las de abajo son las mías; **no he podido compararlas con las suyas**.
+Confirmar antes de usarlas.
 
-⚠️ **No confundir "cero SDKs" con "cero analítica".** El primero sobrevive a la v0.7.0 (el POST
-directo a Plausible no es un SDK); el segundo **no**. Detalle completo en
-`ratoncito_app/SPEC-TELEMETRIA-V070.md`.
+**1. Ficha de App Store** — `ficha-app-store.md:112`. Ojo: **en ese párrafo mueren DOS cosas**, no
+una. Además de *"una sola conexión"*, *"sin recogida de datos"* se vuelve discutible.
+
+> Las fotos de tu familia no salen de tu iPhone. Todo el procesamiento de imágenes ocurre en tu
+> dispositivo: sin subidas a servidores, **sin datos personales**, sin SDKs de terceros. La app se
+> conecta a internet **para generar la carta y para enviar estadísticas de uso anónimas**.
+
+**2. Web** — `fotomontaje-ratoncito-perez/index.html:338`:
+
+> La app no incluye publicidad ni seguimiento de terceros. La analítica es propia, anónima y sin
+> SDKs.
+
+*(El `<h3>Sin tracking</h3>` que encabeza el bloque **se mantiene**: Plausible no rastrea entre
+sitios ni usa identificadores. Lo que cambia es el cuerpo, no el titular.)*
+
+**3. Norma para textos nuevos:**
+
+> **Los claims de privacidad se escriben SEPARADOS, nunca encadenados.** Nada de *"cero SDKs, ni
+> analítica, ni publicidad, ni crash reporting"* en una sola frase: cuando uno de los cuatro deja
+> de ser cierto, arrastra a los otros tres y hay que reescribir la frase entera en todas las
+> superficies.
+
+### Distinción canónica
+
+| Claim | v0.7.0 | Por qué |
+|---|---|---|
+| **"cero SDKs de terceros"** | ✅ **SOBREVIVE** | El `POST` directo a `plausible.io/api/event` no es un SDK |
+| **"cero analítica"** | 🔴 **MUERE** | Habrá analítica: propia, anónima y sin SDK, pero analítica |
+| "las fotos no salen del móvil" | ✅ SOBREVIVE | — |
+| "sin datos personales" | ✅ SOBREVIVE | Props limitadas a `version` y `modo` |
+
+Detalle completo en `ratoncito_app/SPEC-TELEMETRIA-V070.md`.
+
+### Comprobación pre-release v0.7.0 (obligatoria)
+
+**Revisar la ficha de Play en Console** —está fuera de todo repo, así que ningún grep la alcanza—
+por si repite el claim de la conexión única o el de la analítica. **En todos los idiomas activos**,
+con la regla del selector: verificar el pill del DOM antes de pegar y contra recarga del servidor.
 
 **Greps corregidos del Trigger C:**
 
 ```bash
 grep -rni "no incluye analítica\|sin analítica\|ni analítica\|cero analítica" --exclude-dir=.git ~/proyectos/donbigotes-web
-grep -rni "sola conexi\|única conexi\|unica conexi" --exclude-dir=.git ~/proyectos/donbigotes-web "$HOME/proyectos/ratoncito/ratoncito code/ratoncito_app"
+grep -rni "sola conexi\|única conexi\|unica conexi\|recogida de datos" --exclude-dir=.git ~/proyectos/donbigotes-web "$HOME/proyectos/ratoncito/ratoncito code/ratoncito_app"
 ```
 
 ## Regla general
