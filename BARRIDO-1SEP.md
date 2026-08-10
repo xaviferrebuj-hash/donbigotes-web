@@ -241,84 +241,79 @@ El cuerpo queda como **documento histórico fechado**.
   "parcial reutilizable", conviene matizarla en el mismo pase: reutilizable **a mano**, no por
   include.
 
-## Trigger C: telemetría de la v0.7.0
+## ✅ Trigger C: telemetría — **RESUELTO Y CERRADO (11-ago-2026)**
 
-### 🔴 REGLA DE TIMING — los claims actuales SON VERDAD hoy
+**No queda nada que disparar.** Los claims falsos ya no existen en producción, en ninguna
+superficie.
 
-**No se toca producción antes de que la telemetría exista.** Hasta que el código con
-`telemetria.dart` esté publicado, *"no incluye analítica"* y *"una sola conexión"* son afirmaciones
-**ciertas**. Adelantar el cambio no es prudencia: es publicar una afirmación falsa en la dirección
-contraria, y encima regalar el argumento de privacidad semanas antes de tener que hacerlo.
-
-### Disparo POR PLATAFORMA, no de una vez
-
-| Superficie | Se dispara con | Por qué |
+| Superficie | Estado | Evidencia |
 |---|---|---|
-| **Web** (`fotomontaje`) + **ficha de Play** | **la release v0.7.0 de Android** | Es el primer binario con telemetría que llega a usuarios |
-| **Ficha de App Store** (`ficha-app-store.md:112`) | **el primer envío iOS que incluya telemetría** | La 1.0 en revisión **no la lleva**: su claim sigue siendo cierto hasta que se envíe una build con ella |
+| **Web** — `fotomontaje-ratoncito-perez` | ✅ **Corregido el 11-ago** | Commit `9ab0975`; verificado en producción (`age: 0`, `x-cache: MISS`). Eran **4** ocurrencias (JSON-LD, texto visible, bloque "Sin tracking" y FAQ), no 1 |
+| **Ficha de App Store** | ✅ **Ya era correcta desde el envío** | Consultada por **API de ASC el 11-ago**: la descripción en revisión no contiene *"sola conexión"*, *"sin recogida"* ni *"analítica"*. Sí contiene el párrafo correcto |
+| **Ficha de Play** | ✅ **Corregida el 7-ago 18:14** | `AUDITORIA_RED.md` (rev. 8-ago); verificada en la ficha pública el 10-ago — párrafo *"únicamente estadísticas de uso anónimas"* presente |
+| `ratoncito_app/docs/app-store/ficha-app-store.md` | ✅ **Sincronizado el 11-ago** | Era un **borrador local desfasado**, nunca llegó a enviarse |
 
-⚠️ **No sincronizar los dos disparos.** Si iOS va por detrás, cambiar su ficha antes la vuelve
-falsa. Cada plataforma cambia cuando su propio binario cambia.
+### 🔴 CORRECCIÓN — la regla de timing que había aquí era falsa
 
-### Inventario real (medido el 10-ago)
+Este apartado decía *"los claims actuales son verdad hasta que la telemetría exista, no tocar
+producción antes"*. **Falso: la telemetría lleva en producción desde la v0.6.0 (8-ago, autorizada
+el 7-ago).** No había nada que esperar; había una corrección pendiente y tres superficies de cuatro
+que ya estaban bien sin que este archivo lo supiera.
 
-El grep original (`"una sola conexión"` / `"una única conexión"` **en este repo**) **daba 0
-resultados**: el claim no estaba donde se suponía. **Corregido.**
+**Causa del error:** se planificó el barrido sobre la spec de telemetría en vez de sobre el código.
+`lib/analitica/plausible.dart` existía, estaba cableado en cuatro sitios y llevaba días publicado.
 
-| Superficie | Qué dice hoy | Acción |
-|---|---|---|
-| **`donbigotes-web`** | **0** de *"una sola/única conexión"* | — |
-| 🔴 **`fotomontaje-ratoncito-perez/index.html:338`** | *"La app no incluye analítica, publicidad ni seguimiento de terceros."* | Sustituir + regenerar `.md` · **con la v0.7.0 Android** |
-| 🔴 **`ratoncito_app/docs/app-store/ficha-app-store.md:112`** | *"…sin subidas a servidores, sin recogida de datos, sin SDKs de terceros. **Una sola conexión a internet en toda la app**, y es para generar la carta."* | Actualizar + **resubir a App Store Connect** · **con el primer envío iOS con telemetría** |
-| 🔴 **Ficha de Play (Console)** | fuera de repo, **sin verificar** | **Comprobación pre-release v0.7.0** (ver abajo) |
-| `donbigotes-leads` | 8 hits | 🚫 **No tocar — emails enviados, histórico** |
+### Lo único que queda vivo
 
-### Redacciones (Code, 10-ago — pendientes del OK de Xavi)
+**La migración de domain de la v0.7.0 (`donbigotes.app` → `app.donbigotes.app`) NO cambia ningún
+claim público.** La analítica ya existe y ya está declarada en las dos tiendas; separar los sites es
+un cambio de métricas, no de mensaje. **Trigger C cerrado.**
 
-⚠️ **Las tres redacciones aprobadas no llegaron en el encargo** (venían como marcador
-`[las tres del chat]`). Las de abajo son las mías; **no he podido compararlas con las suyas**.
-Confirmar antes de usarlas.
+⚠️ Lo que sí sigue vigente es la **distinción canónica** de abajo: aplica a cualquier texto nuevo,
+aunque el barrido esté cerrado.
 
-**1. Ficha de App Store** — `ficha-app-store.md:112`. Ojo: **en ese párrafo mueren DOS cosas**, no
-una. Además de *"una sola conexión"*, *"sin recogida de datos"* se vuelve discutible.
+### Textos finales, ya aplicados
 
-> Las fotos de tu familia no salen de tu iPhone. Todo el procesamiento de imágenes ocurre en tu
-> dispositivo: sin subidas a servidores, **sin datos personales**, sin SDKs de terceros. La app se
-> conecta a internet **para generar la carta y para enviar estadísticas de uso anónimas**.
+**1. Web** — `fotomontaje-ratoncito-perez`, aplicado en las **4** ocurrencias:
 
-**2. Web** — `fotomontaje-ratoncito-perez/index.html:338`:
+> La app no incluye publicidad ni seguimiento de terceros. Solo estadísticas de uso anónimas, sin
+> SDKs ni identificadores.
 
-> La app no incluye publicidad ni seguimiento de terceros. La analítica es propia, anónima y sin
-> SDKs.
+*(Se quitó "propia", que era atacable: Plausible es un proveedor externo, aunque se use sin SDK. El
+`<h3>Sin tracking</h3>` se mantiene — Plausible no rastrea entre sitios ni usa identificadores.)*
 
-*(El `<h3>Sin tracking</h3>` que encabeza el bloque **se mantiene**: Plausible no rastrea entre
-sitios ni usa identificadores. Lo que cambia es el cuerpo, no el titular.)*
+**2. Ficha de App Store** — no hubo que redactar nada: el texto en revisión **ya era correcto**.
+`docs/app-store/ficha-app-store.md` se sincronizó con lo realmente enviado:
 
-**3. Norma para textos nuevos:**
+> El nombre de tu hijo, sus fotos y sus recuerdos se quedan solo en tu iPhone. No recopilamos datos
+> personales: únicamente estadísticas de uso anónimas, sin identificadores y sin publicidad.
+
+**3. Norma para textos nuevos** — vigente:
 
 > **Los claims de privacidad se escriben SEPARADOS, nunca encadenados.** Nada de *"cero SDKs, ni
 > analítica, ni publicidad, ni crash reporting"* en una sola frase: cuando uno de los cuatro deja
 > de ser cierto, arrastra a los otros tres y hay que reescribir la frase entera en todas las
 > superficies.
 
-### Distinción canónica
+### Distinción canónica (vigente, aunque el trigger esté cerrado)
 
-| Claim | v0.7.0 | Por qué |
+| Claim | ¿Cierto hoy? | Por qué |
 |---|---|---|
-| **"cero SDKs de terceros"** | ✅ **SOBREVIVE** | El `POST` directo a `plausible.io/api/event` no es un SDK |
-| **"cero analítica"** | 🔴 **MUERE** | Habrá analítica: propia, anónima y sin SDK, pero analítica |
-| "las fotos no salen del móvil" | ✅ SOBREVIVE | — |
-| "sin datos personales" | ✅ SOBREVIVE | Props limitadas a `version` y `modo` |
+| **"cero SDKs de terceros"** | ✅ **SÍ** | El `POST` directo a `plausible.io/api/event` no es un SDK |
+| **"cero analítica"** | 🔴 **NO** | Muerto desde la **v0.6.0**, no desde la v0.7.0 |
+| **"una sola conexión a internet"** | 🔴 **NO** | Son **dos**: el `config.json` y Plausible |
+| "las fotos no salen del móvil" | ✅ SÍ | — |
+| "sin datos personales" | ✅ SÍ | El cuerpo del evento son 3 campos fijos, **sin props** |
 
-Detalle completo en `ratoncito_app/SPEC-TELEMETRIA-V070.md`.
+Detalle completo en `ratoncito_app/SPEC-TELEMETRIA.md`.
 
-### Comprobación pre-release v0.7.0 (obligatoria)
+### Ficha de Play — ✅ ya verificada, no queda comprobación pendiente
 
-**Revisar la ficha de Play en Console** —está fuera de todo repo, así que ningún grep la alcanza—
-por si repite el claim de la conexión única o el de la analítica. **En todos los idiomas activos**,
-con la regla del selector: verificar el pill del DOM antes de pegar y contra recarga del servidor.
+Estaba fichada aquí como *"comprobación pre-release obligatoria"*. **Ya se hizo:** el párrafo de
+privacidad se reescribió y se envió a revisión el **7-ago 18:14** junto al Data Safety, y se
+verificó en la ficha pública el **10-ago**. Consta en `AUDITORIA_RED.md` (rev. 8-ago).
 
-**Greps corregidos del Trigger C:**
+**Greps de verificación del Trigger C** (para re-comprobar, no para actuar):
 
 ```bash
 grep -rni "no incluye analítica\|sin analítica\|ni analítica\|cero analítica" --exclude-dir=.git ~/proyectos/donbigotes-web
