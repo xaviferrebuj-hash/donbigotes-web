@@ -195,3 +195,85 @@ grep -rn "31 de agosto" --exclude-dir=.git ~/proyectos/donbigotes-leads/
 
 **Los conteos de este archivo son del 10-ago-2026.** Si entre hoy y el disparo se publican páginas
 nuevas, el inventario queda corto: re-medir, no fiarse de esta tabla.
+
+---
+
+# DECISIONES CERRADAS (10-ago-2026)
+
+Aprobadas por Xavi. Lo de aquí abajo **ya no se discute en el disparo**: se ejecuta.
+
+## Redacciones de reemplazo aprobadas (Trigger A, disparo 1-sep)
+
+| Dónde | Texto aprobado |
+|---|---|
+| **Hero / CTA corto** | *"El Pack Mágico completo, 4,99 € en un único pago"* |
+| **FAQ "¿Es gratis?"** — texto visible **Y** su espejo en JSON-LD `FAQPage` | *"La carta personalizada es gratis siempre. El Pack Mágico completo cuesta 4,99 € en un único pago, sin suscripciones."* |
+| **Etiquetas de producto** (diploma, voz, video, fotomontaje) | *"Incluido en el Pack Mágico · 4,99 € pago único"* |
+
+- 🔴 **El barrido incluye OBLIGATORIAMENTE JSON-LD y `meta description`**, no solo texto visible.
+- **`/diploma-raton-perez/` entra en el barrido normal.** Hoy mezcla las dos formas; el 1-sep se
+  unifica.
+
+## `/prensa/` (Trigger A)
+
+**NO se reescribe.** Se añade una línea de contexto:
+
+> *"Nota de prensa del lanzamiento (julio 2026). El Pack Mágico pasó a ser de pago el
+> 1-sep-2026."*
+
+El cuerpo queda como **documento histórico fechado**.
+
+## Método Trigger B — los 27 *"Muy pronto en App Store"*
+
+- **SIN sistema de includes.** `sed` coordinado sobre el bloque CTA exacto en los **18 archivos
+  HTML** + regenerar los `.md` con `tools/generar_md.py`.
+- En el **mismo pase**, sustituir el comentario engañoso de cada copia:
+
+  | Antes | Después |
+  |---|---|
+  | `fuente unica: /_partials/cta-app.html` | `bloque replicado en cada página — editar en TODAS a la vez, ver BARRIDO-1SEP.md` |
+
+- **`_partials/cta-app.html`: se MARCA como no-fuente, NO se elimina.** *(Decisión de Code,
+  declarada — el encargo la dejaba a mi criterio.)* Motivo: borrarlo deja 17 copias inline sin
+  ninguna referencia canónica y la siguiente sesión no tendría contra qué comparar si una página
+  se desincroniza. Se le añade una cabecera que diga que **no se publica y no se propaga**, y que
+  es solo la plantilla de referencia del bloque. La regla 6 del `CLAUDE.md` del repo, que lo llama
+  "parcial reutilizable", conviene matizarla en el mismo pase: reutilizable **a mano**, no por
+  include.
+
+## Trigger C: release v0.7.0
+
+El grep original (`"una sola conexión"` / `"una única conexión"` en este repo) **da 0 resultados**
+— medido el 10-ago. El claim que muere **no está donde se suponía**. Inventario real:
+
+| Superficie | Ocurrencias | Acción |
+|---|---|---|
+| **`donbigotes-web`** | **0** de *"una sola/única conexión"* | — |
+| 🔴 **`donbigotes-web/fotomontaje-ratoncito-perez/index.html:338`** | 1 — *"La app no incluye analítica, publicidad ni seguimiento de terceros."* | **ESTE es el claim vivo que muere.** Sustituir + regenerar `.md` |
+| 🔴 **`ratoncito_app/docs/app-store/ficha-app-store.md:112`** | 1 — *"Una sola conexión a internet en toda la app"* | Actualizar y **resubir la ficha a App Store Connect** |
+| 🔴 **Ficha de Play (Console)** | fuera de repo | **Verificar antes del release** |
+| `donbigotes-leads` | 8 | 🚫 **No tocar — emails enviados, histórico** |
+
+**Redacción sugerida para el fotomontaje** (pendiente de aprobación):
+
+> *"La app no incluye publicidad ni seguimiento de terceros. La analítica es propia, anónima y sin
+> SDKs."*
+
+⚠️ **No confundir "cero SDKs" con "cero analítica".** El primero sobrevive a la v0.7.0 (el POST
+directo a Plausible no es un SDK); el segundo **no**. Detalle completo en
+`ratoncito_app/SPEC-TELEMETRIA-V070.md`.
+
+**Greps corregidos del Trigger C:**
+
+```bash
+grep -rni "no incluye analítica\|sin analítica\|ni analítica\|cero analítica" --exclude-dir=.git ~/proyectos/donbigotes-web
+grep -rni "sola conexi\|única conexi\|unica conexi" --exclude-dir=.git ~/proyectos/donbigotes-web "$HOME/proyectos/ratoncito/ratoncito code/ratoncito_app"
+```
+
+## Regla general
+
+- **Editar SOLO `.html`** y regenerar los `.md` con `tools/generar_md.py` (regla 5). **Nunca
+  editar un `.md` a mano.**
+- **Repo `donbigotes-leads`: INMUNE por diseño** — plantillas sin fechas ni precios. **Mantener la
+  costumbre** al redactar plantillas nuevas. *(Matiz: los textos ya enviados sí llevan fechas y
+  claims caducos, pero son histórico y no se tocan.)*
