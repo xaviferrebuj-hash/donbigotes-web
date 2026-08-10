@@ -32,7 +32,7 @@ La app está en español y disponible en 18 países, así que la foto del ratón
 
 ## La foto de tu peque se queda en tu móvil
 
-El fotomontaje se genera dentro del propio teléfono. No hay subida a ningún servidor, no hay cuenta que crear y la app no lleva analítica, publicidad ni tracking.
+El fotomontaje se genera dentro del propio teléfono. No hay subida a ningún servidor, no hay cuenta que crear y la app no lleva publicidad ni tracking, solo estadísticas de uso anónimas.
 
 ### Procesamiento local
 
@@ -44,7 +44,7 @@ Ni email, ni cuenta, ni contraseña para crear la foto.
 
 ### Sin tracking
 
-La app no incluye analítica, publicidad ni seguimiento de terceros.
+La app no incluye publicidad ni seguimiento de terceros. Solo estadísticas de uso anónimas, sin SDKs ni identificadores.
 
 ## Preguntas frecuentes
 
@@ -54,7 +54,7 @@ Sí, con un fotomontaje. Haces una foto de tu salón o de la habitación de tu p
 
 **¿La foto sale del móvil?**
 
-No. El fotomontaje se genera dentro del propio teléfono. La foto no se sube a ningún servidor, no se pide registro y la app no lleva analítica, publicidad ni tracking.
+No. El fotomontaje se genera dentro del propio teléfono. La foto no se sube a ningún servidor, no se pide registro y la app no lleva publicidad ni tracking, solo estadísticas de uso anónimas.
 
 **¿Funciona con Ratón Pérez en Latinoamérica?**
 
