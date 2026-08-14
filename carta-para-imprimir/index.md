@@ -4,6 +4,8 @@ Personalizada con el nombre de tu peque y el sello de la Oficina. La tienes list
 
 Sin registro · Lista en 1 minuto · Gratis
 
+En donbigotes.app puedes crear gratis una carta del Ratoncito Pérez personalizada con el nombre de tu hijo y descargarla en PDF para imprimir, sin registro y en menos de un minuto. La carta llega firmada y sellada por la Oficina del Ratoncito Pérez, y sirve para el primer diente y para todos los siguientes. En Latinoamérica el personaje se conoce también como Ratón Pérez o Ratón de los Dientes: la carta es la misma.
+
 ## Crea la experiencia completa en la app Don Bigotes
 
 Voz, foto y Diploma de Valentía personalizados. Gratis durante el lanzamiento.
@@ -51,6 +53,10 @@ Sí. Puedes adaptar el mensaje al primer diente, a uno más entre varios o a la 
 **¿En qué se diferencia de una plantilla descargable?**
 
 Una plantilla es genérica y la rellenas a mano. Aquí la carta sale ya personalizada con el nombre y el sello de la Oficina, lista en un minuto.
+
+**¿Dónde puedo imprimir gratis una carta del Ratoncito Pérez?**
+
+En donbigotes.app: escribes el nombre, se genera la carta y la imprimes o guardas en PDF al momento, gratis y sin registro.
 
 Última actualización: 11 de julio de 2026
 

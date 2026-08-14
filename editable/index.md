@@ -4,6 +4,8 @@ Cambia el nombre, el diente y los detalles que quieras. Crea una carta del Raton
 
 Sin registro · Lista en 1 minuto · Gratis
 
+La carta editable del Ratoncito Pérez de donbigotes.app es gratis: escribes el nombre de tu peque, eliges el diente y los detalles, y en dos minutos tienes la carta lista para imprimir o guardar en PDF, sin registro ni descargas. También vale si en tu casa lo llamáis Ratón Pérez o Ratón de los Dientes.
+
 ### Tú pones el diente. Él pone la magia.
 
 Mientras tu peque duerme, el Ratoncito Pérez escribe su carta con su nombre. Por la mañana, la sorpresa ya está bajo la almohada.
@@ -52,21 +54,25 @@ Para Android hoy; muy pronto también en iPhone.
 
 ## Preguntas frecuentes
 
-**Puedo editar la carta del Raton Perez?**
+**¿Puedo editar la carta del Ratón Pérez?**
 
-Si. Con Don Bigotes editas el nombre de tu peque, el diente y los detalles antes de generar la carta, para que quede totalmente a su medida.
+Sí. Con Don Bigotes editas el nombre de tu peque, el diente y los detalles antes de generar la carta, para que quede totalmente a su medida.
 
-**Que puedo personalizar en la carta?**
+**¿Qué puedo personalizar en la carta?**
 
-El nombre del nino o nina, que diente se le ha caido y el tono del mensaje. La carta se genera con el sello de la Oficina del Raton Perez.
+El nombre del niño o niña, qué diente se le ha caído y el tono del mensaje. La carta se genera con el sello de la Oficina del Ratón Pérez.
 
-**La carta editable es gratis?**
+**¿La carta editable es gratis?**
 
-Si. La carta personalizada es gratuita. La nota de voz, el fotomontaje y el diploma de valentia forman parte del Pack Magico, que es opcional.
+Sí. La carta personalizada es gratuita. La nota de voz, el fotomontaje y el diploma de valentía forman parte del Pack Mágico, que es opcional.
 
-**Como edito la carta del Ratoncito Perez?**
+**¿Cómo edito la carta del Ratoncito Pérez?**
 
 Rellenas el nombre y los datos del diente, revisas el texto y la app genera la carta al instante, lista para imprimir o guardar en PDF.
+
+**¿Hay carta del Ratón de los Dientes para imprimir?**
+
+Sí. La carta es la misma para Ratoncito Pérez, Ratón Pérez y Ratón de los Dientes: se personaliza con el nombre y se imprime gratis desde donbigotes.app.
 
 ## Que la próxima caída de diente sea inolvidable
 

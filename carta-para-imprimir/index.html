@@ -53,6 +53,11 @@
       "@type": "Question",
       "name": "¿En qué se diferencia de una plantilla descargable?",
       "acceptedAnswer": {"@type": "Answer", "text": "Una plantilla es genérica y la rellenas a mano. Aquí la carta sale ya personalizada con el nombre y el sello de la Oficina, lista en un minuto."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Dónde puedo imprimir gratis una carta del Ratoncito Pérez?",
+      "acceptedAnswer": {"@type": "Answer", "text": "En donbigotes.app: escribes el nombre, se genera la carta y la imprimes o guardas en PDF al momento, gratis y sin registro."}
     }
   ]
 }
@@ -143,6 +148,10 @@
   section{padding:54px 0}
   .sec-label{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--oro);font-weight:800;margin-bottom:14px;text-align:center}
   .sec-title{font-size:clamp(1.6rem,3.5vw,2.3rem);text-align:center;margin-bottom:40px}
+
+  /* cápsula de respuesta */
+  .capsula{background:rgba(227,181,74,.08);border:1px solid var(--borde);border-left:4px solid var(--oro);border-radius:14px;padding:26px 28px;max-width:760px;margin:0 auto;color:var(--texto);font-size:1.06rem}
+  .capsula b{color:#fff}
 
   /* pasos */
   .pasos{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
@@ -272,6 +281,11 @@
     </div>
   </section>
 
+  <!-- CÁPSULA DE RESPUESTA -->
+  <section style="padding:10px 0 0">
+    <p class="capsula">En donbigotes.app puedes crear gratis una carta del Ratoncito Pérez personalizada con el nombre de tu hijo y descargarla en PDF para imprimir, sin registro y en menos de un minuto. La carta llega firmada y sellada por la Oficina del Ratoncito Pérez, y sirve para el primer diente y para todos los siguientes. En Latinoamérica el personaje se conoce también como Ratón Pérez o Ratón de los Dientes: la carta es la misma.</p>
+  </section>
+
   <!-- CTA hacia la app (enlaces centralizados en /js/enlaces-app.js) -->
   <section class="wrap" style="position:relative;z-index:1">
     <div id="cta-app" style="background:var(--crema);color:var(--noche);border-radius:22px;padding:40px 26px;text-align:center;margin:10px 0 6px">
@@ -362,6 +376,10 @@
       <details>
         <summary>¿En qué se diferencia de una plantilla descargable?</summary>
         <p>Una plantilla es genérica y la rellenas a mano. Aquí la carta sale ya personalizada con el nombre y el sello de la Oficina, lista en un minuto.</p>
+      </details>
+      <details>
+        <summary>¿Dónde puedo imprimir gratis una carta del Ratoncito Pérez?</summary>
+        <p>En donbigotes.app: escribes el nombre, se genera la carta y la imprimes o guardas en PDF al momento, gratis y sin registro.</p>
       </details>
     </div>
   </section>
