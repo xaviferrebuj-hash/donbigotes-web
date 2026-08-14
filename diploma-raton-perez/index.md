@@ -1,5 +1,11 @@
 # El Diploma de Valentía del Ratoncito Pérez, con su nombre
 
+Descarga gratis el diploma del Ratoncito Pérez en PDF, listo para imprimir en A4. Sin registro y sin dejar el correo: descarga directa. El nombre del niño y la fecha se escriben a mano en «Otorgado a». Incluye el sello de la Oficina del Ratoncito y hay versión para Latinoamérica («Ratón de los Dientes»).
+
+- [Descargar diploma gratis (PDF, A4)](https://donbigotes.app/descargas/diploma-ratoncito-perez.pdf)
+
+- [Versión Latinoamérica: Ratón de los Dientes (PDF)](https://donbigotes.app/descargas/diploma-raton-de-los-dientes.pdf)
+
 Un diploma oficial de la Oficina del Ratoncito, personalizado con el nombre de tu peque y el diente que se le ha caído. Firmado y sellado, listo para enmarcar o guardar de recuerdo.
 
 Incluido en el Pack Mágico · Gratis hasta el 1 de septiembre
@@ -23,6 +29,14 @@ Lo guardas en el móvil, lo imprimes o lo enmarcas como recuerdo de su valentía
 El diploma es una de las cuatro sorpresas del Pack Mágico de la app Don Bigotes.
 
 ## Preguntas frecuentes
+
+**¿El diploma del Ratoncito Pérez es gratis de verdad?**
+
+Sí. Se descarga en PDF con un clic, sin registro, sin correo y sin marca de agua. Está pensado para imprimir en A4 y rellenar a mano el nombre del niño y la fecha.
+
+**¿Puedo poner el nombre del niño impreso en el diploma?**
+
+En el PDF gratuito el nombre se escribe a mano. Si quieres el diploma con el nombre del niño ya impreso, junto a la carta, la nota de voz y el resto de la experiencia, se genera en la [app Don Bigotes](https://donbigotes.app/app-raton-perez/).
 
 **¿El diploma lleva el nombre de mi hijo o hija?**
 

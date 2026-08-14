@@ -46,6 +46,8 @@ class Extractor(HTMLParser):
         self.buffer = []
         self.href = None       # enlace inline abierto dentro de un bloque
         self.en_details = False
+        self.en_descargas = False  # dentro de un contenedor .descargas
+        self.descarga_href = None
         self.filas = None      # tabla en curso: lista de filas, cada una lista de celdas
         self.fila = None
 
@@ -77,6 +79,15 @@ class Extractor(HTMLParser):
             return
         if tag == "details":
             self.en_details = True
+            return
+        if tag == "div" and "descargas" in self._clase(attrs).split():
+            self.en_descargas = True
+            return
+        # botones de descarga: cada enlace del bloque .descargas es un item
+        if tag == "a" and self.tag_abierto is None and self.en_descargas:
+            self.tag_abierto = "a.descarga"
+            self.descarga_href = dict(attrs).get("href")
+            self.buffer = []
             return
         if tag == "a" and self.tag_abierto is not None:
             self.href = dict(attrs).get("href")
@@ -111,6 +122,20 @@ class Extractor(HTMLParser):
             return
         if tag == "details":
             self.en_details = False
+            return
+        if tag == "div" and self.en_descargas:
+            self.en_descargas = False
+            return
+        if tag == "a" and self.tag_abierto == "a.descarga":
+            texto = re.sub(r"\s+", " ", "".join(self.buffer)).strip()
+            url = self.descarga_href or ""
+            if url.startswith("/"):
+                url = DOMINIO + url
+            if texto:
+                self.bloques.append(f"- [{texto}]({url})")
+            self.tag_abierto = None
+            self.descarga_href = None
+            self.buffer = []
             return
         if tag == "a" and self.href is not None:
             url = self.href

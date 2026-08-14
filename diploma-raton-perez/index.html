@@ -203,6 +203,11 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
 
 /* Diploma en el hero */
 .diploma-img{position:relative;width:clamp(260px,30vw,380px);height:auto;border-radius:12px;transform:rotate(-2deg);border:6px solid #fff;box-shadow:0 34px 72px rgba(0,0,0,.5)}
+/* Capsula de descarga gratuita */
+.answer-ready{margin-top:18px;max-width:52ch;font-size:clamp(1rem,1.5vw,1.1rem);color:#EDF0FF}
+.answer-ready strong{color:var(--gold-soft)}
+.descargas{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
+.descargas a{text-decoration:none;text-align:center}
 .nota-privacidad{max-width:56ch;margin:26px auto 0;text-align:center;color:var(--ink-soft);font-size:.95rem}
 /* Secciones del cuerpo encadenadas: sin doble padding entre ellas (como en /viaje-del-diente/) */
 #que-incluye{padding-bottom:clamp(18px,3vw,28px)}
@@ -213,7 +218,7 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
 <script defer data-domain="donbigotes.app" src="https://plausible.io/js/script.js"></script>
 <script>window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "¿El diploma lleva el nombre de mi hijo o hija?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Se genera personalizado con su nombre y el diente que ha perdido, firmado por la Oficina del Ratoncito Pérez."}}, {"@type": "Question", "name": "¿Es lo mismo un diploma que un certificado del Ratoncito Pérez?", "acceptedAnswer": {"@type": "Answer", "text": "Son la misma idea: un documento de recuerdo por haber perdido un diente. En Don Bigotes lo llamamos Diploma de Valentía y forma parte del Pack Mágico de la app. Si buscas una versión para imprimir directamente, mira el certificado del Ratoncito Pérez."}}, {"@type": "Question", "name": "¿Cuánto cuesta el diploma?", "acceptedAnswer": {"@type": "Answer", "text": "Está incluido en el Pack Mágico de la app Don Bigotes, gratis hasta el 1 de septiembre de 2026."}}, {"@type": "Question", "name": "¿Puedo imprimirlo o enmarcarlo?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Se guarda como imagen en tu móvil y puedes imprimirlo en casa o enmarcarlo como recuerdo."}}]}
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "¿El diploma del Ratoncito Pérez es gratis de verdad?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Se descarga en PDF con un clic, sin registro, sin correo y sin marca de agua. Está pensado para imprimir en A4 y rellenar a mano el nombre del niño y la fecha."}}, {"@type": "Question", "name": "¿Puedo poner el nombre del niño impreso en el diploma?", "acceptedAnswer": {"@type": "Answer", "text": "En el PDF gratuito el nombre se escribe a mano. Si quieres el diploma con el nombre del niño ya impreso, junto a la carta, la nota de voz y el resto de la experiencia, se genera en la app Don Bigotes."}}, {"@type": "Question", "name": "¿El diploma lleva el nombre de mi hijo o hija?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Se genera personalizado con su nombre y el diente que ha perdido, firmado por la Oficina del Ratoncito Pérez."}}, {"@type": "Question", "name": "¿Es lo mismo un diploma que un certificado del Ratoncito Pérez?", "acceptedAnswer": {"@type": "Answer", "text": "Son la misma idea: un documento de recuerdo por haber perdido un diente. En Don Bigotes lo llamamos Diploma de Valentía y forma parte del Pack Mágico de la app. Si buscas una versión para imprimir directamente, mira el certificado del Ratoncito Pérez."}}, {"@type": "Question", "name": "¿Cuánto cuesta el diploma?", "acceptedAnswer": {"@type": "Answer", "text": "Está incluido en el Pack Mágico de la app Don Bigotes, gratis hasta el 1 de septiembre de 2026."}}, {"@type": "Question", "name": "¿Puedo imprimirlo o enmarcarlo?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Se guarda como imagen en tu móvil y puedes imprimirlo en casa o enmarcarlo como recuerdo."}}]}
 </script>
 </head>
 <body>
@@ -228,6 +233,11 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
     <div class="hero-copy">
       <span class="eyebrow">Pack Mágico</span>
       <h1>El Diploma de Valentía del Ratoncito Pérez, <em>con su nombre</em></h1>
+      <p class="answer-ready"><strong>Descarga gratis el diploma del Ratoncito Pérez en PDF, listo para imprimir en A4.</strong> Sin registro y sin dejar el correo: descarga directa. El nombre del niño y la fecha se escriben a mano en «Otorgado a». Incluye el sello de la Oficina del Ratoncito y hay versión para Latinoamérica («Ratón de los Dientes»).</p>
+      <div class="descargas">
+        <a class="btn-gold" href="/descargas/diploma-ratoncito-perez.pdf" download>Descargar diploma gratis (PDF, A4)</a>
+        <a class="btn-ghost" href="/descargas/diploma-raton-de-los-dientes.pdf" download>Versión Latinoamérica: Ratón de los Dientes (PDF)</a>
+      </div>
       <p class="sub">Un diploma oficial de la Oficina del Ratoncito, personalizado con el nombre de tu peque y el diente que se le ha caído. Firmado y sellado, listo para enmarcar o guardar de recuerdo.</p>
       <div class="badges" style="justify-content:flex-start;margin-top:8px">
         <a class="btn-gold hero-cta" href="/app-raton-perez/" style="text-decoration:none">&#128242; Conseguir su diploma en la app</a>
@@ -292,7 +302,9 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
       <h2>Preguntas frecuentes</h2>
     </div>
     <div class="faq">
-      <details open><summary>¿El diploma lleva el nombre de mi hijo o hija?</summary><div class="ans">Sí. Se genera personalizado con su nombre y el diente que ha perdido, firmado por la Oficina del Ratoncito Pérez.</div></details>
+      <details open><summary>¿El diploma del Ratoncito Pérez es gratis de verdad?</summary><div class="ans">Sí. Se descarga en PDF con un clic, sin registro, sin correo y sin marca de agua. Está pensado para imprimir en A4 y rellenar a mano el nombre del niño y la fecha.</div></details>
+      <details><summary>¿Puedo poner el nombre del niño impreso en el diploma?</summary><div class="ans">En el PDF gratuito el nombre se escribe a mano. Si quieres el diploma con el nombre del niño ya impreso, junto a la carta, la nota de voz y el resto de la experiencia, se genera en la <a href="/app-raton-perez/" style="color:var(--gold-deep);font-weight:700">app Don Bigotes</a>.</div></details>
+      <details><summary>¿El diploma lleva el nombre de mi hijo o hija?</summary><div class="ans">Sí. Se genera personalizado con su nombre y el diente que ha perdido, firmado por la Oficina del Ratoncito Pérez.</div></details>
       <details><summary>¿Es lo mismo un diploma que un certificado del Ratoncito Pérez?</summary><div class="ans">Son la misma idea: un documento de recuerdo por haber perdido un diente. En Don Bigotes lo llamamos Diploma de Valentía y forma parte del Pack Mágico de la app. Si buscas una versión para imprimir directamente, mira el <a href="/certificado-raton-perez/" style="color:var(--gold-deep);font-weight:700">certificado del Ratoncito Pérez</a>.</div></details>
       <details><summary>¿Cuánto cuesta el diploma?</summary><div class="ans">Está incluido en el Pack Mágico de la app Don Bigotes, gratis hasta el 1 de septiembre de 2026.</div></details>
       <details><summary>¿Puedo imprimirlo o enmarcarlo?</summary><div class="ans">Sí. Se guarda como imagen en tu móvil y puedes imprimirlo en casa o enmarcarlo como recuerdo.</div></details>
