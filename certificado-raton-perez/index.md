@@ -2,7 +2,7 @@
 
 Descarga gratis el certificado del Ratoncito Pérez en PDF para imprimir en A4. Descarga directa, sin registro. El nombre y la fecha se rellenan a mano. Con el sello de la Oficina del Ratoncito y versión para Latinoamérica («Ratón de los Dientes»).
 
-- [Descargar diploma gratis (PDF, A4)](https://donbigotes.app/descargas/diploma-ratoncito-perez.pdf)
+- [Descargar certificado gratis (PDF, A4)](https://donbigotes.app/descargas/diploma-ratoncito-perez.pdf)
 
 - [Versión Latinoamérica: Ratón de los Dientes (PDF)](https://donbigotes.app/descargas/diploma-raton-de-los-dientes.pdf)
 
