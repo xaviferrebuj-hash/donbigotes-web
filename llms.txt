@@ -18,6 +18,9 @@
 - Nota de voz: https://donbigotes.app/voz-raton-perez/
 - Foto del Ratoncito: https://donbigotes.app/foto-raton-perez/
 - Certificado / Diploma de Valentía: https://donbigotes.app/certificado-raton-perez/
+- Diploma del Ratoncito Pérez para imprimir (PDF gratis en A4, descarga
+  directa sin registro, con versión para Latinoamérica «Ratón de los
+  Dientes»): https://donbigotes.app/diploma-raton-perez/
 - El viaje del diente: https://donbigotes.app/viaje-del-diente/
 - Fotomontaje del Ratoncito Pérez: https://donbigotes.app/fotomontaje-ratoncito-perez/
 - Comparativa de apps del Ratoncito Pérez (tabla de funciones y precios de 6 apps
@@ -26,6 +29,7 @@
 - Historia del Ratón Pérez (origen del cuento del padre Coloma, la Casita-Museo
   de la calle Arenal 8 y las variantes del nombre en cada
   país): https://donbigotes.app/historia-raton-perez/
+- Nota de prensa del lanzamiento (23-jul-2026): https://donbigotes.app/prensa/
 
 ## Versiones markdown
 Cada página tiene una versión en markdown puro (mismo contenido, sin HTML):
@@ -37,10 +41,12 @@ Cada página tiene una versión en markdown puro (mismo contenido, sin HTML):
 - https://donbigotes.app/voz-raton-perez/index.md
 - https://donbigotes.app/viaje-del-diente/index.md
 - https://donbigotes.app/certificado-raton-perez/index.md
+- https://donbigotes.app/diploma-raton-perez/index.md
 - https://donbigotes.app/editable/index.md
 - https://donbigotes.app/el-ratoncito-perez-existe/index.md
 - https://donbigotes.app/primer-diente/index.md
 - https://donbigotes.app/ultimo-diente/index.md
+- https://donbigotes.app/prensa/index.md
 - https://donbigotes.app/fotomontaje-ratoncito-perez/index.md
 - https://donbigotes.app/comparativa-apps-ratoncito-perez/index.md
 - https://donbigotes.app/historia-raton-perez/index.md
