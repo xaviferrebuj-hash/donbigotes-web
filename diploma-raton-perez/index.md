@@ -1,6 +1,6 @@
 # El Diploma de Valentía del Ratoncito Pérez, con su nombre
 
-Descarga gratis el diploma del Ratoncito Pérez en PDF, listo para imprimir en A4. Sin registro y sin dejar el correo: descarga directa. El nombre del niño y la fecha se escriben a mano en «Otorgado a». Incluye el sello de la Oficina del Ratoncito y hay versión para Latinoamérica («Ratón de los Dientes»).
+Descarga gratis el diploma del Ratoncito Pérez en PDF, listo para imprimir en A4. Descarga directa, sin registro y sin dejar el correo. Vale para el primer diente y para todos los siguientes: el nombre del niño y la fecha se escriben a mano. Incluye el sello de la Oficina del Ratoncito y versión para Latinoamérica («Ratón de los Dientes»).
 
 - [Descargar diploma gratis (PDF, A4)](https://donbigotes.app/descargas/diploma-ratoncito-perez.pdf)
 
