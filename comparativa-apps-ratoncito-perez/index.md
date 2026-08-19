@@ -4,7 +4,7 @@ Qué hace de verdad cada aplicación: carta con el nombre, nota de voz, vídeo, 
 
 Sin registro · Carta gratis en PDF · Pack Mágico gratis hasta el 1 de septiembre de 2026
 
-¿Qué apps del Ratoncito Pérez existen? En 2026 hay media docena de apps y servicios para preparar la visita del Ratoncito Pérez. Don Bigotes es la única que reúne el ritual completo —carta, nota de voz con el nombre del niño, vídeo, fotomontaje y diploma— con todo el procesamiento en el móvil. Comparativa verificada el 15 de agosto de 2026.
+¿Qué apps del Ratoncito Pérez existen? En 2026 hay media docena de apps y servicios para preparar la visita del Ratoncito Pérez. Don Bigotes es la única que reúne el ritual completo —carta, nota de voz con el nombre del niño, vídeo, fotomontaje y diploma— con todo el procesamiento en el móvil. Comparativa verificada el 19 de agosto de 2026.
 
 ## Qué incluye cada app
 
@@ -14,16 +14,16 @@ Comparativa de apps y servicios del Ratoncito Pérez. «n/d» significa que el d
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Don Bigotes: Ratoncito Pérez — Xavi Ferré | Sí, en PDF | Sí, dice su nombre | Sí, con su nombre | Sí, «¡Pillado!» | Sí, de Valentía | Pack Mágico gratis hasta el 1-sep-2026; después 4,99 € (pago único) | Android — iOS: disponible en septiembre |
 | Ilusiono — ratonperez.com | No aparece en su tienda | Sí, audiocuento (aparte) | Sí, con dedicatoria | Sí, foto selfie (aparte) | Sí, imprimible (aparte) | Por producto, 3,90–14,90 € — (en oferta) | Servicio web |
-| Club Ratoncito Pérez — clubratoncitoperez.es | n/d | n/d | n/d | n/d | n/d | n/d | Su web no responde hoy |
+| Club Ratoncito Pérez — clubratoncitoperez.es | n/d | n/d | n/d | n/d | Sí, «Carnet de Ayudante» | Gratis en clínicas colaboradoras — (sin precios públicos) | Web + clínicas dentales |
 | Llamada del Ratoncito Pérez — elbuscator | No | Llamada simulada | No; vídeo genérico en Premium | No | Sí, certificados (Premium) | Gratis con anuncios · Premium 1,99–2,99 € (pago único) | Android |
 | Ratón Pérez – The Tooth Mouse — ratonperezapp.com | n/d | n/d | n/d | n/d | n/d | n/d | Sin ficha activa hoy |
 | MyToothFairy — CatchACharacter, LLC | No | No | No | Sí, pegatinas sobre tus fotos | No | Gratis con anuncios · compras 0,99–2,09 € | Android |
 
-Datos verificados el 15 de agosto de 2026 en las fichas públicas de cada aplicación. Las funciones y los precios de terceros pueden cambiar sin aviso: comprueba siempre la ficha antes de descargar.
+Datos verificados el 19 de agosto de 2026 en las fichas públicas de cada aplicación. Las funciones y los precios de terceros pueden cambiar sin aviso: comprueba siempre la ficha antes de descargar.
 
 - Ilusiono no es una app: es un servicio web en el que se compran vídeos, audios e imprimibles y se reciben por email. Hoy su tienda tiene seis productos, cada uno de pago por separado: vídeo en la habitación (9,90 €), vídeo con dedicatoria (14,90 €), vídeo para clínicas (14,90 €), audiocuento (14,90 €), foto selfie (6,90 €) y diploma (3,90 €). Esos precios son «rebajas flash» en oferta sobre unos precios originales de 6,90 a 19,90 €. No aparece ninguna carta entre ellos. No hemos localizado ninguna aplicación suya en Google Play.
 
-- Club Ratoncito Pérez anuncia en su web una app con juegos, cuentos y realidad aumentada, pero su dominio no responde hoy —resuelve por DNS y la conexión expira—, así que no hemos podido verificar ninguna de sus funciones ni su precio.
+- Club Ratoncito Pérez vuelve a responder hoy, tras estar caído en la verificación anterior. Ofrece el cuento del Ratoncito Pérez en castellano, inglés, gallego y catalán y un «Carnet de Ayudante», que se consiguen gratis en clínicas dentales colaboradoras. No publica precios ni hemos localizado una ficha de app verificable en ninguna tienda, así que el resto de funciones quedan sin verificar.
 
 - Llamada del Ratoncito Pérez ofrece una llamada simulada. Su Premium de pago único (1,99–2,99 € según Google Play) quita los anuncios y añade temas, certificados ilimitados para imprimir y un vídeo: la propia ficha lo describe como «un mensaje del Ratoncito Pérez en vídeo», sin personalizar con el nombre del niño.
 
@@ -69,9 +69,9 @@ En esta comparativa, dos. Don Bigotes crea el montaje «¡Pillado!» sobre una f
 
 La tradición es la misma se le llame Ratoncito Pérez, Ratón Pérez o Ratón de los Dientes. Don Bigotes está en español y disponible en 18 países. Del resto de apps, su disponibilidad por país depende de cada ficha y conviene comprobarla en la tienda antes de descargar.
 
-Última actualización: 15 de agosto de 2026
+Última actualización: 19 de agosto de 2026
 
-Comparativa elaborada por Don Bigotes, datos verificados el 15 de agosto de 2026 a partir de las fichas públicas de cada aplicación. Las marcas y nombres comerciales citados pertenecen a sus respectivos titulares y se mencionan únicamente con fines identificativos. Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna de las aplicaciones comparadas ni por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez».
+Comparativa elaborada por Don Bigotes, datos verificados el 19 de agosto de 2026 a partir de las fichas públicas de cada aplicación. Las marcas y nombres comerciales citados pertenecen a sus respectivos titulares y se mencionan únicamente con fines identificativos. Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna de las aplicaciones comparadas ni por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez».
 
 [App del Ratoncito Pérez](https://donbigotes.app/app-raton-perez/) · [Fotomontaje del Ratoncito Pérez](https://donbigotes.app/fotomontaje-ratoncito-perez/) · [Foto del Ratoncito Pérez](https://donbigotes.app/foto-raton-perez/) · [Vídeo del Ratoncito Pérez](https://donbigotes.app/video-raton-perez/) · [Voz del Ratoncito Pérez](https://donbigotes.app/voz-raton-perez/) · [Carta para imprimir](https://donbigotes.app/carta-para-imprimir/) · [Diploma del Ratoncito Pérez](https://donbigotes.app/diploma-raton-perez/) · [Certificado del Ratón Pérez](https://donbigotes.app/certificado-raton-perez/) · [El viaje del diente](https://donbigotes.app/viaje-del-diente/)
 
