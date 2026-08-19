@@ -24,6 +24,14 @@ En esa misma dirección está hoy [La Casita-Museo de Ratón Pérez](https://www
 
 El cuento salió de España pronto: en 1914 se tradujo al inglés como Perez the Mouse. En América Latina la tradición se instaló con nombres propios. En México y buena parte del continente es el Ratón Pérez o el Ratón de los Dientes; en Argentina y Chile, Ratoncito Pérez. Es el mismo personaje y la misma noche.
 
+## 22 de agosto: el Día del Ratoncito Pérez
+
+El Día del Ratoncito Pérez se celebra cada 22 de agosto, y también el 28 de febrero. No hace falta que se haya caído ningún diente: es el día de la tradición, del cuento que el padre Coloma escribió en 1894 para el niño rey Alfonso XIII y de todos los ratones que guardan dientes bajo su nombre: Ratoncito Pérez, Ratón Pérez o Ratón de los Dientes.
+
+Tres formas de celebrarlo en casa: leer su historia (esta página), preparar la próxima visita —si hay un diente que ya se mueve, la [carta personalizada con su nombre](https://donbigotes.app/) se crea gratis en dos minutos, sin registro— y visitar la Casita-Museo de Ratón Pérez en la calle Arenal 8 de Madrid, reconocida como su hogar oficial.
+
+Y si el diente se cae justo hoy, doble celebración: el [viaje del diente](https://donbigotes.app/viaje-del-diente/) completo —voz, carta, foto del ratón pillado, diploma y vídeo— espera en la [app Don Bigotes](https://play.google.com/store/apps/details?id=es.donbigotes.app), gratis durante el lanzamiento.
+
 ## Preguntas frecuentes
 
 **¿Quién inventó al Ratón Pérez?**
@@ -46,7 +54,7 @@ Porque los dientes de los roedores crecen toda la vida. En Europa ya existía la
 
 Sí. Coloma lo llamó Ratón Pérez; el diminutivo se popularizó después y hoy conviven, junto a Ratón de los Dientes en varios países de América Latina.
 
-Última actualización: 4 de agosto de 2026
+Última actualización: 19 de agosto de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 
