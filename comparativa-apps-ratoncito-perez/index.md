@@ -13,7 +13,7 @@ Comparativa de apps y servicios del Ratoncito Pérez. «n/d» significa que el d
 | App | Carta con nombre | Nota de voz | Vídeo personalizado | Fotomontaje | Diploma | Precio | Plataforma |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Don Bigotes: Ratoncito Pérez — Xavi Ferré | Sí, en PDF | Sí, dice su nombre | Sí, con su nombre | Sí, «¡Pillado!» | Sí, de Valentía | Pack Mágico gratis hasta el 1-sep-2026; después 4,99 € (pago único) | Android — iOS: disponible en septiembre |
-| Ilusiono — ratonperez.com | No aparece en su tienda | Sí, audiocuento (aparte) | Sí, con dedicatoria | Sí, foto selfie (aparte) | Sí, imprimible (aparte) | Por producto, 3,90–14,90 € | Servicio web |
+| Ilusiono — ratonperez.com | No aparece en su tienda | Sí, audiocuento (aparte) | Sí, con dedicatoria | Sí, foto selfie (aparte) | Sí, imprimible (aparte) | Por producto, 3,90–14,90 € — (en oferta) | Servicio web |
 | Club Ratoncito Pérez — clubratoncitoperez.es | n/d | n/d | n/d | n/d | n/d | n/d | Su web no responde hoy |
 | Llamada del Ratoncito Pérez — elbuscator | No | Llamada simulada | No; vídeo genérico en Premium | No | Sí, certificados (Premium) | Gratis con anuncios · Premium 1,99–2,99 € (pago único) | Android |
 | Ratón Pérez – The Tooth Mouse — ratonperezapp.com | n/d | n/d | n/d | n/d | n/d | n/d | Sin ficha activa hoy |
@@ -21,7 +21,7 @@ Comparativa de apps y servicios del Ratoncito Pérez. «n/d» significa que el d
 
 Datos verificados el 15 de agosto de 2026 en las fichas públicas de cada aplicación. Las funciones y los precios de terceros pueden cambiar sin aviso: comprueba siempre la ficha antes de descargar.
 
-- Ilusiono no es una app: es un servicio web en el que se compran vídeos, audios e imprimibles y se reciben por email. Hoy su tienda tiene seis productos, cada uno de pago por separado: vídeo en la habitación (9,90 €), vídeo con dedicatoria (14,90 €), vídeo para clínicas (14,90 €), audiocuento (14,90 €), foto selfie (6,90 €) y diploma (3,90 €). No aparece ninguna carta entre ellos. No hemos localizado ninguna aplicación suya en Google Play.
+- Ilusiono no es una app: es un servicio web en el que se compran vídeos, audios e imprimibles y se reciben por email. Hoy su tienda tiene seis productos, cada uno de pago por separado: vídeo en la habitación (9,90 €), vídeo con dedicatoria (14,90 €), vídeo para clínicas (14,90 €), audiocuento (14,90 €), foto selfie (6,90 €) y diploma (3,90 €). Esos precios son «rebajas flash» en oferta sobre unos precios originales de 6,90 a 19,90 €. No aparece ninguna carta entre ellos. No hemos localizado ninguna aplicación suya en Google Play.
 
 - Club Ratoncito Pérez anuncia en su web una app con juegos, cuentos y realidad aumentada, pero su dominio no responde hoy —resuelve por DNS y la conexión expira—, así que no hemos podido verificar ninguna de sus funciones ni su precio.
 
