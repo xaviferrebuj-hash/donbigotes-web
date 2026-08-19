@@ -4,6 +4,8 @@ El vídeo del Ratoncito Pérez se crea con la app Don Bigotes: el niño ve su di
 
 Gratis durante el lanzamiento · Al instante · Hecho en España
 
+Cuando a un niño se le cae un diente, el ritual completo del Ratoncito Pérez dura un día: una nota de voz con su nombre al caerse el diente, el diente bajo la almohada esa noche, la carta y la foto del ratón «pillado» a la mañana siguiente, el Diploma de Valentía por la tarde y el vídeo desde la Oficina antes de dormir. Con la app Don Bigotes se prepara todo desde el móvil en 2-3 minutos.
+
 ## Mira cómo es el viaje del diente
 
 ## Un día entero de magia, hito a hito
@@ -48,7 +50,7 @@ Sí. La experiencia está en español y funciona igual para el Ratón Pérez o e
 
 Voz, foto y Diploma de Valentía personalizados. Gratis durante el lanzamiento.
 
-Última actualización: 11 de julio de 2026
+Última actualización: 19 de agosto de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 
