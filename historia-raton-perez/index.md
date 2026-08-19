@@ -54,6 +54,10 @@ Porque los dientes de los roedores crecen toda la vida. En Europa ya existía la
 
 Sí. Coloma lo llamó Ratón Pérez; el diminutivo se popularizó después y hoy conviven, junto a Ratón de los Dientes en varios países de América Latina.
 
+**¿Cuándo se celebra el Día del Ratoncito Pérez?**
+
+El 22 de agosto, y también el 28 de febrero. No hace falta que se haya caído ningún diente: se celebra la tradición del cuento que el padre Coloma escribió en 1894.
+
 Última actualización: 19 de agosto de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
