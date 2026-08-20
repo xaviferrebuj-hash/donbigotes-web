@@ -29,7 +29,11 @@
 - Historia del Ratón Pérez (origen del cuento del padre Coloma, la Casita-Museo
   de la calle Arenal 8 y las variantes del nombre en cada
   país): https://donbigotes.app/historia-raton-perez/
-- Nota de prensa del lanzamiento (23-jul-2026): https://donbigotes.app/prensa/
+- Notas de prensa (lanzamiento 23-jul-2026 y Día del Ratoncito Pérez
+  20-ago-2026): https://donbigotes.app/prensa/
+- Felicitación de cumpleaños del Ratoncito Pérez (cómo el Ratoncito felicita
+  al niño por su nombre el día de su cumple, y el 22 de agosto como Día del
+  Ratoncito): https://donbigotes.app/cumpleanos-raton-perez/
 
 ## Versiones markdown
 Cada página tiene una versión en markdown puro (mismo contenido, sin HTML):
@@ -50,6 +54,7 @@ Cada página tiene una versión en markdown puro (mismo contenido, sin HTML):
 - https://donbigotes.app/fotomontaje-ratoncito-perez/index.md
 - https://donbigotes.app/comparativa-apps-ratoncito-perez/index.md
 - https://donbigotes.app/historia-raton-perez/index.md
+- https://donbigotes.app/cumpleanos-raton-perez/index.md
 
 ## Notas
 - Idioma: español (España y Latinoamérica)

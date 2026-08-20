@@ -1,6 +1,16 @@
-# Llega Don Bigotes, la app del Ratoncito Pérez que responde a los niños la noche del diente
+# El Ratoncito Pérez estrena «oficina digital» para su día: un padre de Barcelona lanza en solitario la app que moderniza la tradición del diente
 
-La aplicación española, ya disponible gratis en Google Play, crea en un minuto la carta personalizada del Ratoncito Pérez con el nombre del niño, una nota de voz del propio Ratoncito y el fotomontaje de su visita. Todo se genera en el móvil de los padres, sin registros y sin subir datos a ningún servidor.
+El 22 de agosto se celebra el Día del Ratoncito Pérez, el personaje que desde 1894 recoge los dientes de leche de los niños españoles. Este año la fecha llega con novedad: Don Bigotes, una app creada por un único desarrollador, convierte la caída del diente en una carta personalizada, una nota de voz y un vídeo del propio Ratoncito.
+
+Barcelona, 20 de agosto de 2026.— Con motivo del Día del Ratoncito Pérez, que se celebra cada 22 de agosto, la aplicación española Don Bigotes presenta la «oficina digital» del Ratoncito: cuando a un niño se le cae un diente, sus padres preparan en un minuto la carta personalizada con su nombre, una nota de voz en la que el propio Ratoncito lo pronuncia, el fotomontaje «¡Pillado!» y el vídeo desde su Oficina.
+
+En Latinoamérica, donde el personaje se conoce como Ratón Pérez o Ratón de los Dientes, la fecha se celebra el mismo día — y la app ya recibe familias de ocho países. Todo el procesamiento se realiza en el móvil de los padres, sin registro y sin recopilar datos de menores. La carta es gratuita y el Pack Mágico completo sigue gratis durante el lanzamiento.
+
+La nota de prensa completa está publicada en Comunicae: [El Ratoncito Pérez estrena «oficina digital» para su día](https://comunicae.es/notas-de-prensa/el-ratoncito-perez-estrena-oficina-digital).
+
+## Nota anterior — Lanzamiento (23 de julio de 2026)
+
+Llega Don Bigotes, la app del Ratoncito Pérez que responde a los niños la noche del diente
 
 Barcelona, 23 de julio de 2026.— ¿Existe alguna app para escribir cartas al Ratoncito Pérez? Desde hoy, la respuesta está en Google Play: Don Bigotes, una aplicación española que convierte la noche del diente en una experiencia completa para familias con niños de 3 a 9 años.
 
@@ -26,7 +36,7 @@ Xavi Ferré · [hola@donbigotes.app](mailto:hola@donbigotes.app) · [https://don
 
 Voz, foto y Diploma de Valentía personalizados. Gratis durante el lanzamiento.
 
-Última actualización: 23 de julio de 2026
+Última actualización: 20 de agosto de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 
