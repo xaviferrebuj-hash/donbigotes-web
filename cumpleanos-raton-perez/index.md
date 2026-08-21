@@ -6,7 +6,7 @@ El día del cumple de tu hijo o hija, el Ratoncito lo felicita por su nombre con
 
 Sí. Con la app Don Bigotes, el Ratoncito Pérez felicita el cumpleaños al niño con su nombre: un vídeo de celebración desde su Oficina en el que el propio Ratoncito lo felicita por su nombre el día señalado, y un pergamino conmemorativo para imprimir y guardar de recuerdo. Los padres configuran el día y el mes en el perfil del niño, y cuando llega la fecha la app se viste de fiesta y aparece la felicitación. Todo se genera en el móvil, sin registro y sin recoger ningún dato del niño.
 
-La felicitación de cumpleaños llega con la actualización de agosto de Don Bigotes.
+La felicitación de cumpleaños ya está disponible en Don Bigotes.
 
 ## Cómo funciona
 
