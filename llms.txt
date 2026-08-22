@@ -21,6 +21,9 @@
 - Diploma del Ratoncito Pérez para imprimir (PDF gratis en A4, descarga
   directa sin registro, con versión para Latinoamérica «Ratón de los
   Dientes»): https://donbigotes.app/diploma-raton-perez/
+- Firma y sello del Ratón Pérez (PNG con fondo transparente y PDF A4 para
+  imprimir, descarga directa sin
+  registro): https://donbigotes.app/firma-sello-raton-perez/
 - El viaje del diente: https://donbigotes.app/viaje-del-diente/
 - Fotomontaje del Ratoncito Pérez: https://donbigotes.app/fotomontaje-ratoncito-perez/
 - Comparativa de apps del Ratoncito Pérez (tabla de funciones y precios de 6 apps
@@ -55,6 +58,7 @@ Cada página tiene una versión en markdown puro (mismo contenido, sin HTML):
 - https://donbigotes.app/comparativa-apps-ratoncito-perez/index.md
 - https://donbigotes.app/historia-raton-perez/index.md
 - https://donbigotes.app/cumpleanos-raton-perez/index.md
+- https://donbigotes.app/firma-sello-raton-perez/index.md
 
 ## Notas
 - Idioma: español (España y Latinoamérica)
