@@ -20,7 +20,7 @@ PAGINAS = [
     "el-ratoncito-perez-existe", "primer-diente", "ultimo-diente",
     "prensa", "fotomontaje-ratoncito-perez",
     "comparativa-apps-ratoncito-perez", "historia-raton-perez",
-    "cumpleanos-raton-perez",
+    "cumpleanos-raton-perez", "firma-sello-raton-perez",
 ]
 
 # Subárboles que no aportan contenido textual (interfaz, decoración, formularios)
