@@ -1,6 +1,7 @@
 name: IndexNow ping
 
-# Notifica a IndexNow (Bing/Yandex) SOLO las páginas cuyo index.html cambió en el push.
+# Notifica a IndexNow (Bing/Yandex) lo que cambió en el push: las páginas cuyo
+# index.html se tocó y los ficheros de descargas/ (PDFs, PNGs…) nuevos o modificados.
 # No necesita secretos: la clave IndexNow es pública (se sirve en <clave>.txt en la raíz).
 
 on:
@@ -47,20 +48,29 @@ jobs:
             CHANGED=$(git diff-tree --no-commit-id --name-only -r "$AFTER")
           fi
 
-          # 3) Mapear cada index.html publicado a su URL (raíz y subdirectorios).
+          # 3) Mapear los cambios a URLs, de dos fuentes:
+          #    a) cada index.html publicado -> la URL de su directorio (raíz y subdirs)
+          #    b) cada fichero suelto de descargas/ -> su URL completa (PDFs, PNGs…)
           #    Se excluyen dirs que Jekyll no publica (_partials, .github…).
           #    grep sin coincidencias sale con 1: con pipefail hay que tolerarlo
-          #    para que un push sin páginas no marque el workflow en rojo.
-          URLS=$(printf '%s\n' "$CHANGED" \
+          #    para que un push sin cambios publicables no marque el workflow en rojo.
+          PAGINAS=$(printf '%s\n' "$CHANGED" \
             | { grep -E '(^|/)index\.html$' || true; } \
             | { grep -vE '(^|/)[_.]' || true; } \
             | while read -r f; do
                 dir=$(dirname "$f")
                 if [ "$dir" = "." ]; then echo "https://$HOST/"; else echo "https://$HOST/$dir/"; fi
-              done | sort -u)
+              done)
+
+          DESCARGAS=$(printf '%s\n' "$CHANGED" \
+            | { grep -E '^descargas/[^/]+$' || true; } \
+            | while read -r f; do echo "https://$HOST/$f"; done)
+
+          URLS=$(printf '%s\n%s\n' "$PAGINAS" "$DESCARGAS" \
+            | { grep -v '^$' || true; } | sort -u)
 
           if [ -z "$URLS" ]; then
-            echo "Ningún index.html de página modificado; sin ping."
+            echo "Ni index.html ni descargas modificados; sin ping."
             exit 0
           fi
 
