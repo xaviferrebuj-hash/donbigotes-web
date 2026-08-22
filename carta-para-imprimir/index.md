@@ -8,7 +8,7 @@ Sin registro · Lista en 1 minuto · Gratis
 
 - [Versión Latinoamérica: Ratón Pérez (PDF)](https://donbigotes.app/descargas/carta-raton-perez.pdf)
 
-Descarga gratis la carta del Ratoncito Pérez en PDF, lista para imprimir en A4, o créala personalizada con el nombre de tu hijo en un minuto. Descarga directa, sin registro. La carta llega firmada y sellada por la Oficina del Ratoncito. En Latinoamérica el personaje se conoce como Ratón Pérez o Ratón de los Dientes: hay versión propia para descargar.
+Descarga gratis la carta del Ratoncito Pérez en PDF, lista para imprimir en A4, o créala personalizada con el nombre de tu hijo en un minuto. Descarga directa, sin registro. La carta llega firmada y sellada por la Oficina del Ratoncito; también puedes [descargar el sello y la firma sueltos](https://donbigotes.app/firma-sello-raton-perez/) para pegarlos en una carta escrita por ti. En Latinoamérica el personaje se conoce como Ratón Pérez o Ratón de los Dientes: hay versión propia para descargar.
 
 ## Crea la experiencia completa en la app Don Bigotes
 

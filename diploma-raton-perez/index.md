@@ -18,7 +18,7 @@ El diploma se personaliza con el nombre de tu peque y el diente exacto que ha pe
 
 ### Sello y firma de la Oficina
 
-Con el sello dorado de la Oficina del Ratoncito Pérez y la firma de Don Bigotes.
+Con el sello dorado de la Oficina del Ratoncito Pérez y la firma de Don Bigotes, que también puedes [descargar sueltos](https://donbigotes.app/firma-sello-raton-perez/).
 
 ### Para enmarcar o guardar
 
@@ -45,6 +45,10 @@ Sí. Se genera personalizado con su nombre y el diente que ha perdido, firmado p
 **¿Es lo mismo un diploma que un certificado del Ratoncito Pérez?**
 
 Son la misma idea: un documento de recuerdo por haber perdido un diente. En Don Bigotes lo llamamos Diploma de Valentía y forma parte del Pack Mágico de la app. Si buscas una versión para imprimir directamente, mira el [certificado del Ratoncito Pérez](https://donbigotes.app/certificado-raton-perez/).
+
+**¿Cómo es la firma y el sello del Ratón Pérez?**
+
+El diploma lleva el sello de la Oficina y la firma de Don Bigotes. Puedes descargar [la firma y el sello por separado](https://donbigotes.app/firma-sello-raton-perez/) en PNG y PDF.
 
 **¿Cuánto cuesta el diploma?**
 
