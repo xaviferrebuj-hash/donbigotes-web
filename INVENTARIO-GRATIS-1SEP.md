@@ -31,6 +31,12 @@ Texto: «Voz, foto y Diploma de Valentía personalizados. Gratis durante el lanz
   `carta-para-imprimir:306` · `fotomontaje-ratoncito-perez:273`
 - Variante con fecha: `comparativa-apps-ratoncito-perez:372` («Gratis hasta el 1 de septiembre de 2026»)
 
+🔒 **DECIDIDO 24-ago-2026 — NO SE TOCA, NO SE VUELVE A PROPONER.** La redacción «gratis
+hasta el 1 de septiembre» es ambigua: el último día gratis es el 31-ago y el 1-sep ya se
+cobra. **Xavi lo sabe y lo asume**: el desfase es de un día y no justifica más ediciones.
+**Queda fuera de alcance en todas las páginas.** No abrir de nuevo el tema en sesiones
+futuras salvo que Xavi lo pida expresamente.
+
 ## B. hero-note (8 páginas)
 
 Patrón: «Gratis durante el lanzamiento · [claim] · Hecho/a en España»
