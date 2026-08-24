@@ -327,3 +327,35 @@ grep -rni "sola conexi\|única conexi\|unica conexi\|recogida de datos" --exclud
 - **Repo `donbigotes-leads`: INMUNE por diseño** — plantillas sin fechas ni precios. **Mantener la
   costumbre** al redactar plantillas nuevas. *(Matiz: los textos ya enviados sí llevan fechas y
   claims caducos, pero son histórico y no se tocan.)*
+
+## 🔬 MEDICIÓN ENCARGADA — canibalización firma/sello (abierta 24-ago-2026)
+
+**Qué se vio el 24-ago** (Search Console, ventana 26-jul → 22-ago, 28 días):
+
+| Página | Impresiones | Clics | De dónde venían de verdad |
+|---|---|---|---|
+| `/diploma-raton-perez/` | 81 | **0** | **47 de consultas de «firma»** · solo 5 de «diploma» |
+| `/certificado-raton-perez/` | 93 | **0** | **37 de consultas de «sello»** · solo 3 de «certificado» (pos. 28) |
+| `/firma-sello-raton-perez/` | 12 | 0 | «firma … raton perez» en **posición 1,0–1,5** |
+
+**Diagnóstico:** el CTR cero de diploma y certificado **no es un problema de title**: Google
+las mostraba para intención de «firma» y «sello», que no responden. La página que sí
+responde —`/firma-sello-raton-perez/`— **se publicó el 22-ago**, así que casi toda la
+ventana medida es anterior a su existencia.
+
+🚫 **NO se reescriben los title ni las meta description de diploma y certificado hasta
+tener esta medición.** Hacerlo ahora optimizaría contra un problema que probablemente ya
+se está resolviendo solo, y destruiría la línea base.
+
+**Qué medir en el barrido (3-4 sep), con ventana 23-ago → fecha del barrido:**
+
+1. Consultas de «firma» y «sello»: ¿las sirve ya `/firma-sello-raton-perez/` en vez de
+   diploma y certificado?
+2. ¿Suben las impresiones de `/firma-sello-raton-perez/` desde 12?
+3. ¿Aparece por fin algún clic en las tres?
+4. `/certificado-raton-perez/` en «certificado ratoncito perez» está en **posición 28**:
+   ¿mejora, o esa consulta necesita trabajo propio?
+
+**Decisión que desbloquea:** si tras la medición diploma y certificado siguen con
+impresiones de firma/sello y cero clics, entonces sí toca reescribir sus title y meta
+para alinearlos con su intención real. Antes no.
