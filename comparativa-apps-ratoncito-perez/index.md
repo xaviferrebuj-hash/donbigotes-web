@@ -13,7 +13,7 @@ Comparativa de apps y servicios del Ratoncito Pérez. «n/d» significa que el d
 | App | Carta con nombre | Nota de voz | Vídeo personalizado | Fotomontaje | Diploma | Precio | Plataforma |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Don Bigotes: Ratoncito Pérez — Xavi Ferré | Sí, en PDF | Sí, dice su nombre | Sí, con su nombre | Sí, «¡Pillado!» | Sí, de Valentía | Pack Mágico gratis hasta el 1-sep-2026; después 4,99 € (pago único) | Android — iOS: disponible en septiembre |
-| Ilusiono — ratonperez.com · ilusiono.com | Sí, 6,90 € (en ilusiono.com) | Sí, audiocuento (aparte) | Sí, con dedicatoria | Sí, foto selfie (aparte) | Sí, imprimible (aparte) | Por producto, 3,90–14,90 € — (en oferta) | Servicio web |
+| Ilusiono — ratonperez.com · ilusiono.com | Sí, 6,90 € — (en ilusiono.com) | Sí, audiocuento (aparte) | Sí, con dedicatoria | Sí, foto selfie (aparte) | Sí, imprimible (aparte) | Por producto, 3,90–14,90 € — (en oferta) | Servicio web |
 | Club Ratoncito Pérez — clubratoncitoperez.es | n/d | n/d | n/d | n/d | Sí, «Carnet de Ayudante» | Gratis en clínicas colaboradoras — (sin precios públicos) | Web + clínicas dentales |
 | Llamada del Ratoncito Pérez — elbuscator | No | Llamada simulada | No; vídeo genérico en Premium | No | Sí, certificados (Premium) | Gratis con anuncios · Premium 1,99–2,99 € (pago único) | Android |
 | Ratón Pérez – The Tooth Mouse — ratonperezapp.com | n/d | n/d | n/d | n/d | n/d | n/d | Sin ficha activa hoy |
@@ -30,6 +30,8 @@ Datos verificados el 24 de agosto de 2026 en las fichas públicas de cada aplica
 - Ratón Pérez – The Tooth Mouse mantiene su web activa, donde anuncia vídeo, foto y certificado personalizado. Sus dos enlaces de tienda están caídos: la ficha de Google Play no responde en España, Estados Unidos, Reino Unido, México ni Argentina, y la de App Store tampoco existe. Sin ficha activa no hemos podido verificar funciones ni precio.
 
 - MyToothFairy sigue publicada en Google Play. Inserta pegatinas del hada de los dientes en tus propias fotos, con personajes blancos, negros e hispanos; sus compras dentro de la aplicación (0,99–2,09 €) son packs de Papá Noel y Conejito de Pascua.
+
+- Qué no hemos podido verificar hoy. Google Play no muestra el rango de precios de las compras dentro de la aplicación en la versión de su ficha que hemos consultado: los rangos de Llamada del Ratoncito Pérez (1,99–2,99 €) y MyToothFairy (0,99–2,09 €) se conservan de la verificación del 19 de agosto y no hay indicio de que hayan cambiado. Dos datos de contexto sí verificados hoy: Llamada del Ratoncito Pérez no se actualiza desde diciembre de 2025 y MyToothFairy desde julio de 2024.
 
 ## Cada app resuelve un momento distinto
 
