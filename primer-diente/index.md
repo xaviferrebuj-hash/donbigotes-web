@@ -48,7 +48,7 @@ Imprímela o guárdala en PDF y déjala lista para la noche del diente.
 
 ## Ya disponible en Google Play
 
-Para Android hoy; muy pronto también en iPhone.
+Para Android hoy, con el Pack Mágico gratis hasta el 31 de agosto de 2026. Muy pronto también en iPhone, donde el Pack Mágico será de pago desde el primer día.
 
 ## Preguntas frecuentes
 
