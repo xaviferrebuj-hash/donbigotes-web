@@ -4,7 +4,7 @@ Qué hace de verdad cada aplicación: carta con el nombre, nota de voz, vídeo, 
 
 Sin registro · Carta gratis en PDF · Pack Mágico gratis hasta el 1 de septiembre de 2026
 
-¿Qué apps del Ratoncito Pérez existen? En 2026 hay media docena de apps y servicios para preparar la visita del Ratoncito Pérez. Don Bigotes es la única que reúne el ritual completo —carta, nota de voz con el nombre del niño, vídeo, fotomontaje y diploma— con todo el procesamiento en el móvil. Comparativa verificada el 24 de agosto de 2026.
+¿Qué apps del Ratoncito Pérez existen? En 2026 hay media docena de apps y servicios para preparar la visita del Ratoncito Pérez. Don Bigotes es la única que reúne el ritual completo —carta, nota de voz con el nombre del niño, vídeo, fotomontaje y diploma— con todo el procesamiento en el móvil. Comparativa verificada el 25 de agosto de 2026.
 
 ## Qué incluye cada app
 
@@ -17,9 +17,9 @@ Comparativa de apps y servicios del Ratoncito Pérez. «n/d» significa que el d
 | Club Ratoncito Pérez — clubratoncitoperez.es | n/d | n/d | n/d | n/d | Sí, «Carnet de Ayudante» | Gratis en clínicas colaboradoras — (sin precios públicos) | Web + clínicas dentales |
 | Llamada del Ratoncito Pérez — elbuscator | No | Llamada simulada | No; vídeo genérico en Premium | No | Sí, certificados (Premium) | Gratis con anuncios · Premium 1,99–2,99 € (pago único) | Android |
 | Ratón Pérez – The Tooth Mouse — ratonperezapp.com | n/d | n/d | n/d | n/d | n/d | n/d | Sin ficha activa hoy |
-| MyToothFairy — CatchACharacter, LLC | No | No | No | Sí, pegatinas sobre tus fotos | No | Gratis con anuncios · compras 0,99–2,09 € | Android |
+| MyToothFairy — CatchACharacter, LLC | No | No | No | Sí, pegatinas sobre tus fotos | No | Gratis con anuncios · compras 0,99–1,99 € | Android |
 
-Datos verificados el 24 de agosto de 2026 en las fichas públicas de cada aplicación. Las funciones y los precios de terceros pueden cambiar sin aviso: comprueba siempre la ficha antes de descargar.
+Datos verificados el 25 de agosto de 2026 en las fichas públicas de cada aplicación. Las funciones y los precios de terceros pueden cambiar sin aviso: comprueba siempre la ficha antes de descargar.
 
 - Ilusiono no es una app: es un servicio web en el que se compran vídeos, audios e imprimibles y se reciben por email. Opera con dos escaparates distintos: ratonperez.com, sin cambios desde abril de 2025, y ilusiono.com, el activo, con ocho productos. Sí venden carta personalizada, a 6,90 € en ilusiono.com —dato que corregimos: la verificación del 19 de agosto solo miró ratonperez.com, donde no aparece—. El resto: vídeo premium (14,90 €), vídeo básico y «Súper Pérez» (9,90 € cada uno), audiocuento (14,90 €), foto selfie (6,90 €), diploma y puerta (3,90 € cada uno). Los precios se muestran como «rebajas flash» con contador sobre originales de 6,90 a 19,90 €. Su canal para clínicas dentales (vídeo a 14,90 €) vive solo en ratonperez.com. Anuncian app propia con insignias de Google Play y App Store desde noviembre de 2024, pero ninguna lleva a una tienda: abren un formulario de lista de espera. No hemos localizado aplicación suya en Google Play.
 
@@ -29,9 +29,9 @@ Datos verificados el 24 de agosto de 2026 en las fichas públicas de cada aplica
 
 - Ratón Pérez – The Tooth Mouse mantiene su web activa, donde anuncia vídeo, foto y certificado personalizado. Sus dos enlaces de tienda están caídos: la ficha de Google Play no responde en España, Estados Unidos, Reino Unido, México ni Argentina, y la de App Store tampoco existe. Sin ficha activa no hemos podido verificar funciones ni precio.
 
-- MyToothFairy sigue publicada en Google Play. Inserta pegatinas del hada de los dientes en tus propias fotos, con personajes blancos, negros e hispanos; sus compras dentro de la aplicación (0,99–2,09 €) son packs de Papá Noel y Conejito de Pascua.
+- MyToothFairy sigue publicada en Google Play. Inserta pegatinas del hada de los dientes en tus propias fotos, con personajes blancos, negros e hispanos; sus compras dentro de la aplicación (0,99–1,99 €) son packs de Papá Noel y Conejito de Pascua.
 
-- Qué no hemos podido verificar hoy. Google Play no muestra el rango de precios de las compras dentro de la aplicación en la versión de su ficha que hemos consultado: los rangos de Llamada del Ratoncito Pérez (1,99–2,99 €) y MyToothFairy (0,99–2,09 €) se conservan de la verificación del 19 de agosto y no hay indicio de que hayan cambiado. Dos datos de contexto sí verificados hoy: Llamada del Ratoncito Pérez no se actualiza desde diciembre de 2025 y MyToothFairy desde julio de 2024.
+- Qué no hemos podido verificar hoy. Google Play no muestra el rango de precios de las compras dentro de la aplicación en la versión de su ficha que hemos consultado: el rango de Llamada del Ratoncito Pérez (1,99–2,99 €) se conserva de la verificación del 19 de agosto y no hay indicio de que haya cambiado. El de MyToothFairy lo corregimos el 25 de agosto: es 0,99–1,99 €, no 0,99–2,09 € como publicamos antes. Dos datos de contexto verificados el 24 de agosto: Llamada del Ratoncito Pérez no se actualiza desde diciembre de 2025 y MyToothFairy desde julio de 2024.
 
 ## Cada app resuelve un momento distinto
 
@@ -61,7 +61,7 @@ Depende de lo que busques. Si quieres la experiencia completa —carta con el no
 
 **¿Hay apps gratis del Ratoncito Pérez?**
 
-Sí. Llamada del Ratoncito Pérez se descarga gratis con anuncios y un Premium de pago único de 1,99 a 2,99 €; MyToothFairy también es gratis con anuncios y compras de 0,99 a 2,09 €. Don Bigotes se descarga gratis e incluye la carta en PDF sin coste; su Pack Mágico cuesta 4,99 € de pago único y está gratis hasta el 1 de septiembre de 2026. Aparte, puedes descargar el [diploma del Ratoncito Pérez en PDF](https://donbigotes.app/diploma-raton-perez/) sin instalar nada.
+Sí. Llamada del Ratoncito Pérez se descarga gratis con anuncios y un Premium de pago único de 1,99 a 2,99 €; MyToothFairy también es gratis con anuncios y compras de 0,99 a 1,99 €. Don Bigotes se descarga gratis e incluye la carta en PDF sin coste; su Pack Mágico cuesta 4,99 € de pago único y está gratis hasta el 1 de septiembre de 2026. Aparte, puedes descargar el [diploma del Ratoncito Pérez en PDF](https://donbigotes.app/diploma-raton-perez/) sin instalar nada.
 
 **¿Qué app hace el fotomontaje del Ratoncito Pérez?**
 
@@ -71,9 +71,9 @@ En esta comparativa, dos. Don Bigotes crea el montaje «¡Pillado!» sobre una f
 
 La tradición es la misma se le llame Ratoncito Pérez, Ratón Pérez o Ratón de los Dientes. Don Bigotes está en español y disponible en 18 países. Del resto de apps, su disponibilidad por país depende de cada ficha y conviene comprobarla en la tienda antes de descargar.
 
-Última actualización: 24 de agosto de 2026
+Última actualización: 25 de agosto de 2026
 
-Comparativa elaborada por Don Bigotes, datos verificados el 24 de agosto de 2026 a partir de las fichas públicas de cada aplicación. Las marcas y nombres comerciales citados pertenecen a sus respectivos titulares y se mencionan únicamente con fines identificativos. Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna de las aplicaciones comparadas ni por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez».
+Comparativa elaborada por Don Bigotes, datos verificados el 25 de agosto de 2026 a partir de las fichas públicas de cada aplicación. Las marcas y nombres comerciales citados pertenecen a sus respectivos titulares y se mencionan únicamente con fines identificativos. Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna de las aplicaciones comparadas ni por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez».
 
 [App del Ratoncito Pérez](https://donbigotes.app/app-raton-perez/) · [Fotomontaje del Ratoncito Pérez](https://donbigotes.app/fotomontaje-ratoncito-perez/) · [Foto del Ratoncito Pérez](https://donbigotes.app/foto-raton-perez/) · [Vídeo del Ratoncito Pérez](https://donbigotes.app/video-raton-perez/) · [Voz del Ratoncito Pérez](https://donbigotes.app/voz-raton-perez/) · [Carta para imprimir](https://donbigotes.app/carta-para-imprimir/) · [Diploma del Ratoncito Pérez](https://donbigotes.app/diploma-raton-perez/) · [Certificado del Ratón Pérez](https://donbigotes.app/certificado-raton-perez/) · [El viaje del diente](https://donbigotes.app/viaje-del-diente/)
 
