@@ -1,13 +1,21 @@
 # REDACCIONES — barrido del 1-SEP y acotación a Android
 
-**Insumo del barrido.** Contiene la redacción de reemplazo de **las 61 ocurrencias**
+> 🔴 **REGLA ANTI-DESAJUSTE (26-ago-2026) — manda sobre todo lo demás de este fichero.**
+> **Todo cambio en el texto visible de una FAQ se replica VERBATIM en el `FAQPage` de su
+> página, el mismo día y en el mismo commit.** El copy visible es la única fuente de
+> verdad; el JSON-LD es su espejo, carácter a carácter (tildes, `¿`, `«»`, puntuación).
+> Desde el 26-ago las 18 páginas están sincronizadas al 100 % (87/87 preguntas y 87/87
+> respuestas, comprobación estricta). Un solo desajuste invalida el `FAQPage` completo
+> ante Google. Las líneas afectadas van marcadas **⚠️ APLICAR TAMBIÉN AL JSON-LD**.
+
+**Insumo del barrido.** Contiene la redacción de reemplazo de **las 66 ocurrencias**
 del periodo gratuito, en variante **ES** y **LATAM**, con fichero y línea.
 
 - Generado: **25-ago-2026** (auditoría + adenda «gratis-solo-Android»).
 - Medición: `grep` sobre el repo el 25-ago. **Las líneas son orientativas**: localizar
   por patrón de texto, nunca por número de línea.
 - Sustituye en detalle a `INVENTARIO-GRATIS-1SEP.md`, que sigue siendo válido como
-  checklist de ejecución. **Ese inventario decía 57; el recuento real es 61** (ver
+  checklist de ejecución. **Ese inventario decía 57; el recuento real es 66** (ver
   «Correcciones al inventario» abajo).
 
 ## Estado
@@ -15,11 +23,13 @@ del periodo gratuito, en variante **ES** y **LATAM**, con fichero y línea.
 | | Sitios | Cuándo |
 |---|---|---|
 | **Aplicado el 25-ago** | 15 sitios / 35 ediciones | ✅ hecho (corte quirúrgico) |
-| **Pendiente del 1-sep** | 61 ocurrencias | ⏳ al activar el cobro |
+| **Pendiente del 1-sep** | **66** ocurrencias | ⏳ al activar el cobro |
 
-Lo aplicado el 25-ago **no está en las 61**: son puntos de inserción que hoy no dicen
+Lo aplicado el 25-ago **no está en las 66**: son puntos de inserción que hoy no dicen
 «gratis» (hints del formulario iOS, `form-ok`, `aria-label` del badge, bloque
-`#descarga` y `llms.txt`). Las 61 siguen intactas y se barren el 1-sep.
+`#descarga` y `llms.txt`). Las 66 siguen intactas y se barren el 1-sep.
+**El recuento pasó de 61 a 66 el 26-ago**: ver G3-bis (5 líneas de cabecera que el
+inventario no había mirado).
 
 ## Decisiones que rigen este fichero
 
@@ -166,16 +176,16 @@ hace en tu móvil. Gratis en Android hasta el 31-ago.
 
 **LATAM:** …El montaje se hace en tu celular. Gratis en Android hasta el 31-ago.
 
-### G3-bis · `<title>` — 2 (añadido el 26-ago; NO estaba en las 61)
+### G3-bis · Cabecera (`<title>`, `description`, `og:*`) — 5 (añadido el 26-ago)
 
 **Hallazgo de la auditoría del 26-ago.** El inventario de las 61 no miró el `<head>` más
 allá de las 5 metas de G3. `app-raton-perez` dice «gratis» en las **cuatro** líneas de
 cabecera (`:6` title, `:7` description, `:12` og:title, `:13` og:description) y ninguna
-estaba listada. Aquí entran los **dos titles encargados por Xavi**; el resto de la
-cabecera queda señalado abajo, **sin redacción**, a la espera de decisión.
+estaba listada; `foto-raton-perez:7` tampoco (G3 solo cubría su `:13`). **Redacciones
+decididas por Xavi el 26-ago: el bloque queda cerrado, sin pendientes.**
 
-⚠️ Ninguna redacción de este bloque contiene «gratis» ni «mágicas». Los titles **no se
-tocan hoy**: se aplican el 1-sep con el resto del barrido.
+⚠️ Ninguna redacción de este bloque contiene «gratis» ni «mágicas». **No se toca nada hoy**:
+se aplica el 1-sep con el resto del barrido.
 
 #### `fotomontaje-ratoncito-perez/index.html` — línea 6 (`<title>`)
 
@@ -184,10 +194,11 @@ tocan hoy**: se aplican el 1-sep con el resto del barrido.
 **ES:**
 
 ```html
-<title>Fotomontaje del Ratoncito Pérez con tu foto: el ratón en tu salón | Don Bigotes</title>
+<title>Fotomontaje del Ratoncito Pérez con tu foto | Don Bigotes</title>
 ```
 
-*(79 car.) El title actual **no** dice «gratis»: este cambio es de copy, no del barrido.*
+*(57 car. — entra entero en el SERP.) El title actual **no** dice «gratis»: este cambio es
+de copy, no del barrido. **No cuenta en las 66.***
 
 #### `app-raton-perez/index.html` — línea 6 (`<title>`)
 
@@ -201,23 +212,46 @@ tocan hoy**: se aplican el 1-sep con el resto del barrido.
 
 *(67 car.) Quita «gratis» y «mágicas» de un golpe.*
 
-#### Sin redacción — pendiente de decisión de Xavi
+#### `app-raton-perez/index.html` — línea 12 (`og:title`)
 
-| Fichero | Línea | Campo | Actual (fragmento) |
-|---|---|---|---|
-| `app-raton-perez/index.html` | 7 | `description` | «…al instante y **gratis**. Sin formularios ni esperas.» |
-| `app-raton-perez/index.html` | 12 | `og:title` | «App del Ratón Pérez: voz y fotos **mágicas gratis**» |
-| `app-raton-perez/index.html` | 13 | `og:description` | «…al instante y **gratis**. Sin formularios ni esperas.» |
-| `foto-raton-perez/index.html` | 7 | `description` | «…no sale de tu dispositivo. **Gratis**.» — G3 solo cubría `:13` |
+> **Actual:** `App del Ratón Pérez: voz y fotos mágicas gratis`
+
+**ES (53 car.):** App del Ratón Pérez: carta, voz y vídeo del Ratoncito
+
+#### `app-raton-perez/index.html` — líneas 7 (`description`) y 13 (`og:description`)
+
+> **Actual (:7):** `Crea la visita del Ratoncito Pérez desde tu móvil en minutos: mensaje de voz y foto personalizados, al instante y gratis. Sin formularios ni esperas.`
+> **Actual (:13):** mismo texto sin «en minutos».
+
+**ES (las dos líneas, mismo texto):** Crea la visita del Ratoncito Pérez desde el móvil en
+minutos: carta, mensaje de voz, vídeo y fotomontaje con el nombre de tu peque. Sin
+registro: todo se crea en tu móvil.
+
+🔴 **Mide 171 caracteres y el tope de G3 es 155.** Google recortará por «…con el nombre de
+tu…» y se perderá la frase de privacidad, que es el diferenciador. Redacción decidida por
+Xavi el 26-ago: se deja tal cual. Si el 1-sep se quiere dentro del tope, dos recortes que
+la conservan:
+> **(a) 146 car.** Crea la visita del Ratoncito Pérez desde el móvil: carta, mensaje de voz, vídeo y fotomontaje con el nombre de tu peque. Todo se crea en tu móvil.
+> **(b) 133 car.** Carta, mensaje de voz, vídeo y fotomontaje del Ratoncito Pérez con el nombre de tu peque, en minutos. Sin registro: todo en tu móvil.
+
+#### `foto-raton-perez/index.html` — línea 7 (`description`)
+
+> **Actual:** `Crea la foto imposible del Ratoncito Pérez junto a tu hijo dormido. El montaje se hace en tu móvil y la foto no sale de tu dispositivo. Gratis.`
+
+**ES (135 car.):** eliminar **únicamente** el « Gratis.» final. El resto de la frase queda
+intacto:
+
+> Crea la foto imposible del Ratoncito Pérez junto a tu hijo dormido. El montaje se hace en tu móvil y la foto no sale de tu dispositivo.
 
 `fotomontaje-ratoncito-perez` **no necesita redacción de metas**: ni `:7` (`description`)
 ni `:14` (`og:description`) dicen «gratis». Sin acción.
 
-**Recuento:** estas **5** ocurrencias de cabecera **no están en las 61**. Con ellas, el
-barrido del 1-sep son **66**. Los «gratis» de cabecera del resto de páginas (`index`,
-`carta-para-imprimir`, `editable`, `primer-diente`, `ultimo-diente`, `certificado`,
-`firma-sello`, `el-ratoncito-perez-existe`) se refieren a **la carta**, que sigue siendo
-gratis después del 1-sep: **correctos, no tocar.**
+**Recuento:** estas **5** ocurrencias de cabecera (`app:6`, `app:7`, `app:12`, `app:13`,
+`foto:7`) **no estaban en las 61**. Con ellas, el barrido del 1-sep son **66**. Los
+«gratis» de cabecera del resto de páginas (`index`, `carta-para-imprimir`, `editable`,
+`primer-diente`, `ultimo-diente`, `certificado`, `firma-sello`,
+`el-ratoncito-perez-existe`) se refieren a **la carta**, que sigue siendo gratis después
+del 1-sep: **correctos, no tocar.**
 
 ---
 
@@ -244,7 +278,17 @@ un solo pago, sin suscripciones. En iPhone, un solo pago desde el primer día.
 
 # G5 · FAQ visible + espejo JSON-LD — 8 pares (16 ocurrencias)
 
+⚠️ **APLICAR TAMBIÉN AL JSON-LD — las 8 redacciones de este bloque, sin excepción.**
+
 🔴 **Los dos lados del par se editan en el mismo commit.** El copy visible manda.
+Desde el 26-ago el JSON-LD es un **espejo verbatim** del visible: no se redacta
+aparte, se **copia** el texto visible ya editado, con tildes y `¿`. Comprobar después
+que las dos cadenas son idénticas carácter a carácter.
+
+Comprobado el 26-ago: **estos 8 pares son las ÚNICAS redacciones de las 66 que caen
+dentro de un bloque FAQ visible.** El resto (G1 leads, G2 hero-notes, G3 y G3-bis
+cabeceras, G4 bloques de precio, G6 micro-claims y prosa) queda fuera de los
+`<details>` y **no toca structured data**.
 
 | # | Página | FAQ visible | JSON-LD |
 |---|---|---|---|
@@ -260,7 +304,7 @@ un solo pago, sin suscripciones. En iPhone, un solo pago desde el primer día.
 ⚠️ **El par 8 faltaba en `INVENTARIO-GRATIS-1SEP.md`** (que listaba 7). Es la página más
 orientada a GEO del sitio.
 
-### 5.1 · «¿Es gratis?» — pares 1, 2, 3 (foto · video · voz)
+### 5.1 · «¿Es gratis?» — pares 1, 2, 3 (foto · video · voz)  ⚠️ APLICAR TAMBIÉN AL JSON-LD
 
 > **Actual:** `Sí, gratis durante el lanzamiento. Después, el Pack Mágico completo cuesta 4,99 € en un único pago, sin suscripciones.`
 
@@ -277,7 +321,7 @@ sistemas.
 **Después del 1-sep (redacción aprobada el 10-ago):** La carta personalizada es gratis
 siempre. El Pack Mágico completo cuesta 4,99 € en un único pago, sin suscripciones.
 
-### 5.2 · «¿La app es gratis?» — par 4 (`app-raton-perez`)
+### 5.2 · «¿La app es gratis?» — par 4 (`app-raton-perez`)  ⚠️ APLICAR TAMBIÉN AL JSON-LD
 
 > **Actual:** `Sí. Puedes usarla gratis durante el lanzamiento. Después, el Pack Mágico completo cuesta 4,99 € en un único pago, sin suscripciones.`
 
@@ -290,7 +334,7 @@ pago. Sin suscripciones.
 siempre. El Pack Mágico completo es gratis en Android hasta el 31 de agosto de 2026 y
 después se paga una sola vez; en iPhone se paga desde el primer día. Sin suscripciones.
 
-### 5.3 · «¿Es gratis el fotomontaje…?» — par 5 (`fotomontaje`)
+### 5.3 · «¿Es gratis el fotomontaje…?» — par 5 (`fotomontaje`)  ⚠️ APLICAR TAMBIÉN AL JSON-LD
 
 > **Actual:** `La app se descarga gratis y el fotomontaje «¡Pillado!» forma parte del Pack Mágico, gratis durante el lanzamiento. No hay que registrarse ni dejar datos para usarlo.`
 
@@ -302,7 +346,7 @@ para usarlo.
 **LATAM:** …gratis en Android hasta el 31 de agosto de 2026 y, después, un solo pago. En
 iPhone se paga desde el primer día. No hay que registrarse ni dejar datos para usarlo.
 
-### 5.4 · «¿Cuánto cuesta el diploma?» — par 6 (`diploma`)
+### 5.4 · «¿Cuánto cuesta el diploma?» — par 6 (`diploma`)  ⚠️ APLICAR TAMBIÉN AL JSON-LD
 
 > **Actual:** `Está incluido en el Pack Mágico de la app Don Bigotes, gratis hasta el 1 de septiembre de 2026.`
 
@@ -312,7 +356,7 @@ imprimir es gratis siempre.
 
 **LATAM:** idéntica. *(Se mantiene «1 de septiembre» literal: regla 3.)*
 
-### 5.5 · «¿Hay apps gratis del Ratoncito Pérez?» — par 7 (`comparativa`)
+### 5.5 · «¿Hay apps gratis del Ratoncito Pérez?» — par 7 (`comparativa`)  ⚠️ APLICAR TAMBIÉN AL JSON-LD
 
 > **Fragmento actual:** `…su Pack Mágico cuesta 4,99 € de pago único y está gratis hasta el 1 de septiembre de 2026.`
 
@@ -324,7 +368,7 @@ septiembre de 2026; en iPhone se paga desde el primer día.
 
 *(El resto de la respuesta —datos de terceros— no se toca.)*
 
-### 5.6 · «¿La felicitación de cumpleaños es de pago?» — par 8 (`cumpleanos`)
+### 5.6 · «¿La felicitación de cumpleaños es de pago?» — par 8 (`cumpleanos`)  ⚠️ APLICAR TAMBIÉN AL JSON-LD
 
 > **Actual:** `La felicitación forma parte de la experiencia de la app. Durante el periodo de lanzamiento, el Pack Mágico completo de Don Bigotes es gratuito.`
 
@@ -377,7 +421,7 @@ de pago desde el primer día
 **LATAM:** Pack Mágico de pago único — gratis en Android hasta el 1-sep-2026; en iOS, de
 pago desde el primer día
 
-### 6.5-bis · `comparativa:291` (celda de plataforma — sin «gratis», no cuenta en las 61)
+### 6.5-bis · `comparativa:291` (celda de plataforma — sin «gratis», no cuenta en las 66)
 
 > **Actual:** `Android · <small>iOS: disponible en septiembre</small>`
 
@@ -402,7 +446,7 @@ Ocurrencias que la línea cubre, sin tocar el cuerpo:
 
 # G7 · Aplicado el 25-ago (corte quirúrgico) — 15 sitios, 35 ediciones
 
-No forman parte de las 61: hoy no dicen «gratis». Son los puntos donde un usuario de iPhone
+No forman parte de las 66: hoy no dicen «gratis». Son los puntos donde un usuario de iPhone
 **actúa** (deja su email) y donde el error se propaga a los buscadores IA.
 
 ### 7.1 · Hint del formulario iOS — 9 sitios ✅
@@ -479,6 +523,11 @@ fija tu tienda según el país»* y «vídeo» → «video».
    faltaban `cumpleanos:214`, `cumpleanos:300` y `prensa:251`.
 2. **Los pares FAQ/JSON-LD son 8, no 7.** Faltaba `cumpleanos-raton-perez` (300 / 214).
 3. **`comparativa:290`** (celda de precio de la tabla) no estaba listada en el bloque F.
+4. **26-ago: son 66, no 61.** El recuento del 25-ago solo miró el `<body>`. Faltaban las
+   **5 líneas de cabecera** de G3-bis (`app-raton-perez` :6 :7 :12 :13 y `foto-raton-perez:7`).
+5. **26-ago: los 8 pares de G5 son los únicos que tocan el JSON-LD.** Comprobado contra
+   los `<details>` de las 18 páginas. Ninguna redacción de G1, G2, G3, G3-bis, G4 ni G6
+   cae dentro de un bloque FAQ visible.
 
 # Lo que ya está bien y no hay que tocar
 

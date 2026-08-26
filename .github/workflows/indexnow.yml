@@ -50,7 +50,7 @@ jobs:
 
           # 3) Mapear los cambios a URLs, de dos fuentes:
           #    a) cada index.html publicado -> la URL de su directorio (raíz y subdirs)
-          #    b) cada fichero suelto de descargas/ -> su URL completa (PDFs, PNGs…)
+          #    b) cada fichero de descargas/, a cualquier profundidad -> su URL completa
           #    Se excluyen dirs que Jekyll no publica (_partials, .github…).
           #    grep sin coincidencias sale con 1: con pipefail hay que tolerarlo
           #    para que un push sin cambios publicables no marque el workflow en rojo.
@@ -63,7 +63,8 @@ jobs:
               done)
 
           DESCARGAS=$(printf '%s\n' "$CHANGED" \
-            | { grep -E '^descargas/[^/]+$' || true; } \
+            | { grep -E '^descargas/.+$' || true; } \
+            | { grep -vE '(^|/)[_.]' || true; } \
             | while read -r f; do echo "https://$HOST/$f"; done)
 
           URLS=$(printf '%s\n%s\n' "$PAGINAS" "$DESCARGAS" \
