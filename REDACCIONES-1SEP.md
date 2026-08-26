@@ -22,27 +22,30 @@
 > Las 66 se repasaron contra este criterio el 26-ago: 61 cumplían, 5 se corrigieron.
 
 **Insumo del barrido.** Contiene la redacción de reemplazo de **las 66 ocurrencias**
-del periodo gratuito, en variante **ES** y **LATAM**, con fichero y línea.
+del periodo gratuito, en variante **ES** y **LATAM**, con fichero y línea. Con las 2
+ediciones sin ocurrencia y la deuda de `G7`, el 1-sep son **84 ediciones**: ver
+«Recuento definitivo», que es la cifra que manda.
 
 - Generado: **25-ago-2026** (auditoría + adenda «gratis-solo-Android»).
 - Medición: `grep` sobre el repo el 25-ago. **Las líneas son orientativas**: localizar
   por patrón de texto, nunca por número de línea.
 - Sustituye en detalle a `INVENTARIO-GRATIS-1SEP.md`, que sigue siendo válido como
-  checklist de ejecución. **Ese inventario decía 57; el recuento real es 66** (ver
-  «Correcciones al inventario» abajo).
+  checklist de ejecución. **Ese inventario decía 57; el recuento real es 66**, reconciliado
+  contra el sitio posición a posición el 26-ago (ver «Recuento definitivo»).
 
 ## Estado
 
 | | Sitios | Cuándo |
 |---|---|---|
 | **Aplicado el 25-ago** | 15 sitios / 35 ediciones | ✅ hecho (corte quirúrgico) |
-| **Pendiente del 1-sep** | **66** ocurrencias | ⏳ al activar el cobro |
+| **Pendiente del 1-sep** | **66** ocurrencias · **68** ediciones · **84** con la deuda de G7 | ⏳ al activar el cobro |
 
 Lo aplicado el 25-ago **no está en las 66**: son puntos de inserción que hoy no dicen
 «gratis» (hints del formulario iOS, `form-ok`, `aria-label` del badge, bloque
 `#descarga` y `llms.txt`). Las 66 siguen intactas y se barren el 1-sep.
-**El recuento pasó de 61 a 66 el 26-ago**: ver G3-bis (5 líneas de cabecera que el
-inventario no había mirado).
+**El recuento pasó de 61 a 66 el 26-ago** (ver G3-bis) y quedó **reconciliado contra el
+sitio posición a posición ese mismo día**: 66 ocurrencias, 68 ediciones, 84 contando la
+deuda de G7. Ver «Recuento definitivo». 🔒 **El número está cerrado: no volver a estimarlo.**
 
 ## Decisiones que rigen este fichero
 
@@ -183,8 +186,10 @@ las piezas del Pack:
 **ES / LATAM:** …como cierre del viaje del diente — la carta, gratis; el mensaje, el Diploma
 de Valentía y el vídeo, con el Pack Mágico — en un día entero.
 
-⚠️ **El `sub` no dice «gratis» hoy: no es una de las 66.** Entra como línea nueva a aplicar
-el 1-sep, para que la enumeración no siga mezclando carta y Pack.
+✅ **Resuelto el 26-ago: el `sub` NO es una de las 66** — hoy no dice «gratis», así que no
+es una ocurrencia. **Sí es una edición del 1-sep.** Es una de las **2 líneas sin «gratis»**
+que hay que tocar (la otra es el `<title>` de `fotomontaje:6`, en G3-bis). De ahí que el
+barrido sean **66 ocurrencias pero 68 ediciones**. Ver «Recuento definitivo».
 
 ---
 
@@ -521,6 +526,13 @@ lanzamiento gratis es solo de Android.
 `index.html:449` · `el-ratoncito-perez-existe:363,397` · `ultimo-diente:362,395` ·
 `editable:369,403` · `primer-diente:362,395`
 
+⚠️ **CADUCA EL 31-AGO — detectado el 26-ago al reconciliar el recuento.** Esta redacción
+dice «**el lanzamiento gratis es solo de Android**»: son **9 ocurrencias de «gratis»** que
+el 1-sep pasan a ser falsas, porque ya no habrá lanzamiento gratis en ninguna plataforma.
+**No estaban marcadas**, a diferencia de 7.4 y 7.5. Entran en el barrido del 1-sep.
+**ES:** *¿Tienes iPhone? Te avisamos cuando el Ratoncito llegue a la App Store. El Pack
+Mágico se paga en un único pago, en los dos sistemas.*
+
 ### 7.2 · `form-ok` (confirmación tras enviar) — 9 sitios ✅
 
 > **Antes:** `¡Hecho! Te escribiremos cuando Don Bigotes llegue a la App Store. ✨`
@@ -531,6 +543,11 @@ iPhone el Pack Mágico se paga desde el primer día. ✨
 **LATAM:** idéntica.
 
 Mismas 5 páginas, junto a cada hint.
+
+⚠️ **Sin «gratis», pero caduca igual.** «En iPhone el Pack Mágico se paga desde el primer
+día» deja de distinguir nada el 1-sep, cuando se paga en los dos sistemas. Vale también
+para **7.3** (`aria-label` del badge, 10 sitios). No cuentan como ocurrencias, sí como
+ediciones a revisar.
 
 ### 7.3 · `aria-label` del badge «Muy pronto en App Store» — 10 sitios ✅
 
@@ -597,7 +614,9 @@ su sitio del inventario, no aquí.
 **Efectos colaterales anotados:**
 
 - **`viaje-del-diente:255` (el `sub`) entra como línea nueva.** Hoy no dice «gratis», así
-  que no era una de las 66; se toca para que la enumeración deje de mezclar carta y Pack.
+  que **no es una de las 66**; se toca para que la enumeración deje de mezclar carta y Pack.
+  Junto al `<title>` de `fotomontaje:6`, son las **2 ediciones sin ocurrencia**: 66
+  ocurrencias, 68 ediciones. Cerrado en «Recuento definitivo».
 - **`G6.3` (`fotomontaje:249`) deja de apuntar a 6.1.** Decía «misma redacción que 6.1» y
   6.1 ha cambiado de sentido. Ahora lleva su texto escrito aparte, con la acotación a
   Android intacta, porque ahí el sujeto es el fotomontaje.
@@ -617,6 +636,67 @@ pasa a «con el Pack Mágico, pago único», sin plataforma.** Aplicado en G1-bi
 viva donde toca —G2 genérico, G2-bis, G6.3, G5— porque el lanzamiento gratis sí es solo de
 Android. Lo que pierde la plataforma es el **pago**, no la gratuidad.)*
 
+# Recuento definitivo — reconciliado contra el sitio el 26-ago  🔒 CERRADO
+
+**Método:** cruce del patrón «Actual» de cada grupo del fichero contra las **255**
+apariciones reales de `gratis`/`gratuit*` en las 19 páginas + `_partials/cta-app.html` +
+`llms.txt`, separando `<head>`, cuerpo visible y JSON-LD. No es una estimación: es un
+recuento posición a posición.
+
+## Las 66 del barrido — confirmadas grupo a grupo
+
+| Grupo | Declara | Real | |
+|---|---|---|---|
+| G1 lead CTA (19) + G1-bis `comparativa:373` (1) | 20 | 20 | ✅ |
+| G2 hero-note (7) + G2-bis `diploma:245` (1) | 8 | 8 | ✅ |
+| G3 metas de voz, vídeo y foto | 5 | 5 | ✅ |
+| G3-bis cabecera (`app:6,7,12,13` + `foto:7`) | 5 | 5 | ✅ |
+| G4 bloques de precio | 4 | 4 | ✅ |
+| G5 pares FAQ (8 visibles + 8 espejo JSON-LD) | 16 | 16 | ✅ |
+| G6 micro-claims y prosa (6.1–6.5 = 5 + `prensa` = 3) | 8 | 8 | ✅ |
+| **TOTAL** | **66** | **66** | ✅ |
+
+**El 66 es correcto.** No sobra ni falta ninguna.
+
+## 66 ocurrencias ≠ 68 ediciones
+
+Dos líneas hay que editar el 1-sep **sin que hoy contengan «gratis»**, así que no son
+ocurrencias pero sí trabajo:
+
+| Línea | Por qué |
+|---|---|
+| `viaje-del-diente:255` (el `sub`) | Enumera la carta junto a las piezas del Pack; se parte en dos (G2-ter) |
+| `fotomontaje-ratoncito-perez:6` (el `<title>`) | Cambio de copy aprobado el 26-ago (G3-bis) |
+
+**66 ocurrencias · 68 ediciones.**
+
+## 🔴 Hallazgo: G7.1 también caduca y no estaba marcada
+
+`G7.1` se aplicó el 25-ago y quedó fuera de las 66 por estar «ya hecha». Pero su texto dice
+«**el lanzamiento gratis es solo de Android**»: **9 ocurrencias** que el 1-sep pasan a ser
+falsas. Solo `7.4` y `7.5` estaban marcadas como caducas. Ya está marcada.
+
+## Total real del 1-sep
+
+| | Ocurrencias | ¿Estaba marcada? |
+|---|---|---|
+| Inventario G1–G6 | 66 | sí |
+| Ediciones sin ocurrencia (`viaje:255`, `fotomontaje:6`) | +2 | sí |
+| `G7.4` bloque `#descarga` | +5 | sí, ⚠️ |
+| `G7.5` `llms.txt` (líneas 71 y 74) | +2 | sí, ⚠️ |
+| **`G7.1` hint iOS** | **+9** | **NO — detectado el 26-ago** |
+| **TOTAL DE EDICIONES EL 1-SEP** | **84** | |
+
+Aparte, sin «gratis» pero con claim que caduca: **`G7.2`** (form-ok, 5 páginas) y **`G7.3`**
+(`aria-label` del badge, 10 sitios) dicen «en iPhone se paga desde el primer día», que el
+1-sep deja de distinguir nada. Revisar, no cuentan como ocurrencias.
+
+## Las 189 apariciones que NO se tocan
+
+De las 255, **189 se quedan**: la carta y sus PDF (es gratis siempre), la firma y el sello,
+la descarga de la app, los textos de la competencia en la comparativa y los enunciados de
+las propias preguntas de las FAQ («¿Es gratis?»), que son preguntas, no reclamos.
+
 # Correcciones al inventario del 23-ago
 
 1. **Son 61 ocurrencias, no 57.** El patrón original no capturaba «periodo de lanzamiento»:
@@ -628,6 +708,11 @@ Android. Lo que pierde la plataforma es el **pago**, no la gratuidad.)*
 5. **26-ago: los 8 pares de G5 son los únicos que tocan el JSON-LD.** Comprobado contra
    los `<details>` de las 18 páginas. Ninguna redacción de G1, G2, G3, G3-bis, G4 ni G6
    cae dentro de un bloque FAQ visible.
+6. **26-ago: el 66 queda RECONCILIADO contra el sitio, no estimado.** Cruce posición a
+   posición de las 255 apariciones de «gratis»: los siete grupos cuadran exactamente.
+   Se cierra además la duda de `viaje:255` (**no** es una de las 66) y aparece la deuda de
+   `G7.1` (9 ocurrencias que caducan y no estaban marcadas). **66 ocurrencias · 68
+   ediciones · 84 con G7.** Ver «Recuento definitivo». 🔒 No re-estimar.
 
 # Lo que ya está bien y no hay que tocar
 
