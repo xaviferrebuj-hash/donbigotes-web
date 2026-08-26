@@ -166,6 +166,59 @@ hace en tu móvil. Gratis en Android hasta el 31-ago.
 
 **LATAM:** …El montaje se hace en tu celular. Gratis en Android hasta el 31-ago.
 
+### G3-bis · `<title>` — 2 (añadido el 26-ago; NO estaba en las 61)
+
+**Hallazgo de la auditoría del 26-ago.** El inventario de las 61 no miró el `<head>` más
+allá de las 5 metas de G3. `app-raton-perez` dice «gratis» en las **cuatro** líneas de
+cabecera (`:6` title, `:7` description, `:12` og:title, `:13` og:description) y ninguna
+estaba listada. Aquí entran los **dos titles encargados por Xavi**; el resto de la
+cabecera queda señalado abajo, **sin redacción**, a la espera de decisión.
+
+⚠️ Ninguna redacción de este bloque contiene «gratis» ni «mágicas». Los titles **no se
+tocan hoy**: se aplican el 1-sep con el resto del barrido.
+
+#### `fotomontaje-ratoncito-perez/index.html` — línea 6 (`<title>`)
+
+> **Actual:** `<title>Fotomontaje del Ratoncito Pérez: la foto del ratón en tu casa | Don Bigotes</title>`
+
+**ES:**
+
+```html
+<title>Fotomontaje del Ratoncito Pérez con tu foto: el ratón en tu salón | Don Bigotes</title>
+```
+
+*(79 car.) El title actual **no** dice «gratis»: este cambio es de copy, no del barrido.*
+
+#### `app-raton-perez/index.html` — línea 6 (`<title>`)
+
+> **Actual:** `<title>App del Ratón Pérez: voz y fotos mágicas gratis | Don Bigotes</title>`
+
+**ES:**
+
+```html
+<title>App del Ratón Pérez: carta, voz y vídeo del Ratoncito | Don Bigotes</title>
+```
+
+*(67 car.) Quita «gratis» y «mágicas» de un golpe.*
+
+#### Sin redacción — pendiente de decisión de Xavi
+
+| Fichero | Línea | Campo | Actual (fragmento) |
+|---|---|---|---|
+| `app-raton-perez/index.html` | 7 | `description` | «…al instante y **gratis**. Sin formularios ni esperas.» |
+| `app-raton-perez/index.html` | 12 | `og:title` | «App del Ratón Pérez: voz y fotos **mágicas gratis**» |
+| `app-raton-perez/index.html` | 13 | `og:description` | «…al instante y **gratis**. Sin formularios ni esperas.» |
+| `foto-raton-perez/index.html` | 7 | `description` | «…no sale de tu dispositivo. **Gratis**.» — G3 solo cubría `:13` |
+
+`fotomontaje-ratoncito-perez` **no necesita redacción de metas**: ni `:7` (`description`)
+ni `:14` (`og:description`) dicen «gratis». Sin acción.
+
+**Recuento:** estas **5** ocurrencias de cabecera **no están en las 61**. Con ellas, el
+barrido del 1-sep son **66**. Los «gratis» de cabecera del resto de páginas (`index`,
+`carta-para-imprimir`, `editable`, `primer-diente`, `ultimo-diente`, `certificado`,
+`firma-sello`, `el-ratoncito-perez-existe`) se refieren a **la carta**, que sigue siendo
+gratis después del 1-sep: **correctos, no tocar.**
+
 ---
 
 # G4 · Bloques de precio en sección — 4
