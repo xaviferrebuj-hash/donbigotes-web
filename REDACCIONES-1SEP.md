@@ -7,6 +7,13 @@
 > Desde el 26-ago las 18 páginas están sincronizadas al 100 % (87/87 preguntas y 87/87
 > respuestas, comprobación estricta). Un solo desajuste invalida el `FAQPage` completo
 > ante Google. Las líneas afectadas van marcadas **⚠️ APLICAR TAMBIÉN AL JSON-LD**.
+>
+> 🟢 **CRITERIO DEL «GRATIS» (rectificación de Xavi, 26-ago-2026).** La carta
+> personalizada **es gratis para siempre**, también después del 1-sep. Por tanto:
+> **«gratis» referido a la CARTA → SE CONSERVA.** «Gratis» referido a **voz, vídeo,
+> fotomontaje, diploma o al Pack Mágico** → se elimina o se acota (Android, hasta el
+> 31-ago). El barrido del 1-sep **no es un borrado ciego de la palabra**: es
+> reanclarla a lo que de verdad sigue siendo gratuito.
 
 **Insumo del barrido.** Contiene la redacción de reemplazo de **las 66 ocurrencias**
 del periodo gratuito, en variante **ES** y **LATAM**, con fichero y línea.
@@ -184,8 +191,9 @@ cabecera (`:6` title, `:7` description, `:12` og:title, `:13` og:description) y 
 estaba listada; `foto-raton-perez:7` tampoco (G3 solo cubría su `:13`). **Redacciones
 decididas por Xavi el 26-ago: el bloque queda cerrado, sin pendientes.**
 
-⚠️ Ninguna redacción de este bloque contiene «gratis» ni «mágicas». **No se toca nada hoy**:
-se aplica el 1-sep con el resto del barrido.
+⚠️ Ninguna redacción de este bloque contiene «mágicas». **«Gratis» sí aparece, y es
+correcto:** va referido a la carta (ver el criterio de la regla de cabecera). **No se toca
+nada hoy**: se aplica el 1-sep con el resto del barrido.
 
 #### `fotomontaje-ratoncito-perez/index.html` — línea 6 (`<title>`)
 
@@ -207,32 +215,30 @@ de copy, no del barrido. **No cuenta en las 66.***
 **ES:**
 
 ```html
-<title>App del Ratón Pérez: carta, voz y vídeo del Ratoncito | Don Bigotes</title>
+<title>App del Ratón Pérez: carta gratis, voz y vídeo | Don Bigotes</title>
 ```
 
-*(67 car.) Quita «gratis» y «mágicas» de un golpe.*
+*(60 car.) Quita «mágicas» y **reancla «gratis» a la carta**, que sigue siendo gratis
+siempre. Rectificación de Xavi del 26-ago.*
 
 #### `app-raton-perez/index.html` — línea 12 (`og:title`)
 
 > **Actual:** `App del Ratón Pérez: voz y fotos mágicas gratis`
 
-**ES (53 car.):** App del Ratón Pérez: carta, voz y vídeo del Ratoncito
+**ES (46 car.):** App del Ratón Pérez: carta gratis, voz y vídeo
 
 #### `app-raton-perez/index.html` — líneas 7 (`description`) y 13 (`og:description`)
 
 > **Actual (:7):** `Crea la visita del Ratoncito Pérez desde tu móvil en minutos: mensaje de voz y foto personalizados, al instante y gratis. Sin formularios ni esperas.`
 > **Actual (:13):** mismo texto sin «en minutos».
 
-**ES (las dos líneas, mismo texto):** Crea la visita del Ratoncito Pérez desde el móvil en
-minutos: carta, mensaje de voz, vídeo y fotomontaje con el nombre de tu peque. Sin
-registro: todo se crea en tu móvil.
+**ES (las dos líneas, mismo texto — 139 car., dentro del tope de 155):** Crea la visita
+del Ratoncito Pérez desde el móvil: carta gratis con su nombre, y con el Pack Mágico voz,
+vídeo y fotomontaje. Sin registro.
 
-🔴 **Mide 171 caracteres y el tope de G3 es 155.** Google recortará por «…con el nombre de
-tu…» y se perderá la frase de privacidad, que es el diferenciador. Redacción decidida por
-Xavi el 26-ago: se deja tal cual. Si el 1-sep se quiere dentro del tope, dos recortes que
-la conservan:
-> **(a) 146 car.** Crea la visita del Ratoncito Pérez desde el móvil: carta, mensaje de voz, vídeo y fotomontaje con el nombre de tu peque. Todo se crea en tu móvil.
-> **(b) 133 car.** Carta, mensaje de voz, vídeo y fotomontaje del Ratoncito Pérez con el nombre de tu peque, en minutos. Sin registro: todo en tu móvil.
+✅ **Rectificación de Xavi del 26-ago.** La versión anterior (171 car.) y sus dos recortes
+alternativos **quedan descartados**. Esta cabe entera en el snippet, conserva «Sin
+registro» y deja «gratis» pegado a la carta, separado del Pack Mágico.
 
 #### `foto-raton-perez/index.html` — línea 7 (`description`)
 
@@ -516,6 +522,32 @@ sustituir la línea del precio por *«El Pack Mágico se cobra en un único pago
 fija tu tienda según el país»* y «vídeo» → «video».
 
 ---
+
+# Revisión de las 66 contra el criterio del «gratis» — 26-ago
+
+Repasadas **las 66 líneas** contra el criterio nuevo (carta → se conserva; Pack → se
+elimina o se acota). **61 lo cumplen.** Las **5** de abajo lo contradicen o quedan
+ambiguas. 🛑 **NO se han cambiado**: hacen falta decisiones de copy que no son mecánicas.
+
+| # | Línea | Problema | Gravedad |
+|---|---|---|---|
+| 1 | **G1-bis** · `comparativa:373` | La redacción enumera «**Carta** con su nombre, nota de voz, fotomontaje, Diploma y vídeo» y cierra «Gratis en Android **hasta el 1 de septiembre de 2026**». La fecha cae también sobre la carta, que es gratis siempre. | 🔴 contradice |
+| 2 | **G6.2** · `historia:355` | Misma forma: «el viaje del diente completo —voz, **carta**, foto…, diploma y vídeo— espera en la app Don Bigotes, gratis en Android durante el lanzamiento». | 🔴 contradice |
+| 3 | **G2** · `firma-sello-raton-perez:260` (hero-note) | La página regala firma y sello en PNG y PDF **para siempre**, y su CTA es «Crear su carta firmada en la app». Un «Gratis en Android durante el lanzamiento» ahí desmiente lo que la propia página ofrece. | 🔴 contradice |
+| 4 | **G6.1** · `historia:271` (micro) | «Gratis en Android durante el lanzamiento» suelto, bajo el CTA «Preparar la noche del diente», que lleva a la carta. Sin referente: se lee como la carta. | 🟠 ambigua |
+| 5 | **G2** · `viaje-del-diente:259` (hero-note) | Igual: el `sub` de la página enumera «mensaje, **carta**, Diploma de Valentía y vídeo» y el hero-note fecha la gratuidad sin decir de qué. | 🟠 ambigua |
+
+**Patrón común:** el «gratis» aparece **detrás de una enumeración que incluye la carta**, o
+**suelto sin referente**. En los dos casos el lector lo aplica a todo. Los 61 restantes
+anclan el «gratis» a un sujeto explícito («el Pack Mágico», «el fotomontaje», «la carta en
+PDF») y por eso funcionan.
+
+**Recomendación (decide Xavi el 1-sep):** en 1, 2 y 5, sacar la carta de la enumeración y
+dejarla aparte —el patrón que ya usa bien `comparativa:254`: `Carta gratis en PDF · Pack
+Mágico gratis en Android hasta…`—. En 3 y 4, poner sujeto al «gratis».
+
+⚠️ `certificado-raton-perez:246` tiene la misma forma que 4 y 5, pero **es 🚫 intocable por
+la regla 4**: queda anotado, sin acción.
 
 # Correcciones al inventario del 23-ago
 

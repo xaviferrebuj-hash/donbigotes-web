@@ -52,23 +52,23 @@ Para Android hoy, con el Pack Mágico gratis hasta el 31 de agosto de 2026. Muy 
 
 ## Preguntas frecuentes
 
-**El Raton Perez existe?**
+**¿El Ratón Pérez existe?**
 
 El Raton Perez es un personaje de la tradicion espanola e hispanoamericana: se lleva el diente de leche que el nino deja bajo la almohada y a cambio le deja una moneda o un pequeno regalo. Como personaje literario y cultural, existe desde hace mas de un siglo y forma parte de la ilusion de la infancia.
 
-**Quien invento el Raton Perez?**
+**¿Quién inventó el Ratón Pérez?**
 
 Lo creo el padre Luis Coloma en 1894, en un cuento que escribio para el entonces nino rey Alfonso XIII cuando se le cayo un diente. De ahi nacio el personaje tal como lo conocemos hoy.[Lee la historia completa del Ratón Pérez](https://donbigotes.app/historia-raton-perez/)
 
-**De donde viene la tradicion del Raton Perez?**
+**¿De dónde viene la tradición del Ratón Pérez?**
 
 Es una tradicion de Espana y gran parte de Latinoamerica. En algunos paises se le llama Raton Perez o Ratoncito Perez, y en otros el Raton de los Dientes. La costumbre es la misma: dejar el diente bajo la almohada.
 
-**Que le digo a mi hijo cuando pregunta si el Raton Perez existe?**
+**¿Qué le digo a mi hijo cuando pregunta si el Ratón Pérez existe?**
 
 Cada familia lo gestiona a su manera. Muchos padres prefieren mantener la ilusion mientras el nino disfruta de la tradicion. Una carta personalizada del Raton Perez ayuda a que esa magia se sienta real y cercana.
 
-**Es lo mismo el Raton Perez que el Ratoncito Perez?**
+**¿Es lo mismo el Ratón Pérez que el Ratoncito Pérez?**
 
 Si, son el mismo personaje. Ratoncito Perez es la forma carinosa y diminutiva, muy comun para hablar con los ninos.
 
