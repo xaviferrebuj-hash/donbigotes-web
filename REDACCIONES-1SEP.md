@@ -14,7 +14,7 @@
 > | Ítem | Cómo se dice |
 > |---|---|
 > | **Carta, firma y sello** | «gratis», **sin fecha ni condición** |
-> | **Voz, vídeo, fotomontaje, diploma** | «con el Pack Mágico, pago único en Android» — **sin cifra en euros** (deuda LATAM: no sumar más «4,99 €») |
+> | **Voz, vídeo, fotomontaje, diploma** | «con el Pack Mágico, pago único» — **sin cifra en euros** (deuda LATAM: no sumar más «4,99 €») y **sin plataforma** (el 26-ago se quitó «en Android»: tras el 1-sep el pago único vale en los dos sistemas) |
 >
 > **Ninguna enumeración puede mezclar la carta con el Pack bajo un mismo «gratis».** El
 > modelo es `comparativa:254`: sujeto explícito por ítem. El barrido del 1-sep **no es un
@@ -113,7 +113,7 @@ El Pack Mágico completo, 4,99 € en un único pago.
 
 **ES (corregida el 26-ago — la anterior fechaba la gratuidad de la carta):** Carta con su
 nombre, gratis. Nota de voz, fotomontaje «¡Pillado!», Diploma de Valentía y vídeo desde la
-Oficina, con el Pack Mágico: pago único en Android.
+Oficina, con el Pack Mágico: pago único.
 
 **LATAM:** idéntica.
 
@@ -446,7 +446,7 @@ carta. El «gratis» pasa a tener sujeto y deja de caducar.
 
 **ES / LATAM (corregida el 26-ago):** …el viaje del diente completo espera en la app Don
 Bigotes: la carta, gratis; la voz, la foto del ratón pillado, el diploma y el vídeo, con el
-Pack Mágico, pago único en Android.
+Pack Mágico, pago único.
 
 ✅ **Criterio aplicado:** la carta sale de la enumeración. La redacción anterior fechaba la
 gratuidad de las cinco piezas a la vez.
@@ -607,13 +607,15 @@ su sitio del inventario, no aquí.
 ⚠️ **`certificado-raton-perez:246` tiene la misma forma que 4 y 5 y NO se ha tocado**: es
 🚫 intocable por la regla 4. Queda anotado para cuando se levante esa regla.
 
-🟠 **Dos avisos sobre la fórmula «pago único en Android»** (decidida por Xavi el 26-ago):
-1. **Omite iPhone.** El resto del fichero cierra siempre con «en iPhone se paga desde el
-   primer día». Sin esa coletilla, «pago único en Android» se puede leer como «solo
-   disponible en Android», que a partir del 1-sep será falso.
-2. **Después del 1-sep el «en Android» sobra**: cuando acabe el periodo gratuito el Pack es
-   de pago único en las dos plataformas, y el matiz de plataforma pierde sentido.
-Se ha aplicado la fórmula tal cual la decidiste. Revísala el 1-sep.
+✅ **Los dos avisos sobre «pago único en Android» quedan RESUELTOS (26-ago).** Decían que
+la fórmula omitía iPhone y que, pasado el 1-sep, el matiz de plataforma sobraba porque el
+Pack es de pago único en los dos sistemas. **Xavi los cierra por la vía simple: la fórmula
+pasa a «con el Pack Mágico, pago único», sin plataforma.** Aplicado en G1-bis
+(`comparativa:373`) y G6.2 (`historia:355`), y fijado en el criterio de cabecera.
+
+*(Ojo al no confundirlo con la acotación a Android del periodo **gratuito**, que sí sigue
+viva donde toca —G2 genérico, G2-bis, G6.3, G5— porque el lanzamiento gratis sí es solo de
+Android. Lo que pierde la plataforma es el **pago**, no la gratuidad.)*
 
 # Correcciones al inventario del 23-ago
 
