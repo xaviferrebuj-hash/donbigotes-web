@@ -691,6 +691,12 @@ Aparte, sin «gratis» pero con claim que caduca: **`G7.2`** (form-ok, 5 página
 (`aria-label` del badge, 10 sitios) dicen «en iPhone se paga desde el primer día», que el
 1-sep deja de distinguir nada. Revisar, no cuentan como ocurrencias.
 
+### Checklist del 1-sep — pendientes que no son ocurrencias
+
+- [ ] **Revisar `G7.2` (form-ok, 5 págs) y `G7.3` (`aria-label` badge, 10 sitios):**
+  «en iPhone se paga desde el primer día» deja de distinguir nada post-1-sep;
+  redacción según la rama iOS que aplique ese día.
+
 ## Las 189 apariciones que NO se tocan
 
 De las 255, **189 se quedan**: la carta y sus PDF (es gratis siempre), la firma y el sello,

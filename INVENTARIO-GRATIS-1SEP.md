@@ -3,6 +3,10 @@
 Generado: 23-ago-2026 (Cowork, solo lectura). **57 ocurrencias en 20 ficheros.**
 Los números de línea son orientativos (válidos a fecha del inventario): Code debe localizar por patrón, no por línea.
 
+⚠️ El «57 ocurrencias» de este inventario está superado. Recuento definitivo y cruce
+completo: `REDACCIONES-1SEP.md` (**66 ocurrencias, 68 ediciones, 84 con G7**).
+**No usar este fichero como conteo.**
+
 ## Hallazgo estructural
 
 `_partials/cta-app.html` SÍ existe: es la **fuente única documental** del bloque CTA
