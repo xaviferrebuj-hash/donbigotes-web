@@ -54,19 +54,19 @@ Para Android hoy, con el Pack Mágico gratis hasta el 31 de agosto de 2026. Muy 
 
 **¿Qué es la carta de despedida del Ratón Pérez?**
 
-Es la carta que el Raton Perez deja con el ultimo diente de leche. Don Bigotes la personaliza con el nombre de tu peque para cerrar la etapa con un recuerdo bonito.
+Es la carta que el Ratón Pérez deja con el último diente de leche. Don Bigotes la personaliza con el nombre de tu peque para cerrar la etapa con un recuerdo bonito.
 
 **¿Cuándo se cae el último diente de leche?**
 
-Suele caerse entre los 11 y los 12 anos, aunque varia en cada nino. Es el momento perfecto para una carta de despedida especial del Raton Perez.
+Suele caerse entre los 11 y los 12 años, aunque varía en cada niño. Es el momento perfecto para una carta de despedida especial del Ratón Pérez.
 
 **¿La carta de despedida es gratis?**
 
-Si. La carta personalizada es gratuita. La nota de voz, el fotomontaje y el diploma de valentia forman parte del Pack Magico, que es opcional.
+Sí. La carta personalizada es gratuita. La nota de voz, el fotomontaje y el diploma de valentía forman parte del Pack Mágico, que es opcional.
 
 **¿Cómo hago la carta de despedida del Ratoncito Pérez?**
 
-Escribes el nombre de tu peque, indicas que es el ultimo diente y la app genera una carta de despedida al instante, lista para imprimir o guardar en PDF.
+Escribes el nombre de tu peque, indicas que es el último diente y la app genera una carta de despedida al instante, lista para imprimir o guardar en PDF.
 
 ## Que la próxima caída de diente sea inolvidable
 

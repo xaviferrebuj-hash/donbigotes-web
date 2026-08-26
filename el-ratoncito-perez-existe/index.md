@@ -54,23 +54,23 @@ Para Android hoy, con el Pack Mágico gratis hasta el 31 de agosto de 2026. Muy 
 
 **¿El Ratón Pérez existe?**
 
-El Raton Perez es un personaje de la tradicion espanola e hispanoamericana: se lleva el diente de leche que el nino deja bajo la almohada y a cambio le deja una moneda o un pequeno regalo. Como personaje literario y cultural, existe desde hace mas de un siglo y forma parte de la ilusion de la infancia.
+El Ratón Pérez es un personaje de la tradición española e hispanoamericana: se lleva el diente de leche que el niño deja bajo la almohada y a cambio le deja una moneda o un pequeño regalo. Como personaje literario y cultural, existe desde hace más de un siglo y forma parte de la ilusión de la infancia.
 
 **¿Quién inventó el Ratón Pérez?**
 
-Lo creo el padre Luis Coloma en 1894, en un cuento que escribio para el entonces nino rey Alfonso XIII cuando se le cayo un diente. De ahi nacio el personaje tal como lo conocemos hoy.[Lee la historia completa del Ratón Pérez](https://donbigotes.app/historia-raton-perez/)
+Lo creó el padre Luis Coloma en 1894, en un cuento que escribió para el entonces niño rey Alfonso XIII cuando se le cayó un diente. De ahí nació el personaje tal como lo conocemos hoy.[Lee la historia completa del Ratón Pérez](https://donbigotes.app/historia-raton-perez/)
 
 **¿De dónde viene la tradición del Ratón Pérez?**
 
-Es una tradicion de Espana y gran parte de Latinoamerica. En algunos paises se le llama Raton Perez o Ratoncito Perez, y en otros el Raton de los Dientes. La costumbre es la misma: dejar el diente bajo la almohada.
+Es una tradición de España y gran parte de Latinoamérica. En algunos países se le llama Ratón Pérez o Ratoncito Pérez, y en otros el Ratón de los Dientes. La costumbre es la misma: dejar el diente bajo la almohada.
 
 **¿Qué le digo a mi hijo cuando pregunta si el Ratón Pérez existe?**
 
-Cada familia lo gestiona a su manera. Muchos padres prefieren mantener la ilusion mientras el nino disfruta de la tradicion. Una carta personalizada del Raton Perez ayuda a que esa magia se sienta real y cercana.
+Cada familia lo gestiona a su manera. Muchos padres prefieren mantener la ilusión mientras el niño disfruta de la tradición. Una carta personalizada del Ratón Pérez ayuda a que esa magia se sienta real y cercana.
 
 **¿Es lo mismo el Ratón Pérez que el Ratoncito Pérez?**
 
-Si, son el mismo personaje. Ratoncito Perez es la forma carinosa y diminutiva, muy comun para hablar con los ninos.
+Sí, son el mismo personaje. Ratoncito Pérez es la forma cariñosa y diminutiva, muy común para hablar con los niños.
 
 ## Que la próxima caída de diente sea inolvidable
 

@@ -10,10 +10,16 @@
 >
 > 🟢 **CRITERIO DEL «GRATIS» (rectificación de Xavi, 26-ago-2026).** La carta
 > personalizada **es gratis para siempre**, también después del 1-sep. Por tanto:
-> **«gratis» referido a la CARTA → SE CONSERVA.** «Gratis» referido a **voz, vídeo,
-> fotomontaje, diploma o al Pack Mágico** → se elimina o se acota (Android, hasta el
-> 31-ago). El barrido del 1-sep **no es un borrado ciego de la palabra**: es
-> reanclarla a lo que de verdad sigue siendo gratuito.
+>
+> | Ítem | Cómo se dice |
+> |---|---|
+> | **Carta, firma y sello** | «gratis», **sin fecha ni condición** |
+> | **Voz, vídeo, fotomontaje, diploma** | «con el Pack Mágico, pago único en Android» — **sin cifra en euros** (deuda LATAM: no sumar más «4,99 €») |
+>
+> **Ninguna enumeración puede mezclar la carta con el Pack bajo un mismo «gratis».** El
+> modelo es `comparativa:254`: sujeto explícito por ítem. El barrido del 1-sep **no es un
+> borrado ciego de la palabra**: es reanclarla a lo que de verdad sigue siendo gratuito.
+> Las 66 se repasaron contra este criterio el 26-ago: 61 cumplían, 5 se corrigieron.
 
 **Insumo del barrido.** Contiene la redacción de reemplazo de **las 66 ocurrencias**
 del periodo gratuito, en variante **ES** y **LATAM**, con fichero y línea.
@@ -105,16 +111,18 @@ El Pack Mágico completo, 4,99 € en un único pago.
 
 > **Actual (`comparativa:373`):** `Carta con su nombre, nota de voz, fotomontaje «¡Pillado!», Diploma de Valentía y vídeo desde la Oficina. Gratis hasta el 1 de septiembre de 2026.`
 
-**ES:** Carta con su nombre, nota de voz, fotomontaje «¡Pillado!», Diploma de Valentía y
-vídeo desde la Oficina. Gratis en Android hasta el 1 de septiembre de 2026; en iPhone, un
-único pago desde el primer día.
+**ES (corregida el 26-ago — la anterior fechaba la gratuidad de la carta):** Carta con su
+nombre, gratis. Nota de voz, fotomontaje «¡Pillado!», Diploma de Valentía y vídeo desde la
+Oficina, con el Pack Mágico: pago único en Android.
 
-**LATAM:** …Gratis en Android hasta el 1 de septiembre de 2026; en iPhone, un solo pago
-desde el primer día.
+**LATAM:** idéntica.
+
+✅ **Criterio aplicado:** la carta sale de la enumeración y se queda sin fecha ni condición;
+el Pack va aparte y sin cifra en euros.
 
 ---
 
-# G2 · hero-note — 8 sitios
+# G2 · hero-note — 8 sitios (4 genéricos + 4 con redacción propia)
 
 > **Actual:** `Gratis durante el lanzamiento · [claim propio de la página] · Hecho/a en España`
 
@@ -125,18 +133,22 @@ desde el primer día.
 ⚠️ **El 1-sep el hero-note no puede quedarse con dos claims:** al caer la gratuidad hay
 que rellenar el hueco. Redacción sugerida: `4,99 € pago único · [claim] · Hecho/a en España`.
 
+🔴 **La redacción genérica vale solo en las 4 páginas de una pieza del Pack** (foto, vídeo,
+voz, app): ahí el «gratis» ya tiene sujeto por contexto. En `firma-sello` y
+`viaje-del-diente` decía lo contrario de lo que ofrece la página — ver G2-ter.
+
 ### Sitios (8)
 
-| Fichero | Línea | Claim que acompaña |
-|---|---|---|
-| `foto-raton-perez/index.html` | 231 | Tus fotos no salen de tu móvil · Hecha en España |
-| `video-raton-perez/index.html` | 234 | Sin esperas · Hecho en España |
-| `voz-raton-perez/index.html` | 236 | Al instante · Hecho en España |
-| `certificado-raton-perez/index.html` | 246 | 🚫 no tocar (regla 4) |
-| `viaje-del-diente/index.html` | 259 | Al instante · Hecho en España |
-| `app-raton-perez/index.html` | 231 | Tus fotos no salen de tu móvil · Hecha en España |
-| `firma-sello-raton-perez/index.html` | 260 | Al instante · Hecho en España |
-| `diploma-raton-perez/index.html` | 245 | **variante fechada** (ver G2-bis) |
+| Fichero | Línea | Claim que acompaña | Redacción |
+|---|---|---|---|
+| `foto-raton-perez/index.html` | 231 | Tus fotos no salen de tu móvil · Hecha en España | genérica |
+| `video-raton-perez/index.html` | 234 | Sin esperas · Hecho en España | genérica |
+| `voz-raton-perez/index.html` | 236 | Al instante · Hecho en España | genérica |
+| `app-raton-perez/index.html` | 231 | Tus fotos no salen de tu móvil · Hecha en España | genérica |
+| `certificado-raton-perez/index.html` | 246 | — | 🚫 no tocar (regla 4) |
+| `diploma-raton-perez/index.html` | 245 | **variante fechada** | ver **G2-bis** |
+| `firma-sello-raton-perez/index.html` | 260 | Al instante · Hecho en España | ver **G2-ter** |
+| `viaje-del-diente/index.html` | 259 | Al instante · Hecho en España | ver **G2-ter** |
 
 ### G2-bis · hero-note del diploma
 
@@ -145,6 +157,34 @@ que rellenar el hueco. Redacción sugerida: `4,99 € pago único · [claim] · 
 **ES / LATAM:** Incluido en el Pack Mágico · Gratis en Android hasta el 1 de septiembre
 
 *(Se mantiene «1 de septiembre» literal: regla 3.)*
+
+### G2-ter · hero-notes con sujeto propio (corregidos el 26-ago)
+
+#### `firma-sello-raton-perez:260`
+
+> **Actual:** `Gratis durante el lanzamiento · Al instante · Hecho en España`
+
+**ES / LATAM:** Firma y sello gratis · Al instante · Hecho en España
+
+✅ **Sin fecha y sin condición.** La firma y el sello en PNG y PDF se descargan gratis
+siempre; el hero-note anterior fechaba una gratuidad que en esta página no caduca.
+
+#### `viaje-del-diente:259`
+
+> **Actual:** `Gratis durante el lanzamiento · Al instante · Hecho en España`
+
+**ES / LATAM:** Carta gratis · Al instante · Hecho en España
+
+**Y en el `sub` de la misma página** (`viaje-del-diente:255`), que enumera la carta junto a
+las piezas del Pack:
+
+> **Fragmento actual:** `…como cierre del viaje del diente — mensaje, carta, Diploma de Valentía y vídeo en un día entero.`
+
+**ES / LATAM:** …como cierre del viaje del diente — la carta, gratis; el mensaje, el Diploma
+de Valentía y el vídeo, con el Pack Mágico — en un día entero.
+
+⚠️ **El `sub` no dice «gratis» hoy: no es una de las 66.** Entra como línea nueva a aplicar
+el 1-sep, para que la enumeración no siga mezclando carta y Pack.
 
 ---
 
@@ -394,21 +434,33 @@ sola vez. En iPhone se paga desde el primer día.
 
 > **Actual:** `Sin registro · Se procesa en tu móvil · Gratis durante el lanzamiento`
 
-**ES:** Sin registro · Se procesa en tu móvil · Gratis en Android durante el lanzamiento
-**LATAM:** Sin registro · Se procesa en tu celular · Gratis en Android durante el lanzamiento
+**ES (corregida el 26-ago):** Sin registro · Se procesa en tu móvil · Carta gratis con su nombre
+**LATAM:** Sin registro · Se procesa en tu celular · Carta gratis con su nombre
+
+✅ **Criterio aplicado:** el CTA que acompaña («Preparar la noche del diente») lleva a la
+carta. El «gratis» pasa a tener sujeto y deja de caducar.
 
 ### 6.2 · `historia-raton-perez:355` (prosa)
 
-> **Fragmento actual:** `…espera en la app Don Bigotes, gratis durante el lanzamiento.`
+> **Fragmento actual:** `…el viaje del diente completo —voz, carta, foto del ratón pillado, diploma y vídeo— espera en la app Don Bigotes, gratis durante el lanzamiento.`
 
-**ES:** …espera en la app Don Bigotes, gratis en Android durante el lanzamiento.
-**LATAM:** idéntica.
+**ES / LATAM (corregida el 26-ago):** …el viaje del diente completo espera en la app Don
+Bigotes: la carta, gratis; la voz, la foto del ratón pillado, el diploma y el vídeo, con el
+Pack Mágico, pago único en Android.
+
+✅ **Criterio aplicado:** la carta sale de la enumeración. La redacción anterior fechaba la
+gratuidad de las cinco piezas a la vez.
 
 ### 6.3 · `fotomontaje-ratoncito-perez:249` (micro)
 
 > **Actual:** `Sin registro · Se procesa en tu móvil · Gratis durante el lanzamiento`
 
-Misma redacción que 6.1.
+**ES:** Sin registro · Se procesa en tu móvil · Gratis en Android durante el lanzamiento
+**LATAM:** Sin registro · Se procesa en tu celular · Gratis en Android durante el lanzamiento
+
+⚠️ **Ya no es «misma redacción que 6.1».** El 26-ago 6.1 pasó a «Carta gratis con su
+nombre» porque su CTA lleva a la carta; aquí el sujeto es el **fotomontaje**, que es Pack,
+así que conserva la acotación a Android y al lanzamiento. **Cumple el criterio.**
 
 ### 6.4 · `comparativa:254` (micro fechada)
 
@@ -523,31 +575,45 @@ fija tu tienda según el país»* y «vídeo» → «video».
 
 ---
 
-# Revisión de las 66 contra el criterio del «gratis» — 26-ago
+# Revisión de las 66 contra el criterio del «gratis» — 26-ago  ✅ CERRADA
 
-Repasadas **las 66 líneas** contra el criterio nuevo (carta → se conserva; Pack → se
-elimina o se acota). **61 lo cumplen.** Las **5** de abajo lo contradicen o quedan
-ambiguas. 🛑 **NO se han cambiado**: hacen falta decisiones de copy que no son mecánicas.
+Repasadas **las 66 líneas** contra el criterio (carta, firma y sello → «gratis» sin fecha
+ni condición; voz, vídeo, fotomontaje y diploma → «con el Pack Mágico, pago único en
+Android», sin cifra en euros; ninguna enumeración mezcla carta y Pack bajo un mismo
+«gratis»).
 
-| # | Línea | Problema | Gravedad |
+**61 lo cumplían de origen. Las 5 que no, corregidas el 26-ago** siguiendo el modelo de
+`comparativa:254` (sujeto explícito por ítem). **Ya no hay pendientes:** cada una vive en
+su sitio del inventario, no aquí.
+
+| # | Línea | Dónde está ahora | Qué se hizo |
 |---|---|---|---|
-| 1 | **G1-bis** · `comparativa:373` | La redacción enumera «**Carta** con su nombre, nota de voz, fotomontaje, Diploma y vídeo» y cierra «Gratis en Android **hasta el 1 de septiembre de 2026**». La fecha cae también sobre la carta, que es gratis siempre. | 🔴 contradice |
-| 2 | **G6.2** · `historia:355` | Misma forma: «el viaje del diente completo —voz, **carta**, foto…, diploma y vídeo— espera en la app Don Bigotes, gratis en Android durante el lanzamiento». | 🔴 contradice |
-| 3 | **G2** · `firma-sello-raton-perez:260` (hero-note) | La página regala firma y sello en PNG y PDF **para siempre**, y su CTA es «Crear su carta firmada en la app». Un «Gratis en Android durante el lanzamiento» ahí desmiente lo que la propia página ofrece. | 🔴 contradice |
-| 4 | **G6.1** · `historia:271` (micro) | «Gratis en Android durante el lanzamiento» suelto, bajo el CTA «Preparar la noche del diente», que lleva a la carta. Sin referente: se lee como la carta. | 🟠 ambigua |
-| 5 | **G2** · `viaje-del-diente:259` (hero-note) | Igual: el `sub` de la página enumera «mensaje, **carta**, Diploma de Valentía y vídeo» y el hero-note fecha la gratuidad sin decir de qué. | 🟠 ambigua |
+| 1 | `comparativa:373` | **G1-bis** | La carta sale de la enumeración: «Carta con su nombre, gratis.» y el resto al Pack |
+| 2 | `historia:355` | **G6.2** | Igual, adaptado a la prosa: «la carta, gratis; la voz, la foto…, el diploma y el vídeo, con el Pack Mágico» |
+| 3 | `firma-sello:260` | **G2-ter** | Fuera toda fecha: «Firma y sello gratis» |
+| 4 | `historia:271` | **G6.1** | Sujeto al «gratis»: «Carta gratis con su nombre» |
+| 5 | `viaje-del-diente:259` | **G2-ter** | «Carta gratis» en el hero-note **y** la enumeración del `sub` partida en dos |
 
-**Patrón común:** el «gratis» aparece **detrás de una enumeración que incluye la carta**, o
-**suelto sin referente**. En los dos casos el lector lo aplica a todo. Los 61 restantes
-anclan el «gratis» a un sujeto explícito («el Pack Mágico», «el fotomontaje», «la carta en
-PDF») y por eso funcionan.
+**Efectos colaterales anotados:**
 
-**Recomendación (decide Xavi el 1-sep):** en 1, 2 y 5, sacar la carta de la enumeración y
-dejarla aparte —el patrón que ya usa bien `comparativa:254`: `Carta gratis en PDF · Pack
-Mágico gratis en Android hasta…`—. En 3 y 4, poner sujeto al «gratis».
+- **`viaje-del-diente:255` (el `sub`) entra como línea nueva.** Hoy no dice «gratis», así
+  que no era una de las 66; se toca para que la enumeración deje de mezclar carta y Pack.
+- **`G6.3` (`fotomontaje:249`) deja de apuntar a 6.1.** Decía «misma redacción que 6.1» y
+  6.1 ha cambiado de sentido. Ahora lleva su texto escrito aparte, con la acotación a
+  Android intacta, porque ahí el sujeto es el fotomontaje.
+- **`G2` pasa de 8 sitios con una redacción única a 4 genéricos + 4 con redacción propia**
+  (`certificado` 🚫, `diploma` en G2-bis, `firma-sello` y `viaje` en G2-ter).
 
-⚠️ `certificado-raton-perez:246` tiene la misma forma que 4 y 5, pero **es 🚫 intocable por
-la regla 4**: queda anotado, sin acción.
+⚠️ **`certificado-raton-perez:246` tiene la misma forma que 4 y 5 y NO se ha tocado**: es
+🚫 intocable por la regla 4. Queda anotado para cuando se levante esa regla.
+
+🟠 **Dos avisos sobre la fórmula «pago único en Android»** (decidida por Xavi el 26-ago):
+1. **Omite iPhone.** El resto del fichero cierra siempre con «en iPhone se paga desde el
+   primer día». Sin esa coletilla, «pago único en Android» se puede leer como «solo
+   disponible en Android», que a partir del 1-sep será falso.
+2. **Después del 1-sep el «en Android» sobra**: cuando acabe el periodo gratuito el Pack es
+   de pago único en las dos plataformas, y el matiz de plataforma pierde sentido.
+Se ha aplicado la fórmula tal cual la decidiste. Revísala el 1-sep.
 
 # Correcciones al inventario del 23-ago
 
