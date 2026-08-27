@@ -16,10 +16,14 @@
      · appstore  -> null  => el badge se OCULTA (sin versión iOS).
 
    ATRIBUCIÓN POR CANAL (jul 2026):
+   - Cada página trae ya en el HTML un `&referrer=` propio
+     (utm_source=donbigotes.app, utm_medium=web, utm_campaign=<slug>
+     de la página), para que Play Console separe las instalaciones
+     que vienen de la web incluso sin JavaScript.
    - Si la visita llega con parámetros utm_* (p. ej. desde un email
      de outreach), este script los guarda en sessionStorage y los
      reinyecta en TODOS los enlaces a Google Play como `&referrer=`
-     URL-encoded. Así Play Console puede desglosar las instalaciones
+     URL-encoded, SUSTITUYENDO al de la página: manda el canal real. Así Play Console puede desglosar las instalaciones
      por canal en Adquisición de usuarios -> Origen de tráfico.
    - Cubre los DOS tipos de enlace a Play que hay en las páginas:
      el botón con data-enlace="playstore" y los badges PNG con href
@@ -86,8 +90,16 @@
   }
 
   // Añade &referrer=<utm URL-encoded> sin duplicarlo ni pisar el id.
-  function conReferrer(url, utm) {
-    if (!utm || !esEnlacePlay(url) || /[?&]referrer=/i.test(url)) return url;
+  // El HTML ya trae un referrer por página (utm_campaign=<slug>). Solo lo
+  // sustituye cuando `pisar` es true, es decir, cuando la visita llegó con
+  // utm_* propios (outreach): ese canal manda sobre el de la página.
+  function conReferrer(url, utm, pisar) {
+    if (!utm || !esEnlacePlay(url)) return url;
+    if (/[?&]referrer=/i.test(url)) {
+      if (!pisar) return url;
+      return url.replace(/([?&])referrer=[^&]*/i,
+                         "$1referrer=" + encodeURIComponent(utm));
+    }
     return url + (url.indexOf("?") === -1 ? "?" : "&") +
            "referrer=" + encodeURIComponent(utm);
   }
@@ -107,8 +119,10 @@
   }
 
   function aplicar() {
-    var utm = utmDeLaVisita() || UTM_FALLBACK;
-    var i, el, url;
+    var utmVisita = utmDeLaVisita();
+    var utm = utmVisita || UTM_FALLBACK;
+    var pisar = !!utmVisita; // solo un UTM real de la visita pisa el de la página
+    var i, el, url, actual, ref;
 
     // 1) Enlaces gestionados por atributo (botón dorado, badges con data-enlace).
     var nodos = document.querySelectorAll("[data-enlace]");
@@ -116,7 +130,14 @@
       el = nodos[i];
       url = destino(el.getAttribute("data-enlace"));
       if (!url) { el.hidden = true; el.style.display = "none"; continue; }
-      el.setAttribute("href", conReferrer(url, utm));
+      // La URL base manda desde ENLACES, pero el referrer de la página (que
+      // lleva el utm_campaign del slug) viaja en el href del HTML: se traspasa.
+      actual = el.getAttribute("href");
+      if (esEnlacePlay(url) && esEnlacePlay(actual) && !/[?&]referrer=/i.test(url)) {
+        ref = /[?&]referrer=([^&]*)/i.exec(actual);
+        if (ref) url += (url.indexOf("?") === -1 ? "?" : "&") + "referrer=" + ref[1];
+      }
+      el.setAttribute("href", conReferrer(url, utm, pisar));
       if (/^https?:/i.test(url)) {
         el.setAttribute("target", "_blank");
         el.setAttribute("rel", "noopener");
@@ -130,7 +151,7 @@
       el = play[i];
       url = el.getAttribute("href");
       if (!esEnlacePlay(url)) continue;
-      el.setAttribute("href", conReferrer(url, utm));
+      el.setAttribute("href", conReferrer(url, utm, pisar));
       el.addEventListener("click", avisarPlausible);
     }
   }

@@ -22,7 +22,7 @@ Don Bigotes nace para resolver una búsqueda que miles de padres hacen cada noch
 
 «Los chatbots pueden escribir una carta del Ratoncito, pero no pueden ponerle la voz del Ratoncito diciendo el nombre de tu hijo, ni dejarlo "pillado" en una foto de tu salón. Esa es la magia que queríamos dar a los padres», explica Xavi Ferré, creador de la aplicación.
 
-La app está disponible en Google Play desde hoy: [play.google.com/store/apps/details?id=es.donbigotes.app](https://play.google.com/store/apps/details?id=es.donbigotes.app). La carta personalizada es gratuita y el Pack Mágico completo es gratis durante el periodo de lanzamiento.
+La app está disponible en Google Play desde hoy: [play.google.com/store/apps/details?id=es.donbigotes.app](https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Ddonbigotes.app%26utm_medium%3Dweb%26utm_campaign%3Dprensa). La carta personalizada es gratuita y el Pack Mágico completo es gratis durante el periodo de lanzamiento.
 
 ## Sobre Don Bigotes
 
