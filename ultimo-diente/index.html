@@ -201,6 +201,32 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
 .btn-ghost{font-family:inherit;font-weight:700;font-size:1rem;cursor:pointer;padding:14px 24px;border-radius:12px;border:1.5px solid var(--paper-edge);background:#fff;color:var(--ink)}
 .btn-ghost:hover{border-color:var(--gold-deep)}
 .gen-foot{text-align:center;color:var(--ink-soft);font-size:.86rem;margin:16px auto 0;max-width:42ch}
+/* Post-carta: confirmación de la carta + upsell del Pack Mágico. */
+.pc-ok{text-align:center;margin:18px auto 0;max-width:44ch}
+.pc-ok-t{font-family:'Fraunces',Georgia,serif;font-weight:700;font-size:1.18rem;color:var(--ink)}
+.pc-ok-t::before{content:"\2713";display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:var(--gold);color:var(--night-1);font-size:.8rem;font-weight:800;margin-right:9px;vertical-align:2px}
+.pc-ok-s{color:var(--ink-soft);font-size:.92rem;margin-top:8px}
+.pc{margin:26px calc(-1 * clamp(24px,4vw,40px)) calc(-1 * clamp(24px,4vw,40px));padding:30px clamp(22px,4vw,34px) 26px;border-radius:0 0 22px 22px;text-align:center;color:#fff;background:radial-gradient(120% 90% at 82% -10%,rgba(242,193,78,.16),transparent 55%),linear-gradient(160deg,var(--night-1) 0%,var(--night-2) 58%,var(--night-3) 135%)}
+.pc-eyebrow{display:inline-flex;align-items:center;gap:8px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;font-size:.68rem;color:var(--gold-soft)}
+.pc-eyebrow::before{content:"\2726";color:var(--gold)}
+.pc h4{font-family:'Fraunces',Georgia,serif;font-weight:700;font-size:clamp(1.3rem,3.4vw,1.65rem);line-height:1.15;margin-top:10px;color:#fff}
+.pc-voz{display:flex;align-items:center;gap:14px;text-align:left;margin:20px auto 0;max-width:400px;padding:13px 16px;border-radius:15px;background:rgba(255,255,255,.07);border:1px solid rgba(242,193,78,.34)}
+.pc-play{flex:none;width:46px;height:46px;border-radius:50%;border:none;cursor:pointer;background:linear-gradient(180deg,var(--gold),#E7B23B);color:var(--night-1);font-size:1.05rem;line-height:1;display:grid;place-items:center}
+.pc-play:hover{transform:scale(1.05)}
+.pc-voz-l{font-family:'Caveat',cursive;font-size:1.32rem;line-height:1.2;color:var(--gold-soft)}
+.pc-voz-h{font-size:.74rem;letter-spacing:.05em;text-transform:uppercase;color:var(--mist);opacity:.8;margin-top:3px}
+.pc-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:20px 0 0;text-align:left}
+.pc-it{padding:12px 13px;border-radius:13px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12)}
+.pc-it b{display:block;font-size:.86rem;color:#fff;margin-top:6px}
+.pc-it span{display:block;font-size:.76rem;color:var(--mist);line-height:1.35;margin-top:3px}
+.pc-it i{font-style:normal;font-size:1.15rem}
+.pc-cta{margin-top:22px}
+.pc-cta a{display:inline-block}
+.pc-cta img{width:186px;height:72px}
+.pc-price{font-size:.86rem;color:var(--gold-soft);margin-top:4px}
+.pc-back{display:inline-block;margin-top:16px;color:var(--mist);font-size:.86rem;text-decoration:underline;background:none;border:none;cursor:pointer;font-family:inherit}
+.pc-back:hover{color:#fff}
+@media(max-width:420px){.pc-voz{gap:11px;padding:11px 13px}.pc-voz-l{font-size:1.18rem}}
 @media print{
   body{background:#fff}
   body *{visibility:hidden}
@@ -489,7 +515,33 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
         <button type="button" class="btn-gold" onclick="window.print()">Imprimir o guardar en PDF</button>
         <button type="button" class="btn-ghost" onclick="resetGen()">Crear otra</button>
       </div>
-      <p class="gen-foot">Imprímela o guárdala en PDF y déjala bajo la almohada. La app trae además la nota de voz del Ratoncito, el fotomontaje «¡Pillado!» y el Diploma de Valentía.</p>
+      <div class="pc-ok">
+        <p class="pc-ok-t" id="pcOkT">La carta ya est&aacute; lista</p>
+        <p class="pc-ok-s">Impr&iacute;mela o gu&aacute;rdala en PDF y d&eacute;jala bajo la almohada. La carta del Ratoncito es gratis, siempre.</p>
+      </div>
+      <div class="pc">
+        <span class="pc-eyebrow">Pack M&aacute;gico</span>
+        <h4>&iquest;Y si el Ratoncito P&eacute;rez dijera su nombre?</h4>
+        <div class="pc-voz">
+          <button type="button" class="pc-play" id="pcPlay" aria-label="Escuchar un trozo de la voz del Ratoncito P&eacute;rez">&#9654;</button>
+          <div>
+            <p class="pc-voz-l" id="pcVozL">&laquo;Soy yo, el Ratoncito P&eacute;rez&hellip;&raquo;</p>
+            <p class="pc-voz-h">La voz de verdad de la app</p>
+          </div>
+          <audio id="pcAudio" src="/assets/audio/preview-pack.mp3" preload="none"></audio>
+        </div>
+        <div class="pc-grid">
+          <div class="pc-it"><i>&#127908;</i><b>Nota de voz</b><span>El Ratoncito dice su nombre y le habla de su diente.</span></div>
+          <div class="pc-it"><i>&#128248;</i><b>Fotomontaje &laquo;&iexcl;Pillado!&raquo;</b><span>El Ratoncito, cazado en una foto de vuestra casa.</span></div>
+          <div class="pc-it"><i>&#127916;</i><b>V&iacute;deo del viaje</b><span>El viaje de su diente hasta la Oficina, en v&iacute;deo.</span></div>
+          <div class="pc-it"><i>&#127894;</i><b>Diploma de Valent&iacute;a</b><span>Con su nombre y la fecha en que se le cay&oacute;.</span></div>
+        </div>
+        <div class="pc-cta">
+          <a href="https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Ddonbigotes.app%26utm_medium%3Dweb%26utm_campaign%3Dpostcarta" id="pcBadge" target="_blank" rel="noopener"><img src="/assets/img/google-play-badge-es.png" alt="Disponible en Google Play"></a>
+          <p class="pc-price">Descarga gratis &middot; Pack M&aacute;gico completo con pago &uacute;nico</p>
+        </div>
+        <button type="button" class="pc-back" onclick="pcVolver()">Seguir solo con la carta</button>
+      </div>
     </div>
   </div>
 </div>
@@ -498,7 +550,27 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
 var GEN={sexo:null,diente:null};
 function openGen(){plausible('Crear carta - clic');document.getElementById('gen').classList.add('open');document.body.style.overflow='hidden';}
 function closeGen(){document.getElementById('gen').classList.remove('open');document.body.style.overflow='';}
-function resetGen(){document.getElementById('genResult').classList.remove('show');document.getElementById('genForm').style.display='block';}
+function resetGen(){document.getElementById('genResult').classList.remove('show');document.getElementById('genForm').style.display='block';pcAudio.pause();pcAudio.currentTime=0;}
+/* Post-carta: preview de voz y vuelta a la carta. */
+var pcAudio=document.getElementById('pcAudio'),pcBtn=document.getElementById('pcPlay');
+function pcIcono(){pcBtn.innerHTML=pcAudio.paused?'&#9654;':'&#10074;&#10074;';}
+pcBtn.addEventListener('click',function(){
+  if(pcAudio.paused){pcAudio.play();plausible('Preview voz postcarta');}else{pcAudio.pause();}
+});
+pcAudio.addEventListener('play',pcIcono);
+pcAudio.addEventListener('pause',pcIcono);
+pcAudio.addEventListener('ended',function(){pcAudio.currentTime=0;pcIcono();});
+document.getElementById('pcBadge').addEventListener('click',function(){plausible('Clic Play Store postcarta');});
+function pcVolver(){
+  var c=document.getElementById('print-letter'),o=document.getElementById('gen'),y=o.scrollTop;
+  c.scrollIntoView({behavior:'smooth',block:'start'});
+  /* Respaldo: si el navegador ignora el scroll suave, saltamos sin animación. */
+  setTimeout(function(){if(o.scrollTop===y)c.scrollIntoView({block:'start'});},120);
+}
+function pcNombre(n){
+  document.getElementById('pcOkT').textContent=n?('La carta de '+n+' ya está lista'):'La carta ya está lista';
+  document.getElementById('pcVozL').textContent=n?('«'+n+'… soy yo, el Ratoncito Pérez…»'):'«Soy yo, el Ratoncito Pérez…»';
+}
 document.getElementById('gen').addEventListener('click',function(e){if(e.target===this)closeGen();});
 document.addEventListener('keydown',function(e){if(e.key==='Escape')closeGen();});
 function bindChips(g,k){document.querySelectorAll('#'+g+' .chip').forEach(function(c){c.addEventListener('click',function(){document.querySelectorAll('#'+g+' .chip').forEach(function(x){x.classList.remove('sel');});c.classList.add('sel');GEN[k]=c.dataset.v;});});}
@@ -520,6 +592,7 @@ function makeLetter(){
   document.getElementById('genForm').style.display='none';
   document.getElementById('genResult').classList.add('show');
   plausible('Carta generada');
+  pcNombre(n);
 }
 </script>
 <script src="/js/enlaces-app.js"></script>
