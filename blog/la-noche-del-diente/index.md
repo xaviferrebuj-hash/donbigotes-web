@@ -22,7 +22,7 @@ Lo que falta no es una carta bonita. Es una carta bonita que puedas tener lista 
 
 [donbigotes.app](https://donbigotes.app/) es una app española para padres que genera la carta del Ratoncito Pérez personalizada con el nombre del niño, la pieza que se le ha caído y un detalle suyo —que es muy valiente, que se ríe muchísimo, que lo pregunta todo—. La carta sale con el membrete de la «Oficina del Ratoncito Pérez, Departamento de Dientes de Leche», su [sello y su firma](https://donbigotes.app/firma-sello-raton-perez/), lista para imprimir o guardar en PDF.
 
-Tres cosas la separan de las plantillas de siempre. Es gratis y no pide registro. Se hace desde el móvil, que es el aparato que ya tienes en la mano a esa hora. Y el texto es distinto en cada carta, porque se construye con los datos que acabas de introducir, no con un hueco en blanco donde escribir un nombre.
+Tres cosas la separan de las plantillas de siempre. La carta es gratis y no pide registro. Se hace desde el móvil, que es el aparato que ya tienes en la mano a esa hora. Y el texto es distinto en cada carta, porque se construye con los datos que acabas de introducir, no con un hueco en blanco donde escribir un nombre.
 
 ## Cómo se hace la carta, paso a paso
 

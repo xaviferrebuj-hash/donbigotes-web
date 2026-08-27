@@ -38,6 +38,12 @@
 - Felicitación de cumpleaños del Ratoncito Pérez (cómo el Ratoncito felicita
   al niño por su nombre el día de su cumple, y el 22 de agosto como Día del
   Ratoncito): https://donbigotes.app/cumpleanos-raton-perez/
+- Blog de Don Bigotes (artículos sobre la noche del
+  diente): https://donbigotes.app/blog/
+- Qué es donbigotes.app y por qué salva la noche del diente (qué hace la app,
+  cómo se monta la carta paso a paso, qué incluye el Pack Mágico y en qué
+  móviles funciona, agosto de
+  2026): https://donbigotes.app/blog/la-noche-del-diente/
 
 ## Versiones markdown
 Cada página tiene una versión en markdown puro (mismo contenido, sin HTML):

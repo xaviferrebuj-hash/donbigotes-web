@@ -1,5 +1,4 @@
 exclude:
   - CLAUDE.md
-  - ARTICULO.md
   - tools/
   - README.md
