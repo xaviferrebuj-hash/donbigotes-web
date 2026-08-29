@@ -1,6 +1,20 @@
-# El Ratoncito Pérez estrena «oficina digital» para su día: un padre de Barcelona lanza en solitario la app que moderniza la tradición del diente
+# Don Bigotes llega al iPhone: la app del Ratoncito Pérez ya está disponible en el App Store
 
-El 22 de agosto se celebra el Día del Ratoncito Pérez, el personaje que desde 1894 recoge los dientes de leche de los niños españoles. Este año la fecha llega con novedad: Don Bigotes, una app creada por un único desarrollador, convierte la caída del diente en una carta personalizada, una nota de voz y un vídeo del propio Ratoncito.
+Tras su lanzamiento en Google Play el pasado julio, Don Bigotes completa su llegada a las dos grandes tiendas de aplicaciones.
+
+Barcelona, 29 de agosto de 2026.— Don Bigotes, la app que convierte la caída de un diente en un recuerdo inolvidable, ya está disponible para iPhone en el App Store (versión 1.0.0). La aplicación llegó a Google Play el pasado julio y completa así su presencia en las dos grandes tiendas de aplicaciones.
+
+La carta personalizada del Ratoncito Pérez, con el nombre del niño o la niña, es gratuita. La experiencia completa —nota de voz del Ratoncito, fotomontaje «¡Pillado!», vídeo desde la Oficina Mágica y Diploma de Valentía— forma parte del Pack Mágico, disponible en un único pago.
+
+Toda la personalización se procesa en el propio dispositivo: la app no recopila datos personales ni envía información a servidores.
+
+Don Bigotes está disponible en 175 países y requiere iOS 15 o posterior.
+
+Enlaces de descarga: [App Store](https://apps.apple.com/app/id6798414411) y [Google Play](https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Ddonbigotes.app%26utm_medium%3Dweb%26utm_campaign%3Dprensa). Más información en [https://donbigotes.app](https://donbigotes.app).
+
+## Nota anterior — Día del Ratoncito Pérez (20 de agosto de 2026)
+
+El Ratoncito Pérez estrena «oficina digital» para su día: un padre de Barcelona lanza en solitario la app que moderniza la tradición del diente
 
 Barcelona, 20 de agosto de 2026.— Con motivo del Día del Ratoncito Pérez, que se celebra cada 22 de agosto, la aplicación española Don Bigotes presenta la «oficina digital» del Ratoncito: cuando a un niño se le cae un diente, sus padres preparan en un minuto la carta personalizada con su nombre, una nota de voz en la que el propio Ratoncito lo pronuncia, el fotomontaje «¡Pillado!» y el vídeo desde su Oficina.
 
