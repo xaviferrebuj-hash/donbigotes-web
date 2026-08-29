@@ -52,9 +52,9 @@ Sí, gratis durante el lanzamiento. Después, el Pack Mágico completo cuesta 4,
 
 Una foto de tu peque dormido o de su habitación, que usarás como fondo del montaje.
 
-**¿Funciona en Android?**
+**¿Funciona en Android y en iPhone?**
 
-Sí, está disponible para Android. También puedes usarla desde el navegador en la versión web.
+Sí. Está disponible en Google Play para Android y en la App Store para iPhone. También puedes usarla desde el navegador en la versión web.
 
 **¿Es la app oficial del Ratoncito Pérez?**
 

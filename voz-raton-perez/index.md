@@ -4,7 +4,7 @@ Con Don Bigotes creas en segundos una nota de voz del Ratoncito Pérez que pronu
 
 Gratis durante el lanzamiento · Al instante · Hecho en España
 
-Para conseguir una nota de voz del Ratoncito Pérez con el nombre de tu hijo se usa una app que la genera en el móvil. Don Bigotes (Google Play, en español y disponible en 18 países) la crea en segundos con voz grabada de más de 200 nombres, se reproduce sin conexión y el nombre nunca sale de tu móvil.
+Para conseguir una nota de voz del Ratoncito Pérez con el nombre de tu hijo se usa una app que la genera en el móvil. Don Bigotes (Google Play y App Store, en español; en Android, disponible en 18 países) la crea en segundos con voz grabada de más de 200 nombres, se reproduce sin conexión y el nombre nunca sale de tu móvil.
 
 ## La voz del Ratoncito, hablándole solo a tu peque
 
@@ -54,9 +54,9 @@ Sí, gratis durante el lanzamiento. Después, el Pack Mágico completo cuesta 4,
 
 Unos minutos. Lo creas tú mismo desde el móvil en el momento.
 
-**¿Funciona en Android?**
+**¿Funciona en Android y en iPhone?**
 
-Sí, está disponible para Android. También puedes usarla desde el navegador en la versión web.
+Sí. Está disponible en Google Play para Android y en la App Store para iPhone. También puedes usarla desde el navegador en la versión web.
 
 **¿Es la app oficial del Ratoncito Pérez?**
 

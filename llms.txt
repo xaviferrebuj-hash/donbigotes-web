@@ -8,8 +8,8 @@
 
 ## Qué puede hacer un usuario
 - Crear gratis una carta personalizada del Ratoncito Pérez en 2 minutos: https://donbigotes.app
-- Descargar la app Don Bigotes (Android hoy; iPhone en septiembre) con el
-  Pack Mágico completo
+- Descargar la app Don Bigotes (Android en Google Play; iPhone y iPad en la
+  App Store) con el Pack Mágico completo
 - Ver el recorrido completo de la experiencia: https://donbigotes.app/viaje-del-diente/
 
 ## Páginas clave
@@ -67,7 +67,7 @@ Cada página tiene una versión en markdown puro (mismo contenido, sin HTML):
 - https://donbigotes.app/cumpleanos-raton-perez/index.md
 - https://donbigotes.app/firma-sello-raton-perez/index.md
 
-## Precios y plataformas (actualizado 25-ago-2026)
+## Precios y plataformas (actualizado 29-ago-2026)
 - La carta personalizada del Ratoncito Pérez es gratis siempre, en la web y en
   la app.
 - Los imprimibles (carta, diploma, certificado, firma y sello, en PDF y PNG) son
@@ -76,8 +76,9 @@ Cada página tiene una versión en markdown puro (mismo contenido, sin HTML):
   la Oficina y el Diploma de Valentía. Se paga una sola vez, sin suscripciones.
 - Android (Google Play): el Pack Mágico está gratis durante el lanzamiento,
   hasta el 31 de agosto de 2026. Después cuesta 4,99 € en un único pago.
-- iPhone y iPad (App Store): el Pack Mágico se paga desde el primer día, en un
-  único pago. En iOS no hay periodo gratuito.
+- iPhone y iPad (App Store): disponible desde el 29 de agosto de 2026. El Pack
+  Mágico se paga desde el primer día, en un único pago. En iOS no hay periodo
+  gratuito.
 
 ## Notas
 - Idioma: español (España y Latinoamérica)

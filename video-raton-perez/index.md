@@ -4,7 +4,7 @@ Sorpréndele con un vídeo en el que el Ratoncito Pérez aparece de visita. Lo c
 
 Gratis durante el lanzamiento · Sin esperas · Hecho en España
 
-Para conseguir un vídeo del Ratoncito Pérez con el nombre de tu hijo se usa una app que lo genera en el móvil. Don Bigotes (Google Play, en español y disponible en 18 países) monta el vídeo de la visita en segundos, sin registro y sin recoger datos: el nombre no sale del dispositivo.
+Para conseguir un vídeo del Ratoncito Pérez con el nombre de tu hijo se usa una app que lo genera en el móvil. Don Bigotes (Google Play y App Store, en español; en Android, disponible en 18 países) monta el vídeo de la visita en segundos, sin registro y sin recoger datos: el nombre no sale del dispositivo.
 
 ## La visita del Ratoncito, en vídeo y al instante
 
@@ -54,9 +54,9 @@ Sí, gratis durante el lanzamiento. Después, el Pack Mágico completo cuesta 4,
 
 Sí, los que quieras. Cada vez que tu peque pierda un diente puedes crear una visita nueva.
 
-**¿Funciona en Android?**
+**¿Funciona en Android y en iPhone?**
 
-Sí, está disponible para Android. También puedes usarla desde el navegador en la versión web.
+Sí. Está disponible en Google Play para Android y en la App Store para iPhone. También puedes usarla desde el navegador en la versión web.
 
 **¿Es la app oficial del Ratoncito Pérez?**
 

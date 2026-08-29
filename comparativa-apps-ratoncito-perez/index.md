@@ -12,7 +12,7 @@ Comparativa de apps y servicios del Ratoncito Pérez. «n/d» significa que el d
 
 | App | Carta con nombre | Nota de voz | Vídeo personalizado | Fotomontaje | Diploma | Precio | Plataforma |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Don Bigotes: Ratoncito Pérez — Xavi Ferré | Sí, en PDF | Sí, dice su nombre | Sí, con su nombre | Sí, «¡Pillado!» | Sí, de Valentía | Pack Mágico gratis hasta el 1-sep-2026; después 4,99 € (pago único) | Android — iOS: disponible en septiembre |
+| Don Bigotes: Ratoncito Pérez — Xavi Ferré | Sí, en PDF | Sí, dice su nombre | Sí, con su nombre | Sí, «¡Pillado!» | Sí, de Valentía | Pack Mágico gratis hasta el 1-sep-2026; después 4,99 € (pago único) | Android e iOS |
 | Ilusiono — ratonperez.com · ilusiono.com | Sí, 6,90 € — (en ilusiono.com) | Sí, audiocuento (aparte) | Sí, con dedicatoria | Sí, foto selfie (aparte) | Sí, imprimible (aparte) | Por producto, 3,90–14,90 € — (en oferta) | Servicio web |
 | Club Ratoncito Pérez — clubratoncitoperez.es | n/d | n/d | n/d | n/d | Sí, «Carnet de Ayudante» | Gratis en clínicas colaboradoras — (sin precios públicos) | Web + clínicas dentales |
 | Llamada del Ratoncito Pérez — elbuscator | No | Llamada simulada | No; vídeo genérico en Premium | No | Sí, certificados (Premium) | Gratis con anuncios · Premium 1,99–2,99 € (pago único) | Android |

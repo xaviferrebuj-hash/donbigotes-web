@@ -4,7 +4,7 @@ Un cuento escrito en 1894 para consolar a un rey de ocho años al que se le acab
 
 Sin registro · Se procesa en tu móvil · Gratis durante el lanzamiento
 
-El Ratón Pérez lo inventó Luis Coloma, un sacerdote jesuita, en 1894. La reina regente María Cristina le encargó un cuento para su hijo Alfonso XIII, que tenía ocho años y acababa de perder un diente de leche. Coloma escribió la historia de un ratón que vivía en una caja de galletas de la confitería Prast, en la calle Arenal de Madrid, y que salía de noche a visitar a los niños. Más de un siglo después, esa noche sigue siendo el momento que Don Bigotes (Google Play, en español y disponible en 18 países) ayuda a preparar en casa, sin subir ni una sola foto a ningún servidor.
+El Ratón Pérez lo inventó Luis Coloma, un sacerdote jesuita, en 1894. La reina regente María Cristina le encargó un cuento para su hijo Alfonso XIII, que tenía ocho años y acababa de perder un diente de leche. Coloma escribió la historia de un ratón que vivía en una caja de galletas de la confitería Prast, en la calle Arenal de Madrid, y que salía de noche a visitar a los niños. Más de un siglo después, esa noche sigue siendo el momento que Don Bigotes (Google Play y App Store, en español; en Android, disponible en 18 países) ayuda a preparar en casa, sin subir ni una sola foto a ningún servidor.
 
 ## Crea la experiencia completa en la app Don Bigotes
 

@@ -54,9 +54,9 @@ Don Bigotes crea la carta del Ratoncito Pérez personalizada al instante.
 
 Imprímela o guárdala en PDF y déjala lista para la noche del diente.
 
-## Ya disponible en Google Play
+## Ya disponible en Google Play y App Store
 
-Para Android hoy, con el Pack Mágico gratis hasta el 31 de agosto de 2026. Muy pronto también en iPhone, donde el Pack Mágico será de pago desde el primer día.
+En Android el Pack Mágico es gratis hasta el 31 de agosto de 2026; en iPhone se paga desde el primer día, en un único pago.
 
 ## Preguntas frecuentes
 
@@ -74,7 +74,7 @@ Escribes el nombre de tu peque y un par de detalles, y la app la genera al insta
 
 **¿En qué móviles funciona?**
 
-Ya está disponible para Android en Google Play. La versión para iPhone llegará muy pronto: déjanos tu contacto y te avisamos cuando esté en la App Store.
+En Android y en iPhone. Ya está disponible en Google Play y en la App Store. En Android el Pack Mágico es gratis durante el lanzamiento; en iPhone se paga desde el primer día, en un único pago.
 
 ## Que la próxima caída de diente sea inolvidable
 
