@@ -1,5 +1,7 @@
 # CLAUDE.md — donbigotes-web
 
+**Ítems con disparador (fechas, hitos): `PENDIENTES.md`.** Hoy solo hay uno, [W1], el barrido del copy «gratis» del 1-sep-2026.
+
 ## Reglas de trabajo
 1. Este clon git es la ÚNICA fuente de verdad de la web. No existe copia en Desktop, ni build.py, ni plantilla.html.
 2. Ediciones siempre con str_replace quirúrgico, nunca reescrituras de archivo completo.
