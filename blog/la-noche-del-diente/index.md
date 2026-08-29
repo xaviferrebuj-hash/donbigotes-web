@@ -78,7 +78,7 @@ Ninguno de nosotros recuerda cuánto dinero dejó el Ratoncito Pérez debajo de 
 
 Esa molestia es la que ha bajado de precio. Dos minutos, un nombre y un diente: [donbigotes.app](https://donbigotes.app/) se encarga del resto mientras tú terminas de recoger la cocina.
 
-La app de Don Bigotes, para Android:
+La app de Don Bigotes, para Android y iPhone:
 
 Artículo informativo sobre Don Bigotes, app independiente de creación de cartas del Ratoncito Pérez. El personaje se utiliza como referencia folclórica de dominio público.
 

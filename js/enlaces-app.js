@@ -9,11 +9,14 @@
      buscadores). Este script solo rellena el `href` al cargar.
    - Marca cada enlace con  data-enlace="webapp|playstore|appstore".
 
-   Estado actual (jul 2026): la app está EN PRODUCCIÓN pública
-   en Google Play (verificado 26-jul: ficha accesible sin login).
+   Estado actual (ago 2026): la app está EN PRODUCCIÓN pública
+   en Google Play (verificado 26-jul) y en App Store (aprobada 29-ago).
      · webapp    -> destino real de uso inmediato (web app).
      · playstore -> ficha pública de Google Play.
-     · appstore  -> null  => el badge se OCULTA (sin versión iOS).
+     · appstore  -> ficha pública de App Store.
+   En iPhone/iPad el botón dorado "Abrir la app ahora" (data-enlace=
+   "playstore") lleva a App Store en vez de a Play: en iOS el enlace de
+   Play es un callejón sin salida.
 
    ATRIBUCIÓN POR CANAL (jul 2026):
    - Cada página trae ya en el HTML un `&referrer=` propio
@@ -44,9 +47,9 @@
     // Ficha pública de Google Play (rollout Android).
     playstore: "https://play.google.com/store/apps/details?id=es.donbigotes.app",
 
-    // Cuando exista versión iOS, pega aquí la URL de App Store.
-    // Mientras sea null, el badge de App Store se oculta.
-    appstore: null
+    // Ficha pública de App Store (Apple aprobó la app el 29-ago-2026).
+    // Si algún día vuelve a ser null, los badges de App Store se ocultan solos.
+    appstore: "https://apps.apple.com/app/id6798414411"
   };
 
   /* --- Atribución: UTM de la visita -> referrer de Play --- */
@@ -104,8 +107,18 @@
            "referrer=" + encodeURIComponent(utm);
   }
 
+  // iPhone/iPad (incluye iPadOS, que se anuncia como Mac con pantalla táctil).
+  function esIOS() {
+    var ua = navigator.userAgent || "";
+    return /iPad|iPhone|iPod/.test(ua) ||
+           (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+  }
+
   function destino(tipo) {
-    if (tipo === "playstore") return ENLACES.playstore || ENLACES.webapp;
+    if (tipo === "playstore") {
+      if (ENLACES.appstore && esIOS()) return ENLACES.appstore;
+      return ENLACES.playstore || ENLACES.webapp;
+    }
     if (tipo === "appstore")  return ENLACES.appstore; // null => ocultar
     return ENLACES.webapp;
   }
