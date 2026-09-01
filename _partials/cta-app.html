@@ -1,5 +1,18 @@
 <!-- ============================================================
-     BLOQUE CTA REUTILIZABLE  ->  fuente unica: /_partials/cta-app.html
+     BLOQUE CTA  ->  PLANTILLA DE REFERENCIA. NO SE PUBLICA Y NO SE PROPAGA.
+
+     🔴 Jekyll no publica directorios que empiezan por "_", y las paginas NO
+     usan un include: cada una lleva su COPIA INLINE de este bloque. Editar
+     este fichero NO cambia nada en produccion.
+
+     Tocar el bloque = editarlo en las 19 copias inline + aqui, y despues
+     regenerar los .md con tools/generar_md.py. Metodo e inventario en
+     BARRIDO-1SEP.md. La regla 6 del CLAUDE.md lo llama "parcial reutilizable":
+     reutilizable A MANO, no por include.
+
+     Se conserva como referencia canonica para poder comparar si una pagina
+     se desincroniza.
+
      Copia este bloque tal cual en cada pagina nueva. El <style> de
      abajo va INCLUIDO a proposito: el bloque tiene que renderizar
      bien aunque la pagina no traiga el CSS de la home.
