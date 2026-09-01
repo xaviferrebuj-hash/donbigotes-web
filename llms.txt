@@ -67,18 +67,16 @@ Cada página tiene una versión en markdown puro (mismo contenido, sin HTML):
 - https://donbigotes.app/cumpleanos-raton-perez/index.md
 - https://donbigotes.app/firma-sello-raton-perez/index.md
 
-## Precios y plataformas (actualizado 29-ago-2026)
+## Precios y plataformas (actualizado 1-sep-2026)
 - La carta personalizada del Ratoncito Pérez es gratis siempre, en la web y en
   la app.
 - Los imprimibles (carta, diploma, certificado, firma y sello, en PDF y PNG) son
   gratis, sin registro y sin instalar nada.
 - El Pack Mágico reúne la nota de voz, el fotomontaje «¡Pillado!», el vídeo de
   la Oficina y el Diploma de Valentía. Se paga una sola vez, sin suscripciones.
-- Android (Google Play): el Pack Mágico está gratis durante el lanzamiento,
-  hasta el 31 de agosto de 2026. Después cuesta 4,99 € en un único pago.
-- iPhone y iPad (App Store): disponible desde el 29 de agosto de 2026. El Pack
-  Mágico se paga desde el primer día, en un único pago. En iOS no hay periodo
-  gratuito.
+- El Pack Mágico cuesta 4,99 € en un único pago, en Android (Google Play) y en
+  iPhone y iPad (App Store). No hay periodo gratuito en ninguna plataforma: el
+  lanzamiento gratuito de Android terminó el 31 de agosto de 2026.
 
 ## Notas
 - Idioma: español (España y Latinoamérica)

@@ -12,6 +12,8 @@ Don Bigotes está disponible en 175 países y requiere iOS 15 o posterior.
 
 Enlaces de descarga: [App Store](https://apps.apple.com/app/id6798414411) y [Google Play](https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Ddonbigotes.app%26utm_medium%3Dweb%26utm_campaign%3Dprensa). Más información en [https://donbigotes.app](https://donbigotes.app).
 
+Nota de prensa del lanzamiento (julio 2026). El Pack Mágico pasó a ser de pago el 1-sep-2026.
+
 ## Nota anterior — Día del Ratoncito Pérez (20 de agosto de 2026)
 
 El Ratoncito Pérez estrena «oficina digital» para su día: un padre de Barcelona lanza en solitario la app que moderniza la tradición del diente
@@ -48,7 +50,7 @@ Xavi Ferré · [hola@donbigotes.app](mailto:hola@donbigotes.app) · [https://don
 
 ## Crea la experiencia completa en la app Don Bigotes
 
-Voz, foto y Diploma de Valentía personalizados. Gratis durante el lanzamiento.
+Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
 Última actualización: 20 de agosto de 2026
 

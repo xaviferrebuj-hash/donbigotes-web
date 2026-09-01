@@ -2,7 +2,7 @@
 
 Sorpréndele con un vídeo en el que el Ratoncito Pérez aparece de visita. Lo creas tú desde el móvil en unos minutos, sin formularios ni esperar a que nadie te lo monte.
 
-Gratis durante el lanzamiento · Sin esperas · Hecho en España
+4,99 € pago único · Sin esperas · Hecho en España
 
 Para conseguir un vídeo del Ratoncito Pérez con el nombre de tu hijo se usa una app que lo genera en el móvil. Don Bigotes (Google Play y App Store, en español; en Android, disponible en 18 países) monta el vídeo de la visita en segundos, sin registro y sin recoger datos: el nombre no sale del dispositivo.
 
@@ -36,7 +36,7 @@ Cada diente, una visita nueva. Sin pedir nada ni volver a pagar.
 
 ### Sin sorpresas
 
-Gratis durante el lanzamiento. Después, el Pack Mágico completo por 4,99 € de pago único, sin suscripciones.
+El Pack Mágico completo por 4,99 € de pago único, sin suscripciones.
 
 ## Lo que dicen las familias
 
@@ -48,7 +48,7 @@ Unos minutos. Lo haces tú mismo desde el móvil en el momento, sin esperar a qu
 
 **¿Es gratis?**
 
-Sí, gratis durante el lanzamiento. Después, el Pack Mágico completo cuesta 4,99 € en un único pago, sin suscripciones.
+La carta personalizada es gratis siempre. El Pack Mágico completo cuesta 4,99 € en un único pago, sin suscripciones.
 
 **¿Puedo crear más de un vídeo?**
 
@@ -64,7 +64,7 @@ No. Don Bigotes es una app independiente inspirada en la tradición popular del 
 
 ## Crea la experiencia completa en la app Don Bigotes
 
-Voz, foto y Diploma de Valentía personalizados. Gratis durante el lanzamiento.
+Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
 Última actualización: 11 de julio de 2026
 

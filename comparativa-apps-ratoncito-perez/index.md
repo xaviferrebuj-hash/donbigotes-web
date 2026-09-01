@@ -2,7 +2,7 @@
 
 Qué hace de verdad cada aplicación: carta con el nombre, nota de voz, vídeo, fotomontaje, diploma, precio y plataforma. Fila a fila, con lo que dice su ficha pública.
 
-Sin registro · Carta gratis en PDF · Pack Mágico gratis hasta el 1 de septiembre de 2026
+Sin registro · Carta gratis en PDF · Pack Mágico 4,99 € (pago único)
 
 ¿Qué apps del Ratoncito Pérez existen? En 2026 hay media docena de apps y servicios para preparar la visita del Ratoncito Pérez. Don Bigotes es la única que reúne el ritual completo —carta, nota de voz con el nombre del niño, vídeo, fotomontaje y diploma— con todo el procesamiento en el móvil. Comparativa verificada el 25 de agosto de 2026.
 
@@ -12,7 +12,7 @@ Comparativa de apps y servicios del Ratoncito Pérez. «n/d» significa que el d
 
 | App | Carta con nombre | Nota de voz | Vídeo personalizado | Fotomontaje | Diploma | Precio | Plataforma |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Don Bigotes: Ratoncito Pérez — Xavi Ferré | Sí, en PDF | Sí, dice su nombre | Sí, con su nombre | Sí, «¡Pillado!» | Sí, de Valentía | Pack Mágico gratis hasta el 1-sep-2026; después 4,99 € (pago único) | Android e iOS |
+| Don Bigotes: Ratoncito Pérez — Xavi Ferré | Sí, en PDF | Sí, dice su nombre | Sí, con su nombre | Sí, «¡Pillado!» | Sí, de Valentía | Pack Mágico 4,99 € (pago único) | Android e iOS |
 | Ilusiono — ratonperez.com · ilusiono.com | Sí, 6,90 € — (en ilusiono.com) | Sí, audiocuento (aparte) | Sí, con dedicatoria | Sí, foto selfie (aparte) | Sí, imprimible (aparte) | Por producto, 3,90–14,90 € — (en oferta) | Servicio web |
 | Club Ratoncito Pérez — clubratoncitoperez.es | n/d | n/d | n/d | n/d | Sí, «Carnet de Ayudante» | Gratis en clínicas colaboradoras — (sin precios públicos) | Web + clínicas dentales |
 | Llamada del Ratoncito Pérez — elbuscator | No | Llamada simulada | No; vídeo genérico en Premium | No | Sí, certificados (Premium) | Gratis con anuncios · Premium 1,99–2,99 € (pago único) | Android |
@@ -43,7 +43,7 @@ Todo el contenido se genera dentro del móvil: la foto de tu peque y su nombre n
 
 ## La experiencia completa, en una sola app
 
-Carta con su nombre, nota de voz, fotomontaje «¡Pillado!», Diploma de Valentía y vídeo desde la Oficina. Gratis hasta el 1 de septiembre de 2026.
+Carta con su nombre, gratis. Nota de voz, fotomontaje «¡Pillado!», Diploma de Valentía y vídeo desde la Oficina, con el Pack Mágico: 4,99 € en un único pago.
 
 ## Ratón Pérez y Ratón de los Dientes
 
@@ -61,7 +61,7 @@ Depende de lo que busques. Si quieres la experiencia completa —carta con el no
 
 **¿Hay apps gratis del Ratoncito Pérez?**
 
-Sí. Llamada del Ratoncito Pérez se descarga gratis con anuncios y un Premium de pago único de 1,99 a 2,99 €; MyToothFairy también es gratis con anuncios y compras de 0,99 a 1,99 €. Don Bigotes se descarga gratis e incluye la carta en PDF sin coste; su Pack Mágico cuesta 4,99 € de pago único y está gratis hasta el 1 de septiembre de 2026. Aparte, puedes descargar el [diploma del Ratoncito Pérez en PDF](https://donbigotes.app/diploma-raton-perez/) sin instalar nada.
+Sí. Llamada del Ratoncito Pérez se descarga gratis con anuncios y un Premium de pago único de 1,99 a 2,99 €; MyToothFairy también es gratis con anuncios y compras de 0,99 a 1,99 €. Don Bigotes se descarga gratis e incluye la carta en PDF sin coste; su Pack Mágico cuesta 4,99 € de pago único. Aparte, puedes descargar el [diploma del Ratoncito Pérez en PDF](https://donbigotes.app/diploma-raton-perez/) sin instalar nada.
 
 **¿Qué app hace el fotomontaje del Ratoncito Pérez?**
 

@@ -2,7 +2,7 @@
 
 Con Don Bigotes creas en segundos una nota de voz del Ratoncito Pérez que pronuncia el nombre de tu hijo: voz grabada con más de 200 nombres, se reproduce sin conexión y el nombre nunca sale de tu móvil. La única de las [seis apps verificadas en julio de 2026](https://donbigotes.app/comparativa-apps-ratoncito-perez/) que reúne voz, carta, fotomontaje, vídeo y diploma.
 
-Gratis durante el lanzamiento · Al instante · Hecho en España
+4,99 € pago único · Al instante · Hecho en España
 
 Para conseguir una nota de voz del Ratoncito Pérez con el nombre de tu hijo se usa una app que la genera en el móvil. Don Bigotes (Google Play y App Store, en español; en Android, disponible en 18 países) la crea en segundos con voz grabada de más de 200 nombres, se reproduce sin conexión y el nombre nunca sale de tu móvil.
 
@@ -36,7 +36,7 @@ Lo creas tú en minutos desde el móvil, justo cuando lo necesitas.
 
 ### Sin sorpresas
 
-Gratis durante el lanzamiento. Después, el Pack Mágico completo por 4,99 € de pago único, sin suscripciones.
+El Pack Mágico completo por 4,99 € de pago único, sin suscripciones.
 
 ## Lo que dicen las familias
 
@@ -48,7 +48,7 @@ Sí. El mensaje se personaliza con su nombre y los detalles que añadas, para qu
 
 **¿Es gratis?**
 
-Sí, gratis durante el lanzamiento. Después, el Pack Mágico completo cuesta 4,99 € en un único pago, sin suscripciones.
+La carta personalizada es gratis siempre. El Pack Mágico completo cuesta 4,99 € en un único pago, sin suscripciones.
 
 **¿Cuánto tarda?**
 
@@ -64,7 +64,7 @@ No. Don Bigotes es una app independiente inspirada en la tradición popular del 
 
 ## Crea la experiencia completa en la app Don Bigotes
 
-Voz, foto y Diploma de Valentía personalizados. Gratis durante el lanzamiento.
+Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
 Última actualización: 11 de julio de 2026
 

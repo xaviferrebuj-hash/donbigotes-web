@@ -2,13 +2,13 @@
 
 Sobre una foto que haces tú, en tu salón o en su habitación. El montaje se crea dentro del móvil y la foto no sale del dispositivo.
 
-Sin registro · Se procesa en tu móvil · Gratis durante el lanzamiento
+Sin registro · Se procesa en tu móvil · Pack Mágico 4,99 € pago único
 
 Sí, se puede tener una foto del Ratoncito Pérez en tu propio salón. Don Bigotes (Google Play y App Store, en español; en Android, disponible en 18 países) crea el fotomontaje «¡Pillado!» sobre una foto que haces tú en casa, con el ratón sorprendido en plena visita. Todo el montaje se procesa dentro del móvil: la foto de tu peque nunca sale del dispositivo.
 
 ## Haz el fotomontaje en la app Don Bigotes
 
-Voz, foto del «¡Pillado!» y Diploma de Valentía personalizados. Gratis durante el lanzamiento.
+Voz, foto del «¡Pillado!» y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
 ## Tres pasos, un minuto
 
@@ -62,7 +62,7 @@ Sí. Es el mismo fotomontaje, se le llame Ratoncito Pérez, Ratón Pérez o Rat�
 
 **¿Es gratis el fotomontaje del Ratoncito Pérez?**
 
-La app se descarga gratis y el fotomontaje «¡Pillado!» forma parte del Pack Mágico, gratis durante el lanzamiento. No hay que registrarse ni dejar datos para usarlo.
+La app se descarga gratis y el fotomontaje «¡Pillado!» forma parte del Pack Mágico: 4,99 € en un único pago. No hay que registrarse ni dejar datos para usarlo.
 
 Última actualización: 27 de julio de 2026
 

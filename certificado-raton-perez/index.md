@@ -8,7 +8,7 @@ Descarga gratis el certificado del Ratoncito Pérez por el primer diente caído,
 
 Cuando un niño pierde un diente y lo entrega al Ratoncito Pérez, se merece algo más que una moneda: un Diploma de Valentía oficial de la Oficina del Ratoncito, con su nombre, la fecha y su título de Guardián o Guardiana de Sonrisas. Con Don Bigotes lo tienes listo en un minuto, para imprimir o enseñar en el móvil.
 
-Gratis durante el lanzamiento · Al instante · Hecho en España
+Certificado gratis · Al instante · Hecho en España
 
 ## Un certificado oficial de la Oficina del Ratoncito
 
@@ -58,7 +58,7 @@ Sí, está pensado para imprimirse en A4 o mostrarse directamente en el móvil.
 
 ## Crea la experiencia completa en la app Don Bigotes
 
-Voz, foto y Diploma de Valentía personalizados. Gratis durante el lanzamiento.
+Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
 Última actualización: 22 de agosto de 2026
 

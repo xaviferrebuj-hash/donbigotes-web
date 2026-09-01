@@ -2,7 +2,7 @@
 
 Don Bigotes es la app del Ratoncito Pérez para Android y iPhone (o Ratón Pérez, el ratón de los dientes): carta con el nombre del niño, nota de voz que lo nombra, fotomontaje «¡Pillado!», vídeo de la Oficina y Diploma de Valentía. Gratis en Google Play y en la App Store. Todo funciona en tu móvil, sin recopilar datos.
 
-Gratis durante el lanzamiento · Tus fotos no salen de tu móvil · Hecha en España
+4,99 € pago único · Tus fotos no salen de tu móvil · Hecha en España
 
 ## Toda la magia del Ratoncito, en una sola app
 
@@ -38,7 +38,7 @@ Las fotos de tu peque se procesan dentro de tu móvil y no se suben a ningún se
 
 ### Sin sorpresas
 
-Gratis durante el lanzamiento. Después, el Pack Mágico completo por 4,99 € de pago único, sin suscripciones.
+El Pack Mágico completo por 4,99 € de pago único, sin suscripciones.
 
 ### Para padres con prisa
 
@@ -50,7 +50,7 @@ Todo en español, pensado para resolverte la noche del diente en tres toques.
 
 **¿La app es gratis?**
 
-Sí. Puedes usarla gratis durante el lanzamiento. Después, el Pack Mágico completo cuesta 4,99 € en un único pago, sin suscripciones.
+La app se descarga gratis y la carta personalizada es gratis siempre. El Pack Mágico completo cuesta 4,99 € en un único pago, sin suscripciones.
 
 **¿En qué se diferencia de encargar un vídeo del Ratoncito?**
 
@@ -70,7 +70,7 @@ No. Don Bigotes es una app independiente inspirada en la tradición popular del 
 
 ## Crea la experiencia completa en la app Don Bigotes
 
-Voz, foto y Diploma de Valentía personalizados. Gratis durante el lanzamiento.
+Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
 Última actualización: 11 de julio de 2026
 

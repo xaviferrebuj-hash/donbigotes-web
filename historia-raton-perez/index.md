@@ -2,13 +2,13 @@
 
 Un cuento escrito en 1894 para consolar a un rey de ocho años al que se le acababa de caer un diente.
 
-Sin registro · Se procesa en tu móvil · Gratis durante el lanzamiento
+Sin registro · Se procesa en tu móvil · Carta gratis con su nombre
 
 El Ratón Pérez lo inventó Luis Coloma, un sacerdote jesuita, en 1894. La reina regente María Cristina le encargó un cuento para su hijo Alfonso XIII, que tenía ocho años y acababa de perder un diente de leche. Coloma escribió la historia de un ratón que vivía en una caja de galletas de la confitería Prast, en la calle Arenal de Madrid, y que salía de noche a visitar a los niños. Más de un siglo después, esa noche sigue siendo el momento que Don Bigotes (Google Play y App Store, en español; en Android, disponible en 18 países) ayuda a preparar en casa, sin subir ni una sola foto a ningún servidor.
 
 ## Crea la experiencia completa en la app Don Bigotes
 
-Voz, foto y Diploma de Valentía personalizados. Gratis durante el lanzamiento.
+Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
 ## Por qué un ratón y no un hada
 
@@ -30,7 +30,7 @@ El Día del Ratoncito Pérez se celebra cada 22 de agosto, y también el 28 de f
 
 Tres formas de celebrarlo en casa: leer su historia (esta página), preparar la próxima visita —si hay un diente que ya se mueve, la [carta personalizada con su nombre](https://donbigotes.app/) se crea gratis en dos minutos, sin registro— y visitar la Casita-Museo de Ratón Pérez en la calle Arenal 8 de Madrid, reconocida como su hogar oficial.
 
-Y si el diente se cae justo hoy, doble celebración: el [viaje del diente](https://donbigotes.app/viaje-del-diente/) completo —voz, carta, foto del ratón pillado, diploma y vídeo— espera en la [app Don Bigotes](https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Ddonbigotes.app%26utm_medium%3Dweb%26utm_campaign%3Dhistoria-raton-perez), gratis durante el lanzamiento.
+Y si el diente se cae justo hoy, doble celebración: el [viaje del diente](https://donbigotes.app/viaje-del-diente/) completo —voz, carta, foto del ratón pillado, diploma y vídeo— espera en la [app Don Bigotes](https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Ddonbigotes.app%26utm_medium%3Dweb%26utm_campaign%3Dhistoria-raton-perez): la carta, gratis; la voz, la foto del ratón pillado, el diploma y el vídeo, con el Pack Mágico, 4,99 € en un único pago.
 
 ## Preguntas frecuentes
 

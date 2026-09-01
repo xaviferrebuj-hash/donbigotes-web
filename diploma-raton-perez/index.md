@@ -8,7 +8,7 @@ Descarga gratis el diploma del Ratoncito Pérez en PDF, listo para imprimir en A
 
 Un diploma oficial de la Oficina del Ratoncito, personalizado con el nombre de tu peque y el diente que se le ha caído. Firmado y sellado, listo para enmarcar o guardar de recuerdo.
 
-Incluido en el Pack Mágico · Gratis hasta el 1 de septiembre
+Incluido en el Pack Mágico · 4,99 € pago único
 
 ## Qué incluye
 
@@ -52,7 +52,7 @@ El diploma lleva el sello de la Oficina y la firma de Don Bigotes. Puedes descar
 
 **¿Cuánto cuesta el diploma?**
 
-Está incluido en el Pack Mágico de la app Don Bigotes, gratis hasta el 1 de septiembre de 2026.
+Está incluido en el Pack Mágico de la app Don Bigotes: 4,99 € en un único pago. El diploma en PDF para imprimir es gratis siempre.
 
 **¿Puedo imprimirlo o enmarcarlo?**
 
@@ -60,7 +60,7 @@ Sí. Se guarda como imagen en tu móvil y puedes imprimirlo en casa o enmarcarlo
 
 ## Crea la experiencia completa en la app Don Bigotes
 
-Voz, foto y Diploma de Valentía personalizados. Gratis durante el lanzamiento.
+Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
 Última actualización: 11 de julio de 2026
 

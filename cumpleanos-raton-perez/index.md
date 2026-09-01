@@ -38,7 +38,7 @@ Descarga Don Bigotes, crea el perfil de tu hijo y configura el día y el mes de 
 
 **¿La felicitación de cumpleaños es de pago?**
 
-La felicitación forma parte de la experiencia de la app. Durante el periodo de lanzamiento, el Pack Mágico completo de Don Bigotes es gratuito.
+La felicitación forma parte del Pack Mágico de Don Bigotes, que cuesta 4,99 € en un único pago.
 
 **¿Necesito registrarme o dar datos de mi hijo?**
 
@@ -50,7 +50,7 @@ Sí. El personaje es el mismo: en España se le llama Ratoncito Pérez y en gran
 
 ## Crea la experiencia completa en la app Don Bigotes
 
-Voz, foto y Diploma de Valentía personalizados. Gratis durante el lanzamiento.
+Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
 Última actualización: 20 de agosto de 2026
 

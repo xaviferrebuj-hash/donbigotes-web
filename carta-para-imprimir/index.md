@@ -12,7 +12,7 @@ Descarga gratis la carta del Ratoncito Pérez en PDF, lista para imprimir en A4,
 
 ## Crea la experiencia completa en la app Don Bigotes
 
-Voz, foto y Diploma de Valentía personalizados. Gratis durante el lanzamiento.
+Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
 ## De su nombre a la carta impresa
 

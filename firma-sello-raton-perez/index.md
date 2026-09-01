@@ -10,7 +10,7 @@ Descarga gratis la firma y el sello oficiales de la Oficina del Ratoncito Pérez
 
 Son las dos piezas que convierten un folio escrito a mano en una carta de la Oficina: el sello redondo de tinta y la firma de Don Bigotes. Descárgalas sueltas y úsalas como quieras, o deja que la Oficina te la entregue ya firmada y sellada.
 
-Gratis durante el lanzamiento · Al instante · Hecho en España
+Firma y sello gratis · Al instante · Hecho en España
 
 ## El sello de la Oficina del Ratoncito Pérez
 
@@ -70,7 +70,7 @@ Sí. En la [carta para imprimir](https://donbigotes.app/carta-para-imprimir/) y 
 
 ## Crea la experiencia completa en la app Don Bigotes
 
-Voz, foto y Diploma de Valentía personalizados. Gratis durante el lanzamiento.
+Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
 Última actualización: 22 de agosto de 2026
 

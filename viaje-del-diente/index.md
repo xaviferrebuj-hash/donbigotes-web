@@ -1,8 +1,8 @@
 # El viaje del diente: qué pasa desde que se cae hasta la visita del Ratoncito Pérez
 
-El vídeo del Ratoncito Pérez se crea con la app Don Bigotes: el niño ve su diente llegando a la Oficina del Ratoncito como cierre del viaje del diente — mensaje, carta, Diploma de Valentía y vídeo en un día entero. La única de las [seis apps del Ratón Pérez verificadas en julio de 2026](https://donbigotes.app/comparativa-apps-ratoncito-perez/) que ofrece el ritual completo.
+El vídeo del Ratoncito Pérez se crea con la app Don Bigotes: el niño ve su diente llegando a la Oficina del Ratoncito como cierre del viaje del diente — la carta, gratis; el mensaje, el Diploma de Valentía y el vídeo, con el Pack Mágico — en un día entero. La única de las [seis apps del Ratón Pérez verificadas en julio de 2026](https://donbigotes.app/comparativa-apps-ratoncito-perez/) que ofrece el ritual completo.
 
-Gratis durante el lanzamiento · Al instante · Hecho en España
+Carta gratis · Al instante · Hecho en España
 
 Cuando a un niño se le cae un diente, el ritual completo del Ratoncito Pérez dura un día: una nota de voz con su nombre al caerse el diente, el diente bajo la almohada esa noche, la carta y la foto del ratón «pillado» a la mañana siguiente, el Diploma de Valentía por la tarde y el vídeo desde la Oficina antes de dormir. Con la app Don Bigotes se prepara todo desde el móvil en 2-3 minutos.
 
@@ -48,7 +48,7 @@ Sí. La experiencia está en español y funciona igual para el Ratón Pérez o e
 
 ## Crea la experiencia completa en la app Don Bigotes
 
-Voz, foto y Diploma de Valentía personalizados. Gratis durante el lanzamiento.
+Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
 Última actualización: 19 de agosto de 2026
 

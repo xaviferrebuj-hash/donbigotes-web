@@ -12,7 +12,7 @@ Mientras tu peque duerme, el Ratoncito Pérez escribe su carta con su nombre. Po
 
 ## Crea la experiencia completa en la app Don Bigotes
 
-Voz, foto y Diploma de Valentía personalizados. Gratis durante el lanzamiento.
+Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
 ## Una carta gratis. Y, si quieres, mucha más magia.
 
@@ -50,7 +50,7 @@ Imprímela o guárdala en PDF y déjala lista para la noche del diente.
 
 ## Ya disponible en Google Play y App Store
 
-En Android el Pack Mágico es gratis hasta el 31 de agosto de 2026; en iPhone se paga desde el primer día, en un único pago.
+El Pack Mágico completo, 4,99 € en un único pago, en Android y en iPhone.
 
 ## Preguntas frecuentes
 

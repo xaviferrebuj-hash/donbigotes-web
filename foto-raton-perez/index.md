@@ -2,7 +2,7 @@
 
 Crea la foto imposible: el Ratoncito Pérez «pillado» en plena visita, junto a tu peque dormido. La montas tú en el móvil en un momento, y la foto de tu hijo nunca sale de tu dispositivo.
 
-Gratis durante el lanzamiento · Tus fotos no salen de tu móvil · Hecha en España
+4,99 € pago único · Tus fotos no salen de tu móvil · Hecha en España
 
 ## El «¡Pillado!»: la prueba de que el Ratoncito estuvo allí
 
@@ -34,7 +34,7 @@ La creas tú en minutos, sin formularios ni esperas.
 
 ### Sin sorpresas
 
-Gratis durante el lanzamiento. Después, el Pack Mágico completo por 4,99 € de pago único, sin suscripciones.
+El Pack Mágico completo por 4,99 € de pago único, sin suscripciones.
 
 ## Lo que dicen las familias
 
@@ -46,7 +46,7 @@ No. El montaje se hace dentro de tu móvil. La foto de tu peque no sale de tu di
 
 **¿Es gratis?**
 
-Sí, gratis durante el lanzamiento. Después, el Pack Mágico completo cuesta 4,99 € en un único pago, sin suscripciones.
+La carta personalizada es gratis siempre. El Pack Mágico completo cuesta 4,99 € en un único pago, sin suscripciones.
 
 **¿Qué foto necesito?**
 
@@ -62,7 +62,7 @@ No. Don Bigotes es una app independiente inspirada en la tradición popular del 
 
 ## Crea la experiencia completa en la app Don Bigotes
 
-Voz, foto y Diploma de Valentía personalizados. Gratis durante el lanzamiento.
+Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
 Última actualización: 11 de julio de 2026
 
