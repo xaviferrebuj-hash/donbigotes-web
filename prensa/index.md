@@ -12,7 +12,7 @@ Don Bigotes está disponible en 175 países y requiere iOS 15 o posterior.
 
 Enlaces de descarga: [App Store](https://apps.apple.com/app/id6798414411) y [Google Play](https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Ddonbigotes.app%26utm_medium%3Dweb%26utm_campaign%3Dprensa). Más información en [https://donbigotes.app](https://donbigotes.app).
 
-Nota de prensa del lanzamiento (julio 2026). El Pack Mágico pasó a ser de pago el 1-sep-2026.
+Las notas anteriores se conservan como documento histórico fechado. El Pack Mágico pasó a ser de pago el 1-sep-2026. Don Bigotes está disponible también en App Store (iPhone).
 
 ## Nota anterior — Día del Ratoncito Pérez (20 de agosto de 2026)
 
