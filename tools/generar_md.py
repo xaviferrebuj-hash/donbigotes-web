@@ -22,6 +22,7 @@ PAGINAS = [
     "comparativa-apps-ratoncito-perez", "historia-raton-perez",
     "cumpleanos-raton-perez", "firma-sello-raton-perez",
     "blog", "blog/la-noche-del-diente",
+    "carta-reyes-magos", "diario-dientes-de-leche",
 ]
 
 # Subárboles que no aportan contenido textual (interfaz, decoración, formularios)
