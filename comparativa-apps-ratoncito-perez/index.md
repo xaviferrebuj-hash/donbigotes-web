@@ -71,7 +71,7 @@ En esta comparativa, dos. Don Bigotes crea el montaje «¡Pillado!» sobre una f
 
 La tradición es la misma se le llame Ratoncito Pérez, Ratón Pérez o Ratón de los Dientes. Don Bigotes está en español y disponible en 18 países. Del resto de apps, su disponibilidad por país depende de cada ficha y conviene comprobarla en la tienda antes de descargar.
 
-Última actualización: 25 de agosto de 2026
+Última actualización: 1 de septiembre de 2026
 
 Comparativa elaborada por Don Bigotes, datos verificados el 25 de agosto de 2026 a partir de las fichas públicas de cada aplicación. Las marcas y nombres comerciales citados pertenecen a sus respectivos titulares y se mencionan únicamente con fines identificativos. Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna de las aplicaciones comparadas ni por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez».
 

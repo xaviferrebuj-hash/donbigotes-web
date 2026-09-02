@@ -54,7 +54,7 @@ Una foto de tu peque dormido o de su habitación, que usarás como fondo del mon
 
 **¿Funciona en Android y en iPhone?**
 
-Sí. Está disponible en Google Play para Android y en la App Store para iPhone. También puedes usarla desde el navegador en la versión web.
+Sí. Está disponible en Google Play para Android y en la App Store para iPhone. La carta gratis, además, puedes crearla desde el navegador en donbigotes.app.
 
 **¿Es la app oficial del Ratoncito Pérez?**
 
@@ -64,7 +64,7 @@ No. Don Bigotes es una app independiente inspirada en la tradición popular del 
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
-Última actualización: 11 de julio de 2026
+Última actualización: 2 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 
