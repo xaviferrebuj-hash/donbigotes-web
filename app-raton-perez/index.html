@@ -100,6 +100,7 @@ img{display:block;max-width:100%}
 .s-head h2{font-size:clamp(1.9rem,3.8vw,2.8rem);color:var(--ink)}
 .s-head p{margin:14px auto 0;color:var(--ink-soft);font-size:1.06rem;max-width:34rem}
 .features{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:50px;align-items:stretch}
+.features.precios{grid-template-columns:repeat(2,1fr);max-width:860px;margin-left:auto;margin-right:auto}
 .card{background:#fff;border:1px solid var(--paper-2);border-radius:18px;box-shadow:0 10px 30px rgba(58,46,34,.06);overflow:hidden;display:flex;flex-direction:column}
 .card .c-text{padding:26px 24px 20px}
 .card .c-img{margin-top:auto;width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
@@ -108,6 +109,7 @@ img{display:block;max-width:100%}
 .tag-pack{background:#FBEFD2;color:#9A6A12}
 .card h3{font-size:1.22rem;color:var(--ink);margin-bottom:8px;min-height:2.2em}
 .card p{color:var(--ink-soft);font-size:.96rem}
+.card p a{color:var(--gold-deep);font-weight:700}
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,3vw,34px);margin-top:54px;counter-reset:s}
 .step{text-align:center;position:relative}
 .step .num{counter-increment:s;width:52px;height:52px;margin:0 auto 16px;border-radius:50%;display:grid;place-items:center;font-family:'Fraunces',serif;font-weight:700;font-size:1.3rem;color:var(--night-1);background:linear-gradient(180deg,var(--gold-soft),var(--gold))}
@@ -162,6 +164,7 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
 }
 @media(max-width:600px){
   .features{grid-template-columns:1fr}
+  .features.precios{grid-template-columns:1fr}
   .form-row{flex-direction:column}
   .form-row .btn-gold{width:100%}
   .badge{min-width:0;flex:1 1 100%;justify-content:center}
@@ -206,7 +209,7 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
 <script defer data-domain="donbigotes.app" src="https://plausible.io/js/script.js"></script>
 <script>window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "¿La app es gratis?", "acceptedAnswer": {"@type": "Answer", "text": "La app se descarga gratis y la carta personalizada es gratis siempre. El Pack Mágico completo cuesta 4,99 € en un único pago, sin suscripciones."}}, {"@type": "Question", "name": "¿En qué se diferencia de encargar un vídeo del Ratoncito?", "acceptedAnswer": {"@type": "Answer", "text": "No esperas ni dependes de nadie. En lugar de rellenar un formulario y aguardar a que te lo envíen, lo creas tú mismo en minutos, las veces que quieras."}}, {"@type": "Question", "name": "¿Tengo que subir la foto de mi hijo a internet?", "acceptedAnswer": {"@type": "Answer", "text": "No. El montaje se hace dentro de tu móvil. La foto de tu peque no sale de tu dispositivo."}}, {"@type": "Question", "name": "¿Funciona en Android y en iPhone?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Está disponible en Google Play para Android y en la App Store para iPhone. La carta gratis, además, puedes crearla desde el navegador en donbigotes.app."}}, {"@type": "Question", "name": "¿Es la app oficial del Ratoncito Pérez?", "acceptedAnswer": {"@type": "Answer", "text": "No. Don Bigotes es una app independiente inspirada en la tradición popular del Ratoncito Pérez, con personajes y contenidos propios."}}]}
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "¿La app es gratis?", "acceptedAnswer": {"@type": "Answer", "text": "La app se descarga gratis, y la carta personalizada, el diario de dientes y la felicitación de cumpleaños son gratis siempre. El Pack Mágico (nota de voz, fotomontaje, vídeo y Diploma de Valentía) cuesta 4,99 € en un único pago, sin suscripciones."}}, {"@type": "Question", "name": "¿En qué se diferencia de encargar un vídeo del Ratoncito?", "acceptedAnswer": {"@type": "Answer", "text": "No esperas ni dependes de nadie. En lugar de rellenar un formulario y aguardar a que te lo envíen, lo creas tú mismo en minutos, las veces que quieras."}}, {"@type": "Question", "name": "¿Tengo que subir la foto de mi hijo a internet?", "acceptedAnswer": {"@type": "Answer", "text": "No. El montaje se hace dentro de tu móvil. La foto de tu peque no sale de tu dispositivo."}}, {"@type": "Question", "name": "¿Funciona en Android y en iPhone?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Está disponible en Google Play para Android y en la App Store para iPhone. La carta gratis, además, puedes crearla desde el navegador en donbigotes.app."}}, {"@type": "Question", "name": "¿Es la app oficial del Ratoncito Pérez?", "acceptedAnswer": {"@type": "Answer", "text": "No. Don Bigotes es una app independiente inspirada en la tradición popular del Ratoncito Pérez, con personajes y contenidos propios."}}]}
 </script>
 </head>
 <body>
@@ -255,30 +258,70 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
     <div class="features">
       <article class="card">
         <div class="c-text">
-          <span class="tag-pill tag-free">Disponible</span>
+          <span class="tag-pill tag-pack">Pack Mágico</span>
           <h3>El mensaje de voz del Ratoncito</h3>
           <p>El Ratoncito le habla a tu hijo por su nombre, le felicita por su diente y le recuerda lavárselos. Una nota de voz tierna y personalizada que parece de verdad.</p>
         </div>
       </article>
       <article class="card">
         <div class="c-text">
-          <span class="tag-pill tag-free">Disponible</span>
+          <span class="tag-pill tag-pack">Pack Mágico</span>
           <h3>La foto del «¡Pillado!»</h3>
           <p>Crea la foto imposible: el Ratoncito Pérez sorprendido en plena visita, junto a tu peque dormido. El montaje se hace en tu propio móvil, así que la foto de tu hijo nunca se sube a internet.</p>
         </div>
       </article>
       <article class="card">
         <div class="c-text">
-          <span class="tag-pill tag-free">Disponible</span>
+          <span class="tag-pill tag-pack">Pack Mágico</span>
           <h3>El vídeo desde la Oficina del Ratoncito</h3>
           <p>Un vídeo personalizado en el que el Ratoncito prepara la visita a tu casa desde su Oficina. Para ver en familia antes de dormir.</p>
         </div>
       </article>
       <article class="card">
         <div class="c-text">
-          <span class="tag-pill tag-free">Disponible</span>
+          <span class="tag-pill tag-pack">Pack Mágico</span>
           <h3>El Diploma de Valentía</h3>
           <p>Un diploma personalizado —el certificado del Ratoncito Pérez—, con su nombre y su foto, que premia a tu peque por su valentía al perder el diente. Listo para imprimir, guardar y enmarcar.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="c-text">
+          <span class="tag-pill tag-free">Gratis</span>
+          <h3>Varios peques en la misma app</h3>
+          <p>Hasta seis, cada uno con su diario de dientes y su cumpleaños.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="c-text">
+          <span class="tag-pill tag-free">Gratis</span>
+          <h3>Felicitación de cumpleaños</h3>
+          <p>El Ratoncito felicita a tu peque por su nombre con un vídeo y un pergamino para imprimir. <a href="/cumpleanos-raton-perez/">Así funciona la felicitación</a>.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PRECIOS -->
+<section class="section cream-band" id="precios">
+  <div class="wrap">
+    <div class="s-head">
+      <span class="eyebrow">Sin letra pequeña</span>
+      <h2>Qué es gratis y qué se paga</h2>
+    </div>
+    <div class="features precios">
+      <article class="card">
+        <div class="c-text">
+          <span class="tag-pill tag-free">Gratis, siempre</span>
+          <h3>Lo que tienes sin pagar nada</h3>
+          <p>Carta personalizada · diario de dientes · felicitación de cumpleaños.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="c-text">
+          <span class="tag-pill tag-pack">Pack Mágico</span>
+          <h3>Un solo pago de 4,99 € (sin suscripción)</h3>
+          <p>Nota de voz con su nombre · fotomontaje «¡Pillado!» · vídeo desde la Oficina · Diploma de Valentía.</p>
         </div>
       </article>
     </div>
@@ -327,7 +370,7 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
       <h2>Preguntas frecuentes</h2>
     </div>
     <div class="faq">
-      <details open><summary>¿La app es gratis?</summary><div class="ans">La app se descarga gratis y la carta personalizada es gratis siempre. El Pack Mágico completo cuesta 4,99 € en un único pago, sin suscripciones.</div></details>
+      <details open><summary>¿La app es gratis?</summary><div class="ans">La app se descarga gratis, y la carta personalizada, el diario de dientes y la felicitación de cumpleaños son gratis siempre. El Pack Mágico (nota de voz, fotomontaje, vídeo y Diploma de Valentía) cuesta 4,99 € en un único pago, sin suscripciones.</div></details>
       <details><summary>¿En qué se diferencia de encargar un vídeo del Ratoncito?</summary><div class="ans">No esperas ni dependes de nadie. En lugar de rellenar un formulario y aguardar a que te lo envíen, lo creas tú mismo en minutos, las veces que quieras.</div></details>
       <details><summary>¿Tengo que subir la foto de mi hijo a internet?</summary><div class="ans">No. El montaje se hace dentro de tu móvil. La foto de tu peque no sale de tu dispositivo.</div></details>
       <details><summary>¿Funciona en Android y en iPhone?</summary><div class="ans">Sí. Está disponible en Google Play para Android y en la App Store para iPhone. La carta gratis, además, puedes crearla desde el navegador en donbigotes.app.</div></details>
