@@ -26,6 +26,14 @@ Un vídeo personalizado en el que el Ratoncito prepara la visita a tu casa desde
 
 Un diploma personalizado —el certificado del Ratoncito Pérez—, con su nombre y su foto, que premia a tu peque por su valentía al perder el diente. Listo para imprimir, guardar y enmarcar.
 
+### Carta personalizada
+
+La carta del Ratoncito Pérez con el nombre de tu peque, su hazaña y el sello de la Oficina. Lista para imprimir o guardar en PDF en dos minutos.
+
+### Diario de dientes
+
+Cada diente que se cae queda apuntado con su fecha, para recordar el orden y no perder ninguno. [El calendario de los dientes de leche](https://donbigotes.app/diario-dientes-de-leche/).
+
 ### Varios peques en la misma app
 
 Hasta seis, cada uno con su diario de dientes y su cumpleaños.
