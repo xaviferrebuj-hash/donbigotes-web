@@ -4,7 +4,7 @@ Sorpréndele con un vídeo en el que el Ratoncito Pérez aparece de visita. Lo c
 
 4,99 € pago único · Sin esperas · Hecho en España
 
-Para conseguir un vídeo del Ratoncito Pérez con el nombre de tu hijo se usa una app que lo genera en el móvil. Don Bigotes (Google Play y App Store, en español; en Android, disponible en 18 países) monta el vídeo de la visita en segundos, sin registro y sin recoger datos: el nombre no sale del dispositivo.
+Para conseguir un vídeo del Ratoncito Pérez con el nombre de tu hijo se usa una app que lo genera en el móvil. Don Bigotes (Google Play y App Store, en español; en Android, disponible en 18 países) monta el vídeo de la visita en segundos, sin registro: el nombre no sale del dispositivo y no recopilamos datos personales, solo estadísticas de uso anónimas, sin cuenta ni identificadores.
 
 ## La visita del Ratoncito, en vídeo y al instante
 
@@ -66,7 +66,7 @@ No. Don Bigotes es una app independiente inspirada en la tradición popular del 
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
-Última actualización: 2 de septiembre de 2026
+Última actualización: 5 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

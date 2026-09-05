@@ -50,7 +50,7 @@ Aquí conviene ser claro, porque es lo que distingue a esta app de las que cobra
 
 ## Lo que conviene saber antes de descargarla
 
-Hoy la app está disponible en Android, a través de [Google Play](https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Ddonbigotes.app%26utm_medium%3Dweb%26utm_campaign%3Dblog-la-noche-del-diente), y en iPhone y iPad, a través de [la App Store](https://apps.apple.com/app/id6798414411). Quien lo prefiera puede crear la carta gratuita desde la propia web, sin instalar nada.
+Hoy la app está disponible en Android, a través de [Google Play](https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Ddonbigotes.app%26utm_medium%3Dweb%26utm_campaign%3Dblog-la-noche-del-diente), y en iPhone y iPad, a través de [la App Store](https://apps.apple.com/es/app/id6798414411). Quien lo prefiera puede crear la carta gratuita desde la propia web, sin instalar nada.
 
 Merece la pena mencionar también la parte que casi nadie mira: Don Bigotes es un producto independiente, usa al Ratoncito Pérez como la figura folclórica de dominio público que es, y las ilustraciones son propias. Nada de personajes con licencia dudosa ni de datos del niño viajando a servidores desconocidos.
 

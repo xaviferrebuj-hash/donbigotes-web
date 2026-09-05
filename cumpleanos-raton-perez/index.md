@@ -4,7 +4,7 @@ El día del cumple de tu hijo o hija, el Ratoncito lo felicita por su nombre con
 
 ## ¿Puede el Ratoncito Pérez felicitar el cumpleaños de tu hijo?
 
-Sí. Con la app Don Bigotes, el Ratoncito Pérez felicita el cumpleaños al niño con su nombre: un vídeo de celebración desde su Oficina en el que el propio Ratoncito lo felicita por su nombre el día señalado, y un pergamino conmemorativo para imprimir y guardar de recuerdo. Los padres configuran el día y el mes en el perfil del niño, y cuando llega la fecha la app se viste de fiesta y aparece la felicitación. Todo se genera en el móvil, sin registro y sin recoger ningún dato del niño. La felicitación de cumpleaños es gratis, siempre.
+Sí. Con la app Don Bigotes, el Ratoncito Pérez felicita el cumpleaños al niño con su nombre: un vídeo de celebración desde su Oficina en el que el propio Ratoncito lo felicita por su nombre el día señalado, y un pergamino conmemorativo para imprimir y guardar de recuerdo. Los padres configuran el día y el mes en el perfil del niño, y cuando llega la fecha la app se viste de fiesta y aparece la felicitación. Todo se genera en el móvil, sin registro. No recopilamos datos personales. Solo estadísticas de uso anónimas, sin cuenta ni identificadores. La felicitación de cumpleaños es gratis, siempre.
 
 La felicitación de cumpleaños ya está disponible en Don Bigotes desde agosto de 2026, con la versión 0.7.0 de la app para Android; en iPhone y iPad está disponible desde la versión 1.0.0, publicada en la App Store el 29 de agosto de 2026.
 
@@ -42,7 +42,7 @@ No. La felicitación de cumpleaños es gratis, siempre. Lo que se paga es el Pac
 
 **¿Necesito registrarme o dar datos de mi hijo?**
 
-No. Don Bigotes funciona sin registro y sin recoger ningún dato: el nombre y la fecha del cumpleaños se guardan solo en tu móvil.
+No. Don Bigotes funciona sin registro: el nombre y la fecha del cumpleaños se guardan solo en tu móvil. No recopilamos datos personales. Solo estadísticas de uso anónimas, sin cuenta ni identificadores.
 
 **¿Funciona también con el Ratón Pérez de Latinoamérica?**
 

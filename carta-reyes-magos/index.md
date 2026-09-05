@@ -2,7 +2,7 @@
 
 Tu hijo escribe su carta a los Reyes Magos y Don Bigotes la lleva.
 
-Sin registro · Sin recoger datos del niño · Disponible en diciembre de 2026
+Sin registro · Sin datos personales · Disponible en diciembre de 2026
 
 Don Bigotes, el Ratoncito Pérez de la app, es también el Cartero Real: recoge la carta que tu hijo escribe a los Reyes Magos y la noche del 5 de enero deja junto a los zapatos la respuesta de Sus Majestades con su nombre, un Certificado Real de buen comportamiento, la foto del cartero «pillado» en tu salón y una nota de voz. Disponible en la app en diciembre de 2026.
 
@@ -32,7 +32,7 @@ Porque los Reyes reciben millones de cartas y necesitan carteros de confianza. Y
 
 - Nota de voz de Don Bigotes con su nombre.
 
-- Todo en tu móvil. Sin registro, sin recoger datos del niño.
+- Todo en tu móvil, sin registro. No recopilamos datos personales. Solo estadísticas de uso anónimas, sin cuenta ni identificadores.
 
 ## Para cuándo
 

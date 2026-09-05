@@ -1,8 +1,8 @@
-# ¿Cuándo se caen los dientes de leche? Orden y edades, diente a diente
+# Diario de dientes de leche: la app gratis para registrar qué diente se cae y cuándo
 
-Calendario de los 20 dientes de leche: a qué edad se cae cada uno y en qué orden.
+Un esquema de la boca con los 20 dientes de leche: tocas el que se ha caído y queda guardado con su fecha. Hasta seis peques, cada uno con su diario. Y debajo, el calendario de cuándo se cae cada diente.
 
-Sin registro · Se procesa en tu móvil · Carta gratis con su nombre
+Gratis, siempre · Sin cuenta: se queda en tu móvil · Android e iPhone
 
 Los 20 dientes de leche se caen entre los 6 y los 12 años, casi siempre en el mismo orden en que salieron: primero los incisivos centrales inferiores (6-7 años), después los superiores, los laterales (7-8), los primeros molares (9-11), los caninos (9-12) y por último los segundos molares (10-12). Cada niño lleva su ritmo; medio año arriba o abajo es normal.
 
@@ -31,35 +31,31 @@ Fuente orientativa: tablas de erupción y exfoliación de las asociaciones de od
 
 - ¿Cuántas visitas hace el Ratoncito Pérez? Veinte por hijo. Con hermanos, se pierde la cuenta: para eso está el diario.
 
-## El diario del Ratoncito Pérez (en la app)
+## El diario de dientes de la app Don Bigotes
 
-Un mapa con los 20 dientes de leche. Tocas el que se ha caído, apuntas la fecha, qué dejó el Ratoncito y un recuerdo de esa noche. La carta, la nota de voz y la foto de cada visita quedan guardadas para volver a verlas. Un diario por hijo: cada hermano tiene el suyo y el Ratoncito sabe a quién visita. Copia de seguridad en un archivo que te guardas tú; nada sale del móvil.
+Un esquema de la boca con los 20 dientes de leche. Tocas el que se ha caído y queda guardado con su fecha; los que ya se fueron se ven dorados, «en la Oficina». Cada visita del Ratoncito de esa noche (la carta, el «¡Pillado!», el diploma, si los hay) se crea para ese diente y para ese peque. Hasta seis peques en la misma app, cada uno con su diario. Sin cuenta: los datos se quedan en el móvil. Gratis, siempre. Disponible en Android y en iPhone.
 
 Apunta el primer diente hoy; el diario crece con él.
 
 ## Preguntas frecuentes
 
-**¿Cuántos dientes de leche tiene un niño?**
+**¿Es gratis?**
 
-20: 8 incisivos, 4 caninos y 8 molares.
+Sí, siempre. El diario de dientes es gratis en Android y en iPhone, como la carta personalizada y la felicitación de cumpleaños. Lo único de pago es el Pack Mágico, 4,99 € en un único pago.
 
-**¿A qué edad se cae el primer diente?**
+**¿Sirve para varios hijos?**
 
-Entre los 5 y los 7 años; lo más habitual, a los 6.
+Sí. Hasta seis peques en la misma app, cada uno con su diario de dientes y su cumpleaños.
 
-**¿Es malo que se caigan antes o después?**
+**¿Guarda los datos en algún servidor?**
 
-Un año de margen es normal. Antes de los 4 o después de los 8 sin ninguno movido, conviene consultar al dentista.
-
-**¿Los dientes de leche se caen en el mismo orden en todos los niños?**
-
-Casi siempre siguen el orden en que salieron, con pequeñas variaciones.
+No. No hace falta cuenta y el diario se queda en tu móvil. No recopilamos datos personales. Solo estadísticas de uso anónimas, sin cuenta ni identificadores.
 
 ## Crea la experiencia completa en la app Don Bigotes
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
-Última actualización: 2 de septiembre de 2026
+Última actualización: 5 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

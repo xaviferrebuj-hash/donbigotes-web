@@ -1,6 +1,6 @@
 # La app del Ratón Pérez para crear su visita en minutos
 
-Don Bigotes es la app del Ratoncito Pérez para Android y iPhone (o Ratón Pérez, el ratón de los dientes): carta con el nombre del niño, nota de voz que lo nombra, fotomontaje «¡Pillado!», vídeo de la Oficina y Diploma de Valentía. Gratis en Google Play y en la App Store. Todo funciona en tu móvil, sin recopilar datos.
+Don Bigotes es la app del Ratoncito Pérez para Android y iPhone (o Ratón Pérez, el ratón de los dientes): carta con el nombre del niño, nota de voz que lo nombra, fotomontaje «¡Pillado!», vídeo de la Oficina y Diploma de Valentía. Gratis en Google Play y en la App Store. Todo funciona en tu móvil. No recopilamos datos personales. Solo estadísticas de uso anónimas, sin cuenta ni identificadores.
 
 4,99 € pago único · Tus fotos no salen de tu móvil · Hecha en España
 
