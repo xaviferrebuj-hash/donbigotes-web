@@ -20,7 +20,7 @@ El Ratoncito Pérez estrena «oficina digital» para su día: un padre de Barcel
 
 Barcelona, 20 de agosto de 2026.— Con motivo del Día del Ratoncito Pérez, que se celebra cada 22 de agosto, la aplicación española Don Bigotes presenta la «oficina digital» del Ratoncito: cuando a un niño se le cae un diente, sus padres preparan en un minuto la carta personalizada con su nombre, una nota de voz en la que el propio Ratoncito lo pronuncia, el fotomontaje «¡Pillado!» y el vídeo desde su Oficina.
 
-En Latinoamérica, donde el personaje se conoce como Ratón Pérez o Ratón de los Dientes, la fecha se celebra el mismo día — y la app ya recibe familias de ocho países. Todo el procesamiento se realiza en el móvil de los padres, sin registro y sin recopilar datos de menores. La carta es gratuita y el Pack Mágico completo sigue gratis durante el lanzamiento.
+En Latinoamérica, donde el personaje se conoce como Ratón Pérez o Ratón de los Dientes, la fecha se celebra el mismo día — y la app ya recibe familias de ocho países. Todo el procesamiento se realiza en el móvil de los padres, sin registro y sin recopilar datos de menores. La carta es gratuita y el Pack Mágico completo cuesta 4,99 € en un único pago.
 
 La nota de prensa completa está publicada en Comunicae: [El Ratoncito Pérez estrena «oficina digital» para su día](https://comunicae.es/notas-de-prensa/el-ratoncito-perez-estrena-oficina-digital).
 
@@ -32,13 +32,13 @@ Barcelona, 23 de julio de 2026.— ¿Existe alguna app para escribir cartas al R
 
 El funcionamiento es sencillo: los padres escriben el nombre de su hijo, marcan qué diente se le ha caído y la "Oficina del Ratoncito Pérez" se pone a trabajar. En un minuto, el niño recibe la carta personalizada del Ratoncito Pérez con su nombre, lista para imprimir y dejar bajo la almohada. La carta es gratuita.
 
-Para las familias que quieren ir más allá, el Pack Mágico —gratuito durante el lanzamiento— convierte a Don Bigotes en una de las apps con las que el Ratoncito Pérez le responde a cada niño: una nota de voz en la que el Ratoncito pronuncia el nombre del pequeño, el fotomontaje «¡Pillado!» que muestra al Ratoncito cazado en el propio salón de casa, el vídeo del diente llegando a la Oficina y el Diploma de Valentía por el diente caído.
+Para las familias que quieren ir más allá, el Pack Mágico —4,99 € en un único pago— convierte a Don Bigotes en una de las apps con las que el Ratoncito Pérez le responde a cada niño: una nota de voz en la que el Ratoncito pronuncia el nombre del pequeño, el fotomontaje «¡Pillado!» que muestra al Ratoncito cazado en el propio salón de casa, el vídeo del diente llegando a la Oficina y el Diploma de Valentía por el diente caído.
 
 Don Bigotes nace para resolver una búsqueda que miles de padres hacen cada noche: una app para que su hijo reciba un mensaje del Ratoncito Pérez cuando se le cae un diente, sin complicaciones y sin comprometer la privacidad familiar. Todo el procesamiento —incluidas las fotos del fotomontaje— se realiza localmente en el dispositivo: la app no recopila datos, no requiere registro y funciona sin conexión una vez generado el contenido.
 
 «Los chatbots pueden escribir una carta del Ratoncito, pero no pueden ponerle la voz del Ratoncito diciendo el nombre de tu hijo, ni dejarlo "pillado" en una foto de tu salón. Esa es la magia que queríamos dar a los padres», explica Xavi Ferré, creador de la aplicación.
 
-La app está disponible en Google Play desde hoy: [play.google.com/store/apps/details?id=es.donbigotes.app](https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Ddonbigotes.app%26utm_medium%3Dweb%26utm_campaign%3Dprensa). La carta personalizada es gratuita y el Pack Mágico completo es gratis durante el periodo de lanzamiento.
+La app está disponible en Google Play desde hoy: [play.google.com/store/apps/details?id=es.donbigotes.app](https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Ddonbigotes.app%26utm_medium%3Dweb%26utm_campaign%3Dprensa). La carta personalizada es gratuita y el Pack Mágico completo cuesta 4,99 € en un único pago.
 
 ## Sobre Don Bigotes
 
@@ -52,7 +52,7 @@ Xavi Ferré · [hola@donbigotes.app](mailto:hola@donbigotes.app) · [https://don
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
-Última actualización: 1 de septiembre de 2026
+Última actualización: 5 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

@@ -26,6 +26,24 @@ Un vídeo personalizado en el que el Ratoncito prepara la visita a tu casa desde
 
 Un diploma personalizado —el certificado del Ratoncito Pérez—, con su nombre y su foto, que premia a tu peque por su valentía al perder el diente. Listo para imprimir, guardar y enmarcar.
 
+### Varios peques en la misma app
+
+Hasta seis, cada uno con su diario de dientes y su cumpleaños.
+
+### Felicitación de cumpleaños
+
+El Ratoncito felicita a tu peque por su nombre con un vídeo y un pergamino para imprimir. [Así funciona la felicitación](https://donbigotes.app/cumpleanos-raton-perez/).
+
+## Qué es gratis y qué se paga
+
+### Lo que tienes sin pagar nada
+
+Carta personalizada · diario de dientes · felicitación de cumpleaños.
+
+### Un solo pago de 4,99 € (sin suscripción)
+
+Nota de voz con su nombre · fotomontaje «¡Pillado!» · vídeo desde la Oficina · Diploma de Valentía.
+
 ## Rápido, privado y tuyo
 
 ### Al instante
@@ -48,7 +66,7 @@ Todo en español, pensado para resolverte la noche del diente en tres toques.
 
 **¿La app es gratis?**
 
-La app se descarga gratis y la carta personalizada es gratis siempre. El Pack Mágico completo cuesta 4,99 € en un único pago, sin suscripciones.
+La app se descarga gratis, y la carta personalizada, el diario de dientes y la felicitación de cumpleaños son gratis siempre. El Pack Mágico (nota de voz, fotomontaje, vídeo y Diploma de Valentía) cuesta 4,99 € en un único pago, sin suscripciones.
 
 **¿En qué se diferencia de encargar un vídeo del Ratoncito?**
 
@@ -70,7 +88,7 @@ No. Don Bigotes es una app independiente inspirada en la tradición popular del 
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
-Última actualización: 2 de septiembre de 2026
+Última actualización: 5 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

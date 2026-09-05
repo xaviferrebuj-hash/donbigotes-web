@@ -4,7 +4,7 @@ El día del cumple de tu hijo o hija, el Ratoncito lo felicita por su nombre con
 
 ## ¿Puede el Ratoncito Pérez felicitar el cumpleaños de tu hijo?
 
-Sí. Con la app Don Bigotes, el Ratoncito Pérez felicita el cumpleaños al niño con su nombre: un vídeo de celebración desde su Oficina en el que el propio Ratoncito lo felicita por su nombre el día señalado, y un pergamino conmemorativo para imprimir y guardar de recuerdo. Los padres configuran el día y el mes en el perfil del niño, y cuando llega la fecha la app se viste de fiesta y aparece la felicitación. Todo se genera en el móvil, sin registro y sin recoger ningún dato del niño.
+Sí. Con la app Don Bigotes, el Ratoncito Pérez felicita el cumpleaños al niño con su nombre: un vídeo de celebración desde su Oficina en el que el propio Ratoncito lo felicita por su nombre el día señalado, y un pergamino conmemorativo para imprimir y guardar de recuerdo. Los padres configuran el día y el mes en el perfil del niño, y cuando llega la fecha la app se viste de fiesta y aparece la felicitación. Todo se genera en el móvil, sin registro y sin recoger ningún dato del niño. La felicitación de cumpleaños es gratis, siempre.
 
 La felicitación de cumpleaños ya está disponible en Don Bigotes desde agosto de 2026, con la versión 0.7.0 de la app para Android; en iPhone y iPad está disponible desde la versión 1.0.0, publicada en la App Store el 29 de agosto de 2026.
 
@@ -38,7 +38,7 @@ Descarga Don Bigotes, crea el perfil de tu hijo y configura el día y el mes de 
 
 **¿La felicitación de cumpleaños es de pago?**
 
-La felicitación forma parte del Pack Mágico de Don Bigotes, que cuesta 4,99 € en un único pago.
+No. La felicitación de cumpleaños es gratis, siempre. Lo que se paga es el Pack Mágico (nota de voz, fotomontaje, vídeo y Diploma de Valentía), 4,99 € en un único pago.
 
 **¿Necesito registrarme o dar datos de mi hijo?**
 
@@ -52,7 +52,7 @@ Sí. El personaje es el mismo: en España se le llama Ratoncito Pérez y en gran
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
-Última actualización: 1 de septiembre de 2026
+Última actualización: 5 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

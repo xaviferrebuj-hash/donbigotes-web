@@ -40,6 +40,14 @@ Con su nombre, para imprimir y colgar en su cuarto.
 
 Don Bigotes dice su nombre y le da las buenas noches. Broche final.
 
+### Varios peques en la misma app
+
+Hasta seis, cada uno con su diario de dientes y su cumpleaños.
+
+### Felicitación de cumpleaños
+
+El Ratoncito felicita a tu peque por su nombre con un vídeo y un pergamino para imprimir. [Cómo funciona](https://donbigotes.app/cumpleanos-raton-perez/).
+
 ## Tres pasos. Dos minutos.
 
 ### Escribe su nombre
@@ -54,6 +62,16 @@ Don Bigotes crea la carta del Ratoncito Pérez personalizada al instante.
 
 Imprímela o guárdala en PDF y déjala lista para la noche del diente.
 
+## Qué es gratis y qué se paga
+
+### Lo que tienes sin pagar nada
+
+Carta personalizada · diario de dientes · felicitación de cumpleaños.
+
+### Un solo pago de 4,99 € (sin suscripción)
+
+Nota de voz con su nombre · fotomontaje «¡Pillado!» · vídeo desde la Oficina · Diploma de Valentía.
+
 ## Ya disponible en Google Play y App Store
 
 El Pack Mágico completo, 4,99 € en un único pago, en Android y en iPhone.
@@ -66,11 +84,11 @@ Tu hijo escribe su carta a los Reyes Magos y Don Bigotes la lleva. La noche del 
 
 **¿Qué es Don Bigotes?**
 
-Una app para padres que crea la carta del Ratoncito Pérez personalizada con el nombre de tu hijo o hija para la noche del diente. La carta es gratis; además tiene un Pack Mágico opcional con nota de voz, fotomontaje y Diploma de Valentía.
+Una app para padres que crea la carta del Ratoncito Pérez personalizada con el nombre de tu hijo o hija para la noche del diente. La carta, el diario de dientes y la felicitación de cumpleaños son gratis; además tiene un Pack Mágico opcional con nota de voz, fotomontaje, vídeo y Diploma de Valentía.
 
 **¿La carta es de verdad gratis?**
 
-Sí. La carta personalizada con su nombre y el sello de la Oficina es gratuita. La nota de voz, el fotomontaje y el Diploma de Valentía forman parte del Pack Mágico, que es opcional.
+Sí. La carta personalizada, el diario de dientes y la felicitación de cumpleaños son gratis siempre. La nota de voz, el fotomontaje, el vídeo y el Diploma de Valentía forman parte del Pack Mágico, un solo pago de 4,99 € sin suscripción.
 
 **¿Cómo hago la carta del Ratoncito Pérez?**
 
@@ -82,7 +100,7 @@ En Android y en iPhone. Ya está disponible en Google Play y en la App Store. El
 
 ## Que la próxima caída de diente sea inolvidable
 
-Última actualización: 2 de septiembre de 2026
+Última actualización: 5 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

@@ -66,7 +66,7 @@ Sí. Donde se celebra el Día de Reyes, el Cartero Real llega igual. En la app a
 
 **¿Y si tengo varios hijos?**
 
-Cada hijo tiene su carta y su respuesta con su nombre. La app permite registrar a todos los hermanos.
+Cada hijo tiene su carta y su respuesta con su nombre. La app permite registrar hasta seis hermanos, cada uno con su diario de dientes y su cumpleaños.
 
 Don Bigotes es una aplicación independiente. La carta de los Reyes Magos es una tradición popular y no está asociada a ninguna marca ni institución.
 
@@ -74,7 +74,7 @@ Don Bigotes es una aplicación independiente. La carta de los Reyes Magos es una
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
-Última actualización: 2 de septiembre de 2026
+Última actualización: 5 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 
