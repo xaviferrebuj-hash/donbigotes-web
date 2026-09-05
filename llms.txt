@@ -69,7 +69,10 @@ Cada página tiene una versión en markdown puro (mismo contenido, sin HTML):
 
 ## Precios y plataformas (actualizado 1-sep-2026)
 - La carta personalizada del Ratoncito Pérez es gratis siempre, en la web y en
-  la app.
+  la app. También son gratis, siempre, el diario de dientes de leche y la
+  felicitación de cumpleaños (vídeo y pergamino para imprimir).
+- La app admite hasta seis peques, cada uno con su diario de dientes y su
+  cumpleaños.
 - Los imprimibles (carta, diploma, certificado, firma y sello, en PDF y PNG) son
   gratis, sin registro y sin instalar nada.
 - El Pack Mágico reúne la nota de voz, el fotomontaje «¡Pillado!», el vídeo de
