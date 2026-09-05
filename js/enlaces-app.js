@@ -49,7 +49,7 @@
 
     // Ficha pública de App Store (Apple aprobó la app el 29-ago-2026).
     // Si algún día vuelve a ser null, los badges de App Store se ocultan solos.
-    appstore: "https://apps.apple.com/app/id6798414411"
+    appstore: "https://apps.apple.com/es/app/id6798414411"
   };
 
   /* --- Atribución: UTM de la visita -> referrer de Play --- */
