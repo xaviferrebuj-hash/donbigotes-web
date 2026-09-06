@@ -174,12 +174,35 @@
     }
   }
 
+  // Desbloqueo iOS/iPadOS: dentro del gesto, resume + un buffer silencioso
+  // de 1 muestra. Sin esto, en iPadOS el contexto se queda "suspended" y
+  // los buffers programados no suenan.
+  function desbloquear() {
+    if (!ctx) {
+      ctx = new AC();
+      ctx.onstatechange = function () {
+        console.debug("[muestra-voz] AudioContext state:", ctx.state);
+        if (sonando && (ctx.state === "interrupted" || ctx.state === "suspended")) {
+          ctx.resume();
+        }
+      };
+    }
+    console.debug("[muestra-voz] state antes del toque:", ctx.state);
+    try { ctx.resume(); } catch (e) { /* seguimos */ }
+    try {
+      var mudo = ctx.createBuffer(1, 1, ctx.sampleRate);
+      var src = ctx.createBufferSource();
+      src.buffer = mudo;
+      src.connect(ctx.destination);
+      src.start(0);
+    } catch (e) { /* el buffer mudo es solo un empujón */ }
+  }
+
   btn.addEventListener("click", function () {
     if (usarFallback) { fallback(); return; }
     if (sonando) { parar(); return; }
     try {
-      if (!ctx) ctx = new AC();
-      if (ctx.state === "suspended") ctx.resume();
+      desbloquear();
     } catch (e) { fallback(); return; }
 
     var nombre = inputNombre ? inputNombre.value : "";
@@ -187,6 +210,12 @@
     label.textContent = TXT.cargando;
     cargarTodo().then(function () {
       btn.disabled = false;
+      console.debug("[muestra-voz] state tras el toque y la carga:", ctx.state);
+      if (ctx.state !== "running") {
+        plausible("Muestra de voz", { fallback: "si" });
+        fallback();
+        return;
+      }
       reproducir(nombre);
     }).catch(function () {
       btn.disabled = false;
