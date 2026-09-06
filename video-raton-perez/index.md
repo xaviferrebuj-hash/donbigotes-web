@@ -1,6 +1,6 @@
 # El vídeo del Ratoncito Pérez desde su Oficina Mágica
 
-Sorpréndele con un vídeo en el que el Ratoncito Pérez, en su Oficina, prepara la visita de esta noche y dice el nombre de tu peque. Se crea en la app, en tu móvil, en un minuto, y lo tienes listo para enseñárselo por la mañana.
+Sorpréndele con un vídeo en el que el Ratoncito Pérez, en su Oficina, prepara la visita de esta noche y dice el nombre de tu peque si está entre los más de 200 grabados; si no, dice «Ya sé quién eres» y la historia sigue igual. Se crea en la app, en tu móvil, en un minuto, y lo tienes listo para enseñárselo por la mañana.
 
 4,99 € pago único · Sin esperas · Hecho en España
 
