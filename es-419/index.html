@@ -671,7 +671,7 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
         <div class="pc-voz">
           <button type="button" class="pc-play" id="pcPlay" aria-label="Escuchar un trozo de la voz del Rat&oacute;n P&eacute;rez">&#9654;</button>
           <div>
-            <p class="pc-voz-l" id="pcVozL">Así suena cuando el nombre no está en el banco. En la app, con más de 200 nombres grabados, el Ratón Pérez dirá el de tu peque.</p>
+            <p class="pc-voz-l" id="pcVozL">Pulsa y escucha cómo dice su nombre.</p>
             <p class="pc-voz-h">La voz de verdad de la app</p>
           </div>
           <audio id="pcAudio" src="/assets/audio/preview-pack.mp3" preload="none"></audio>
@@ -699,13 +699,10 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
 var GEN={sexo:null,diente:null,tramo:null,rasgo:null};
 function openGen(){plausible('Crear carta - clic');document.getElementById('gen').classList.add('open');document.body.style.overflow='hidden';}
 function closeGen(){document.getElementById('gen').classList.remove('open');document.body.style.overflow='';}
-function resetGen(){document.getElementById('genResult').classList.remove('show');document.getElementById('genForm').style.display='block';pcAudio.pause();pcAudio.currentTime=0;}
+function resetGen(){document.getElementById('genResult').classList.remove('show');document.getElementById('genForm').style.display='block';pcAudio.pause();pcAudio.currentTime=0;if(window.muestraVoz)muestraVoz.parar();}
 /* Post-carta: preview de voz y vuelta a la carta. */
 var pcAudio=document.getElementById('pcAudio'),pcBtn=document.getElementById('pcPlay');
 function pcIcono(){pcBtn.innerHTML=pcAudio.paused?'&#9654;':'&#10074;&#10074;';}
-pcBtn.addEventListener('click',function(){
-  if(pcAudio.paused){pcAudio.play();plausible('Preview voz postcarta');}else{pcAudio.pause();}
-});
 pcAudio.addEventListener('play',pcIcono);
 pcAudio.addEventListener('pause',pcIcono);
 pcAudio.addEventListener('ended',function(){pcAudio.currentTime=0;pcIcono();});
@@ -775,6 +772,7 @@ function makeLetter(){
   pcNombre(n);
 }
 </script>
+<script src="/js/muestra-voz.js"></script>
 <script src="/js/enlaces-app.js"></script>
 </body>
 </html>

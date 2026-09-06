@@ -1,0 +1,946 @@
+{
+ "version": 1,
+ "sampleRate": 48000,
+ "clips": {
+  "aaron": {
+   "start": 0.0,
+   "dur": 0.832
+  },
+  "abril": {
+   "start": 0.832,
+   "dur": 0.683
+  },
+  "ada": {
+   "start": 1.515,
+   "dur": 0.533
+  },
+  "adam": {
+   "start": 2.048,
+   "dur": 0.597
+  },
+  "adara": {
+   "start": 2.645,
+   "dur": 0.64
+  },
+  "aday": {
+   "start": 3.285,
+   "dur": 0.619
+  },
+  "adrian": {
+   "start": 3.904,
+   "dur": 0.768
+  },
+  "adriana": {
+   "start": 4.672,
+   "dur": 0.853
+  },
+  "africa": {
+   "start": 5.525,
+   "dur": 0.789
+  },
+  "aina": {
+   "start": 6.315,
+   "dur": 1.045
+  },
+  "ainara": {
+   "start": 7.36,
+   "dur": 0.789
+  },
+  "ainhoa": {
+   "start": 8.149,
+   "dur": 0.853
+  },
+  "aitana": {
+   "start": 9.003,
+   "dur": 0.811
+  },
+  "aitor": {
+   "start": 9.813,
+   "dur": 0.64
+  },
+  "alan": {
+   "start": 10.453,
+   "dur": 0.619
+  },
+  "alba": {
+   "start": 11.072,
+   "dur": 0.555
+  },
+  "alberto": {
+   "start": 11.627,
+   "dur": 0.683
+  },
+  "aleix": {
+   "start": 12.309,
+   "dur": 0.512
+  },
+  "alejandra": {
+   "start": 12.821,
+   "dur": 0.939
+  },
+  "alejandro": {
+   "start": 13.76,
+   "dur": 1.024
+  },
+  "alex": {
+   "start": 14.784,
+   "dur": 0.704
+  },
+  "alexia": {
+   "start": 15.488,
+   "dur": 0.747
+  },
+  "alicia": {
+   "start": 16.235,
+   "dur": 0.853
+  },
+  "alma": {
+   "start": 17.088,
+   "dur": 0.64
+  },
+  "alonso": {
+   "start": 17.728,
+   "dur": 0.811
+  },
+  "alvaro": {
+   "start": 18.539,
+   "dur": 0.683
+  },
+  "amaia": {
+   "start": 19.221,
+   "dur": 1.323
+  },
+  "amir": {
+   "start": 20.544,
+   "dur": 0.555
+  },
+  "amira": {
+   "start": 21.099,
+   "dur": 0.683
+  },
+  "ana": {
+   "start": 21.781,
+   "dur": 0.512
+  },
+  "anas": {
+   "start": 22.293,
+   "dur": 0.64
+  },
+  "ander": {
+   "start": 22.933,
+   "dur": 0.576
+  },
+  "andrea": {
+   "start": 23.509,
+   "dur": 0.789
+  },
+  "andres": {
+   "start": 24.299,
+   "dur": 0.811
+  },
+  "angel": {
+   "start": 25.109,
+   "dur": 0.704
+  },
+  "angela": {
+   "start": 25.813,
+   "dur": 0.704
+  },
+  "anna": {
+   "start": 21.781,
+   "dur": 0.512
+  },
+  "antonio": {
+   "start": 26.517,
+   "dur": 0.811
+  },
+  "ariadna": {
+   "start": 27.328,
+   "dur": 0.768
+  },
+  "arlet": {
+   "start": 28.096,
+   "dur": 0.704
+  },
+  "arnau": {
+   "start": 28.8,
+   "dur": 0.661
+  },
+  "aroa": {
+   "start": 29.461,
+   "dur": 0.661
+  },
+  "asier": {
+   "start": 30.123,
+   "dur": 0.597
+  },
+  "aurora": {
+   "start": 30.72,
+   "dur": 0.747
+  },
+  "axel": {
+   "start": 31.467,
+   "dur": 0.661
+  },
+  "aya": {
+   "start": 32.128,
+   "dur": 0.533
+  },
+  "azahara": {
+   "start": 32.661,
+   "dur": 0.747
+  },
+  "berta": {
+   "start": 33.408,
+   "dur": 0.661
+  },
+  "biel": {
+   "start": 34.069,
+   "dur": 0.619
+  },
+  "blanca": {
+   "start": 34.688,
+   "dur": 0.725
+  },
+  "bruna": {
+   "start": 35.413,
+   "dur": 0.661
+  },
+  "bruno": {
+   "start": 36.075,
+   "dur": 0.661
+  },
+  "camila": {
+   "start": 36.736,
+   "dur": 0.725
+  },
+  "candela": {
+   "start": 37.461,
+   "dur": 0.768
+  },
+  "carla": {
+   "start": 38.229,
+   "dur": 0.555
+  },
+  "carlos": {
+   "start": 38.784,
+   "dur": 0.704
+  },
+  "carlota": {
+   "start": 39.488,
+   "dur": 0.768
+  },
+  "carmen": {
+   "start": 40.256,
+   "dur": 0.64
+  },
+  "carolina": {
+   "start": 40.896,
+   "dur": 0.917
+  },
+  "cayetana": {
+   "start": 41.813,
+   "dur": 0.853
+  },
+  "celia": {
+   "start": 42.667,
+   "dur": 0.576
+  },
+  "chloe": {
+   "start": 43.243,
+   "dur": 0.512
+  },
+  "clara": {
+   "start": 43.755,
+   "dur": 0.917
+  },
+  "claudia": {
+   "start": 44.672,
+   "dur": 0.683
+  },
+  "cloe": {
+   "start": 45.355,
+   "dur": 0.576
+  },
+  "cristian": {
+   "start": 45.931,
+   "dur": 0.725
+  },
+  "cristina": {
+   "start": 46.656,
+   "dur": 0.832
+  },
+  "daniel": {
+   "start": 47.488,
+   "dur": 0.917
+  },
+  "daniela": {
+   "start": 48.405,
+   "dur": 0.789
+  },
+  "dario": {
+   "start": 49.195,
+   "dur": 0.64
+  },
+  "david": {
+   "start": 49.835,
+   "dur": 0.512
+  },
+  "diana": {
+   "start": 50.347,
+   "dur": 0.768
+  },
+  "diego": {
+   "start": 51.115,
+   "dur": 0.704
+  },
+  "dylan": {
+   "start": 51.819,
+   "dur": 0.683
+  },
+  "elena": {
+   "start": 52.501,
+   "dur": 0.704
+  },
+  "elia": {
+   "start": 53.205,
+   "dur": 0.64
+  },
+  "elias": {
+   "start": 53.845,
+   "dur": 0.768
+  },
+  "elisa": {
+   "start": 54.613,
+   "dur": 0.747
+  },
+  "elsa": {
+   "start": 55.36,
+   "dur": 0.533
+  },
+  "emma": {
+   "start": 55.893,
+   "dur": 0.555
+  },
+  "enrique": {
+   "start": 56.448,
+   "dur": 0.704
+  },
+  "enzo": {
+   "start": 57.152,
+   "dur": 0.619
+  },
+  "eric": {
+   "start": 57.771,
+   "dur": 0.533
+  },
+  "erik": {
+   "start": 58.304,
+   "dur": 0.555
+  },
+  "erika": {
+   "start": 58.859,
+   "dur": 0.64
+  },
+  "eva": {
+   "start": 59.499,
+   "dur": 0.533
+  },
+  "fabio": {
+   "start": 60.032,
+   "dur": 0.597
+  },
+  "fatima": {
+   "start": 60.629,
+   "dur": 0.704
+  },
+  "fernando": {
+   "start": 61.333,
+   "dur": 0.875
+  },
+  "francisco": {
+   "start": 62.208,
+   "dur": 0.619
+  },
+  "gabriel": {
+   "start": 62.827,
+   "dur": 0.853
+  },
+  "gabriela": {
+   "start": 63.68,
+   "dur": 0.832
+  },
+  "gael": {
+   "start": 64.512,
+   "dur": 0.789
+  },
+  "gala": {
+   "start": 65.301,
+   "dur": 0.747
+  },
+  "gonzalo": {
+   "start": 66.048,
+   "dur": 0.896
+  },
+  "greta": {
+   "start": 66.944,
+   "dur": 0.683
+  },
+  "guillermo": {
+   "start": 67.627,
+   "dur": 0.768
+  },
+  "hector": {
+   "start": 68.395,
+   "dur": 0.683
+  },
+  "helena": {
+   "start": 69.077,
+   "dur": 0.619
+  },
+  "hugo": {
+   "start": 69.696,
+   "dur": 0.491
+  },
+  "ian": {
+   "start": 70.187,
+   "dur": 0.619
+  },
+  "ignacio": {
+   "start": 70.805,
+   "dur": 0.875
+  },
+  "iker": {
+   "start": 71.68,
+   "dur": 0.597
+  },
+  "imran": {
+   "start": 72.277,
+   "dur": 0.683
+  },
+  "india": {
+   "start": 72.96,
+   "dur": 0.832
+  },
+  "ines": {
+   "start": 73.792,
+   "dur": 0.661
+  },
+  "irene": {
+   "start": 74.453,
+   "dur": 0.704
+  },
+  "iria": {
+   "start": 75.157,
+   "dur": 0.576
+  },
+  "iris": {
+   "start": 75.733,
+   "dur": 0.597
+  },
+  "isaac": {
+   "start": 76.331,
+   "dur": 0.597
+  },
+  "isabel": {
+   "start": 76.928,
+   "dur": 0.789
+  },
+  "isabella": {
+   "start": 77.717,
+   "dur": 0.875
+  },
+  "ismael": {
+   "start": 78.592,
+   "dur": 0.768
+  },
+  "ivan": {
+   "start": 79.36,
+   "dur": 0.683
+  },
+  "izan": {
+   "start": 80.043,
+   "dur": 0.704
+  },
+  "jaime": {
+   "start": 80.747,
+   "dur": 0.725
+  },
+  "jan": {
+   "start": 81.472,
+   "dur": 0.555
+  },
+  "jana": {
+   "start": 82.027,
+   "dur": 0.661
+  },
+  "javier": {
+   "start": 82.688,
+   "dur": 0.619
+  },
+  "jesus": {
+   "start": 83.307,
+   "dur": 0.725
+  },
+  "jimena": {
+   "start": 84.032,
+   "dur": 0.853
+  },
+  "joan": {
+   "start": 84.885,
+   "dur": 0.939
+  },
+  "joel": {
+   "start": 85.824,
+   "dur": 0.704
+  },
+  "jon": {
+   "start": 86.528,
+   "dur": 0.64
+  },
+  "jorge": {
+   "start": 87.168,
+   "dur": 0.619
+  },
+  "jose": {
+   "start": 87.787,
+   "dur": 0.661
+  },
+  "juan": {
+   "start": 88.448,
+   "dur": 0.597
+  },
+  "julen": {
+   "start": 89.045,
+   "dur": 0.683
+  },
+  "julia": {
+   "start": 89.728,
+   "dur": 0.597
+  },
+  "julieta": {
+   "start": 90.325,
+   "dur": 1.237
+  },
+  "june": {
+   "start": 91.563,
+   "dur": 0.619
+  },
+  "kai": {
+   "start": 92.181,
+   "dur": 0.469
+  },
+  "laia": {
+   "start": 92.651,
+   "dur": 0.661
+  },
+  "lara": {
+   "start": 93.312,
+   "dur": 0.661
+  },
+  "laura": {
+   "start": 93.973,
+   "dur": 0.597
+  },
+  "lautaro": {
+   "start": 94.571,
+   "dur": 0.875
+  },
+  "leire": {
+   "start": 95.445,
+   "dur": 0.619
+  },
+  "leo": {
+   "start": 96.064,
+   "dur": 0.619
+  },
+  "leyre": {
+   "start": 95.445,
+   "dur": 0.619
+  },
+  "lia": {
+   "start": 96.683,
+   "dur": 0.619
+  },
+  "liam": {
+   "start": 97.301,
+   "dur": 0.661
+  },
+  "lina": {
+   "start": 97.963,
+   "dur": 0.661
+  },
+  "lola": {
+   "start": 98.624,
+   "dur": 0.661
+  },
+  "luca": {
+   "start": 99.285,
+   "dur": 0.661
+  },
+  "lucas": {
+   "start": 99.947,
+   "dur": 0.789
+  },
+  "lucia": {
+   "start": 100.736,
+   "dur": 0.811
+  },
+  "lucina": {
+   "start": 101.547,
+   "dur": 0.811
+  },
+  "luis": {
+   "start": 102.357,
+   "dur": 0.725
+  },
+  "luka": {
+   "start": 99.285,
+   "dur": 0.661
+  },
+  "luna": {
+   "start": 103.083,
+   "dur": 0.704
+  },
+  "macarena": {
+   "start": 103.787,
+   "dur": 0.939
+  },
+  "maia": {
+   "start": 104.725,
+   "dur": 0.619
+  },
+  "malak": {
+   "start": 105.344,
+   "dur": 0.64
+  },
+  "manuel": {
+   "start": 105.984,
+   "dur": 0.683
+  },
+  "manuela": {
+   "start": 106.667,
+   "dur": 0.811
+  },
+  "mar": {
+   "start": 107.477,
+   "dur": 0.491
+  },
+  "mara": {
+   "start": 107.968,
+   "dur": 0.597
+  },
+  "marc": {
+   "start": 108.565,
+   "dur": 0.597
+  },
+  "marco": {
+   "start": 109.163,
+   "dur": 0.725
+  },
+  "marcos": {
+   "start": 109.888,
+   "dur": 0.747
+  },
+  "maria": {
+   "start": 110.635,
+   "dur": 0.683
+  },
+  "marina": {
+   "start": 111.317,
+   "dur": 0.725
+  },
+  "mario": {
+   "start": 112.043,
+   "dur": 0.704
+  },
+  "marta": {
+   "start": 112.747,
+   "dur": 0.789
+  },
+  "marti": {
+   "start": 113.536,
+   "dur": 0.725
+  },
+  "martin": {
+   "start": 114.261,
+   "dur": 0.789
+  },
+  "martina": {
+   "start": 115.051,
+   "dur": 0.704
+  },
+  "mateo": {
+   "start": 115.755,
+   "dur": 0.725
+  },
+  "matias": {
+   "start": 116.48,
+   "dur": 0.704
+  },
+  "mauro": {
+   "start": 117.184,
+   "dur": 0.747
+  },
+  "max": {
+   "start": 117.931,
+   "dur": 0.491
+  },
+  "mia": {
+   "start": 118.421,
+   "dur": 0.512
+  },
+  "miguel": {
+   "start": 120.555,
+   "dur": 0.747
+  },
+  "miguel-angel": {
+   "start": 118.933,
+   "dur": 1.621
+  },
+  "milo": {
+   "start": 121.301,
+   "dur": 0.981
+  },
+  "mireia": {
+   "start": 122.283,
+   "dur": 0.789
+  },
+  "mohamed": {
+   "start": 123.072,
+   "dur": 0.789
+  },
+  "nahia": {
+   "start": 123.861,
+   "dur": 0.725
+  },
+  "naia": {
+   "start": 123.861,
+   "dur": 0.725
+  },
+  "naiara": {
+   "start": 124.587,
+   "dur": 0.683
+  },
+  "natalia": {
+   "start": 125.269,
+   "dur": 0.853
+  },
+  "neizan": {
+   "start": 126.123,
+   "dur": 0.768
+  },
+  "nerea": {
+   "start": 126.891,
+   "dur": 0.747
+  },
+  "nico": {
+   "start": 127.637,
+   "dur": 0.576
+  },
+  "nicolas": {
+   "start": 128.213,
+   "dur": 0.832
+  },
+  "nil": {
+   "start": 129.045,
+   "dur": 0.96
+  },
+  "noa": {
+   "start": 130.005,
+   "dur": 0.597
+  },
+  "noah": {
+   "start": 130.603,
+   "dur": 0.491
+  },
+  "noelia": {
+   "start": 131.093,
+   "dur": 0.917
+  },
+  "nora": {
+   "start": 132.011,
+   "dur": 0.725
+  },
+  "nour": {
+   "start": 132.736,
+   "dur": 0.597
+  },
+  "nuria": {
+   "start": 133.333,
+   "dur": 0.64
+  },
+  "oliver": {
+   "start": 133.973,
+   "dur": 0.661
+  },
+  "olivia": {
+   "start": 134.635,
+   "dur": 0.811
+  },
+  "omar": {
+   "start": 135.445,
+   "dur": 0.555
+  },
+  "ona": {
+   "start": 136.0,
+   "dur": 0.469
+  },
+  "oriol": {
+   "start": 136.469,
+   "dur": 0.576
+  },
+  "oscar": {
+   "start": 137.045,
+   "dur": 0.704
+  },
+  "pablo": {
+   "start": 137.749,
+   "dur": 0.619
+  },
+  "paola": {
+   "start": 138.368,
+   "dur": 1.109
+  },
+  "pau": {
+   "start": 139.477,
+   "dur": 0.448
+  },
+  "paula": {
+   "start": 139.925,
+   "dur": 0.597
+  },
+  "pedro": {
+   "start": 140.523,
+   "dur": 0.576
+  },
+  "pol": {
+   "start": 141.099,
+   "dur": 0.512
+  },
+  "rafael": {
+   "start": 141.611,
+   "dur": 0.789
+  },
+  "raul": {
+   "start": 142.4,
+   "dur": 0.64
+  },
+  "rayan": {
+   "start": 143.04,
+   "dur": 0.576
+  },
+  "rocio": {
+   "start": 143.616,
+   "dur": 0.832
+  },
+  "rodrigo": {
+   "start": 144.448,
+   "dur": 0.96
+  },
+  "roger": {
+   "start": 145.408,
+   "dur": 0.725
+  },
+  "ruben": {
+   "start": 146.133,
+   "dur": 0.747
+  },
+  "salma": {
+   "start": 146.88,
+   "dur": 0.704
+  },
+  "samuel": {
+   "start": 147.584,
+   "dur": 0.747
+  },
+  "santiago": {
+   "start": 148.331,
+   "dur": 0.875
+  },
+  "sara": {
+   "start": 149.205,
+   "dur": 0.576
+  },
+  "saul": {
+   "start": 149.781,
+   "dur": 0.725
+  },
+  "sergio": {
+   "start": 150.507,
+   "dur": 0.725
+  },
+  "sira": {
+   "start": 151.232,
+   "dur": 0.619
+  },
+  "sofia": {
+   "start": 151.851,
+   "dur": 0.725
+  },
+  "teo": {
+   "start": 152.576,
+   "dur": 0.512
+  },
+  "thiago": {
+   "start": 153.088,
+   "dur": 0.64
+  },
+  "triana": {
+   "start": 153.728,
+   "dur": 0.747
+  },
+  "unai": {
+   "start": 154.475,
+   "dur": 0.619
+  },
+  "valentina": {
+   "start": 155.093,
+   "dur": 1.003
+  },
+  "valeria": {
+   "start": 156.096,
+   "dur": 0.811
+  },
+  "vega": {
+   "start": 156.907,
+   "dur": 0.853
+  },
+  "vera": {
+   "start": 157.76,
+   "dur": 0.619
+  },
+  "victor": {
+   "start": 158.379,
+   "dur": 0.661
+  },
+  "victoria": {
+   "start": 159.04,
+   "dur": 0.789
+  },
+  "violeta": {
+   "start": 159.829,
+   "dur": 0.853
+  },
+  "xavi": {
+   "start": 160.683,
+   "dur": 0.597
+  },
+  "yago": {
+   "start": 161.28,
+   "dur": 1.131
+  },
+  "yasmin": {
+   "start": 162.411,
+   "dur": 0.896
+  },
+  "youssef": {
+   "start": 163.307,
+   "dur": 0.64
+  },
+  "zoe": {
+   "start": 163.947,
+   "dur": 0.448
+  }
+ }
+}
