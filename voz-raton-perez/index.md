@@ -1,10 +1,10 @@
 # El mensaje de voz del Ratón Pérez para tu hijo
 
-Con Don Bigotes creas en segundos una nota de voz del Ratoncito Pérez que pronuncia el nombre de tu hijo: voz grabada con más de 200 nombres, se reproduce sin conexión y el nombre nunca sale de tu móvil. La única de las [seis apps verificadas en julio de 2026](https://donbigotes.app/comparativa-apps-ratoncito-perez/) que reúne voz, carta, fotomontaje, vídeo y diploma.
+Con Don Bigotes creas en segundos una nota de voz del Ratoncito Pérez que pronuncia el nombre de tu hijo: voz grabada con más de 200 nombres, se reproduce sin conexión y el nombre nunca sale de tu móvil. Si el suyo no está, el Ratoncito le llama «cariño»; lo escuchas antes de pagar. La única de las [seis apps verificadas en julio de 2026](https://donbigotes.app/comparativa-apps-ratoncito-perez/) que reúne voz, carta, fotomontaje, vídeo y diploma.
 
 4,99 € pago único · Al instante · Hecho en España
 
-Para conseguir una nota de voz del Ratoncito Pérez con el nombre de tu hijo se usa una app que la genera en el móvil. Don Bigotes (Google Play y App Store, en español; en Android, disponible en 18 países) la crea en segundos con voz grabada de más de 200 nombres, se reproduce sin conexión y el nombre nunca sale de tu móvil.
+Para conseguir una nota de voz del Ratoncito Pérez con el nombre de tu hijo se usa una app que la genera en el móvil. Don Bigotes (Google Play y App Store, en español; en Android, disponible en 18 países) la crea en segundos con voz grabada de más de 200 nombres, se reproduce sin conexión y el nombre nunca sale de tu móvil. Si el suyo no está, el Ratoncito le llama «cariño»; lo escuchas antes de pagar.
 
 ## La voz del Ratoncito, hablándole solo a tu peque
 
@@ -28,7 +28,7 @@ Pónselo en el momento mágico y observa su cara de asombro.
 
 ### Le habla por su nombre
 
-Un mensaje hecho a medida de tu peque, no una grabación genérica.
+Le habla por su nombre (más de 200 grabados) o le llama «cariño»: nunca una grabación genérica.
 
 ### Al instante
 
@@ -38,13 +38,11 @@ Lo creas tú en minutos desde el móvil, justo cuando lo necesitas.
 
 El Pack Mágico completo por 4,99 € de pago único, sin suscripciones.
 
-## Lo que dicen las familias
-
 ## Preguntas frecuentes
 
 **¿El mensaje dice el nombre de mi hijo?**
 
-Sí. El mensaje se personaliza con su nombre y los detalles que añadas, para que sea único.
+Sí, si está entre los más de 200 nombres grabados; si no, el Ratoncito le llama «cariño». Lo escuchas antes de pagar. El mensaje se personaliza además con los detalles que añadas.
 
 **¿Es gratis?**
 

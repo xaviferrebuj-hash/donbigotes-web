@@ -36,8 +36,6 @@ La creas tú en minutos, sin formularios ni esperas.
 
 El Pack Mágico completo por 4,99 € de pago único, sin suscripciones.
 
-## Lo que dicen las familias
-
 ## Preguntas frecuentes
 
 **¿Tengo que subir la foto de mi hijo a internet?**

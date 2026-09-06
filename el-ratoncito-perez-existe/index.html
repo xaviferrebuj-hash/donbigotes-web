@@ -565,7 +565,7 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
         <div class="pc-voz">
           <button type="button" class="pc-play" id="pcPlay" aria-label="Escuchar un trozo de la voz del Ratoncito P&eacute;rez">&#9654;</button>
           <div>
-            <p class="pc-voz-l" id="pcVozL">&laquo;Soy yo, el Ratoncito P&eacute;rez&hellip;&raquo;</p>
+            <p class="pc-voz-l" id="pcVozL">Ejemplo grabado con el nombre Martina. En la app dirá el de tu peque (más de 200 nombres).</p>
             <p class="pc-voz-h">La voz de verdad de la app</p>
           </div>
           <audio id="pcAudio" src="/assets/audio/preview-pack.mp3" preload="none"></audio>
@@ -613,7 +613,6 @@ function pcVolver(){
 }
 function pcNombre(n){
   document.getElementById('pcOkT').textContent=n?('La carta de '+n+' ya está lista'):'La carta ya está lista';
-  document.getElementById('pcVozL').textContent=n?('«'+n+'… soy yo, el Ratoncito Pérez…»'):'«Soy yo, el Ratoncito Pérez…»';
 }
 document.getElementById('gen').addEventListener('click',function(e){if(e.target===this)closeGen();});
 document.addEventListener('keydown',function(e){if(e.key==='Escape')closeGen();});

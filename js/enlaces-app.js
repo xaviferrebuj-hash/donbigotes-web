@@ -126,7 +126,18 @@
            (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
   }
 
+  function esAndroid() {
+    return /Android/i.test(navigator.userAgent || "");
+  }
+
   function destino(tipo) {
+    // "tienda": iOS -> App Store, Android -> Play, escritorio -> ancla
+    // #descargar de la propia página (donde están los badges).
+    if (tipo === "tienda") {
+      if (esIOS()) return ENLACES.appstore || ENLACES.playstore;
+      if (esAndroid()) return ENLACES.playstore;
+      return "#descargar";
+    }
     if (tipo === "playstore") {
       if (ENLACES.appstore && esIOS()) return ENLACES.appstore;
       return ENLACES.playstore || ENLACES.webapp;
@@ -141,6 +152,13 @@
       (window.plausible.q = window.plausible.q || []).push(arguments);
     };
     window.plausible("Clic Play Store");
+  }
+
+  function avisarPlausibleAppStore() {
+    window.plausible = window.plausible || function () {
+      (window.plausible.q = window.plausible.q || []).push(arguments);
+    };
+    window.plausible("Clic App Store");
   }
 
   function aplicar() {
@@ -158,6 +176,12 @@
       // La URL base manda desde ENLACES, pero el referrer de la página (que
       // lleva el utm_campaign del slug) viaja en el href del HTML: se traspasa.
       actual = el.getAttribute("href");
+      // El botón "tienda" no trae href: hereda el referrer (utm_campaign de
+      // la página) del primer enlace a Play que sí lo lleve.
+      if (esEnlacePlay(url) && !esEnlacePlay(actual)) {
+        var donante = document.querySelector('a[href*="play.google.com"][href*="referrer="]');
+        if (donante) actual = donante.getAttribute("href");
+      }
       if (esEnlacePlay(url) && esEnlacePlay(actual) && !/[?&]referrer=/i.test(url)) {
         ref = /[?&]referrer=([^&]*)/i.exec(actual);
         if (ref) url += (url.indexOf("?") === -1 ? "?" : "&") + "referrer=" + ref[1];
@@ -178,6 +202,12 @@
       if (!esEnlacePlay(url)) continue;
       el.setAttribute("href", conIdioma(conReferrer(url, utm, pisar)));
       el.addEventListener("click", avisarPlausible);
+    }
+
+    // 3) Salida a App Store: evento simétrico al de Play.
+    var apple = document.querySelectorAll('a[href*="apps.apple.com"]');
+    for (i = 0; i < apple.length; i++) {
+      apple[i].addEventListener("click", avisarPlausibleAppStore);
     }
   }
 
