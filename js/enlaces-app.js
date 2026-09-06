@@ -52,6 +52,18 @@
     appstore: "https://apps.apple.com/es/app/id6798414411"
   };
 
+  /* --- Páginas es-419 (Latinoamérica): tiendas regionales --- */
+  var ES_419 = (document.documentElement.getAttribute("lang") || "") === "es-419";
+  if (ES_419) {
+    ENLACES.appstore = "https://apps.apple.com/app/id6798414411";
+  }
+
+  // Añade hl=es_419 a un enlace de Play (solo en páginas es-419), sin duplicarlo.
+  function conIdioma(url) {
+    if (!ES_419 || !esEnlacePlay(url) || /[?&]hl=/i.test(url)) return url;
+    return url + (url.indexOf("?") === -1 ? "?" : "&") + "hl=es_419";
+  }
+
   /* --- Atribución: UTM de la visita -> referrer de Play --- */
 
   var CLAVES_UTM = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"];
@@ -150,7 +162,7 @@
         ref = /[?&]referrer=([^&]*)/i.exec(actual);
         if (ref) url += (url.indexOf("?") === -1 ? "?" : "&") + "referrer=" + ref[1];
       }
-      el.setAttribute("href", conReferrer(url, utm, pisar));
+      el.setAttribute("href", conIdioma(conReferrer(url, utm, pisar)));
       if (/^https?:/i.test(url)) {
         el.setAttribute("target", "_blank");
         el.setAttribute("rel", "noopener");
@@ -164,7 +176,7 @@
       el = play[i];
       url = el.getAttribute("href");
       if (!esEnlacePlay(url)) continue;
-      el.setAttribute("href", conReferrer(url, utm, pisar));
+      el.setAttribute("href", conIdioma(conReferrer(url, utm, pisar)));
       el.addEventListener("click", avisarPlausible);
     }
   }
