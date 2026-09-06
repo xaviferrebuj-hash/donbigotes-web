@@ -1,0 +1,109 @@
+# La carta del Ratón Pérez, gratis
+
+Escribe el nombre de tu peque y ten en dos minutos su carta personalizada, con el sello de la Oficina. Lista para imprimir o guardar en PDF.
+
+Sin registro · Lista en 1 minuto · Gratis
+
+### Tú pones el diente. Él pone la magia.
+
+Mientras tu peque duerme, el Ratón Pérez (también llamado Ratón de los Dientes) escribe su carta con su nombre. Por la mañana, la sorpresa ya está bajo la almohada.
+
+## Crea la experiencia completa en la app Don Bigotes
+
+Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo se paga una sola vez, al precio local de la tienda.
+
+## Un día entero de magia
+
+Desde que se cae el diente hasta que se apaga la luz, Don Bigotes acompaña cada momento.
+
+### Nota de voz del Ratón Pérez
+
+Al momento, con el nombre de tu peque. La sorpresa empieza ya.
+
+### El diente, bajo la almohada
+
+Mientras duerme, tú lo dejas todo listo en la app en dos minutos.
+
+### La carta del Ratón Pérez
+
+Escrita para él, con su nombre y su hazaña. Junto a la almohada.
+
+### ¡Pillado! La foto de la prueba
+
+El Ratón Pérez, atrapado por la cámara en su habitación.
+
+### Diploma de Valentía
+
+Con su nombre, para imprimir y colgar en su cuarto.
+
+### Video desde la Oficina Mágica
+
+Don Bigotes dice su nombre y le da las buenas noches. Broche final.
+
+### Varios peques en la misma app
+
+Hasta seis, cada uno con su diario de dientes y su cumpleaños.
+
+### Felicitación de cumpleaños
+
+El Ratón Pérez felicita a tu peque por su nombre con un video y un pergamino para imprimir. [Cómo funciona](https://donbigotes.app/cumpleanos-raton-perez/).
+
+## Tres pasos. Dos minutos.
+
+### Escribe su nombre
+
+El nombre de tu peque y un par de detalles del diente que se le cayó.
+
+### La magia sucede
+
+Don Bigotes crea la carta del Ratón Pérez personalizada al instante.
+
+### Bajo la almohada
+
+Imprímela o guárdala en PDF y déjala lista para la noche del diente.
+
+## Qué es gratis y qué se paga
+
+### Lo que tienes sin pagar nada
+
+Carta personalizada · diario de dientes · felicitación de cumpleaños.
+
+### Se paga una sola vez (sin suscripción)
+
+Nota de voz con su nombre · fotomontaje «¡Pillado!» · video desde la Oficina · Diploma de Valentía.
+
+## Ya disponible en Google Play y App Store
+
+El Pack Mágico completo se paga una sola vez, al precio local de la tienda, en Android y en iPhone.
+
+## Próximamente: el Cartero Real
+
+Tu hijo escribe su carta a los Reyes Magos y Don Bigotes la lleva. La noche del 5 de enero llega la respuesta con su nombre, un Certificado Real de buen comportamiento y una nota de voz. Diciembre 2026. [Carta a los Reyes Magos con respuesta](https://donbigotes.app/carta-reyes-magos/).
+
+## Preguntas frecuentes
+
+**¿Qué es Don Bigotes?**
+
+Una app para padres que crea la carta del Ratón Pérez personalizada con el nombre de tu hijo o hija para la noche del diente. La carta, el diario de dientes y la felicitación de cumpleaños son gratis; además tiene un Pack Mágico opcional con nota de voz, fotomontaje, video y Diploma de Valentía.
+
+**¿La carta es de verdad gratis?**
+
+Sí. La carta personalizada, el diario de dientes y la felicitación de cumpleaños son gratis siempre. La nota de voz, el fotomontaje, el video y el Diploma de Valentía forman parte del Pack Mágico, que se paga una sola vez, sin suscripción.
+
+**¿Cómo hago la carta del Ratón Pérez?**
+
+Escribes el nombre de tu peque y un par de detalles, y la app la genera al instante, lista para imprimir o guardar en PDF. En dos minutos.
+
+**¿En qué celulares funciona?**
+
+En Android y en iPhone. Ya está disponible en Google Play y en la App Store. El Pack Mágico se paga una sola vez, al precio local de la tienda, en los dos sistemas.
+
+## Que la próxima caída de diente sea inolvidable
+
+Última actualización: 6 de septiembre de 2026
+
+Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratón Pérez». El personaje del Ratón Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
+
+---
+
+[Versión completa de esta página](https://donbigotes.app/es-419/)

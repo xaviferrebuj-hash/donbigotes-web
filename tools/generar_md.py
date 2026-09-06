@@ -23,6 +23,8 @@ PAGINAS = [
     "cumpleanos-raton-perez", "firma-sello-raton-perez",
     "blog", "blog/la-noche-del-diente",
     "carta-reyes-magos", "diario-dientes-de-leche",
+    "es-419", "es-419/carta-para-imprimir", "es-419/diario-dientes-de-leche",
+    "es-419/app-raton-perez", "es-419/el-ratoncito-perez-existe",
 ]
 
 # Subárboles que no aportan contenido textual (interfaz, decoración, formularios)
