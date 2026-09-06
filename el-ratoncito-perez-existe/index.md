@@ -4,6 +4,24 @@ Es una de las tradiciones más queridas de España y Latinoamérica. Aquí te co
 
 Sin registro · Lista en 1 minuto · Gratis
 
+## Existe como personaje. Lo que pasa en tu casa es lo que lo hace real.
+
+El Ratoncito Pérez no es un ratón de carne y hueso que entra por la noche: es un personaje que el padre Luis Coloma inventó en 1894 para el niño rey Alfonso XIII, y que desde entonces visita millones de casas. Cuando tu hijo pregunta si existe, casi nunca pide una clase de historia: quiere saber si puede seguir creyendo o si ya es mayor para que le cuenten la verdad. La respuesta cambia con la edad.
+
+### Hasta los 5 años: «Sí, claro. ¿Le dejamos una nota?»
+
+A esta edad no hay duda, hay ganas de ritual. No expliques nada: prepara la visita. El diente bajo la almohada, la moneda y una carta con su nombre por la mañana.
+
+### De 6 a 8: «¿Tú qué crees?»
+
+Es la edad de la pregunta de verdad, casi siempre porque alguien en el cole ha dicho que son los padres. Devuélvele la pregunta. Si quiere seguir creyendo, te lo dirá; si ya lo sabe, también. Ninguna de las dos respuestas es mentir.
+
+### Desde los 9: «Ahora te toca guardar el secreto»
+
+Cuando ya lo sabe, cuéntale la verdad entera: el cuento de 1894, que el Ratoncito son los padres de todo el mundo y que ahora es cómplice para los hermanos pequeños. Pasar de creer a guardar el secreto es un rito de paso, no una decepción.
+
+Si quieres el origen completo, está en [la historia del Ratón Pérez](https://donbigotes.app/historia-raton-perez/). Y si lo que hay es un diente que ya se mueve, la carta con su nombre se crea gratis aquí mismo en un minuto.
+
 ### Tú pones el diente. Él pone la magia.
 
 Mientras tu peque duerme, el Ratoncito Pérez escribe su carta con su nombre. Por la mañana, la sorpresa ya está bajo la almohada.
@@ -66,7 +84,7 @@ Es una tradición de España y gran parte de Latinoamérica. En algunos países 
 
 **¿Qué le digo a mi hijo cuando pregunta si el Ratón Pérez existe?**
 
-Cada familia lo gestiona a su manera. Muchos padres prefieren mantener la ilusión mientras el niño disfruta de la tradición. Una carta personalizada del Ratón Pérez ayuda a que esa magia se sienta real y cercana.
+Depende de la edad. Hasta los 5 años, «sí» y a preparar la visita. De 6 a 8, devuélvele la pregunta («¿tú qué crees?») y sigue lo que él quiera. Desde los 9, la verdad entera y el encargo de guardar el secreto para los pequeños. Arriba tienes las tres respuestas desarrolladas.
 
 **¿Es lo mismo el Ratón Pérez que el Ratoncito Pérez?**
 
@@ -74,7 +92,7 @@ Sí, son el mismo personaje. Ratoncito Pérez es la forma cariñosa y diminutiva
 
 ## Que la próxima caída de diente sea inolvidable
 
-Última actualización: 2 de septiembre de 2026
+Última actualización: 6 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 
