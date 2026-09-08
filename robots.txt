@@ -1,30 +1,21 @@
 User-agent: *
 Allow: /
-Disallow: /docs/
 
 User-agent: GPTBot
 Allow: /
-Disallow: /docs/
 User-agent: OAI-SearchBot
 Allow: /
-Disallow: /docs/
 User-agent: ChatGPT-User
 Allow: /
-Disallow: /docs/
 User-agent: ClaudeBot
 Allow: /
-Disallow: /docs/
 User-agent: Claude-Web
 Allow: /
-Disallow: /docs/
 User-agent: PerplexityBot
 Allow: /
-Disallow: /docs/
 User-agent: Google-Extended
 Allow: /
-Disallow: /docs/
 User-agent: Applebot-Extended
 Allow: /
-Disallow: /docs/
 
 Sitemap: https://donbigotes.app/sitemap.xml
