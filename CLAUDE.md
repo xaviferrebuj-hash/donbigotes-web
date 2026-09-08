@@ -19,7 +19,7 @@
 ## Fechas de página
 Tres señales de frescura por página, siempre iguales entre sí: `<p class="fecha-actualizacion">`, `dateModified` del JSON-LD y `<lastmod>` del sitemap. Se calculan con la fecha del último commit git de cada `index.html`. Procedimiento exacto tras cualquier edición de contenido:
 1. Commitear el contenido.
-2. `bash tools/actualiza-fechas.sh` (lee el sitemap y sincroniza las tres señales).
+2. `bash tools/actualiza-fechas.sh <ruta> [<ruta>...]` — **rutas explícitas, una por página tocada** (p. ej. `bash tools/actualiza-fechas.sh el-ratoncito-perez-existe es-419/el-ratoncito-perez-existe`; la home es `.`). Sin argumentos imprime el uso y sale sin tocar nada; si una ruta no está en el sitemap, aborta antes de escribir. ✅ **El desplazamiento masivo de fechas queda resuelto por diseño (8-sep-2026):** hasta esa fecha el script barría el sitemap entero y ponía en cada página la fecha del último commit que hubiera tocado su `index.html`, así que un commit cosmético sobre muchos ficheros (un retoque de footer) desplazaba todas las fechas y había que revertirlas a mano —pasó el 2-sep, el 5-sep y el 8-sep—. Al recibir solo rutas explícitas ya no puede volver a ocurrir.
 3. Regenerar los .md: `python3 tools/generar_md.py`.
 4. Commit con `[fechas]` en el mensaje. El script ignora los commits con ese marcador al calcular fechas: sin él, la siguiente ejecución tomaría el commit de fechas como edición y desplazaría todas las páginas.
 El directorio de scripts es `tools/` (no `tool/`).
