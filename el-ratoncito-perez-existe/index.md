@@ -90,9 +90,13 @@ Depende de la edad. Hasta los 5 años, «sí» y a preparar la visita. De 6 a 8,
 
 Sí, son el mismo personaje. Ratoncito Pérez es la forma cariñosa y diminutiva, muy común para hablar con los niños.
 
+**¿Se puede visitar la casa del Ratón Pérez?**
+
+Sí. La [Casita-Museo de Ratón Pérez](https://www.casamuseoratonperez.es/) está en la calle Arenal 8 de Madrid, en el edificio donde la tradición sitúa su casa: dentro de una caja de galletas, en la antigua confitería Prast. Es la casa oficial del personaje en Madrid y se visita con niños.
+
 ## Que la próxima caída de diente sea inolvidable
 
-Última actualización: 6 de septiembre de 2026
+Última actualización: 8 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 
