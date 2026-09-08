@@ -78,7 +78,7 @@ El Pack Mágico completo se paga una sola vez, al precio local de la tienda, en 
 
 ## Próximamente: el Cartero Real
 
-Tu hijo escribe su carta a los Reyes Magos y Don Bigotes la lleva. La noche del 5 de enero llega la respuesta con su nombre, un Certificado Real de buen comportamiento y una nota de voz. Diciembre 2026. [Carta a los Reyes Magos con respuesta](https://donbigotes.app/carta-reyes-magos/).
+Tu hijo escribe su carta a los Reyes Magos y Don Bigotes la lleva. La noche del 5 de enero llega la respuesta con su nombre, un Certificado Real de buen comportamiento y una nota de voz. Diciembre 2026. [Carta a los Reyes Magos con respuesta](https://donbigotes.app/es-419/carta-reyes-magos/).
 
 ## Preguntas frecuentes
 
