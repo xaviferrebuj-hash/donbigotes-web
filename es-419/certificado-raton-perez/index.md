@@ -24,13 +24,13 @@ El título que otorga el Ratón Pérez a quien entrega un diente con valentía.
 
 El sello oficial de la Oficina del Ratón, para que no quede ninguna duda. Pueden [descargar el sello y la firma por separado](https://donbigotes.app/firma-sello-raton-perez/).
 
-Y, si quieres, la foto del niño sonriendo. La foto se procesa en tu celular, nunca sale de él.
+Y, si quieren, la foto del niño sonriendo. La foto se procesa en su celular, nunca sale de él.
 
 ## Por la tarde, al volver de la escuela
 
-El momento ideal es por la tarde, al volver de la escuela: el diente ya voló por la noche y el diploma alarga la magia un día entero. Es la cuarta parada de [el viaje del diente](https://donbigotes.app/viaje-del-diente/).
+El momento ideal es por la tarde, al volver de la escuela: el diente ya voló por la noche y el diploma alarga la magia un día entero. Es la cuarta parada del [viaje del diente](https://donbigotes.app/viaje-del-diente/).
 
-## En papel o en pantalla, como prefieras
+## En papel o en pantalla, como prefieran
 
 El diploma está pensado para las dos cosas: imprimirlo en A4 (o tamaño carta) y colgarlo en su cuarto, o mostrárselo directamente en el celular apenas llegan a casa.
 
@@ -46,11 +46,11 @@ En el PDF gratuito el nombre se escribe a mano. Si quieren el certificado con el
 
 **¿Cómo consigo un certificado del Ratón Pérez personalizado?**
 
-Con la app Don Bigotes: eliges el nombre del niño y en un minuto tienes el [Diploma de Valentía](https://donbigotes.app/diploma-raton-perez/) listo para imprimir o mostrar en el celular. Forma parte del Pack Mágico.
+Con la app Don Bigotes: eligen el nombre del niño y en un minuto tienen el [Diploma de Valentía](https://donbigotes.app/diploma-raton-perez/) listo para imprimir o mostrar en el celular. Forma parte del Pack Mágico.
 
 **¿Puedo añadir la foto de mi hijo al diploma?**
 
-Sí, opcionalmente. La foto se procesa en tu propio celular y no se envía a ningún servidor.
+Sí, opcionalmente. La foto se procesa en su propio celular y no se envía a ningún servidor.
 
 **¿El diploma se puede imprimir?**
 
