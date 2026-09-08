@@ -25,6 +25,7 @@ PAGINAS = [
     "carta-reyes-magos", "diario-dientes-de-leche", "cartero-real",
     "es-419", "es-419/carta-para-imprimir", "es-419/diario-dientes-de-leche",
     "es-419/app-raton-perez", "es-419/el-ratoncito-perez-existe",
+    "es-419/cartero-real",
 ]
 
 # Subárboles que no aportan contenido textual (interfaz, decoración, formularios)

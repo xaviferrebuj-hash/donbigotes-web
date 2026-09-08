@@ -82,7 +82,7 @@ Sí. La carta del niño se puede enviar por WhatsApp desde la app.
 
 ## Crea la experiencia completa en la app Don Bigotes
 
-Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
+Mientras llega el Cartero Real, la app ya tiene la carta gratis del Ratoncito Pérez y el Pack Mágico completo (voz, foto y Diploma de Valentía). Las dos compras son independientes.
 
 Última actualización: 8 de septiembre de 2026
 
