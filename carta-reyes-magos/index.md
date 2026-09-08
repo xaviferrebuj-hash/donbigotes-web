@@ -38,6 +38,8 @@ Porque los Reyes reciben millones de cartas y necesitan carteros de confianza. Y
 
 La carta se escribe del 1 al 24 de diciembre. La respuesta se prepara para la noche del 5 de enero. El Pack Cartero Real estará en la app de Don Bigotes en diciembre de 2026. Si ya tienes la app, no tienes que hacer nada: aparecerá en el menú cuando llegue diciembre.
 
+¿Quieres que los Reyes contesten? Este año, el Ratoncito Pérez lleva el correo de Oriente. [Don Bigotes, Cartero Real: la respuesta de los Reyes Magos el 5 de enero](https://donbigotes.app/cartero-real/).
+
 ### Ya tienes la app
 
 El Cartero Real aparecerá en tu app en diciembre.
