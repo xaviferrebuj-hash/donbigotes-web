@@ -581,7 +581,7 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
       var input = form.querySelector('[name="contacto"]');
       var ok = form.querySelector(".form-ok");
       if (!input || !input.value.trim()) return;
-      plausible('Correo electrónico dejado');
+      plausible('Correo electrónico dejado', { props: { origen: 'home' } });
       if (ok) ok.classList.add("show");
       form.querySelector(".form-row").style.display = "none";
       var hint = form.querySelector(".hint"); if (hint) hint.style.display = "none";
