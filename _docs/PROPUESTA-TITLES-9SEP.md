@@ -22,7 +22,7 @@ dimensiones `page` + `query`. Las cuatro páginas suman **1.286 impresiones y 7 
 «el ratón pérez existe sí o no», la familia suma 419 impresiones y 0 clics.)
 
 - **Title actual (65 car.):** `¿Existe el Ratoncito Pérez? Qué contestar cuando tu hijo pregunta`
-- **Meta actual (154 car.):** `Respuestas para cuando tu hijo pregunta si el Ratoncito Pérez existe, según su edad, y cómo mantener la ilusión sin mentirle. Guía breve para padres.`
+- **Meta actual (149 car.):** `Respuestas para cuando tu hijo pregunta si el Ratoncito Pérez existe, según su edad, y cómo mantener la ilusión sin mentirle. Guía breve para padres.`
 - **Title propuesto (51 car.):** `¿El Ratón Pérez existe? Qué responder según su edad`
 - **Meta propuesta (151 car.):** `«¿El Ratón Pérez existe?» Qué contestar a tu hijo según la edad que tenga, sin mentirle y sin romper la ilusión. Las frases exactas, en una guía breve.`
 
@@ -46,13 +46,13 @@ posición; para eso hace falta contenido, no metadatos.
 90 impresiones. La página tiene 46 consultas distintas y 245 impresiones totales.)
 
 - **Title actual (54 car.):** `Certificado del Ratón Pérez para imprimir · PDF gratis`
-- **Meta actual (159 car. — pasada de largo):** `Certificado del Ratoncito Pérez por el primer diente y los siguientes, en PDF gratis para imprimir y rellenar con el nombre del niño. Con firma y sello del Ratón.`
+- **Meta actual (162 car. — pasada de largo):** `Certificado del Ratoncito Pérez por el primer diente y los siguientes, en PDF gratis para imprimir y rellenar con el nombre del niño. Con firma y sello del Ratón.`
 - **Title propuesto (54 car.):** `Certificado del Ratón Pérez para imprimir gratis (PDF)`
 - **Meta propuesta (144 car.):** `Certificado del Ratón Pérez por el primer diente: PDF gratis, con su firma y su sello, para imprimir y poner el nombre de tu hijo. Sin registro.`
 
 **Por qué.** El title actual ya es correcto; el cambio es cosmético (el `·` como separador
 se renderiza mal en algunos móviles y «gratis» pesa más pegado a «imprimir»). Lo que sí
-falla es la meta: **159 caracteres, se corta**. La propuesta baja a 144 y mete «Sin registro»,
+falla es la meta: **162 caracteres, se corta**. La propuesta baja a 144 y mete «Sin registro»,
 que es la objeción real de quien busca un PDF gratis.
 
 ⚠️ Dos avisos de canibalización, más importantes que el title:
@@ -72,7 +72,7 @@ que es la objeción real de quien busca un PDF gratis.
 18 consultas, 90 impresiones totales: es la más pequeña de las cuatro.)
 
 - **Title actual (62 car.):** `Foto del Ratón Pérez con tu hijo: el "¡Pillado!" | Don Bigotes`
-- **Meta actual (134 car.):** `Crea la foto imposible del Ratoncito Pérez junto a tu hijo dormido. El montaje se hace en tu móvil y la foto no sale de tu dispositivo.`
+- **Meta actual (135 car.):** `Crea la foto imposible del Ratoncito Pérez junto a tu hijo dormido. El montaje se hace en tu móvil y la foto no sale de tu dispositivo.`
 - **Title propuesto (44 car.):** `Foto del Ratón Pérez junto a tu hijo dormido`
 - **Meta propuesta (138 car.):** `La foto que parece real: el Ratón Pérez junto a tu hijo dormido. El montaje se hace en tu móvil y la foto no sale nunca de tu dispositivo.`
 
@@ -95,7 +95,7 @@ ningún metadato. Cambiar el title aquí es barato pero espera poco: son 90 impr
 supera las 400 impresiones. Es la página con más tráfico potencial de las cuatro.
 
 - **Title actual (56 car.):** `Firma del Ratón Pérez y sello para imprimir · PDF gratis`
-- **Meta actual (133 car.):** `Descarga gratis la firma del Ratoncito Pérez y su sello en PDF, listos para imprimir y poner en la carta o el certificado. Sin registro.`
+- **Meta actual (136 car.):** `Descarga gratis la firma del Ratoncito Pérez y su sello en PDF, listos para imprimir y poner en la carta o el certificado. Sin registro.`
 - **Title propuesto (50 car.):** `Firma del Ratón Pérez y su sello: PNG y PDF gratis`
 - **Meta propuesta (143 car.):** `Descarga la firma del Ratón Pérez y su sello en PNG y PDF, listos para imprimir o pegar en la carta y en el certificado. Gratis y sin registro.`
 
@@ -119,7 +119,7 @@ sobre ~400 impresiones, pasar de 1,1 % a un 4 % son **12 clics más por trimestr
 **El 4 (`/firma-sello-raton-perez/`).** Es el único donde el diagnóstico es concreto
 (posición buena + CTR anómalo + una palabra que falta y que la página sí cumple), y donde
 el volumen justifica el cambio. Los otros tres son correcciones de higiene: el 1 y el 3
-tienen titles que se cortan, el 2 tiene una meta de 159 caracteres. Baratos de hacer,
+tienen titles que se cortan, el 2 tiene una meta de 162 caracteres. Baratos de hacer,
 pero no esperes gran cosa de ellos.
 
 Lo que **no** arregla ninguno de estos cambios: la posición 9,4 del punto 1, el desajuste
