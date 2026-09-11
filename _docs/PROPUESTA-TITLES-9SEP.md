@@ -1,6 +1,6 @@
 # Propuesta de titles y descriptions — 9-sep-2026
 
-**BORRADOR. No publicado. Decide Xavi.**
+**APLICADO el 11-sep-2026 (los 4 + «sello» fuera de la meta de certificado).**
 
 Datos de GSC: propiedad `https://donbigotes.app/`, ventana **11-jun → 7-sep-2026** (89 días),
 dimensiones `page` + `query`. Las cuatro páginas suman **1.286 impresiones y 7 clics**
