@@ -44,6 +44,12 @@ La app está disponible en Google Play desde hoy: [play.google.com/store/apps/de
 
 Don Bigotes es una aplicación independiente desarrollada en Barcelona. Más información y creación de la carta gratis desde el navegador en [https://donbigotes.app](https://donbigotes.app). Don Bigotes no está afiliada a ninguna otra marca u obra relacionada con el personaje del Ratoncito Pérez, figura del folclore popular.
 
+## Material para medios
+
+Icono, imagen, capturas de Android e iPhone y ficha en texto, libres para publicar citando Don Bigotes.
+
+[Kit completo en ZIP (15 MB)](https://donbigotes.app/prensa/kit/press-kit-don-bigotes.zip) · [Ficha en texto (TXT)](https://donbigotes.app/prensa/kit/press-kit-don-bigotes.txt)
+
 ## Contacto de prensa
 
 Xavi Ferré · [hola@donbigotes.app](mailto:hola@donbigotes.app) · [https://donbigotes.app](https://donbigotes.app)

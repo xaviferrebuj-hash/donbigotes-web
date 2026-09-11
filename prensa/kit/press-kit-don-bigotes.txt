@@ -1,0 +1,27 @@
+DON BIGOTES: LA APP DEL RATONCITO PÉREZ — PRESS-KIT (septiembre de 2026)
+
+QUÉ ES
+App española para padres. Cuando a un niño se le cae un diente, en un minuto tienen la carta del Ratoncito Pérez con su nombre (gratis, en PDF) y, si quieren, el Pack Mágico: la nota de voz en la que el Ratoncito dice el nombre del niño, el fotomontaje «¡Pillado!» con el Ratoncito cazado en el salón de casa, el vídeo desde su Oficina y el Diploma de Valentía. Incluye también un diario de dientes para hasta seis peques y una felicitación de cumpleaños, gratis.
+
+DATOS
+- Disponible en Google Play (desde julio de 2026) y App Store para iPhone (desde agosto de 2026). España y Latinoamérica.
+- Precio: descarga y carta gratis. Pack Mágico 4,99 €, pago único, sin suscripción ni anuncios.
+- Privacidad: todo el procesamiento, fotos incluidas, se hace en el móvil. Sin registro, sin cuenta, sin datos personales. Solo estadísticas de uso anónimas.
+- Público: familias con niños de 3 a 9 años. Idioma: español. Funciona también con «Ratón Pérez» y «Ratón de los Dientes».
+- Desarrollo: Xavi Ferré, en solitario, Barcelona. Producto independiente, sin afiliación a ninguna marca del personaje.
+- Versiones actuales: Android 0.8.3 · iOS 1.0.4.
+
+ENLACES
+- Google Play: https://play.google.com/store/apps/details?id=es.donbigotes.app
+- App Store: https://apps.apple.com/es/app/id6798414411
+- Web y carta gratis desde el navegador: https://donbigotes.app
+- Comparativa de apps del Ratoncito (verificada en tiendas): https://donbigotes.app/comparativa-apps-ratoncito-perez/
+- Notas de prensa: https://donbigotes.app/prensa/
+
+MATERIAL (libre para publicar, citando Don Bigotes)
+- Icono 512 y 1024 px, imagen 1024x500, 8 capturas Android (1080x1920) y 7 capturas iPhone (1320x2868): https://donbigotes.app/prensa/kit/press-kit-don-bigotes.zip
+- Carta y diploma de muestra en PDF: https://donbigotes.app/descargas/carta-ratoncito-perez.pdf · https://donbigotes.app/descargas/diploma-ratoncito-perez.pdf
+- Vídeo de la Oficina del Ratoncito: https://www.youtube.com/@DonBigotesapp
+
+CONTACTO
+Xavi Ferré · hola@donbigotes.app · https://donbigotes.app
