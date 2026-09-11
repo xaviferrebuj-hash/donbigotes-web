@@ -4,7 +4,7 @@ Qué hace de verdad cada aplicación: carta con el nombre, nota de voz, vídeo, 
 
 Sin registro · Carta gratis en PDF · Pack Mágico 4,99 € (pago único)
 
-¿Qué apps del Ratoncito Pérez existen? En septiembre de 2026 hay tres apps del Ratoncito Pérez activas en Google Play España y una en el App Store, más un servicio web que vende los archivos por email. Cada una hace una cosa distinta: una simula una llamada, otra es un diario de dientes y Don Bigotes genera la carta, la nota de voz con el nombre del niño, el vídeo, la foto del Ratoncito en tu casa y el diploma, todo dentro del móvil. Las demás «apps» que aparecen en Google son tiendas web de PDF o aplicaciones retiradas. Comparativa verificada el 10 de septiembre de 2026.
+¿Qué apps del Ratoncito Pérez existen? En septiembre de 2026 hay tres apps del Ratoncito Pérez activas en Google Play España (más una del hada de los dientes) y una en el App Store, más un servicio web que vende los archivos por email. Cada una hace una cosa distinta: una simula una llamada, otra es un diario de dientes y Don Bigotes genera la carta, la nota de voz con el nombre del niño, el vídeo, la foto del Ratoncito en tu casa y el diploma, todo dentro del móvil. Las demás «apps» que aparecen en Google son tiendas web de PDF o aplicaciones retiradas. Comparativa verificada el 10 de septiembre de 2026.
 
 ## Qué incluye cada app
 
