@@ -6,7 +6,7 @@ Se paga una sola vez · Tus fotos no salen de tu celular · Hecha en España
 
 ## Toda la magia del Ratón Pérez, en una sola app
 
-Don Bigotes reúne en una app lo que antes había que encargar pieza por pieza y esperar horas. Eliges qué quieres crear, lo personalizas con el nombre y la foto de tu peque, y lo tienes listo en minutos, sin llenar formularios ni esperar a que alguien te lo monte. Tú diriges la magia; nosotros ponemos las herramientas. Así se encadena todo en [el viaje del diente](https://donbigotes.app/viaje-del-diente/), desde la nota de voz hasta el video final. Si estás decidiendo, aquí tienes la [comparativa de apps del Ratón Pérez](https://donbigotes.app/comparativa-apps-ratoncito-perez/) con lo que incluye cada una.
+Don Bigotes reúne en una app lo que antes había que encargar pieza por pieza y esperar horas. Eliges qué quieres crear, lo personalizas con el nombre y la foto de tu peque, y lo tienes listo en minutos, sin llenar formularios ni esperar a que alguien te lo monte. Tú diriges la magia; nosotros ponemos las herramientas. Así se encadena todo en [el viaje del diente](https://donbigotes.app/viaje-del-diente/), desde la nota de voz hasta el video final. Si están decidiendo, aquí tienen la [comparativa de apps del Ratón Pérez](https://donbigotes.app/es-419/comparativa-apps-ratoncito-perez/) con lo que incluye cada una.
 
 ## Qué puedes crear
 
@@ -96,7 +96,7 @@ No. Don Bigotes es una app independiente inspirada en la tradición popular del 
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo se paga una sola vez, al precio local de la tienda.
 
-Última actualización: 6 de septiembre de 2026
+Última actualización: 13 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratón Pérez». El personaje del Ratón Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

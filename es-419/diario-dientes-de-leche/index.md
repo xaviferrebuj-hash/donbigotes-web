@@ -55,7 +55,7 @@ No. No hace falta cuenta y el diario se queda en tu celular. No recopilamos dato
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo se paga una sola vez, al precio local de la tienda.
 
-Última actualización: 6 de septiembre de 2026
+Última actualización: 13 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratón Pérez». El personaje del Ratón Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 
