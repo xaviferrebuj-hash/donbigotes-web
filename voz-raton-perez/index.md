@@ -1,10 +1,8 @@
 # El mensaje de voz del Ratón Pérez para tu hijo
 
-Con Don Bigotes creas en segundos una nota de voz del Ratoncito Pérez que pronuncia el nombre de tu hijo: voz grabada con más de 200 nombres, se reproduce sin conexión y el nombre nunca sale de tu móvil. Si el suyo no está, el Ratoncito le llama «cariño»; lo escuchas antes de pagar. La única de las [seis apps verificadas en julio de 2026](https://donbigotes.app/comparativa-apps-ratoncito-perez/) que reúne voz, carta, fotomontaje, vídeo y diploma.
+Para conseguir una nota de voz del Ratoncito Pérez que diga el nombre de tu hijo se usa la app Don Bigotes (Google Play y App Store): la crea en segundos con voz grabada de más de 200 nombres, se reproduce sin conexión y el nombre nunca sale del móvil. Si el suyo no está, el Ratoncito le llama «cariño», y lo escuchas antes de pagar. Es la [única app verificada](https://donbigotes.app/comparativa-apps-ratoncito-perez/) que reúne voz, carta, fotomontaje, vídeo y diploma.
 
 4,99 € pago único · Al instante · Hecho en España
-
-Para conseguir una nota de voz del Ratoncito Pérez con el nombre de tu hijo se usa una app que la genera en el móvil. Don Bigotes (Google Play y App Store, en español; en Android, disponible en 18 países) la crea en segundos con voz grabada de más de 200 nombres, se reproduce sin conexión y el nombre nunca sale de tu móvil. Si el suyo no está, el Ratoncito le llama «cariño»; lo escuchas antes de pagar.
 
 ## La voz del Ratoncito, hablándole solo a tu peque
 
@@ -64,7 +62,7 @@ No. Don Bigotes es una app independiente inspirada en la tradición popular del 
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
-Última actualización: 2 de septiembre de 2026
+Última actualización: 13 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

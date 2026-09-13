@@ -1,4 +1,4 @@
-# Certificado del Ratoncito Pérez: el Diploma de Valentía
+# Certificado del Ratón Pérez por su primer diente
 
 Descarga gratis el certificado del Ratoncito Pérez por el primer diente caído, en PDF listo para imprimir en A4. Descarga directa, sin registro. El nombre del niño y la fecha se rellenan a mano, con el sello de la Oficina del Ratoncito. Hay versión para Latinoamérica («Ratón Pérez» / «Ratón de los Dientes»).
 
@@ -6,7 +6,7 @@ Descarga gratis el certificado del Ratoncito Pérez por el primer diente caído,
 
 - [Versión Latinoamérica: Ratón de los Dientes (PDF)](https://donbigotes.app/descargas/diploma-raton-de-los-dientes.pdf)
 
-Cuando un niño pierde un diente y lo entrega al Ratoncito Pérez, se merece algo más que una moneda: un Diploma de Valentía oficial de la Oficina del Ratoncito, con su nombre, la fecha y su título de Guardián o Guardiana de Sonrisas. Con Don Bigotes lo tienes listo en un minuto, para imprimir o enseñar en el móvil.
+Cuando un niño pierde un diente y lo entrega al Ratoncito Pérez, se merece algo más que una moneda: un certificado oficial de la Oficina del Ratoncito, con su nombre, la fecha y su título de Guardián o Guardiana de Sonrisas. Gratis en PDF para rellenar a mano; y, con la app Don Bigotes, con su nombre ya impreso en un minuto.
 
 Certificado gratis · Al instante · Hecho en España
 
@@ -28,11 +28,13 @@ Y, si quieres, la foto del niño sonriendo. La foto se procesa en tu móvil, nun
 
 ## Por la tarde, al volver del colegio
 
-El momento ideal es por la tarde, al volver del colegio: el diente ya voló por la noche y el diploma alarga la magia un día entero. Es la cuarta parada de [el viaje del diente](https://donbigotes.app/viaje-del-diente/).
+El momento ideal es por la tarde, al volver del colegio: el diente ya voló por la noche y el certificado alarga la magia un día entero. Es la cuarta parada de [el viaje del diente](https://donbigotes.app/viaje-del-diente/).
 
 ## En papel o en pantalla, como prefieras
 
-El diploma está pensado para las dos cosas: imprimirlo en A4 y colgarlo en su cuarto, o enseñárselo directamente en el móvil nada más llegar a casa.
+El certificado está pensado para las dos cosas: imprimirlo en A4 y colgarlo en su cuarto, o enseñárselo directamente en el móvil nada más llegar a casa.
+
+¿Buscas el [Diploma de Valentía](https://donbigotes.app/diploma-raton-perez/) con su nombre y su diente ya impresos? Es otra página: este es el certificado gratis para rellenar a mano.
 
 ## Preguntas frecuentes
 
@@ -48,11 +50,11 @@ En el PDF gratuito el nombre se escribe a mano. Si quieres el certificado con el
 
 Con la app Don Bigotes: eliges el nombre del niño y en un minuto tienes el [Diploma de Valentía](https://donbigotes.app/diploma-raton-perez/) listo para imprimir o enseñar en el móvil. Forma parte del Pack Mágico.
 
-**¿Puedo añadir la foto de mi hijo al diploma?**
+**¿Puedo añadir la foto de mi hijo al certificado?**
 
 Sí, opcionalmente. La foto se procesa en tu propio móvil y no se envía a ningún servidor.
 
-**¿El diploma se puede imprimir?**
+**¿El certificado se puede imprimir?**
 
 Sí, está pensado para imprimirse en A4 o mostrarse directamente en el móvil.
 
@@ -60,7 +62,7 @@ Sí, está pensado para imprimirse en A4 o mostrarse directamente en el móvil.
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
-Última actualización: 8 de septiembre de 2026
+Última actualización: 13 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

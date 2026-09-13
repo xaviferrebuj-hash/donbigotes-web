@@ -1,6 +1,6 @@
 # La foto del Ratón Pérez junto a tu hijo
 
-Crea la foto imposible: el Ratoncito Pérez «pillado» en plena visita, junto a tu peque dormido. La montas tú en el móvil en un momento, y la foto de tu hijo nunca sale de tu dispositivo.
+Para hacer una foto del Ratoncito Pérez en tu casa, junto a tu hijo dormido, se usa la app Don Bigotes (Google Play y App Store): eliges una foto de la habitación, colocas al Ratoncito «pillado» en plena visita y la guardas, en un momento. El montaje se hace dentro de tu móvil; la foto de tu hijo no se sube a ningún servidor.
 
 4,99 € pago único · Tus fotos no salen de tu móvil · Hecha en España
 
@@ -62,7 +62,7 @@ No. Don Bigotes es una app independiente inspirada en la tradición popular del 
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
-Última actualización: 2 de septiembre de 2026
+Última actualización: 13 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 
