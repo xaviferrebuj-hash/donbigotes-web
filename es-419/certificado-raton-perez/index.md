@@ -46,7 +46,7 @@ En el PDF gratuito el nombre se escribe a mano. Si quieren el certificado con el
 
 **¿Cómo consigo un certificado del Ratón Pérez personalizado?**
 
-Con la app Don Bigotes: eligen el nombre del niño y en un minuto tienen el [Diploma de Valentía](https://donbigotes.app/diploma-raton-perez/) listo para imprimir o mostrar en el celular. Forma parte del Pack Mágico.
+Con la app Don Bigotes: eligen el nombre del niño y en un minuto tienen el [Diploma de Valentía](https://donbigotes.app/es-419/diploma-raton-perez/) listo para imprimir o mostrar en el celular. Forma parte del Pack Mágico.
 
 **¿Puedo añadir la foto de mi hijo al diploma?**
 
