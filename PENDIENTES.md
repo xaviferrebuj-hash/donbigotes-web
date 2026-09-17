@@ -7,6 +7,33 @@
 
 ---
 
+## [W2] Capturas 06 y 07 del press-kit — esperar la 06 v2
+
+**TRIGGER: cuando exista la captura 06 v2** (Xavi avisa con un bloque; llega de la
+carpeta de capturas de Play, `0.9-nuevas`).
+
+Sustituir **06 y 07** en `prensa/kit/android/` y `prensa/kit/iphone/` y **remontar el zip
+en una sola pasada** — no dos commits, no un remonte por captura.
+
+Método del remonte (el que se usó el 17-sep, ya verificado):
+
+```bash
+cd prensa && rm -f kit/press-kit-don-bigotes.zip
+zip -r -q -X kit/press-kit-don-bigotes.zip kit -x "kit/press-kit-don-bigotes.zip" -x "*.DS_Store"
+```
+
+Comprobar después, sin extraer: `unzip -t` sin errores y **22 entradas**.
+
+- ⚠️ `prensa/kit/**` **no entra en el ping de IndexNow** (el workflow solo mapea
+  `index.html` y `descargas/**`): el run dirá «Ni index.html ni descargas modificados;
+  sin ping», y es lo correcto.
+- ⚠️ Si el cambio no toca ningún HTML, **no correr `actualiza-fechas.sh`** (regla del
+  9-sep: fechas solo tras cambio de contenido visible).
+- La ficha `press-kit-don-bigotes.txt` describe «8 capturas Android … y 7 capturas
+  iPhone»: si el número de capturas cambia, actualizar también esa línea.
+
+---
+
 ## [W1] Fin del modo gratuito del Pack Mágico — barrido del copy «gratis»
 
 **TRIGGER: 1 de septiembre de 2026.** Ese día el Pack Mágico pasa a cobrarse en Android
