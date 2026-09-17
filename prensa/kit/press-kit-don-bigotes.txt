@@ -12,7 +12,7 @@ DATOS
 - Privacidad: todo el procesamiento, fotos incluidas, se hace en el móvil. Sin registro, sin cuenta, sin datos personales. Solo estadísticas de uso anónimas.
 - Público: familias con niños de 3 a 9 años. Idioma: español. Funciona también con «Ratón Pérez» y «Ratón de los Dientes».
 - Desarrollo: Xavi Ferré, en solitario, Barcelona. Producto independiente, sin afiliación a ninguna marca del personaje.
-- Versiones actuales: Android 0.9 · iOS 1.0.5.
+- Versiones actuales: Android 0.9 · iOS 1.0.6.
 
 ENLACES
 - Google Play: https://play.google.com/store/apps/details?id=es.donbigotes.app
