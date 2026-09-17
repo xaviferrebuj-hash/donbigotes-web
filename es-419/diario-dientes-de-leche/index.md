@@ -61,7 +61,7 @@ Fuente orientativa: tablas de erupción y exfoliación de las asociaciones de od
 
 - ¿Cuál es el primer diente que se cae? Casi siempre un incisivo central de abajo, hacia los 6 años. A veces el diente definitivo asoma por detrás antes de que caiga el de leche («dientes de tiburón»): es normal y suele resolverse solo.
 
-- ¿Y el último? Un segundo molar, entre los 10 y los 12 años. Ahí se despide el Ratón Pérez (también llamado Ratón de los Dientes).
+- ¿Y el último? Un segundo molar, entre los 10 y los 12 años. Ahí se despide el Ratón Pérez.
 
 - ¿Se mueve y no se cae? Si se mueve, se deja que caiga solo; si duele, sangra mucho o el definitivo ya salió del todo y el de leche sigue firme, dentista.
 
@@ -91,7 +91,7 @@ Casi siempre un incisivo central de abajo, hacia los 6 años. A veces el diente 
 
 **¿Y el último?**
 
-Un segundo molar, entre los 10 y los 12 años. Ahí se despide el Ratón Pérez (también llamado Ratón de los Dientes).
+Un segundo molar, entre los 10 y los 12 años. Ahí se despide el Ratón Pérez.
 
 **¿Se mueve y no se cae?**
 
