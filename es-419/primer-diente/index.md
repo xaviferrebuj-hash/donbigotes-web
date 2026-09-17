@@ -46,6 +46,8 @@ Don Bigotes crea la carta del Ratón Pérez al instante.
 
 Imprímanla o guárdenla en PDF y déjenla lista para la noche del diente.
 
+Y para apuntar este diente y los diecinueve que faltan, impriman la [hoja del diario de dientes](https://donbigotes.app/es-419/diario-dientes-de-leche/#hoja-diario): un A4 gratis, sin dejar su correo.
+
 ## Ya disponible en Google Play y App Store
 
 El Pack Mágico completo, en un único pago, en Android y en iPhone.

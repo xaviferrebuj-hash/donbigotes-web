@@ -34,9 +34,9 @@ Hasta seis niños en el mismo celular, cada uno con su diario, su cumpleaños y 
 
 En Ajustes → Copia del diario guardas un archivo con todos los dientes, fotos y cartas, y lo restauras si cambias de celular o reinstalas la app. Es la forma segura de no perder los recuerdos: como todo se guarda en tu celular, sin cuenta ni nube, la copia la tienes tú.
 
-## Descarga la hoja del diario
+## Hoja del diario de dientes para imprimir (gratis)
 
-Si prefieres el papel, la hoja del diario es un PDF A4 con el mapa de los 20 dientes y una casilla para cada uno: fecha, edad y qué dejó el Ratón Pérez. Gratis, sin dar el correo.
+Un A4 con los 20 dientes de leche para apuntar a boli fecha, edad, qué dejó el Ratón Pérez y cómo se cayó. PDF gratis, sin dejar tu correo. Y si lo prefieres en el celular, con foto y para los abuelos, [el diario de la app](#diario) es gratis y para siempre.
 
 ## ¿Cuándo se cae cada diente de leche?
 

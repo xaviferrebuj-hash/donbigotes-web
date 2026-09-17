@@ -287,6 +287,16 @@
   .camino .badges{margin-top:20px}
   @media (max-width:760px){.caminos{grid-template-columns:1fr}}
 
+  /* hoja imprimible */
+  .hoja-grid{display:grid;grid-template-columns:auto 1fr;gap:38px;align-items:center;max-width:900px;margin:0 auto}
+  .hoja-prev{display:block;flex:0 0 auto}
+  .hoja-prev img{display:block;width:300px;height:auto;border-radius:10px;border:1px solid var(--borde);box-shadow:0 18px 40px -18px rgba(0,0,0,.7)}
+  .hoja-prev:hover img{border-color:var(--oro)}
+  @media (max-width:760px){
+    .hoja-grid{grid-template-columns:1fr;gap:26px;justify-items:center;text-align:center}
+    .hoja-prev img{width:240px}
+  }
+
   /* captura de la app */
   .diario-grid{display:grid;grid-template-columns:1fr auto;gap:38px;align-items:center;max-width:900px;margin:0 auto}
   .diario-grid .lista{margin:0}
@@ -426,17 +436,20 @@
     </div>
   </section>
 
-  <!-- TODO: publicar el imprimible «Hoja del diario de dientes» (PDF A4, mapa de los 20 dientes
-       con casillas) en /descargas/hoja-diario-dientes.pdf y quitar el hidden de esta sección.
-       Acción A2 de _docs/ESTRATEGIA-DIARIO-DIENTES-17SEP.md. -->
-  <section id="hoja-diario" hidden>
+  <!-- HOJA DEL DIARIO (imprimible) -->
+  <section id="hoja-diario">
     <div class="sec-label">En papel</div>
-    <h2 class="sec-title">Descarga la hoja del diario</h2>
-    <div class="texto">
-      <p>Si prefieres el papel, la hoja del diario es un PDF A4 con el mapa de los 20 dientes y una casilla para cada uno: fecha, edad y qué dejó el Ratón Pérez. Gratis, sin dar el correo.</p>
-    </div>
-    <div class="momentos" style="margin-top:22px">
-      <a class="chip" href="/descargas/hoja-diario-dientes.pdf">Hoja del diario en PDF</a>
+    <h2 class="sec-title">Hoja del diario de dientes para imprimir (gratis)</h2>
+    <div class="hoja-grid">
+      <a class="hoja-prev" href="/descargas/hoja-diario-dientes-latam.pdf" data-hoja>
+        <img src="/assets/img/hoja-diario-dientes-latam-preview.webp" width="620" height="877" loading="lazy" decoding="async" alt="Hoja del diario de dientes de leche para imprimir, con los 20 dientes y casillas para la fecha, la edad y qué dejó el Ratón Pérez">
+      </a>
+      <div>
+        <div class="texto" style="text-align:left">
+          <p>Un A4 con los 20 dientes de leche para apuntar a boli fecha, edad, qué dejó el Ratón Pérez y cómo se cayó. PDF gratis, sin dejar tu correo. Y si lo prefieres en el celular, con foto y para los abuelos, <a href="#diario">el diario de la app</a> es gratis y para siempre.</p>
+        </div>
+        <a class="cta" href="/descargas/hoja-diario-dientes-latam.pdf" data-hoja style="margin-top:22px">Descargar PDF</a>
+      </div>
     </div>
   </section>
 
@@ -595,6 +608,11 @@
 </footer>
 </div>
 
+<script>
+document.querySelectorAll('[data-hoja]').forEach(function(a){
+  a.addEventListener('click', function(){ plausible('Descarga hoja diario 419'); });
+});
+</script>
 <script src="/js/enlaces-app.js"></script>
 </body>
 </html>

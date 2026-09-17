@@ -46,6 +46,8 @@ Don Bigotes crea la carta del Ratoncito Pérez personalizada al instante.
 
 Imprímela o guárdala en PDF y déjala lista para la noche del diente.
 
+Y para apuntar este diente y los diecinueve que faltan, imprime la [hoja del diario de dientes](https://donbigotes.app/diario-dientes-de-leche/#hoja-diario): un A4 gratis, sin dejar tu correo.
+
 ## Ya disponible en Google Play y App Store
 
 El Pack Mágico completo, 4,99 € en un único pago, en Android y en iPhone.

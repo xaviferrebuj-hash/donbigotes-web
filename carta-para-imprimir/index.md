@@ -30,6 +30,8 @@ La imprimes para dejarla bajo la almohada o la guardas en PDF.
 
 ## ¿Qué diente se ha caído?
 
+Junto a la carta puedes imprimir la [hoja del diario de dientes](https://donbigotes.app/diario-dientes-de-leche/#hoja-diario): un A4 gratis para ir apuntando los 20 dientes, sin dejar tu correo.
+
 ## ¿Quieres aún más magia esa noche?
 
 Déjanos tu email y te avisamos de cada novedad de la Oficina: la app ya incluye la nota de voz del Ratoncito con su nombre, la foto del «¡Pillado!» y el Diploma de Valentía. Descubre [el viaje del diente](https://donbigotes.app/viaje-del-diente/): qué pasa desde que se cae hasta la visita del Ratoncito.

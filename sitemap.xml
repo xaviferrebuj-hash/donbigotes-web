@@ -187,6 +187,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://donbigotes.app/descargas/hoja-diario-dientes.pdf</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://donbigotes.app/descargas/hoja-diario-dientes-latam.pdf</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://donbigotes.app/carta-reyes-magos/</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
