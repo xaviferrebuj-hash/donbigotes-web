@@ -90,7 +90,7 @@ La tradición es la misma se le llame Ratoncito Pérez, Ratón Pérez o Ratón d
 
 Dos de las activas. Don Bigotes incluye un diario gratuito para hasta seis peques y no sube nada fuera del móvil. El Ratón Pérez, de Vanrock, es solo diario y permite compartirlo con familiares a cambio de subir las fotos y los vídeos a su servicio.
 
-Última actualización: 11 de septiembre de 2026
+Última actualización: 17 de septiembre de 2026
 
 Comparativa elaborada por Don Bigotes, datos verificados el 10 de septiembre de 2026 a partir de las fichas públicas de cada aplicación. Las marcas y nombres comerciales citados pertenecen a sus respectivos titulares y se mencionan únicamente con fines identificativos. Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna de las aplicaciones comparadas ni por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez».
 
