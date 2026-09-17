@@ -2,9 +2,9 @@
 
 Cada diente que se cae, con su fecha, su edad, su anécdota y su foto. Dentro de la app, sin suscripción ni cuenta.
 
-Gratis y para siempre · Sin cuenta: se queda en tu celular · Android e iPhone
-
 Un diario de dientes de leche es un registro de cada diente que se le cae a tu hijo: qué diente fue, qué día, a qué edad, cómo se cayó y qué le dejó el Ratón Pérez, el ratón de los dientes. Don Bigotes lo lleva gratis y para siempre dentro de la app, sin suscripción ni cuenta, con una foto de cada diente que se queda en tu celular y una ficha para enviar a los abuelos por WhatsApp sin subir nada a ningún lado.
+
+Gratis y para siempre · Sin cuenta: se queda en tu celular · Android e iPhone
 
 ## Qué apunta el diario de Don Bigotes
 

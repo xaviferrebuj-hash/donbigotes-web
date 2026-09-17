@@ -147,11 +147,11 @@
   .nav-eyebrow{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--oro);font-weight:700}
 
   /* hero */
-  .hero{padding:64px 0 30px;display:grid;grid-template-columns:1.1fr .9fr;gap:46px;align-items:center}
+  .hero{padding:64px 0 30px;display:grid;grid-template-columns:1.25fr .75fr;gap:40px;align-items:center}
   .eyebrow{font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:var(--oro);font-weight:800;margin-bottom:16px}
   .hero h1{font-size:clamp(1.9rem,4.4vw,2.9rem);margin-bottom:18px}
   .hero h1 em{font-style:italic;color:var(--oro-claro)}
-  .hero p.lead{font-size:1.12rem;color:var(--texto);max-width:34ch;margin-bottom:28px}
+  .hero p.lead{font-size:1.12rem;color:var(--texto);max-width:40ch;margin-bottom:20px}
   .cta{
     display:inline-flex;align-items:center;gap:10px;
     background:linear-gradient(180deg,var(--oro-claro),var(--oro));
@@ -179,6 +179,8 @@
   /* cápsula de respuesta */
   .capsula{background:rgba(227,181,74,.08);border:1px solid var(--borde);border-left:4px solid var(--oro);border-radius:14px;padding:26px 28px;max-width:760px;margin:0 auto;color:var(--texto);font-size:1.06rem}
   .capsula b{color:#fff}
+  .hero .capsula{max-width:none;margin:0 0 28px;font-size:1rem;padding:22px 24px;text-align:left}
+  @media (max-width:760px){.hero .capsula{text-align:left}}
 
   /* texto centrado de sección */
   .texto{max-width:700px;margin:0 auto;text-align:center;color:var(--texto)}
@@ -352,6 +354,7 @@
       <div class="eyebrow anim">Diario de dientes de leche</div>
       <h1 class="anim d1">Diario de dientes de leche, gratis y para siempre</h1>
       <p class="lead anim d2">Cada diente que se cae, con su fecha, su edad, su anécdota y su foto. Dentro de la app, sin suscripción ni cuenta.</p>
+      <p class="capsula anim d2">Un <b>diario de dientes de leche</b> es un registro de cada diente que se le cae a tu hijo: qué diente fue, qué día, a qué edad, cómo se cayó y qué le dejó el <b>Ratón Pérez</b>, el ratón de los dientes. Don Bigotes lo lleva <b>gratis y para siempre</b> dentro de la app, sin suscripción ni cuenta, con una foto de cada diente que se queda en tu celular y una ficha para enviar a los abuelos por WhatsApp sin subir nada a ningún lado.</p>
       <div class="anim d3">
         <a class="cta" data-enlace="playstore" href="https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Ddonbigotes.app%26utm_medium%3Dweb%26utm_campaign%3Ddiario-dientes-de-leche&hl=es_419" target="_blank" rel="noopener">✨ Empezar el diario gratis</a>
         <p class="micro">Gratis y para siempre · <b>Sin cuenta: se queda en tu celular</b> · Android e iPhone</p>
@@ -363,9 +366,8 @@
     </div>
   </section>
 
-  <!-- CÁPSULA DE RESPUESTA -->
-  <section style="padding-top:10px">
-    <p class="capsula">Un <b>diario de dientes de leche</b> es un registro de cada diente que se le cae a tu hijo: qué diente fue, qué día, a qué edad, cómo se cayó y qué le dejó el <b>Ratón Pérez</b>, el ratón de los dientes. Don Bigotes lo lleva <b>gratis y para siempre</b> dentro de la app, sin suscripción ni cuenta, con una foto de cada diente que se queda en tu celular y una ficha para enviar a los abuelos por WhatsApp sin subir nada a ningún lado.</p>
+  <!-- BOTONES DE TIENDA -->
+  <section style="padding-top:0;text-align:center">
     <div class="badges">
       <a href="https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Ddonbigotes.app%26utm_medium%3Dweb%26utm_campaign%3Ddiario-dientes-de-leche&hl=es_419" target="_blank" rel="noopener"><img src="/assets/img/google-play-badge-es.png" alt="Disponible en Google Play" style="width:186px;height:72px"></a>
       <a href="https://apps.apple.com/app/id6798414411" data-enlace="appstore" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;justify-content:center;height:72px"><img src="/assets/img/app-store-badge-es.svg" alt="Cons&iacute;guelo en el App Store" width="165" height="55" style="width:165px;height:55px"></a>
