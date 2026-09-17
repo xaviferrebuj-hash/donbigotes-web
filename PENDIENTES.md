@@ -7,30 +7,19 @@
 
 ---
 
-## [W2] Capturas 06 y 07 del press-kit — esperar la 06 v2
+## [W2] ✅ HECHO (18-sep-2026) — Capturas del press-kit puestas al día
 
-**TRIGGER: cuando exista la captura 06 v2** (Xavi avisa con un bloque; llega de la
-carpeta de capturas de Play, `0.9-nuevas`).
+`prensa/kit/android/` pasa a ser **espejo exacto de las 8 capturas de Play es-ES**, en su
+orden y numeración: `01-voz` · `02-carta` · `03-diario` · `04-pillado` · `05-video` ·
+`06-diploma` · `07-cumpleanos` · `08-privacidad`. El diario es la **v2**
+(`0.9-nuevas/v2/es-ES/06-diario.png`) y el cumpleaños viene de `0.9-nuevas/es-ES/`; las seis
+restantes, de `0.8.4-nuevas/es-ES/`. Salen del kit `08-precio.png` y el diario viejo.
 
-Sustituir **06 y 07** en `prensa/kit/android/` y `prensa/kit/iphone/` y **remontar el zip
-en una sola pasada** — no dos commits, no un remonte por captura.
+En `iphone/` solo cambia `06-diario.png`, a la v2 de `ios/1.0.6-nuevas/v2/es-ES/`; las otras
+seis se quedan. Zip remontado en una sola pasada: 22 entradas, 16,5 MB, `unzip -t` limpio.
 
-Método del remonte (el que se usó el 17-sep, ya verificado):
-
-```bash
-cd prensa && rm -f kit/press-kit-don-bigotes.zip
-zip -r -q -X kit/press-kit-don-bigotes.zip kit -x "kit/press-kit-don-bigotes.zip" -x "*.DS_Store"
-```
-
-Comprobar después, sin extraer: `unzip -t` sin errores y **22 entradas**.
-
-- ⚠️ `prensa/kit/**` **no entra en el ping de IndexNow** (el workflow solo mapea
-  `index.html` y `descargas/**`): el run dirá «Ni index.html ni descargas modificados;
-  sin ping», y es lo correcto.
-- ⚠️ Si el cambio no toca ningún HTML, **no correr `actualiza-fechas.sh`** (regla del
-  9-sep: fechas solo tras cambio de contenido visible).
-- La ficha `press-kit-don-bigotes.txt` describe «8 capturas Android … y 7 capturas
-  iPhone»: si el número de capturas cambia, actualizar también esa línea.
+La línea de la ficha txt no se toca: sigue habiendo 8 capturas Android y 7 iPhone, y esa
+línea no enumera nombres (decisión de Xavi, 18-sep).
 
 ---
 
