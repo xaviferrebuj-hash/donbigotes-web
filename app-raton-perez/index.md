@@ -32,7 +32,7 @@ La carta del Ratoncito Pérez con el nombre de tu peque, su hazaña y el sello d
 
 ### Diario de dientes
 
-Cada diente que se cae queda apuntado con su fecha, para recordar el orden y no perder ninguno. [El calendario de los dientes de leche](https://donbigotes.app/diario-dientes-de-leche/).
+Cada diente que se cae queda apuntado con su fecha, su edad, cómo se cayó y una foto. [Diario de dientes gratis y para siempre](https://donbigotes.app/diario-dientes-de-leche/).
 
 ### Varios peques en la misma app
 

@@ -66,7 +66,7 @@ Imprímela o guárdala en PDF y déjala lista para la noche del diente.
 
 ### Lo que tienes sin pagar nada
 
-Carta personalizada · diario de dientes · felicitación de cumpleaños.
+Carta personalizada · [Diario de dientes gratis](https://donbigotes.app/diario-dientes-de-leche/) · felicitación de cumpleaños.
 
 ### Un solo pago de 4,99 € (sin suscripción)
 

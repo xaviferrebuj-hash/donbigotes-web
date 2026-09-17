@@ -40,7 +40,7 @@ Quieres que el Ratoncito diga el nombre de tu hijo: solo Don Bigotes lo hace den
 
 Quieres una llamada: «Llamada del Ratoncito Pérez». El mensaje es el mismo para todos los niños y la versión gratuita lleva anuncios.
 
-Solo quieres apuntar qué diente se cayó y cuándo: el diario de Don Bigotes es gratis y no sube nada; «El Ratón Pérez» de Vanrock hace lo mismo y además comparte con abuelos, a cambio de subir las fotos.
+Solo quieres apuntar qué diente se cayó y cuándo: [Diario de dientes: gratis y para siempre](https://donbigotes.app/diario-dientes-de-leche/); se comparte con los abuelos sin subir nada a ningún servidor. «El Ratón Pérez» de Vanrock hace lo mismo y además comparte con abuelos, a cambio de subir las fotos y los vídeos a su servicio.
 
 Prefieres no instalar nada: Ilusiono vende la carta y los vídeos como archivos por email.
 
