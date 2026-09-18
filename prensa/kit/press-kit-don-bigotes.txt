@@ -1,7 +1,7 @@
 DON BIGOTES: LA APP DEL RATONCITO PÉREZ — PRESS-KIT (septiembre de 2026)
 
 QUÉ ES
-App española para padres. Cuando a un niño se le cae un diente, en un minuto tienen la carta del Ratoncito Pérez con su nombre (gratis, en PDF) y, si quieren, el Pack Mágico: la nota de voz en la que el Ratoncito dice el nombre del niño, el fotomontaje «¡Pillado!» con el Ratoncito cazado en el salón de casa, el vídeo desde su Oficina y el Diploma de Valentía. Incluye también una felicitación de cumpleaños, gratis.
+App española para padres. Cuando a un niño se le cae un diente, en un minuto tienen la carta del Ratoncito Pérez con su nombre (gratis, en PDF) y, si quieren, el Pack Mágico: la nota de voz en la que el Ratoncito dice el nombre del niño, el fotomontaje «¡Pillado!» con el Ratoncito cazado en el salón de casa, el vídeo desde su Oficina y el Diploma de Valentía. Incluye también una felicitación de cumpleaños, gratis. Y un diario de dientes de leche gratis y para siempre.
 
 DIARIO DE DIENTES DE LECHE
 Diario de dientes de leche: gratis y para siempre, hasta seis peques, ficha para los abuelos por WhatsApp sin subir nada a ningún servidor.
@@ -12,7 +12,7 @@ DATOS
 - Privacidad: todo el procesamiento, fotos incluidas, se hace en el móvil. Sin registro, sin cuenta, sin datos personales. Solo estadísticas de uso anónimas.
 - Público: familias con niños de 3 a 9 años. Idioma: español. Funciona también con «Ratón Pérez» y «Ratón de los Dientes».
 - Desarrollo: Xavi Ferré, en solitario, Barcelona. Producto independiente, sin afiliación a ninguna marca del personaje.
-- Versiones actuales: Android 0.9 · iOS 1.0.6.
+- Versiones actuales: Android 0.9.0 · iOS 1.0.6.
 
 ENLACES
 - Google Play: https://play.google.com/store/apps/details?id=es.donbigotes.app
