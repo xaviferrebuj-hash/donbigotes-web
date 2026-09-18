@@ -23,6 +23,7 @@ ENLACES
 
 MATERIAL (libre para publicar, citando Don Bigotes)
 - Icono 512 y 1024 px, imagen 1024x500, 8 capturas Android (1080x1920) y 7 capturas iPhone (1320x2868): https://donbigotes.app/prensa/kit/press-kit-don-bigotes.zip
+- Icono de marca: ratón. En el móvil, la app usa un icono discreto para que los niños no la reconozcan.
 - Carta y diploma de muestra en PDF: https://donbigotes.app/descargas/carta-ratoncito-perez.pdf · https://donbigotes.app/descargas/diploma-ratoncito-perez.pdf
 - Vídeo de la Oficina del Ratoncito: https://www.youtube.com/@DonBigotesapp
 
