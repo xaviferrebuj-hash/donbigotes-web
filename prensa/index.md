@@ -48,7 +48,7 @@ Don Bigotes es una aplicación independiente desarrollada en Barcelona. Más inf
 
 Icono, imagen, capturas de Android e iPhone y ficha en texto, libres para publicar citando Don Bigotes.
 
-[Kit completo en ZIP (15 MB)](https://donbigotes.app/prensa/kit/press-kit-don-bigotes.zip) · [Ficha en texto (TXT)](https://donbigotes.app/prensa/kit/press-kit-don-bigotes.txt)
+[Kit completo en ZIP (18 MB)](https://donbigotes.app/prensa/kit/press-kit-don-bigotes.zip) · [Ficha en texto (TXT)](https://donbigotes.app/prensa/kit/press-kit-don-bigotes.txt)
 
 ## Contacto de prensa
 
@@ -58,7 +58,7 @@ Xavi Ferré · [hola@donbigotes.app](mailto:hola@donbigotes.app) · [https://don
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
-Última actualización: 5 de septiembre de 2026
+Última actualización: 18 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 
