@@ -22,10 +22,9 @@ PAGINAS = [
     "comparativa-apps-ratoncito-perez", "historia-raton-perez",
     "cumpleanos-raton-perez", "firma-sello-raton-perez",
     "blog", "blog/la-noche-del-diente",
-    "carta-reyes-magos", "diario-dientes-de-leche", "cartero-real",
+    "diario-dientes-de-leche",
     "es-419", "es-419/carta-para-imprimir", "es-419/diario-dientes-de-leche",
     "es-419/app-raton-perez", "es-419/el-ratoncito-perez-existe",
-    "es-419/cartero-real", "es-419/carta-reyes-magos",
     "es-419/certificado-raton-perez", "es-419/diploma-raton-perez",
     "es-419/comparativa-apps-ratoncito-perez", "es-419/primer-diente",
 ]
