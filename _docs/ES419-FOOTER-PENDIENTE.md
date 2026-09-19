@@ -1,5 +1,7 @@
 # Enlaces de footer en /es-419/* que apuntan a páginas solo-ES
 
+> **Cartero Real cancelado 19-sep-2026.**
+
 *Inventario del 9-sep-2026. Solo diagnóstico: no se ha tocado ningún enlace.*
 
 Las 8 páginas de `/es-419/` existen y se enlazan entre sí correctamente. El problema es

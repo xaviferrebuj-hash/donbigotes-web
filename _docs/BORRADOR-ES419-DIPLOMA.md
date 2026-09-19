@@ -1,5 +1,7 @@
 # Borrador es-419 — `/es-419/diploma-raton-perez/`
 
+> **Cartero Real cancelado 19-sep-2026.**
+
 **BORRADOR. No publicado, no creado en el repo. Decide Xavi.**
 Origen: `/diploma-raton-perez/` (es-ES, última actualización 2-sep-2026).
 Patrón calcado de `/es-419/certificado-raton-perez/`, que es la pareja más parecida.
@@ -7,7 +9,7 @@ Patrón calcado de `/es-419/certificado-raton-perez/`, que es la pareja más par
 ## REGLA LATAM aplicada
 
 Verificada contra `es-419/certificado-raton-perez/index.html` y
-`_docs/copy-cartero-real.md` (línea 168), no inventada:
+`_docs/archivo/copy-cartero-real.md` (línea 168), no inventada:
 
 | Regla | ES | es-419 |
 |---|---|---|
