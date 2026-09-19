@@ -169,24 +169,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://donbigotes.app/cartero-real/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://donbigotes.app/descargas/plantilla-carta-reyes-magos.pdf</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://donbigotes.app/descargas/plantilla-carta-reyes-magos-latam.pdf</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://donbigotes.app/descargas/hoja-diario-dientes.pdf</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -197,12 +179,6 @@
     <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://donbigotes.app/carta-reyes-magos/</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://donbigotes.app/diario-dientes-de-leche/</loc>
@@ -238,18 +214,6 @@
     <loc>https://donbigotes.app/es-419/el-ratoncito-perez-existe/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://donbigotes.app/es-419/cartero-real/</loc>
-    <lastmod>2026-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://donbigotes.app/es-419/carta-reyes-magos/</loc>
-    <lastmod>2026-09-17</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
