@@ -83,6 +83,25 @@
     ];
   }
 
+  /* Cuando el diente es el último, la carta se despide en vez de contar el viaje.
+     Lo dice data-contexto="ultimo" en #gen (las páginas de último diente) o el chip
+     «Es el último» de las home. Sustituye al cuerpo del tramo; saludo y firma, igual. */
+  function despedida(edad) {
+    if (edad === 't79') {
+      /* Este ya está en pretérito simple: vale igual en España y en LATAM. */
+      return ['Hoy me llevo tu último diente de leche, y eso significa algo importante: ya tienes todos los dientes de mayor. Los cuidaste bien, uno a uno, y por eso este va a la caja de los dientes más especiales de la Oficina. Ha sido un honor visitarte todas estas noches. Cepíllalos bien: ahora son para siempre. Con cariño y un poco de nostalgia,'];
+    }
+    return [ES419
+      ? 'Este era tu último diente de leche. ¡Qué bien lo cuidaste! Ahora ya tienes los dientes de mayor, y esos son para toda la vida. Yo me llevo este con mucho cariño a la Oficina, en la caja de los dientes más especiales. Gracias por dejarme visitarte todas estas noches. Un abrazo de bigotes.'
+      : 'Este era tu último diente de leche. ¡Qué bien lo has cuidado! Ahora ya tienes los dientes de mayor, y esos son para toda la vida. Yo me llevo este con mucho cariño a la Oficina, en la caja de los dientes más especiales. Gracias por dejarme visitarte todas estas noches. Un abrazo de bigotes.'];
+  }
+
+  /* La página entera va de último diente, o lo ha dicho el chip de las home. */
+  function esDespedida() {
+    var ctx = ($('gen').dataset.contexto || '') === 'ultimo';
+    return ctx || GEN.tramo === 'ultimo';
+  }
+
   var MESES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio',
     'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
   function fechaRatonera() {
@@ -235,9 +254,11 @@
     if (COMPLETO) $('gDate').textContent = fechaRatonera();
     /* En 3-4 y 5-6 el saludo no lleva género: los textos ya lo evitan. */
     $('gGreet').textContent = edad === 't79' ? saludo(n) : ('¡Hola, ' + n + '!');
-    pintaCuerpo(edad === 't34' ? cuerpo34(n)
-      : edad === 't56' ? cuerpo56(n)
-        : (COMPLETO ? cuerpoCompleto() : cuerpoSimple()));
+    /* En 7 o más, las home ya tienen su propia carta de último diente: se queda la suya. */
+    var adios = esDespedida();
+    pintaCuerpo(edad === 't79'
+      ? (COMPLETO ? cuerpoCompleto() : (adios ? despedida('t79') : cuerpoSimple()))
+      : (adios ? despedida(edad) : (edad === 't34' ? cuerpo34(n) : cuerpo56(n))));
     $('gStamp').src = doc.querySelector('.l-stamp').src;
     $('gSign').src = doc.querySelector('.l-sign').src;
     $('genForm').style.display = 'none';
