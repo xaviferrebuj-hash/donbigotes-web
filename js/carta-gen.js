@@ -101,13 +101,15 @@
      Lo dice data-contexto="ultimo" en #gen (las páginas de último diente) o el chip
      «Es el último» de las home. Sustituye al cuerpo del tramo; saludo y firma, igual. */
   function despedida(edad) {
+    /* Sin fórmula de despedida al final del cuerpo: la pone el cierre, que en
+       estas cartas es «Con bigotes y cariño,» justo encima de la firma. */
     if (edad === 't79') {
       /* Este ya está en pretérito simple: vale igual en España y en LATAM. */
-      return ['Hoy me llevo tu último diente de leche, y eso significa algo importante: ya tienes todos los dientes de mayor. Los cuidaste bien, uno a uno, y por eso este va a la caja de los dientes más especiales de la Oficina. Ha sido un honor visitarte todas estas noches. Cepíllalos bien: ahora son para siempre. Con cariño y un poco de nostalgia,'];
+      return ['Hoy me llevo tu último diente de leche, y eso significa algo importante: ya tienes todos los dientes de mayor. Los cuidaste bien, uno a uno, y por eso este va a la caja de los dientes más especiales de la Oficina. Ha sido un honor visitarte todas estas noches. Cepíllalos bien: ahora son para siempre.'];
     }
     return [ES419
-      ? 'Este era tu último diente de leche. ¡Qué bien lo cuidaste! Ahora ya tienes los dientes de mayor, y esos son para toda la vida. Yo me llevo este con mucho cariño a la Oficina, en la caja de los dientes más especiales. Gracias por dejarme visitarte todas estas noches. Un abrazo de bigotes.'
-      : 'Este era tu último diente de leche. ¡Qué bien lo has cuidado! Ahora ya tienes los dientes de mayor, y esos son para toda la vida. Yo me llevo este con mucho cariño a la Oficina, en la caja de los dientes más especiales. Gracias por dejarme visitarte todas estas noches. Un abrazo de bigotes.'];
+      ? 'Este era tu último diente de leche. ¡Qué bien lo cuidaste! Ahora ya tienes los dientes de mayor, y esos son para toda la vida. Yo me llevo este con mucho cariño a la Oficina, en la caja de los dientes más especiales. Gracias por dejarme visitarte todas estas noches.'
+      : 'Este era tu último diente de leche. ¡Qué bien lo has cuidado! Ahora ya tienes los dientes de mayor, y esos son para toda la vida. Yo me llevo este con mucho cariño a la Oficina, en la caja de los dientes más especiales. Gracias por dejarme visitarte todas estas noches.'];
   }
 
   /* La página entera va de último diente, o lo ha dicho el chip de las home. */
@@ -290,6 +292,9 @@
     var papel = $('genResult').querySelector('.letter-paper');
     papel.classList.remove('edad-t34', 'edad-t56', 'edad-t79');
     papel.classList.add('edad-' + edad);
+    /* En 7 o más el cierre solo sale en la carta de despedida: la normal ya se
+       despide dentro del texto. */
+    papel.classList.toggle('ctx-adios', adios);
     ponCierre(papel);
     $('gStamp').src = doc.querySelector('.l-stamp').src;
     $('gSign').src = doc.querySelector('.l-sign').src;

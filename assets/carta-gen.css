@@ -114,13 +114,26 @@
 .gen-paper.edad-t34 .l-body p,
 .gen-paper.edad-t56 .l-body p { margin: 0 0 .3em; }
 
-/* Sello y firma, por encima de la franja. Las dos imágenes llevan un velo gris
-   claro que sobre este papel se ve como un recuadro: darken se queda con el
-   trazo oscuro y deja pasar el papel donde la imagen es más clara que él. */
-   En la carta clásica van pegados al fondo del papel; aquí fluyen detrás del texto
-   —firma a la derecha bajo «Con bigotes y cariño,», sello a la izquierda a su misma
-   altura— y la franja queda por debajo, como en la app. */
+/* Cierre, firma y sello. Las dos imágenes llevan un velo gris claro que sobre este
+   papel se ve como un recuadro: darken se queda con el trazo oscuro y deja pasar el
+   papel donde la imagen es más clara que él.
+   En la carta clásica van pegados al fondo del papel; en 3-4 y 5-6 fluyen detrás del
+   texto —firma a la derecha bajo «Con bigotes y cariño,», sello a la izquierda a su
+   misma altura— y la franja queda por debajo, como en la app. */
 .l-cierre { display: none; }
+
+/* La carta clásica de 7 o más mantiene su maquetación, pero cuando es la de
+   despedida el cuerpo ya no termina en una fórmula: el cierre la pone aquí,
+   encima de la firma, que en este tramo sigue pegada al fondo del papel. */
+.gen-paper.edad-t79.ctx-adios .l-cierre {
+  display: block;
+  text-align: right;
+  margin-top: 18px;
+  padding-right: 12%;
+  font-family: 'Caveat', cursive;
+  font-size: 1.28rem;
+  color: #5A4A38;
+}
 
 .gen-paper.edad-t34 .l-cierre,
 .gen-paper.edad-t56 .l-cierre {
