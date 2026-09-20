@@ -1,0 +1,126 @@
+/* Carta del generador: el papel cambia con la edad.
+   Las clases las pone js/carta-gen.js en .letter-paper al crear la carta.
+
+   - edad-t34 y edad-t56: papel crema, marco dorado fino y las piezas de la app
+     (guirnalda arriba, Ratoncito a la derecha, carril de huellas, franja abajo),
+     puestas como background-image para que sobrevivan a la impresión.
+   - edad-t79: la carta de siempre, con sus rayas. No lleva estilos aquí.
+
+   Piezas en /assets/img/carta/34/ y /56/, copiadas de ratoncito_app/assets/carta/.
+   Los selectores llevan .gen-paper delante para ganar al <style> inline de cada
+   página, que define .letter-paper y se carga después de esta hoja. */
+
+.gen-paper.edad-t34,
+.gen-paper.edad-t56 {
+  background-color: #FBF7EC;
+  background-repeat: no-repeat;
+  border: 1px solid #B9882F;
+  border-radius: 16px;
+  /* El Ratoncito se corta en recto contra el borde derecho, como en la app. */
+  overflow: hidden;
+  /* Hueco arriba para la guirnalda y abajo para sello, firma y franja. */
+  padding: 64px 58px 250px 30px;
+}
+
+.gen-paper.edad-t34 {
+  background-image:
+    url('/assets/img/carta/34/ratoncito.webp'),
+    url('/assets/img/carta/34/guirnalda.webp'),
+    url('/assets/img/carta/34/franja.webp');
+  background-position:
+    right 0 top 6px,
+    left 22% top 0,
+    center bottom 16px;
+  background-size: 30% auto, 52% auto, 78% auto;
+}
+
+.gen-paper.edad-t56 {
+  background-image:
+    url('/assets/img/carta/56/ratoncito.webp'),
+    url('/assets/img/carta/56/guirnalda.webp'),
+    url('/assets/img/carta/56/estrella.webp'),
+    url('/assets/img/carta/56/franja.webp');
+  background-position:
+    right 0 top 44px,
+    left 15% top 2px,
+    right 30px top 20px,
+    right 8px bottom 14px;
+  background-size: 25% auto, 56% auto, 5% auto, 88% auto;
+}
+
+/* Carril derecho: va del final del Ratoncito al principio de la firma, así que
+   no vale un repeat-y del papel (llegaría hasta abajo). Pseudoelemento acotado. */
+.gen-paper.edad-t34::after,
+.gen-paper.edad-t56::after {
+  content: "";
+  position: absolute;
+  inset: auto 10px 172px auto;
+  width: 26px;
+  border: none;
+  border-radius: 0;
+  background-repeat: repeat-y;
+  background-position: top center;
+  background-size: 100% auto;
+}
+/* La pieza de 3-4 es UNA huella suelta (184×200), así que repetida sin más sale
+   una fila apretadísima. La máscara deja ver una de cada dos: huellas cada 60 px,
+   que es la separación de la maqueta llevada al ancho de esta carta.
+   La de 5-6 no la necesita: caminito.webp (116×632) ya es un tramo con su hueco. */
+.gen-paper.edad-t34::after {
+  top: 148px;
+  width: 28px;
+  background-image: url('/assets/img/carta/34/huella.webp');
+  background-size: 28px 30px;
+  -webkit-mask-image: repeating-linear-gradient(180deg, #000 0 30px, transparent 30px 60px);
+  mask-image: repeating-linear-gradient(180deg, #000 0 30px, transparent 30px 60px);
+}
+.gen-paper.edad-t56::after {
+  top: 126px;
+  width: 22px;
+  background-image: url('/assets/img/carta/56/caminito.webp');
+}
+
+/* Las primeras líneas esquivan al Ratoncito de la esquina: un hueco flotante
+   a la derecha, que el texto rodea y desaparece en cuanto lo pasa. */
+.gen-paper.edad-t34 .l-body::before,
+.gen-paper.edad-t56 .l-body::before {
+  content: "";
+  float: right;
+  width: 30%;
+  height: 76px;
+}
+.gen-paper.edad-t56 .l-body::before { height: 86px; }
+
+/* El saludo y el cuerpo crecen cuanto más pequeño es el niño. */
+.gen-paper.edad-t34 .l-greeting { font-size: 2.3rem; }
+.gen-paper.edad-t34 .l-body { font-size: 1.9rem; line-height: 1.25; }
+.gen-paper.edad-t56 .l-greeting { font-size: 2.15rem; }
+.gen-paper.edad-t56 .l-body { font-size: 1.65rem; line-height: 1.22; }
+.gen-paper.edad-t34 .l-body p,
+.gen-paper.edad-t56 .l-body p { margin: 0 0 .3em; }
+
+/* Sello y firma, por encima de la franja. Las dos imágenes llevan un velo gris
+   claro que sobre este papel se ve como un recuadro: darken se queda con el
+   trazo oscuro y deja pasar el papel donde la imagen es más clara que él. */
+.gen-paper.edad-t34 .l-sign,
+.gen-paper.edad-t56 .l-sign { bottom: 120px; mix-blend-mode: darken; filter: brightness(1.08); }
+.gen-paper.edad-t34 .l-stamp,
+.gen-paper.edad-t56 .l-stamp { bottom: 124px; mix-blend-mode: darken; filter: brightness(1.08); }
+
+@media print {
+  /* Sin esto, el navegador tira los fondos y la carta sale en blanco. */
+  .letter-paper {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  /* En A4 hay sitio de sobra: la franja no se corta si el papel no se parte. */
+  .gen-paper.edad-t34,
+  .gen-paper.edad-t56 {
+    padding: 64px 68px 250px 34px;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  /* En A4 el Ratoncito es mayor, así que el hueco también. */
+  .gen-paper.edad-t34 .l-body::before { height: 104px; }
+  .gen-paper.edad-t56 .l-body::before { height: 112px; }
+}

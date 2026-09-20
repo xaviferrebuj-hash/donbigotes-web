@@ -259,6 +259,10 @@
     pintaCuerpo(edad === 't79'
       ? (COMPLETO ? cuerpoCompleto() : (adios ? despedida('t79') : cuerpoSimple()))
       : (adios ? despedida(edad) : (edad === 't34' ? cuerpo34(n) : cuerpo56(n))));
+    /* El papel cambia con la edad: los estilos están en /assets/carta-gen.css. */
+    var papel = $('genResult').querySelector('.letter-paper');
+    papel.classList.remove('edad-t34', 'edad-t56', 'edad-t79');
+    papel.classList.add('edad-' + edad);
     $('gStamp').src = doc.querySelector('.l-stamp').src;
     $('gSign').src = doc.querySelector('.l-sign').src;
     $('genForm').style.display = 'none';
