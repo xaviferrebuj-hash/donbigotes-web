@@ -136,7 +136,9 @@
 }
 
 .gen-paper.edad-t34 .l-cierre,
-.gen-paper.edad-t56 .l-cierre {
+.gen-paper.edad-t56 .l-cierre,
+.gen-paper.edad-t34 .l-close,
+.gen-paper.edad-t56 .l-close {
   display: block;
   float: right;
   clear: right;

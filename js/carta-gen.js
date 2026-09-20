@@ -252,6 +252,9 @@
      donde firma y sello fluyen con el texto en vez de ir pegados al fondo.
      El CSS lo esconde en 7 o más, que conserva su maquetación de siempre. */
   function ponCierre(papel) {
+    /* Las home ya traen el suyo en el HTML (.l-close), en este mismo sitio: si
+       está, se usa ese y no se crea otro. */
+    if (papel.querySelector('.l-close')) return;
     var c = papel.querySelector('.l-cierre');
     if (!c) {
       c = doc.createElement('div');
