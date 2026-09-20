@@ -203,6 +203,7 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
 .gen-result{display:none}
 .gen-result.show{display:block}
 .gen-paper{width:100%;max-width:420px;margin:0 auto;transform:none}
+.gen-paper .l-body p{margin:0 0 .55em}
 .gen-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:26px}
 .btn-ghost{font-family:inherit;font-weight:700;font-size:1rem;cursor:pointer;padding:14px 24px;border-radius:12px;border:1.5px solid var(--paper-edge);background:#fff;color:var(--ink)}
 .btn-ghost:hover{border-color:var(--gold-deep)}
@@ -536,6 +537,12 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
         <button type="button" class="chip" data-v="nino">Niño</button>
         <button type="button" class="chip" data-v="neutro">Prefiero no decirlo</button>
       </div>
+      <span class="gen-label">¿Cuántos años tiene?</span>
+      <div class="chips" id="gedad">
+        <button type="button" class="chip" data-v="t34">3-4</button>
+        <button type="button" class="chip sel" data-v="t56">5-6</button>
+        <button type="button" class="chip" data-v="t79">7 o más</button>
+      </div>
       <span class="gen-label">¿Qué diente se le cayó?</span>
       <div class="chips" id="gdiente">
         <button type="button" class="chip" data-v="palita de arriba">Palita de arriba</button>
@@ -594,52 +601,7 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
   </div>
 </div>
 
-<script>
-var GEN={sexo:null,diente:null};
-function openGen(){plausible('Crear carta - clic');document.getElementById('gen').classList.add('open');document.body.style.overflow='hidden';}
-function closeGen(){document.getElementById('gen').classList.remove('open');document.body.style.overflow='';}
-function resetGen(){document.getElementById('genResult').classList.remove('show');document.getElementById('genForm').style.display='block';pcAudio.pause();pcAudio.currentTime=0;if(window.muestraVoz)muestraVoz.parar();}
-/* Post-carta: preview de voz y vuelta a la carta. */
-var pcAudio=document.getElementById('pcAudio'),pcBtn=document.getElementById('pcPlay');
-function pcIcono(){pcBtn.innerHTML=pcAudio.paused?'&#9654;':'&#10074;&#10074;';}
-pcAudio.addEventListener('play',pcIcono);
-pcAudio.addEventListener('pause',pcIcono);
-pcAudio.addEventListener('ended',function(){pcAudio.currentTime=0;pcIcono();});
-document.getElementById('pcBadge').addEventListener('click',function(){plausible('Clic Play Store postcarta');});
-document.getElementById('pcBadgeIos').addEventListener('click',function(){plausible('Clic App Store postcarta');});
-function pcVolver(){
-  var c=document.getElementById('print-letter'),o=document.getElementById('gen'),y=o.scrollTop;
-  c.scrollIntoView({behavior:'smooth',block:'start'});
-  /* Respaldo: si el navegador ignora el scroll suave, saltamos sin animación. */
-  setTimeout(function(){if(o.scrollTop===y)c.scrollIntoView({block:'start'});},120);
-}
-function pcNombre(n){
-  document.getElementById('pcOkT').textContent=n?('La carta de '+n+' ya está lista'):'La carta ya está lista';
-}
-document.getElementById('gen').addEventListener('click',function(e){if(e.target===this)closeGen();});
-document.addEventListener('keydown',function(e){if(e.key==='Escape')closeGen();});
-function bindChips(g,k){document.querySelectorAll('#'+g+' .chip').forEach(function(c){c.addEventListener('click',function(){document.querySelectorAll('#'+g+' .chip').forEach(function(x){x.classList.remove('sel');});c.classList.add('sel');GEN[k]=c.dataset.v;});});}
-bindChips('gsexo','sexo');bindChips('gdiente','diente');
-function makeLetter(){
-  var nombre=(document.getElementById('gnombre').value||'').trim();
-  if(!nombre){document.getElementById('genErr').classList.add('show');return;}
-  document.getElementById('genErr').classList.remove('show');
-  var sexo=GEN.sexo||'neutro', diente=GEN.diente||'diente';
-  var n=nombre.charAt(0).toUpperCase()+nombre.slice(1);
-  var greet=sexo==='nino'?'Querido '+n+',':(sexo==='nina'?'Querida '+n+',':'¡Hola, '+n+'!');
-  var peq=sexo==='nino'?', pequeño':(sexo==='nina'?', pequeña':'');
-  var tooth=diente==='diente'?'tu diente':'tu '+diente;
-  var body='¡Fuiste muy valiente! Anoche pasé por tu almohada y recogí '+tooth+' con muchísimo cuidado. Ahora está a salvo en mi casita, junto a otros dientes muy especiales. Te dejé un poquito de magia a cambio. Sigue cuidando esa sonrisa tan bonita'+peq+'… ¡Nos vemos en la próxima!';
-  document.getElementById('gGreet').textContent=greet;
-  document.getElementById('gBody').textContent=body;
-  document.getElementById('gStamp').src=document.querySelector('.l-stamp').src;
-  document.getElementById('gSign').src=document.querySelector('.l-sign').src;
-  document.getElementById('genForm').style.display='none';
-  document.getElementById('genResult').classList.add('show');
-  plausible('Carta generada');
-  pcNombre(n);
-}
-</script>
+<script src="/js/carta-gen.js" defer></script>
 <script src="/js/muestra-voz.js"></script>
 <script src="/js/enlaces-app.js"></script>
 </body>
