@@ -69,23 +69,32 @@
   /* Cartas de 3-4 y 5-6: las mismas que escribe la app (docs/CARTAS-EDAD.md §4).
      Son más cortas, sin frases de rasgos, y el saludo es siempre «¡Hola, X!». */
   function cuerpo34(n) {
-    return [
+    var p = [
       'Esta noche he venido de puntillas hasta tu almohada… ¡y he encontrado tu diente!',
       '¡Qué bonito es! Me lo llevo a mi Oficina con mucho cuidado.',
       'Eres muy valiente, ' + n + '.',
       'Cepíllate los dientes cada día, ¿vale?',
       '¿Cuántos dientes ves escondidos en mi carta?'
     ];
+    /* Si es el primero, la carta lo celebra desde la primera línea. */
+    if (GEN.tramo === 'primero') {
+      p[0] = '¡Tu primer diente! Lo voy a guardar en la caja de los dientes más especiales de la Oficina.';
+    }
+    return p;
   }
   function cuerpo56(n) {
     var d = elDiente(GEN.diente);
-    return [
+    var p = [
       'Esta noche he venido de puntillas hasta tu almohada y he encontrado tu ' + d.nombre + '. ¡Qué tesoro!',
       'Ya viaja en mi saquito. Sigue mis huellas por el borde de la carta: te llevan hasta la puerta de mi Oficina.',
       'Donde estaba ese diente ya asoma uno nuevo, más grande y más fuerte. Cuídalo mucho: cepíllate por la mañana y por la noche, ¿trato hecho?',
       'Y una misión para ti: he perdido la llave de la Oficina. ¿Me ayudas a buscarla? Está escondida en esta carta.',
       'Eres muy valiente, ' + n + '.'
     ];
+    if (GEN.tramo === 'primero') {
+      p[0] = 'Es tu primer diente, y por eso esta carta también es la primera. Lo guardo en la caja de los dientes más especiales de la Oficina.';
+    }
+    return p;
   }
 
   /* Cuando el diente es el último, la carta se despide en vez de contar el viaje.
@@ -237,6 +246,19 @@
       : '¡Has sido muy valiente! Anoche pasé por tu almohada y recogí ' + tooth + ' con muchísimo cuidado. Ahora está a salvo en mi casita, junto a otros dientes muy especiales. Te he dejado un poquito de magia a cambio. Sigue cuidando esa sonrisa tan bonita' + peq + '… ¡Nos vemos en la próxima!'];
   }
 
+  /* «Con bigotes y cariño,» va encima de la firma en las cartas de 3-4 y 5-6,
+     donde firma y sello fluyen con el texto en vez de ir pegados al fondo.
+     El CSS lo esconde en 7 o más, que conserva su maquetación de siempre. */
+  function ponCierre(papel) {
+    var c = papel.querySelector('.l-cierre');
+    if (!c) {
+      c = doc.createElement('div');
+      c.className = 'l-cierre';
+      c.textContent = 'Con bigotes y cariño,';
+      papel.insertBefore(c, papel.querySelector('.l-stamp'));
+    }
+  }
+
   function pintaCuerpo(parrafos) {
     var body = $('gBody');
     if (parrafos.length === 1) { body.textContent = parrafos[0]; return; }
@@ -268,6 +290,7 @@
     var papel = $('genResult').querySelector('.letter-paper');
     papel.classList.remove('edad-t34', 'edad-t56', 'edad-t79');
     papel.classList.add('edad-' + edad);
+    ponCierre(papel);
     $('gStamp').src = doc.querySelector('.l-stamp').src;
     $('gSign').src = doc.querySelector('.l-sign').src;
     $('genForm').style.display = 'none';

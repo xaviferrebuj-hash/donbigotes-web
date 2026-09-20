@@ -16,11 +16,14 @@
   background-repeat: no-repeat;
   border: 1px solid #B9882F;
   border-radius: 16px;
-  /* El Ratoncito se corta en recto contra el borde derecho, como en la app. */
+  /* El Ratoncito se corta en recto contra el borde derecho, como en la app;
+     de paso, el papel contiene los floats del cierre. */
   overflow: hidden;
-  /* Hueco arriba para la guirnalda y abajo para sello, firma y franja. */
-  padding: 64px 58px 250px 30px;
+  /* Hueco arriba para la guirnalda. Abajo, solo para la franja: la firma y el
+     sello ya no van absolutos, fluyen con el texto. */
+  padding: 64px 58px 130px 30px;
 }
+.gen-paper.edad-t56 { padding-bottom: 86px; }
 
 .gen-paper.edad-t34 {
   background-image:
@@ -54,7 +57,8 @@
 .gen-paper.edad-t56::after {
   content: "";
   position: absolute;
-  inset: auto 10px 172px auto;
+  /* Acaba antes del cierre, como en la maqueta: no acompaña a la firma. */
+  inset: auto 10px 250px auto;
   width: 26px;
   border: none;
   border-radius: 0;
@@ -76,6 +80,7 @@
 }
 .gen-paper.edad-t56::after {
   top: 126px;
+  bottom: 210px;
   width: 22px;
   background-image: url('/assets/img/carta/56/caminito.webp');
 }
@@ -92,20 +97,69 @@
 .gen-paper.edad-t56 .l-body::before { height: 86px; }
 
 /* El saludo y el cuerpo crecen cuanto más pequeño es el niño. */
-.gen-paper.edad-t34 .l-greeting { font-size: 2.3rem; }
-.gen-paper.edad-t34 .l-body { font-size: 1.9rem; line-height: 1.25; }
-.gen-paper.edad-t56 .l-greeting { font-size: 2.15rem; }
-.gen-paper.edad-t56 .l-body { font-size: 1.65rem; line-height: 1.22; }
+/* El saludo también esquiva al Ratoncito: sin este hueco, en un móvil de 375 px
+   el nombre se le mete debajo. */
+.gen-paper.edad-t34 .l-greeting,
+.gen-paper.edad-t56 .l-greeting { padding-right: 34%; }
+
+/* El tamaño de la spec (1,9 y 1,65 rem) es el de una carta ancha; en un móvil de
+   375 px el papel mide 295 y a ese cuerpo las frases caen de tres en tres palabras,
+   así que baja con el ancho de pantalla y nunca pasa del valor de la spec. */
+.gen-paper.edad-t34 .l-greeting { font-size: clamp(1.8rem, 7.4vw, 2.3rem); }
+.gen-paper.edad-t34 .l-body { font-size: clamp(1.5rem, 6.2vw, 1.9rem); line-height: 1.25; }
+.gen-paper.edad-t56 .l-greeting { font-size: clamp(1.7rem, 6.9vw, 2.15rem); }
+/* 5-6 va a 1,55 en vez de 1,65: con nombre largo y «No estoy seguro», a 1,65 la
+   carta acababa a 2 px del borde imprimible del A4 y cualquier cosa la partía. */
+.gen-paper.edad-t56 .l-body { font-size: clamp(1.32rem, 5.4vw, 1.55rem); line-height: 1.22; }
 .gen-paper.edad-t34 .l-body p,
 .gen-paper.edad-t56 .l-body p { margin: 0 0 .3em; }
 
 /* Sello y firma, por encima de la franja. Las dos imágenes llevan un velo gris
    claro que sobre este papel se ve como un recuadro: darken se queda con el
    trazo oscuro y deja pasar el papel donde la imagen es más clara que él. */
+   En la carta clásica van pegados al fondo del papel; aquí fluyen detrás del texto
+   —firma a la derecha bajo «Con bigotes y cariño,», sello a la izquierda a su misma
+   altura— y la franja queda por debajo, como en la app. */
+.l-cierre { display: none; }
+
+.gen-paper.edad-t34 .l-cierre,
+.gen-paper.edad-t56 .l-cierre {
+  display: block;
+  float: right;
+  clear: right;
+  width: 58%;
+  margin-top: 20px;
+  font-family: 'Caveat', cursive;
+  font-size: clamp(1.05rem, 4.4vw, 1.3rem);
+  color: #5A4A38;
+}
+
 .gen-paper.edad-t34 .l-sign,
-.gen-paper.edad-t56 .l-sign { bottom: 120px; mix-blend-mode: darken; filter: brightness(1.08); }
+.gen-paper.edad-t56 .l-sign {
+  position: static;
+  float: right;
+  clear: right;
+  right: auto;
+  bottom: auto;
+  width: 52%;
+  max-width: 190px;
+  margin-top: 2px;
+  mix-blend-mode: darken;
+  filter: brightness(1.08);
+}
 .gen-paper.edad-t34 .l-stamp,
-.gen-paper.edad-t56 .l-stamp { bottom: 124px; mix-blend-mode: darken; filter: brightness(1.08); }
+.gen-paper.edad-t56 .l-stamp {
+  position: static;
+  float: left;
+  clear: left;
+  left: auto;
+  bottom: auto;
+  width: 27%;
+  max-width: 104px;
+  margin-top: 24px;
+  mix-blend-mode: darken;
+  filter: brightness(1.08);
+}
 
 @media print {
   /* Sin esto, el navegador tira los fondos y la carta sale en blanco. */
@@ -116,10 +170,11 @@
   /* En A4 hay sitio de sobra: la franja no se corta si el papel no se parte. */
   .gen-paper.edad-t34,
   .gen-paper.edad-t56 {
-    padding: 64px 68px 250px 34px;
+    padding: 64px 68px 158px 34px;
     break-inside: avoid;
     page-break-inside: avoid;
   }
+  .gen-paper.edad-t56 { padding-bottom: 96px; }
   /* En A4 el Ratoncito es mayor, así que el hueco también. */
   .gen-paper.edad-t34 .l-body::before { height: 104px; }
   .gen-paper.edad-t56 .l-body::before { height: 112px; }
