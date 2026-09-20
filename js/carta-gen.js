@@ -18,21 +18,23 @@
   var COMPLETO = !!$('gtramo');
   var RATON = ES419 ? 'Ratón Pérez' : 'Ratoncito Pérez';
 
-  var GEN = { sexo: null, diente: null, tramo: null, rasgo: null };
+  var GEN = { sexo: null, diente: null, tramo: null, rasgo: null, edad: 't56' };
   window.GEN = GEN;
 
   /* ---------------------------------------------------------------- textos */
 
   /* Las páginas no coinciden en el data-v de las paletas («palita» en unas,
      «paleta» en otras): aquí valen las dos y el texto lo pone el idioma. */
+  var ARRIBA = ES419 ? 'paleta de arriba' : 'palita de arriba';
+  var ABAJO = ES419 ? 'paleta de abajo' : 'palita de abajo';
   var DIENTES = {
-    'palita de arriba': { txt: ES419 ? 'tu paleta de arriba' : 'tu palita de arriba', llano: ES419 ? 'tu paleta de arriba' : 'tu palita de arriba', pron: 'La' },
-    'paleta de arriba': { txt: 'tu paleta de arriba', llano: 'tu paleta de arriba', pron: 'La' },
-    'palita de abajo': { txt: ES419 ? 'tu paleta de abajo' : 'tu palita de abajo', llano: ES419 ? 'tu paleta de abajo' : 'tu palita de abajo', pron: 'La' },
-    'paleta de abajo': { txt: 'tu paleta de abajo', llano: 'tu paleta de abajo', pron: 'La' },
-    'muela': { txt: 'tu muelita', llano: 'tu muela', pron: 'La' },
-    'colmillo': { txt: 'tu colmillito', llano: 'tu colmillo', pron: 'Lo' },
-    'diente': { txt: 'tu dientecito', llano: 'tu diente', pron: 'Lo' }
+    'palita de arriba': { txt: 'tu ' + ARRIBA, llano: 'tu ' + ARRIBA, nombre: ARRIBA, pron: 'La' },
+    'paleta de arriba': { txt: 'tu paleta de arriba', llano: 'tu paleta de arriba', nombre: 'paleta de arriba', pron: 'La' },
+    'palita de abajo': { txt: 'tu ' + ABAJO, llano: 'tu ' + ABAJO, nombre: ABAJO, pron: 'La' },
+    'paleta de abajo': { txt: 'tu paleta de abajo', llano: 'tu paleta de abajo', nombre: 'paleta de abajo', pron: 'La' },
+    'muela': { txt: 'tu muelita', llano: 'tu muela', nombre: 'muela', pron: 'La' },
+    'colmillo': { txt: 'tu colmillito', llano: 'tu colmillo', nombre: 'colmillo', pron: 'Lo' },
+    'diente': { txt: 'tu dientecito', llano: 'tu diente', nombre: 'diente', pron: 'Lo' }
   };
   function elDiente(v) { return DIENTES[v || 'diente'] || DIENTES.diente; }
 
@@ -58,6 +60,28 @@
       : 'Y qué momento tan solemne: es tu ÚLTIMO diente de leche. Toda mi Oficina se ha puesto elegante para despedirlo como se merece, y tu nombre quedará escrito con letras doradas en mi gran libro de dientes.',
     ninguno: ''
   };
+
+  /* Cartas de 3-4 y 5-6: las mismas que escribe la app (docs/CARTAS-EDAD.md §4).
+     Son más cortas, sin frases de rasgos, y el saludo es siempre «¡Hola, X!». */
+  function cuerpo34(n) {
+    return [
+      'Esta noche he venido de puntillas hasta tu almohada… ¡y he encontrado tu diente!',
+      '¡Qué bonito es! Me lo llevo a mi Oficina con mucho cuidado.',
+      'Eres muy valiente, ' + n + '.',
+      'Cepíllate los dientes cada día, ¿vale?',
+      '¿Cuántos dientes ves escondidos en mi carta?'
+    ];
+  }
+  function cuerpo56(n) {
+    var d = elDiente(GEN.diente);
+    return [
+      'Esta noche he venido de puntillas hasta tu almohada y he encontrado tu ' + d.nombre + '. ¡Qué tesoro!',
+      'Ya viaja en mi saquito. Sigue mis huellas por el borde de la carta: te llevan hasta la puerta de mi Oficina.',
+      'Donde estaba ese diente ya asoma uno nuevo, más grande y más fuerte. Cuídalo mucho: cepíllate por la mañana y por la noche, ¿trato hecho?',
+      'Y una misión para ti: he perdido la llave de la Oficina. ¿Me ayudas a buscarla? Está escondida en esta carta.',
+      'Eres muy valiente, ' + n + '.'
+    ];
+  }
 
   var MESES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio',
     'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
@@ -120,17 +144,30 @@
 
   /* ---------------------------------------------------------------- chips */
 
-  function bindChips(g, k) {
+  function bindChips(g, k, alCambiar) {
     doc.querySelectorAll('#' + g + ' .chip').forEach(function (c) {
       c.addEventListener('click', function () {
         doc.querySelectorAll('#' + g + ' .chip').forEach(function (x) { x.classList.remove('sel'); });
         c.classList.add('sel');
         GEN[k] = c.dataset.v;
+        if (alCambiar) alCambiar();
       });
     });
   }
   bindChips('gsexo', 'sexo');
   bindChips('gdiente', 'diente');
+  bindChips('gedad', 'edad', sincronizaRasgo);
+
+  /* El rasgo solo aparece en 7 o más: las cartas de 3-4 y 5-6 no lo usan. */
+  function sincronizaRasgo() {
+    var chips = $('grasgo');
+    if (!chips) return;
+    var oculto = (GEN.edad || 't56') !== 't79';
+    chips.style.display = oculto ? 'none' : '';
+    var lbl = chips.previousElementSibling;
+    if (lbl && lbl.classList.contains('gen-label')) lbl.style.display = oculto ? 'none' : '';
+  }
+
   if (COMPLETO) {
     bindChips('gtramo', 'tramo');
     /* El rasgo es opcional: volver a tocarlo lo deselecciona. */
@@ -193,15 +230,19 @@
     if (!nombre) { $('genErr').classList.add('show'); return; }
     $('genErr').classList.remove('show');
     var n = nombre.charAt(0).toUpperCase() + nombre.slice(1);
+    var edad = GEN.edad || 't56';
 
     if (COMPLETO) $('gDate').textContent = fechaRatonera();
-    $('gGreet').textContent = saludo(n);
-    pintaCuerpo(COMPLETO ? cuerpoCompleto() : cuerpoSimple());
+    /* En 3-4 y 5-6 el saludo no lleva género: los textos ya lo evitan. */
+    $('gGreet').textContent = edad === 't79' ? saludo(n) : ('¡Hola, ' + n + '!');
+    pintaCuerpo(edad === 't34' ? cuerpo34(n)
+      : edad === 't56' ? cuerpo56(n)
+        : (COMPLETO ? cuerpoCompleto() : cuerpoSimple()));
     $('gStamp').src = doc.querySelector('.l-stamp').src;
     $('gSign').src = doc.querySelector('.l-sign').src;
     $('genForm').style.display = 'none';
     $('genResult').classList.add('show');
-    plausible('Carta generada');
+    plausible('Carta generada', { props: { tramo: edad } });
     pcNombre(n);
   }
 
@@ -210,6 +251,7 @@
   $('gen').addEventListener('click', function (e) { if (e.target === this) closeGen(); });
   doc.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeGen(); });
   if (COMPLETO) { var heroDate = $('heroDate'); if (heroDate) heroDate.textContent = fechaRatonera(); }
+  sincronizaRasgo();
 
   /* Los llaman los onclick del HTML. */
   window.openGen = openGen;
