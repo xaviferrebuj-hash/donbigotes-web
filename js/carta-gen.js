@@ -18,8 +18,13 @@
   var COMPLETO = !!$('gtramo');
   var RATON = ES419 ? 'Ratón Pérez' : 'Ratoncito Pérez';
 
-  var GEN = { sexo: null, diente: null, tramo: null, rasgo: null, edad: 't56' };
+  var GEN = { sexo: null, diente: null, tramo: null, rasgo: null, edad: null };
   window.GEN = GEN;
+
+  /* El tramo de salida es el chip que la página trae marcado: 5-6 en general,
+     7 o más en las páginas de último diente. */
+  var chipEdad = doc.querySelector('#gedad .chip.sel');
+  GEN.edad = chipEdad ? chipEdad.dataset.v : 't56';
 
   /* ---------------------------------------------------------------- textos */
 
