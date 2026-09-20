@@ -72,7 +72,7 @@ Escriben el nombre de su hijo, indican que es el último diente y la app genera 
 
 Sí: allí el personaje se conoce como Ratoncito Pérez. La carta es la misma, con el nombre que usen en su casa.
 
-## Que la próxima caída de diente sea inolvidable
+## Que su último diente sea inolvidable
 
 Última actualización: 20 de septiembre de 2026
 

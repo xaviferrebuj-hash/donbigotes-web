@@ -68,9 +68,9 @@ Sí. La carta personalizada es gratuita. La nota de voz, el fotomontaje y el dip
 
 Escribes el nombre de tu peque, indicas que es el último diente y la app genera una carta de despedida al instante, lista para imprimir o guardar en PDF.
 
-## Que la próxima caída de diente sea inolvidable
+## Que su último diente sea inolvidable
 
-Última actualización: 2 de septiembre de 2026
+Última actualización: 20 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

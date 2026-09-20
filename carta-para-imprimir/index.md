@@ -4,6 +4,8 @@ Personalizada con el nombre de tu peque y el sello de la Oficina. La tienes list
 
 Sin registro · Lista en 1 minuto · Gratis
 
+La carta cambia según la edad de tu peque: con 3-4 años es corta y llena de dibujos; a partir de 7, la carta clásica de la Oficina.
+
 - [Descargar carta gratis (PDF, A4)](https://donbigotes.app/descargas/carta-ratoncito-perez.pdf)
 
 - [Versión Latinoamérica: Ratón Pérez (PDF)](https://donbigotes.app/descargas/carta-raton-perez.pdf)
@@ -64,7 +66,7 @@ Una plantilla es genérica y la rellenas a mano. Aquí la carta sale ya personal
 
 En donbigotes.app: escribes el nombre, se genera la carta y la imprimes o guardas en PDF al momento, gratis y sin registro.
 
-Última actualización: 17 de septiembre de 2026
+Última actualización: 20 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez».
 

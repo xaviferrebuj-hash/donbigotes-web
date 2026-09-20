@@ -4,6 +4,8 @@ Cambia el nombre, el diente y los detalles que quieras. Crea una carta del Raton
 
 Sin registro · Lista en 1 minuto · Gratis
 
+La carta cambia según la edad de tu peque: con 3-4 años es corta y llena de dibujos; a partir de 7, la carta clásica de la Oficina.
+
 La carta editable del Ratoncito Pérez de donbigotes.app es gratis: escribes el nombre de tu peque, eliges el diente y los detalles, y en dos minutos tienes la carta lista para imprimir o guardar en PDF, sin registro ni descargas. También vale si en tu casa lo llamáis Ratón Pérez o Ratón de los Dientes.
 
 ### Tú pones el diente. Él pone la magia.
@@ -76,7 +78,7 @@ Sí. La carta es la misma para Ratoncito Pérez, Ratón Pérez y Ratón de los D
 
 ## Que la próxima caída de diente sea inolvidable
 
-Última actualización: 1 de septiembre de 2026
+Última actualización: 20 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 
