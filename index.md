@@ -40,6 +40,10 @@ Con su nombre, para imprimir y colgar en su cuarto.
 
 Don Bigotes dice su nombre y le da las buenas noches. Broche final.
 
+### La historia del Ratoncito Pérez
+
+Un cuento en diez capítulos contado por Don Bigotes, con su voz y con ilustraciones que cambian mientras habla. El primero se escucha entero aquí. [Escuchar el capítulo 1](https://donbigotes.app/cuento-ratoncito-perez/).
+
 ### Varios peques en la misma app
 
 Hasta seis, cada uno con su diario de dientes y su cumpleaños.

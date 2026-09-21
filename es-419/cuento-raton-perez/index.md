@@ -6,11 +6,11 @@ Capítulo 1 · «La caja de galletas» · 4:56
 
 Escúchalo entero aquí.
 
-En la app Don Bigotes, la carta del Ratón Pérez con el nombre de tu hijo y el diario de sus dientes de leche, gratis.
+En la app Don Bigotes, la carta del Ratón Pérez con su nombre y el diario de sus dientes de leche, gratis.
 
 ## De qué va
 
-Don Bigotes nació en una caja de galletas de lata, en la trastienda de una confitería de la calle Arenal, en Madrid. Desde entonces ha entrado en miles de casas sin hacer ruido, ha perdido dos veces la hoja de menta que le da suerte, se ha quedado dormido debajo de una cama y ha recibido una carta con sello de oro de un rey niño. Ratón Pérez o ratón de los dientes, como le dicen en México: en diez noches te lo cuenta él mismo, bajito, como se cuentan las cosas importantes.
+Don Bigotes, el Ratón Pérez al que en México también llaman ratón de los dientes, nació en una caja de galletas de lata, en la trastienda de una confitería de la calle Arenal, en Madrid. Desde entonces ha entrado en miles de casas sin hacer ruido, ha perdido dos veces la hoja de menta que le da suerte, se ha quedado dormido debajo de una cama y ha recibido una carta con sello de oro de un rey niño. En diez noches te lo cuenta él mismo, bajito, como se cuentan las cosas importantes.
 
 ## Los diez capítulos
 

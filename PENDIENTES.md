@@ -7,6 +7,14 @@
 
 ---
 
+## [W3] Cuento: la web pasa a la versión con app y precio
+
+**TRIGGER: la release que activa el cuento en la app** (0.9.1 / 1.0.7, flag `cuento` encendido).
+Qué cambia (tarjeta de la home, primer párrafo de la home, bloque «Y ahora, un cuento» en
+`/app-raton-perez/` y lo que se quitó de las dos páginas del cuento): `_docs/CUENTO-CON-RELEASE.md`.
+
+---
+
 ## [W2] ✅ HECHO (18-sep-2026) — Capturas del press-kit puestas al día
 
 `prensa/kit/android/` pasa a ser **espejo exacto de las 8 capturas de Play es-ES**, en su
