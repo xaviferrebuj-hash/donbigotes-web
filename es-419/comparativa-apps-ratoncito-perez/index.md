@@ -70,7 +70,7 @@ No. Es una app independiente inspirada en la tradición del Ratón Pérez, con p
 
 Comparativa elaborada por Don Bigotes con datos tomados el 10 de septiembre de 2026 de las fichas públicas de cada aplicación en Google Play España. Las marcas y nombres comerciales citados pertenecen a sus respectivos titulares y se mencionan únicamente con fines identificativos. Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna de las aplicaciones comparadas ni por ninguna entidad titular de marcas relacionadas con «El Ratón Pérez».
 
-[App del Ratón Pérez](https://donbigotes.app/es-419/app-raton-perez/) · [Carta para imprimir](https://donbigotes.app/es-419/carta-para-imprimir/) · [Carta del primer diente](https://donbigotes.app/es-419/primer-diente/) · [Diploma del Ratón Pérez](https://donbigotes.app/es-419/diploma-raton-perez/) · [Certificado del Ratón Pérez](https://donbigotes.app/es-419/certificado-raton-perez/) · [Diario de dientes gratis](https://donbigotes.app/es-419/diario-dientes-de-leche/) · [Blog](https://donbigotes.app/blog/)
+[App del Ratón Pérez](https://donbigotes.app/es-419/app-raton-perez/) · [Carta para imprimir](https://donbigotes.app/es-419/carta-para-imprimir/) · [Carta del primer diente](https://donbigotes.app/es-419/primer-diente/) · [Diploma del Ratón Pérez](https://donbigotes.app/es-419/diploma-raton-perez/) · [Certificado del Ratón Pérez](https://donbigotes.app/es-419/certificado-raton-perez/) · [Diario de dientes gratis](https://donbigotes.app/es-419/diario-dientes-de-leche/) · [Cuento del Ratón Pérez](https://donbigotes.app/es-419/cuento-raton-perez/) · [Blog](https://donbigotes.app/blog/)
 
 © 2026 Don Bigotes · [donbigotes.app](https://donbigotes.app/)
 

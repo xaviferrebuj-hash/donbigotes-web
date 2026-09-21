@@ -20,6 +20,8 @@ En el cuento, el Ratón Pérez vivía en una caja de galletas dentro de la confi
 
 En esa misma dirección está hoy [La Casita-Museo de Ratón Pérez](https://www.casamuseoratonperez.es), ubicada en la calle Arenal 8 de Madrid, reconocida por el Ayuntamiento de Madrid como el hogar oficial de Ratón Pérez.
 
+Si quieres oírla contada por él, en [el cuento del Ratoncito Pérez](https://donbigotes.app/cuento-ratoncito-perez/) Don Bigotes empieza justo ahí, en una caja de galletas de la calle Arenal. El primer capítulo se escucha entero en la web.
+
 ## El mismo ratón con muchos nombres
 
 El cuento salió de España pronto: en 1914 se tradujo al inglés como Perez the Mouse. En América Latina la tradición se instaló con nombres propios. En México y buena parte del continente es el Ratón Pérez o el Ratón de los Dientes; en Argentina y Chile, Ratoncito Pérez. Es el mismo personaje y la misma noche.
