@@ -40,10 +40,6 @@ Con su nombre, para imprimir y colgar en su cuarto.
 
 Don Bigotes dice su nombre y le da las buenas noches. Broche final.
 
-### La historia del Ratón Pérez
-
-Un cuento en diez capítulos contado por Don Bigotes, con su voz y con ilustraciones que cambian mientras habla. El primero se escucha entero aquí. [Escuchar el capítulo 1](https://donbigotes.app/es-419/cuento-raton-perez/).
-
 ### Varios peques en la misma app
 
 Hasta seis, cada uno con su diario de dientes y su cumpleaños.
@@ -51,6 +47,10 @@ Hasta seis, cada uno con su diario de dientes y su cumpleaños.
 ### Felicitación de cumpleaños
 
 El Ratón Pérez felicita a tu peque por su nombre con un video y un pergamino para imprimir. [Cómo funciona](https://donbigotes.app/cumpleanos-raton-perez/).
+
+### La historia del Ratón Pérez
+
+Un cuento en diez capítulos contado por Don Bigotes, con su voz y con ilustraciones que cambian mientras habla. El primero se escucha entero aquí. [Escuchar el capítulo 1](https://donbigotes.app/es-419/cuento-raton-perez/).
 
 ## Tres pasos. Dos minutos.
 
