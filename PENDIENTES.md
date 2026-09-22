@@ -11,7 +11,8 @@
 
 **TRIGGER: la release que activa el cuento en la app** (0.9.1 / 1.0.7, flag `cuento` encendido).
 Qué cambia (tarjeta de la home, primer párrafo de la home, bloque «Y ahora, un cuento» en
-`/app-raton-perez/` y lo que se quitó de las dos páginas del cuento): `_docs/CUENTO-CON-RELEASE.md`.
+`/app-raton-perez/`, lo que se quitó de las dos páginas del cuento y la etiqueta «Nuevo»,
+que se quita a los 60 días): `_docs/CUENTO-CON-RELEASE.md`.
 
 ---
 
