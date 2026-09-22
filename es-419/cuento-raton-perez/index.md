@@ -10,7 +10,7 @@ En la app Don Bigotes, la carta del Ratón Pérez con su nombre y el diario de s
 
 ## De qué va
 
-Don Bigotes, el Ratón Pérez al que en México también llaman ratón de los dientes, nació en una caja de galletas de lata, en la trastienda de una confitería de la calle Arenal, en Madrid. Desde entonces ha entrado en miles de casas sin hacer ruido, ha perdido dos veces la hoja de menta que le da suerte, se ha quedado dormido debajo de una cama y ha recibido una carta con sello de oro de un rey niño. En diez noches te lo cuenta él mismo, bajito, como se cuentan las cosas importantes.
+Don Bigotes, el Ratón Pérez, al que también llaman ratón de los dientes, nació en una caja de galletas de lata, en la trastienda de una confitería de la calle Arenal, en Madrid. Desde entonces ha entrado en miles de casas sin hacer ruido, ha perdido dos veces la hoja de menta que le da suerte, se ha quedado dormido debajo de una cama y ha recibido una carta con sello de oro de un rey niño. En diez noches te lo cuenta él mismo, bajito, como se cuentan las cosas importantes.
 
 ## Los diez capítulos
 
@@ -48,7 +48,7 @@ El Ratón Pérez nació en 1894, en [un cuento que el padre Luis Coloma escribi�
 
 **¿Es la historia original del Ratón Pérez?**
 
-Es una historia propia de Don Bigotes, el Ratón Pérez (en México también le dicen ratón de los dientes), que incluye, en los capítulos 5-7, la del rey niño de Luis Coloma (1894).
+Es una historia propia de Don Bigotes, el Ratón Pérez (al que también le dicen ratón de los dientes), que incluye, en los capítulos 5-7, la del rey niño de Luis Coloma (1894).
 
 **¿Para qué edad?**
 
