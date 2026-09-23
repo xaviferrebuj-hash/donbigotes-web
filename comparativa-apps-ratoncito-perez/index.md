@@ -17,10 +17,12 @@ Comparativa de apps y servicios del Ratoncito Pérez. «Última act.» es la úl
 | [El Ratón Pérez](https://play.google.com/store/apps/details?id=net.vanrock.elraton) — Vanrock | No | No | No | No | No | Gratis con anuncios | Android | jul-2026 |
 | Ilusiono — ratonperez.com · ilusiono.com | Sí, 6,90 € — (en ilusiono.com) | Sí, audiocuento (aparte) | Sí, con dedicatoria | Sí, foto selfie (aparte) | Sí, imprimible (aparte) | Por producto, 3,90–14,90 € — (en oferta) | Servicio web (no es app) | — |
 | [MyToothFairy](https://play.google.com/store/apps/details?id=com.mytoothfairy) — CatchACharacter, LLC | No | No | No | Sí, pegatinas sobre tus fotos | No | Gratis con anuncios · compras 0,99–1,99 € | Android | jul-2024 |
+| RatónPérez.app — web de videollamadas | No | No | Videollamada en directo que dice su nombre (3-7 min) | No | No lo anuncia | 4,99 € (3+1 min) · 8,99 € (6+1 min); los minutos caducan a los 7 días | Web (no es app) | sep-2026 |
+| Tooth Magic Memory — Benigno Martin | Postales del Hada de los Dientes con foto | No | No | Pegatinas sobre tus fotos | No | Gratis · pegatinas y personajes 2,99–9,99 € | iPhone | ago-2025 |
 
 Diario de dientes: Don Bigotes sí (gratis, hasta seis peques) · El Ratón Pérez (Vanrock) sí (comparte con familiares; se suben fotos y vídeos) · resto no. Anuncios: Don Bigotes no · Llamada sí · Vanrock sí · MyToothFairy sí. Tus fotos: Don Bigotes, se quedan en el móvil · Vanrock, se suben · Ilusiono, se envían por email.
 
-Datos verificados el 10 de septiembre de 2026 en las fichas públicas de cada aplicación. Las funciones y los precios de terceros pueden cambiar sin aviso: comprueba siempre la ficha antes de descargar.
+Datos verificados entre el 10 y el 23 de septiembre de 2026 en las fichas públicas de cada aplicación. Las funciones y los precios de terceros pueden cambiar sin aviso: comprueba siempre la ficha antes de descargar.
 
 - Ilusiono no es una app: es un servicio web en el que se compran vídeos, audios e imprimibles y se reciben por email. Opera con dos escaparates distintos: ratonperez.com, sin cambios desde abril de 2025, y ilusiono.com, el activo, con ocho productos. Sí venden carta personalizada, a 6,90 € en ilusiono.com —dato que corregimos: la verificación del 19 de agosto solo miró ratonperez.com, donde no aparece—. El resto: vídeo premium (14,90 €), vídeo básico y «Súper Pérez» (9,90 € cada uno), audiocuento (14,90 €), foto selfie (6,90 €), diploma y puerta (3,90 € cada uno). Los precios se muestran como «rebajas flash» con contador sobre originales de 6,90 a 19,90 €. Su canal para clínicas dentales (vídeo a 14,90 €) vive solo en ratonperez.com. Anuncian app propia con insignias de Google Play y App Store desde noviembre de 2024, pero ninguna lleva a una tienda: abren un formulario de lista de espera. No hemos localizado aplicación suya en Google Play.
 
@@ -29,6 +31,10 @@ Datos verificados el 10 de septiembre de 2026 en las fichas públicas de cada ap
 - El Ratón Pérez (Vanrock). Es un diario de dientes de leche: apuntas qué diente se cayó y cuándo, y puedes compartirlo con abuelos y familiares. Para eso las fotos y los vídeos se suben a su servicio. No genera carta, voz, vídeo ni diploma. Gratis con anuncios; ficha de Google Play con 4,5 estrellas (36 valoraciones), más de 10 mil descargas y última actualización el 8 de julio de 2026.
 
 - MyToothFairy sigue publicada en Google Play. Inserta pegatinas del hada de los dientes en tus propias fotos, con personajes blancos, negros e hispanos; sus compras dentro de la aplicación (0,99–1,99 €) son packs de Papá Noel y Conejito de Pascua.
+
+- RatónPérez.app. No confundir con ratonperez.com (Ilusiono). Servicio web de videollamada en directo: indicas el estado del diente, activas un modo niño con PIN y un Ratón Pérez animado habla con tu hijo por su nombre. Pack 3: 3+1 minutos por 4,99 €. Pack 6: 6+1 minutos por 8,99 €. Los minutos valen 7 días y se comparten con otras experiencias de la misma web (Hada de los Dientes, Santa y Reyes).
+
+- Tooth Magic Memory. App de iPhone en varios idiomas, también en español, con el Hada de los Dientes en lugar del Ratón Pérez: postales del hada con foto y mensaje, chat con el hada y registro de dientes con fecha y foto. Gratis, con pegatinas y personajes de pago (2,99–9,99 €). Sin valoraciones suficientes en la App Store; última versión, agosto de 2025.
 
 - Qué no hemos podido verificar hoy. Google Play no muestra el rango de precios de las compras dentro de la aplicación en la versión de su ficha que hemos consultado: los rangos de Llamada del Ratoncito Pérez (1,99–2,99 €) y MyToothFairy (0,99–1,99 €) se conservan de la verificación del 25 de agosto y no hay indicio de que hayan cambiado.
 
@@ -39,6 +45,8 @@ Quieres la carta esta noche, gratis: Don Bigotes (Android e iPhone). La carta co
 Quieres que el Ratoncito diga el nombre de tu hijo: solo Don Bigotes lo hace dentro de la app. En Ilusiono puedes encargar un vídeo con dedicatoria por email (14,90 €).
 
 Quieres una llamada: «Llamada del Ratoncito Pérez». El mensaje es el mismo para todos los niños y la versión gratuita lleva anuncios.
+
+Quieres que hable con él en directo: RatónPérez.app hace videollamadas con un Ratón Pérez animado que dice su nombre, a 4,99 € por 3+1 minutos (caducan a los 7 días). Si prefieres que su voz se quede, la nota de voz de Don Bigotes va en el Pack Mágico: se paga una vez y se escucha siempre que queráis.
 
 Solo quieres apuntar qué diente se cayó y cuándo: [Diario de dientes: gratis y para siempre](https://donbigotes.app/diario-dientes-de-leche/); se comparte con los abuelos sin subir nada a ningún servidor. «El Ratón Pérez» de Vanrock hace lo mismo y además comparte con abuelos, a cambio de subir las fotos y los vídeos a su servicio.
 
@@ -90,9 +98,13 @@ La tradición es la misma se le llame Ratoncito Pérez, Ratón Pérez o Ratón d
 
 Dos de las activas. Don Bigotes incluye un diario gratuito para hasta seis peques y no sube nada fuera del móvil. El Ratón Pérez, de Vanrock, es solo diario y permite compartirlo con familiares a cambio de subir las fotos y los vídeos a su servicio.
 
-Última actualización: 17 de septiembre de 2026
+**¿Se puede hablar en directo con el Ratoncito Pérez?**
 
-Comparativa elaborada por Don Bigotes, datos verificados el 10 de septiembre de 2026 a partir de las fichas públicas de cada aplicación. Las marcas y nombres comerciales citados pertenecen a sus respectivos titulares y se mencionan únicamente con fines identificativos. Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna de las aplicaciones comparadas ni por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez».
+Sí: RatónPérez.app ofrece videollamadas de pago por minutos (4,99 € por 3+1 minutos). Don Bigotes no hace llamadas: su nota de voz dice el nombre de tu peque, se paga una vez dentro del Pack Mágico y se puede volver a escuchar siempre.
+
+Última actualización: 23 de septiembre de 2026
+
+Comparativa elaborada por Don Bigotes, datos verificados entre el 10 y el 23 de septiembre de 2026 a partir de las fichas públicas de cada aplicación. Las marcas y nombres comerciales citados pertenecen a sus respectivos titulares y se mencionan únicamente con fines identificativos. Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna de las aplicaciones comparadas ni por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez».
 
 [App del Ratoncito Pérez](https://donbigotes.app/app-raton-perez/) · [Fotomontaje del Ratoncito Pérez](https://donbigotes.app/fotomontaje-ratoncito-perez/) · [Foto del Ratoncito Pérez](https://donbigotes.app/foto-raton-perez/) · [Vídeo del Ratoncito Pérez](https://donbigotes.app/video-raton-perez/) · [Voz del Ratoncito Pérez](https://donbigotes.app/voz-raton-perez/) · [Carta para imprimir](https://donbigotes.app/carta-para-imprimir/) · [Diploma del Ratoncito Pérez](https://donbigotes.app/diploma-raton-perez/) · [Certificado del Ratón Pérez](https://donbigotes.app/certificado-raton-perez/) · [El viaje del diente](https://donbigotes.app/viaje-del-diente/) · [Cuento del Ratoncito Pérez](https://donbigotes.app/cuento-ratoncito-perez/) · [Blog](https://donbigotes.app/blog/)
 
