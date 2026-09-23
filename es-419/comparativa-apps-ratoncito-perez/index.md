@@ -4,7 +4,7 @@ Qué hace de verdad cada aplicación del Ratón Pérez (el Ratón de los Dientes
 
 Sin registro · Carta gratis en PDF · Pack Mágico de pago único
 
-¿Qué apps del Ratón Pérez existen? En septiembre de 2026 hay tres apps activas en Google Play (más una del hada de los dientes) y una en el App Store, más un servicio web de España que vende los archivos por correo. Cada una hace algo distinto: una simula una llamada, otra es un diario de dientes y Don Bigotes genera la carta, la nota de voz con el nombre del niño, el video, la foto del Ratón en su casa y el diploma, todo dentro del celular. Comparativa hecha desde Google Play España el 10 de septiembre de 2026; la disponibilidad en cada país puede variar.
+¿Qué apps del Ratón Pérez existen? En septiembre de 2026 hay tres apps del Ratón Pérez activas en Google Play España y una en el App Store (más una del hada de los dientes en cada tienda), y dos servicios web: uno vende los archivos por correo desde España y otro hace videollamadas de pago por minutos. Cada una hace una cosa distinta: una simula una llamada, otra es un diario de dientes, otra es una videollamada en directo y Don Bigotes genera la carta, la nota de voz con el nombre del niño, el video, la foto del Ratón en su casa y el diploma, todo dentro del celular. Las demás «apps» que aparecen en Google son tiendas web de PDF o aplicaciones retiradas. Comparativa verificada entre el 10 y el 23 de septiembre de 2026; la disponibilidad en cada país puede variar.
 
 ## Qué incluye cada app
 
@@ -20,7 +20,7 @@ Comparativa de apps y servicios del Ratón Pérez. «Última act.» es la últim
 | RatónPérez.app — web de videollamadas | No | No | Videollamada en directo que dice su nombre (3-7 min) | No | No lo anuncia | 4,99 € (3+1 min) · 8,99 € (6+1 min); los minutos caducan a los 7 días (precios en euros) | Web (no es app) | sep-2026 |
 | Tooth Magic Memory — Benigno Martin | Postales del Hada de los Dientes con foto | No | No | Calcomanías sobre sus fotos | No | Gratis · calcomanías y personajes 2,99–9,99 € (precios en euros) | iPhone | ago-2025 |
 
-Diario de dientes: Don Bigotes sí (gratis, hasta seis niños) · El Ratón Pérez (Vanrock) sí (comparte con familiares; se suben fotos y videos) · resto no. Anuncios: Don Bigotes no · Llamada sí · Vanrock sí · MyToothFairy sí. Sus fotos: Don Bigotes, se quedan en el celular · Vanrock, se suben · Ilusiono, se envían por correo.
+Diario de dientes: Don Bigotes sí (gratis, hasta seis niños) · El Ratón Pérez (Vanrock) sí (comparte con familiares; se suben fotos y videos) · Tooth Magic Memory sí (registro con fecha y foto, con el Hada de los Dientes) · resto no. Anuncios: Don Bigotes no · Llamada sí · Vanrock sí · MyToothFairy sí. Sus fotos: Don Bigotes, se quedan en el celular · Vanrock, se suben · Ilusiono, se envían por correo.
 
 Datos verificados entre el 10 y el 23 de septiembre de 2026 en las fichas públicas de cada aplicación en Google Play España y el App Store. Las funciones, la disponibilidad por país y los precios de terceros pueden cambiar sin aviso: revisen siempre la ficha en su tienda antes de descargar.
 
@@ -60,7 +60,7 @@ Carta con su nombre, gratis. Nota de voz, fotomontaje «¡Pillado!», Diploma de
 
 **¿Cuál es la mejor app del Ratón Pérez?**
 
-Depende de lo que busquen. Si quieren la carta, la voz con el nombre, el video, la foto y el diploma en una sola app y sin anuncios, Don Bigotes es la única que lo reúne. Si solo quieren una llamada simulada, «Llamada del Ratoncito Pérez». Si solo quieren un diario, Don Bigotes o Vanrock.
+Depende de lo que busquen. Si quieren la carta, la voz con el nombre, el video, la foto y el diploma en una sola app y sin anuncios, Don Bigotes es la única que lo reúne. Si solo quieren una llamada simulada, «Llamada del Ratoncito Pérez». Si solo quieren un diario, Don Bigotes, Vanrock o Tooth Magic Memory (solo iPhone y con el Hada de los Dientes).
 
 **¿Hay apps del Ratón Pérez gratis?**
 
