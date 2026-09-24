@@ -1,12 +1,12 @@
 # La carta del Ratoncito Pérez, gratis
 
-Escribe el nombre de tu peque y ten en dos minutos su carta, con el sello de la Oficina. Lista para imprimir o guardar en PDF. Don Bigotes es la app del Ratoncito Pérez con carta personalizada, diario de dientes que se comparte con los abuelos por WhatsApp sin subir nada, y un cuento en diez capítulos contado por el propio Ratoncito. La carta, el diario y los dos primeros capítulos son gratis y para siempre.
+Escribe el nombre de tu peque y ten en dos minutos su carta personalizada, con el sello de la Oficina. Lista para imprimir o guardar en PDF.
 
 Sin registro · Lista en 1 minuto · Gratis
 
 ### Tú pones el diente. Él pone la magia.
 
-Mientras tu peque duerme, el Ratoncito Pérez escribe su carta con su nombre. Por la mañana, la sorpresa ya está bajo la almohada.
+Mientras tu peque duerme, el Ratoncito Pérez escribe su carta. Por la mañana, la sorpresa ya está bajo la almohada. Don Bigotes es la app del Ratoncito Pérez con carta personalizada, diario de dientes que se comparte con los abuelos por WhatsApp sin subir nada, y un cuento en diez capítulos contado por el propio Ratoncito. La carta, el diario y los dos primeros capítulos son gratis y para siempre.
 
 ## Crea la experiencia completa en la app Don Bigotes
 

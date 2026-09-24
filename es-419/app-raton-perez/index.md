@@ -42,6 +42,10 @@ Hasta seis, cada uno con su diario de dientes y su cumpleaños.
 
 El Ratón Pérez felicita a tu peque por su nombre con un video y un pergamino para imprimir. [Así funciona la felicitación](https://donbigotes.app/cumpleanos-raton-perez/).
 
+## Y ahora, un cuento
+
+El Ratón Pérez cuenta su propia historia en diez capítulos de cinco minutos, con su voz y con ilustraciones que cambian mientras habla. Para escuchar juntos antes de dormir, con punto de libro para seguir mañana. Los dos primeros capítulos son gratis; la historia completa, una sola compra, sin suscripción. [Escucha el capítulo 1 entero](https://donbigotes.app/es-419/cuento-raton-perez/).
+
 ## Qué es gratis y qué se paga
 
 ### Lo que tienes sin pagar nada

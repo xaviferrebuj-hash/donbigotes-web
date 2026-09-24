@@ -1,10 +1,10 @@
 # La historia del Ratoncito Pérez
 
-Se la cuenta Don Bigotes, el Ratoncito Pérez, en diez capítulos de cinco minutos, con su voz y con ilustraciones que cambian mientras habla.
+Se la cuenta Don Bigotes, el Ratoncito Pérez, en diez capítulos de cinco minutos, con su voz y con ilustraciones que cambian mientras habla. Los dos primeros capítulos son gratis en la app.
 
 Capítulo 1 · «La caja de galletas» · 4:56
 
-Escúchalo entero aquí.
+Escúchalo entero aquí. En la app tienes los diez, con el punto de libro para seguir mañana donde lo dejéis.
 
 En la app Don Bigotes, la carta del Ratoncito Pérez con el nombre de tu peque y el diario de sus dientes de leche, gratis.
 
@@ -34,6 +34,16 @@ Don Bigotes nació en una caja de galletas de lata, en la trastienda de una conf
 
 - La sonrisa completa 4:13 La última noche, en la primera casa. No te lo contamos.
 
+Los capítulos 1 y 2 son gratis. Los ocho restantes, una sola compra de 3,99 €, sin suscripción, para todos los peques del móvil.
+
+## Cómo funciona en la app
+
+- Cada capítulo se descarga la primera vez (3 MB) y después se escucha sin conexión: en el coche, en el pueblo, donde sea.
+
+- Punto de libro. Si os quedáis dormidos a la mitad, mañana el Ratoncito dice «ayer lo dejamos aquí» y sigue.
+
+- Modo noche. La pantalla se oscurece y las ilustraciones bajan de brillo. El audio sigue con la pantalla bloqueada.
+
 ## Para quién es
 
 - Sin sustos. Ningún villano, ningún peligro real. Lo más tenso que pasa es «casi me ven».
@@ -58,13 +68,27 @@ De 5 a 8 años; capítulos de cuatro o cinco minutos, sin sustos.
 
 Diez capítulos de cuatro o cinco minutos, 46 minutos en total. El primero dura 4:56 y se escucha entero en esta página.
 
+**¿Cuánto cuesta?**
+
+Los capítulos 1 y 2 son gratis; los ocho restantes, una compra única de 3,99 €, sin suscripción.
+
+**¿Necesita conexión?**
+
+Solo la primera vez que se escucha cada capítulo (3 MB); después funciona sin conexión.
+
+**¿Se puede seguir al día siguiente?**
+
+Sí: la app guarda el punto de libro y el Ratoncito retoma donde lo dejasteis.
+
 **¿Quién pone la voz?**
 
 Es la voz de Don Bigotes, la misma que en la nota de voz y el vídeo de la app. Voz e ilustraciones generadas digitalmente a partir de la voz y el personaje de Don Bigotes.
 
+## Descarga Don Bigotes y escucha los dos primeros capítulos esta noche
+
 Y cuando se le mueva un diente, en la app Don Bigotes tienes la carta del Ratoncito Pérez con su nombre y el diario de dientes de leche, gratis y sin cuenta.
 
-Última actualización: 22 de septiembre de 2026
+Última actualización: 24 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 
