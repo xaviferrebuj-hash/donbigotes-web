@@ -44,7 +44,7 @@ El Ratoncito felicita a tu peque por su nombre con un vídeo y un pergamino para
 
 ## Y ahora, un cuento
 
-El Ratoncito Pérez cuenta su propia historia en diez capítulos de cinco minutos, con su voz y con ilustraciones que cambian mientras habla. Para escuchar juntos antes de dormir, con punto de libro para seguir mañana. Los dos primeros capítulos son gratis; la historia entera, 3,99 € de una vez. [Escucha el capítulo 1 entero](https://donbigotes.app/cuento-ratoncito-perez/).
+El Ratoncito Pérez cuenta su propia historia en diez capítulos de cinco minutos, con su voz y con ilustraciones que cambian mientras habla. Para escuchar juntos antes de dormir, con punto de libro para seguir mañana. Los dos primeros capítulos son gratis; los otros ocho, una sola compra de 3,99 €, sin suscripción. [Escucha el capítulo 1 entero](https://donbigotes.app/cuento-ratoncito-perez/).
 
 ## Qué es gratis y qué se paga
 
