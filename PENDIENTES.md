@@ -14,6 +14,9 @@ Qué cambia (tarjeta de la home, primer párrafo de la home, bloque «Y ahora, u
 `/app-raton-perez/`, lo que se quitó de las dos páginas del cuento y la etiqueta «Nuevo»,
 que se quita a los 60 días): `_docs/CUENTO-CON-RELEASE.md`.
 
+**TRIGGER propio: 23 de noviembre de 2026** — quitar la etiqueta «Nuevo» de la tarjeta del
+cuento en las dos home (release en Play el 24-sep + 60 días).
+
 ---
 
 ## [W2] ✅ HECHO (18-sep-2026) — Capturas del press-kit puestas al día

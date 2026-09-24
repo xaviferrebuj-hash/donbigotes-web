@@ -54,5 +54,9 @@ Si no se le pone fecha de caducidad, se queda ahí para siempre diciendo que alg
 año es nuevo. El día de la release, apuntar en `PENDIENTES.md` la fecha exacta (release + 60
 días) como disparador propio.
 
+**Fecha fijada: 23-nov-2026** (release en Play el 24-sep-2026, 0.9.1, + 60 días). Ese día se
+quita `<span class="tag-pill tag-new">Nuevo</span>` de la tarjeta en `index.html` y
+`es-419/index.html`.
+
 Después: pase de fechas con rutas explícitas de todas las páginas tocadas, `.md`
 regenerados, commit `[fechas]` y push.
