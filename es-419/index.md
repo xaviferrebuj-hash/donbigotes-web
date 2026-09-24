@@ -1,6 +1,6 @@
 # La carta del Ratón Pérez, gratis
 
-Escribe el nombre de tu peque y ten en dos minutos su carta personalizada, con el sello de la Oficina. Lista para imprimir o guardar en PDF.
+Escribe el nombre de tu peque y ten en dos minutos su carta, con el sello de la Oficina. Lista para imprimir o guardar en PDF. Don Bigotes es la app del Ratón Pérez con carta personalizada, diario de dientes que se comparte con los abuelos por WhatsApp sin subir nada, y un cuento en diez capítulos contado por el propio Ratón Pérez. La carta, el diario y los dos primeros capítulos son gratis y para siempre.
 
 Sin registro · Lista en 1 minuto · Gratis
 
@@ -50,7 +50,7 @@ El Ratón Pérez felicita a tu peque por su nombre con un video y un pergamino p
 
 ### La historia del Ratón Pérez
 
-Un cuento en diez capítulos contado por Don Bigotes, con su voz y con ilustraciones que cambian mientras habla. El primero se escucha entero aquí. [Escuchar el capítulo 1](https://donbigotes.app/es-419/cuento-raton-perez/).
+Diez capítulos de cinco minutos, contados por Don Bigotes con su voz y sus ilustraciones. Los dos primeros son gratis en la app; la historia completa, una sola compra, sin suscripción. [Escuchar el capítulo 1](https://donbigotes.app/es-419/cuento-raton-perez/).
 
 ## Tres pasos. Dos minutos.
 
@@ -100,7 +100,7 @@ En Android y en iPhone. Ya está disponible en Google Play y en la App Store. El
 
 ## Que la próxima caída de diente sea inolvidable
 
-Última actualización: 22 de septiembre de 2026
+Última actualización: 24 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratón Pérez». El personaje del Ratón Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

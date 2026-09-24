@@ -1,6 +1,6 @@
 # La app del Ratón Pérez para crear su visita en minutos
 
-Don Bigotes es la app del Ratón Pérez (también llamado Ratón de los Dientes) para Android y iPhone: carta con el nombre del niño, nota de voz que lo nombra, fotomontaje «¡Pillado!», video de la Oficina y Diploma de Valentía. Gratis en Google Play y en la App Store. Todo funciona en tu celular. No recopilamos datos personales. Solo estadísticas de uso anónimas, sin cuenta ni identificadores.
+Don Bigotes es la app del Ratón Pérez con carta personalizada, diario de dientes que se comparte con los abuelos por WhatsApp sin subir nada, y un cuento en diez capítulos contado por el propio Ratón Pérez. La carta, el diario y los dos primeros capítulos son gratis y para siempre. Con el Pack Mágico, pago único: nota de voz que lo nombra, fotomontaje «¡Pillado!», video de la Oficina y Diploma de Valentía. Ratón Pérez o Ratón de los Dientes, como lo llamen en casa: para Android y iPhone, gratis en Google Play y en la App Store. Todo funciona en tu celular. No recopilamos datos personales. Solo estadísticas de uso anónimas, sin cuenta ni identificadores.
 
 Se paga una sola vez · Tus fotos no salen de tu celular · Hecha en España
 
@@ -96,7 +96,7 @@ No. Don Bigotes es una app independiente inspirada en la tradición popular del 
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo se paga una sola vez, al precio local de la tienda.
 
-Última actualización: 17 de septiembre de 2026
+Última actualización: 24 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratón Pérez». El personaje del Ratón Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 
