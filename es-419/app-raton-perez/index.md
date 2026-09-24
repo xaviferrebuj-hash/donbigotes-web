@@ -52,9 +52,15 @@ El Ratón Pérez cuenta su propia historia en diez capítulos de cinco minutos, 
 
 Carta personalizada · diario de dientes · felicitación de cumpleaños.
 
+Los dos primeros capítulos de «La historia de Don Bigotes».
+
 ### Se paga una sola vez (sin suscripción)
 
 Nota de voz con su nombre · fotomontaje «¡Pillado!» · video desde la Oficina · Diploma de Valentía.
+
+### La historia de Don Bigotes
+
+Los otros ocho capítulos del cuento: una sola compra, sin suscripción, al precio de tu tienda, para todos los peques del celular.
 
 ## Rápido, privado y tuyo
 
@@ -78,7 +84,7 @@ Todo en español, pensado para resolverte la noche del diente en tres toques.
 
 **¿La app es gratis?**
 
-La app se descarga gratis, y la carta personalizada, el diario de dientes y la felicitación de cumpleaños son gratis siempre. El Pack Mágico (nota de voz, fotomontaje, video y Diploma de Valentía) se paga una sola vez (precio local en la tienda), sin suscripciones.
+La app se descarga gratis, y la carta personalizada, el diario de dientes y la felicitación de cumpleaños son gratis siempre. El Pack Mágico (nota de voz, fotomontaje, video y Diploma de Valentía) se paga una sola vez (precio local en la tienda), sin suscripciones. Los dos primeros capítulos del cuento también son gratis; los otros ocho son una sola compra, sin suscripción, al precio de tu tienda.
 
 **¿En qué se diferencia de encargar un video del Ratón Pérez?**
 

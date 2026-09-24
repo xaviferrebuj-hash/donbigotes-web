@@ -52,9 +52,15 @@ El Ratoncito Pérez cuenta su propia historia en diez capítulos de cinco minuto
 
 Carta personalizada · diario de dientes · felicitación de cumpleaños.
 
+Los dos primeros capítulos de «La historia de Don Bigotes».
+
 ### Un solo pago de 4,99 € (sin suscripción)
 
 Nota de voz con su nombre · fotomontaje «¡Pillado!» · vídeo desde la Oficina · Diploma de Valentía.
+
+### La historia de Don Bigotes
+
+Los otros ocho capítulos del cuento: compra única de 3,99 €, sin suscripción, para todos los peques del móvil.
 
 ## Rápido, privado y tuyo
 
@@ -78,7 +84,7 @@ Todo en español, pensado para resolverte la noche del diente en tres toques.
 
 **¿La app es gratis?**
 
-La app se descarga gratis, y la carta personalizada, el diario de dientes y la felicitación de cumpleaños son gratis siempre. El Pack Mágico (nota de voz, fotomontaje, vídeo y Diploma de Valentía) cuesta 4,99 € en un único pago, sin suscripciones.
+La app se descarga gratis, y la carta personalizada, el diario de dientes y la felicitación de cumpleaños son gratis siempre. El Pack Mágico (nota de voz, fotomontaje, vídeo y Diploma de Valentía) cuesta 4,99 € en un único pago, sin suscripciones. Los dos primeros capítulos del cuento también son gratis; los otros ocho son una compra única de 3,99 €, sin suscripción.
 
 **¿En qué se diferencia de encargar un vídeo del Ratoncito?**
 
