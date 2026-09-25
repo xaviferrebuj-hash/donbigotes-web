@@ -32,7 +32,7 @@ El Día del Ratoncito Pérez se celebra cada 22 de agosto, y también el 28 de f
 
 Tres formas de celebrarlo en casa: leer su historia (esta página), preparar la próxima visita —si hay un diente que ya se mueve, la [carta personalizada con su nombre](https://donbigotes.app/) se crea gratis en dos minutos, sin registro— y visitar la Casita-Museo de Ratón Pérez en la calle Arenal 8 de Madrid, reconocida como su hogar oficial.
 
-Y si el diente se cae justo hoy, doble celebración: el [viaje del diente](https://donbigotes.app/viaje-del-diente/) completo —voz, carta, foto del ratón pillado, diploma y vídeo— espera en la [app Don Bigotes](https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Ddonbigotes.app%26utm_medium%3Dweb%26utm_campaign%3Dhistoria-raton-perez): la carta, gratis; la voz, la foto del ratón pillado, el diploma y el vídeo, con el Pack Mágico, 4,99 € en un único pago.
+Y si el diente se cae justo hoy, doble celebración: el [viaje del diente](https://donbigotes.app/viaje-del-diente/) completo —voz, carta, foto del ratón pillado, diploma y vídeo— espera en la [app Don Bigotes](https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Dweb%26utm_medium%3Dweb-contenido%26utm_campaign%3Dhistoria-raton-perez): la carta, gratis; la voz, la foto del ratón pillado, el diploma y el vídeo, con el Pack Mágico, 4,99 € en un único pago.
 
 ## Preguntas frecuentes
 

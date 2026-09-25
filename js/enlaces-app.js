@@ -18,11 +18,13 @@
    "playstore") lleva a App Store en vez de a Play: en iOS el enlace de
    Play es un callejón sin salida.
 
-   ATRIBUCIÓN POR CANAL (jul 2026):
+   ATRIBUCIÓN POR CANAL (jul 2026; grupos desde el 26-sep-2026):
    - Cada página trae ya en el HTML un `&referrer=` propio
-     (utm_source=donbigotes.app, utm_medium=web, utm_campaign=<slug>
-     de la página), para que Play Console separe las instalaciones
-     que vienen de la web incluso sin JavaScript.
+     (utm_source=web, utm_medium=<grupo>, utm_campaign=<slug> de la
+     página; grupo = web-producto | web-home | web-contenido), para que
+     Play Console separe las instalaciones que vienen de la web incluso
+     sin JavaScript. Los enlaces a App Store llevan pt/ct/mt con
+     ct=<grupo> (se traspasan también a los enlaces que rellena este script).
    - Si la visita llega con parámetros utm_* (p. ej. desde un email
      de outreach), este script los guarda en sessionStorage y los
      reinyecta en TODOS los enlaces a Google Play como `&referrer=`
@@ -69,10 +71,10 @@
   var CLAVES_UTM = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"];
   var GUARDADO = "db_utm";
 
-  // Fallback cuando la visita llega SIN ningún utm_* (Google orgánico, directo):
-  // así el clic entra en Play con atribución al propio badge de la web.
-  // Sin utm_campaign a propósito (queda vacío).
-  var UTM_FALLBACK = "utm_source=donbigotes-web&utm_medium=badge";
+  // Fallback cuando la visita llega SIN ningún utm_* (Google orgánico, directo)
+  // y el enlace a Play no trae referrer en el HTML. Canal «web» de la lista
+  // cerrada (carta, ampa, dentista, vendedor, creadora, web); grupo «otros».
+  var UTM_FALLBACK = "utm_source=web&utm_medium=otros";
 
   // Devuelve "utm_source=x&utm_medium=y&..." o "" si no hay nada.
   // Si la visita trae utm_*, los guarda para el resto de la sesión
@@ -117,6 +119,17 @@
     }
     return url + (url.indexOf("?") === -1 ? "?" : "&") +
            "referrer=" + encodeURIComponent(utm);
+  }
+
+  // Atribución App Store (informe de campañas de App Store Connect): pt/ct/mt
+  // viajan en el href del HTML de cada página (ct = grupo: web-producto,
+  // web-home o web-contenido). La URL base manda desde ENLACES; la consulta
+  // se traspasa del primer enlace a App Store de la página que la lleve.
+  function conCampanaApple(url) {
+    if (!/apps\.apple\.com\//i.test(url || "") || url.indexOf("?") !== -1) return url;
+    var donante = document.querySelector('a[href*="apps.apple.com"][href*="ct="]');
+    var consulta = donante && /\?([^#]*)/.exec(donante.getAttribute("href"));
+    return consulta ? url + "?" + consulta[1] : url;
   }
 
   // iPhone/iPad (incluye iPadOS, que se anuncia como Mac con pantalla táctil).
@@ -186,7 +199,7 @@
         ref = /[?&]referrer=([^&]*)/i.exec(actual);
         if (ref) url += (url.indexOf("?") === -1 ? "?" : "&") + "referrer=" + ref[1];
       }
-      el.setAttribute("href", conIdioma(conReferrer(url, utm, pisar)));
+      el.setAttribute("href", conIdioma(conReferrer(conCampanaApple(url), utm, pisar)));
       if (/^https?:/i.test(url)) {
         el.setAttribute("target", "_blank");
         el.setAttribute("rel", "noopener");
