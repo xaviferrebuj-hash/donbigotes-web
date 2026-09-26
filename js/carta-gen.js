@@ -55,11 +55,15 @@
       : 'Como me han dicho que te encanta dormir, he trabajado de puntillas y en silencio para no despertarte.',
     'risueno': 'Dicen que tu risa se oye hasta en mi ratonera, y te aseguro que es la música que más nos gusta a los ratones.',
     'curioso': 'Sé que te gusta preguntarlo todo, como a los ratones sabios, así que te lo confirmo por escrito: tu diente queda en muy buenas patas.',
-    'abrazos': 'Y me consta que repartes abrazos como nadie; yo guardaré tu diente con ese mismo cariño.'
+    'abrazos': ES419
+      ? 'Y sé que repartes abrazos como nadie; yo guardaré tu diente con ese mismo cariño.'
+      : 'Y me consta que repartes abrazos como nadie; yo guardaré tu diente con ese mismo cariño.'
   };
 
   var TRAMOS = {
-    primero: 'Y déjame que te diga una cosa importante: este es tu PRIMER diente, y los primeros son los más especiales de toda mi colección. Este lo guardaré en un lugar de honor.',
+    primero: ES419
+      ? 'Y déjame decirte algo importante: este es tu PRIMER diente, y los primeros son los más especiales de toda mi colección. Este lo guardaré en un lugar de honor.'
+      : 'Y déjame que te diga una cosa importante: este es tu PRIMER diente, y los primeros son los más especiales de toda mi colección. Este lo guardaré en un lugar de honor.',
     ultimo: ES419
       ? 'Y qué momento tan solemne: es tu ÚLTIMO diente de leche. Toda mi Oficina se puso elegante para despedirlo como se merece, y tu nombre quedará escrito con letras doradas en mi gran libro de dientes.'
       : 'Y qué momento tan solemne: es tu ÚLTIMO diente de leche. Toda mi Oficina se ha puesto elegante para despedirlo como se merece, y tu nombre quedará escrito con letras doradas en mi gran libro de dientes.',
@@ -67,13 +71,17 @@
   };
 
   /* Cartas de 3-4 y 5-6: las mismas que escribe la app (docs/CARTAS-EDAD.md §4).
-     Son más cortas, sin frases de rasgos, y el saludo es siempre «¡Hola, X!». */
+     Son más cortas, sin frases de rasgos, y el saludo es siempre «¡Hola, X!».
+     En es-419, pretérito indefinido y vocabulario LATAM (texto aprobado el 27-sep,
+     Claude outputs/latam-cartas/PROPUESTA.md). */
   function cuerpo34(n) {
     var p = [
-      'Esta noche he venido de puntillas hasta tu almohada… ¡y he encontrado tu diente!',
+      ES419
+        ? 'Esta noche vine de puntitas hasta tu almohada… ¡y encontré tu diente!'
+        : 'Esta noche he venido de puntillas hasta tu almohada… ¡y he encontrado tu diente!',
       '¡Qué bonito es! Me lo llevo a mi Oficina con mucho cuidado.',
       'Eres muy valiente, ' + n + '.',
-      'Cepíllate los dientes cada día, ¿vale?',
+      ES419 ? 'Cepíllate los dientes todos los días, ¿sí?' : 'Cepíllate los dientes cada día, ¿vale?',
       '¿Cuántos dientes ves escondidos en mi carta?'
     ];
     /* Si es el primero, la carta lo celebra desde la primera línea. */
@@ -85,10 +93,14 @@
   function cuerpo56(n) {
     var d = elDiente(GEN.diente);
     var p = [
-      'Esta noche he venido de puntillas hasta tu almohada y he encontrado tu ' + d.nombre + '. ¡Qué tesoro!',
+      ES419
+        ? 'Esta noche vine de puntitas hasta tu almohada y encontré tu ' + d.nombre + '. ¡Qué tesoro!'
+        : 'Esta noche he venido de puntillas hasta tu almohada y he encontrado tu ' + d.nombre + '. ¡Qué tesoro!',
       'Ya viaja en mi saquito. Sigue mis huellas por el borde de la carta: te llevan hasta la puerta de mi Oficina.',
       'Donde estaba ese diente ya asoma uno nuevo, más grande y más fuerte. Cuídalo mucho: cepíllate por la mañana y por la noche, ¿trato hecho?',
-      'Y una misión para ti: he perdido la llave de la Oficina. ¿Me ayudas a buscarla? Está escondida en esta carta.',
+      ES419
+        ? 'Y una misión para ti: perdí la llave de la Oficina. ¿Me ayudas a buscarla? Está escondida en esta carta.'
+        : 'Y una misión para ti: he perdido la llave de la Oficina. ¿Me ayudas a buscarla? Está escondida en esta carta.',
       'Eres muy valiente, ' + n + '.'
     ];
     if (GEN.tramo === 'primero') {
@@ -104,11 +116,12 @@
     /* Sin fórmula de despedida al final del cuerpo: la pone el cierre, que en
        estas cartas es «Con bigotes y cariño,» justo encima de la firma. */
     if (edad === 't79') {
-      /* Este ya está en pretérito simple: vale igual en España y en LATAM. */
-      return ['Hoy me llevo tu último diente de leche, y eso significa algo importante: ya tienes todos los dientes de mayor. Los cuidaste bien, uno a uno, y por eso este va a la caja de los dientes más especiales de la Oficina. Ha sido un honor visitarte todas estas noches. Cepíllalos bien: ahora son para siempre.'];
+      return [ES419
+        ? 'Hoy me llevo tu último diente de leche, y eso significa algo importante: ya tienes todos tus dientes de grande. Los cuidaste bien, uno a uno, y por eso este va a la caja de los dientes más especiales de la Oficina. Fue un honor visitarte todas estas noches. Cepíllalos bien: ahora son para siempre.'
+        : 'Hoy me llevo tu último diente de leche, y eso significa algo importante: ya tienes todos los dientes de mayor. Los cuidaste bien, uno a uno, y por eso este va a la caja de los dientes más especiales de la Oficina. Ha sido un honor visitarte todas estas noches. Cepíllalos bien: ahora son para siempre.'];
     }
     return [ES419
-      ? 'Este era tu último diente de leche. ¡Qué bien lo cuidaste! Ahora ya tienes los dientes de mayor, y esos son para toda la vida. Yo me llevo este con mucho cariño a la Oficina, en la caja de los dientes más especiales. Gracias por dejarme visitarte todas estas noches.'
+      ? 'Este era tu último diente de leche. ¡Qué bien lo cuidaste! Ahora ya tienes tus dientes de grande, y esos son para toda la vida. Yo me llevo este con mucho cariño a la Oficina, en la caja de los dientes más especiales. Gracias por dejarme visitarte todas estas noches.'
       : 'Este era tu último diente de leche. ¡Qué bien lo has cuidado! Ahora ya tienes los dientes de mayor, y esos son para toda la vida. Yo me llevo este con mucho cariño a la Oficina, en la caja de los dientes más especiales. Gracias por dejarme visitarte todas estas noches.'];
   }
 
@@ -260,7 +273,9 @@
     return [
       p1,
       GEN.rasgo && RASGOS[GEN.rasgo] ? RASGOS[GEN.rasgo] : '',
-      'Ya sabes que detrás de cada diente que se cae asoma uno nuevo y más fuerte. Cuídalo mucho: cepíllate cada mañana y cada noche, que la próxima vez que pase por aquí quiero encontrarme una sonrisa reluciente.',
+      ES419
+        ? 'Ya sabes que detrás de cada diente que se cae asoma uno nuevo y más fuerte. Cuídalo mucho: cepíllate cada mañana y cada noche, porque la próxima vez que pase por aquí quiero encontrarme una sonrisa reluciente.'
+        : 'Ya sabes que detrás de cada diente que se cae asoma uno nuevo y más fuerte. Cuídalo mucho: cepíllate cada mañana y cada noche, que la próxima vez que pase por aquí quiero encontrarme una sonrisa reluciente.',
       'Gracias por dejarme ' + d.txt + '. Esta vieja Oficina te tiene entre sus personas favoritas.'
     ];
   }
