@@ -7,9 +7,19 @@
 - **Retrato de fieltro de la plantilla de Reyes: hecho.** Maestro limpio en
   `_docs/maestros/retrato-carta-limpio-1024.png` (original de la app intacto); JPEG sustituido
   dentro de los dos PDF. En el PDF el retrato va recortado en círculo y la estrella no se veía.
-- **Ratón escribiendo (`carta.png` de la app): sin tocar.** La estrella cae sobre el borde de la
-  mesa y la veta de la madera, no sobre fondo liso.
-- Diploma, sello y firma (tabla de abajo): sin revisar.
+- **Ratón escribiendo: hecho.** Maestro limpio en
+  `_docs/maestros/carta-ratoncito-escribiendo-limpia-1024.png` (de `carta.png` de la app, intacto),
+  con la estrella tapada por la madera de la misma fila. Sustituido en
+  `assets/img/ratoncito-escribiendo-carta.jpg` y en la foto en línea de 7 páginas.
+- **Firma: hecha.** Maestro limpio en `_docs/maestros/carta-firma-limpia-340x190.png`. Sustituida
+  en `assets/img/carta-firma.png`, en la firma en línea de 7 páginas y dentro de
+  `descargas/carta-ratoncito-perez.pdf`.
+- **Sello de la web: sin estrella.** Su fondo es transparente del todo; solo la lleva el original
+  de la app.
+- **Diploma (`diploma-valentia.jpg`): se queda con la estrella.** Cae sobre el filo de la cinta,
+  entre la cinta y el papel, y cualquier parche se nota al 100 %.
+- **Fuera de la web, con la estrella:** el repo de la app (icono, retrato, ratón escribiendo, firma
+  y sello originales), `kit-outreach` y `pinterest-pines`. No se tocan desde este repo.
 
 El icono del ratón lleva en la esquina inferior derecha una estrella de cuatro puntas gris
 claro, distinta de las estrellas doradas del dibujo. Por forma y posición parece la marca de
@@ -42,5 +52,5 @@ aparece en todo lo que deriva de él.
 | `assets/img/carta-sello-oficina.png` | Muy tenue |
 | `assets/img/carta-firma.png` | Muy tenue |
 
-**Sin revisar:** los PDF de `descargas/` y las capturas del kit (`prensa/kit/android/`,
-`prensa/kit/iphone/`).
+**Sin revisar:** los PDF de `descargas/` salvo la plantilla de Reyes y la carta ES, y las capturas
+del kit (`prensa/kit/android/`, `prensa/kit/iphone/`).
