@@ -167,6 +167,33 @@
     /* Respaldo: si el navegador ignora el scroll suave, saltamos sin animación. */
     setTimeout(function () { if (o.scrollTop === y) c.scrollIntoView({ block: 'start' }); }, 120);
   }
+  /* ------------------------------------------------- post-carta (cuento) */
+
+  /* Módulo del cuento, entre la confirmación de la carta y el Pack. Vive dentro
+     de #genResult, así que solo se ve con la carta ya generada. Estilos en
+     /assets/carta-gen.css. El título, el del H1 de la página del cuento. */
+  var CUENTO_URL = ES419 ? '/es-419/cuento-raton-perez/' : '/cuento-ratoncito-perez/';
+  var pcOk = doc.querySelector('#genResult .pc-ok');
+  if (pcOk) {
+    var cu = doc.createElement('div');
+    cu.className = 'pc-cuento';
+    cu.innerHTML = '<span class="pc-cuento-i" aria-hidden="true">&#127769;</span>' +
+      '<div><p class="pc-cuento-t">¿Y esta noche?</p>' +
+      '<p class="pc-cuento-s">Escucha gratis el primer capítulo de «La historia del ' + RATON + '».</p>' +
+      '<a class="pc-cuento-b" href="' + CUENTO_URL + '">Escuchar el capítulo 1</a></div>';
+    pcOk.parentNode.insertBefore(cu, pcOk.nextSibling);
+    /* El evento sale antes de irse: se navega en el callback de Plausible o a
+       los 800 ms, lo que llegue antes. Con Ctrl/Cmd o botón central, sin esperar. */
+    cu.querySelector('a').addEventListener('click', function (e) {
+      if (e.ctrlKey || e.metaKey || e.shiftKey || e.button !== 0) { plausible('Cuento web: desde carta'); return; }
+      e.preventDefault();
+      var ido = false;
+      function ir() { if (!ido) { ido = true; location.href = CUENTO_URL; } }
+      plausible('Cuento web: desde carta', { callback: ir });
+      setTimeout(ir, 800);
+    });
+  }
+
   function pcNombre(n) {
     var t = $('pcOkT');
     if (t) t.textContent = n ? ('La carta de ' + n + ' ya está lista') : 'La carta ya está lista';
