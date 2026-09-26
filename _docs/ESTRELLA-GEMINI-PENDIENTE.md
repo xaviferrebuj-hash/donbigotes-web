@@ -1,6 +1,15 @@
 # Estrella gris en la esquina: posible marca de agua de Gemini
 
-**Pendiente de decisión.** Mientras no se decida, no se toca en ningún fichero.
+**Decidido quitarla (27-sep-2026).** Estado:
+
+- **Icono del ratón: hecho** (commit 445e899), desde el maestro limpio de
+  `kit-outreach/tarjeta-vendedores/assets/icono-marca-limpio-2048.png`.
+- **Retrato de fieltro de la plantilla de Reyes: hecho.** Maestro limpio en
+  `_docs/maestros/retrato-carta-limpio-1024.png` (original de la app intacto); JPEG sustituido
+  dentro de los dos PDF. En el PDF el retrato va recortado en círculo y la estrella no se veía.
+- **Ratón escribiendo (`carta.png` de la app): sin tocar.** La estrella cae sobre el borde de la
+  mesa y la veta de la madera, no sobre fondo liso.
+- Diploma, sello y firma (tabla de abajo): sin revisar.
 
 El icono del ratón lleva en la esquina inferior derecha una estrella de cuatro puntas gris
 claro, distinta de las estrellas doradas del dibujo. Por forma y posición parece la marca de
