@@ -1,3 +1,5 @@
+¿Estás en Latinoamérica? [Versión para México y LATAM](https://donbigotes.app/es-419/firma-sello-raton-perez/)
+
 # La firma y el sello del Ratón Pérez, para tu carta
 
 Descarga gratis la firma y el sello oficiales de la Oficina del Ratoncito Pérez. En PNG con fondo transparente, para pegarlos en la carta que escribes tú, y en PDF A4 listo para imprimir y recortar. Descarga directa, sin registro.
@@ -62,7 +64,7 @@ Las cartas de la Oficina las firma Don Bigotes, el ratón cartero. Es la firma d
 
 **¿Hay versión para Latinoamérica?**
 
-El mismo sello sirve para «Ratón Pérez» y «Ratón de los Dientes»: es el sello de la Oficina, sin nombre de país.
+Sí. En Latinoamérica el personaje es el Ratón Pérez, y su firma y su sello están en la [versión para México y Latinoamérica](https://donbigotes.app/es-419/firma-sello-raton-perez/).
 
 **¿Puedo conseguir la carta ya firmada y sellada con su nombre?**
 
@@ -72,7 +74,7 @@ Sí. En la [carta para imprimir](https://donbigotes.app/carta-para-imprimir/) y 
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
-Última actualización: 2 de septiembre de 2026
+Última actualización: 27 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

@@ -20,7 +20,7 @@ El diploma se personaliza con el nombre de su hijo y el diente exacto que perdi�
 
 ### Sello y firma de la Oficina
 
-Con el sello dorado de la Oficina del Ratón Pérez y la firma de Don Bigotes, que también pueden [descargar sueltos](https://donbigotes.app/firma-sello-raton-perez/).
+Con el sello dorado de la Oficina del Ratón Pérez y la firma de Don Bigotes, que también pueden [descargar sueltos](https://donbigotes.app/es-419/firma-sello-raton-perez/).
 
 ### Para enmarcar o guardar
 
@@ -50,7 +50,7 @@ Son la misma idea: un documento de recuerdo por haber perdido un diente. En Don 
 
 **¿Cómo es la firma y el sello del Ratón Pérez?**
 
-El diploma lleva el sello de la Oficina y la firma de Don Bigotes. Pueden descargar [la firma y el sello por separado](https://donbigotes.app/firma-sello-raton-perez/) en PNG y PDF.
+El diploma lleva el sello de la Oficina y la firma de Don Bigotes. Pueden descargar [la firma y el sello por separado](https://donbigotes.app/es-419/firma-sello-raton-perez/) en PNG y PDF.
 
 **¿Cuánto cuesta el diploma?**
 

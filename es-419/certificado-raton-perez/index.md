@@ -24,7 +24,7 @@ El título que otorga el Ratón Pérez a quien entrega un diente con valentía.
 
 ### El sello de la Oficina
 
-El sello oficial de la Oficina del Ratón, para que no quede ninguna duda. Pueden [descargar el sello y la firma por separado](https://donbigotes.app/firma-sello-raton-perez/).
+El sello oficial de la Oficina del Ratón, para que no quede ninguna duda. Pueden [descargar el sello y la firma por separado](https://donbigotes.app/es-419/firma-sello-raton-perez/).
 
 Y, si quieren, la foto del niño sonriendo. La foto se procesa en su celular, nunca sale de él.
 
