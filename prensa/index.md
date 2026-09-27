@@ -60,7 +60,7 @@ Capítulo 1 · «La caja de galletas» · 4:56
 
 Icono, imagen, capturas de Android e iPhone y ficha en texto, libres para publicar citando Don Bigotes. Del cuento «La historia de Don Bigotes»: cubierta, ilustraciones, capturas y el capítulo 1 en audio, este solo para reseña y fragmentos de hasta 60 s.
 
-[Kit completo en ZIP (31 MB)](https://donbigotes.app/prensa/kit/press-kit-don-bigotes.zip) · [Ficha en texto (TXT)](https://donbigotes.app/prensa/kit/press-kit-don-bigotes.txt)
+[Kit completo en ZIP (32 MB)](https://donbigotes.app/prensa/kit/press-kit-don-bigotes.zip) · [Ficha en texto (TXT)](https://donbigotes.app/prensa/kit/press-kit-don-bigotes.txt)
 
 ## Contacto de prensa
 
