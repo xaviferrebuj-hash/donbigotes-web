@@ -33,7 +33,7 @@
     fuera: "Su nombre aún no está entre los más de 200 grabados; el " + RATON +
            " le llama «cariño». Vamos añadiendo nombres cada mes.",
     fallback: "Así suena cuando el nombre no está en el banco. En la app, con más de 200 nombres grabados, el " +
-              RATON + " dirá el de tu peque."
+              RATON + (LATAM ? " dirá el de tu hijo." : " dirá el de tu peque.")
   };
 
   var btn = document.getElementById("pcPlay");

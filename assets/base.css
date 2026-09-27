@@ -336,3 +336,15 @@
   opacity:.75;
 }
 .form-legal a{color:inherit;text-decoration:underline;}
+
+/* Enlace entre la versión de España y la de Latinoamérica (arriba de cada página con par es / es-419) */
+.enlace-region{
+  position:relative;
+  z-index:3;
+  margin:0;
+  padding:10px 0 0;
+  font-size:.8rem;
+  line-height:1.45;
+  opacity:.8;
+}
+.enlace-region a{color:inherit;text-decoration:underline;text-underline-offset:2px;}
