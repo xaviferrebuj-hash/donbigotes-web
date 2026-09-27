@@ -52,6 +52,8 @@ El cuento parte de la historia original: en 1894 el padre Luis Coloma escribió 
 
 Está pensado para escucharlo antes de dormir, de cinco a ocho años. Cada capítulo se descarga la primera vez y después funciona sin conexión. Los dos primeros son gratis; los ocho restantes, una única compra de 3,99 € sin suscripción. Disponible en Google Play y App Store.
 
+Voz e ilustraciones generadas digitalmente.
+
 Capítulo 1 · «La caja de galletas» · 4:56
 
 ## Material para medios
