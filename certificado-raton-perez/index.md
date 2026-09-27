@@ -1,3 +1,5 @@
+¿Estás en Latinoamérica? [Versión para México y LATAM](https://donbigotes.app/es-419/certificado-raton-perez/)
+
 # Certificado del Ratón Pérez por su primer diente
 
 Descarga gratis el certificado del Ratoncito Pérez por el primer diente caído, en PDF listo para imprimir en A4. Descarga directa, sin registro. El nombre del niño y la fecha se rellenan a mano, con el sello de la Oficina del Ratoncito. Hay versión para Latinoamérica («Ratón Pérez» / «Ratón de los Dientes»).
@@ -62,7 +64,7 @@ Sí, está pensado para imprimirse en A4 o mostrarse directamente en el móvil.
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
-Última actualización: 13 de septiembre de 2026
+Última actualización: 27 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

@@ -1,3 +1,5 @@
+¿Estás en España? [Versión para España](https://donbigotes.app/diario-dientes-de-leche/)
+
 # Diario de dientes de leche, gratis y para siempre
 
 Cada diente que se cae, con su fecha, su edad, su anécdota y su foto. Dentro de la app, sin suscripción ni cuenta.
@@ -107,7 +109,7 @@ Descarga Don Bigotes y empieza el diario con el próximo diente (o con los que y
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo se paga una sola vez, al precio local de la tienda.
 
-Última actualización: 22 de septiembre de 2026
+Última actualización: 27 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratón Pérez». El personaje del Ratón Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

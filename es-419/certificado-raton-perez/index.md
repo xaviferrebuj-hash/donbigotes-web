@@ -1,3 +1,5 @@
+¿Estás en España? [Versión para España](https://donbigotes.app/certificado-raton-perez/)
+
 # Certificado del Ratón Pérez: el Diploma de Valentía
 
 Descarga gratis el certificado del Ratón Pérez (también llamado Ratón de los Dientes) por el primer diente caído, en PDF listo para imprimir en A4. Descarga directa, sin registro. El nombre del niño y la fecha se llenan a mano, con el sello de la Oficina del Ratón. En España el personaje se conoce como Ratoncito Pérez: también hay una versión con ese nombre para descargar.

@@ -1,12 +1,14 @@
+¿Estás en España? [Versión para España](https://donbigotes.app/)
+
 # La carta del Ratón Pérez, gratis
 
-Escribe el nombre de tu peque y ten en dos minutos su carta personalizada, con el sello de la Oficina. Lista para imprimir o guardar en PDF.
+Escribe el nombre de tu hijo o hija y ten en dos minutos su carta personalizada, con el sello de la Oficina. Lista para imprimir o guardar en PDF.
 
 Sin registro · Lista en 1 minuto · Gratis
 
 ### Tú pones el diente. Él pone la magia.
 
-Mientras tu peque duerme, el Ratón Pérez (también llamado Ratón de los Dientes) escribe su carta. Por la mañana, la sorpresa ya está bajo la almohada. Don Bigotes es la app del Ratón Pérez con carta personalizada, diario de dientes que se comparte con los abuelos por WhatsApp sin subir nada, y [un cuento en diez capítulos](https://donbigotes.app/es-419/cuento-raton-perez/) contado por el propio Ratón Pérez. La carta, el diario y los dos primeros capítulos son gratis y para siempre.
+Mientras tu hijo duerme, el Ratón Pérez (también llamado Ratón de los Dientes) escribe su carta. Por la mañana, la sorpresa ya está bajo la almohada. Don Bigotes es la app del Ratón Pérez con carta personalizada, diario de dientes que se comparte con los abuelos por WhatsApp sin subir nada, y [un cuento en diez capítulos](https://donbigotes.app/es-419/cuento-raton-perez/) contado por el propio Ratón Pérez. La carta, el diario y los dos primeros capítulos son gratis y para siempre.
 
 ## Crea la experiencia completa en la app Don Bigotes
 
@@ -18,7 +20,7 @@ Desde que se cae el diente hasta que se apaga la luz, Don Bigotes acompaña cada
 
 ### Nota de voz del Ratón Pérez
 
-Al momento, con el nombre de tu peque. La sorpresa empieza ya.
+Al momento, con el nombre de tu hijo. La sorpresa empieza ya.
 
 ### El diente, bajo la almohada
 
@@ -40,13 +42,13 @@ Con su nombre, para imprimir y colgar en su cuarto.
 
 Don Bigotes dice su nombre y le da las buenas noches. Broche final.
 
-### Varios peques en la misma app
+### Varios niños en la misma app
 
 Hasta seis, cada uno con su diario de dientes y su cumpleaños.
 
 ### Felicitación de cumpleaños
 
-El Ratón Pérez felicita a tu peque por su nombre con un video y un pergamino para imprimir. [Cómo funciona](https://donbigotes.app/cumpleanos-raton-perez/).
+El Ratón Pérez felicita a tu hijo por su nombre con un video y un pergamino para imprimir. [Cómo funciona](https://donbigotes.app/cumpleanos-raton-perez/).
 
 ### La historia de Don Bigotes
 
@@ -56,7 +58,7 @@ Diez capítulos de cinco minutos, contados por Don Bigotes con su voz y sus ilus
 
 ### Escribe su nombre
 
-El nombre de tu peque y un par de detalles del diente que se le cayó.
+El nombre de tu hijo y un par de detalles del diente que se le cayó.
 
 ### La magia sucede
 
@@ -92,7 +94,7 @@ Sí. La carta personalizada, el diario de dientes y la felicitación de cumplea�
 
 **¿Cómo hago la carta del Ratón Pérez?**
 
-Escribes el nombre de tu peque y un par de detalles, y la app la genera al instante, lista para imprimir o guardar en PDF. En dos minutos.
+Escribes el nombre de tu hijo y un par de detalles, y la app la genera al instante, lista para imprimir o guardar en PDF. En dos minutos.
 
 **¿En qué celulares funciona?**
 

@@ -1,3 +1,5 @@
+¿Estás en España? [Versión para España](https://donbigotes.app/cuento-ratoncito-perez/)
+
 # La historia de Don Bigotes
 
 Se la cuenta Don Bigotes, el Ratón Pérez, en diez capítulos de cinco minutos, con su voz y con ilustraciones que cambian mientras habla. Los dos primeros capítulos son gratis en la app.
@@ -34,7 +36,7 @@ Don Bigotes, el Ratón Pérez, al que también llaman ratón de los dientes, nac
 
 - La sonrisa completa 4:13 La última noche, en la primera casa. No te lo contamos.
 
-Los capítulos 1 y 2 son gratis. Los ocho restantes, una sola compra, sin suscripción, para todos los peques del celular.
+Los capítulos 1 y 2 son gratis. Los ocho restantes, una sola compra, sin suscripción, para todos tus hijos en el mismo celular.
 
 ## Cómo funciona en la app
 

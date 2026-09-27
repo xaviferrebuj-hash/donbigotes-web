@@ -1,6 +1,8 @@
+¿Estás en España? [Versión para España](https://donbigotes.app/el-ratoncito-perez-existe/)
+
 # ¿El Ratón Pérez existe?
 
-Es una de las tradiciones más queridas de Latinoamérica y España. Aquí te contamos su origen — y cómo mantener viva la ilusión con una carta personalizada para tu peque.
+Es una de las tradiciones más queridas de Latinoamérica y España. Aquí te contamos su origen — y cómo mantener viva la ilusión con una carta personalizada para tu hijo o hija.
 
 Sin registro · Lista en 1 minuto · Gratis
 
@@ -24,7 +26,7 @@ Si quieres el origen completo, está en [la historia del Ratón Pérez](https://
 
 ### Tú pones el diente. Él pone la magia.
 
-Mientras tu peque duerme, el Ratón Pérez escribe su carta con su nombre. Por la mañana, la sorpresa ya está bajo la almohada.
+Mientras tu hijo duerme, el Ratón Pérez escribe su carta con su nombre. Por la mañana, la sorpresa ya está bajo la almohada.
 
 ## Crea la experiencia completa en la app Don Bigotes
 
@@ -54,7 +56,7 @@ Un diploma con su nombre y su foto que premia lo valiente que fue. Para imprimir
 
 ### Escribe su nombre
 
-El nombre de tu peque y un par de detalles del diente que se le cayó.
+El nombre de tu hijo y un par de detalles del diente que se le cayó.
 
 ### La magia sucede
 

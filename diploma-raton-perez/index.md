@@ -1,3 +1,5 @@
+¿Estás en Latinoamérica? [Versión para México y LATAM](https://donbigotes.app/es-419/diploma-raton-perez/)
+
 # El Diploma de Valentía del Ratoncito Pérez, con su nombre
 
 Descarga gratis el diploma del Ratoncito Pérez en PDF, listo para imprimir en A4. Descarga directa, sin registro y sin dejar el correo. Vale para el primer diente y para todos los siguientes: el nombre del niño y la fecha se escriben a mano. Incluye el sello de la Oficina del Ratoncito y versión para Latinoamérica («Ratón de los Dientes»).
@@ -62,7 +64,7 @@ Sí. Se guarda como imagen en tu móvil y puedes imprimirlo en casa o enmarcarlo
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
-Última actualización: 2 de septiembre de 2026
+Última actualización: 27 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

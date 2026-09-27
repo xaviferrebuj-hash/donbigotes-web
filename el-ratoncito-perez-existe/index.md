@@ -1,3 +1,5 @@
+¿Estás en Latinoamérica? [Versión para México y LATAM](https://donbigotes.app/es-419/el-ratoncito-perez-existe/)
+
 # ¿El Ratoncito Pérez existe?
 
 Es una de las tradiciones más queridas de España y Latinoamérica. Aquí te contamos su origen — y cómo mantener viva la ilusión con una carta personalizada para tu peque.
@@ -96,7 +98,7 @@ Sí. La [Casita-Museo de Ratón Pérez](https://www.casamuseoratonperez.es/) est
 
 ## Que la próxima caída de diente sea inolvidable
 
-Última actualización: 20 de septiembre de 2026
+Última actualización: 27 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

@@ -1,3 +1,5 @@
+¿Estás en España? [Versión para España](https://donbigotes.app/diploma-raton-perez/)
+
 # El Diploma de Valentía del Ratón Pérez, con su nombre
 
 Descarga gratis el diploma del Ratón Pérez (también llamado Ratón de los Dientes) en PDF, listo para imprimir en A4. Descarga directa, sin registro y sin dejar el correo. Sirve para el primer diente y para todos los siguientes: el nombre del niño y la fecha se llenan a mano. Incluye el sello de la Oficina del Ratón. En España el personaje se conoce como Ratoncito Pérez: también hay una versión con ese nombre para descargar.
@@ -6,7 +8,7 @@ Descarga gratis el diploma del Ratón Pérez (también llamado Ratón de los Die
 
 - [Versión España: Ratoncito Pérez (PDF)](https://donbigotes.app/descargas/diploma-ratoncito-perez.pdf)
 
-Un diploma oficial de la Oficina del Ratón, personalizado con el nombre de su peque y el diente que se le cayó. Firmado y sellado, listo para enmarcar o guardar de recuerdo.
+Un diploma oficial de la Oficina del Ratón, personalizado con el nombre de su hijo o hija y el diente que se le cayó. Firmado y sellado, listo para enmarcar o guardar de recuerdo.
 
 Incluido en el Pack Mágico de la app Don Bigotes
 
@@ -14,7 +16,7 @@ Incluido en el Pack Mágico de la app Don Bigotes
 
 ### Su nombre y su diente
 
-El diploma se personaliza con el nombre de su peque y el diente exacto que perdió.
+El diploma se personaliza con el nombre de su hijo y el diente exacto que perdió.
 
 ### Sello y firma de la Oficina
 

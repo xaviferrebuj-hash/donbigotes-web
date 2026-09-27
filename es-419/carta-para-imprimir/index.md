@@ -1,6 +1,8 @@
+¿Estás en España? [Versión para España](https://donbigotes.app/carta-para-imprimir/)
+
 # La carta del Ratón Pérez para imprimir
 
-Personalizada con el nombre de tu peque y el sello de la Oficina. La tienes lista en un minuto para imprimir o guardar en PDF. Gratis.
+Personalizada con el nombre de tu hijo o hija y el sello de la Oficina. La tienes lista en un minuto para imprimir o guardar en PDF. Gratis.
 
 Sin registro · Lista en 1 minuto · Gratis
 
@@ -18,7 +20,7 @@ Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo se pag
 
 ### Escribe su nombre
 
-El nombre de tu peque y qué diente se le cayó. Nada más.
+El nombre de tu hijo y qué diente se le cayó. Nada más.
 
 ### Se crea la carta
 
@@ -46,7 +48,7 @@ Sí. Crear, personalizar e imprimir la carta es totalmente gratis, sin registro 
 
 **¿Tengo que registrarme o descargar algo?**
 
-No. Escribes el nombre de tu peque, la carta se genera al momento y la imprimes o guardas en PDF desde el propio navegador.
+No. Escribes el nombre de tu hijo, la carta se genera al momento y la imprimes o guardas en PDF desde el propio navegador.
 
 **¿Puedo guardarla en PDF además de imprimirla?**
 
@@ -64,7 +66,7 @@ Una plantilla es genérica y la llenas a mano. Aquí la carta sale ya personaliz
 
 En donbigotes.app: escribes el nombre, se genera la carta y la imprimes o guardas en PDF al momento, gratis y sin registro.
 
-Última actualización: 17 de septiembre de 2026
+Última actualización: 27 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratón Pérez».
 

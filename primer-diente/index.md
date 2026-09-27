@@ -1,3 +1,5 @@
+¿Estás en Latinoamérica? [Versión para México y LATAM](https://donbigotes.app/es-419/primer-diente/)
+
 # La carta del primer diente, gratis
 
 Cuando a tu peque se le cae el primer diente, el Ratoncito Pérez quiere celebrarlo. Crea gratis una carta personalizada con su nombre, con el sello de la Oficina. Lista para imprimir o guardar en PDF.
@@ -72,7 +74,7 @@ Escribes el nombre de tu peque, indicas que es el primer diente y la app la gene
 
 ## Que la próxima caída de diente sea inolvidable
 
-Última actualización: 20 de septiembre de 2026
+Última actualización: 27 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

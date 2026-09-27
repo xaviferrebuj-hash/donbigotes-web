@@ -1,3 +1,5 @@
+¿Estás en Latinoamérica? [Versión para México y LATAM](https://donbigotes.app/es-419/ultimo-diente/)
+
 # La carta de despedida, gratis
 
 Cuando se cae el último diente de leche, el Ratoncito Pérez se despide. Crea gratis una carta personalizada con el nombre de tu peque para cerrar esta etapa con magia.
@@ -70,7 +72,7 @@ Escribes el nombre de tu peque, indicas que es el último diente y la app genera
 
 ## Que su último diente sea inolvidable
 
-Última actualización: 20 de septiembre de 2026
+Última actualización: 27 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

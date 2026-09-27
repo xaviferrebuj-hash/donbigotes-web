@@ -1,3 +1,5 @@
+¿Estás en España? [Versión para España](https://donbigotes.app/app-raton-perez/)
+
 # La app del Ratón Pérez para crear su visita en minutos
 
 Don Bigotes es la app del Ratón Pérez con carta personalizada, diario de dientes que se comparte con los abuelos por WhatsApp sin subir nada, y un cuento en diez capítulos contado por el propio Ratón Pérez. La carta, el diario y los dos primeros capítulos son gratis y para siempre. Con el Pack Mágico, pago único: nota de voz que lo nombra, fotomontaje «¡Pillado!», video de la Oficina y Diploma de Valentía. Ratón Pérez o Ratón de los Dientes, como lo llamen en casa: para Android y iPhone, gratis en Google Play y en la App Store. Todo funciona en tu celular. No recopilamos datos personales. Solo estadísticas de uso anónimas, sin cuenta ni identificadores.
@@ -6,7 +8,7 @@ Se paga una sola vez · Tus fotos no salen de tu celular · Hecha en España
 
 ## Toda la magia del Ratón Pérez, en una sola app
 
-Don Bigotes reúne en una app lo que antes había que encargar pieza por pieza y esperar horas. Eliges qué quieres crear, lo personalizas con el nombre y la foto de tu peque, y lo tienes listo en minutos, sin llenar formularios ni esperar a que alguien te lo monte. Tú diriges la magia; nosotros ponemos las herramientas. Así se encadena todo en [el viaje del diente](https://donbigotes.app/viaje-del-diente/), desde la nota de voz hasta el video final. Si están decidiendo, aquí tienen la [comparativa de apps del Ratón Pérez](https://donbigotes.app/es-419/comparativa-apps-ratoncito-perez/) con lo que incluye cada una.
+Don Bigotes reúne en una app lo que antes había que encargar pieza por pieza y esperar horas. Eliges qué quieres crear, lo personalizas con el nombre y la foto de tu hijo o hija, y lo tienes listo en minutos, sin llenar formularios ni esperar a que alguien te lo monte. Tú diriges la magia; nosotros ponemos las herramientas. Así se encadena todo en [el viaje del diente](https://donbigotes.app/viaje-del-diente/), desde la nota de voz hasta el video final. Si están decidiendo, aquí tienen la [comparativa de apps del Ratón Pérez](https://donbigotes.app/es-419/comparativa-apps-ratoncito-perez/) con lo que incluye cada una.
 
 ## Qué puedes crear
 
@@ -16,7 +18,7 @@ El Ratón Pérez le habla a tu hijo por su nombre, lo felicita por su diente y l
 
 ### La foto del «¡Pillado!»
 
-Crea la foto imposible: el Ratón Pérez sorprendido en plena visita, junto a tu peque dormido. El montaje se hace en tu propio celular, así que la foto de tu hijo nunca se sube a internet.
+Crea la foto imposible: el Ratón Pérez sorprendido en plena visita, junto a tu hijo dormido. El montaje se hace en tu propio celular, así que la foto de tu hijo nunca se sube a internet.
 
 ### El video desde la Oficina del Ratón Pérez
 
@@ -24,23 +26,23 @@ Un video personalizado en el que el Ratón Pérez prepara la visita a tu casa de
 
 ### El Diploma de Valentía
 
-Un diploma personalizado —el certificado del Ratón Pérez—, con su nombre y su foto, que premia a tu peque por su valentía al perder el diente. Listo para imprimir, guardar y enmarcar.
+Un diploma personalizado —el certificado del Ratón Pérez—, con su nombre y su foto, que premia a tu hijo por su valentía al perder el diente. Listo para imprimir, guardar y enmarcar.
 
 ### Carta personalizada
 
-La carta del Ratón Pérez con el nombre de tu peque, su hazaña y el sello de la Oficina. Lista para imprimir o guardar en PDF en dos minutos.
+La carta del Ratón Pérez con el nombre de tu hijo, su hazaña y el sello de la Oficina. Lista para imprimir o guardar en PDF en dos minutos.
 
 ### Diario de dientes
 
 Cada diente que se cae queda apuntado con su fecha, su edad, cómo se cayó y una foto. [Diario de dientes gratis y para siempre](https://donbigotes.app/es-419/diario-dientes-de-leche/).
 
-### Varios peques en la misma app
+### Varios niños en la misma app
 
 Hasta seis, cada uno con su diario de dientes y su cumpleaños.
 
 ### Felicitación de cumpleaños
 
-El Ratón Pérez felicita a tu peque por su nombre con un video y un pergamino para imprimir. [Así funciona la felicitación](https://donbigotes.app/cumpleanos-raton-perez/).
+El Ratón Pérez felicita a tu hijo por su nombre con un video y un pergamino para imprimir. [Así funciona la felicitación](https://donbigotes.app/cumpleanos-raton-perez/).
 
 ## Y ahora, un cuento
 
@@ -60,7 +62,7 @@ Nota de voz con su nombre · fotomontaje «¡Pillado!» · video desde la Oficin
 
 ### La historia de Don Bigotes
 
-Los otros ocho capítulos del cuento: una sola compra, sin suscripción, al precio de tu tienda, para todos los peques del celular.
+Los otros ocho capítulos del cuento: una sola compra, sin suscripción, al precio de tu tienda, para todos tus hijos en el mismo celular.
 
 ## Rápido, privado y tuyo
 
@@ -70,7 +72,7 @@ Lo creas tú en minutos, sin esperar a que nadie te lo envíe.
 
 ### Privado de verdad
 
-Las fotos de tu peque se procesan dentro de tu celular y no se suben a ningún servidor.
+Las fotos de tu hijo se procesan dentro de tu celular y no se suben a ningún servidor.
 
 ### Sin sorpresas
 
@@ -92,7 +94,7 @@ No esperas ni dependes de nadie. En lugar de llenar un formulario y aguardar a q
 
 **¿Tengo que subir la foto de mi hijo a internet?**
 
-No. El montaje se hace dentro de tu celular. La foto de tu peque no sale de tu dispositivo.
+No. El montaje se hace dentro de tu celular. La foto de tu hijo no sale de tu dispositivo.
 
 **¿Funciona en Android y en iPhone?**
 
@@ -106,7 +108,7 @@ No. Don Bigotes es una app independiente inspirada en la tradición popular del 
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo se paga una sola vez, al precio local de la tienda.
 
-Última actualización: 24 de septiembre de 2026
+Última actualización: 27 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratón Pérez». El personaje del Ratón Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

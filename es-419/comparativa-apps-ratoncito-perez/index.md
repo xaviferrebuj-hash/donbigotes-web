@@ -1,3 +1,5 @@
+¿Estás en España? [Versión para España](https://donbigotes.app/comparativa-apps-ratoncito-perez/)
+
 # Apps del Ratón Pérez: comparativa (2026)
 
 Qué hace de verdad cada aplicación del Ratón Pérez (el Ratón de los Dientes): carta con el nombre, nota de voz, video, fotomontaje, diploma, tipo de cobro y plataforma. Fila a fila, con lo que dice su ficha pública.
@@ -78,7 +80,7 @@ No. Es una app independiente inspirada en la tradición del Ratón Pérez, con p
 
 Sí: RatónPérez.app ofrece videollamadas de pago por minutos (4,99 € por 3+1 minutos, precios en euros). Don Bigotes no hace llamadas: su nota de voz dice el nombre de su hijo, se paga una vez dentro del Pack Mágico y se puede volver a escuchar siempre.
 
-Última actualización: 23 de septiembre de 2026
+Última actualización: 27 de septiembre de 2026
 
 Comparativa elaborada por Don Bigotes con datos verificados entre el 10 y el 23 de septiembre de 2026 en las fichas públicas de cada aplicación en Google Play España y el App Store. Las marcas y nombres comerciales citados pertenecen a sus respectivos titulares y se mencionan únicamente con fines identificativos. Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna de las aplicaciones comparadas ni por ninguna entidad titular de marcas relacionadas con «El Ratón Pérez».
 
