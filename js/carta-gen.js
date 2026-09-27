@@ -192,7 +192,7 @@
     cu.className = 'pc-cuento';
     cu.innerHTML = '<span class="pc-cuento-i" aria-hidden="true">&#127769;</span>' +
       '<div><p class="pc-cuento-t">¿Y esta noche?</p>' +
-      '<p class="pc-cuento-s">Escucha gratis el primer capítulo de «La historia del ' + RATON + '».</p>' +
+      '<p class="pc-cuento-s">Escucha gratis el primer capítulo de «La historia de Don Bigotes».</p>' +
       '<a class="pc-cuento-b" href="' + CUENTO_URL + '">Escuchar el capítulo 1</a></div>';
     pcOk.parentNode.insertBefore(cu, pcOk.nextSibling);
     /* El evento sale antes de irse: se navega en el callback de Plausible o a

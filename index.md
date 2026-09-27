@@ -48,7 +48,7 @@ Hasta seis, cada uno con su diario de dientes y su cumpleaños.
 
 El Ratoncito felicita a tu peque por su nombre con un vídeo y un pergamino para imprimir. [Cómo funciona](https://donbigotes.app/cumpleanos-raton-perez/).
 
-### La historia del Ratoncito Pérez
+### La historia de Don Bigotes
 
 Diez capítulos de cinco minutos, contados por Don Bigotes con su voz y sus ilustraciones. Los dos primeros son gratis en la app; la historia entera, 3,99 € de una vez. [Escuchar el capítulo 1](https://donbigotes.app/cuento-ratoncito-perez/).
 
