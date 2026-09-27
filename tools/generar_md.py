@@ -29,6 +29,7 @@ PAGINAS = [
     "es-419/comparativa-apps-ratoncito-perez", "es-419/primer-diente",
     "es-419/ultimo-diente",
     "cuento-ratoncito-perez", "es-419/cuento-raton-perez",
+    "es-419/firma-sello-raton-perez",
 ]
 
 # Subárboles que no aportan contenido textual (interfaz, decoración, formularios)
