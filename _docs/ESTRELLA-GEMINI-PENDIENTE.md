@@ -16,10 +16,12 @@
   `descargas/carta-ratoncito-perez.pdf`.
 - **Sello de la web: sin estrella.** Su fondo es transparente del todo; solo la lleva el original
   de la app.
-- **Diploma y pergamino: limpiados el 28-sep en la rama `web-sin-estrella` (819b6be), pendientes
-  de la revisión de Claude y de fusionar a `main`.** `diploma-valentia.jpg`,
-  `diploma-valentia-latam.jpg` y `pergamino-cumple-v1.webp`. Maestros sin estrella en
-  `~/proyectos/donbigotes-media/maestros/sin-estrella-28sep/`.
+- **Diploma y pergamino de la web: hechos** (1614552, en `main` desde 82fb780, 28-sep).
+  `diploma-valentia.jpg`, `diploma-valentia-latam.jpg` y `pergamino-cumple-v1.webp`. Maestros sin
+  estrella en `~/proyectos/donbigotes-media/maestros/sin-estrella-28sep/`.
+- **Diplomas en PDF: hechos** (36e059b, 28-sep). `descargas/diploma-ratoncito-perez.pdf` y
+  `descargas/diploma-raton-de-los-dientes.pdf`: solo se sustituyó la imagen del marco. Del resto de PDF
+  de `descargas/`, ninguno enseña la estrella (revisados a 150 ppp el 28-sep).
 - **Fuera de la web, con la estrella:** el repo de la app (icono, retrato, ratón escribiendo, firma
   y sello originales), `kit-outreach` y `pinterest-pines`. No se tocan desde este repo.
 
@@ -50,11 +52,14 @@ aparece en todo lo que deriva de él.
 | Fichero | Visibilidad |
 |---|---|
 | `assets/img/ratoncito-escribiendo-carta.jpg` | Clara |
-| `diploma-valentia.jpg`, `diploma-valentia-latam.jpg` | Visible, sobre la cinta. Limpios en `web-sin-estrella` (819b6be), sin fusionar |
-| `pergamino-cumple-v1.webp` | Visible, sobre el rosetón. Limpio en `web-sin-estrella` (819b6be), sin fusionar |
+| `diploma-valentia.jpg`, `diploma-valentia-latam.jpg` | Hecho: limpios (1614552) |
+| `pergamino-cumple-v1.webp` | Hecho: limpio (1614552) |
 | `assets/img/carta-sello-oficina.png` | Muy tenue |
 | `assets/img/carta-firma.png` | Muy tenue |
 
-**Pendiente, sin revisar:** los PDF de `descargas/` salvo la plantilla de Reyes y la carta ES, y las
-capturas del kit de prensa (`prensa/kit/android/`, `prensa/kit/iphone/`, también en la rama
-`kit-cuento`).
+**Pendiente:**
+- Capturas del kit de prensa (`prensa/kit/android/`, `prensa/kit/iphone/`, también en la rama
+  `kit-cuento`): sin revisar.
+- HTML de origen de los diplomas en PDF (`diploma-gratis-es.html` y `diploma-gratis-latam.html`, en
+  `donbigotes-leads`): sin revisar desde Code; es de esperar que lleven el marco con estrella. Si se
+  regeneran los PDF desde ahí, la estrella vuelve.
