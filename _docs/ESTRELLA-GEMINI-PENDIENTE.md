@@ -16,8 +16,10 @@
   `descargas/carta-ratoncito-perez.pdf`.
 - **Sello de la web: sin estrella.** Su fondo es transparente del todo; solo la lleva el original
   de la app.
-- **Diploma (`diploma-valentia.jpg`): se queda con la estrella.** Cae sobre el filo de la cinta,
-  entre la cinta y el papel, y cualquier parche se nota al 100 %.
+- **Diploma y pergamino: limpiados el 28-sep en la rama `web-sin-estrella` (819b6be), pendientes
+  de la revisión de Claude y de fusionar a `main`.** `diploma-valentia.jpg`,
+  `diploma-valentia-latam.jpg` y `pergamino-cumple-v1.webp`. Maestros sin estrella en
+  `~/proyectos/donbigotes-media/maestros/sin-estrella-28sep/`.
 - **Fuera de la web, con la estrella:** el repo de la app (icono, retrato, ratón escribiendo, firma
   y sello originales), `kit-outreach` y `pinterest-pines`. No se tocan desde este repo.
 
@@ -48,9 +50,11 @@ aparece en todo lo que deriva de él.
 | Fichero | Visibilidad |
 |---|---|
 | `assets/img/ratoncito-escribiendo-carta.jpg` | Clara |
-| `diploma-valentia.jpg` | Visible, sobre la cinta |
+| `diploma-valentia.jpg`, `diploma-valentia-latam.jpg` | Visible, sobre la cinta. Limpios en `web-sin-estrella` (819b6be), sin fusionar |
+| `pergamino-cumple-v1.webp` | Visible, sobre el rosetón. Limpio en `web-sin-estrella` (819b6be), sin fusionar |
 | `assets/img/carta-sello-oficina.png` | Muy tenue |
 | `assets/img/carta-firma.png` | Muy tenue |
 
-**Sin revisar:** los PDF de `descargas/` salvo la plantilla de Reyes y la carta ES, y las capturas
-del kit (`prensa/kit/android/`, `prensa/kit/iphone/`).
+**Pendiente, sin revisar:** los PDF de `descargas/` salvo la plantilla de Reyes y la carta ES, y las
+capturas del kit de prensa (`prensa/kit/android/`, `prensa/kit/iphone/`, también en la rama
+`kit-cuento`).
