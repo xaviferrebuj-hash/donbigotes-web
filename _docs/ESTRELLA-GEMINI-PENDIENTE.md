@@ -58,8 +58,13 @@ aparece en todo lo que deriva de él.
 | `assets/img/carta-firma.png` | Muy tenue |
 
 **Pendiente:**
-- Capturas del kit de prensa (`prensa/kit/android/`, `prensa/kit/iphone/`, también en la rama
-  `kit-cuento`): sin revisar.
+- Capturas del kit de prensa, revisadas el 30-sep (a ~40 % de tamaño; esquina inferior derecha de
+  las ilustraciones del cuento a tamaño real). **Con estrella: `prensa/kit/iphone/05-diploma.png`**
+  (destello gris a la derecha de la cinta del sello, dentro del diploma que muestra la app). Sin
+  estrella visible: las 4 ilustraciones y las 2 capturas del cuento, las 8 de `android/` (la 06 corta
+  el diploma antes de esa esquina) y las otras 6 de `iphone/`. Los avatares del ratón dentro de las
+  capturas son demasiado pequeños para descartarlo. Sin tocar: la captura vive también dentro de
+  `press-kit-don-bigotes.zip`, así que al sustituirla hay que reconstruir el ZIP.
 - HTML de origen de los diplomas en PDF (`diploma-gratis-es.html` y `diploma-gratis-latam.html`, en
   `donbigotes-leads`): sin revisar desde Code; es de esperar que lleven el marco con estrella. Si se
   regeneran los PDF desde ahí, la estrella vuelve.
