@@ -1,4 +1,24 @@
-# Don Bigotes llega al iPhone: la app del Ratoncito Pérez ya está disponible en el App Store
+# El Ratoncito Pérez cuenta su propia historia: Don Bigotes estrena un cuento de diez capítulos
+
+«La historia de Don Bigotes», contada por el propio Ratoncito con su voz, para escuchar antes de dormir. Disponible en Google Play y App Store.
+
+## Nota — «La historia de Don Bigotes» (30 de septiembre de 2026)
+
+Barcelona, 30 de septiembre de 2026.— La app Don Bigotes, que desde julio ofrece gratis la carta personalizada del Ratoncito Pérez y un diario de dientes de leche, estrena «La historia de Don Bigotes»: un cuento en diez capítulos de cuatro o cinco minutos, contado en primera persona por el propio Ratoncito con su voz e ilustrado con escenas que cambian mientras habla.
+
+El cuento parte de la historia original: en 1894 el padre Luis Coloma escribió para el rey Alfonso XIII, que tenía ocho años y acababa de perder un diente, el relato que convirtió al Ratoncito Pérez en el personaje que hoy conocen los niños de España y de buena parte de Latinoamérica. Los capítulos 5 a 7 cuentan aquella noche desde el lado del ratón; los otros siete son la vida de Don Bigotes, desde la caja de galletas de la calle Arenal donde nació.
+
+Está pensado para escucharlo antes de dormir, de cinco a ocho años. Cada capítulo se descarga la primera vez y después funciona sin conexión. Los dos primeros son gratis; los ocho restantes, una única compra de 3,99 € sin suscripción. Disponible en Google Play y App Store.
+
+Voz e ilustraciones generadas digitalmente.
+
+Capítulo 1 · «La caja de galletas» · 4:56
+
+Las notas anteriores se conservan como documento histórico fechado. El Pack Mágico pasó a ser de pago el 1-sep-2026. Don Bigotes está disponible también en App Store (iPhone).
+
+## Nota anterior — Don Bigotes llega al iPhone (29 de agosto de 2026)
+
+Don Bigotes llega al iPhone: la app del Ratoncito Pérez ya está disponible en el App Store
 
 Tras su lanzamiento en Google Play el pasado julio, Don Bigotes completa su llegada a las dos grandes tiendas de aplicaciones.
 
@@ -11,8 +31,6 @@ Toda la personalización se procesa en el propio dispositivo. No recopilamos dat
 Don Bigotes está disponible en 175 países y requiere iOS 15 o posterior.
 
 Enlaces de descarga: [App Store](https://apps.apple.com/es/app/id6798414411?pt=129172273&ct=web-contenido&mt=8) y [Google Play](https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Dweb%26utm_medium%3Dweb-contenido%26utm_campaign%3Dprensa). Más información en [https://donbigotes.app](https://donbigotes.app).
-
-Las notas anteriores se conservan como documento histórico fechado. El Pack Mágico pasó a ser de pago el 1-sep-2026. Don Bigotes está disponible también en App Store (iPhone).
 
 ## Nota anterior — Día del Ratoncito Pérez (20 de agosto de 2026)
 
@@ -44,18 +62,6 @@ La app está disponible en Google Play desde hoy: [play.google.com/store/apps/de
 
 Don Bigotes es una aplicación independiente desarrollada en Barcelona. Más información y creación de la carta gratis desde el navegador en [https://donbigotes.app](https://donbigotes.app). Don Bigotes no está afiliada a ninguna otra marca u obra relacionada con el personaje del Ratoncito Pérez, figura del folclore popular.
 
-## Nota — «La historia de Don Bigotes»
-
-La app Don Bigotes, que desde julio ofrece gratis la carta personalizada del Ratoncito Pérez y un diario de dientes de leche, estrena «La historia de Don Bigotes»: un cuento en diez capítulos de cuatro o cinco minutos, contado en primera persona por el propio Ratoncito con su voz e ilustrado con escenas que cambian mientras habla.
-
-El cuento parte de la historia original: en 1894 el padre Luis Coloma escribió para el rey Alfonso XIII, que tenía ocho años y acababa de perder un diente, el relato que convirtió al Ratoncito Pérez en el personaje que hoy conocen los niños de España y de buena parte de Latinoamérica. Los capítulos 5 a 7 cuentan aquella noche desde el lado del ratón; los otros siete son la vida de Don Bigotes, desde la caja de galletas de la calle Arenal donde nació.
-
-Está pensado para escucharlo antes de dormir, de cinco a ocho años. Cada capítulo se descarga la primera vez y después funciona sin conexión. Los dos primeros son gratis; los ocho restantes, una única compra de 3,99 € sin suscripción. Disponible en Google Play y App Store.
-
-Voz e ilustraciones generadas digitalmente.
-
-Capítulo 1 · «La caja de galletas» · 4:56
-
 ## Material para medios
 
 Icono, imagen, capturas de Android e iPhone y ficha en texto, libres para publicar citando Don Bigotes. Del cuento «La historia de Don Bigotes»: cubierta, ilustraciones, capturas y el capítulo 1 en audio, este solo para reseña y fragmentos de hasta 60 s.
@@ -70,7 +76,7 @@ Xavi Ferré · [hola@donbigotes.app](mailto:hola@donbigotes.app) · [https://don
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
-Última actualización: 18 de septiembre de 2026
+Última actualización: 30 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 
