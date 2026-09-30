@@ -44,11 +44,23 @@ La app está disponible en Google Play desde hoy: [play.google.com/store/apps/de
 
 Don Bigotes es una aplicación independiente desarrollada en Barcelona. Más información y creación de la carta gratis desde el navegador en [https://donbigotes.app](https://donbigotes.app). Don Bigotes no está afiliada a ninguna otra marca u obra relacionada con el personaje del Ratoncito Pérez, figura del folclore popular.
 
+## Nota — «La historia de Don Bigotes»
+
+La app Don Bigotes, que desde julio ofrece gratis la carta personalizada del Ratoncito Pérez y un diario de dientes de leche, estrena «La historia de Don Bigotes»: un cuento en diez capítulos de cuatro o cinco minutos, contado en primera persona por el propio Ratoncito con su voz e ilustrado con escenas que cambian mientras habla.
+
+El cuento parte de la historia original: en 1894 el padre Luis Coloma escribió para el rey Alfonso XIII, que tenía ocho años y acababa de perder un diente, el relato que convirtió al Ratoncito Pérez en el personaje que hoy conocen los niños de España y de buena parte de Latinoamérica. Los capítulos 5 a 7 cuentan aquella noche desde el lado del ratón; los otros siete son la vida de Don Bigotes, desde la caja de galletas de la calle Arenal donde nació.
+
+Está pensado para escucharlo antes de dormir, de cinco a ocho años. Cada capítulo se descarga la primera vez y después funciona sin conexión. Los dos primeros son gratis; los ocho restantes, una única compra de 3,99 € sin suscripción. Disponible en Google Play y App Store.
+
+Voz e ilustraciones generadas digitalmente.
+
+Capítulo 1 · «La caja de galletas» · 4:56
+
 ## Material para medios
 
-Icono, imagen, capturas de Android e iPhone y ficha en texto, libres para publicar citando Don Bigotes.
+Icono, imagen, capturas de Android e iPhone y ficha en texto, libres para publicar citando Don Bigotes. Del cuento «La historia de Don Bigotes»: cubierta, ilustraciones, capturas y el capítulo 1 en audio, este solo para reseña y fragmentos de hasta 60 s.
 
-[Kit completo en ZIP (18 MB)](https://donbigotes.app/prensa/kit/press-kit-don-bigotes.zip) · [Ficha en texto (TXT)](https://donbigotes.app/prensa/kit/press-kit-don-bigotes.txt)
+[Kit completo en ZIP (32 MB)](https://donbigotes.app/prensa/kit/press-kit-don-bigotes.zip) · [Ficha en texto (TXT)](https://donbigotes.app/prensa/kit/press-kit-don-bigotes.txt)
 
 ## Contacto de prensa
 
