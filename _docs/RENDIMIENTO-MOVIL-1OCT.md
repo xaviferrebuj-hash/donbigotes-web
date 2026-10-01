@@ -22,3 +22,22 @@ Peso de imágenes base64 por página (HTML sin comprimir): home 502 KB, `/editab
 páginas 42-64 KB (favicon y logo repetidos).
 
 «Local gzip»: servidor estático con gzip y `Cache-Control: max-age=600`, como GitHub Pages.
+
+## Después (rama imagenes-a-archivos, local gzip, mismas condiciones)
+
+Cambio: las 113 imágenes base64 de 25 páginas pasan a apuntar a su archivo idéntico en
+`/assets/img/` (9 ya existían; el logo/favicon es nuevo: `logo-don-bigotes.jpg`), y
+`carta-gen.js` lleva `fetchpriority="high"` en las 9 páginas con generador. Sin el segundo
+cambio el botón solo bajaba a 4.185 ms: el script competía con las imágenes recién separadas.
+
+| Página | HTML (KB) | HTML descargado | FCP = LCP | CLS | TBT | Botón visible | Botón responde | Total KB | Peticiones |
+|---|---|---|---|---|---|---|---|---|---|
+| `/` | 13 | 647 | 1.424 | 0,068 | 65 | 1.414 | 2.150 | 546 | 19 |
+| `/editable/` | 11 | 638 | 1.396 | 0,089 | 60 | 1.412 | 2.130 | 628 | 20 |
+
+CLS de la home: 0,033 → 0,068 (sigue por debajo de 0,1). El JS ahora rellena la fecha de la
+carta antes de que llegue la fuente Caveat, y el cambio de fuente mueve más texto.
+
+Capturas a página completa (móvil 412 px) antes/después de `/`, `/editable/`,
+`/el-ratoncito-perez-existe/` y `/ultimo-diente/`: misma altura; con las animaciones
+congeladas, `/editable/` es idéntica píxel a píxel.
