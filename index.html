@@ -287,7 +287,7 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
 }
 </style>
 <!-- Plausible Analytics (sin cookies) + soporte de eventos personalizados -->
-<script defer data-domain="donbigotes.app" src="https://plausible.io/js/script.js"></script>
+<script async data-domain="donbigotes.app" src="https://plausible.io/js/script.js"></script>
 <script>window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 </head>
 <body>
@@ -724,7 +724,7 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
 </div>
 
 <script src="/js/carta-gen.js" defer fetchpriority="high"></script>
-<script src="/js/muestra-voz.js"></script>
-<script src="/js/enlaces-app.js"></script>
+<script src="/js/muestra-voz.js" defer></script>
+<script src="/js/enlaces-app.js" defer fetchpriority="high"></script>
 </body>
 </html>

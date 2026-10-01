@@ -8,8 +8,9 @@
                 los diminutivos por diente y la carta de varios párrafos.
 
    El idioma sale de <html lang>: «es-419» usa la variante LATAM de los textos.
-   Se carga con `defer`, así que corre con el DOM ya montado y después de
-   muestra-voz.js en las páginas que lo llevan. */
+   Se carga con `defer`, así que corre con el DOM ya montado. Es el primero de los
+   scripts con `defer`: muestra-voz.js y enlaces-app.js van detrás para no retrasar
+   el botón, así que aquí no se da por hecho que window.muestraVoz exista al arrancar. */
 (function () {
   var doc = document;
   function $(id) { return doc.getElementById(id); }
@@ -162,12 +163,12 @@
   var pcAudio = $('pcAudio'), pcBtn = $('pcPlay');
   function pcIcono() { pcBtn.innerHTML = pcAudio.paused ? '&#9654;' : '&#10074;&#10074;'; }
   if (pcAudio && pcBtn) {
-    /* Donde está muestra-voz.js, el botón lo maneja él. */
-    if (!window.muestraVoz) {
-      pcBtn.addEventListener('click', function () {
-        if (pcAudio.paused) { pcAudio.play(); plausible('Preview voz postcarta'); } else { pcAudio.pause(); }
-      });
-    }
+    /* Donde está muestra-voz.js, el botón lo maneja él. Se mira al pulsar y no al
+       arrancar: muestra-voz.js se ejecuta después de este script. */
+    pcBtn.addEventListener('click', function () {
+      if (window.muestraVoz) return;
+      if (pcAudio.paused) { pcAudio.play(); plausible('Preview voz postcarta'); } else { pcAudio.pause(); }
+    });
     pcAudio.addEventListener('play', pcIcono);
     pcAudio.addEventListener('pause', pcIcono);
     pcAudio.addEventListener('ended', function () { pcAudio.currentTime = 0; pcIcono(); });
