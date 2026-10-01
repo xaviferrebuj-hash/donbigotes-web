@@ -7,6 +7,21 @@
 
 ---
 
+## [W4] Plausible tras cargarlo con `async` (publicado el 2-oct-2026, 00:50)
+
+**TRIGGER: 3 de octubre de 2026** (el 2-oct es el primer día completo con el cambio).
+En las 9 páginas con generador, Plausible pasó de `defer` a `async` (commit 440451a) para que
+no retrase el botón «Crear la carta». Comprobado en producción el 2-oct: la visita y los
+eventos se generan, y los que salen antes de que cargue Plausible esperan y se envían.
+Falta ver datos reales. En plausible.io → donbigotes.app, día 2-oct:
+1. Visitantes > 0 y en la línea de los 7 días anteriores; `/` y `/editable/` en «Páginas principales».
+2. «Conversiones de objetivos»: «Carta generada» y «Crear carta - clic» con más de 0.
+3. Alarma: 0 «Carta generada» con visitas en páginas con generador, o la proporción
+   «Carta generada» / visitantes por debajo de la mitad de la semana anterior. Si pasa:
+   volver Plausible a `defer` en esas 9 páginas (el resto de 440451a se queda).
+
+---
+
 ## [W3] Cuento: la web pasa a la versión con app y precio
 
 **TRIGGER: la release que activa el cuento en la app** (0.9.1 / 1.0.7, flag `cuento` encendido).
