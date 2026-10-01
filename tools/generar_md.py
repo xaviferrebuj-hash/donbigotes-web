@@ -30,6 +30,7 @@ PAGINAS = [
     "es-419/ultimo-diente",
     "cuento-ratoncito-perez", "es-419/cuento-raton-perez",
     "es-419/firma-sello-raton-perez",
+    "privacidad",
 ]
 
 # Subárboles que no aportan contenido textual (interfaz, decoración, formularios)
