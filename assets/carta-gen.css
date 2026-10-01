@@ -212,6 +212,32 @@
 }
 .pc-cuento-b:hover { background: var(--night-2); color: #fff; }
 
+/* La × de cerrar, por encima de la carta: en móvil la carta la tapaba y no se podía cerrar. */
+.gen-close { z-index: 2; }
+
+/* La carta entra desde abajo al crearla; botones y confirmación, un instante después. */
+.gen-result.show #print-letter { animation: carta-in 420ms cubic-bezier(.23, 1, .32, 1); }
+.gen-result.show .gen-actions,
+.gen-result.show .pc-ok { animation: carta-in 420ms cubic-bezier(.23, 1, .32, 1) 120ms backwards; }
+@keyframes carta-in { from { opacity: 0; transform: translateY(14px); } }
+
+/* Sin nombre, el campo se pone en rojo y se sacude (carta-gen.js lo relanza en cada
+   intento). En móvil pequeño el aviso de texto queda abajo, fuera de la pantalla. */
+.gen-input.falta,
+.gen-input.falta:focus { border-color: #B23A48; animation: gen-sacude 320ms cubic-bezier(.36, .07, .19, .97); }
+@keyframes gen-sacude {
+  20%, 60% { transform: translateX(-6px); }
+  40%, 80% { transform: translateX(6px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gen-result.show #print-letter,
+  .gen-result.show .gen-actions,
+  .gen-result.show .pc-ok,
+  .gen-input.falta,
+  .gen-input.falta:focus { animation: none; }
+}
+
 @media print {
   /* Sin esto, el navegador tira los fondos y la carta sale en blanco. */
   .letter-paper {

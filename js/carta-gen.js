@@ -152,6 +152,7 @@
   function resetGen() {
     $('genResult').classList.remove('show');
     $('genForm').style.display = 'block';
+    $('gen').scrollTop = 0;
     if (pcAudio) { pcAudio.pause(); pcAudio.currentTime = 0; }
     if (window.muestraVoz) muestraVoz.parar();
   }
@@ -320,7 +321,17 @@
 
   function makeLetter() {
     var nombre = ($('gnombre').value || '').trim();
-    if (!nombre) { $('genErr').classList.add('show'); return; }
+    if (!nombre) {
+      /* El campo se marca y recibe el foco (en móviles pequeños queda fuera de la
+         pantalla); la sacudida se relanza en cada intento. */
+      var campo = $('gnombre');
+      $('genErr').classList.add('show');
+      campo.classList.remove('falta');
+      void campo.offsetWidth;
+      campo.classList.add('falta');
+      campo.focus();
+      return;
+    }
     $('genErr').classList.remove('show');
     var n = nombre.charAt(0).toUpperCase() + nombre.slice(1);
     var edad = GEN.edad || 't56';
@@ -345,6 +356,8 @@
     $('gSign').src = doc.querySelector('.l-sign').src;
     $('genForm').style.display = 'none';
     $('genResult').classList.add('show');
+    /* La carta empieza arriba: si no, sale cortada a la altura donde estaba el botón. */
+    $('gen').scrollTop = 0;
     plausible('Carta generada', { props: { tramo: edad } });
     pcNombre(n);
   }
@@ -353,6 +366,7 @@
 
   $('gen').addEventListener('click', function (e) { if (e.target === this) closeGen(); });
   doc.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeGen(); });
+  $('gnombre').addEventListener('input', function () { this.classList.remove('falta'); });
   if (COMPLETO) { var heroDate = $('heroDate'); if (heroDate) heroDate.textContent = fechaRatonera(); }
   sincronizaRasgo();
 

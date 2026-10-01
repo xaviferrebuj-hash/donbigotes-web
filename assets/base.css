@@ -348,3 +348,20 @@
   opacity:.8;
 }
 .enlace-region a{color:inherit;text-decoration:underline;text-underline-offset:2px;}
+
+/* Botones que responden al dedo: sin el destello azul de Android, se hunden al pulsar
+   y el efecto de pasar el ratón no se queda pegado en móvil. Los estilos de los botones
+   están inline en cada página: el prefijo `html` les gana sin tocar los HTML. */
+.btn-gold,.btn-ghost,.chip,.pc-play,.gen-close,.badge,.faq summary{-webkit-tap-highlight-color:transparent}
+html .chips .chip{transition:border-color .15s,background .15s,color .15s,transform 120ms ease-out}
+html .btn-ghost,html .pc-play,html .gen-close{transition:transform 120ms ease-out,border-color .15s,background .15s}
+@media (hover:none){
+  html .btn-gold:hover{transform:none;box-shadow:none}
+  html .btn-ghost:hover{border-color:var(--paper-edge)}
+  html .chip:not(.sel):hover{border-color:var(--paper-edge)}
+  html .pc-play:hover{transform:none}
+}
+html .btn-gold:active,html .btn-ghost:active,html .chip:active,html .pc-play:active,html .gen-close:active{transform:scale(.97)}
+@media (prefers-reduced-motion:reduce){
+  html .btn-gold:active,html .btn-ghost:active,html .chip:active,html .pc-play:active,html .gen-close:active{transform:none}
+}
