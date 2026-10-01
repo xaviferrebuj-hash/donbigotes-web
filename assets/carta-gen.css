@@ -62,28 +62,83 @@
   width: 26px;
   border: none;
   border-radius: 0;
-  background-repeat: repeat-y;
-  background-position: top center;
-  background-size: 100% auto;
+  /* Cada pieza va como capa suelta, sin repeat ni máscara: el PDF que sale de Chrome
+     con un fondo repetido (o enmascarado) lo pinta mal el motor de Apple (Vista Previa,
+     iPhone): manchas naranjas en 3-4 y carril invisible en 5-6. Las capas que sobran
+     por abajo las recorta el propio carril. Hay de sobra: el carril más largo medido,
+     móvil de 320 px con nombre largo, es de unos 1.040 px. */
+  background-repeat: no-repeat;
 }
-/* La pieza de 3-4 es UNA huella suelta (184×200), así que repetida sin más sale
-   una fila apretadísima. La máscara deja ver una de cada dos: huellas cada 60 px,
-   que es la separación de la maqueta llevada al ancho de esta carta.
-   La de 5-6 no la necesita: caminito.webp (116×632) ya es un tramo con su hueco. */
+/* 3-4: una huella suelta (184×200) cada 60 px, que es la separación de la maqueta
+   llevada al ancho de esta carta. 24 capas: 1.440 px. */
 .gen-paper.edad-t34::after {
   top: 148px;
   width: 28px;
-  background-image: url('/assets/img/carta/34/huella.webp');
+  background-image:
+    url('/assets/img/carta/34/huella.webp'),
+    url('/assets/img/carta/34/huella.webp'),
+    url('/assets/img/carta/34/huella.webp'),
+    url('/assets/img/carta/34/huella.webp'),
+    url('/assets/img/carta/34/huella.webp'),
+    url('/assets/img/carta/34/huella.webp'),
+    url('/assets/img/carta/34/huella.webp'),
+    url('/assets/img/carta/34/huella.webp'),
+    url('/assets/img/carta/34/huella.webp'),
+    url('/assets/img/carta/34/huella.webp'),
+    url('/assets/img/carta/34/huella.webp'),
+    url('/assets/img/carta/34/huella.webp'),
+    url('/assets/img/carta/34/huella.webp'),
+    url('/assets/img/carta/34/huella.webp'),
+    url('/assets/img/carta/34/huella.webp'),
+    url('/assets/img/carta/34/huella.webp'),
+    url('/assets/img/carta/34/huella.webp'),
+    url('/assets/img/carta/34/huella.webp'),
+    url('/assets/img/carta/34/huella.webp'),
+    url('/assets/img/carta/34/huella.webp'),
+    url('/assets/img/carta/34/huella.webp'),
+    url('/assets/img/carta/34/huella.webp'),
+    url('/assets/img/carta/34/huella.webp'),
+    url('/assets/img/carta/34/huella.webp');
+  background-position: 0 0px, 0 60px, 0 120px, 0 180px, 0 240px, 0 300px, 0 360px, 0 420px, 0 480px, 0 540px, 0 600px, 0 660px, 0 720px, 0 780px, 0 840px, 0 900px, 0 960px, 0 1020px, 0 1080px, 0 1140px, 0 1200px, 0 1260px, 0 1320px, 0 1380px;
   background-size: 28px 30px;
-  -webkit-mask-image: repeating-linear-gradient(180deg, #000 0 30px, transparent 30px 60px);
-  mask-image: repeating-linear-gradient(180deg, #000 0 30px, transparent 30px 60px);
 }
+/* 5-6: caminito.webp (116×632) ya es un tramo con su hueco; a 22 px de ancho mide
+   120 px. 14 capas: 1.680 px. */
 .gen-paper.edad-t56::after {
   top: 126px;
   bottom: 210px;
   width: 22px;
-  background-image: url('/assets/img/carta/56/caminito.webp');
+  background-image:
+    url('/assets/img/carta/56/caminito.webp'),
+    url('/assets/img/carta/56/caminito.webp'),
+    url('/assets/img/carta/56/caminito.webp'),
+    url('/assets/img/carta/56/caminito.webp'),
+    url('/assets/img/carta/56/caminito.webp'),
+    url('/assets/img/carta/56/caminito.webp'),
+    url('/assets/img/carta/56/caminito.webp'),
+    url('/assets/img/carta/56/caminito.webp'),
+    url('/assets/img/carta/56/caminito.webp'),
+    url('/assets/img/carta/56/caminito.webp'),
+    url('/assets/img/carta/56/caminito.webp'),
+    url('/assets/img/carta/56/caminito.webp'),
+    url('/assets/img/carta/56/caminito.webp'),
+    url('/assets/img/carta/56/caminito.webp');
+  background-position: 0 0px, 0 120px, 0 240px, 0 360px, 0 480px, 0 600px, 0 720px, 0 840px, 0 960px, 0 1080px, 0 1200px, 0 1320px, 0 1440px, 0 1560px;
+  background-size: 22px 120px;
 }
+
+/* La cabecera y la fecha también esquivan al Ratoncito: sin esto se le metían debajo
+   (hasta 87 px al imprimir). El margen, en % del ancho del papel, deja libre lo que
+   ocupa en cada anchura, de móvil a A4, y acorta también la raya dorada de la cabecera.
+   Al estrecharse pasan a dos líneas: que queden parejas, sin «2026» o «Pérez» solos. */
+.gen-paper.edad-t34 .l-head,
+.gen-paper.edad-t34 .l-date { margin-right: 24%; }
+.gen-paper.edad-t56 .l-head,
+.gen-paper.edad-t56 .l-date { margin-right: 18%; }
+.gen-paper.edad-t34 .l-date,
+.gen-paper.edad-t56 .l-date,
+.gen-paper.edad-t34 .l-head div,
+.gen-paper.edad-t56 .l-head div { text-wrap: balance; }
 
 /* Las primeras líneas esquivan al Ratoncito de la esquina: un hueco flotante
    a la derecha, que el texto rodea y desaparece en cuanto lo pasa. */
