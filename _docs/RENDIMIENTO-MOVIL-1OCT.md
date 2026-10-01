@@ -38,6 +38,18 @@ cambio el botón solo bajaba a 4.185 ms: el script competía con las imágenes r
 CLS de la home: 0,033 → 0,068 (sigue por debajo de 0,1). El JS ahora rellena la fecha de la
 carta antes de que llegue la fuente Caveat, y el cambio de fuente mueve más texto.
 
+### Producción tras publicar (05f0c33, 1-oct)
+
+| Página | HTML (KB) | HTML descargado | FCP = LCP | CLS | TBT | Botón visible | Botón responde |
+|---|---|---|---|---|---|---|---|
+| `/` | 13 | 735 | 1.964 (1.668 en una traza aparte) | 0,051 | 118 | 1.959 | 2.106 |
+| `/editable/` | 11 | 772 | 1.924 | 0,086 | 90 | 1.928 | 2.196 |
+
+FCP/LCP sube entre 0,1 y 0,4 s respecto a antes (sigue < 2,5 s): con el HTML completo en
+0,7 s, la primera maquetación ya es de la página entera (antes se pintaba un trozo mientras
+llegaba el HTML). El TTFB de producción varía entre 0,3 y 0,7 s de una carga a otra. Las 25
+páginas cambiadas responden 200, sin base64, y sus 25 imágenes distintas cargan (logo incluido).
+
 Capturas a página completa (móvil 412 px) antes/después de `/`, `/editable/`,
 `/el-ratoncito-perez-existe/` y `/ultimo-diente/`: misma altura; con las animaciones
 congeladas, `/editable/` es idéntica píxel a píxel.
