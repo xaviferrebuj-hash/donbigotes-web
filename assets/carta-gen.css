@@ -239,6 +239,34 @@
 }
 
 @media print {
+  /* Solo la carta, en una hoja. El overlay es position: fixed (Chrome repite lo fijo en
+     cada hoja) y el <style> de cada página oculta el resto con visibility, que sigue
+     ocupando su altura: salían 6-10 hojas con la carta repetida. Aquí el resto de la
+     página sale del flujo y el overlay pasa a ser un bloque normal. Llevan #gen delante
+     para ganar al #print-letter { position: absolute } del <style> de cada página. */
+  body > :not(#gen) { display: none !important; }
+  /* openGen() deja overflow: hidden en el body; con él, algunos navegadores cortan. */
+  body { overflow: visible !important; }
+  #gen.gen-overlay.open {
+    position: static;
+    display: block;
+    padding: 0;
+    overflow: visible;
+    background: none;
+    backdrop-filter: none;
+  }
+  #gen .gen-box {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background: none;
+  }
+  #gen .gen-box > :not(.gen-result),
+  #gen .gen-result > :not(#print-letter) { display: none !important; }
+  #gen #print-letter { position: static; width: auto; animation: none; }
+
   /* Sin esto, el navegador tira los fondos y la carta sale en blanco. */
   .letter-paper {
     -webkit-print-color-adjust: exact;
