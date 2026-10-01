@@ -139,6 +139,12 @@
 .gen-paper.edad-t56 .l-date,
 .gen-paper.edad-t34 .l-head div,
 .gen-paper.edad-t56 .l-head div { text-wrap: balance; }
+/* En pantallas de 400 px o menos, la cabecera de 3-4 no cabe bien entre el retrato
+   pequeño y el Ratoncito (título en tres líneas): se quita el retrato, que el dibujo
+   grande ya es el Ratoncito. Al imprimir se mantiene. */
+@media screen and (max-width: 400px) {
+  .gen-paper.edad-t34 .l-head .l-avatar { display: none; }
+}
 
 /* Las primeras líneas esquivan al Ratoncito de la esquina: un hueco flotante
    a la derecha, que el texto rodea y desaparece en cuanto lo pasa. */
