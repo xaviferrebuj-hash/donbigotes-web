@@ -7,6 +7,22 @@
 
 ---
 
+## [W5] Carta de 7 o más del generador web: diseño Tejados
+
+**TRIGGER: al publicar la versión de la app que incluye la carta 7-9 Tejados.**
+Pasar ese diseño a la carta de 7 o más del generador web (`.gen-paper.edad-t79`, que hoy es
+la carta rayada de siempre y no lleva estilos en `assets/carta-gen.css`), incluida la versión
+impresa en A4. Afecta a las 9 páginas con generador. Material, en el repo de la app
+(`~/proyectos/ratoncito/ratoncito code/`):
+- Diseño: `Claude outputs/cartas-edad/rediseno/7-9-definitiva/` (`SPEC-CARTA-7-9-TEJADOS.md`,
+  maqueta móvil y papel A4 a 300 ppp).
+- Piezas: `ratoncito_app/assets/carta/79/` (`franja`, `oficina`, `rosa`). Copiarlas a
+  `assets/img/carta/79/`, como se hizo con las de 3-4 y 5-6.
+Al imprimir tiene que seguir saliendo 1 sola hoja con la carta entera (arreglo de 66c9588):
+verificar con PDF reales en las 9 páginas.
+
+---
+
 ## [W4] Plausible tras cargarlo con `async` (publicado el 2-oct-2026, 00:50)
 
 **TRIGGER: 3 de octubre de 2026** (el 2-oct es el primer día completo con el cambio).
