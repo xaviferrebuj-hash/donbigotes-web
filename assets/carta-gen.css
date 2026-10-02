@@ -283,6 +283,17 @@
 }
 .pc-cuento-b:hover { background: var(--night-2); color: #fff; }
 
+/* Un nombre largo sin espacios («Maximilianoalejandro») se parte en vez de salirse por la
+   derecha, en la carta y en los textos de después que lo repiten. Con nombres normales no
+   cambia nada: solo actúa cuando una palabra no cabe en la línea. */
+.gen-paper .l-greeting,
+.gen-paper .l-body,
+.pc-ok-t,
+.pc-voz-l {
+  overflow-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+
 /* La × de cerrar, por encima de la carta: en móvil la carta la tapaba y no se podía cerrar. */
 .gen-close { z-index: 2; }
 
