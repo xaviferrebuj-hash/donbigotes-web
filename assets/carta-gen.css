@@ -145,6 +145,16 @@
 @media screen and (max-width: 400px) {
   .gen-paper.edad-t34 .l-head .l-avatar { display: none; }
 }
+/* Con el papel ancho (escritorio e impresión) la guirnalda de 5-6 crece con él y le
+   caía encima al título de la cabecera: la cabecera baja 30 px. En el móvil no llega.
+   Va también en @media print y en .medida-impresion, para que el ajuste a una hoja lo
+   cuente aunque se imprima desde un móvil. */
+@media screen and (min-width: 480px) {
+  .gen-paper.edad-t56 .l-head { margin-top: 30px; }
+}
+@media print {
+  .gen-paper.edad-t56 .l-head { margin-top: 30px; }
+}
 
 /* Las primeras líneas esquivan al Ratoncito de la esquina: un hueco flotante
    a la derecha, que el texto rodea y desaparece en cuanto lo pasa. */
@@ -385,3 +395,4 @@
 .medida-impresion .gen-paper.edad-t56 .l-close { font-size: 1.3rem; }
 /* El retrato que el móvil estrecho esconde sí sale en el papel. */
 .medida-impresion .gen-paper.edad-t34 .l-head .l-avatar { display: block; }
+.medida-impresion .gen-paper.edad-t56 .l-head { margin-top: 30px; }
