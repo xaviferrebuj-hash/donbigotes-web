@@ -305,7 +305,7 @@
      ocupando su altura: salían 6-10 hojas con la carta repetida. Aquí el resto de la
      página sale del flujo y el overlay pasa a ser un bloque normal. Llevan #gen delante
      para ganar al #print-letter { position: absolute } del <style> de cada página. */
-  body > :not(#gen) { display: none !important; }
+  body > :not(#gen):not(.medida-impresion) { display: none !important; }
   /* openGen() deja overflow: hidden en el body; con él, algunos navegadores cortan. */
   body { overflow: visible !important; }
   #gen.gen-overlay.open {
@@ -344,4 +344,44 @@
   /* En A4 el Ratoncito es mayor, así que el hueco también. */
   .gen-paper.edad-t34 .l-body::before { height: 104px; }
   .gen-paper.edad-t56 .l-body::before { height: 112px; }
+  /* En el papel, los tamaños que en pantalla dependen del ancho (clamp con vw) van fijos
+     a su máximo: así la carta impresa mide lo mismo la imprima un móvil o un ordenador. */
+  .gen-paper.edad-t34 .l-greeting { font-size: 2.3rem; }
+  .gen-paper.edad-t34 .l-body { font-size: 1.9rem; }
+  .gen-paper.edad-t56 .l-greeting { font-size: 2.15rem; }
+  .gen-paper.edad-t56 .l-body { font-size: 1.55rem; }
+  .gen-paper.edad-t34 .l-cierre,
+  .gen-paper.edad-t56 .l-cierre,
+  .gen-paper.edad-t34 .l-close,
+  .gen-paper.edad-t56 .l-close { font-size: 1.3rem; }
+  /* Una sola hoja con cualquier nombre: si la carta no cabe, se reduce lo justo.
+     El factor lo calcula carta-gen.js (ajustaHoja) y lo deja en --ajuste. */
+  #gen #print-letter .gen-paper { zoom: var(--ajuste, 1); }
 }
+
+/* Caja fuera de pantalla donde carta-gen.js mide la carta tal como saldrá impresa.
+   Repite las reglas de @media print que cambian su alto (y la del <style> de cada
+   página, max-width: 520px): si cambia una, hay que cambiar la otra. */
+.medida-impresion {
+  position: absolute;
+  left: -10000px;
+  top: 0;
+  width: 718px;
+  visibility: hidden;
+}
+.medida-impresion .gen-paper { max-width: 520px; }
+.medida-impresion .gen-paper.edad-t34,
+.medida-impresion .gen-paper.edad-t56 { padding: 64px 68px 158px 34px; }
+.medida-impresion .gen-paper.edad-t56 { padding-bottom: 96px; }
+.medida-impresion .gen-paper.edad-t34 .l-body::before { height: 104px; }
+.medida-impresion .gen-paper.edad-t56 .l-body::before { height: 112px; }
+.medida-impresion .gen-paper.edad-t34 .l-greeting { font-size: 2.3rem; }
+.medida-impresion .gen-paper.edad-t34 .l-body { font-size: 1.9rem; }
+.medida-impresion .gen-paper.edad-t56 .l-greeting { font-size: 2.15rem; }
+.medida-impresion .gen-paper.edad-t56 .l-body { font-size: 1.55rem; }
+.medida-impresion .gen-paper.edad-t34 .l-cierre,
+.medida-impresion .gen-paper.edad-t56 .l-cierre,
+.medida-impresion .gen-paper.edad-t34 .l-close,
+.medida-impresion .gen-paper.edad-t56 .l-close { font-size: 1.3rem; }
+/* El retrato que el móvil estrecho esconde sí sale en el papel. */
+.medida-impresion .gen-paper.edad-t34 .l-head .l-avatar { display: block; }

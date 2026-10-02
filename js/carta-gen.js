@@ -359,8 +359,36 @@
     $('genResult').classList.add('show');
     /* La carta empieza arriba: si no, sale cortada a la altura donde estaba el botón. */
     $('gen').scrollTop = 0;
+    ajustaHoja();
+    if (doc.fonts && doc.fonts.ready) doc.fonts.ready.then(ajustaHoja);
     plausible('Carta generada', { props: { tramo: edad } });
     pcNombre(n);
+  }
+
+  /* ------------------------------------------------ una sola hoja al imprimir */
+
+  /* Con nombres largos la carta podía salir en dos hojas. Se mide tal como saldrá
+     impresa —en un clon fuera de pantalla, con las reglas de .medida-impresion— y, si
+     no cabe en una hoja de papel Carta (el más bajo de los habituales: 279,4 mm menos
+     márgenes de 12,7 mm, y unos píxeles de holgura), se reduce lo justo con el zoom que
+     @media print lee de --ajuste. Se calcula al crearla, así que también vale si se
+     imprime desde el menú del navegador, y se repite cuando cargan las fuentes y las
+     imágenes de la carta y justo antes de imprimir. */
+  var ALTO_HOJA = 950;
+  function ajustaHoja() {
+    var carta = $('print-letter');
+    if (!carta || !$('genResult').classList.contains('show')) return;
+    var caja = doc.createElement('div');
+    caja.className = 'medida-impresion';
+    var copia = carta.cloneNode(true);
+    copia.removeAttribute('id');
+    copia.querySelectorAll('[id]').forEach(function (e) { e.removeAttribute('id'); });
+    caja.appendChild(copia);
+    doc.body.appendChild(caja);
+    var alto = copia.getBoundingClientRect().height;
+    doc.body.removeChild(caja);
+    if (!alto) return;
+    carta.style.setProperty('--ajuste', alto > ALTO_HOJA ? String(Math.floor(ALTO_HOJA / alto * 1000) / 1000) : '1');
   }
 
   /* ------------------------------------------------------------- arranque */
@@ -368,6 +396,8 @@
   $('gen').addEventListener('click', function (e) { if (e.target === this) closeGen(); });
   doc.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeGen(); });
   $('gnombre').addEventListener('input', function () { this.classList.remove('falta'); });
+  ['gStamp', 'gSign'].forEach(function (id) { var im = $(id); if (im) im.addEventListener('load', ajustaHoja); });
+  window.addEventListener('beforeprint', ajustaHoja);
   if (COMPLETO) { var heroDate = $('heroDate'); if (heroDate) heroDate.textContent = fechaRatonera(); }
   sincronizaRasgo();
 
