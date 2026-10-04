@@ -373,24 +373,6 @@
     <p style="text-align:center;margin-top:26px">Junto a la carta puedes imprimir la <a href="/diario-dientes-de-leche/#hoja-diario">hoja del diario de dientes</a>: un A4 gratis para ir apuntando los 20 dientes, sin dejar tu correo.</p>
   </section>
 
-  <!-- CAPTURA EMAIL -->
-  <section>
-    <div class="email-box">
-      <h2>¿Quieres aún más magia esa noche?</h2>
-      <p>Déjanos tu email y te avisamos de cada novedad de la Oficina: la app ya incluye la nota de voz del Ratoncito con su nombre, la foto del «¡Pillado!» y el Diploma de Valentía. Descubre <a href="/viaje-del-diente/">el viaje del diente</a>: qué pasa desde que se cae hasta la visita del Ratoncito.</p>
-      <form id="form-email" action="https://api.web3forms.com/submit" method="POST" class="form-row">
-        <input type="hidden" name="access_key" value="b43b8fa1-6e3d-428c-9298-24b1dbef4e4a">
-        <input type="hidden" name="subject" value="Nuevo aviso desde carta-para-imprimir">
-        <input type="text" name="_honey" style="display:none">
-        <input type="email" name="email" placeholder="tu@email.com" required aria-label="Tu email">
-        <button type="submit">Avísame</button>
-      </form>
-      <p id="email-ok" style="display:none;color:var(--oro-claro);font-weight:700;margin-top:6px">¡Hecho! Te avisaremos cuando esté listo. ✨</p>
-      <p class="email-mini">Sin spam. Solo un aviso cuando esté listo.</p>
-      <p class="form-legal">Al enviar aceptas nuestra <a href="/privacidad/" target="_blank" rel="noopener">política de privacidad</a>.</p>
-    </div>
-  </section>
-
   <!-- FAQ -->
   <section>
     <div class="sec-label">Dudas rápidas</div>
@@ -434,31 +416,6 @@
   </div>
 </footer>
 </div>
-
-<script>
-(function(){
-  var ENDPOINT = "https://api.web3forms.com/submit";
-  var form = document.getElementById("form-email");
-  if (!form) return;
-  form.addEventListener("submit", function(e){
-    e.preventDefault();
-    var honey = form.querySelector('[name="_honey"]');
-    if (honey && honey.value) return;
-    var input = form.querySelector('[name="email"]');
-    if (!input || !input.value.trim()) return;
-    plausible('Correo electrónico dejado');
-    var ok = document.getElementById("email-ok");
-    if (ok) ok.style.display = "block";
-    form.style.display = "none";
-    var data = new FormData();
-    data.append("email", input.value.trim());
-    data.append("access_key", "b43b8fa1-6e3d-428c-9298-24b1dbef4e4a");
-    data.append("subject", "Nuevo aviso desde carta-para-imprimir");
-    data.append("pagina", location.pathname);
-    fetch(ENDPOINT, {method:"POST", body:data, headers:{"Accept":"application/json"}}).catch(function(){});
-  });
-})();
-</script>
 
 <script src="/js/enlaces-app.js"></script>
 </body>
