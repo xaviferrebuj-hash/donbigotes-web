@@ -1,6 +1,6 @@
 # Política de Privacidad
 
-Última actualización: 29 de septiembre de 2026
+Última actualización: 4 de octubre de 2026
 
 En corto: esta política cubre dos cosas distintas.
 
@@ -50,11 +50,11 @@ El Pack Mágico se compra a través de Google Play (Android) o de la App Store d
 
 ## 7.Conexiones externas
 
-La app se conecta a internet en tres casos, y en ninguno viaja un dato personal tuyo ni del menor:
+La app se conecta a internet en tres casos, y en ninguno viaja un dato personal tuyo ni un dato que identifique al menor (del menor solo llega, anónima y sin identificadores, la franja de edad de la plantilla de carta; punto 9):
 
 - Configuración: para comprobar si está activo el modo de lanzamiento, lee un archivo alojado en GitHub Pages. Únicamente lee una fecha; no envía nada.
 
-- Estadísticas de uso anónimas: envía catorce eventos sin identificadores, descritos en el punto 9.
+- Estadísticas de uso anónimas: envía diecinueve eventos sin identificadores, descritos en el punto 9.
 
 - Algunas voces y sonidos opcionales se descargan la primera vez que abres la función que los usa, desde el mismo servidor que aloja esta página (GitHub Pages). La app solo pide el fichero: no envía ningún dato tuyo ni de tu hijo, ni identificadores del dispositivo. Como en cualquier conexión a internet, el servidor ve la dirección IP; nosotros no la recibimos ni la guardamos.
 
@@ -68,7 +68,7 @@ Esto se refiere únicamente a la aplicación móvil. La web donbigotes.app sí u
 
 ## 9.Estadísticas de uso anónimas
 
-Para mejorar la app usamos Plausible Analytics, un servicio de analítica europeo centrado en la privacidad. Registramos únicamente catorce eventos de uso anónimos, y ninguno más:
+Para mejorar la app usamos Plausible Analytics, un servicio de analítica europeo centrado en la privacidad. Registramos únicamente diecinueve eventos de uso anónimos, y ninguno más:
 
 - open: que la app se ha abierto.
 
@@ -96,11 +96,17 @@ Para mejorar la app usamos Plausible Analytics, un servicio de analítica europe
 
 - compra_cancelada: que se ha cerrado la ventana de pago de la tienda sin comprar.
 
-- compra_error: que la compra no se ha podido hacer.
+- compra_error: que la compra no se ha podido hacer, y su motivo técnico (por ejemplo, «servicio no disponible» o «error de red»).
 
-Ningún evento lleva información adicional. Para no contar dos veces la misma compra, la app guarda en el propio dispositivo el número de operación que da la tienda y la hora a la que se pulsó comprar; esos datos nunca se envían. No enviamos ningún identificador de usuario ni de dispositivo, ni ningún dato personal: el nombre de tu hijo, sus fotos y sus recuerdos nunca salen de tu móvil. Las versiones de prueba de la app no envían ningún evento. La dirección IP se utiliza de forma transitoria para el recuento agregado de visitantes y no se almacena.
+- compra_recuperada: que, al pulsar comprar, la tienda ha indicado que esa compra ya estaba hecha y la app la ha recuperado.
 
-La base legal aquí es nuestro interés legítimo (artículo 6.1.f del RGPD) en entender de forma agregada cómo se usa la app para mejorarla, un tratamiento que no te identifica y que apenas incide en tu privacidad: para este fin no se tratan datos personales tuyos ni del menor. Puedes oponerte escribiéndonos.
+- compra_sin_respuesta: que la tienda no ha llegado a responder a un intento de compra (por ejemplo, porque la app se cerró con la ventana de pago abierta).
+
+- carta_t34, carta_t56 y carta_t79: que se ha creado una carta gratuita y con qué plantilla, que va según la edad (3-4, 5-6 o 7 años o más). Sin el nombre, la fecha de nacimiento ni nada que identifique al niño.
+
+Además del nombre del evento, cada uno indica el sistema (Android o iOS) y el número de versión de la app; compra_error indica también un código técnico que explica el fallo: el que da la tienda o, si la compra no llega a la tienda, uno de la propia app. Son datos técnicos que no identifican a nadie. Para no contar dos veces la misma compra, la app guarda en el propio dispositivo el número de operación que da la tienda y la hora a la que se pulsó comprar; esos datos nunca se envían. No enviamos ningún identificador de usuario ni de dispositivo, ni ningún dato personal: el nombre de tu hijo, sus fotos y sus recuerdos nunca salen de tu móvil. Las compilaciones de desarrollo y las de TestFlight no envían ningún evento. La dirección IP se utiliza de forma transitoria para el recuento agregado de visitantes y no se almacena.
+
+La base legal aquí es nuestro interés legítimo (artículo 6.1.f del RGPD) en entender de forma agregada cómo se usa la app para mejorarla, un tratamiento que no te identifica y que apenas incide en tu privacidad: para este fin no se tratan datos personales tuyos ni datos que identifiquen al menor; de él solo llega, anónima y sin identificadores, la franja de edad de la plantilla de carta. Puedes oponerte escribiéndonos.
 
 ## 10.Conservación y eliminación
 
