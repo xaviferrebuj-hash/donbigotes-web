@@ -225,8 +225,17 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
 .gen-go{margin-top:24px;width:100%;font-size:1.05rem}
 .gen-result{display:none}
 .gen-result.show{display:block}
-.gen-paper{width:100%;max-width:420px;margin:0 auto;transform:none}
+.gen-paper{width:100%;max-width:420px;margin:0 auto;transform:none;background:radial-gradient(120% 120% at 20% 0%,#FFFBF1,#FBF7EC 55%,#F3EAD6 100%);padding:26px 28px 150px}
+.gen-paper::after{border:1.5px solid rgba(185,136,47,.55);inset:10px;border-radius:8px}
+.l-head{display:flex;align-items:center;gap:12px;padding-bottom:10px;border-bottom:1px solid rgba(185,136,47,.75);margin-bottom:12px}
+.l-avatar{width:52px;height:52px;border-radius:50%;object-fit:cover}
+.l-office-t{font-family:'Fraunces',Georgia,serif;font-weight:700;font-size:1.05rem;line-height:1.15;color:var(--ink)}
+.l-office-s{font-size:.6rem;letter-spacing:.09em;text-transform:uppercase;color:#8C7A6B;margin-top:3px}
+.l-date{font-family:'Caveat',cursive;text-align:right;color:#8C7A6B;font-size:1.18rem;margin-bottom:8px}
+.gen-paper .l-greeting{font-size:2.1rem}
+.gen-paper .l-body{font-size:1.28rem;line-height:1.32}
 .gen-paper .l-body p{margin:0 0 .55em}
+.l-close{font-family:'Caveat',cursive;font-size:1.45rem;color:var(--ink);text-align:right;margin-top:12px;padding-right:4px}
 .gen-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:26px}
 .btn-ghost{font-family:inherit;font-weight:700;font-size:1rem;cursor:pointer;padding:14px 24px;border-radius:12px;border:1.5px solid var(--paper-edge);background:#fff;color:var(--ink)}
 .btn-ghost:hover{border-color:var(--gold-deep)}
@@ -268,6 +277,7 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
 .cita{max-width:34rem;margin:22px auto 0;padding:14px 20px;border-left:3px solid var(--gold);border-radius:0 12px 12px 0;background:rgba(255,255,255,.6);font-family:'Caveat',cursive;font-size:1.5rem;line-height:1.3;color:var(--ink);text-align:left}
 .edad .s-head p a{color:var(--ink);font-weight:600;text-decoration:underline;text-decoration-color:var(--gold-deep);text-underline-offset:3px}
 .edad .btn-gold{margin-top:24px}
+.carta-muestra{display:block;width:clamp(300px,38vw,408px);height:auto;border-radius:16px;box-shadow:0 34px 72px rgba(0,0,0,.5),0 2px 0 rgba(0,0,0,.05)}
 </style>
 <!-- Plausible Analytics (sin cookies) + soporte de eventos personalizados -->
 <script async data-domain="donbigotes.app" src="https://plausible.io/js/script.js"></script>
@@ -296,12 +306,7 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
       <span class="glow"></span>
       <div class="letter">
         <span class="spark s1">✦</span><span class="spark s2">✦</span><span class="spark s3">✦</span>
-        <div class="letter-paper">
-          <div class="l-greeting">Querida Adriana,</div>
-          <div class="l-body">¡Has sido muy valiente! He recogido tu diente con muchísimo cuidado y lo he guardado en mi casita. Te he dejado un poquito de magia. Sigue cuidando esa sonrisa tan bonita…</div>
-          <img class="l-stamp" src="/assets/img/carta-sello-oficina.png" alt="Sello de la Oficina del Ratoncito Pérez">
-          <img class="l-sign" src="/assets/img/carta-firma.png" alt="Firma del Ratoncito Pérez">
-        </div>
+        <img class="carta-muestra" src="/assets/img/carta/79/muestra-martina.webp" width="816" height="1210" alt="Carta de 7 o más años del Ratoncito Pérez para Martina: franja de tejados, texto de la carta, mensaje en clave con la tabla para descifrarlo, sello y firma">
       </div>
     </div>
   </header>
@@ -487,16 +492,31 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
         <button type="button" class="chip" data-v="colmillo">Un colmillo</button>
         <button type="button" class="chip" data-v="diente">No estoy seguro</button>
       </div>
+      <span class="gen-label">¿Es su primer diente… o el último?</span>
+      <div class="chips" id="gtramo">
+        <button type="button" class="chip" data-v="primero">Es el primero</button>
+        <button type="button" class="chip" data-v="ultimo">Es el último</button>
+        <button type="button" class="chip" data-v="ninguno">Ninguno de los dos</button>
+      </div>
       <p class="gen-err" id="genErr">Escribe al menos el nombre de tu peque.</p>
       <button type="button" class="btn-gold gen-go" onclick="makeLetter()">Crear la carta ✨</button>
     </div>
     <div class="gen-result" id="genResult">
       <div id="print-letter">
         <div class="letter-paper gen-paper">
+          <div class="l-head">
+            <img class="l-avatar" src="/avatar-carta.jpg" alt="Retrato del Ratoncito Pérez">
+            <div>
+              <div class="l-office-t">Oficina del Ratoncito Pérez</div>
+              <div class="l-office-s">Departamento de Dientes de Leche · desde 1894</div>
+            </div>
+          </div>
+          <div class="l-date" id="gDate"></div>
           <div class="l-greeting" id="gGreet"></div>
           <div class="l-body" id="gBody"></div>
-          <img class="l-stamp" id="gStamp" alt="Sello de la Oficina del Ratoncito Pérez">
-          <img class="l-sign" id="gSign" alt="Firma del Ratoncito Pérez">
+          <div class="l-close">Con bigotes y cariño,</div>
+          <img class="l-stamp" id="gStamp" src="/assets/img/carta-sello-oficina.png" alt="Sello de la Oficina del Ratoncito Pérez">
+          <img class="l-sign" id="gSign" src="/assets/img/carta-firma.png" alt="Firma del Ratoncito Pérez">
         </div>
       </div>
       <div class="gen-actions">
