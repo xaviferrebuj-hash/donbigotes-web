@@ -4,7 +4,7 @@ Cambia el nombre, el diente y los detalles que quieras. Crea una carta del Raton
 
 Sin registro · Lista en 1 minuto · Gratis
 
-La carta cambia según la edad de tu peque: con 3-4 años es corta y llena de dibujos; a partir de 7, la carta clásica de la Oficina.
+La carta cambia según la edad de tu peque: con 3-4 años es corta y llena de dibujos; a partir de 7, la carta «Tejados», con un mensaje en clave.
 
 La carta editable del Ratoncito Pérez de donbigotes.app es gratis: escribes el nombre de tu peque, eliges el diente y los detalles, y en dos minutos tienes la carta lista para imprimir o guardar en PDF, sin registro ni descargas. También vale si en tu casa lo llamáis Ratón Pérez o Ratón de los Dientes.
 
@@ -50,6 +50,8 @@ Don Bigotes crea la carta del Ratoncito Pérez personalizada al instante.
 
 Imprímela o guárdala en PDF y déjala lista para la noche del diente.
 
+¿Qué carta le va a su edad? [Así cambia la carta del Ratoncito Pérez según la edad](https://donbigotes.app/carta-ratoncito-perez-segun-edad/).
+
 ## Ya disponible en Google Play y App Store
 
 El Pack Mágico completo, 4,99 € en un único pago, en Android y en iPhone.
@@ -62,7 +64,7 @@ Sí. Con Don Bigotes editas el nombre de tu peque, el diente y los detalles ante
 
 **¿Qué puedo personalizar en la carta?**
 
-El nombre del niño o niña, qué diente se le ha caído y el tono del mensaje. La carta se genera con el sello de la Oficina del Ratón Pérez.
+El nombre del niño o niña, su edad (3-4, 5-6 o 7 o más) y qué diente se le ha caído. La carta sale al momento, con el sello de la Oficina del Ratón Pérez.
 
 **¿La carta editable es gratis?**
 
@@ -70,7 +72,7 @@ Sí. La carta personalizada es gratuita. La nota de voz, el fotomontaje y el dip
 
 **¿Cómo edito la carta del Ratoncito Pérez?**
 
-Rellenas el nombre y los datos del diente, revisas el texto y la app genera la carta al instante, lista para imprimir o guardar en PDF.
+Escribes el nombre, eliges su edad y qué diente se le ha caído, y la carta sale al momento, lista para imprimir o guardar en PDF.
 
 **¿Hay carta del Ratón de los Dientes para imprimir?**
 

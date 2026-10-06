@@ -6,7 +6,7 @@ así que además de es / es-419 / x-default cada pareja declara los 20 países
 hispanohablantes de América apuntando a la versión LATAM.
 
 Uso:
-  python3 tools/hreflang.py            reescribe el bloque en las 24 páginas
+  python3 tools/hreflang.py            reescribe el bloque en las 32 páginas
   python3 tools/hreflang.py --check    solo comprueba (sale con 1 si algo falla)
 
 Pareja nueva: añadirla a PAREJAS (ruta España, ruta LATAM) y ejecutar.
@@ -34,6 +34,10 @@ PAREJAS = [
     ("ultimo-diente/", "es-419/ultimo-diente/"),
     ("cuento-ratoncito-perez/", "es-419/cuento-raton-perez/"),
     ("firma-sello-raton-perez/", "es-419/firma-sello-raton-perez/"),
+    ("editable/", "es-419/editable/"),
+    ("foto-raton-perez/", "es-419/foto-raton-perez/"),
+    ("fotomontaje-ratoncito-perez/", "es-419/fotomontaje-raton-perez/"),
+    ("carta-ratoncito-perez-segun-edad/", "es-419/carta-raton-perez-segun-edad/"),
 ]
 
 PAISES = ["MX", "AR", "CO", "CL", "PE", "VE", "EC", "GT", "CU", "BO",

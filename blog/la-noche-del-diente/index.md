@@ -26,7 +26,7 @@ Tres cosas la separan de las plantillas de siempre. La carta es gratis y no pide
 
 ## Cómo se hace la carta, paso a paso
 
-- Escribes su nombre y un par de detalles. Qué diente se le ha caído (palita de arriba, muela, colmillo), si es el primero o el último, y una cosa que hace especialmente bien.
+- Escribes su nombre y un par de detalles. Su edad, qué diente se le ha caído (paleta de arriba, muela, colmillo) y si es el primero o el último.
 
 - La carta se escribe sola. En cuestión de segundos aparece redactada en primera persona, con su nombre dentro del texto y la hazaña concreta de esa noche.
 

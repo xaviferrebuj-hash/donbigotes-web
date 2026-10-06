@@ -30,6 +30,8 @@ Generamos al momento una carta personalizada con el sello de la Oficina.
 
 La imprimes para dejarla bajo la almohada o la guardas en PDF.
 
+¿Qué carta va con su edad? [Así cambia la carta del Ratón Pérez según la edad](https://donbigotes.app/es-419/carta-raton-perez-segun-edad/).
+
 ## ¿Qué diente se cayó?
 
 Junto a la carta pueden imprimir la [hoja del diario de dientes](https://donbigotes.app/es-419/diario-dientes-de-leche/#hoja-diario): un A4 gratis para ir apuntando los 20 dientes, sin dejar su correo.
@@ -72,7 +74,7 @@ En donbigotes.app: escribes el nombre, se genera la carta y la imprimes o guarda
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratón Pérez».
 
-[App del Ratón Pérez](https://donbigotes.app/es-419/app-raton-perez/) [Diario de dientes gratis](https://donbigotes.app/es-419/diario-dientes-de-leche/) · [Comparativa de apps](https://donbigotes.app/es-419/comparativa-apps-ratoncito-perez/) · [Video del Ratón Pérez](https://donbigotes.app/video-raton-perez/) · [Foto del Ratón Pérez](https://donbigotes.app/foto-raton-perez/) · [Voz del Ratón Pérez](https://donbigotes.app/voz-raton-perez/) · [El viaje del diente](https://donbigotes.app/viaje-del-diente/) · [Historia del Ratón Pérez](https://donbigotes.app/historia-raton-perez/) · [Certificado del Ratón Pérez](https://donbigotes.app/es-419/certificado-raton-perez/) · [Firma y sello del Ratón Pérez](https://donbigotes.app/es-419/firma-sello-raton-perez/) · [Cuento del Ratón Pérez](https://donbigotes.app/es-419/cuento-raton-perez/) · [Blog](https://donbigotes.app/blog/)
+[App del Ratón Pérez](https://donbigotes.app/es-419/app-raton-perez/) [Diario de dientes gratis](https://donbigotes.app/es-419/diario-dientes-de-leche/) · [Comparativa de apps](https://donbigotes.app/es-419/comparativa-apps-ratoncito-perez/) · [Video del Ratón Pérez](https://donbigotes.app/video-raton-perez/) · [Foto del Ratón Pérez](https://donbigotes.app/es-419/foto-raton-perez/) · [Voz del Ratón Pérez](https://donbigotes.app/voz-raton-perez/) · [El viaje del diente](https://donbigotes.app/viaje-del-diente/) · [Historia del Ratón Pérez](https://donbigotes.app/historia-raton-perez/) · [Certificado del Ratón Pérez](https://donbigotes.app/es-419/certificado-raton-perez/) · [Firma y sello del Ratón Pérez](https://donbigotes.app/es-419/firma-sello-raton-perez/) · [Cuento del Ratón Pérez](https://donbigotes.app/es-419/cuento-raton-perez/) · [Blog](https://donbigotes.app/blog/)
 
 © 2026 Don Bigotes · [donbigotes.app](https://donbigotes.app/es-419/)
 
