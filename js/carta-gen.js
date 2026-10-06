@@ -3,9 +3,9 @@
    estaba duplicado inline en cada una. Dos modos, según los chips que tenga la página:
 
    - simple    (/editable/, primer-diente, ultimo-diente, el-ratoncito-perez-existe
-                y sus hermanas /es-419/): nombre + sexo + diente, carta de un párrafo.
-   - completo  (las dos home): añade #gtramo y #grasgo, la fecha «Desde mi ratonera»,
-                los diminutivos por diente y la carta de varios párrafos.
+                y sus hermanas /es-419/): nombre + sexo + diente.
+   - completo  (las dos home): añade #gtramo y #grasgo y la fecha «Desde mi ratonera».
+   La carta sale según la edad: 3-4, 5-6 o la de 7 o más «Tejados», como en la app.
 
    El idioma sale de <html lang>: «es-419» usa la variante LATAM de los textos.
    Se carga con `defer`, así que corre con el DOM ya montado. Es el primero de los
@@ -44,32 +44,10 @@
   };
   function elDiente(v) { return DIENTES[v || 'diente'] || DIENTES.diente; }
 
-  var RASGOS = {
-    'valiente': ES419
-      ? 'Mis ayudantes ya me habían contado lo valiente que eres, y esta noche lo vi con mis propios ojos: ni una pizca de miedo.'
-      : 'Mis ayudantes ya me habían contado lo valiente que eres, y esta noche lo he visto con mis propios ojos: ni una pizca de miedo.',
-    'cuida-dientes': 'Se nota de lejos que cuidas mucho tus dientes: el que me llevo esta noche brilla como las perlas más finas de mi colección.',
-    'sonrisa': 'Y qué sonrisa tan preciosa tienes; en mi Oficina llevan días sin hablar de otra cosa.',
-    'ayuda-casa': 'También sé que ayudas muchísimo en casa, y eso, en mi gran libro de dientes, vale tanto como el diente más blanco.',
-    'dormilon': ES419
-      ? 'Como me dijeron que te encanta dormir, trabajé de puntitas y en silencio para no despertarte.'
-      : 'Como me han dicho que te encanta dormir, he trabajado de puntillas y en silencio para no despertarte.',
-    'risueno': 'Dicen que tu risa se oye hasta en mi ratonera, y te aseguro que es la música que más nos gusta a los ratones.',
-    'curioso': 'Sé que te gusta preguntarlo todo, como a los ratones sabios, así que te lo confirmo por escrito: tu diente queda en muy buenas patas.',
-    'abrazos': ES419
-      ? 'Y sé que repartes abrazos como nadie; yo guardaré tu diente con ese mismo cariño.'
-      : 'Y me consta que repartes abrazos como nadie; yo guardaré tu diente con ese mismo cariño.'
-  };
-
-  var TRAMOS = {
-    primero: ES419
-      ? 'Y déjame decirte algo importante: este es tu PRIMER diente, y los primeros son los más especiales de toda mi colección. Este lo guardaré en un lugar de honor.'
-      : 'Y déjame que te diga una cosa importante: este es tu PRIMER diente, y los primeros son los más especiales de toda mi colección. Este lo guardaré en un lugar de honor.',
-    ultimo: ES419
-      ? 'Y qué momento tan solemne: es tu ÚLTIMO diente de leche. Toda mi Oficina se puso elegante para despedirlo como se merece, y tu nombre quedará escrito con letras doradas en mi gran libro de dientes.'
-      : 'Y qué momento tan solemne: es tu ÚLTIMO diente de leche. Toda mi Oficina se ha puesto elegante para despedirlo como se merece, y tu nombre quedará escrito con letras doradas en mi gran libro de dientes.',
-    ninguno: ''
-  };
+  /* En las home, el chip «Es el primero» añade esta frase a la carta de 7 o más. */
+  var PRIMERO_79 = ES419
+    ? 'Y déjame decirte algo importante: este es tu PRIMER diente, y los primeros son los más especiales de toda mi colección. Este lo guardaré en un lugar de honor.'
+    : 'Y déjame que te diga una cosa importante: este es tu PRIMER diente, y los primeros son los más especiales de toda mi colección. Este lo guardaré en un lugar de honor.';
 
   /* Cartas de 3-4 y 5-6: las mismas que escribe la app (docs/CARTAS-EDAD.md §4).
      Son más cortas, sin frases de rasgos, y el saludo es siempre «¡Hola, X!».
@@ -108,6 +86,42 @@
       p[0] = 'Es tu primer diente, y por eso esta carta también es la primera. Lo guardo en la caja de los dientes más especiales de la Oficina.';
     }
     return p;
+  }
+  /* Carta de 7 o más, «Tejados»: el texto de la app (ratoncito_app/docs/CARTA-7-9-TEJADOS.md
+     §2), con el diente que marque el padre. En es-419, el texto aprobado por Xavi el 6-oct. */
+  function cuerpo79(n) {
+    var d = elDiente(GEN.diente);
+    var p = ES419 ? [
+      'Esta noche vine de puntitas hasta tu almohada y encontré tu ' + d.nombre + '. ¡Qué tesoro! Ya viaja en mi saquito hacia la Oficina, de tejado en tejado.',
+      'Ya sabes que detrás de cada diente que se cae sale uno nuevo y más fuerte. Cuídalo mucho: lávate los dientes todas las mañanas y todas las noches, que la próxima vez que pase por aquí quiero encontrarme una sonrisa reluciente.',
+      'Como ya lees de corrido, te dejé un mensaje en clave al pie de la carta. Cada número es una letra; la clave está justo abajo.',
+      'Gracias por dejarme tu diente, ' + n + '. Esta vieja Oficina te tiene entre sus personas favoritas.'
+    ] : [
+      'Esta noche he venido de puntillas hasta tu almohada y he encontrado tu ' + d.nombre + '. ¡Qué tesoro! Ya viaja en mi saquito hacia la Oficina, de tejado en tejado.',
+      'Ya sabes que detrás de cada diente que se cae asoma uno nuevo y más fuerte. Cuídalo mucho: cepíllate cada mañana y cada noche, que la próxima vez que pase por aquí quiero encontrarme una sonrisa reluciente.',
+      'Como ya lees de corrido, te he dejado un mensaje en clave al pie de la carta. Cada número es una letra; la clave está justo debajo.',
+      'Gracias por dejarme tu diente, ' + n + '. Esta vieja Oficina te tiene entre sus personas favoritas.'
+    ];
+    if (GEN.tramo === 'primero') p[0] += ' ' + PRIMERO_79;
+    return p;
+  }
+
+  /* Mensaje en clave de la carta de 7 o más, como en la app (catalogo_mensajes_clave.dart):
+     alfabeto de 27 letras con Ñ (A=1 … N=14, Ñ=15, O=16 … Z=27). La app elige el mensaje
+     por los dientes que lleva el peque; la web no lo sabe y saca siempre el primero. */
+  var ALFABETO = 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZ';
+  var MENSAJE_CLAVE = 'ERES MUY VALIENTE';
+  function htmlClave() {
+    var msg = MENSAJE_CLAVE.split(' ').map(function (pal) {
+      return '<span class="tj-pal">' + pal.split('').map(function (l) {
+        return '<span class="tj-n">' + (ALFABETO.indexOf(l) + 1) + '</span>';
+      }).join('') + '</span>';
+    }).join('');
+    var tabla = ALFABETO.split('').map(function (l, i) {
+      return '<span class="tj-k"><b>' + l + '</b>' + (i + 1) + '</span>';
+    }).join('');
+    return '<p class="tj-clave-t">Mensaje en clave</p><div class="tj-msg">' + msg + '</div>' +
+      '<div class="tj-tabla">' + tabla + '</div>';
   }
 
   /* Cuando el diente es el último, la carta se despide en vez de contar el viaje.
@@ -259,42 +273,8 @@
 
   /* ----------------------------------------------------------- la carta */
 
-  function saludo(n) {
-    var sexo = GEN.sexo || 'neutro';
-    return sexo === 'nino' ? 'Querido ' + n + ',' : (sexo === 'nina' ? 'Querida ' + n + ',' : '¡Hola, ' + n + '!');
-  }
-
-  /* Carta larga de las home: varios párrafos, con diminutivos y rasgo opcional. */
-  function cuerpoCompleto() {
-    var d = elDiente(GEN.diente);
-    var tramo = TRAMOS[GEN.tramo || 'ninguno'] || '';
-    var p1 = ES419
-      ? 'Esta noche vine de puntitas hasta tu almohada y encontré ' + d.txt + '. ¡Qué tesoro! ' + d.pron + ' envolví con mucho cuidado y ya viaja en mi saquito hacia mi Oficina, donde brillará junto a los dientes más bonitos del mundo.'
-      : 'Esta noche he venido de puntillas hasta tu almohada y he encontrado ' + d.txt + '. ¡Qué tesoro! ' + d.pron + ' he envuelto con mucho cuidado y ya viaja en mi saquito hacia mi Oficina, donde brillará junto a los dientes más bonitos del mundo.';
-    if (tramo) p1 += ' ' + tramo;
-    return [
-      p1,
-      GEN.rasgo && RASGOS[GEN.rasgo] ? RASGOS[GEN.rasgo] : '',
-      ES419
-        ? 'Ya sabes que detrás de cada diente que se cae asoma uno nuevo y más fuerte. Cuídalo mucho: cepíllate cada mañana y cada noche, porque la próxima vez que pase por aquí quiero encontrarme una sonrisa reluciente.'
-        : 'Ya sabes que detrás de cada diente que se cae asoma uno nuevo y más fuerte. Cuídalo mucho: cepíllate cada mañana y cada noche, que la próxima vez que pase por aquí quiero encontrarme una sonrisa reluciente.',
-      'Gracias por dejarme ' + d.txt + '. Esta vieja Oficina te tiene entre sus personas favoritas.'
-    ];
-  }
-
-  /* Carta corta del resto de páginas: un solo párrafo. */
-  function cuerpoSimple() {
-    var sexo = GEN.sexo || 'neutro';
-    var peq = sexo === 'nino' ? ', pequeño' : (sexo === 'nina' ? ', pequeña' : '');
-    var tooth = elDiente(GEN.diente).llano;
-    return [ES419
-      ? '¡Fuiste muy valiente! Anoche pasé por tu almohada y recogí ' + tooth + ' con muchísimo cuidado. Ahora está a salvo en mi casita, junto a otros dientes muy especiales. Te dejé un poquito de magia a cambio. Sigue cuidando esa sonrisa tan bonita' + peq + '… ¡Nos vemos en la próxima!'
-      : '¡Has sido muy valiente! Anoche pasé por tu almohada y recogí ' + tooth + ' con muchísimo cuidado. Ahora está a salvo en mi casita, junto a otros dientes muy especiales. Te he dejado un poquito de magia a cambio. Sigue cuidando esa sonrisa tan bonita' + peq + '… ¡Nos vemos en la próxima!'];
-  }
-
-  /* «Con bigotes y cariño,» va encima de la firma en las cartas de 3-4 y 5-6,
-     donde firma y sello fluyen con el texto en vez de ir pegados al fondo.
-     El CSS lo esconde en 7 o más, que conserva su maquetación de siempre. */
+  /* «Con bigotes y cariño,» va encima de la firma, que fluye con el texto en vez de
+     ir pegada al fondo (estilos en /assets/carta-gen.css). */
   function ponCierre(papel) {
     /* Las home ya traen el suyo en el HTML (.l-close), en este mismo sitio: si
        está, se usa ese y no se crea otro. */
@@ -306,6 +286,49 @@
       c.textContent = 'Con bigotes y cariño,';
       papel.insertBefore(c, papel.querySelector('.l-stamp'));
     }
+  }
+
+  /* Las piezas de la carta de 7 o más: franja de tejados, mensaje en clave y, al pie, la
+     rosa de los vientos y la Oficina. Se crean la primera vez y se quedan; el CSS las
+     esconde en 3-4 y 5-6 (clase .tj). Cabecera y fecha, solo donde la página no las trae
+     (las home sí). Ancho y alto en las <img> para que la carta mida lo mismo antes de que
+     carguen: ajustaHoja() la mide al crearla. */
+  var PIEZAS = '/assets/img/carta/79/';
+  function pieza(clase, archivo, ancho, alto) {
+    var im = doc.createElement('img');
+    im.className = clase;
+    im.src = PIEZAS + archivo;
+    im.width = ancho;
+    im.height = alto;
+    im.alt = '';
+    return im;
+  }
+  function ponTejados(papel) {
+    if (papel.querySelector('.tj-franja')) return;
+    var saludo = $('gGreet');
+    papel.insertBefore(pieza('tj tj-franja', 'franja.webp', 1800, 456), papel.firstChild);
+    if (!papel.querySelector('.l-head')) {
+      var cab = doc.createElement('div');
+      cab.className = 'tj l-head';
+      cab.innerHTML = '<img class="l-avatar" src="/avatar-carta.jpg" width="104" height="104" alt="Retrato del ' + RATON + '">' +
+        '<div><div class="l-office-t">Oficina del ' + RATON + '</div>' +
+        '<div class="l-office-s">Departamento de Dientes de Leche · desde 1894</div></div>';
+      papel.insertBefore(cab, saludo);
+    }
+    if (!papel.querySelector('.l-date')) {
+      var fecha = doc.createElement('div');
+      fecha.className = 'tj l-date';
+      papel.insertBefore(fecha, saludo);
+    }
+    var clave = doc.createElement('div');
+    clave.className = 'tj tj-clave';
+    clave.innerHTML = htmlClave();
+    papel.insertBefore(clave, $('gBody').nextSibling);
+    var pie = doc.createElement('div');
+    pie.className = 'tj tj-pie';
+    pie.appendChild(pieza('tj-rosa', 'rosa.webp', 160, 173));
+    pie.appendChild(pieza('tj-oficina', 'oficina.webp', 640, 323));
+    papel.appendChild(pie);
   }
 
   function pintaCuerpo(parrafos) {
@@ -338,20 +361,29 @@
     var edad = GEN.edad || 't56';
 
     if (COMPLETO) $('gDate').textContent = fechaRatonera();
-    /* En 3-4 y 5-6 el saludo no lleva género: los textos ya lo evitan. */
-    $('gGreet').textContent = edad === 't79' ? saludo(n) : ('¡Hola, ' + n + '!');
-    /* En 7 o más, las home ya tienen su propia carta de último diente: se queda la suya. */
+    /* El saludo no lleva género: los textos ya lo evitan. En 7 o más, el nombre va en rojo. */
+    var greet = $('gGreet');
+    greet.textContent = '¡Hola, ' + n + '!';
+    if (edad === 't79') {
+      greet.textContent = '¡Hola, ';
+      var rojo = doc.createElement('span');
+      rojo.className = 'tj-nombre';
+      rojo.textContent = n + '!';
+      greet.appendChild(rojo);
+    }
     var adios = esDespedida();
-    pintaCuerpo(edad === 't79'
-      ? (COMPLETO ? cuerpoCompleto() : (adios ? despedida('t79') : cuerpoSimple()))
-      : (adios ? despedida(edad) : (edad === 't34' ? cuerpo34(n) : cuerpo56(n))));
+    pintaCuerpo(adios ? despedida(edad)
+      : (edad === 't34' ? cuerpo34(n) : (edad === 't79' ? cuerpo79(n) : cuerpo56(n))));
     /* El papel cambia con la edad: los estilos están en /assets/carta-gen.css. */
     var papel = $('genResult').querySelector('.letter-paper');
     papel.classList.remove('edad-t34', 'edad-t56', 'edad-t79');
     papel.classList.add('edad-' + edad);
-    /* En 7 o más el cierre solo sale en la carta de despedida: la normal ya se
-       despide dentro del texto. */
+    /* La carta de despedida de 7 o más no lleva el mensaje en clave: su texto no lo anuncia. */
     papel.classList.toggle('ctx-adios', adios);
+    if (edad === 't79') {
+      ponTejados(papel);
+      papel.querySelector('.l-date').textContent = fechaRatonera();
+    }
     ponCierre(papel);
     $('gStamp').src = doc.querySelector('.l-stamp').src;
     $('gSign').src = doc.querySelector('.l-sign').src;

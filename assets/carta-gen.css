@@ -4,9 +4,9 @@
    - edad-t34 y edad-t56: papel crema, marco dorado fino y las piezas de la app
      (guirnalda arriba, Ratoncito a la derecha, carril de huellas, franja abajo),
      puestas como background-image para que sobrevivan a la impresión.
-   - edad-t79: la carta de siempre, con sus rayas. No lleva estilos aquí.
+   - edad-t79: la carta «Tejados» de la app (más abajo, «7 o más»).
 
-   Piezas en /assets/img/carta/34/ y /56/, copiadas de ratoncito_app/assets/carta/.
+   Piezas en /assets/img/carta/34/, /56/ y /79/, copiadas de ratoncito_app/assets/carta/.
    Los selectores llevan .gen-paper delante para ganar al <style> inline de cada
    página, que define .letter-paper y se carga después de esta hoja. */
 
@@ -188,28 +188,18 @@
 /* Cierre, firma y sello. Las dos imágenes llevan un velo gris claro que sobre este
    papel se ve como un recuadro: darken se queda con el trazo oscuro y deja pasar el
    papel donde la imagen es más clara que él.
-   En la carta clásica van pegados al fondo del papel; en 3-4 y 5-6 fluyen detrás del
-   texto —firma a la derecha bajo «Con bigotes y cariño,», sello a la izquierda a su
-   misma altura— y la franja queda por debajo, como en la app. */
+   En la carta de muestra de cada página van pegados al fondo del papel; en las del
+   generador fluyen detrás del texto —firma a la derecha bajo «Con bigotes y cariño,»,
+   sello a la izquierda a su misma altura— y las piezas de abajo quedan por debajo,
+   como en la app. */
 .l-cierre { display: none; }
-
-/* La carta clásica de 7 o más mantiene su maquetación, pero cuando es la de
-   despedida el cuerpo ya no termina en una fórmula: el cierre la pone aquí,
-   encima de la firma, que en este tramo sigue pegada al fondo del papel. */
-.gen-paper.edad-t79.ctx-adios .l-cierre {
-  display: block;
-  text-align: right;
-  margin-top: 18px;
-  padding-right: 12%;
-  font-family: 'Caveat', cursive;
-  font-size: 1.28rem;
-  color: #5A4A38;
-}
 
 .gen-paper.edad-t34 .l-cierre,
 .gen-paper.edad-t56 .l-cierre,
+.gen-paper.edad-t79 .l-cierre,
 .gen-paper.edad-t34 .l-close,
-.gen-paper.edad-t56 .l-close {
+.gen-paper.edad-t56 .l-close,
+.gen-paper.edad-t79 .l-close {
   display: block;
   float: right;
   clear: right;
@@ -221,7 +211,8 @@
 }
 
 .gen-paper.edad-t34 .l-sign,
-.gen-paper.edad-t56 .l-sign {
+.gen-paper.edad-t56 .l-sign,
+.gen-paper.edad-t79 .l-sign {
   position: static;
   float: right;
   clear: right;
@@ -234,7 +225,8 @@
   filter: brightness(1.08);
 }
 .gen-paper.edad-t34 .l-stamp,
-.gen-paper.edad-t56 .l-stamp {
+.gen-paper.edad-t56 .l-stamp,
+.gen-paper.edad-t79 .l-stamp {
   position: static;
   float: left;
   clear: left;
@@ -246,6 +238,196 @@
   mix-blend-mode: darken;
   filter: brightness(1.08);
 }
+
+/* ------------------------------------------------------------- 7 o más
+   «Tejados», como en la app (ratoncito_app/docs/CARTA-7-9-TEJADOS.md): franja de tejados
+   arriba, cabecera de la Oficina, mensaje en clave al pie del texto y, abajo, la rosa de
+   los vientos y la Oficina. Las piezas y el mensaje en clave los pone js/carta-gen.js
+   (elementos .tj), escondidos en 3-4 y 5-6. Son <img> y no fondos: salen al imprimir
+   aunque el navegador no imprima los fondos.
+   Las medidas van en variables: aquí, las de la maqueta móvil de la app; al imprimir (y en
+   .medida-impresion), las de la maqueta de papel, con la carta más ancha. */
+.gen-paper .tj { display: none; }
+
+.gen-paper.edad-t79 {
+  --tj-borde: 7px;
+  --tj-lado: 18px;
+  --tj-logo: 42px;
+  --tj-tit: 1rem;
+  --tj-sub: .64rem;
+  --tj-raya-cab: 12%;
+  --tj-fecha: .92rem;
+  --tj-saludo: clamp(1.6rem, 7.4vw, 1.95rem);
+  --tj-cuerpo: clamp(1.12rem, 4.9vw, 1.25rem);
+  --tj-ctit: .56rem;
+  --tj-celda: clamp(14px, 4.5vw, 18px);
+  --tj-num: clamp(.6rem, 2.75vw, .72rem);
+  --tj-hueco: 9px;
+  --tj-raya: 13px;
+  --tj-cols: 14;
+  --tj-letra: .72rem;
+  --tj-knum: .56rem;
+  --tj-oficina: 150px;
+  --tj-rosa: 37px;
+  --tj-fin: 10px;
+  background: #FBF7EC;
+  border: 1.5px solid #B9882F;
+  border-radius: 17px;
+  overflow: hidden;
+  padding: var(--tj-borde) var(--tj-lado) var(--tj-fin);
+  color: #2B2A3A;
+}
+.gen-paper.edad-t79::after { display: none; }
+.gen-paper.edad-t79 .tj { display: block; }
+
+.gen-paper.edad-t79 .tj-franja {
+  width: calc(100% + 2 * (var(--tj-lado) - var(--tj-borde)));
+  max-width: none;
+  height: auto;
+  margin: 0 calc(var(--tj-borde) - var(--tj-lado));
+}
+
+.gen-paper.edad-t79 .l-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 11px var(--tj-raya-cab) 0 0;
+  padding-bottom: 9px;
+  border-bottom: 1.5px solid #B9882F;
+}
+.gen-paper.edad-t79 .l-avatar {
+  flex: none;
+  width: var(--tj-logo);
+  height: var(--tj-logo);
+  border-radius: 50%;
+  object-fit: cover;
+}
+.gen-paper.edad-t79 .l-office-t {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 700;
+  font-size: var(--tj-tit);
+  line-height: 1.12;
+  color: #2F2B3A;
+  text-wrap: balance;
+}
+.gen-paper.edad-t79 .l-office-s {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: var(--tj-sub);
+  letter-spacing: 0;
+  text-transform: none;
+  line-height: 1.3;
+  color: #8C7B6B;
+  margin-top: 3px;
+  text-wrap: balance;
+}
+.gen-paper.edad-t79 .l-date {
+  font-family: 'Caveat', cursive;
+  font-weight: 500;
+  font-size: var(--tj-fecha);
+  text-align: right;
+  color: #8C7B6B;
+  margin: 6px 0 0;
+}
+.gen-paper.edad-t79 .l-greeting {
+  font-family: 'Caveat', cursive;
+  font-weight: 700;
+  font-size: var(--tj-saludo);
+  line-height: 1.1;
+  color: #2B2A3A;
+  margin: 8px 0 6px;
+}
+.gen-paper.edad-t79 .tj-nombre { color: #A8483A; }
+.gen-paper.edad-t79 .l-body {
+  font-family: 'Caveat', cursive;
+  font-weight: 500;
+  font-size: var(--tj-cuerpo);
+  line-height: 1.22;
+  color: #2B2A3A;
+}
+.gen-paper.edad-t79 .l-body p { margin: 0 0 .3em; }
+/* «Con bigotes y cariño,» acaba donde la firma, como en la maqueta. */
+.gen-paper.edad-t79 .l-cierre,
+.gen-paper.edad-t79 .l-close { text-align: right; padding-right: 10px; color: #2B2A3A; }
+
+/* Mensaje en clave: números con una raya debajo para escribir la letra, y la tabla de
+   la clave (en pantalla, 2 filas de 14 y 13; en papel, 1 fila de 27). */
+.gen-paper.edad-t79 .tj-clave {
+  margin: 6px -4px 0;
+  padding: 8px 8px 9px;
+  border: 1px solid #B9882F;
+  border-radius: 8px;
+}
+.gen-paper.edad-t79.ctx-adios .tj-clave { display: none; }
+.gen-paper.edad-t79 .tj-clave-t {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: var(--tj-ctit);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: #8C6A24;
+}
+.gen-paper.edad-t79 .tj-msg {
+  display: flex;
+  justify-content: center;
+  gap: var(--tj-hueco);
+  margin-top: 7px;
+}
+.gen-paper.edad-t79 .tj-pal { display: flex; }
+.gen-paper.edad-t79 .tj-n {
+  position: relative;
+  width: var(--tj-celda);
+  padding-bottom: var(--tj-raya);
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: var(--tj-num);
+  line-height: 1;
+  color: #2E3C8A;
+}
+.gen-paper.edad-t79 .tj-n::after {
+  content: "";
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  bottom: 0;
+  border-bottom: 1px solid #2B2A3A;
+}
+.gen-paper.edad-t79 .tj-tabla {
+  display: grid;
+  grid-template-columns: repeat(var(--tj-cols), 1fr);
+  gap: 3px 2px;
+  margin-top: 9px;
+}
+.gen-paper.edad-t79 .tj-k {
+  padding: 2px 0 3px;
+  border-radius: 3px;
+  background: #F4ECD8;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: var(--tj-knum);
+  line-height: 1.2;
+  color: #2E3C8A;
+}
+.gen-paper.edad-t79 .tj-k b {
+  display: block;
+  font-weight: 800;
+  font-size: var(--tj-letra);
+  color: #2B2A3A;
+}
+
+/* Abajo, bajo la firma: la rosa a la izquierda y la Oficina a la derecha, sobre la
+   misma línea. */
+.gen-paper.edad-t79 .tj-pie {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  clear: both;
+  margin: 8px -8px 0 -4px;
+}
+.gen-paper.edad-t79 .tj-rosa { width: var(--tj-rosa); height: auto; margin-bottom: 3px; }
+.gen-paper.edad-t79 .tj-oficina { width: var(--tj-oficina); height: auto; }
 
 /* Módulo del cuento tras la carta (lo crea js/carta-gen.js): tarjeta de papel
    entre la confirmación y el Pack, con el botón en azul noche para no competir
@@ -373,8 +555,37 @@
   .gen-paper.edad-t56 .l-body { font-size: 1.55rem; }
   .gen-paper.edad-t34 .l-cierre,
   .gen-paper.edad-t56 .l-cierre,
+  .gen-paper.edad-t79 .l-cierre,
   .gen-paper.edad-t34 .l-close,
-  .gen-paper.edad-t56 .l-close { font-size: 1.3rem; }
+  .gen-paper.edad-t56 .l-close,
+  .gen-paper.edad-t79 .l-close { font-size: 1.3rem; }
+  /* 7 o más: la maqueta de papel de la app, a 680 px de ancho (cabe en A4 y en Carta
+     con márgenes de 12,7 mm). Mismas medidas en .medida-impresion. */
+  .gen-paper.edad-t79 {
+    --tj-borde: 13px;
+    --tj-lado: 40px;
+    --tj-logo: 58px;
+    --tj-tit: 1.3rem;
+    --tj-sub: .66rem;
+    --tj-raya-cab: 36%;
+    --tj-fecha: 1.15rem;
+    --tj-saludo: 2.25rem;
+    --tj-cuerpo: 1.45rem;
+    --tj-ctit: .58rem;
+    --tj-celda: 27px;
+    --tj-num: .9rem;
+    --tj-hueco: 15px;
+    --tj-raya: 20px;
+    --tj-cols: 27;
+    --tj-letra: .68rem;
+    --tj-knum: .52rem;
+    --tj-oficina: 190px;
+    --tj-rosa: 56px;
+    --tj-fin: 14px;
+    max-width: 680px;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
   /* Una sola hoja con cualquier nombre: si la carta no cabe, se reduce lo justo.
      El factor lo calcula carta-gen.js (ajustaHoja) y lo deja en --ajuste. */
   #gen #print-letter .gen-paper { zoom: var(--ajuste, 1); }
@@ -402,8 +613,33 @@
 .medida-impresion .gen-paper.edad-t56 .l-body { font-size: 1.55rem; }
 .medida-impresion .gen-paper.edad-t34 .l-cierre,
 .medida-impresion .gen-paper.edad-t56 .l-cierre,
+.medida-impresion .gen-paper.edad-t79 .l-cierre,
 .medida-impresion .gen-paper.edad-t34 .l-close,
-.medida-impresion .gen-paper.edad-t56 .l-close { font-size: 1.3rem; }
+.medida-impresion .gen-paper.edad-t56 .l-close,
+.medida-impresion .gen-paper.edad-t79 .l-close { font-size: 1.3rem; }
+.medida-impresion .gen-paper.edad-t79 {
+  --tj-borde: 13px;
+  --tj-lado: 40px;
+  --tj-logo: 58px;
+  --tj-tit: 1.3rem;
+  --tj-sub: .66rem;
+  --tj-raya-cab: 36%;
+  --tj-fecha: 1.15rem;
+  --tj-saludo: 2.25rem;
+  --tj-cuerpo: 1.45rem;
+  --tj-ctit: .58rem;
+  --tj-celda: 27px;
+  --tj-num: .9rem;
+  --tj-hueco: 15px;
+  --tj-raya: 20px;
+  --tj-cols: 27;
+  --tj-letra: .68rem;
+  --tj-knum: .52rem;
+  --tj-oficina: 190px;
+  --tj-rosa: 56px;
+  --tj-fin: 14px;
+  max-width: 680px;
+}
 /* El retrato que el móvil estrecho esconde sí sale en el papel. */
 .medida-impresion .gen-paper.edad-t34 .l-head .l-avatar { display: block; }
 .medida-impresion .gen-paper.edad-t56 .l-head { margin-top: 30px; }
