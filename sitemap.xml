@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://donbigotes.app/</loc>
     <lastmod>2026-09-27</lastmod>
@@ -71,12 +71,14 @@
     <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image><image:loc>https://donbigotes.app/diploma-valentia.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://donbigotes.app/diploma-raton-perez/</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image><image:loc>https://donbigotes.app/diploma-valentia.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://donbigotes.app/descargas/carta-ratoncito-perez.pdf</loc>
@@ -137,6 +139,8 @@
     <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image><image:loc>https://donbigotes.app/descargas/sello-raton-perez.png</image:loc></image:image>
+    <image:image><image:loc>https://donbigotes.app/descargas/firma-raton-perez.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://donbigotes.app/descargas/sello-raton-perez.png</loc>
@@ -239,6 +243,7 @@
     <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image><image:loc>https://donbigotes.app/diploma-valentia-latam.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://donbigotes.app/es-419/diploma-raton-perez/</loc>
@@ -281,5 +286,7 @@
     <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image><image:loc>https://donbigotes.app/descargas/sello-raton-perez-latam.png</image:loc></image:image>
+    <image:image><image:loc>https://donbigotes.app/descargas/firma-raton-perez-latam.png</image:loc></image:image>
   </url>
 </urlset>
