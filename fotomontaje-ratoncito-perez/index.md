@@ -64,6 +64,8 @@ Sí. Es el mismo fotomontaje, se le llame Ratoncito Pérez, Ratón Pérez o Rat�
 
 La app se descarga gratis y el fotomontaje «¡Pillado!» forma parte del Pack Mágico: 4,99 € en un único pago. No hay que registrarse ni dejar datos para usarlo.
 
+¿Tu hijo te pregunta si el Ratoncito Pérez existe? [Qué contestarle según su edad](https://donbigotes.app/el-ratoncito-perez-existe/).
+
 Última actualización: 1 de septiembre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez».

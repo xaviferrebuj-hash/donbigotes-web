@@ -60,6 +60,8 @@ Sí, opcionalmente. La foto se procesa en tu propio móvil y no se envía a ning
 
 Sí, está pensado para imprimirse en A4 o mostrarse directamente en el móvil.
 
+¿Tu hijo te pregunta si el Ratoncito Pérez existe? [Qué contestarle según su edad](https://donbigotes.app/el-ratoncito-perez-existe/).
+
 ## Crea la experiencia completa en la app Don Bigotes
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
