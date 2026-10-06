@@ -34,6 +34,9 @@ PAREJAS = [
     ("ultimo-diente/", "es-419/ultimo-diente/"),
     ("cuento-ratoncito-perez/", "es-419/cuento-raton-perez/"),
     ("firma-sello-raton-perez/", "es-419/firma-sello-raton-perez/"),
+    ("editable/", "es-419/editable/"),
+    ("foto-raton-perez/", "es-419/foto-raton-perez/"),
+    ("fotomontaje-ratoncito-perez/", "es-419/fotomontaje-raton-perez/"),
 ]
 
 PAISES = ["MX", "AR", "CO", "CL", "PE", "VE", "EC", "GT", "CU", "BO",
