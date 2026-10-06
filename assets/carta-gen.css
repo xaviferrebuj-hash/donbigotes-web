@@ -478,6 +478,9 @@
 
 /* La × de cerrar, por encima de la carta: en móvil la carta la tapaba y no se podía cerrar. */
 .gen-close { z-index: 2; }
+/* El título del formulario acaba antes de la × (38 px a 16 px del borde; la caja tiene al
+   menos 24 px de relleno): en móvil, la × pisaba la última letra de «Ratoncito». */
+.gen-form h3 { padding-right: 32px; }
 /* En móvil la × caía sobre la oreja del Ratoncito de la franja de tejados (7 o más): la carta
    baja lo justo para que la × quede en el margen de encima. En escritorio la carta es más
    estrecha que la caja y no llega a la ×. No afecta a la impresión ni a la medida de la hoja. */
