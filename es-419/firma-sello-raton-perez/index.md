@@ -70,6 +70,8 @@ Sí: allí el personaje se conoce como Ratoncito Pérez, y su sello dice «Ofici
 
 Sí. En la [carta para imprimir](https://donbigotes.app/es-419/carta-para-imprimir/) y en la [app Don Bigotes](https://donbigotes.app/es-419/app-raton-perez/) la carta sale ya firmada y sellada, con el nombre de tu hijo.
 
+¿Tu hijo te pregunta si el Ratón Pérez existe? [Qué contestarle según su edad](https://donbigotes.app/es-419/el-ratoncito-perez-existe/).
+
 ## Crea la experiencia completa en la app Don Bigotes
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, en un único pago.

@@ -58,6 +58,8 @@ Sí. Está disponible en Google Play para Android y en la App Store para iPhone.
 
 No. Don Bigotes es una app independiente inspirada en la tradición popular del Ratoncito Pérez, con personajes y contenidos propios.
 
+¿Tu hijo te pregunta si el Ratoncito Pérez existe? [Qué contestarle según su edad](https://donbigotes.app/el-ratoncito-perez-existe/).
+
 ## Crea la experiencia completa en la app Don Bigotes
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.

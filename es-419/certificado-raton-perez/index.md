@@ -58,6 +58,8 @@ Sí, opcionalmente. La foto se procesa en su propio celular y no se envía a nin
 
 Sí, está pensado para imprimirse en A4 (o carta) o mostrarse directamente en el celular.
 
+¿Tu hijo te pregunta si el Ratón Pérez existe? [Qué contestarle según su edad](https://donbigotes.app/es-419/el-ratoncito-perez-existe/).
+
 ## Crea la experiencia completa en la app Don Bigotes
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, en un único pago.
