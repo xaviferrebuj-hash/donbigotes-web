@@ -76,7 +76,7 @@ Sí: allí el personaje se conoce como Ratoncito Pérez. La carta es la misma, c
 
 ## Que su último diente sea inolvidable
 
-Última actualización: 27 de septiembre de 2026
+Última actualización: 6 de octubre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratón Pérez». El personaje del Ratón Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 
