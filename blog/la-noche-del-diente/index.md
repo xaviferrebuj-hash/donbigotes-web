@@ -2,7 +2,7 @@
 
 El diente se cae a las ocho y media de la tarde, justo cuando ya no queda energía para inventar magia. Esto es lo que hace donbigotes.app en los dos minutos que tienes antes de que se apague la luz.
 
-Lectura de 5 minutos · Actualizado en agosto de 2026
+Lectura de 5 minutos · Actualizado en octubre de 2026
 
 Hay una escena que se repite en casi todas las casas con niños de entre cinco y ocho años. El diente lleva días bailando. Nadie sabe cuándo va a caer. Y cae, por supuesto, en el peor momento posible: durante la cena, un martes, cuando el cansancio ya ha ganado la partida.
 
