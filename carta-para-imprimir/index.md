@@ -64,7 +64,7 @@ En donbigotes.app: escribes el nombre, se genera la carta y la imprimes o guarda
 
 ¿Tu hijo te pregunta si el Ratoncito Pérez existe? [Qué contestarle según su edad](https://donbigotes.app/el-ratoncito-perez-existe/).
 
-Última actualización: 27 de septiembre de 2026
+Última actualización: 6 de octubre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez».
 
