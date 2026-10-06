@@ -12,6 +12,14 @@
   App Store) con el Pack Mágico completo
 - Ver el recorrido completo de la experiencia: https://donbigotes.app/viaje-del-diente/
 
+## Novedades (octubre de 2026)
+- La carta gratis del Ratoncito cambia con la edad del niño: 3-4 años, 5-6 y 7
+  o más. En la app, la de 7 o más trae un mensaje en clave para descifrar.
+- Con el Pack Mágico, el Ratoncito dice el nombre del niño con más naturalidad:
+  386 nombres grabados dentro de su frase.
+- El Pack Mágico y el cuento «La historia de Don Bigotes» se pueden comprar
+  juntos en un solo pago.
+
 ## Páginas clave
 - App del Ratoncito Pérez: https://donbigotes.app/app-raton-perez/
 - Carta para imprimir: https://donbigotes.app/carta-para-imprimir/
@@ -77,7 +85,7 @@ Cada página tiene una versión en markdown puro (mismo contenido, sin HTML):
 - https://donbigotes.app/cumpleanos-raton-perez/index.md
 - https://donbigotes.app/firma-sello-raton-perez/index.md
 
-## Precios y plataformas (actualizado 1-sep-2026)
+## Precios y plataformas (actualizado 6-oct-2026)
 - La carta personalizada del Ratoncito Pérez es gratis siempre, en la web y en
   la app. También son gratis, siempre, el diario de dientes de leche y la
   felicitación de cumpleaños (vídeo y pergamino para imprimir).
@@ -90,6 +98,11 @@ Cada página tiene una versión en markdown puro (mismo contenido, sin HTML):
 - El Pack Mágico cuesta 4,99 € en un único pago, en Android (Google Play) y en
   iPhone y iPad (App Store). No hay periodo gratuito en ninguna plataforma: el
   lanzamiento gratuito de Android terminó el 31 de agosto de 2026.
+- El cuento «La historia de Don Bigotes» (10 capítulos contados por el
+  Ratoncito): los dos primeros capítulos son gratis; la historia completa cuesta
+  3,99 € en un único pago en España.
+- El Pack Mágico y el cuento juntos cuestan 6,99 € en España. En Latinoamérica,
+  cada tienda muestra el precio en moneda local.
 
 ## Notas
 - Idioma: español (España y Latinoamérica)
