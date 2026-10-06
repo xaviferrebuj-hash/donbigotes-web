@@ -52,6 +52,8 @@ Don Bigotes crea la carta del Ratón Pérez personalizada al instante.
 
 Imprímela o guárdala en PDF y déjala lista para la noche del diente.
 
+¿Qué carta va con su edad? [Así cambia la carta del Ratón Pérez según la edad](https://donbigotes.app/es-419/carta-raton-perez-segun-edad/).
+
 ## Ya disponible en Google Play y App Store
 
 El Pack Mágico completo se paga una sola vez, al precio local de la tienda, en Android y en iPhone.

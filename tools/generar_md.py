@@ -31,6 +31,7 @@ PAGINAS = [
     "cuento-ratoncito-perez", "es-419/cuento-raton-perez",
     "es-419/firma-sello-raton-perez",
     "es-419/editable", "es-419/foto-raton-perez", "es-419/fotomontaje-raton-perez",
+    "carta-ratoncito-perez-segun-edad", "es-419/carta-raton-perez-segun-edad",
     "privacidad",
 ]
 

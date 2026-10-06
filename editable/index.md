@@ -50,6 +50,8 @@ Don Bigotes crea la carta del Ratoncito Pérez personalizada al instante.
 
 Imprímela o guárdala en PDF y déjala lista para la noche del diente.
 
+¿Qué carta le va a su edad? [Así cambia la carta del Ratoncito Pérez según la edad](https://donbigotes.app/carta-ratoncito-perez-segun-edad/).
+
 ## Ya disponible en Google Play y App Store
 
 El Pack Mágico completo, 4,99 € en un único pago, en Android y en iPhone.

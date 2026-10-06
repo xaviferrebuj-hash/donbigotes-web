@@ -32,6 +32,8 @@ Generamos al momento una carta personalizada con el sello de la Oficina.
 
 La imprimes para dejarla bajo la almohada o la guardas en PDF.
 
+¿Qué carta le va a su edad? [Así cambia la carta del Ratoncito Pérez según la edad](https://donbigotes.app/carta-ratoncito-perez-segun-edad/).
+
 ## ¿Qué diente se ha caído?
 
 Junto a la carta puedes imprimir la [hoja del diario de dientes](https://donbigotes.app/diario-dientes-de-leche/#hoja-diario): un A4 gratis para ir apuntando los 20 dientes, sin dejar tu correo.
