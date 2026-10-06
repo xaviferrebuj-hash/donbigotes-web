@@ -626,8 +626,8 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
       <p class="gen-sub">Personalízala con los datos de tu peque. Gratis y sin registro.</p>
       <label class="gen-label" for="gnombre">¿Cómo se llama?</label>
       <input id="gnombre" class="gen-input" type="text" maxlength="24" placeholder="Su nombre" autocomplete="off">
-      <span class="gen-label">¿Es niño o niña?</span>
-      <div class="chips" id="gsexo">
+      <span class="gen-label" hidden>¿Es niño o niña?</span>
+      <div class="chips" id="gsexo" hidden>
         <button type="button" class="chip" data-v="nina">Niña</button>
         <button type="button" class="chip" data-v="nino">Niño</button>
         <button type="button" class="chip" data-v="neutro">Prefiero no decirlo</button>
@@ -640,8 +640,8 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
       </div>
       <span class="gen-label">¿Qué diente se le ha caído?</span>
       <div class="chips" id="gdiente">
-        <button type="button" class="chip" data-v="palita de arriba">Palita de arriba</button>
-        <button type="button" class="chip" data-v="palita de abajo">Palita de abajo</button>
+        <button type="button" class="chip" data-v="paleta de arriba">Paleta de arriba</button>
+        <button type="button" class="chip" data-v="paleta de abajo">Paleta de abajo</button>
         <button type="button" class="chip" data-v="muela">Una muela</button>
         <button type="button" class="chip" data-v="colmillo">Un colmillo</button>
         <button type="button" class="chip" data-v="diente">No estoy seguro</button>
@@ -652,8 +652,8 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
         <button type="button" class="chip" data-v="ultimo">Es el último</button>
         <button type="button" class="chip" data-v="ninguno">Ninguno de los dos</button>
       </div>
-      <span class="gen-label">Una cosa que hace muy bien (opcional)</span>
-      <div class="chips" id="grasgo">
+      <span class="gen-label" hidden>Una cosa que hace muy bien (opcional)</span>
+      <div class="chips" id="grasgo" hidden>
         <button type="button" class="chip" data-v="valiente">Es muy valiente</button>
         <button type="button" class="chip" data-v="cuida-dientes">Cuida mucho sus dientes</button>
         <button type="button" class="chip" data-v="sonrisa">Tiene una sonrisa preciosa</button>

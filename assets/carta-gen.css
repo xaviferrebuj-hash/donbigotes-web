@@ -478,12 +478,23 @@
 
 /* La × de cerrar, por encima de la carta: en móvil la carta la tapaba y no se podía cerrar. */
 .gen-close { z-index: 2; }
+/* En móvil la × caía sobre la oreja del Ratoncito de la franja de tejados (7 o más): la carta
+   baja lo justo para que la × quede en el margen de encima. En escritorio la carta es más
+   estrecha que la caja y no llega a la ×. No afecta a la impresión ni a la medida de la hoja. */
+@media screen and (max-width: 600px) {
+  .gen-result .gen-paper.edad-t79 { margin-top: 32px; }
+}
 
 /* La carta entra desde abajo al crearla; botones y confirmación, un instante después. */
 .gen-result.show #print-letter { animation: carta-in 420ms cubic-bezier(.23, 1, .32, 1); }
 .gen-result.show .gen-actions,
 .gen-result.show .pc-ok { animation: carta-in 420ms cubic-bezier(.23, 1, .32, 1) 120ms backwards; }
 @keyframes carta-in { from { opacity: 0; transform: translateY(14px); } }
+
+/* «¿Es niño o niña?» y «Una cosa que hace muy bien» llevan hidden en el HTML: ninguna carta
+   los usa ya (decisión de Xavi, 6-oct-2026). Sin !important, el display de .chips y de
+   .gen-label (y el que pone carta-gen.js al rasgo en 7 o más) ganaría al hidden. */
+.gen-form [hidden] { display: none !important; }
 
 /* Sin nombre, el campo se pone en rojo y se sacude (carta-gen.js lo relanza en cada
    intento). En móvil pequeño el aviso de texto queda abajo, fuera de la pantalla. */

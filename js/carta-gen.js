@@ -30,9 +30,9 @@
   /* ---------------------------------------------------------------- textos */
 
   /* Las páginas no coinciden en el data-v de las paletas («palita» en unas,
-     «paleta» en otras): aquí valen las dos y el texto lo pone el idioma. */
-  var ARRIBA = ES419 ? 'paleta de arriba' : 'palita de arriba';
-  var ABAJO = ES419 ? 'paleta de abajo' : 'palita de abajo';
+     «paleta» en otras): aquí valen las dos y la carta dice «paleta», como la app. */
+  var ARRIBA = 'paleta de arriba';
+  var ABAJO = 'paleta de abajo';
   var DIENTES = {
     'palita de arriba': { txt: 'tu ' + ARRIBA, llano: 'tu ' + ARRIBA, nombre: ARRIBA, pron: 'La' },
     'paleta de arriba': { txt: 'tu paleta de arriba', llano: 'tu paleta de arriba', nombre: 'paleta de arriba', pron: 'La' },
