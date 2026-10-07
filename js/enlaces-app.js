@@ -224,6 +224,91 @@
     for (i = 0; i < apple.length; i++) {
       apple[i].addEventListener("click", avisarPlausibleAppStore);
     }
+
+    bandaAndroid();
+  }
+
+  /* --- Banda inferior para Android (7-oct-2026) ---
+     Solo en Android y fuera de las dos home. Se crea después de aplicar(), así
+     que su enlace a Play sale tal cual (utm_medium=banda), sin hl ni UTM de la
+     visita. Se esconde mientras el generador (#gen) está abierto y, si se
+     cierra con ✕, no vuelve a salir en 7 días (localStorage). */
+  var BANDA_CLAVE = "db_banda_android";
+  var BANDA_DIAS = 7;
+  var BANDA_PLAY = "https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Dweb%26utm_medium%3Dbanda%26utm_campaign%3D" +
+    (ES_419 ? "banda-android-419" : "banda-android");
+
+  function bandaCerradaHace() {
+    try {
+      var t = parseInt(window.localStorage.getItem(BANDA_CLAVE), 10);
+      return t ? Date.now() - t : Infinity;
+    } catch (e) { return Infinity; }
+  }
+
+  function bandaAndroid() {
+    if (!esAndroid()) return;
+    var ruta = window.location.pathname.replace(/index\.html$/, "");
+    if (ruta === "/" || ruta === "/es-419/") return;
+    if (bandaCerradaHace() < BANDA_DIAS * 864e5) return;
+
+    var css = document.createElement("style");
+    css.textContent =
+      ".banda-and{position:fixed;left:0;right:0;bottom:0;z-index:40;display:flex;align-items:center;gap:8px;" +
+      "box-sizing:content-box;padding:8px 10px 8px 4px;padding-bottom:calc(8px + env(safe-area-inset-bottom));" +
+      "background:#0B1437;border-top:1px solid rgba(242,193,78,.35);box-shadow:0 -6px 18px rgba(0,0,0,.28);" +
+      "font-family:'Nunito',system-ui,-apple-system,sans-serif;color:#fff}" +
+      ".banda-and[hidden]{display:none}" +
+      ".banda-and-x{flex:none;width:24px;height:36px;margin-right:-2px;border:0;background:none;color:#C7CEF0;font-size:14px;line-height:1;cursor:pointer;padding:0}" +
+      ".banda-and img{flex:none;width:36px;height:36px;border-radius:9px}" +
+      ".banda-and-t{flex:1;min-width:0;line-height:1.2}" +
+      ".banda-and-t b{display:block;font-size:13px;font-weight:800;white-space:nowrap}" +
+      ".banda-and-t span{display:block;font-size:11.5px;color:#C7CEF0}" +
+      ".banda-and-b{flex:none;padding:8px 12px;border-radius:999px;background:linear-gradient(180deg,#F2C14E,#E7B23B);" +
+      "color:#0B1437;font-weight:800;font-size:13px;text-decoration:none}" +
+      "@media(max-width:359px){.banda-and{gap:6px}.banda-and img{width:32px;height:32px}" +
+      ".banda-and-t b{font-size:11.5px}.banda-and-t span{font-size:10.5px}.banda-and-b{padding:7px 10px;font-size:12px}}";
+    document.head.appendChild(css);
+
+    var banda = document.createElement("div");
+    banda.className = "banda-and";
+    banda.setAttribute("role", "region");
+    banda.setAttribute("aria-label", "App Don Bigotes");
+    banda.innerHTML =
+      '<button type="button" class="banda-and-x" aria-label="Cerrar">&#10005;</button>' +
+      '<img src="/assets/img/logo-don-bigotes.jpg" width="40" height="40" alt="">' +
+      '<div class="banda-and-t"><b>Don Bigotes · ' + (ES_419 ? "Ratón Pérez" : "Ratoncito Pérez") + "</b>" +
+      "<span>Carta con su nombre y diario de dientes, gratis</span></div>" +
+      '<a class="banda-and-b" target="_blank" rel="noopener">Instalar</a>';
+    var boton = banda.querySelector(".banda-and-b");
+    boton.setAttribute("href", BANDA_PLAY);
+    boton.addEventListener("click", avisarPlausible);
+    document.body.appendChild(banda);
+
+    // Hueco al final de la página para que la banda no tape el último contenido.
+    var cuerpo = document.body;
+    var base = parseFloat(window.getComputedStyle(cuerpo).paddingBottom) || 0;
+    function hueco(visible) {
+      cuerpo.style.paddingBottom = visible ? (base + banda.offsetHeight) + "px" : "";
+    }
+    hueco(true);
+
+    // Con el generador abierto, fuera.
+    var gen = document.getElementById("gen");
+    if (gen && window.MutationObserver) {
+      var sincroniza = function () {
+        var abierto = gen.classList.contains("open");
+        banda.hidden = abierto;
+        hueco(!abierto);
+      };
+      new MutationObserver(sincroniza).observe(gen, { attributes: true, attributeFilter: ["class"] });
+      sincroniza();
+    }
+
+    banda.querySelector(".banda-and-x").addEventListener("click", function () {
+      try { window.localStorage.setItem(BANDA_CLAVE, String(Date.now())); } catch (e) { /* sin persistencia */ }
+      banda.parentNode.removeChild(banda);
+      hueco(false);
+    });
   }
 
   if (document.readyState === "loading") {
