@@ -26,7 +26,7 @@
      sin JavaScript. Los enlaces a App Store llevan pt/ct/mt con
      ct=<grupo> (se traspasan también a los enlaces que rellena este script).
      Desde el 7-oct-2026 el ct de las páginas web-contenido va por grupo:
-     web-imprimibles, web-419 o web-otras (utm_medium no cambia).
+     web-imprimibles, web-existe (desde el 8-oct), web-419 o web-otras (utm_medium no cambia).
    - Si la visita llega con parámetros utm_* (p. ej. desde un email
      de outreach), este script los guarda en sessionStorage y los
      reinyecta en TODOS los enlaces a Google Play como `&referrer=`
@@ -125,7 +125,7 @@
 
   // Atribución App Store (informe de campañas de App Store Connect): pt/ct/mt
   // viajan en el href del HTML de cada página (ct = grupo: web-producto,
-  // web-home, web-imprimibles, web-419 o web-otras). La URL base manda desde ENLACES; la consulta
+  // web-home, web-imprimibles, web-existe, web-419 o web-otras). La URL base manda desde ENLACES; la consulta
   // se traspasa del primer enlace a App Store de la página que la lleve.
   function conCampanaApple(url) {
     if (!/apps\.apple\.com\//i.test(url || "") || url.indexOf("?") !== -1) return url;

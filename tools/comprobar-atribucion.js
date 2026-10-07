@@ -15,7 +15,7 @@ const RAIZ = path.resolve(__dirname, "..");
 const CANALES = ["carta", "ampa", "dentista", "vendedor", "creadora", "web"];
 const GRUPOS_WEB = ["web-producto", "web-home", "web-contenido"];
 // ct por grupo de página desde el 7-oct-2026 (sustituyen a web-contenido en App Store).
-const CT_GRUPOS = ["web-imprimibles", "web-419", "web-otras", "web-postcarta", "web-postcarta-419"];
+const CT_GRUPOS = ["web-imprimibles", "web-existe", "web-419", "web-otras", "web-postcarta", "web-postcarta-419"];
 // utm_medium propios con utm_source=web: pantalla post-carta y banda Android (esta, en JS).
 const MEDIOS_WEB = ["postcarta", "banda"];
 const CT_VALIDOS = CANALES.concat(GRUPOS_WEB, CT_GRUPOS, ["otros"]);
