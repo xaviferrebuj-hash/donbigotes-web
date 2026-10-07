@@ -7,6 +7,15 @@
 
 ---
 
+## [W7] Medir los titles de octubre
+
+**TRIGGER: 5 de noviembre de 2026.** Medir los titles de octubre con la misma comparación de la
+sección 1 de `_docs/PROPUESTA-TITLES-OCT.md` (27-28 días antes y después del 8-oct, por página:
+impresiones, clics, CTR, posición). Firma y sello se mide en clics web + clics de imagen
+(Search Console, tipo «Imagen»).
+
+---
+
 ## [W6] Medir el bloque de crecimiento web del 7/8-oct
 
 **TRIGGER: 21 de octubre de 2026** (2 semanas, ≈ 85 cartas al ritmo de 6/día).
