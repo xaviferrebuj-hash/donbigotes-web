@@ -154,8 +154,8 @@
 
   /* -------------------------------------------------------------- overlay */
 
-  function openGen() {
-    plausible('Crear carta - clic');
+  function openGen(sinEvento) {
+    if (sinEvento !== true) plausible('Crear carta - clic');
     $('gen').classList.add('open');
     doc.body.style.overflow = 'hidden';
   }
@@ -607,6 +607,15 @@
   window.addEventListener('beforeprint', ajustaHoja);
   if (COMPLETO) { var heroDate = $('heroDate'); if (heroDate) heroDate.textContent = fechaRatonera(); }
   sincronizaRasgo();
+
+  /* Con #crear en la URL el generador sale ya abierto: es donde llevan los bloques «carta en
+     un minuto» de las imprimibles sin generador (8-oct-2026). Esas páginas ya mandaron
+     «Crear carta - clic» al pulsar, así que aquí no se repite. El #crear se quita para que
+     recargar o volver atrás no lo reabra. */
+  if (location.hash === '#crear') {
+    openGen(true);
+    try { history.replaceState(null, '', location.pathname + location.search); } catch (e) { /* sin history */ }
+  }
 
   /* Los llaman los onclick del HTML. */
   window.openGen = openGen;
