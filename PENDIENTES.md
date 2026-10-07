@@ -7,6 +7,25 @@
 
 ---
 
+## [W6] Medir el bloque de crecimiento web del 7/8-oct
+
+**TRIGGER: 21 de octubre de 2026** (2 semanas, ≈ 85 cartas al ritmo de 6/día).
+Qué cambió y la tabla de eventos/utm/ct: `_docs/CRECIMIENTO-WEB-7OCT.md`. Punto de partida
+(28 días hasta el 7-oct): 169 «Carta generada»; «Preview voz postcarta» 4, «Clic Play Store
+postcarta» 3, «Clic App Store postcarta» 0 (≤ 4 %); imprimibles ~290 visitantes y 0 clics a tienda.
+En plausible.io → donbigotes.app, del 8 al 21-oct:
+1. Post-carta: («Clic Play Store postcarta» + «Clic App Store postcarta») / «Carta generada».
+   Objetivo: claramente por encima del 4 %.
+2. Voz: «Preview voz postcarta» / «Carta generada» y «Muestra de voz» / «Preview» (cuántos
+   nombres están en el banco).
+3. Imprimibles: «Crear carta - clic» filtrando por las 8 páginas y sus es-419.
+4. Play Console → Adquisición → origen: `utm_medium=postcarta` y `utm_medium=banda`
+   (banda Android); App Store Connect → campañas: `web-postcarta(-419)`, `web-imprimibles`, `web-existe`.
+Alarma: «Carta generada» por debajo de la mitad de la semana anterior → revisar la post-carta
+y el `#crear` de la home (`js/carta-gen.js`).
+
+---
+
 ## [W5] Carta de 7 o más del generador web: diseño Tejados
 
 **TRIGGER: al publicar la versión de la app que incluye la carta 7-9 Tejados.**
