@@ -519,12 +519,10 @@
 .pc-pantalla .pc-cuento { margin-top: 20px; }
 
 /* Un nombre largo sin espacios («Maximilianoalejandro») se parte en vez de salirse por la
-   derecha, en la carta y en los textos de después que lo repiten. Con nombres normales no
+   derecha en la carta (la post-carta solo repite nombres del banco, que son cortos). Con nombres normales no
    cambia nada: solo actúa cuando una palabra no cabe en la línea. */
 .gen-paper .l-greeting,
-.gen-paper .l-body,
-.pc-ok-t,
-.pc-voz-l {
+.gen-paper .l-body {
   overflow-wrap: break-word;
   overflow-wrap: anywhere;
 }
@@ -541,10 +539,9 @@
   .gen-result .gen-paper.edad-t79 { margin-top: 32px; }
 }
 
-/* La carta entra desde abajo al crearla; botones y confirmación, un instante después. */
+/* La carta entra desde abajo al crearla; los botones, un instante después. */
 .gen-result.show #print-letter { animation: carta-in 420ms cubic-bezier(.23, 1, .32, 1); }
-.gen-result.show .gen-actions,
-.gen-result.show .pc-ok { animation: carta-in 420ms cubic-bezier(.23, 1, .32, 1) 120ms backwards; }
+.gen-result.show .gen-actions { animation: carta-in 420ms cubic-bezier(.23, 1, .32, 1) 120ms backwards; }
 @keyframes carta-in { from { opacity: 0; transform: translateY(14px); } }
 
 /* «¿Es niño o niña?» y «Una cosa que hace muy bien» llevan hidden en el HTML: ninguna carta
@@ -564,7 +561,6 @@
 @media (prefers-reduced-motion: reduce) {
   .gen-result.show #print-letter,
   .gen-result.show .gen-actions,
-  .gen-result.show .pc-ok,
   .gen-input.falta,
   .gen-input.falta:focus { animation: none; }
 }
