@@ -181,10 +181,11 @@
      del grupo del nombre, assets/audio/voz/g/NN.mp3 + NN.json (tools/sprites_voz.py). El
      grupo es FNV-1a de la clave normalizada, módulo 16, calculado aquí: la URL lleva el
      número de grupo y el nombre no sale del navegador. Nada se descarga hasta pulsar.
-     Descarga al pulsar con nombre: base-a + base-b-inicio + el grupo, 50-140 KB.
-     Nombre fuera del banco o error: la muestra genérica, con «cariño» en lugar del nombre
-     (las mismas palabras que los 4 primeros segundos de preview-pack.mp3). Sin Web Audio,
-     <audio> con esos 4 s de preview-pack.mp3. */
+     Descarga al pulsar con nombre: base-a + carino + base-b-inicio + el grupo, 71-143 KB.
+     Nombre fuera del banco: la muestra genérica, con «cariño» en lugar del nombre (las
+     mismas palabras que los 4 primeros segundos de preview-pack.mp3). Los trozos se
+     decodifican, se juntan en un WAV en memoria y suenan con el <audio> de la tarjeta (ver
+     wav()). Si no se puede decodificar o algo falla, esos 4 s de preview-pack.mp3. */
   var CLAVES_VOZ = ["aaron","abril","ada","adam","adara","aday","adrian","adriana","africa","aina","ainara","ainhoa","aitana","aitor","alan","alba","alberto","aleix","alejandra","alejandro","alex","alexia","alicia","alma","alonso","alvaro","amaia","amir","amira","ana","anas","ander","andrea","andres","angel","angela","anna","antonio","ariadna","arlet","arnau","aroa","asier","aurora","axel","aya","azahara","berta","biel","blanca","bruna","bruno","camila","candela","carla","carlos","carlota","carmen","carolina","cayetana","celia","chloe","clara","claudia","cloe","cristian","cristina","daniel","daniela","dario","david","diana","diego","dylan","elena","elia","elias","elisa","elsa","emma","enrique","enzo","eric","erik","erika","eva","fabio","fatima","fernando","francisco","gabriel","gabriela","gael","gala","gonzalo","greta","guillermo","hector","helena","hugo","ian","ignacio","iker","imran","india","ines","irene","iria","iris","isaac","isabel","isabella","ismael","ivan","izan","jaime","jan","jana","javier","jesus","jimena","joan","joel","jon","jorge","jose","juan","julen","julia","julieta","june","kai","laia","lara","laura","lautaro","leire","leo","leyre","lia","liam","lina","lola","luca","lucas","lucia","lucina","luis","luka","luna","macarena","maia","malak","manuel","manuela","mar","mara","marc","marco","marcos","maria","marina","mario","marta","marti","martin","martina","mateo","matias","mauro","max","mia","miguel","miguel-angel","milo","mireia","mohamed","nahia","naia","naiara","natalia","neizan","nerea","nico","nicolas","nil","noa","noah","noelia","nora","nour","nuria","oliver","olivia","omar","ona","oriol","oscar","pablo","paola","pau","paula","pedro","pol","rafael","raul","rayan","rocio","rodrigo","roger","ruben","salma","samuel","santiago","sara","saul","sergio","sira","sofia","teo","thiago","triana","unai","valentina","valeria","vega","vera","victor","victoria","violeta","xavi","yago","yasmin","youssef","zoe"];
   var RUTA_VOZ = '/assets/audio/voz/';
   var PC_SEG = 4;
@@ -193,8 +194,9 @@
     ? { nombre: 'Toca y escucha al Ratón Pérez decir «%».', generica: 'Toca y escucha una muestra del Ratón Pérez.' }
     : { nombre: 'Pulsa y escucha al Ratoncito decir «%».', generica: 'Pulsa y escucha una muestra del Ratoncito.' };
   var pcM = $('pcMuestra'), pcE = $('pcEscuchar'), pcS = $('pcVozS');
-  var AC = window.AudioContext || window.webkitAudioContext;
-  var pcCtx = null, pcBasesP = null, pcGrupos = {}, pcFuentes = [], pcVoz = null;
+  var OAC = window.OfflineAudioContext || window.webkitOfflineAudioContext;
+  var SR = 48000;
+  var pcBasesP = null, pcGrupos = {}, pcVoz = null;
 
   /* Clave del nombre, como muestra-voz.js: minúsculas, sin acentos, espacios → guion. */
   function normalizar(nombre) {
@@ -227,10 +229,7 @@
   }
 
   function pcParar() {
-    pcFuentes.forEach(function (s) { try { s.onended = null; s.stop(); } catch (e) { /* ya parada */ } });
-    pcFuentes = [];
     if (pcM && !pcM.paused) pcM.pause();
-    if (pcM && pcM.getAttribute('src')) pcM.currentTime = 0;
     if (pcE) pcE.classList.remove('sonando');
   }
 
@@ -240,10 +239,13 @@
       return json ? r.json() : r.arrayBuffer();
     });
   }
+  /* Se decodifica con un contexto sin salida (no hace falta desbloquearlo) a 48 kHz. */
+  var DEC = null;
   function decodificar(datos) {
+    if (!DEC) DEC = new OAC(1, 1, SR);
     return new Promise(function (ok, ko) {
       var r;
-      try { r = pcCtx.decodeAudioData(datos, ok, ko); } catch (e) { ko(e); return; } /* callbacks: Safari antiguo */
+      try { r = DEC.decodeAudioData(datos, ok, ko); } catch (e) { ko(e); return; } /* callbacks: Safari antiguo */
       if (r && typeof r.then === 'function') r.then(ok, ko);
     });
   }
@@ -265,85 +267,79 @@
     return pcGrupos[g];
   }
 
-  /* iPhone/iPad: el contexto se crea y se reanuda dentro del clic, con un buffer mudo de
-     una muestra; si no, tras la descarga asíncrona no suena (como en muestra-voz.js). */
-  function desbloquear() {
-    if (!pcCtx) {
-      pcCtx = new AC();
-      pcCtx.onstatechange = function () {
-        if (pcFuentes.length && (pcCtx.state === 'interrupted' || pcCtx.state === 'suspended')) pcCtx.resume();
-      };
-    }
-    try { pcCtx.resume(); } catch (e) { /* seguimos */ }
-    try {
-      var src = pcCtx.createBufferSource();
-      src.buffer = pcCtx.createBuffer(1, 1, pcCtx.sampleRate);
-      src.connect(pcCtx.destination);
-      src.start(0);
-    } catch (e) { /* solo es un empujón */ }
-  }
-
-  /* «Hola,» + nombre (o «cariño») + «¡Shhh! Acércate, que te cuento un secreto.», cada
-     pieza donde acaba la anterior. */
-  function montar(b, medio) {
-    var t = pcCtx.currentTime + 0.05, ultima = null;
-    [{ buffer: b.a }, medio, { buffer: b.b }].forEach(function (p) {
-      var src = pcCtx.createBufferSource();
-      src.buffer = p.buffer;
-      src.connect(pcCtx.destination);
-      var dur = p.dur !== undefined ? p.dur : p.buffer.duration;
-      if (p.offset !== undefined) src.start(t, p.offset, dur); else src.start(t);
-      pcFuentes.push(src);
-      ultima = src;
-      t += dur;
+  /* WAV mono de 16 bits con los trozos [buffer, desde (s), duración (s)] uno detrás de otro.
+     Suena con <audio> y no con Web Audio: en iPhone, Web Audio se calla con el interruptor
+     de silencio y tras una descarga asíncrona no siempre queda desbloqueado; un <audio>
+     que ya sonó dentro del toque se puede volver a reproducir después (8-oct-2026). */
+  function wav(trozos) {
+    var n = 0;
+    trozos.forEach(function (t) { t.n = Math.round(t.dur * SR); t.i = Math.round(t.desde * SR); n += t.n; });
+    var b = new ArrayBuffer(44 + n * 2), v = new DataView(b), o = 44;
+    function txt(p, s) { for (var k = 0; k < s.length; k++) v.setUint8(p + k, s.charCodeAt(k)); }
+    txt(0, 'RIFF'); v.setUint32(4, 36 + n * 2, true); txt(8, 'WAVE'); txt(12, 'fmt ');
+    v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true);
+    v.setUint32(24, SR, true); v.setUint32(28, SR * 2, true); v.setUint16(32, 2, true);
+    v.setUint16(34, 16, true); txt(36, 'data'); v.setUint32(40, n * 2, true);
+    trozos.forEach(function (t) {
+      var d = t.buffer ? t.buffer.getChannelData(0) : null;
+      for (var k = 0; k < t.n; k++, o += 2) {
+        var x = d ? (d[t.i + k] || 0) : 0;
+        v.setInt16(o, x < 0 ? Math.max(-1, x) * 0x8000 : Math.min(1, x) * 0x7fff, true);
+      }
     });
-    ultima.onended = function () { pcFuentes = []; pcE.classList.remove('sonando'); };
-    pcE.classList.add('sonando');
+    return URL.createObjectURL(new Blob([b], { type: 'audio/wav' }));
   }
-
-  /* Sin Web Audio o si algo falla: los 4 primeros segundos de preview-pack.mp3. */
-  function pcGenericaAudio() {
-    pcTexto(null);
-    if (!pcM) return;
-    if (!pcM.getAttribute('src')) pcM.src = pcM.dataset.src; else pcM.currentTime = 0;
+  var SILENCIO = null, pcUltima = null;
+  function pcSuena(url, cortar) {
+    if (pcUltima && pcUltima !== url) { try { URL.revokeObjectURL(pcUltima); } catch (e) { /* nada */ } }
+    pcUltima = url.indexOf('blob:') === 0 ? url : null;
+    pcM.dataset.cortar = cortar ? '1' : '';
+    pcM.src = url;
     var p = pcM.play();
-    if (p && p.catch) p.catch(function () {});
+    if (p && p.catch) p.catch(function () { pcE.classList.remove('sonando'); });
+  }
+  /* Sin decodificar o si algo falla: los 4 primeros segundos de preview-pack.mp3. */
+  function pcGenerica4s() {
+    pcTexto(null);
+    pcSuena(pcM.dataset.src, true);
   }
 
-  if (pcE) {
+  if (pcE && pcM) {
     pcE.addEventListener('click', function () {
       if (pcE.classList.contains('sonando')) { pcParar(); return; }
       plausible('Preview voz postcarta');
-      if (!AC) { pcGenericaAudio(); return; }
-      try { desbloquear(); } catch (e) { pcGenericaAudio(); return; }
+      if (!OAC) { pcGenericaAudio(); return; }
+      /* Dentro del toque: el <audio> suena (silencio) para que el navegador lo dé por
+         desbloqueado; la muestra se le pone cuando llegan los trozos. */
+      if (!SILENCIO) SILENCIO = wav([{ buffer: null, desde: 0, dur: 0.05 }]);
+      pcM.dataset.cortar = '';
+      pcM.src = SILENCIO;
+      var desbloqueo = pcM.play();
+      desbloqueo = desbloqueo && desbloqueo.then ? desbloqueo.catch(function () {}) : Promise.resolve();
       var voz = pcVoz;
       var grupo = voz ? pcGrupo(grupoVoz(voz.clave)).catch(function () { return null; }) : Promise.resolve(null);
       pcE.disabled = true;
-      Promise.all([pcBases(), grupo]).then(function (r) {
+      Promise.all([pcBases(), grupo, desbloqueo]).then(function (r) {
         pcE.disabled = false;
-        if (pcCtx.state !== 'running') { pcGenericaAudio(); return; }
-        var g = r[1], c = g && voz && g.clips[voz.clave];
-        if (c) {
-          var ini = Math.max(0, c.start - MARGEN);
-          montar(r[0], { buffer: g.buffer, offset: ini, dur: c.start + c.dur + MARGEN - ini });
-          pcTexto(voz);
-          plausible('Muestra de voz');
-        } else {
-          montar(r[0], { buffer: r[0].carino });
-          pcTexto(null);
-        }
+        var b = r[0], g = r[1], c = g && voz && g.clips[voz.clave];
+        var medio = c
+          ? { buffer: g.buffer, desde: Math.max(0, c.start - MARGEN), dur: 0 }
+          : { buffer: b.carino, desde: 0, dur: b.carino.duration };
+        if (c) medio.dur = c.start + c.dur + MARGEN - medio.desde;
+        pcSuena(wav([{ buffer: b.a, desde: 0, dur: b.a.duration }, medio, { buffer: b.b, desde: 0, dur: b.b.duration }]), false);
+        pcTexto(c ? voz : null);
+        if (c) plausible('Muestra de voz');
       }, function () {
         pcE.disabled = false;
         pcGenericaAudio();
       });
     });
-  }
-  if (pcM && pcE) {
-    pcM.addEventListener('timeupdate', function () { if (pcM.currentTime >= PC_SEG) pcParar(); });
-    pcM.addEventListener('play', function () { pcE.classList.add('sonando'); });
+    pcM.addEventListener('timeupdate', function () { if (pcM.dataset.cortar && pcM.currentTime >= PC_SEG) pcParar(); });
+    pcM.addEventListener('playing', function () { if (pcM.src !== SILENCIO) pcE.classList.add('sonando'); });
     pcM.addEventListener('pause', function () { pcE.classList.remove('sonando'); });
     pcM.addEventListener('ended', function () { pcE.classList.remove('sonando'); });
   }
+  function pcGenericaAudio() { pcGenerica4s(); }
 
   /* Tienda según el dispositivo: Android → botón de Play; iPhone/iPad (también iPadOS,
      que se anuncia como Mac táctil) → botón de App Store; el resto, las dos insignias. */
