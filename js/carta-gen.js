@@ -172,28 +172,173 @@
 
   /* ------------------------------------------- post-carta (7-oct-2026) */
 
-  /* Pantalla de después de la carta: muestra de voz (solo ES), qué hay en la app y la
-     tienda según el dispositivo. La voz con el nombre no se usa: los paquetes de nombres
-     pesan más de 500 KB por grupo y no hay variante es-419. En España suena la muestra
-     genérica: los 4 primeros segundos de preview-pack.mp3 (a los 4,0 s hay una pausa).
-     En es-419 no hay tarjeta de voz: no consta que la muestra no diga «Ratoncito».
-     Nada se descarga hasta pulsar: el <audio> no lleva src hasta entonces. */
+  /* Pantalla de después de la carta: muestra de voz, qué hay en la app y la tienda según
+     el dispositivo.
+
+     Voz (8-oct-2026, ES y es-419): «Hola,» + el nombre + «¡Shhh! Acércate, que te cuento
+     un secreto.» (≈ 4 s; esa frase no dice «Ratoncito», así que vale para es-419). Es la
+     lógica de muestra-voz.js en ligero: en vez del sprite entero (987 KB) se baja solo el
+     del grupo del nombre, assets/audio/voz/g/NN.mp3 + NN.json (tools/sprites_voz.py). El
+     grupo es FNV-1a de la clave normalizada, módulo 16, calculado aquí: la URL lleva el
+     número de grupo y el nombre no sale del navegador. Nada se descarga hasta pulsar.
+     Descarga al pulsar con nombre: base-a + base-b-inicio + el grupo, 50-140 KB.
+     Nombre fuera del banco o error: la muestra genérica, con «cariño» en lugar del nombre
+     (las mismas palabras que los 4 primeros segundos de preview-pack.mp3). Sin Web Audio,
+     <audio> con esos 4 s de preview-pack.mp3. */
+  var CLAVES_VOZ = ["aaron","abril","ada","adam","adara","aday","adrian","adriana","africa","aina","ainara","ainhoa","aitana","aitor","alan","alba","alberto","aleix","alejandra","alejandro","alex","alexia","alicia","alma","alonso","alvaro","amaia","amir","amira","ana","anas","ander","andrea","andres","angel","angela","anna","antonio","ariadna","arlet","arnau","aroa","asier","aurora","axel","aya","azahara","berta","biel","blanca","bruna","bruno","camila","candela","carla","carlos","carlota","carmen","carolina","cayetana","celia","chloe","clara","claudia","cloe","cristian","cristina","daniel","daniela","dario","david","diana","diego","dylan","elena","elia","elias","elisa","elsa","emma","enrique","enzo","eric","erik","erika","eva","fabio","fatima","fernando","francisco","gabriel","gabriela","gael","gala","gonzalo","greta","guillermo","hector","helena","hugo","ian","ignacio","iker","imran","india","ines","irene","iria","iris","isaac","isabel","isabella","ismael","ivan","izan","jaime","jan","jana","javier","jesus","jimena","joan","joel","jon","jorge","jose","juan","julen","julia","julieta","june","kai","laia","lara","laura","lautaro","leire","leo","leyre","lia","liam","lina","lola","luca","lucas","lucia","lucina","luis","luka","luna","macarena","maia","malak","manuel","manuela","mar","mara","marc","marco","marcos","maria","marina","mario","marta","marti","martin","martina","mateo","matias","mauro","max","mia","miguel","miguel-angel","milo","mireia","mohamed","nahia","naia","naiara","natalia","neizan","nerea","nico","nicolas","nil","noa","noah","noelia","nora","nour","nuria","oliver","olivia","omar","ona","oriol","oscar","pablo","paola","pau","paula","pedro","pol","rafael","raul","rayan","rocio","rodrigo","roger","ruben","salma","samuel","santiago","sara","saul","sergio","sira","sofia","teo","thiago","triana","unai","valentina","valeria","vega","vera","victor","victoria","violeta","xavi","yago","yasmin","youssef","zoe"];
+  var RUTA_VOZ = '/assets/audio/voz/';
   var PC_SEG = 4;
-  var pcM = $('pcMuestra'), pcE = $('pcEscuchar');
+  var MARGEN = 0.05; /* s de silencio a cada lado del nombre: el sprite deja 120 ms */
+  var TXT_VOZ = ES419
+    ? { nombre: 'Toca y escucha al Ratón Pérez decir «%».', generica: 'Toca y escucha una muestra del Ratón Pérez.' }
+    : { nombre: 'Pulsa y escucha al Ratoncito decir «%».', generica: 'Pulsa y escucha una muestra del Ratoncito.' };
+  var pcM = $('pcMuestra'), pcE = $('pcEscuchar'), pcS = $('pcVozS');
+  var AC = window.AudioContext || window.webkitAudioContext;
+  var pcCtx = null, pcBasesP = null, pcGrupos = {}, pcFuentes = [], pcVoz = null;
+
+  /* Clave del nombre, como muestra-voz.js: minúsculas, sin acentos, espacios → guion. */
+  function normalizar(nombre) {
+    var s = (nombre || '').trim().toLowerCase();
+    try { s = s.normalize('NFD').replace(/[̀-ͯ]/g, ''); } catch (e) { /* sin normalize */ }
+    return s.replace(/[^a-z0-9\s-]/g, '').replace(/[\s-]+/g, '-').replace(/^-+|-+$/g, '');
+  }
+  function grupoVoz(clave) {
+    var h = 0x811c9dc5;
+    for (var i = 0; i < clave.length; i++) { h ^= clave.charCodeAt(i); h = Math.imul(h, 0x01000193) >>> 0; }
+    var g = h % 16;
+    return (g < 10 ? '0' : '') + g;
+  }
+  /* Nombre completo → primera palabra → nada (genérica). Lo que se enseña es lo que dirá. */
+  function resolverVoz(nombre) {
+    var completa = normalizar(nombre);
+    if (completa && CLAVES_VOZ.indexOf(completa) >= 0) return { clave: completa, ver: nombre };
+    var primera = completa.split('-')[0];
+    if (primera && CLAVES_VOZ.indexOf(primera) >= 0) return { clave: primera, ver: nombre.split(/[\s-]+/)[0] };
+    return null;
+  }
+  function pcTexto(voz) {
+    if (pcS) pcS.textContent = voz ? TXT_VOZ.nombre.replace('%', voz.ver) : TXT_VOZ.generica;
+  }
+  /* La llama makeLetter() con el nombre ya en mayúscula inicial. */
+  function pcPreparaVoz(n) {
+    pcParar();
+    pcVoz = resolverVoz(n);
+    pcTexto(pcVoz);
+  }
+
   function pcParar() {
+    pcFuentes.forEach(function (s) { try { s.onended = null; s.stop(); } catch (e) { /* ya parada */ } });
+    pcFuentes = [];
     if (pcM && !pcM.paused) pcM.pause();
     if (pcM && pcM.getAttribute('src')) pcM.currentTime = 0;
+    if (pcE) pcE.classList.remove('sonando');
+  }
+
+  function bajar(archivo, json) {
+    return fetch(RUTA_VOZ + archivo).then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return json ? r.json() : r.arrayBuffer();
+    });
+  }
+  function decodificar(datos) {
+    return new Promise(function (ok, ko) {
+      var r;
+      try { r = pcCtx.decodeAudioData(datos, ok, ko); } catch (e) { ko(e); return; } /* callbacks: Safari antiguo */
+      if (r && typeof r.then === 'function') r.then(ok, ko);
+    });
+  }
+  function pcBases() {
+    if (!pcBasesP) {
+      pcBasesP = Promise.all(['base-a.mp3', 'carino.mp3', 'base-b-inicio.mp3'].map(function (f) {
+        return bajar(f).then(decodificar);
+      })).then(function (b) { return { a: b[0], carino: b[1], b: b[2] }; });
+      pcBasesP.catch(function () { pcBasesP = null; });
+    }
+    return pcBasesP;
+  }
+  function pcGrupo(g) {
+    if (!pcGrupos[g]) {
+      pcGrupos[g] = Promise.all([bajar('g/' + g + '.json', true), bajar('g/' + g + '.mp3').then(decodificar)])
+        .then(function (r) { return { clips: r[0].clips, buffer: r[1] }; });
+      pcGrupos[g].catch(function () { delete pcGrupos[g]; });
+    }
+    return pcGrupos[g];
+  }
+
+  /* iPhone/iPad: el contexto se crea y se reanuda dentro del clic, con un buffer mudo de
+     una muestra; si no, tras la descarga asíncrona no suena (como en muestra-voz.js). */
+  function desbloquear() {
+    if (!pcCtx) {
+      pcCtx = new AC();
+      pcCtx.onstatechange = function () {
+        if (pcFuentes.length && (pcCtx.state === 'interrupted' || pcCtx.state === 'suspended')) pcCtx.resume();
+      };
+    }
+    try { pcCtx.resume(); } catch (e) { /* seguimos */ }
+    try {
+      var src = pcCtx.createBufferSource();
+      src.buffer = pcCtx.createBuffer(1, 1, pcCtx.sampleRate);
+      src.connect(pcCtx.destination);
+      src.start(0);
+    } catch (e) { /* solo es un empujón */ }
+  }
+
+  /* «Hola,» + nombre (o «cariño») + «¡Shhh! Acércate, que te cuento un secreto.», cada
+     pieza donde acaba la anterior. */
+  function montar(b, medio) {
+    var t = pcCtx.currentTime + 0.05, ultima = null;
+    [{ buffer: b.a }, medio, { buffer: b.b }].forEach(function (p) {
+      var src = pcCtx.createBufferSource();
+      src.buffer = p.buffer;
+      src.connect(pcCtx.destination);
+      var dur = p.dur !== undefined ? p.dur : p.buffer.duration;
+      if (p.offset !== undefined) src.start(t, p.offset, dur); else src.start(t);
+      pcFuentes.push(src);
+      ultima = src;
+      t += dur;
+    });
+    ultima.onended = function () { pcFuentes = []; pcE.classList.remove('sonando'); };
+    pcE.classList.add('sonando');
+  }
+
+  /* Sin Web Audio o si algo falla: los 4 primeros segundos de preview-pack.mp3. */
+  function pcGenericaAudio() {
+    pcTexto(null);
+    if (!pcM) return;
+    if (!pcM.getAttribute('src')) pcM.src = pcM.dataset.src; else pcM.currentTime = 0;
+    var p = pcM.play();
+    if (p && p.catch) p.catch(function () {});
+  }
+
+  if (pcE) {
+    pcE.addEventListener('click', function () {
+      if (pcE.classList.contains('sonando')) { pcParar(); return; }
+      plausible('Preview voz postcarta');
+      if (!AC) { pcGenericaAudio(); return; }
+      try { desbloquear(); } catch (e) { pcGenericaAudio(); return; }
+      var voz = pcVoz;
+      var grupo = voz ? pcGrupo(grupoVoz(voz.clave)).catch(function () { return null; }) : Promise.resolve(null);
+      pcE.disabled = true;
+      Promise.all([pcBases(), grupo]).then(function (r) {
+        pcE.disabled = false;
+        if (pcCtx.state !== 'running') { pcGenericaAudio(); return; }
+        var g = r[1], c = g && voz && g.clips[voz.clave];
+        if (c) {
+          var ini = Math.max(0, c.start - MARGEN);
+          montar(r[0], { buffer: g.buffer, offset: ini, dur: c.start + c.dur + MARGEN - ini });
+          pcTexto(voz);
+          plausible('Muestra de voz');
+        } else {
+          montar(r[0], { buffer: r[0].carino });
+          pcTexto(null);
+        }
+      }, function () {
+        pcE.disabled = false;
+        pcGenericaAudio();
+      });
+    });
   }
   if (pcM && pcE) {
-    pcE.addEventListener('click', function () {
-      if (!pcM.paused) { pcParar(); return; }
-      if (!pcM.getAttribute('src')) pcM.src = pcM.dataset.src;
-      else pcM.currentTime = 0;
-      var p = pcM.play();
-      if (p && p.catch) p.catch(function () {});
-      plausible('Preview voz postcarta');
-      plausible('Muestra de voz');
-    });
     pcM.addEventListener('timeupdate', function () { if (pcM.currentTime >= PC_SEG) pcParar(); });
     pcM.addEventListener('play', function () { pcE.classList.add('sonando'); });
     pcM.addEventListener('pause', function () { pcE.classList.remove('sonando'); });
@@ -423,6 +568,7 @@
     ajustaHoja();
     if (doc.fonts && doc.fonts.ready) doc.fonts.ready.then(ajustaHoja);
     plausible('Carta generada', { props: { tramo: edad } });
+    pcPreparaVoz(n);
     pcAbrir();
   }
 
