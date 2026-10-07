@@ -14,7 +14,9 @@ const vm = require("vm");
 const RAIZ = path.resolve(__dirname, "..");
 const CANALES = ["carta", "ampa", "dentista", "vendedor", "creadora", "web"];
 const GRUPOS_WEB = ["web-producto", "web-home", "web-contenido"];
-const CT_VALIDOS = CANALES.concat(GRUPOS_WEB, ["otros"]);
+// ct por grupo de página desde el 7-oct-2026 (sustituyen a web-contenido en App Store).
+const CT_GRUPOS = ["web-imprimibles", "web-419", "web-otras"];
+const CT_VALIDOS = CANALES.concat(GRUPOS_WEB, CT_GRUPOS, ["otros"]);
 const MEDIO = /^[a-z0-9-]{1,20}$/;
 const CAMPANA = /^[a-z0-9-]{1,40}$/;
 

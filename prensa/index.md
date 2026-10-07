@@ -30,7 +30,7 @@ Toda la personalización se procesa en el propio dispositivo. No recopilamos dat
 
 Don Bigotes está disponible en 175 países y requiere iOS 15 o posterior.
 
-Enlaces de descarga: [App Store](https://apps.apple.com/es/app/id6798414411?pt=129172273&ct=web-contenido&mt=8) y [Google Play](https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Dweb%26utm_medium%3Dweb-contenido%26utm_campaign%3Dprensa). Más información en [https://donbigotes.app](https://donbigotes.app).
+Enlaces de descarga: [App Store](https://apps.apple.com/es/app/id6798414411?pt=129172273&ct=web-otras&mt=8) y [Google Play](https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Dweb%26utm_medium%3Dweb-contenido%26utm_campaign%3Dprensa). Más información en [https://donbigotes.app](https://donbigotes.app).
 
 ## Nota anterior — Día del Ratoncito Pérez (20 de agosto de 2026)
 
@@ -56,7 +56,7 @@ Don Bigotes nace para resolver una búsqueda que miles de padres hacen cada noch
 
 «Los chatbots pueden escribir una carta del Ratoncito, pero no pueden ponerle la voz del Ratoncito diciendo el nombre de tu hijo, ni dejarlo "pillado" en una foto de tu salón. Esa es la magia que queríamos dar a los padres», explica Xavi Ferré, creador de la aplicación.
 
-La app está disponible en Google Play desde hoy: [play.google.com/store/apps/details?id=es.donbigotes.app](https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Dweb%26utm_medium%3Dweb-contenido%26utm_campaign%3Dprensa). La carta personalizada es gratuita y el Pack Mágico completo cuesta 4,99 € en un único pago. Desde el 29 de agosto de 2026 también está en la App Store para iPhone y iPad: [apps.apple.com/es/app/id6798414411](https://apps.apple.com/es/app/id6798414411?pt=129172273&ct=web-contenido&mt=8).
+La app está disponible en Google Play desde hoy: [play.google.com/store/apps/details?id=es.donbigotes.app](https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Dweb%26utm_medium%3Dweb-contenido%26utm_campaign%3Dprensa). La carta personalizada es gratuita y el Pack Mágico completo cuesta 4,99 € en un único pago. Desde el 29 de agosto de 2026 también está en la App Store para iPhone y iPad: [apps.apple.com/es/app/id6798414411](https://apps.apple.com/es/app/id6798414411?pt=129172273&ct=web-otras&mt=8).
 
 ## Sobre Don Bigotes
 
