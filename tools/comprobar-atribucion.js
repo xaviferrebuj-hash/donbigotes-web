@@ -15,7 +15,9 @@ const RAIZ = path.resolve(__dirname, "..");
 const CANALES = ["carta", "ampa", "dentista", "vendedor", "creadora", "web"];
 const GRUPOS_WEB = ["web-producto", "web-home", "web-contenido"];
 // ct por grupo de página desde el 7-oct-2026 (sustituyen a web-contenido en App Store).
-const CT_GRUPOS = ["web-imprimibles", "web-419", "web-otras"];
+const CT_GRUPOS = ["web-imprimibles", "web-419", "web-otras", "web-postcarta", "web-postcarta-419"];
+// utm_medium propios con utm_source=web: pantalla post-carta y banda Android (esta, en JS).
+const MEDIOS_WEB = ["postcarta", "banda"];
 const CT_VALIDOS = CANALES.concat(GRUPOS_WEB, CT_GRUPOS, ["otros"]);
 const MEDIO = /^[a-z0-9-]{1,20}$/;
 const CAMPANA = /^[a-z0-9-]{1,40}$/;
@@ -62,7 +64,7 @@ for (const f of paginas(RAIZ)) {
       const r = new URLSearchParams(ref);
       const src = r.get("utm_source"), med = r.get("utm_medium"), camp = r.get("utm_campaign");
       if (!CANALES.concat("otros").includes(src)) falla(`${rel}: utm_source fuera de la lista → ${src}`);
-      if (src === "web" && !GRUPOS_WEB.includes(med) && med !== "otros")
+      if (src === "web" && !GRUPOS_WEB.includes(med) && !MEDIOS_WEB.includes(med) && med !== "otros")
         falla(`${rel}: grupo web desconocido → ${med}`);
       if (!MEDIO.test(med || "")) falla(`${rel}: utm_medium no válido → ${med}`);
       if (camp !== null && !CAMPANA.test(camp)) falla(`${rel}: utm_campaign no válido → ${camp}`);

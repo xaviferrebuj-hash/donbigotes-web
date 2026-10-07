@@ -465,6 +465,59 @@
 }
 .pc-cuento-b:hover { background: var(--night-2); color: #fff; }
 
+/* Pantalla post-carta (7-oct-2026): va en el panel azul noche .pc de cada página.
+   Muestra de voz (solo ES), qué hay en la app, botón de tienda según el dispositivo
+   (carta-gen.js enseña uno: Play, App Store o las dos insignias) y letra pequeña.
+   Al imprimir no sale: solo se ve #print-letter. */
+.pc-pantalla:focus { outline: none; }
+.pc-pantalla h4 { margin-top: 0; }
+.pc-voz2 {
+  max-width: 400px;
+  margin: 18px auto 0;
+  padding: 16px 18px 18px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, .07);
+  border: 1px solid rgba(242, 193, 78, .34);
+}
+.pc-voz2-t {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #fff;
+}
+.pc-voz2-s { color: var(--mist); font-size: .93rem; line-height: 1.4; margin-top: 4px; }
+.pc-escuchar {
+  margin-top: 13px;
+  padding: 11px 22px;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  background: linear-gradient(180deg, var(--gold), #E7B23B);
+  color: var(--night-1);
+  font-family: inherit;
+  font-weight: 800;
+  font-size: 1rem;
+}
+.pc-escuchar.sonando { box-shadow: 0 0 0 4px rgba(242, 193, 78, .32); }
+.pc-texto { max-width: 40ch; margin: 18px auto 0; color: #fff; font-size: 1rem; line-height: 1.5; }
+.pc-tienda { margin-top: 18px; }
+.pc-tienda-b {
+  display: inline-block;
+  padding: 15px 28px;
+  border-radius: 12px;
+  background: linear-gradient(180deg, var(--gold), #E7B23B);
+  color: var(--night-1);
+  font-weight: 800;
+  font-size: 1.06rem;
+  text-decoration: none;
+}
+.pc-insignias { display: flex; gap: 14px; justify-content: center; align-items: center; flex-wrap: wrap; }
+.pc-insignias img { display: block; }
+.pc-tienda-b[hidden],
+.pc-insignias[hidden] { display: none; }
+.pc-letra { max-width: 44ch; margin: 14px auto 0; color: var(--gold-soft); font-size: .84rem; line-height: 1.45; }
+.pc-pantalla .pc-cuento { margin-top: 20px; }
+
 /* Un nombre largo sin espacios («Maximilianoalejandro») se parte en vez de salirse por la
    derecha, en la carta y en los textos de después que lo repiten. Con nombres normales no
    cambia nada: solo actúa cuando una palabra no cabe en la línea. */

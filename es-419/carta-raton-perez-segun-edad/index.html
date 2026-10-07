@@ -528,42 +528,25 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
         <button type="button" class="btn-gold" onclick="window.print()">Imprimir o guardar en PDF</button>
         <button type="button" class="btn-ghost" onclick="resetGen()">Crear otra</button>
       </div>
-      <div class="pc-ok">
-        <p class="pc-ok-t" id="pcOkT">La carta ya est&aacute; lista</p>
-        <p class="pc-ok-s">Impr&iacute;mela o gu&aacute;rdala en PDF y d&eacute;jala bajo la almohada. La carta del Ratón Pérez es gratis, siempre.</p>
-      </div>
-      <div class="pc">
-        <span class="pc-eyebrow">Pack M&aacute;gico</span>
-        <h4>&iquest;Y si el Rat&oacute;n P&eacute;rez dijera su nombre?</h4>
-        <div class="pc-voz">
-          <button type="button" class="pc-play" id="pcPlay" aria-label="Escuchar un trozo de la voz del Rat&oacute;n P&eacute;rez">&#9654;</button>
-          <div>
-            <p class="pc-voz-l" id="pcVozL">Pulsa y escucha cómo dice su nombre.</p>
-            <p class="pc-voz-h">La voz de verdad de la app</p>
+      <div class="pc pc-pantalla" id="pcPantalla" tabindex="-1" role="region" aria-labelledby="pcT">
+        <h4 id="pcT">&#10024; Tu carta est&aacute; lista</h4>
+        <p class="pc-texto">La nota de voz con su nombre, la foto del Rat&oacute;n P&eacute;rez pillado en casa, el video desde su oficina y el Diploma de Valent&iacute;a est&aacute;n en la app.</p>
+        <div class="pc-tienda">
+          <a class="pc-tienda-b pc-a-play" data-so="android" hidden href="https://play.google.com/store/apps/details?id=es.donbigotes.app&amp;referrer=utm_source%3Dweb%26utm_medium%3Dpostcarta%26utm_campaign%3Dpostcarta-419" target="_blank" rel="noopener">Abrir en Google Play</a>
+          <a class="pc-tienda-b pc-a-ios" data-so="ios" hidden href="https://apps.apple.com/app/id6798414411?pt=129172273&amp;ct=web-postcarta-419&amp;mt=8" target="_blank" rel="noopener">Cons&iacute;guelo en el App Store</a>
+          <div class="pc-insignias" data-so="otros">
+            <a class="pc-a-play" href="https://play.google.com/store/apps/details?id=es.donbigotes.app&amp;referrer=utm_source%3Dweb%26utm_medium%3Dpostcarta%26utm_campaign%3Dpostcarta-419" target="_blank" rel="noopener"><img src="/assets/img/google-play-badge-es.png" alt="Disponible en Google Play" width="186" height="72"></a>
+            <a class="pc-a-ios" href="https://apps.apple.com/app/id6798414411?pt=129172273&amp;ct=web-postcarta-419&amp;mt=8" target="_blank" rel="noopener"><img src="/assets/img/app-store-badge-es.svg" alt="Cons&iacute;guelo en el App Store" width="165" height="55"></a>
           </div>
-          <audio id="pcAudio" src="/assets/audio/preview-pack.mp3" preload="none"></audio>
         </div>
-        <div class="pc-grid">
-          <div class="pc-it"><i>&#127908;</i><b>Nota de voz</b><span>El Ratón Pérez dice su nombre y le habla de su diente.</span></div>
-          <div class="pc-it"><i>&#128248;</i><b>Fotomontaje &laquo;&iexcl;Pillado!&raquo;</b><span>El Ratón Pérez, atrapado en una foto de su casa.</span></div>
-          <div class="pc-it"><i>&#127916;</i><b>Video del viaje</b><span>El viaje de su diente hasta la Oficina, en video.</span></div>
-          <div class="pc-it"><i>&#127894;</i><b>Diploma de Valent&iacute;a</b><span>Con su nombre y la fecha en que se le cay&oacute;.</span></div>
-        </div>
-        <div class="pc-cta">
-          <div class="tiendas" style="display:flex;gap:14px;justify-content:center;align-items:center;flex-wrap:wrap">
-            <a href="https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Dweb%26utm_medium%3Dweb-contenido%26utm_campaign%3Dpostcarta&hl=es_419" id="pcBadge" target="_blank" rel="noopener"><img src="/assets/img/google-play-badge-es.png" alt="Disponible en Google Play"></a>
-            <a href="https://apps.apple.com/app/id6798414411?pt=129172273&ct=web-419&mt=8" id="pcBadgeIos" data-enlace="appstore" target="_blank" rel="noopener"><img src="/assets/img/app-store-badge-es.svg" alt="Cons&iacute;guelo en el App Store" style="width:165px;height:55px"></a>
-          </div>
-          <p class="pc-price">Descarga gratis &middot; Pack M&aacute;gico completo con pago &uacute;nico</p>
-        </div>
-        <button type="button" class="pc-back" onclick="pcVolver()">Seguir solo con la carta</button>
+        <p class="pc-letra">Gratis en la app: la carta y el diario de dientes. Con el Pack M&aacute;gico (un solo pago): voz, foto, video y diploma.</p>
+        <button type="button" class="pc-back" onclick="pcCerrar()">Seguir solo con la carta</button>
       </div>
     </div>
   </div>
 </div>
 
 <script src="/js/carta-gen.js" defer fetchpriority="high"></script>
-<script src="/js/muestra-voz.js" defer></script>
 <script src="/js/enlaces-app.js" defer fetchpriority="high"></script>
 </body>
 </html>

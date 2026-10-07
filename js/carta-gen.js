@@ -9,8 +9,7 @@
 
    El idioma sale de <html lang>: «es-419» usa la variante LATAM de los textos.
    Se carga con `defer`, así que corre con el DOM ya montado. Es el primero de los
-   scripts con `defer`: muestra-voz.js y enlaces-app.js van detrás para no retrasar
-   el botón, así que aquí no se da por hecho que window.muestraVoz exista al arrancar. */
+   scripts con `defer`: enlaces-app.js va detrás para no retrasar el botón. */
 (function () {
   var doc = document;
   function $(id) { return doc.getElementById(id); }
@@ -168,27 +167,66 @@
     $('genResult').classList.remove('show');
     $('genForm').style.display = 'block';
     $('gen').scrollTop = 0;
-    if (pcAudio) { pcAudio.pause(); pcAudio.currentTime = 0; }
-    if (window.muestraVoz) muestraVoz.parar();
+    pcParar();
   }
 
-  /* --------------------------------------------------- post-carta (Pack) */
+  /* ------------------------------------------- post-carta (7-oct-2026) */
 
-  var pcAudio = $('pcAudio'), pcBtn = $('pcPlay');
-  function pcIcono() { pcBtn.innerHTML = pcAudio.paused ? '&#9654;' : '&#10074;&#10074;'; }
-  if (pcAudio && pcBtn) {
-    /* Donde está muestra-voz.js, el botón lo maneja él. Se mira al pulsar y no al
-       arrancar: muestra-voz.js se ejecuta después de este script. */
-    pcBtn.addEventListener('click', function () {
-      if (window.muestraVoz) return;
-      if (pcAudio.paused) { pcAudio.play(); plausible('Preview voz postcarta'); } else { pcAudio.pause(); }
+  /* Pantalla de después de la carta: muestra de voz (solo ES), qué hay en la app y la
+     tienda según el dispositivo. La voz con el nombre no se usa: los paquetes de nombres
+     pesan más de 500 KB por grupo y no hay variante es-419. En España suena la muestra
+     genérica: los 4 primeros segundos de preview-pack.mp3 (a los 4,0 s hay una pausa).
+     En es-419 no hay tarjeta de voz: no consta que la muestra no diga «Ratoncito».
+     Nada se descarga hasta pulsar: el <audio> no lleva src hasta entonces. */
+  var PC_SEG = 4;
+  var pcM = $('pcMuestra'), pcE = $('pcEscuchar');
+  function pcParar() {
+    if (pcM && !pcM.paused) pcM.pause();
+    if (pcM && pcM.getAttribute('src')) pcM.currentTime = 0;
+  }
+  if (pcM && pcE) {
+    pcE.addEventListener('click', function () {
+      if (!pcM.paused) { pcParar(); return; }
+      if (!pcM.getAttribute('src')) pcM.src = pcM.dataset.src;
+      else pcM.currentTime = 0;
+      var p = pcM.play();
+      if (p && p.catch) p.catch(function () {});
+      plausible('Preview voz postcarta');
+      plausible('Muestra de voz');
     });
-    pcAudio.addEventListener('play', pcIcono);
-    pcAudio.addEventListener('pause', pcIcono);
-    pcAudio.addEventListener('ended', function () { pcAudio.currentTime = 0; pcIcono(); });
+    pcM.addEventListener('timeupdate', function () { if (pcM.currentTime >= PC_SEG) pcParar(); });
+    pcM.addEventListener('play', function () { pcE.classList.add('sonando'); });
+    pcM.addEventListener('pause', function () { pcE.classList.remove('sonando'); });
+    pcM.addEventListener('ended', function () { pcE.classList.remove('sonando'); });
   }
-  var pcBadge = $('pcBadge'); if (pcBadge) pcBadge.addEventListener('click', function () { plausible('Clic Play Store postcarta'); });
-  var pcBadgeIos = $('pcBadgeIos'); if (pcBadgeIos) pcBadgeIos.addEventListener('click', function () { plausible('Clic App Store postcarta'); });
+
+  /* Tienda según el dispositivo: Android → botón de Play; iPhone/iPad (también iPadOS,
+     que se anuncia como Mac táctil) → botón de App Store; el resto, las dos insignias. */
+  var UA = navigator.userAgent || '';
+  var SO = /Android/i.test(UA) ? 'android'
+    : (/iPad|iPhone|iPod/.test(UA) || (/Macintosh/.test(UA) && navigator.maxTouchPoints > 1)) ? 'ios' : 'otros';
+  doc.querySelectorAll('#pcPantalla [data-so]').forEach(function (el) { el.hidden = el.dataset.so !== SO; });
+  doc.querySelectorAll('#pcPantalla .pc-a-play').forEach(function (a) {
+    a.addEventListener('click', function () { plausible('Clic Play Store postcarta'); });
+  });
+  doc.querySelectorAll('#pcPantalla .pc-a-ios').forEach(function (a) {
+    a.addEventListener('click', function () { plausible('Clic App Store postcarta'); });
+  });
+
+  /* Al salir la carta, la pantalla se enseña y recibe el foco sin mover el scroll:
+     arriba sigue la carta. «Seguir solo con la carta» la cierra y vuelve a la carta. */
+  function pcAbrir() {
+    var pan = $('pcPantalla');
+    if (!pan) return;
+    pan.hidden = false;
+    try { pan.focus({ preventScroll: true }); } catch (e) { /* navegadores sin preventScroll */ }
+  }
+  function pcCerrar() {
+    pcParar();
+    var pan = $('pcPantalla');
+    if (pan) pan.hidden = true;
+    pcVolver();
+  }
 
   function pcVolver() {
     var c = $('print-letter'), o = $('gen'), y = o.scrollTop;
@@ -198,19 +236,20 @@
   }
   /* ------------------------------------------------- post-carta (cuento) */
 
-  /* Módulo del cuento, entre la confirmación de la carta y el Pack. Vive dentro
-     de #genResult, así que solo se ve con la carta ya generada. Estilos en
+  /* Módulo del cuento, dentro de la pantalla post-carta, justo antes de «Seguir solo
+     con la carta» (desde el 7-oct-2026; antes iba entre la confirmación y el Pack).
+     Vive dentro de #genResult, así que solo se ve con la carta ya generada. Estilos en
      /assets/carta-gen.css. El título, el del H1 de la página del cuento. */
   var CUENTO_URL = ES419 ? '/es-419/cuento-raton-perez/' : '/cuento-ratoncito-perez/';
-  var pcOk = doc.querySelector('#genResult .pc-ok');
-  if (pcOk) {
+  var pcSeguir = doc.querySelector('#pcPantalla .pc-back');
+  if (pcSeguir) {
     var cu = doc.createElement('div');
     cu.className = 'pc-cuento';
     cu.innerHTML = '<span class="pc-cuento-i" aria-hidden="true">&#127769;</span>' +
       '<div><p class="pc-cuento-t">¿Y esta noche?</p>' +
       '<p class="pc-cuento-s">Escucha gratis el primer capítulo de «La historia de Don Bigotes».</p>' +
       '<a class="pc-cuento-b" href="' + CUENTO_URL + '">Escuchar el capítulo 1</a></div>';
-    pcOk.parentNode.insertBefore(cu, pcOk.nextSibling);
+    pcSeguir.parentNode.insertBefore(cu, pcSeguir);
     /* El evento sale antes de irse: se navega en el callback de Plausible o a
        los 800 ms, lo que llegue antes. Con Ctrl/Cmd o botón central, sin esperar. */
     cu.querySelector('a').addEventListener('click', function (e) {
@@ -221,16 +260,6 @@
       plausible('Cuento web: desde carta', { callback: ir });
       setTimeout(ir, 800);
     });
-  }
-
-  function pcNombre(n) {
-    var t = $('pcOkT');
-    if (t) t.textContent = n ? ('La carta de ' + n + ' ya está lista') : 'La carta ya está lista';
-    var vl = $('pcVozL');
-    /* Con muestra-voz.js la frase la pone él. */
-    if (vl && !window.muestraVoz) {
-      vl.textContent = n ? ('«' + n + '… soy yo, el ' + RATON + '…»') : ('«Soy yo, el ' + RATON + '…»');
-    }
   }
 
   /* ---------------------------------------------------------------- chips */
@@ -394,7 +423,7 @@
     ajustaHoja();
     if (doc.fonts && doc.fonts.ready) doc.fonts.ready.then(ajustaHoja);
     plausible('Carta generada', { props: { tramo: edad } });
-    pcNombre(n);
+    pcAbrir();
   }
 
   /* ------------------------------------------------ una sola hoja al imprimir */
@@ -439,5 +468,6 @@
   window.resetGen = resetGen;
   window.makeLetter = makeLetter;
   window.pcVolver = pcVolver;
+  window.pcCerrar = pcCerrar;
   window.bindChips = bindChips;
 })();
