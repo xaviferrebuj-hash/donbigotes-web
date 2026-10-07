@@ -10,6 +10,12 @@ Descarga gratis la firma y el sello oficiales de la Oficina del Ratón Pérez (t
 
 - [Firma y sello en PDF A4 para imprimir](https://donbigotes.app/descargas/firma-sello-raton-perez-latam.pdf)
 
+La carta del Ratón Pérez con su nombre, en un minuto y gratis
+
+Escribe el nombre de tu hijo o hija y descarga la carta lista para imprimir. Sin registro.
+
+¿Sin impresora? En la app, el Ratón Pérez [dice su nombre con su propia voz](https://donbigotes.app/voz-raton-perez/).
+
 Son las dos piezas que convierten una hoja escrita a mano en una carta de la Oficina: el sello redondo de tinta y la firma de Don Bigotes. Descárgalas sueltas y úsalas como quieras, o deja que la Oficina te la entregue ya firmada y sellada.
 
 Firma y sello gratis · Al instante · Hecho en España
@@ -76,7 +82,7 @@ Sí. En la [carta para imprimir](https://donbigotes.app/es-419/carta-para-imprim
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, en un único pago.
 
-Última actualización: 6 de octubre de 2026
+Última actualización: 7 de octubre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratón Pérez». El personaje del Ratón Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

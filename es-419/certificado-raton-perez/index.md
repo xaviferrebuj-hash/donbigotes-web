@@ -8,6 +8,12 @@ Descarga gratis el certificado del Ratón Pérez (también llamado Ratón de los
 
 - [Versión España: Ratoncito Pérez (PDF)](https://donbigotes.app/descargas/diploma-ratoncito-perez.pdf)
 
+La carta del Ratón Pérez con su nombre, en un minuto y gratis
+
+Escribe el nombre de tu hijo o hija y descarga la carta lista para imprimir. Sin registro.
+
+¿Sin impresora? En la app, el Ratón Pérez [dice su nombre con su propia voz](https://donbigotes.app/voz-raton-perez/).
+
 Cuando un niño pierde un diente y se lo entrega al Ratón Pérez, se merece algo más que una moneda: un Diploma de Valentía oficial de la Oficina del Ratón, con su nombre, la fecha y su título de Guardián o Guardiana de Sonrisas. Con Don Bigotes lo tienen listo en un minuto, para imprimir o mostrar en el celular.
 
 Certificado gratis · Al instante · Hecho en España
@@ -64,7 +70,7 @@ Sí, está pensado para imprimirse en A4 (o carta) o mostrarse directamente en e
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, en un único pago.
 
-Última actualización: 6 de octubre de 2026
+Última actualización: 7 de octubre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratón Pérez». El personaje del Ratón Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

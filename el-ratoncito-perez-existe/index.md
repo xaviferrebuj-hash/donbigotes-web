@@ -2,6 +2,8 @@
 
 # ¿El Ratoncito Pérez existe?
 
+Sí: el Ratoncito Pérez existe como personaje desde 1894, y lo que pasa en tu casa es lo que lo hace real. Aquí tienes cómo responder según la edad y una carta con su nombre para esta noche.
+
 Es una de las tradiciones más queridas de España y Latinoamérica. Aquí te contamos su origen — y cómo mantener viva la ilusión con una carta personalizada para tu peque.
 
 Sin registro · Lista en 1 minuto · Gratis
@@ -23,6 +25,12 @@ Es la edad de la pregunta de verdad, casi siempre porque alguien en el cole ha d
 Cuando ya lo sabe, cuéntale la verdad entera: el cuento de 1894, que el Ratoncito son los padres de todo el mundo y que ahora es cómplice para los hermanos pequeños. Pasar de creer a guardar el secreto es un rito de paso, no una decepción.
 
 Si quieres el origen completo, está en [la historia del Ratón Pérez](https://donbigotes.app/historia-raton-perez/). Y si lo que hay es un diente que ya se mueve, la carta con su nombre se crea gratis aquí mismo en un minuto.
+
+La carta con su nombre, en un minuto y gratis
+
+Escribe el nombre de tu peque y descarga la carta del Ratoncito lista para imprimir. Sin registro.
+
+¿Sin impresora? En la app, el Ratoncito [dice su nombre con su propia voz](https://donbigotes.app/voz-raton-perez/).
 
 ### Tú pones el diente. Él pone la magia.
 
@@ -98,7 +106,7 @@ Sí. La [Casita-Museo de Ratón Pérez](https://www.casamuseoratonperez.es/) est
 
 ## Que la próxima caída de diente sea inolvidable
 
-Última actualización: 6 de octubre de 2026
+Última actualización: 7 de octubre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

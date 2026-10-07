@@ -8,6 +8,12 @@ Descarga gratis el diploma del Ratoncito Pérez en PDF, listo para imprimir en A
 
 - [Versión Latinoamérica: Ratón de los Dientes (PDF)](https://donbigotes.app/descargas/diploma-raton-de-los-dientes.pdf)
 
+La carta con su nombre, en un minuto y gratis
+
+Escribe el nombre de tu peque y descarga la carta del Ratoncito lista para imprimir. Sin registro.
+
+¿Sin impresora? En la app, el Ratoncito [dice su nombre con su propia voz](https://donbigotes.app/voz-raton-perez/).
+
 Un diploma oficial de la Oficina del Ratoncito, personalizado con el nombre de tu peque y el diente que se le ha caído. Firmado y sellado, listo para enmarcar o guardar de recuerdo.
 
 Incluido en el Pack Mágico · 4,99 € pago único
@@ -64,7 +70,7 @@ Sí. Se guarda como imagen en tu móvil y puedes imprimirlo en casa o enmarcarlo
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
-Última actualización: 27 de septiembre de 2026
+Última actualización: 7 de octubre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

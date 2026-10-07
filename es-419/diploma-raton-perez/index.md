@@ -8,6 +8,12 @@ Descarga gratis el diploma del Ratón Pérez (también llamado Ratón de los Die
 
 - [Versión España: Ratoncito Pérez (PDF)](https://donbigotes.app/descargas/diploma-ratoncito-perez.pdf)
 
+La carta del Ratón Pérez con su nombre, en un minuto y gratis
+
+Escribe el nombre de tu hijo o hija y descarga la carta lista para imprimir. Sin registro.
+
+¿Sin impresora? En la app, el Ratón Pérez [dice su nombre con su propia voz](https://donbigotes.app/voz-raton-perez/).
+
 Un diploma oficial de la Oficina del Ratón, personalizado con el nombre de su hijo o hija y el diente que se le cayó. Firmado y sellado, listo para enmarcar o guardar de recuerdo.
 
 Incluido en el Pack Mágico de la app Don Bigotes
@@ -64,7 +70,7 @@ Sí. Se guarda como imagen en su celular y pueden imprimirlo en casa o enmarcarl
 
 Voz, foto y Diploma de Valentía personalizados: el Pack Mágico completo, en un único pago.
 
-Última actualización: 27 de septiembre de 2026
+Última actualización: 7 de octubre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratón Pérez». El personaje del Ratón Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

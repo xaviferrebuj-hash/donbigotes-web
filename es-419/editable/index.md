@@ -14,6 +14,12 @@ La carta editable del Ratón Pérez de donbigotes.app es gratis: escribes el nom
 
 Mientras tu hijo duerme, el Ratón Pérez escribe su carta con su nombre. Por la mañana, la sorpresa ya está bajo la almohada.
 
+La carta del Ratón Pérez con su nombre, en un minuto y gratis
+
+Escribe el nombre de tu hijo o hija y descarga la carta lista para imprimir. Sin registro.
+
+¿Sin impresora? En la app, el Ratón Pérez [dice su nombre con su propia voz](https://donbigotes.app/voz-raton-perez/).
+
 ## Crea la experiencia completa en la app Don Bigotes
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo se paga una sola vez, al precio local de la tienda.
@@ -82,7 +88,7 @@ Sí. La carta es la misma para Ratón Pérez, Ratón de los Dientes y Ratoncito 
 
 ## Que la próxima caída de diente sea inolvidable
 
-Última actualización: 6 de octubre de 2026
+Última actualización: 7 de octubre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratón Pérez». El personaje del Ratón Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

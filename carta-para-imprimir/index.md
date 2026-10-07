@@ -12,6 +12,12 @@ La carta cambia según la edad de tu peque: con 3-4 años es corta y llena de di
 
 - [Versión Latinoamérica: Ratón Pérez (PDF)](https://donbigotes.app/descargas/carta-raton-perez.pdf)
 
+La carta con su nombre, en un minuto y gratis
+
+Escribe el nombre de tu peque y descarga la carta del Ratoncito lista para imprimir. Sin registro.
+
+¿Sin impresora? En la app, el Ratoncito [dice su nombre con su propia voz](https://donbigotes.app/voz-raton-perez/).
+
 Descarga gratis la carta del Ratoncito Pérez en PDF, lista para imprimir en A4, o créala personalizada con el nombre de tu hijo en un minuto. Descarga directa, sin registro. La carta llega firmada y sellada por la Oficina del Ratoncito; también puedes [descargar el sello y la firma sueltos](https://donbigotes.app/firma-sello-raton-perez/) para pegarlos en una carta escrita por ti. En Latinoamérica el personaje se conoce como Ratón Pérez o Ratón de los Dientes: hay versión propia para descargar.
 
 ## Crea la experiencia completa en la app Don Bigotes
@@ -66,7 +72,7 @@ En donbigotes.app: escribes el nombre, se genera la carta y la imprimes o guarda
 
 ¿Tu hijo te pregunta si el Ratoncito Pérez existe? [Qué contestarle según su edad](https://donbigotes.app/el-ratoncito-perez-existe/).
 
-Última actualización: 6 de octubre de 2026
+Última actualización: 7 de octubre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez».
 

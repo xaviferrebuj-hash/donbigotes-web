@@ -10,6 +10,12 @@ Sin registro · Lista en 1 minuto · Gratis
 
 - [Versión España: Ratoncito Pérez (PDF)](https://donbigotes.app/descargas/carta-ratoncito-perez.pdf)
 
+La carta del Ratón Pérez con su nombre, en un minuto y gratis
+
+Escribe el nombre de tu hijo o hija y descarga la carta lista para imprimir. Sin registro.
+
+¿Sin impresora? En la app, el Ratón Pérez [dice su nombre con su propia voz](https://donbigotes.app/voz-raton-perez/).
+
 Descarga gratis la carta del Ratón Pérez (también llamado Ratón de los Dientes) en PDF, lista para imprimir, o créala personalizada con el nombre de tu hijo en un minuto. Descarga directa, sin registro. La carta llega firmada y sellada por la Oficina del Ratón Pérez; también puedes [descargar el sello y la firma sueltos](https://donbigotes.app/es-419/firma-sello-raton-perez/) para pegarlos en una carta escrita por ti. En España el personaje se conoce como Ratoncito Pérez: también hay una versión con ese nombre para descargar.
 
 ## Crea la experiencia completa en la app Don Bigotes
@@ -70,7 +76,7 @@ En donbigotes.app: escribes el nombre, se genera la carta y la imprimes o guarda
 
 ¿Tu hijo te pregunta si el Ratón Pérez existe? [Qué contestarle según su edad](https://donbigotes.app/es-419/el-ratoncito-perez-existe/).
 
-Última actualización: 6 de octubre de 2026
+Última actualización: 7 de octubre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratón Pérez».
 
