@@ -35,7 +35,10 @@ el 7-oct (textos definitivos).
   - Nombre completo → si no está, primera palabra («José Luis» → «José») → si no, genérica
     con «cariño» (mismas palabras que los 4 s de `preview-pack.mp3`). Sin Web Audio, esos 4 s
     de `preview-pack.mp3` con `<audio>`.
-  - iPhone/iPad: el AudioContext se crea y desbloquea en el propio clic.
+  - Suena con el `<audio>` de la tarjeta, no con Web Audio (8-oct, tras fallar en iPhone): los
+    trozos se decodifican con un OfflineAudioContext, se juntan en un WAV en memoria y se le
+    ponen al `<audio>`, que se desbloquea dentro del toque con 50 ms de silencio. Así suena
+    también con el interruptor de silencio del iPhone.
 - Tienda: Android → «Abrir en Google Play»; iPhone/iPad → «Consíguelo en el App Store»;
   resto → las dos insignias.
 - `js/muestra-voz.js` ya no se carga (el fichero se queda).
