@@ -5,15 +5,19 @@
      · iPhone/iPad -> App Store con pt/ct/mt (ct = canal, informe de
        campañas de App Store Connect).
      · Android     -> Google Play con referrer (utm_source = canal,
-       utm_medium = medio; utm_campaign repite el medio porque Play
-       Console desglosa por fuente y campaña, no por medio).
+       utm_medium = medio; utm_campaign = ?utm_campaign= si es válido,
+       si no repite el medio, porque Play Console desglosa por fuente y
+       campaña, no por medio).
      · Ordenador   -> no redirige: se ven las dos insignias.
 
    Canal: /carta/ lo fija con data-canal="carta" en la etiqueta <script>;
    /app/ lo lee de ?utm_source=. Lista cerrada: cualquier otro valor -> «otros».
    Medio: ?utm_medium=, solo [a-z0-9-] y máximo 20 caracteres (en /carta/,
-   solo qr o whatsapp). Si no cumple -> «otros». Nada más de la URL viaja
-   a las tiendas: ni nombres ni datos personales.
+   solo qr o whatsapp). Si no cumple -> «otros».
+   Campaña (solo Play): ?utm_campaign=, solo [a-z0-9-] y máximo 40
+   caracteres (p. ej. clinica-<slug> de las tarjetas QR). App Store no la
+   recibe. Nada más de la URL viaja a las tiendas: ni nombres ni datos
+   personales.
 
    La visita de Plausible (script.manual.js) se registra ANTES de salir:
    redirige en el callback de Plausible o a los 800 ms, lo que llegue antes.
@@ -26,7 +30,7 @@
   var PROVEEDOR = "129172273"; // pt: proveedor de App Store Connect
   var PLAY = "https://play.google.com/store/apps/details?id=es.donbigotes.app";
 
-  var CANALES = ["carta", "ampa", "dentista", "vendedor", "creadora", "web"];
+  var CANALES = ["carta", "ampa", "dentista", "vendedor", "creadora", "web", "clinica"];
   var MEDIOS_CARTA = ["qr", "whatsapp"];
   var ESPERA_MS = 800;
 
@@ -53,6 +57,12 @@
     return /^[a-z0-9-]{1,20}$/.test(m) ? m : "otros";
   }
 
+  // Sin utm_campaign válido, Play recibe el medio como campaña (como siempre).
+  function campana(m) {
+    var k = parametro("utm_campaign");
+    return /^[a-z0-9-]{1,40}$/.test(k) ? k : m;
+  }
+
   // iPhone/iPad (incluye iPadOS, que se anuncia como Mac con pantalla táctil).
   function esIOS() {
     var ua = navigator.userAgent || "";
@@ -68,7 +78,7 @@
   var m = medio(c);
   var urlIOS = APP_STORE + "?pt=" + PROVEEDOR + "&ct=" + c + "&mt=8";
   var urlAndroid = PLAY + "&referrer=" + encodeURIComponent(
-    "utm_source=" + c + "&utm_medium=" + m + "&utm_campaign=" + m);
+    "utm_source=" + c + "&utm_medium=" + m + "&utm_campaign=" + campana(m));
 
   var enlaces = document.querySelectorAll("[data-tienda]");
   for (var i = 0; i < enlaces.length; i++) {

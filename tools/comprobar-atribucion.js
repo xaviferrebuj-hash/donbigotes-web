@@ -12,7 +12,7 @@ const path = require("path");
 const vm = require("vm");
 
 const RAIZ = path.resolve(__dirname, "..");
-const CANALES = ["carta", "ampa", "dentista", "vendedor", "creadora", "web"];
+const CANALES = ["carta", "ampa", "dentista", "vendedor", "creadora", "web", "clinica"];
 const GRUPOS_WEB = ["web-producto", "web-home", "web-contenido"];
 // ct por grupo de página desde el 7-oct-2026 (sustituyen a web-contenido en App Store).
 const CT_GRUPOS = ["web-imprimibles", "web-existe", "web-419", "web-otras", "web-postcarta", "web-postcarta-419"];
@@ -88,8 +88,8 @@ const UA = {
 };
 const CODIGO = fs.readFileSync(path.join(RAIZ, "js/enrutador.js"), "utf8");
 const IOS = (ct) => `https://apps.apple.com/app/apple-store/id6798414411?pt=129172273&ct=${ct}&mt=8`;
-const AND = (s, m) => "https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=" +
-  encodeURIComponent(`utm_source=${s}&utm_medium=${m}&utm_campaign=${m}`);
+const AND = (s, m, k = m) => "https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=" +
+  encodeURIComponent(`utm_source=${s}&utm_medium=${m}&utm_campaign=${k}`);
 
 function ejecutar(pagina, busqueda, ua, via) {
   const html = fs.readFileSync(path.join(RAIZ, pagina, "index.html"), "utf8");
@@ -127,7 +127,7 @@ function ejecutar(pagina, busqueda, ua, via) {
 }
 
 const casos = [
-  // pagina, búsqueda, ct esperado, [source, medium] esperados en Play
+  // pagina, búsqueda, ct esperado, [source, medium, campaign] esperados en Play (campaign = medium si falta)
   ["carta", "?utm_source=carta&utm_medium=qr", "carta", ["carta", "qr"]],
   ["carta", "?utm_source=carta&utm_medium=whatsapp", "carta", ["carta", "whatsapp"]],
   ["carta", "?utm_source=carta&utm_medium=email", "carta", ["carta", "otros"]],
@@ -144,15 +144,24 @@ const casos = [
   ["app", "?utm_source=dentista&utm_medium=un-medio-demasiado-largo-de-verdad", "dentista", ["dentista", "otros"]],
   ["app", "?utm_source=a%26b&utm_medium=x%26utm_source%3Dhack", "otros", ["otros", "otros"]],
   ["app", "", "otros", ["otros", "otros"]],
+  // Tarjetas QR de clínicas: utm_campaign válido ([a-z0-9-], ≤40) solo viaja a Play.
+  ["app", "?utm_source=clinica&utm_medium=qr&utm_campaign=clinica-ejemplo-barcelona", "clinica", ["clinica", "qr", "clinica-ejemplo-barcelona"]],
+  ["app", "?utm_source=clinica&utm_medium=qr", "clinica", ["clinica", "qr"]],
+  ["app", "?utm_source=clinica&utm_medium=qr&utm_campaign=clinica%20ejemplo", "clinica", ["clinica", "qr"]],
+  ["app", "?utm_source=clinica&utm_medium=qr&utm_campaign=clinica-%3Cscript%3E", "clinica", ["clinica", "qr"]],
+  ["app", "?utm_source=clinica&utm_medium=qr&utm_campaign=clinica%25ejemplo", "clinica", ["clinica", "qr"]],
+  ["app", "?utm_source=clinica&utm_medium=qr&utm_campaign=x%26utm_source%3Dhack", "clinica", ["clinica", "qr"]],
+  ["app", "?utm_source=clinica&utm_medium=qr&utm_campaign=" + "a".repeat(41), "clinica", ["clinica", "qr"]],
+  ["carta", "?utm_source=carta&utm_medium=qr&utm_campaign=feria-2026", "carta", ["carta", "qr", "feria-2026"]],
 ];
 let nCasos = 0;
-for (const [pagina, q, ct, [s, m]] of casos) {
+for (const [pagina, q, ct, [s, m, k]] of casos) {
   for (const via of ["callback", "temporizador"]) {
     for (const [nombre, ua] of Object.entries(UA)) {
       nCasos++;
       const r = ejecutar(pagina, q, ua, via);
       const id = `/${pagina}/${q} [${nombre}, ${via}]`;
-      const esperado = nombre === "escritorio" ? null : (nombre === "android" ? AND(s, m) : IOS(ct));
+      const esperado = nombre === "escritorio" ? null : (nombre === "android" ? AND(s, m, k) : IOS(ct));
       if (esperado === null) {
         if (r.reemplazos.length) falla(`${id}: redirige en ordenador → ${r.reemplazos}`);
       } else {
@@ -161,7 +170,7 @@ for (const [pagina, q, ct, [s, m]] of casos) {
         if (!r.timers.length || r.timers[0][1] > 1000) falla(`${id}: sin temporizador de ≤1 s`);
       }
       for (const t of r.tiendas) {
-        const bien = t.tipo === "appstore" ? IOS(ct) : AND(s, m);
+        const bien = t.tipo === "appstore" ? IOS(ct) : AND(s, m, k);
         if (t.href !== bien) falla(`${id}: botón ${t.tipo} → ${t.href}`);
       }
     }
