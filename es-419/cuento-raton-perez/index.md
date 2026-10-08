@@ -2,7 +2,7 @@
 
 # La historia de Don Bigotes
 
-Se la cuenta Don Bigotes, el Ratón Pérez, en diez capítulos de cinco minutos, con su voz y con ilustraciones que cambian mientras habla. Los dos primeros capítulos son gratis en la app.
+Un audiocuento para escuchar con tu hijo o hija antes de dormir: se lo cuenta Don Bigotes, el Ratón Pérez, en diez capítulos de cinco minutos, con su voz y con ilustraciones que cambian mientras habla. Los dos primeros capítulos son gratis en la app.
 
 Capítulo 1 · «La caja de galletas» · 4:56
 
@@ -57,6 +57,10 @@ Los capítulos 1 y 2 son gratis. Los ocho restantes, una sola compra, sin suscri
 El Ratón Pérez nació en 1894, en [un cuento que el padre Luis Coloma escribió para el rey Alfonso XIII](https://donbigotes.app/historia-raton-perez/) cuando tenía ocho años y se le cayó un diente. Los capítulos 5, 6 y 7 cuentan esa noche desde el otro lado: la del ratón. El resto es la vida de Don Bigotes, que no estaba escrita en ningún lado.
 
 ## Preguntas frecuentes
+
+**¿Hay un audiocuento del Ratón Pérez para niños?**
+
+Sí: «La historia de Don Bigotes», diez capítulos en audio contados por el propio Ratón Pérez. El capítulo 1 (4:56) se escucha entero en esta página; en la app, el 1 y el 2 son gratis y los ocho restantes son una sola compra, al precio de tu tienda.
 
 **¿Es la historia original del Ratón Pérez?**
 
