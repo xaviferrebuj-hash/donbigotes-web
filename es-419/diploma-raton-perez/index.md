@@ -12,7 +12,7 @@ La carta del Ratón Pérez con su nombre, en un minuto y gratis
 
 Escribe el nombre de tu hijo o hija y descarga la carta lista para imprimir. Sin registro.
 
-¿Sin impresora? En la app, el Ratón Pérez [dice su nombre con su propia voz](https://donbigotes.app/voz-raton-perez/).
+¿Sin impresora? En la app, el Ratón Pérez [dice su nombre con su propia voz](https://donbigotes.app/es-419/voz-raton-perez/).
 
 Un diploma oficial de la Oficina del Ratón, personalizado con el nombre de su hijo o hija y el diente que se le cayó. Firmado y sellado, listo para enmarcar o guardar de recuerdo.
 

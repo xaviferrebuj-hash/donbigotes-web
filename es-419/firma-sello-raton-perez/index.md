@@ -14,7 +14,7 @@ La carta del Ratón Pérez con su nombre, en un minuto y gratis
 
 Escribe el nombre de tu hijo o hija y descarga la carta lista para imprimir. Sin registro.
 
-¿Sin impresora? En la app, el Ratón Pérez [dice su nombre con su propia voz](https://donbigotes.app/voz-raton-perez/).
+¿Sin impresora? En la app, el Ratón Pérez [dice su nombre con su propia voz](https://donbigotes.app/es-419/voz-raton-perez/).
 
 Son las dos piezas que convierten una hoja escrita a mano en una carta de la Oficina: el sello redondo de tinta y la firma de Don Bigotes. Descárgalas sueltas y úsalas como quieras, o deja que la Oficina te la entregue ya firmada y sellada.
 

@@ -30,7 +30,7 @@ La carta del Ratón Pérez con su nombre, en un minuto y gratis
 
 Escribe el nombre de tu hijo o hija y descarga la carta lista para imprimir. Sin registro.
 
-¿Sin impresora? En la app, el Ratón Pérez [dice su nombre con su propia voz](https://donbigotes.app/voz-raton-perez/).
+¿Sin impresora? En la app, el Ratón Pérez [dice su nombre con su propia voz](https://donbigotes.app/es-419/voz-raton-perez/).
 
 ### Tú pones el diente. Él pone la magia.
 

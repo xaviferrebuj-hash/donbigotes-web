@@ -72,7 +72,7 @@ La app se descarga gratis y el fotomontaje «¡Pillado!» forma parte del Pack M
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratón Pérez».
 
-[App del Ratón Pérez](https://donbigotes.app/es-419/app-raton-perez/) · [Foto del Ratón Pérez](https://donbigotes.app/es-419/foto-raton-perez/) · [Video del Ratón Pérez](https://donbigotes.app/video-raton-perez/) · [Voz del Ratón Pérez](https://donbigotes.app/voz-raton-perez/) · [Carta para imprimir](https://donbigotes.app/es-419/carta-para-imprimir/) · [El viaje del diente](https://donbigotes.app/viaje-del-diente/) · [Cuento del Ratón Pérez](https://donbigotes.app/es-419/cuento-raton-perez/) · [Blog](https://donbigotes.app/blog/)
+[App del Ratón Pérez](https://donbigotes.app/es-419/app-raton-perez/) · [Foto del Ratón Pérez](https://donbigotes.app/es-419/foto-raton-perez/) · [Video del Ratón Pérez](https://donbigotes.app/video-raton-perez/) · [Voz del Ratón Pérez](https://donbigotes.app/es-419/voz-raton-perez/) · [Carta para imprimir](https://donbigotes.app/es-419/carta-para-imprimir/) · [El viaje del diente](https://donbigotes.app/viaje-del-diente/) · [Cuento del Ratón Pérez](https://donbigotes.app/es-419/cuento-raton-perez/) · [Blog](https://donbigotes.app/blog/)
 
 © 2026 Don Bigotes · [donbigotes.app](https://donbigotes.app/es-419/)
 

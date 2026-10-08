@@ -12,7 +12,7 @@ La carta del Ratón Pérez con su nombre, en un minuto y gratis
 
 Escribe el nombre de tu hijo o hija y descarga la carta lista para imprimir. Sin registro.
 
-¿Sin impresora? En la app, el Ratón Pérez [dice su nombre con su propia voz](https://donbigotes.app/voz-raton-perez/).
+¿Sin impresora? En la app, el Ratón Pérez [dice su nombre con su propia voz](https://donbigotes.app/es-419/voz-raton-perez/).
 
 Cuando un niño pierde un diente y se lo entrega al Ratón Pérez, se merece algo más que una moneda: un Diploma de Valentía oficial de la Oficina del Ratón, con su nombre, la fecha y su título de Guardián o Guardiana de Sonrisas. Con Don Bigotes lo tienen listo en un minuto, para imprimir o mostrar en el celular.
 
