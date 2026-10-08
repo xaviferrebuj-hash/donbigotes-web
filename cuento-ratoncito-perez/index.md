@@ -94,7 +94,7 @@ Es la voz de Don Bigotes, la misma que en la nota de voz y el vídeo de la app. 
 
 Y cuando se le mueva un diente, en la app Don Bigotes tienes la carta del Ratoncito Pérez con su nombre y el diario de dientes de leche, gratis y sin cuenta.
 
-Última actualización: 27 de septiembre de 2026
+Última actualización: 8 de octubre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 
