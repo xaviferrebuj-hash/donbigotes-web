@@ -58,7 +58,7 @@ Hay versión para los dos: la del primero lo celebra y la del último es una des
 
 ## Que la próxima caída de diente sea inolvidable
 
-Última actualización: 6 de octubre de 2026
+Última actualización: 8 de octubre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratón Pérez». El personaje del Ratón Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 
