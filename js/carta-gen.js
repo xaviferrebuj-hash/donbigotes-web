@@ -29,7 +29,9 @@
   /* ---------------------------------------------------------------- textos */
 
   /* Las páginas no coinciden en el data-v de las paletas («palita» en unas,
-     «paleta» en otras): aquí valen las dos y la carta dice «paleta», como la app. */
+     «paleta» en otras): aquí valen las dos y la carta dice «paleta», como la app.
+     Las páginas es-419 dicen «diente de enfrente de arriba/abajo», como la app LATAM
+     (decisión de Xavi, 8-oct-2026); «diente» es masculino. */
   var ARRIBA = 'paleta de arriba';
   var ABAJO = 'paleta de abajo';
   var DIENTES = {
@@ -37,6 +39,8 @@
     'paleta de arriba': { txt: 'tu paleta de arriba', llano: 'tu paleta de arriba', nombre: 'paleta de arriba', pron: 'La' },
     'palita de abajo': { txt: 'tu ' + ABAJO, llano: 'tu ' + ABAJO, nombre: ABAJO, pron: 'La' },
     'paleta de abajo': { txt: 'tu paleta de abajo', llano: 'tu paleta de abajo', nombre: 'paleta de abajo', pron: 'La' },
+    'diente de enfrente de arriba': { txt: 'tu diente de enfrente de arriba', llano: 'tu diente de enfrente de arriba', nombre: 'diente de enfrente de arriba', pron: 'Lo' },
+    'diente de enfrente de abajo': { txt: 'tu diente de enfrente de abajo', llano: 'tu diente de enfrente de abajo', nombre: 'diente de enfrente de abajo', pron: 'Lo' },
     'muela': { txt: 'tu muelita', llano: 'tu muela', nombre: 'muela', pron: 'La' },
     'colmillo': { txt: 'tu colmillito', llano: 'tu colmillo', nombre: 'colmillo', pron: 'Lo' },
     'diente': { txt: 'tu dientecito', llano: 'tu diente', nombre: 'diente', pron: 'Lo' }
