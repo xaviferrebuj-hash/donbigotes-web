@@ -1,0 +1,57 @@
+/* Generador del certificado con el nombre (10-oct-2026): bloque nocturno encima del PDF
+   en blanco de /certificado-raton-perez/, /diploma-raton-perez/ y sus hermanas /es-419/.
+   La lógica está en /js/diploma-gen.js. Las medidas del nombre y la fecha son las del PDF
+   (descargas/diploma-*.pdf, 794 × 1123 unidades): línea «Otorgado a:» en y = 549,
+   x 323-617; línea «Fecha:» en y = 742, desde x = 323. Los tamaños van en cqw, así que
+   salen iguales en la vista previa y en el A4 impreso. */
+.dg{max-width:520px;margin:24px 0 0;padding:22px clamp(18px,4vw,26px) 20px;border-radius:18px;text-align:left;color:#fff;
+  background:radial-gradient(120% 90% at 82% -10%,rgba(242,193,78,.16),transparent 55%),linear-gradient(160deg,var(--night-1) 0%,var(--night-2) 58%,var(--night-3) 135%);
+  border:1px solid rgba(242,193,78,.38);box-shadow:0 18px 44px rgba(0,0,0,.35)}
+.dg .eyebrow{margin-bottom:10px}
+.dg-t{font-family:'Fraunces',Georgia,serif;font-weight:700;font-size:clamp(1.35rem,2.6vw,1.6rem);line-height:1.15;color:#fff}
+.dg-s{margin-top:8px;color:var(--mist);font-size:.98rem;line-height:1.45}
+.dg-campos{display:grid;grid-template-columns:1fr;gap:12px;margin-top:16px}
+.dg-l{display:block;font-weight:800;font-size:.84rem;color:var(--gold-soft);margin-bottom:6px}
+.dg-in{width:100%;min-width:0;font-family:inherit;font-size:1rem;padding:13px 14px;border-radius:12px;border:1.5px solid rgba(255,255,255,.2);background:rgba(255,255,255,.07);color:#fff}
+.dg-in:focus{outline:none;border-color:var(--gold);background:rgba(255,255,255,.11)}
+.dg-in.falta{border-color:#F28B82}
+.dg-err{margin-top:10px;color:#FFB4AB;font-weight:700;font-size:.92rem}
+.dg-go{display:block;width:100%;margin-top:16px;text-align:center}
+.dg-n{margin-top:14px;font-size:.84rem;line-height:1.45;color:var(--mist)}
+.dg-n a,.dg-otro{color:var(--gold-soft);text-decoration:underline;text-underline-offset:2px}
+.dg-otro{display:block;margin:12px auto 0;background:none;border:none;cursor:pointer;font-family:inherit;font-size:.9rem;font-weight:600}
+.dg-res .dg-go{margin-top:18px}
+
+/* La hoja: el diploma de siempre de fondo y, encima, el nombre y la fecha. */
+.dg-hoja{position:relative;width:100%;aspect-ratio:2480/3508;container-type:inline-size;background:#F3E7D2;overflow:hidden}
+.dg-res .dg-hoja{border-radius:6px;box-shadow:0 18px 40px rgba(0,0,0,.45)}
+.dg-hoja img{position:absolute;inset:0;width:100%;height:100%;max-width:none}
+.dg-nombre,.dg-fecha{position:absolute;color:#1F2A5C;font-family:'Caveat',cursive;line-height:1;white-space:nowrap}
+.dg-nombre{left:40.68%;width:37.03%;bottom:51.02%;text-align:center;font-weight:700;font-size:var(--dg-fn,5.8cqw)}
+.dg-fecha{left:41.18%;bottom:33.75%;text-align:left;font-weight:500;font-size:var(--dg-ff,3.8cqw)}
+
+/* Pantalla de después, como la de la carta. */
+.dg-pc{margin-top:22px;padding-top:20px;border-top:1px solid rgba(255,255,255,.14);text-align:center}
+.dg-pc:focus{outline:none}
+.dg-pc-t{font-family:'Fraunces',Georgia,serif;font-weight:700;font-size:1.3rem;line-height:1.2;color:#fff}
+.dg-pc-s{max-width:40ch;margin:8px auto 0;color:var(--mist);font-size:.98rem;line-height:1.45}
+.dg-escuchar{margin-top:14px;padding:11px 22px;border:none;border-radius:999px;cursor:pointer;background:linear-gradient(180deg,var(--gold),#E7B23B);color:var(--night-1);font-family:inherit;font-weight:800;font-size:1rem}
+.dg-escuchar.sonando{box-shadow:0 0 0 4px rgba(242,193,78,.32)}
+.dg-tienda{margin-top:18px}
+.dg-tienda-b{display:inline-block;padding:15px 28px;border-radius:12px;background:linear-gradient(180deg,var(--gold),#E7B23B);color:var(--night-1);font-weight:800;font-size:1.06rem;text-decoration:none}
+.dg-insignias{display:flex;gap:14px;justify-content:center;align-items:center;flex-wrap:wrap}
+.dg-insignias img{display:block}
+.dg-tienda-b[hidden],.dg-insignias[hidden]{display:none}
+.dg-letra{max-width:44ch;margin:14px auto 0;color:var(--gold-soft);font-size:.84rem;line-height:1.45}
+
+/* Copia para imprimir: hija directa de <body>, la crea diploma-gen.js. */
+#dgImp{display:none}
+@media(max-width:920px){.dg{margin-left:auto;margin-right:auto}}
+@media print{
+  @page{size:A4;margin:0}
+  html.dg-listo,html.dg-listo body{background:#fff;margin:0;padding:0}
+  html.dg-listo body>*:not(#dgImp){display:none!important}
+  html.dg-listo #dgImp{display:block;visibility:visible;width:210mm;height:296.8mm;page-break-after:avoid;break-after:avoid;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  html.dg-listo #dgImp *{visibility:visible}
+  #dgImp .dg-hoja{width:100%;height:100%;aspect-ratio:auto;background:none}
+}
