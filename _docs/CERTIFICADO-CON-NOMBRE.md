@@ -1,13 +1,12 @@
 # Certificado con el nombre (10-oct-2026)
 
-Rama `feature/certificado-con-nombre`. **No se fusiona en `main` hasta que Xavi escriba «publicar certificado»**, y no antes del 22-oct: las 4 páginas están en el experimento de los imprimibles, que se lee el 21-oct.
+Rama `feature/certificado-con-nombre`. **No se fusiona en `main` hasta que Xavi escriba «publicar certificado»**, y no antes del 22-oct: las páginas están en el experimento de los imprimibles, que se lee el 21-oct.
 
 ## Qué hace
 
-Generador del certificado (el Diploma de Valentía del PDF gratuito) con el nombre y la fecha ya escritos, en:
+Generador del certificado (el Diploma de Valentía del PDF gratuito) con el nombre y la fecha ya escritos, **solo** en `/certificado-raton-perez/` y `/es-419/certificado-raton-perez/`.
 
-- `/certificado-raton-perez/` y `/diploma-raton-perez/`
-- `/es-419/certificado-raton-perez/` y `/es-419/diploma-raton-perez/`
+Alcance (decisión de Xavi, 10-oct): `/diploma-raton-perez/` y `/es-419/diploma-raton-perez/` quedan **idénticas a `main`**, porque venden el Diploma de Valentía con nombre del Pack Mágico. El generador estuvo en ellas en el primer commit de la rama y se quitó en «Generador solo en certificado».
 
 Bloque nocturno `#dg` en el hero, **encima** de los botones del PDF en blanco (que siguen donde estaban). Antetítulo «Gratis · sin registro», título, texto, campos «Nombre» (máx. 18, mayúscula inicial en cada palabra) y «Fecha» (la de hoy, editable), botón «✨ Crear el certificado» y letra pequeña de privacidad con enlace al PDF en blanco.
 
@@ -57,14 +56,14 @@ Los campos no tienen `name` (el formulario no puede poner el nombre en la URL), 
 
 ## Pruebas (T2)
 
-Android (412 px), iPhone (390 px) y escritorio (1366 px), emulados con Chrome DevTools, con «Martina», «Valentina», «María José» y «Maximiliano Andrés». Sin errores de consola. Tras la primera prueba el nombre bajó de 5,8 a 5 cqw porque los acentos casi tocaban el filete dorado. Capturas: `~/proyectos/Claude outputs/certificado-con-nombre/capturas/`.
+Android (412 px), iPhone (390 px) y escritorio (1366 px), emulados con Chrome DevTools, con «Martina», «Valentina», «María José» y «Maximiliano Andrés». Sin errores de consola. Parte de las pruebas («María José» en iPhone y las de escritorio) se hizo en las páginas de diploma, antes del cambio de alcance: el bloque y el script eran los mismos. Tras la primera prueba el nombre bajó de 5,8 a 5 cqw porque los acentos casi tocaban el filete dorado. Capturas: `~/proyectos/Claude outputs/certificado-con-nombre/capturas/`.
 
 T3 (PDF de prueba con Chromium headless) no se hizo en local: 7 swapfiles. Lo hace Claude en la nube desde la rama.
 
 ## Pendiente de decisión antes de publicar
 
-1. **Textos que ahora se contradicen**: las FAQ (y su `FAQPage`, regla 11) y el `answer-ready` de las 4 páginas dicen que el nombre se escribe a mano y que el nombre impreso solo está en la app.
-2. **Páginas de diploma**: venden el «Diploma de Valentía con su nombre» dentro del Pack Mágico (4,99 €); ahora la misma página lo regala con nombre.
+1. **Textos que ahora se contradicen**: las FAQ (y su `FAQPage`, regla 11) y el `answer-ready` de las 2 páginas de certificado dicen que el nombre se escribe a mano y que el nombre impreso solo está en la app.
+2. **Canibalización con el Pack**: el certificado gratis con nombre es el mismo diploma que el «Diploma de Valentía» que venden las páginas de diploma (por eso allí no va el generador), y el certificado enlaza a esas páginas.
 3. **Papel Carta** (LATAM): la hoja es A4; en Carta el navegador la escala.
-4. Los `.md` de las 4 páginas incluyen los textos de la pantalla posterior («Tu certificado está listo…»), que en la página solo se ven tras crear el certificado.
-5. Al fusionar: pase de fechas de las 4 páginas (cambio de contenido visible) y regenerar `.md`.
+4. Los `.md` de las 2 páginas incluyen los textos de la pantalla posterior («Tu certificado está listo…»), que en la página solo se ven tras crear el certificado.
+5. Al fusionar: pase de fechas de las 2 páginas de certificado (cambio de contenido visible) y regenerar `.md`.
