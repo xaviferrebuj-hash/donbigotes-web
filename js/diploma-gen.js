@@ -38,7 +38,7 @@
   /* Tamaño base y ancho máximo, en cqw (centésimas del ancho de la hoja). El nombre va
      centrado en la línea de «Otorgado a:» (37,03 cqw) y encoge si no cabe; la fecha
      empieza en la línea de «Fecha:» y puede pasarse un poco de los puntos. */
-  var NOMBRE = { peso: 700, base: 5.8, max: 35.2, prop: '--dg-fn' };
+  var NOMBRE = { peso: 700, base: 5, max: 35.2, prop: '--dg-fn' };
   var FECHA = { peso: 500, base: 3.8, max: 32, prop: '--dg-ff' };
   var lienzo = doc.createElement('canvas').getContext('2d');
   function tamano(txt, t) {
