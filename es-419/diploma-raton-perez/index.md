@@ -4,18 +4,6 @@
 
 Descarga gratis el diploma del Ratón Pérez (también llamado Ratón de los Dientes) en PDF, listo para imprimir en A4. Descarga directa, sin registro y sin dejar el correo. Sirve para el primer diente y para todos los siguientes: el nombre del niño y la fecha se llenan a mano. Incluye el sello de la Oficina del Ratón. En España el personaje se conoce como Ratoncito Pérez: también hay una versión con ese nombre para descargar.
 
-## El certificado del Ratón Pérez, con su nombre
-
-Escribe el nombre de tu hijo o hija y descárgalo listo para imprimir, con la firma y el sello del Ratón Pérez.
-
-El nombre no sale de tu celular: no se guarda ni se envía a ningún lado. ¿Lo prefieres a mano? [Descarga el PDF en blanco](https://donbigotes.app/descargas/diploma-raton-de-los-dientes.pdf).
-
-✨ Tu certificado está listo
-
-Esta noche, cuando lo encuentre, también puede oír al Ratón Pérez decir su nombre.
-
-Gratis: la carta y el diario de dientes. Con el Pack Mágico (un solo pago): voz, foto del Ratón Pérez pillado, video y Diploma de Valentía.
-
 - [Descargar diploma gratis (PDF, A4)](https://donbigotes.app/descargas/diploma-raton-de-los-dientes.pdf)
 
 - [Versión España: Ratoncito Pérez (PDF)](https://donbigotes.app/descargas/diploma-ratoncito-perez.pdf)
