@@ -2,7 +2,7 @@
 
 # Certificado del Ratón Pérez por su primer diente
 
-Descarga gratis el certificado del Ratoncito Pérez por el primer diente caído, en PDF listo para imprimir en A4. Descarga directa, sin registro. El nombre del niño y la fecha se rellenan a mano, con el sello de la Oficina del Ratoncito. Hay versión para Latinoamérica («Ratón Pérez» / «Ratón de los Dientes»).
+Descarga gratis el certificado del Ratoncito Pérez por el primer diente caído, en PDF listo para imprimir en A4. Escribe su nombre y la fecha y sale ya impreso, o descarga el PDF en blanco para rellenarlo a mano. Sin registro, con la firma y el sello de la Oficina del Ratoncito. Hay versión para Latinoamérica («Ratón Pérez» / «Ratón de los Dientes»).
 
 ## El certificado del Ratoncito Pérez, con su nombre
 
@@ -26,7 +26,7 @@ Escribe el nombre de tu peque y descarga la carta del Ratoncito lista para impri
 
 ¿Sin impresora? En la app, el Ratoncito [dice su nombre con su propia voz](https://donbigotes.app/voz-raton-perez/).
 
-Cuando un niño pierde un diente y lo entrega al Ratoncito Pérez, se merece algo más que una moneda: un certificado oficial de la Oficina del Ratoncito, con su nombre, la fecha y su título de Guardián o Guardiana de Sonrisas. Gratis en PDF para rellenar a mano; y, con la app Don Bigotes, con su nombre ya impreso en un minuto.
+Cuando un niño pierde un diente y lo entrega al Ratoncito Pérez, se merece algo más que una moneda: un certificado oficial de la Oficina del Ratoncito, con su nombre, la fecha y su título de Guardián o Guardiana de Sonrisas. Aquí lo tienes gratis, con su nombre ya impreso o en blanco para rellenarlo a mano. Con la app Don Bigotes, además, el Ratoncito dice su nombre con su propia voz.
 
 Certificado gratis · Al instante · Hecho en España
 
@@ -54,25 +54,25 @@ El momento ideal es por la tarde, al volver del colegio: el diente ya voló por 
 
 El certificado está pensado para las dos cosas: imprimirlo en A4 y colgarlo en su cuarto, o enseñárselo directamente en el móvil nada más llegar a casa.
 
-¿Buscas el [Diploma de Valentía](https://donbigotes.app/diploma-raton-perez/) con su nombre y su diente ya impresos? Es otra página: este es el certificado gratis para rellenar a mano.
+¿Buscas el [Diploma de Valentía](https://donbigotes.app/diploma-raton-perez/) con su nombre y su diente ya impresos? Es otra página: este es el certificado gratis, con su nombre o en blanco.
 
 ## Preguntas frecuentes
 
 **¿El certificado del Ratoncito Pérez es gratis de verdad?**
 
-Sí. Se descarga en PDF con un clic, sin registro, sin correo y sin marca de agua. Está pensado para imprimir en A4 y rellenar a mano el nombre del niño y la fecha.
+Sí. Sin registro, sin correo y sin marca de agua. Escribe su nombre arriba y lo imprimes con el nombre y la fecha ya puestos, o descarga el PDF en blanco y lo rellenas a mano. Está pensado para A4.
 
 **¿Puedo poner el nombre del niño impreso en el certificado?**
 
-En el PDF gratuito el nombre se escribe a mano. Si quieres el certificado con el nombre del niño ya impreso, junto a la carta, la nota de voz y el resto de la experiencia, se genera en la [app Don Bigotes](https://donbigotes.app/app-raton-perez/).
+Sí, aquí mismo y gratis: escribe su nombre en el recuadro de arriba y se imprime con letra manuscrita sobre la línea de «Otorgado a». El nombre no sale de tu móvil: no se guarda ni se envía a ningún sitio.
 
 **¿Cómo consigo un certificado del Ratoncito Pérez personalizado?**
 
-Con la app Don Bigotes: eliges el nombre del niño y en un minuto tienes el [Diploma de Valentía](https://donbigotes.app/diploma-raton-perez/) listo para imprimir o enseñar en el móvil. Forma parte del Pack Mágico.
+Con su nombre y la fecha, aquí mismo y gratis. Si además quieres el [Diploma de Valentía](https://donbigotes.app/diploma-raton-perez/) con el diente que se le ha caído y su foto, y que el Ratoncito diga su nombre con su propia voz, eso está en la [app Don Bigotes](https://donbigotes.app/app-raton-perez/), dentro del Pack Mágico.
 
 **¿Puedo añadir la foto de mi hijo al certificado?**
 
-Sí, opcionalmente. La foto se procesa en tu propio móvil y no se envía a ningún servidor.
+En este certificado gratis, no. En el Diploma de Valentía de la app Don Bigotes sí, si quieres: la foto se procesa en tu propio móvil y no se envía a ningún servidor.
 
 **¿El certificado se puede imprimir?**
 
