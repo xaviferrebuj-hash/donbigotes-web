@@ -82,6 +82,9 @@ el 7-oct (textos definitivos).
 | Resto ES | `utm_medium=web-contenido` | `web-otras` |
 | Enlaces compartidos desde la app | `/d/` → `utm_source=app&utm_medium=share&utm_campaign=diario` (`/c/` → `carta`; es-419 con `-419`) | — |
 
+- 16-oct: `/c/` y `/d/` (ES y es-419) conservan el UTM de entrada si trae `utm_campaign` (app 0.11.1+); sin él, el UTM fijo de siempre.
+  Redirección por JS (`location.replace`); el meta refresh queda en `<noscript>` como fallback sin JS.
+
 - Con UTM propias en la visita (outreach, o `/d/` y `/c/`), `enlaces-app.js` las pone como
   referrer de Play en toda la sesión, también en la post-carta (no en la banda).
 - `tools/comprobar-atribucion.js` conoce los `ct` y `utm_medium` nuevos.
