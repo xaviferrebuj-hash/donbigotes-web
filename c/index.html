@@ -2,7 +2,11 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="refresh" content="0; url=/?utm_source=app&amp;utm_medium=share&amp;utm_campaign=carta">
+<script>
+// App 0.11.1+: cada pieza trae su UTM; si trae utm_campaign se conserva la query tal cual.
+location.replace(/[?&]utm_campaign=[^&]/.test(location.search) ? "/" + location.search : "/?utm_source=app&utm_medium=share&utm_campaign=carta");
+</script>
+<noscript><meta http-equiv="refresh" content="0; url=/?utm_source=app&amp;utm_medium=share&amp;utm_campaign=carta"></noscript>
 <link rel="canonical" href="https://donbigotes.app/">
 <meta name="robots" content="noindex">
 <title>Don Bigotes</title>
