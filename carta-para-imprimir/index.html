@@ -224,6 +224,11 @@
 
   /* faq */
   .faq{max-width:720px;margin:0 auto}
+  /* texto de la carta: mismo ancho que .faq, letra del cuerpo */
+  .carta-intro,.carta-texto{max-width:720px;margin:0 auto}
+  .carta-intro{margin-bottom:18px}
+  .carta-texto{border-left:3px solid var(--borde);padding-left:22px}
+  .carta-texto p+p{margin-top:12px}
   .linea-edad{text-align:center;margin-top:26px}
   .linea-edad a{color:var(--oro);font-weight:700}
   /* Enlace a «¿existe?» bajo las preguntas frecuentes: sobre fondo oscuro, en dorado. */
@@ -342,6 +347,22 @@
   <!-- CÁPSULA DE RESPUESTA -->
   <section style="padding:10px 0 0">
     <p class="capsula">Descarga gratis la carta del Ratoncito Pérez en PDF, lista para imprimir en A4, o créala personalizada con el nombre de tu hijo en un minuto. Descarga directa, sin registro. La carta llega firmada y sellada por la Oficina del Ratoncito; también puedes <a href="/firma-sello-raton-perez/" style="color:var(--gold-deep);font-weight:700">descargar el sello y la firma sueltos</a> para pegarlos en una carta escrita por ti. En Latinoamérica el personaje se conoce como Ratón Pérez o Ratón de los Dientes: hay versión propia para descargar.</p>
+  </section>
+
+  <!-- TEXTO DE LA CARTA -->
+  <section>
+    <div class="sec-label">El texto</div>
+    <h2 class="sec-title">El texto de la carta del Ratoncito Pérez</h2>
+    <p class="carta-intro">Este es el texto de la carta en PDF. Si la creas con el nombre de tu peque, cambia según su edad.</p>
+    <blockquote class="carta-texto">
+      <p><strong>Oficina del Ratoncito Pérez</strong> · Departamento de Dientes de Leche · desde 1894</p>
+      <p>Desde mi ratonera, a ___ de ______ de 20__</p>
+      <p>Para: ____________</p>
+      <p>Esta noche he venido de puntillas hasta tu almohada y he encontrado tu dientecito. ¡Qué tesoro! Lo he envuelto con mucho cuidado y ya viaja en mi saquito hacia mi Oficina, donde brillará junto a los dientes más bonitos del mundo.</p>
+      <p>Ya sabes que detrás de cada diente que se cae asoma uno nuevo y más fuerte. Cuídalo mucho: cepíllate cada mañana y cada noche, que la próxima vez que pase por aquí quiero encontrarme una sonrisa reluciente.</p>
+      <p>Gracias por dejarme tu dientecito. Esta vieja Oficina te tiene entre sus personas favoritas.</p>
+      <p>Con bigotes y cariño,<br>el Ratoncito Pérez</p>
+    </blockquote>
   </section>
 
   <!-- CTA hacia la app (enlaces centralizados en /js/enlaces-app.js) -->
