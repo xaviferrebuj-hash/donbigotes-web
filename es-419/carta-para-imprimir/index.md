@@ -18,6 +18,26 @@ Escribe el nombre de tu hijo o hija y descarga la carta lista para imprimir. Sin
 
 Descarga gratis la carta del Ratón Pérez (también llamado Ratón de los Dientes) en PDF, lista para imprimir, o créala personalizada con el nombre de tu hijo en un minuto. Descarga directa, sin registro. La carta llega firmada y sellada por la Oficina del Ratón Pérez; también puedes [descargar el sello y la firma sueltos](https://donbigotes.app/es-419/firma-sello-raton-perez/) para pegarlos en una carta escrita por ti. En España el personaje se conoce como Ratoncito Pérez: también hay una versión con ese nombre para descargar.
 
+## El texto de la carta del Ratón Pérez
+
+Este es el texto de la carta en PDF. Si la creas con el nombre de tu hijo o hija, cambia según su edad.
+
+Oficina del Ratón Pérez · Departamento de Dientes de Leche · desde 1894
+
+Desde mi ratonera, a ___ de ______ de 20__
+
+Para: ____________
+
+Esta noche vine de puntitas hasta tu almohada y encontré tu dientecito. ¡Qué tesoro! Lo envolví con mucho cuidado y ya viaja en mi saquito hacia mi Oficina, donde brillará junto a los dientes más bonitos del mundo.
+
+En algunos países me llaman Ratón Pérez y en otros, Ratón de los Dientes. Firme como firme, soy el mismo ratón que esta noche cuidó tu diente.
+
+Ya sabes que detrás de cada diente que se cae asoma uno nuevo y más fuerte. Cuídalo mucho: cepíllate cada mañana y cada noche, porque la próxima vez que pase por aquí quiero encontrarme una sonrisa reluciente.
+
+Gracias por dejarme tu dientecito. Esta vieja Oficina te tiene entre sus personas favoritas.
+
+Con bigotes y cariño, el Ratón Pérez
+
 ## Crea la experiencia completa en la app Don Bigotes
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo se paga una sola vez, al precio local de la tienda.
@@ -76,7 +96,7 @@ En donbigotes.app: escribes el nombre, se genera la carta y la imprimes o guarda
 
 ¿Tu hijo te pregunta si el Ratón Pérez existe? [Qué contestarle según su edad](https://donbigotes.app/es-419/el-ratoncito-perez-existe/).
 
-Última actualización: 7 de octubre de 2026
+Última actualización: 21 de octubre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratón Pérez».
 

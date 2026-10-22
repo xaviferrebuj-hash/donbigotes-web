@@ -20,6 +20,24 @@ Escribe el nombre de tu peque y descarga la carta del Ratoncito lista para impri
 
 Descarga gratis la carta del Ratoncito Pérez en PDF, lista para imprimir en A4, o créala personalizada con el nombre de tu hijo en un minuto. Descarga directa, sin registro. La carta llega firmada y sellada por la Oficina del Ratoncito; también puedes [descargar el sello y la firma sueltos](https://donbigotes.app/firma-sello-raton-perez/) para pegarlos en una carta escrita por ti. En Latinoamérica el personaje se conoce como Ratón Pérez o Ratón de los Dientes: hay versión propia para descargar.
 
+## El texto de la carta del Ratoncito Pérez
+
+Este es el texto de la carta en PDF. Si la creas con el nombre de tu peque, cambia según su edad.
+
+Oficina del Ratoncito Pérez · Departamento de Dientes de Leche · desde 1894
+
+Desde mi ratonera, a ___ de ______ de 20__
+
+Para: ____________
+
+Esta noche he venido de puntillas hasta tu almohada y he encontrado tu dientecito. ¡Qué tesoro! Lo he envuelto con mucho cuidado y ya viaja en mi saquito hacia mi Oficina, donde brillará junto a los dientes más bonitos del mundo.
+
+Ya sabes que detrás de cada diente que se cae asoma uno nuevo y más fuerte. Cuídalo mucho: cepíllate cada mañana y cada noche, que la próxima vez que pase por aquí quiero encontrarme una sonrisa reluciente.
+
+Gracias por dejarme tu dientecito. Esta vieja Oficina te tiene entre sus personas favoritas.
+
+Con bigotes y cariño, el Ratoncito Pérez
+
 ## Crea la experiencia completa en la app Don Bigotes
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
@@ -72,7 +90,7 @@ En donbigotes.app: escribes el nombre, se genera la carta y la imprimes o guarda
 
 ¿Tu hijo te pregunta si el Ratoncito Pérez existe? [Qué contestarle según su edad](https://donbigotes.app/el-ratoncito-perez-existe/).
 
-Última actualización: 7 de octubre de 2026
+Última actualización: 21 de octubre de 2026
 
 Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez».
 
