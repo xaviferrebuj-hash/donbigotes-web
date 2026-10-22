@@ -2,7 +2,7 @@
    Bloque #dg de /certificado-raton-perez/, /diploma-raton-perez/ y sus hermanas /es-419/,
    encima del PDF en blanco. Pone el nombre y la fecha sobre el diploma de siempre
    (render a 300 ppp de descargas/diploma-*.pdf, en /assets/img/diploma/) y lo imprime
-   a A4 con window.print(): @media print de /assets/diploma-gen.css saca solo #dgImp.
+   (A4 o Carta) con window.print(): @media print de /assets/diploma-gen.css saca solo #dgImp.
 
    El nombre no sale del navegador: los campos no llevan name (el formulario no lo pone
    en la URL), no va en eventos ni en consola, y la muestra de voz pide el grupo por

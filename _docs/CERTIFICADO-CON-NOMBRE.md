@@ -34,7 +34,7 @@ Los tamaños van en `cqw` (la hoja es `container-type: inline-size`), así que v
 
 ## Impresión
 
-Al crear, el JS clona la hoja en `#dgImp` (hija directa de `<body>`) y pone la clase `dg-listo` en `<html>`. En `@media print`: `@page { size: A4; margin: 0 }`, todo lo demás del `body` con `display: none` y `#dgImp` a 210 × 296,8 mm. «Cambiar el nombre» quita `dg-listo`. Sin probar en impresora real ni en iPhone real; los PDF de prueba se generan en la nube a partir de esta rama.
+Al crear, el JS clona la hoja en `#dgImp` (hija directa de `<body>`) y pone la clase `dg-listo` en `<html>`. En `@media print`: `@page { size: auto; margin: 0 }` (sale en la hoja que se elija al imprimir), todo lo demás del `body` con `display: none` y `#dgImp` lo más grande que quepa sin deformarse, centrado en horizontal y 0,2 mm más bajo que la hoja (para que no salte a una segunda): en Carta, 197,4 × 279,2 mm. En A4 una regla aparte lo deja en los 210 × 296,8 mm de siempre. «Cambiar el nombre» quita `dg-listo`. PDF de prueba (23-oct-2026, Chromium headless local, A4 y Letter, «Martina» y «Valentina») en `~/proyectos/Claude outputs/certificado-con-nombre/`: los A4 dibujan imagen, nombre y fecha igual que los aprobados ese día; los Carta, una sola hoja sin cortes. Sin probar en impresora real ni en iPhone real.
 
 ## Privacidad
 
@@ -64,6 +64,6 @@ T3 (PDF de prueba con Chromium headless) no se hizo en local: 7 swapfiles. Lo ha
 
 1. **Textos que ahora se contradicen**: las FAQ (y su `FAQPage`, regla 11) y el `answer-ready` de las 2 páginas de certificado dicen que el nombre se escribe a mano y que el nombre impreso solo está en la app.
 2. **Canibalización con el Pack**: el certificado gratis con nombre es el mismo diploma que el «Diploma de Valentía» que venden las páginas de diploma (por eso allí no va el generador), y el certificado enlaza a esas páginas.
-3. **Papel Carta** (LATAM): la hoja es A4; en Carta el navegador la escala.
+3. **Papel Carta** (LATAM): resuelto el 23-oct-2026 (`@page { size: auto }`, ver «Impresión»).
 4. Los `.md` de las 2 páginas incluyen los textos de la pantalla posterior («Tu certificado está listo…»), que en la página solo se ven tras crear el certificado.
 5. Al fusionar: pase de fechas de las 2 páginas de certificado (cambio de contenido visible) y regenerar `.md`.
