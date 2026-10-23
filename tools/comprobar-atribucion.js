@@ -16,8 +16,10 @@ const CANALES = ["carta", "ampa", "dentista", "vendedor", "creadora", "web", "cl
 const GRUPOS_WEB = ["web-producto", "web-home", "web-contenido"];
 // ct por grupo de página desde el 7-oct-2026 (sustituyen a web-contenido en App Store).
 const CT_GRUPOS = ["web-imprimibles", "web-existe", "web-419", "web-otras", "web-postcarta", "web-postcarta-419"];
-// utm_medium propios con utm_source=web: pantalla post-carta y banda Android (esta, en JS).
-const MEDIOS_WEB = ["postcarta", "banda"];
+// utm_medium propios con utm_source=web: pantalla post-carta, post-certificado y banda Android (esta, en JS).
+const MEDIOS_WEB = ["postcarta", "postcertificado", "banda"];
+// ppid admitido en App Store: solo la página personalizada del cuento (fe5180b).
+const PPID_CUENTO = "5fdb66c5-9af3-443a-bdce-0f4be725e971";
 const CT_VALIDOS = CANALES.concat(GRUPOS_WEB, CT_GRUPOS, ["otros"]);
 const MEDIO = /^[a-z0-9-]{1,20}$/;
 const CAMPANA = /^[a-z0-9-]{1,40}$/;
@@ -54,8 +56,9 @@ for (const f of paginas(RAIZ)) {
         falla(`${rel}: App Store sin pt/ct/mt → ${h}`);
       else if (!CT_VALIDOS.includes(q.get("ct")))
         falla(`${rel}: ct fuera de la lista → ${q.get("ct")}`);
-      const sobra = [...q.keys()].filter(k => !["pt", "ct", "mt"].includes(k));
+      const sobra = [...q.keys()].filter(k => !["pt", "ct", "mt", "ppid"].includes(k));
       if (sobra.length) falla(`${rel}: App Store con parámetros de más → ${sobra}`);
+      if (q.has("ppid") && q.get("ppid") !== PPID_CUENTO) falla(`${rel}: ppid desconocido → ${q.get("ppid")}`);
     }
     if (/play\.google\.com\/store\/apps\/details\?id=es\.donbigotes\.app/.test(h)) {
       nPlay++;
