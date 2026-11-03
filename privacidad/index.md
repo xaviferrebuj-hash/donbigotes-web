@@ -1,6 +1,6 @@
 # Política de Privacidad
 
-Última actualización: 27 de octubre de 2026
+Última actualización: 3 de noviembre de 2026
 
 En corto: esta política cubre dos cosas distintas.
 
@@ -54,7 +54,7 @@ La app se conecta a internet en tres casos, y en ninguno viaja un dato personal 
 
 - Configuración: para comprobar si está activo el modo de lanzamiento, lee un archivo alojado en GitHub Pages. Únicamente lee una fecha; no envía nada.
 
-- Estadísticas de uso anónimas: envía veintisiete eventos sin identificadores, descritos en el punto 9.
+- Estadísticas de uso anónimas: envía veintinueve eventos sin identificadores, descritos en el punto 9.
 
 - Algunas voces y sonidos opcionales se descargan la primera vez que abres la función que los usa, desde el mismo servidor que aloja esta página (GitHub Pages). La app solo pide el fichero: no envía ningún dato tuyo ni de tu hijo, ni identificadores del dispositivo. Como en cualquier conexión a internet, el servidor ve la dirección IP; nosotros no la recibimos ni la guardamos.
 
@@ -68,7 +68,7 @@ Esto se refiere únicamente a la aplicación móvil. La web donbigotes.app sí u
 
 ## 9.Estadísticas de uso anónimas
 
-Para mejorar la app usamos Plausible Analytics, un servicio de analítica europeo centrado en la privacidad. Registramos únicamente veintisiete eventos de uso anónimos, y ninguno más:
+Para mejorar la app usamos Plausible Analytics, un servicio de analítica europeo centrado en la privacidad. Registramos únicamente veintinueve eventos de uso anónimos, y ninguno más:
 
 - open: que la app se ha abierto.
 
@@ -103,6 +103,10 @@ Para mejorar la app usamos Plausible Analytics, un servicio de analítica europe
 - muro_cuento: que se ha visto la pantalla del cuento.
 
 - clasico_play: que ha empezado a sonar uno de los cuentos clásicos (como mucho, una vez por cuento cada vez que se abre la app). No indica cuál.
+
+- cepillado_inicio: que ha empezado a sonar la canción del cepillado de dientes (una vez por cepillado). No indica quién se cepilla ni cuántos niños.
+
+- cepillado_completo: que se ha terminado un cepillado y se ha ganado el sello (una vez por cepillado, aunque se cepillen varios hermanos a la vez). No indica quién.
 
 - carta_t34, carta_t56 y carta_t79: que se ha creado una carta gratuita y con qué plantilla, que va según la edad (3-4, 5-6 o 7 años o más). Sin el nombre, la fecha de nacimiento ni nada que identifique al niño.
 
