@@ -1,0 +1,52 @@
+---
+permalink: /404.html
+---
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0B1437">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/assets/fonts/Fraunces-normal-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<meta name="robots" content="noindex">
+<title>Página no encontrada · Don Bigotes</title>
+<link rel="icon" href="/assets/img/logo-don-bigotes.jpg">
+<link rel="stylesheet" href="/assets/base.css">
+<style>
+:root{--night-1:#0B1437;--night-2:#16205A;--night-3:#243B8F;--gold:#F2C14E;--gold-soft:#FFE3A3;--mist:#C7CEF0}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Nunito Sans',system-ui,sans-serif;line-height:1.6;color:#fff;background:var(--night-1)}
+.night{min-height:72vh;background:radial-gradient(120% 90% at 82% -10%, rgba(242,193,78,.16), transparent 55%), linear-gradient(160deg,var(--night-1) 0%, var(--night-2) 58%, var(--night-3) 135%)}
+.wrap{max-width:1200px;margin:0 auto;padding:0 clamp(18px,4vw,26px)}
+.perdida{max-width:620px;padding:56px 0 72px}
+.eyebrow{color:var(--gold);font-weight:800;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase}
+h1{font-family:'Fraunces',Georgia,serif;font-weight:700;font-size:clamp(2rem,6vw,3rem);line-height:1.12;margin:10px 0 16px}
+p{margin:0 0 14px;color:var(--mist);font-size:1.05rem}
+.botones{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.btn-gold,.btn-ghost{display:inline-block;padding:14px 24px;border-radius:12px;font-weight:800;text-decoration:none;min-height:48px}
+.btn-gold{background:linear-gradient(180deg,var(--gold),#E7B23B);color:var(--night-1)}
+.btn-ghost{border:1px solid rgba(255,227,163,.5);color:#fff}
+.otra{margin-top:28px;font-size:.92rem}
+.otra a{color:var(--gold-soft)}
+</style>
+</head>
+<body>
+<div class="night">
+  <div class="wrap">
+    {% include cabecera.html lang="es" %}
+    <main class="perdida">
+      <p class="eyebrow">Error 404</p>
+      <h1>Esta página se ha perdido por el camino</h1>
+      <p>Puede que el enlace tenga una errata o que la página haya cambiado de sitio. La carta del Ratoncito Pérez sigue donde siempre, gratis y con el nombre de tu peque.</p>
+      <div class="botones">
+        <a class="btn-gold" href="/#crear">✨ Crear la carta gratis</a>
+        <a class="btn-ghost" href="/">Ir al inicio</a>
+      </div>
+      <p class="otra">¿Estás en Latinoamérica? <a href="/es-419/" hreflang="es-419">Ve a la versión para México y LATAM</a>.</p>
+    </main>
+  </div>
+</div>
+{% include pie.html lang="es" %}
+</body>
+</html>

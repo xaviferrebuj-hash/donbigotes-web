@@ -1,4 +1,5 @@
 exclude:
   - CLAUDE.md
   - tools/
+  - tool/
   - README.md

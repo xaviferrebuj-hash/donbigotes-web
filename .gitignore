@@ -1,3 +1,5 @@
 .claude/
 .DS_Store
 Claude outputs/
+_site/
+.jekyll-cache/

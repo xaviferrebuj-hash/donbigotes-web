@@ -1,8 +1,13 @@
+---
+---
 <!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0B1437">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/assets/fonts/Fraunces-normal-400-latin.woff2" as="font" type="font/woff2" crossorigin>
 <meta name="apple-itunes-app" content="app-id=6798414411">
 <title>Blog de Don Bigotes: la noche del diente | Don Bigotes</title>
 <meta name="description" content="Artículos sobre la noche del diente y el Ratoncito Pérez: cómo montarle a tu peque una visita que de verdad recuerde, sin quedarte despierto hasta las tantas.">
@@ -31,6 +36,7 @@
   "name": "Blog de Don Bigotes",
   "url": "https://donbigotes.app/blog/",
   "inLanguage": "es",
+  "dateModified": "2026-11-04",
   "publisher": {
     "@type": "Organization",
     "name": "Don Bigotes",
@@ -54,15 +60,6 @@
 }
 </script>
 <style>
-  :root{
-    --night-1:#0B1437;--night-2:#16205A;--night-3:#243B8F;
-    --gold:#F2C14E;--gold-soft:#FFE3A3;--gold-deep:#D89A2C;
-    --paper:#FBF3E2;--paper-2:#F3E7CE;--paper-edge:#E7D7B4;
-    --ink:#3A2E22;--ink-soft:#6B5A45;--mist:#C7CEF0;--max:1200px;
-    --medida:680px;
-    /* Enlaces sobre papel: --gold-deep da 2,2:1 y no pasa WCAG AA. Este da 5,2:1. */
-    --enlace:#8C5D0E;
-  }
   *{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth}
   body{font-family:'Nunito Sans',system-ui,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
@@ -73,24 +70,13 @@
   .night{position:relative;background:radial-gradient(120% 90% at 82% -10%, rgba(242,193,78,.16), transparent 55%), linear-gradient(160deg,var(--night-1) 0%, var(--night-2) 58%, var(--night-3) 135%);color:#fff;overflow:hidden}
   .sky::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.6;background-image:radial-gradient(1.4px 1.4px at 12% 22%, #fff, transparent),radial-gradient(1.2px 1.2px at 68% 14%, #fff, transparent),radial-gradient(1.6px 1.6px at 84% 46%, #fff, transparent),radial-gradient(1.1px 1.1px at 32% 62%, #fff, transparent)}
   .moon{position:absolute;top:-66px;right:-30px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle at 38% 36%,#FFF6DD,#F2C14E 62%,rgba(242,193,78,0) 72%);opacity:.8}
-  .nav{position:relative;z-index:3;display:flex;align-items:center;gap:12px;padding:20px 0}
-  .nav .logo{width:46px;height:46px;border-radius:13px;box-shadow:0 4px 14px rgba(0,0,0,.3)}
-  .nav .name{font-family:'Fraunces',serif;font-weight:700;font-size:1.38rem;color:#fff}
-  footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);padding:38px 0 46px;color:var(--mist)}
-  .foot-grid{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
-  .foot-brand{display:flex;align-items:center;gap:11px}
-  .foot-brand img{width:38px;height:38px;border-radius:10px}
-  .foot-brand span{font-family:'Fraunces',serif;font-weight:700;font-size:1.15rem;color:#fff}
-  .foot-links a{color:var(--gold-soft);text-decoration:none;margin-left:18px;font-size:.92rem;font-weight:600}
-  .foot-links a:hover{text-decoration:underline}
-  .disclaimer{margin-top:24px;font-size:.8rem;line-height:1.6;color:#8b93bf;max-width:96ch}
 
   /* ---- Cabecera del post, sobre el azul noche ---- */
   .post-head{position:relative;z-index:2;padding:14px 0 clamp(46px,7vw,72px)}
   .post-head .medida{max-width:var(--medida);margin:0 auto}
   .kicker{display:inline-flex;align-items:center;gap:9px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;font-size:.72rem;color:var(--gold-soft)}
   .kicker::before{content:"\2726";color:var(--gold)}
-  .post-head h1{font-size:clamp(2rem,4.6vw,3.1rem);color:#fff;margin-top:16px}
+  .post-head h1{font-size:var(--t-h1);color:#fff;margin-top:16px}
   .post-head .entradilla{margin-top:18px;font-size:clamp(1.06rem,1.7vw,1.2rem);color:var(--mist)}
   .post-meta{margin-top:22px;font-size:.84rem;letter-spacing:.04em;color:var(--mist);opacity:.85}
 
@@ -99,7 +85,7 @@
   .medida{max-width:var(--medida);margin:0 auto}
   .post p,.post li{font-size:18.5px;line-height:1.72;color:var(--ink)}
   .post p+p{margin-top:1.15em}
-  .post h2{font-size:clamp(1.42rem,2.9vw,1.86rem);color:var(--ink);margin:2.1em 0 .55em}
+  .post h2{font-size:var(--t-h3);color:var(--ink);margin:2.1em 0 .55em}
   .post h2:first-of-type{margin-top:1.1em}
   .post ul,.post ol{margin:1.1em 0 0;padding-left:1.35em}
   .post li+li{margin-top:.7em}
@@ -118,11 +104,12 @@
   .volver:hover{text-decoration:underline}
 
   /* ---- Índice /blog ---- */
+  .fecha-actualizacion{margin:24px auto 0;font-size:.8rem;line-height:1.6;color:var(--ink-soft);text-align:center}
   .blog-list{padding:clamp(40px,6vw,64px) 0 clamp(48px,7vw,80px)}
   .entrada{max-width:var(--medida);margin:0 auto;padding:26px 0;border-bottom:1px solid var(--paper-edge)}
   .entrada:last-child{border-bottom:none}
   .entrada .fecha{font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);font-weight:700}
-  .entrada h2{font-size:clamp(1.3rem,2.7vw,1.7rem);margin-top:9px}
+  .entrada h2{font-size:var(--t-h3);margin-top:9px}
   .entrada h2 a{color:var(--ink);text-decoration:none}
   .entrada h2 a:hover{color:var(--enlace)}
   .entrada p{margin-top:11px;font-size:17px;line-height:1.68;color:var(--ink-soft)}
@@ -130,8 +117,6 @@
   .entrada .leer:hover{text-decoration:underline}
 
   @media(max-width:620px){
-    .foot-grid{flex-direction:column;text-align:center}
-    .foot-links a{margin:0 9px}
     .post p,.post li{font-size:18px}
   }
 </style>
@@ -140,10 +125,7 @@
 <div class="night sky">
 <span class="moon"></span>
 <div class="wrap">
-  <nav class="nav">
-    <img class="logo" src="/assets/img/logo-don-bigotes.jpg" alt="Don Bigotes">
-    <span class="name">Don Bigotes</span>
-  </nav>
+  {% include cabecera.html lang="es" %}
 
   <div class="post-head">
     <div class="medida">
@@ -165,35 +147,14 @@
       <a class="leer" href="/blog/la-noche-del-diente/">Leer el artículo →</a>
     </article>
 
+    <p class="fecha-actualizacion">Última actualización: 4 de noviembre de 2026</p>
   </div>
 </main>
 
 <div class="night sky">
   <span class="moon"></span>
   <div class="wrap">
-    <footer>
-      <div class="foot-grid">
-        <div class="foot-brand">
-          <img src="/assets/img/logo-don-bigotes.jpg" alt="Don Bigotes">
-          <span>Don Bigotes</span>
-        </div>
-        <div class="foot-links">
-          <a href="mailto:hola@donbigotes.app">hola@donbigotes.app</a>
-          <a href="https://wa.me/34696646314" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
-          <a href="/carta-para-imprimir/">Carta del Ratoncito Pérez para imprimir</a>
-          <a href="/primer-diente/">Carta del Ratoncito Pérez para el primer diente</a>
-          <a href="/ultimo-diente/">Carta de despedida del Ratoncito Pérez</a>
-          <a href="/editable/">Carta del Ratoncito Pérez editable</a>
-          <a href="/el-ratoncito-perez-existe/">¿El Ratoncito Pérez existe?</a>
-          <a href="/historia-raton-perez/">Historia del Ratón Pérez</a>
-          <a href="/cumpleanos-raton-perez/">Cumpleaños del Ratoncito Pérez</a>
-          <a href="/cuento-ratoncito-perez/">Cuento del Ratoncito Pérez</a>
-          <a href="/blog/">Blog</a>
-          <a href="/privacidad/">Privacidad</a>
-        </div>
-      </div>
-      <p class="disclaimer">Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.</p>
-    </footer>
+    {% include pie.html lang="es" %}
   </div>
 </div>
 
