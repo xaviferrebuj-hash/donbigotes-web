@@ -82,7 +82,7 @@ La app de Don Bigotes, para Android y iPhone:
 
 Artículo informativo sobre Don Bigotes, app independiente de creación de cartas del Ratoncito Pérez. El personaje se utiliza como referencia folclórica de dominio público.
 
-Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
+App no afiliada a ningún titular de marcas relacionadas con el personaje tradicional, que pertenece al folclore español. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 
 ---
 

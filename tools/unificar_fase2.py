@@ -246,8 +246,60 @@ def paso_css_muerto():
     print('css-muerto: fuera', total, 'bytes')
 
 
+# ---------------------------------------------------------------- 3. bloque de la app
+PLAY = (r'https://play\.google\.com/store/apps/details\?id=es\.donbigotes\.app&referrer=utm_source%3Dweb'
+        r'%26utm_medium%3D(?P<medio>[\w-]+)%26utm_campaign%3D(?P<campana>[\w-]+)(?P<hl>&hl=es_419)?')
+IOS = r'https://apps\.apple\.com/(?P<es>es/)?app/id6798414411\?pt=129172273&ct=(?P<ct>[\w-]+)&mt=8'
+TITULO_DEF = 'Crea la experiencia completa en la app Don Bigotes'
+LEAD_DEF = {
+    'es': 'Voz, foto y Diploma de Valent&iacute;a personalizados. El Pack M&aacute;gico completo, 4,99 &euro; en un &uacute;nico pago.',
+    'es-419': 'Voz, foto y Diploma de Valent&iacute;a personalizados. El Pack M&aacute;gico completo se paga una sola vez, al precio local de la tienda.',
+}
+
+
+def paso_cta():
+    n = 0
+    for p in PAGINAS:
+        f = fichero(p)
+        t = f.read_text(encoding='utf-8')
+        if 'id="cta-app"' not in t:
+            continue
+        lang = 'es-419' if p.startswith('/es-419/') else 'es'
+        i = t.index('id="cta-app"')
+        s = t.rfind('<section', 0, i)
+        e = t.index('</section>', i) + len('</section>')
+        bloque = t[s:e]
+        hrefs = re.findall(r'href="([^"]*)"', bloque)
+        mp, mp2, mi = re.fullmatch(PLAY, hrefs[0]), re.fullmatch(PLAY, hrefs[1]), re.fullmatch(IOS, hrefs[2])
+        if not (mp and mp2 and mi and hrefs[0] == hrefs[1] and len(hrefs) == 3):
+            sys.exit(f'{p}: enlaces del bloque con forma inesperada')
+        if bool(mp['hl']) != (lang == 'es-419') or bool(mi['es']) != (lang == 'es'):
+            sys.exit(f'{p}: idioma de los enlaces incoherente')
+        titulo = re.search(r'<h2[^>]*>(.*?)</h2>', bloque).group(1)
+        lead = re.search(r'<p[^>]*>(.*?)</p>', bloque).group(1)
+        args = [f'lang="{lang}"', f'medio="{mp["medio"]}"', f'campana="{mp["campana"]}"', f'ct="{mi["ct"]}"']
+        if bloque.startswith('<section class="wrap"'):
+            args.append('estilo="noche"')
+            ancho = re.search(r'max-width:(\d+)ch', bloque).group(1)
+            if ancho != '16':
+                args.append(f'ancho="{ancho}"')
+        m = re.search(r'<div class="badges" id="([\w-]+)">', bloque)
+        if m:
+            args.append(f'id="{m.group(1)}"')
+        if titulo != TITULO_DEF:
+            args.append(f'titulo="{titulo}"')
+        if lead != LEAD_DEF[lang]:
+            args.append(f'lead="{lead}"')
+        if '"' in titulo + lead:
+            sys.exit(f'{p}: comillas en el texto')
+        t = t[:s] + '{% include cta-app.html ' + ' '.join(args) + ' %}' + t[e:]
+        f.write_text(t, encoding='utf-8')
+        n += 1
+    print('cta: include en', n, 'páginas')
+
+
 if __name__ == '__main__':
-    pasos = {'estilo': paso_estilo, 'css-muerto': paso_css_muerto}
+    pasos = {'estilo': paso_estilo, 'css-muerto': paso_css_muerto, 'cta': paso_cta}
     if len(sys.argv) != 2 or sys.argv[1] not in pasos:
         sys.exit(__doc__)
     pasos[sys.argv[1]]()

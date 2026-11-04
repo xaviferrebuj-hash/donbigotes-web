@@ -1,0 +1,52 @@
+{%- comment -%}
+Bloque «La app» (id="cta-app"): una sola fuente para las 37 páginas que lo llevan (fase 2, 4-nov-2026).
+Uso: {% include cta-app.html lang="es" medio="web-contenido" campana="editable" ct="web-imprimibles" %}
+  lang     es | es-419. En es-419, Google Play lleva &hl=es_419 y la App Store va sin /es/.
+  medio    utm_medium del enlace de Google Play (web-home, web-producto, web-contenido).
+  campana  utm_campaign del enlace de Google Play.
+  ct       campaña de la App Store (web-home, web-producto, web-imprimibles, web-otras, web-existe, web-419).
+  titulo   H2. Por defecto, «Crea la experiencia completa en la app Don Bigotes».
+  lead     Texto bajo el H2. Por defecto, el del Pack según el idioma.
+  estilo   «noche»: la tarjeta crema de las páginas de fondo noche. Sin él, la banda de papel de la home.
+  ancho    Solo con estilo="noche": max-width del H2 en ch (por defecto 16).
+  id       id del contenedor de las insignias (p. ej. «descargar», al que apuntan enlaces de la página).
+Los enlaces los vuelve a fijar /js/enlaces-app.js (data-enlace). No escribir comillas dobles dentro de los textos.
+{%- endcomment -%}
+{%- assign latam = false -%}{%- if include.lang == "es-419" -%}{%- assign latam = true -%}{%- endif -%}
+{%- capture play -%}https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Dweb%26utm_medium%3D{{ include.medio }}%26utm_campaign%3D{{ include.campana }}{% if latam %}&hl=es_419{% endif %}{%- endcapture -%}
+{%- capture ios -%}https://apps.apple.com/{% unless latam %}es/{% endunless %}app/id6798414411?pt=129172273&ct={{ include.ct }}&mt=8{%- endcapture -%}
+{%- assign titulo = include.titulo | default: "Crea la experiencia completa en la app Don Bigotes" -%}
+{%- if latam -%}{%- assign lead_def = "Voz, foto y Diploma de Valent&iacute;a personalizados. El Pack M&aacute;gico completo se paga una sola vez, al precio local de la tienda." -%}
+{%- else -%}{%- assign lead_def = "Voz, foto y Diploma de Valent&iacute;a personalizados. El Pack M&aacute;gico completo, 4,99 &euro; en un &uacute;nico pago." -%}{%- endif -%}
+{%- assign lead = include.lead | default: lead_def -%}
+{%- capture insignias -%}
+      <div class="badges"{% if include.id %} id="{{ include.id }}"{% endif %}>
+        <a href="{{ play }}" target="_blank" rel="noopener"><img src="/assets/img/google-play-badge-es.png" alt="Disponible en Google Play" style="width:186px;height:72px"></a>
+        <a href="{{ ios }}" data-enlace="appstore" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;justify-content:center;height:72px"><img src="/assets/img/app-store-badge-es.svg" alt="Cons&iacute;guelo en el App Store" width="165" height="55" style="width:165px;height:55px"></a>
+      </div>
+{%- endcapture -%}
+{%- if include.estilo == "noche" %}
+<section class="wrap" style="position:relative;z-index:1">
+    <div id="cta-app" style="background:var(--crema);color:var(--noche);border-radius:22px;padding:40px 26px;text-align:center;margin:10px 0 6px">
+      <div style="font-family:'Nunito Sans',sans-serif;font-weight:800;letter-spacing:.12em;text-transform:uppercase;font-size:.72rem;color:#b8861f;margin-bottom:6px">La app</div>
+      <h2 style="color:var(--noche);font-size:var(--t-h3);margin:0 auto .4em;max-width:{{ include.ancho | default: 16 }}ch">{{ titulo }}</h2>
+      <p style="max-width:560px;margin:0 auto 1.4em;color:#5a5238">{{ lead }}</p>
+      <a class="cta" href="{{ play }}" data-enlace="playstore" target="_blank" rel="noopener" style="text-decoration:none">&#10024; Abrir la app ahora</a>
+{{ insignias }}
+    </div>
+  </section>
+{%- else %}
+<section class="section cream-band cta-app" id="cta-app">
+  <div class="wrap">
+    <div class="dl-wrap">
+      <span class="eyebrow">La app</span>
+      <h2>{{ titulo }}</h2>
+      <p class="lead">{{ lead }}</p>
+      <div class="badges" style="margin-bottom:18px">
+        <a class="btn-gold" href="{{ play }}" data-enlace="playstore" target="_blank" rel="noopener" style="min-width:240px;text-align:center;text-decoration:none">&#10024; Abrir la app ahora</a>
+      </div>
+{{ insignias }}
+    </div>
+  </div>
+</section>
+{%- endif -%}
