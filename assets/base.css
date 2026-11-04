@@ -340,6 +340,8 @@ html .btn-gold:active,html .btn-ghost:active,html .chip:active,html .pc-play:act
 .db-cab nav a:hover,.db-cab nav a:focus-visible{background:rgba(255,227,163,.14);color:#FFE3A3}
 .db-menu-ancho{display:flex;gap:2px}
 .db-menu-movil{display:none;position:relative}
+/* Las FAQ de algunas páginas estilan todo <details> (borde y relleno): al menú no le toca. */
+.db-cab .db-menu-movil{border:0;padding:0;margin:0}
 /* Selectores largos a propósito: las FAQ de cada página estilan summary y summary::after sin clase. */
 .db-cab .db-menu-movil > summary{display:block;list-style:none;cursor:pointer;margin:0;padding:11px 16px;min-height:44px;box-sizing:border-box;border:1px solid rgba(255,227,163,.45);border-radius:12px;background:none;color:#fff;font-family:'Nunito Sans',system-ui,sans-serif;font-weight:800;font-size:.95rem;line-height:20px;position:static}
 .db-cab .db-menu-movil > summary::-webkit-details-marker{display:none}
