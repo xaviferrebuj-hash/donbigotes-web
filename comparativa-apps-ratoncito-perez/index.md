@@ -108,7 +108,9 @@ Sí: RatónPérez.app ofrece videollamadas de pago por minutos (4,99 € por 3+1
 
 Comparativa elaborada por Don Bigotes, datos verificados entre el 10 y el 23 de septiembre de 2026 a partir de las fichas públicas de cada aplicación. Las marcas y nombres comerciales citados pertenecen a sus respectivos titulares y se mencionan únicamente con fines identificativos. Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna de las aplicaciones comparadas ni por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez».
 
-App no afiliada a ningún titular de marcas relacionadas con el personaje tradicional, que pertenece al folclore español. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
+[App del Ratoncito Pérez](https://donbigotes.app/app-raton-perez/) · [Fotomontaje del Ratoncito Pérez](https://donbigotes.app/fotomontaje-ratoncito-perez/) · [Foto del Ratoncito Pérez](https://donbigotes.app/foto-raton-perez/) · [Vídeo del Ratoncito Pérez](https://donbigotes.app/video-raton-perez/) · [Voz del Ratoncito Pérez](https://donbigotes.app/voz-raton-perez/) · [Carta para imprimir](https://donbigotes.app/carta-para-imprimir/) · [Diploma del Ratoncito Pérez](https://donbigotes.app/diploma-raton-perez/) · [Certificado del Ratón Pérez](https://donbigotes.app/certificado-raton-perez/) · [El viaje del diente](https://donbigotes.app/viaje-del-diente/) · [Cuento del Ratoncito Pérez](https://donbigotes.app/cuento-ratoncito-perez/) · [Blog](https://donbigotes.app/blog/)
+
+© 2026 Don Bigotes · [donbigotes.app](https://donbigotes.app/)
 
 ---
 

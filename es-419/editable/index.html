@@ -1,13 +1,8 @@
----
----
 <!DOCTYPE html>
 <html lang="es-419">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#0B1437">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="preload" href="/assets/fonts/Fraunces-normal-400-latin.woff2" as="font" type="font/woff2" crossorigin>
 <meta name="apple-itunes-app" content="app-id=6798414411">
 <title>Carta del Ratón Pérez editable y personalizable | Don Bigotes</title>
 <meta name="description" content="Carta del Ratón Pérez (el Ratón de los Dientes) editable: pon el nombre de tu hijo o hija, su edad y el diente. Gratis, lista para imprimir o guardar en PDF.">
@@ -65,6 +60,12 @@
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "¿Puedo editar la carta del Ratón Pérez?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. En Don Bigotes eliges el nombre de tu hijo o hija, su edad y el diente antes de crear la carta, para que quede a su medida."}}, {"@type": "Question", "name": "¿Qué puedo personalizar en la carta?", "acceptedAnswer": {"@type": "Answer", "text": "El nombre, la edad (3-4, 5-6 o 7 o más) y qué diente se le cayó. La carta se genera con el sello de la Oficina del Ratón Pérez."}}, {"@type": "Question", "name": "¿La carta editable es gratis?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. La carta personalizada es gratuita. La nota de voz, el fotomontaje y el Diploma de Valentía forman parte del Pack Mágico, que es opcional."}}, {"@type": "Question", "name": "¿Cómo hago la carta del Ratón Pérez?", "acceptedAnswer": {"@type": "Answer", "text": "Escribes el nombre, eliges su edad y el diente, y la carta sale al instante, lista para imprimir o guardar en PDF."}}, {"@type": "Question", "name": "¿Hay carta del Ratón de los Dientes para imprimir?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. La carta es la misma para Ratón Pérez, Ratón de los Dientes y Ratoncito Pérez: se personaliza con el nombre y se imprime gratis desde donbigotes.app."}}]}
 </script>
 <style>
+:root{
+  --night-1:#0B1437;--night-2:#16205A;--night-3:#243B8F;
+  --gold:#F2C14E;--gold-soft:#FFE3A3;--gold-deep:#D89A2C;
+  --paper:#FBF3E2;--paper-2:#F3E7CE;--paper-edge:#E7D7B4;
+  --ink:#3A2E22;--ink-soft:#6B5A45;--mist:#C7CEF0;--max:1200px;
+}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{font-family:'Nunito Sans',system-ui,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
@@ -82,10 +83,13 @@ img{display:block;max-width:100%}
 .paper-band{background:var(--paper);position:relative;overflow:hidden}
 .cream-band{background:var(--paper);position:relative;overflow:hidden}
 .watermark{position:absolute;pointer-events:none;opacity:.05;width:min(560px,60vw);right:-60px;bottom:-40px}
+.nav{position:relative;z-index:3;display:flex;align-items:center;gap:12px;padding:20px 0}
+.nav .logo{width:46px;height:46px;border-radius:13px;box-shadow:0 4px 14px rgba(0,0,0,.3)}
+.nav .name{font-family:'Fraunces',serif;font-weight:700;font-size:1.38rem;color:#fff}
 .hero{position:relative;z-index:2;display:grid;grid-template-columns:1.02fr .98fr;gap:clamp(28px,5vw,60px);align-items:center;padding:clamp(28px,5vw,48px) 0 clamp(60px,8vw,104px)}
 .eyebrow{display:inline-flex;align-items:center;gap:9px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;font-size:.72rem;color:var(--gold-soft);margin-bottom:18px}
 .eyebrow::before{content:"\2726";color:var(--gold)}
-.hero h1{font-size:var(--t-h1);color:#fff}
+.hero h1{font-size:clamp(2.3rem,5.4vw,3.8rem);color:#fff}
 .hero h1 em{font-style:italic;font-weight:500;color:var(--gold-soft)}
 .hero .sub{margin-top:18px;font-size:clamp(1.02rem,1.6vw,1.16rem);color:var(--mist);max-width:34ch}
 .capture{margin-top:26px;max-width:440px}
@@ -95,6 +99,8 @@ img{display:block;max-width:100%}
 .form-row input[type=text]{flex:1 1 190px;min-width:0;font-family:inherit;font-size:1rem;padding:14px 16px;border-radius:12px;border:1.5px solid rgba(255,255,255,.2);background:rgba(255,255,255,.07);color:#fff}
 .form-row input::placeholder{color:#9aa6d6}
 .form-row input:focus{outline:none;border-color:var(--gold);background:rgba(255,255,255,.11)}
+.btn-gold{font-family:inherit;font-weight:800;font-size:1rem;cursor:pointer;padding:14px 26px;border-radius:12px;border:none;background:linear-gradient(180deg,var(--gold),#E7B23B);color:var(--night-1);transition:transform .15s,box-shadow .15s;white-space:nowrap}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(242,193,78,.42)}
 .form-ok{display:none;margin-top:13px;padding:12px 16px;border-radius:12px;background:rgba(242,193,78,.14);border:1px solid rgba(242,193,78,.4);color:var(--gold-soft);font-weight:700}
 .form-ok.show{display:block}
 .honey{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
@@ -127,13 +133,13 @@ img{display:block;max-width:100%}
 .s-head .eyebrow{justify-content:center}
 .s-head .eyebrow{color:var(--gold-deep)}
 .s-head .eyebrow::before{color:var(--gold-deep)}
-.s-head h2{font-size:var(--t-h2);color:var(--ink)}
+.s-head h2{font-size:clamp(1.9rem,3.8vw,2.8rem);color:var(--ink)}
 .s-head p{margin:14px auto 0;color:var(--ink-soft);font-size:1.06rem;max-width:34rem}
 .features{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:50px;align-items:stretch}
 .card{background:#fff;border:1px solid var(--paper-2);border-radius:18px;box-shadow:0 10px 30px rgba(58,46,34,.06);overflow:hidden;display:flex;flex-direction:column}
 .card .c-text{padding:26px 24px 20px}
 .card .c-img{margin-top:auto;width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
-.tag-pill{display:inline-block;font-weight:800;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;padding:5px 11px;border-radius:999px;margin-bottom:14px}
+.tag-pill{display:inline-block;font-weight:800;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;padding:5px 11px;border-radius:999px;margin-bottom:14px}
 .tag-free{background:#E5F2E4;color:#3E7C3A}
 .tag-pack{background:#FBEFD2;color:#9A6A12}
 .card h3{font-size:1.22rem;color:var(--ink);margin-bottom:8px;min-height:2.2em}
@@ -145,7 +151,7 @@ img{display:block;max-width:100%}
 .step h3{font-size:1.18rem;color:var(--ink);margin-bottom:6px}
 .step p{color:var(--ink-soft);font-size:.97rem;max-width:30ch;margin:0 auto}
 .dl-wrap{text-align:center;max-width:680px;margin:0 auto}
-.dl-wrap h2{font-size:var(--t-h2);color:var(--ink);margin-top:6px}
+.dl-wrap h2{font-size:clamp(2rem,4.4vw,3rem);color:var(--ink);margin-top:6px}
 .dl-wrap .lead{margin-top:14px;color:var(--ink-soft);font-size:1.1rem}
 .badges{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:30px}
 .badge{display:inline-flex;align-items:center;gap:11px;background:#111;color:#fff;border-radius:13px;padding:11px 20px;text-decoration:none;min-width:200px}
@@ -170,9 +176,16 @@ img{display:block;max-width:100%}
 .faq details[open] summary::after{content:"\2013"}
 .faq .ans{padding:0 2px 18px;color:var(--ink-soft)}
 .cta-final{position:relative;z-index:2;text-align:center;padding:clamp(60px,9vw,110px) 0}
-.cta-final h2{font-size:var(--t-h2);color:#fff;max-width:18ch;margin:0 auto}
+.cta-final h2{font-size:clamp(2rem,4.4vw,3rem);color:#fff;max-width:18ch;margin:0 auto}
 .cta-final .capture{margin:26px auto 0}
 .cta-final .capture .form-row{justify-content:center}
+footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);padding:38px 0 46px;color:var(--mist)}
+.foot-grid{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.foot-brand{display:flex;align-items:center;gap:11px}
+.foot-brand img{width:38px;height:38px;border-radius:10px}
+.foot-brand span{font-family:'Fraunces',serif;font-weight:700;font-size:1.15rem;color:#fff}
+.foot-links a{color:var(--gold-soft);text-decoration:none;margin-left:18px;font-size:.92rem;font-weight:600}
+.disclaimer{margin-top:24px;font-size:.8rem;line-height:1.6;color:#8b93bf;max-width:96ch}
   .fecha-actualizacion{margin:24px auto 0;font-size:.8rem;line-height:1.6;color:#8b93bf;text-align:center}
 @media(max-width:920px){
   .hero{grid-template-columns:1fr;text-align:center}
@@ -190,6 +203,8 @@ img{display:block;max-width:100%}
   .form-row{flex-direction:column}
   .form-row .btn-gold{width:100%}
   .badge{min-width:0;flex:1 1 100%;justify-content:center}
+  .foot-grid{flex-direction:column;text-align:center}
+  .foot-links a{margin:0 9px}
 }
 .hero-cta{margin-top:26px;font-size:1.08rem;padding:16px 32px}
 .hero-note{margin-top:13px;font-size:.84rem;color:var(--mist);letter-spacing:.02em}
@@ -215,6 +230,8 @@ img{display:block;max-width:100%}
 .gen-paper{width:100%;max-width:420px;margin:0 auto;transform:none}
 .gen-paper .l-body p{margin:0 0 .55em}
 .gen-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:26px}
+.btn-ghost{font-family:inherit;font-weight:700;font-size:1rem;cursor:pointer;padding:14px 24px;border-radius:12px;border:1.5px solid var(--paper-edge);background:#fff;color:var(--ink)}
+.btn-ghost:hover{border-color:var(--gold-deep)}
 .gen-foot{text-align:center;color:var(--ink-soft);font-size:.86rem;margin:16px auto 0;max-width:42ch}
 /* Post-carta: panel azul noche de la pantalla tras la carta (lo de dentro, en /assets/carta-gen.css). */
 .pc{margin:26px calc(-1 * clamp(24px,4vw,40px)) calc(-1 * clamp(24px,4vw,40px));padding:30px clamp(22px,4vw,34px) 26px;border-radius:0 0 22px 22px;text-align:center;color:#fff;background:radial-gradient(120% 90% at 82% -10%,rgba(242,193,78,.16),transparent 55%),linear-gradient(160deg,var(--night-1) 0%,var(--night-2) 58%,var(--night-3) 135%)}
@@ -246,7 +263,10 @@ img{display:block;max-width:100%}
 <div class="night sky">
 <span class="moon"></span>
 <div class="wrap">
-  {% include cabecera.html lang="es-419" %}
+  <nav class="nav">
+    <img class="logo" src="/assets/img/logo-don-bigotes.jpg" alt="Don Bigotes">
+    <span class="name">Don Bigotes</span>
+  </nav>
   <p class="enlace-region">¿Estás en España? <a href="/editable/" hreflang="es">Versión para España</a></p>
 
   <header class="hero">
@@ -266,8 +286,8 @@ img{display:block;max-width:100%}
         <div class="letter-paper">
           <div class="l-greeting">Querida Adriana,</div>
           <div class="l-body">¡Fuiste muy valiente! Recogí tu diente con muchísimo cuidado y lo guardé en mi casita. Te dejé un poquito de magia. Sigue cuidando esa sonrisa tan bonita…</div>
-          <img class="l-stamp" src="/assets/img/carta-sello-oficina-419.png" alt="Sello de la Oficina del Ratón Pérez" width="220" height="220">
-          <img class="l-sign" src="/assets/img/carta-firma-419.png" alt="Firma del Ratón Pérez" width="340" height="190">
+          <img class="l-stamp" src="/assets/img/carta-sello-oficina-419.png" alt="Sello de la Oficina del Ratón Pérez">
+          <img class="l-sign" src="/assets/img/carta-firma-419.png" alt="Firma del Ratón Pérez">
         </div>
       </div>
     </div>
@@ -278,7 +298,7 @@ img{display:block;max-width:100%}
 </div>
 <div class="wrap">
   <section class="story">
-    <img class="photo" src="/assets/img/ratoncito-escribiendo-carta.jpg" alt="El Ratón Pérez escribiendo una carta" width="540" height="540" loading="lazy">
+    <img class="photo" src="/assets/img/ratoncito-escribiendo-carta.jpg" alt="El Ratón Pérez escribiendo una carta">
     <div>
       <div class="s-tag">Hecho con cariño</div>
       <h3>Tú pones el diente. Él pone la magia.</h3>
@@ -299,7 +319,22 @@ img{display:block;max-width:100%}
      vez, ver BARRIDO-1SEP.md
      Enlaces (webapp / playstore / appstore) desde /js/enlaces-app.js
      ============================================================ -->
-{% include cta-app.html lang="es-419" medio="web-contenido" campana="editable-latam" ct="web-imprimibles" %}
+<section class="section cream-band cta-app" id="cta-app">
+  <div class="wrap">
+    <div class="dl-wrap">
+      <span class="eyebrow">La app</span>
+      <h2>Crea la experiencia completa en la app Don Bigotes</h2>
+      <p class="lead">Voz, foto y Diploma de Valent&iacute;a personalizados. El Pack M&aacute;gico completo se paga una sola vez, al precio local de la tienda.</p>
+      <div class="badges" style="margin-bottom:18px">
+        <a class="btn-gold" href="https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Dweb%26utm_medium%3Dweb-contenido%26utm_campaign%3Deditable-latam&hl=es_419" data-enlace="playstore" target="_blank" rel="noopener" style="min-width:240px;text-align:center;text-decoration:none">&#10024; Abrir la app ahora</a>
+      </div>
+      <div class="badges">
+        <a href="https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Dweb%26utm_medium%3Dweb-contenido%26utm_campaign%3Deditable-latam&hl=es_419" target="_blank" rel="noopener"><img src="/assets/img/google-play-badge-es.png" alt="Disponible en Google Play" style="width:186px;height:72px"></a>
+        <a href="https://apps.apple.com/app/id6798414411?pt=129172273&ct=web-imprimibles&mt=8" data-enlace="appstore" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;justify-content:center;height:72px"><img src="/assets/img/app-store-badge-es.svg" alt="Cons&iacute;guelo en el App Store" width="165" height="55" style="width:165px;height:55px"></a>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 <section class="section cream-band" id="que-hace">
@@ -316,7 +351,7 @@ img{display:block;max-width:100%}
           <h3>La carta personalizada</h3>
           <p>Con su nombre y el sello de la Oficina. Lista para imprimir o guardar en PDF.</p>
         </div>
-        <img class="c-img" src="/assets/img/app-pantalla-bienvenida.jpg" alt="Pantalla de bienvenida de la app Don Bigotes" width="520" height="390" loading="lazy">
+        <img class="c-img" src="/assets/img/app-pantalla-bienvenida.jpg" alt="Pantalla de bienvenida de la app Don Bigotes">
       </article>
       <article class="card">
         <div class="c-text">
@@ -324,7 +359,7 @@ img{display:block;max-width:100%}
           <h3>El fotomontaje «¡Pillado!»</h3>
           <p>El Ratón Pérez «aparece» en una foto en casa. La prueba de que estuvo allí.</p>
         </div>
-        <img class="c-img" src="/assets/img/app-fotomontaje.jpg" alt="Fotomontaje del Ratón Pérez" width="520" height="390" loading="lazy">
+        <img class="c-img" src="/assets/img/app-fotomontaje.jpg" alt="Fotomontaje del Ratón Pérez">
       </article>
       <article class="card">
         <div class="c-text">
@@ -332,7 +367,7 @@ img{display:block;max-width:100%}
           <h3>La nota de voz</h3>
           <p>Un mensaje del propio Ratón Pérez, con su nombre, para escuchar en la cama.</p>
         </div>
-        <img class="c-img" src="/assets/img/app-nota-voz-419.jpg" alt="Pantalla de nota de voz del Ratón Pérez" width="520" height="390" loading="lazy">
+        <img class="c-img" src="/assets/img/app-nota-voz-419.jpg" alt="Pantalla de nota de voz del Ratón Pérez">
       </article>
       <article class="card">
         <div class="c-text">
@@ -340,7 +375,7 @@ img{display:block;max-width:100%}
           <h3>El Diploma de Valentía</h3>
           <p>Un diploma con su nombre y su foto que premia lo valiente que fue. Para imprimir y enmarcar.</p>
         </div>
-        <picture><source srcset="/diploma-valentia-latam.webp" type="image/webp"><img class="c-img" src="/diploma-valentia-latam.jpg" alt="Diploma de Valentía del Ratón Pérez" loading="lazy" style="object-position:center top" width="695" height="1038"></picture>
+        <img class="c-img" src="/diploma-valentia-latam.jpg" alt="Diploma de Valentía del Ratón Pérez" loading="lazy" style="object-position:center top">
       </article>
     </div>
   </div>
@@ -379,7 +414,7 @@ img{display:block;max-width:100%}
       <h2>Ya disponible en Google Play y App Store</h2>
       <p class="lead">El Pack Mágico completo se paga una sola vez, al precio local de la tienda, en Android y en iPhone.</p>
       <div class="badges">
-        <a href="https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Dweb%26utm_medium%3Dweb-contenido%26utm_campaign%3Deditable-latam&hl=es_419" target="_blank" rel="noopener"><img src="/assets/img/google-play-badge-es.png" alt="Disponible en Google Play" style="width:186px;height:72px" width="646" height="250"></a>
+        <a href="https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Dweb%26utm_medium%3Dweb-contenido%26utm_campaign%3Deditable-latam&hl=es_419" target="_blank" rel="noopener"><img src="/assets/img/google-play-badge-es.png" alt="Disponible en Google Play" style="width:186px;height:72px"></a>
         <a href="https://apps.apple.com/app/id6798414411?pt=129172273&ct=web-imprimibles&mt=8" data-enlace="appstore" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;justify-content:center;height:72px"><img src="/assets/img/app-store-badge-es.svg" alt="Cons&iacute;guelo en el App Store" width="165" height="55" style="width:165px;height:55px"></a>
       </div>
       <form class="capture dl-capture" id="cap3">
@@ -429,7 +464,31 @@ img{display:block;max-width:100%}
     </section>
 
 <p class="fecha-actualizacion">Última actualización: 8 de octubre de 2026</p>
-    {% include pie.html lang="es-419" %}
+    <footer>
+      <div class="foot-grid">
+        <div class="foot-brand">
+          <img src="/assets/img/logo-don-bigotes.jpg" alt="Don Bigotes">
+          <span>Don Bigotes</span>
+        </div>
+        <div class="foot-links">
+          <a href="mailto:hola@donbigotes.app">hola@donbigotes.app</a>
+          <a href="https://wa.me/34696646314" target="_blank" rel="noopener">Escríbannos por WhatsApp</a>
+          <a href="/es-419/app-raton-perez/">App del Ratón Pérez</a>
+          <a href="/es-419/diario-dientes-de-leche/">Diario de dientes gratis</a>
+          <a href="/es-419/comparativa-apps-ratoncito-perez/">Comparativa de apps</a>
+          <a href="/es-419/certificado-raton-perez/">Certificado del Ratón Pérez</a>
+          <a href="/es-419/firma-sello-raton-perez/">Firma y sello del Ratón Pérez</a>
+          <a href="/video-raton-perez/">Video del Ratón Pérez</a>
+          <a href="/es-419/foto-raton-perez/">Foto del Ratón Pérez</a>
+          <a href="/es-419/voz-raton-perez/">Voz del Ratón Pérez</a>
+          <a href="/historia-raton-perez/">Historia del Ratón Pérez</a>
+          <a href="/es-419/cuento-raton-perez/">Cuento del Ratón Pérez</a>
+          <a href="/blog/">Blog</a>
+          <a href="/privacidad/">Privacidad</a>
+        </div>
+      </div>
+      <p class="disclaimer">Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratón Pérez». El personaje del Ratón Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.</p>
+    </footer>
   </div>
 </div>
 
@@ -496,8 +555,8 @@ img{display:block;max-width:100%}
         <div class="letter-paper gen-paper">
           <div class="l-greeting" id="gGreet"></div>
           <div class="l-body" id="gBody"></div>
-          <img class="l-stamp" id="gStamp" alt="Sello de la Oficina del Ratón Pérez" width="220" height="220">
-          <img class="l-sign" id="gSign" alt="Firma del Ratón Pérez" width="340" height="190">
+          <img class="l-stamp" id="gStamp" alt="Sello de la Oficina del Ratón Pérez">
+          <img class="l-sign" id="gSign" alt="Firma del Ratón Pérez">
         </div>
       </div>
       <div class="gen-actions">

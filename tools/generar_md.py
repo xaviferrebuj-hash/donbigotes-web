@@ -40,7 +40,6 @@ PAGINAS = [
 CLASES_EXCLUIDAS = (
     "gen-overlay", "badges", "honey", "form-ok", "form-legal", "capture", "letter-stage",
     "moon", "spark", "glow", "foot-links", "foot-brand", "nav",
-    "db-cab", "db-pie-grid",  # cabecera y columnas del pie comunes (includes de Jekyll)
 )
 TAGS_EXCLUIDOS = {"script", "style", "svg", "form", "noscript", "input",
                   "button", "select", "textarea", "iframe"}
@@ -195,18 +194,8 @@ class Extractor(HTMLParser):
             self.buffer.append(data)
 
 
-# Las páginas con includes de Jekyll ({% include … %}: cabecera, pie, bloque de la app) se leen
-# ya construidas, porque en el fuente esos bloques son solo la etiqueta Liquid. Antes: `jekyll build`.
-SITE = os.environ.get("DB_SITE", os.path.join(BASE, "_site"))
-
-
 def extraer(ruta_html):
     html = open(ruta_html, encoding="utf-8").read()
-    if "{%" in html:
-        construida = os.path.join(SITE, os.path.relpath(ruta_html, BASE))
-        if not os.path.exists(construida) or os.path.getmtime(construida) < os.path.getmtime(ruta_html):
-            raise SystemExit(f"{construida} no existe o es más vieja que el fuente: ejecuta antes `jekyll build`.")
-        html = open(construida, encoding="utf-8").read()
     # El head no aporta bloques (title/meta se ignoran: el H1 ya abre el md)
     cuerpo = html[html.index("<body"):] if "<body" in html else html
     ex = Extractor()

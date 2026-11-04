@@ -1,29 +1,29 @@
----
----
 <!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#0B1437">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="preload" href="/assets/fonts/Fraunces-normal-400-latin.woff2" as="font" type="font/woff2" crossorigin>
 <title>Política de Privacidad — Don Bigotes</title>
-<meta name="description" content="Qué datos trata Don Bigotes: en la app, el nombre y la foto se quedan en tu móvil y solo hay estadísticas anónimas; en la web, el email que nos dejes y visitas medidas sin cookies.">
 <link rel="canonical" href="https://donbigotes.app/privacidad/">
 <link rel="icon" href="/assets/img/logo-don-bigotes.jpg">
 <style>
-  :root{--navy:var(--night-1);--muted:var(--ink-soft);--line:var(--paper-edge);--bg:var(--paper)}
+  :root{
+    --navy:#0E1830;
+    --gold:#E3B25E;
+    --ink:#1d2433;
+    --muted:#5b6273;
+    --line:#e7e9ef;
+    --bg:#fbfaf7;
+  }
   *{box-sizing:border-box;}
   body{
     margin:0;
     background:var(--bg);
     color:var(--ink);
-    font-family:'Nunito Sans',system-ui,sans-serif;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     line-height:1.65;
     -webkit-font-smoothing:antialiased;
   }
-  h1,h2{font-family:'Fraunces',Georgia,serif}
   header{
     background:var(--navy);
     color:#fff;
@@ -41,13 +41,13 @@
   }
   header h1{
     margin:0;
-    font-size:var(--t-h1);
+    font-size:30px;
     line-height:1.2;
     font-weight:700;
   }
   header p{
     margin:10px 0 0;
-    color:var(--mist);
+    color:#c9cedd;
     font-size:14px;
   }
   main{
@@ -66,7 +66,7 @@
   .tldr strong{color:var(--navy);}
   h2{
     color:var(--navy);
-    font-size:var(--t-h3);
+    font-size:19px;
     margin:34px 0 8px;
     padding-top:10px;
   }
@@ -78,7 +78,14 @@
   p{margin:8px 0;}
   ul{margin:8px 0 8px 0;padding-left:22px;}
   li{margin:6px 0;}
-  a{color:var(--enlace);}
+  a{color:#1a5fb4;}
+  footer{
+    max-width:760px;
+    margin:0 auto;
+    padding:0 24px 60px;
+    color:var(--muted);
+    font-size:13px;
+  }
   hr{border:none;border-top:1px solid var(--line);margin:28px 0;}
   .parte{
     background:var(--navy);
@@ -100,16 +107,15 @@
     color:#fff;
     margin:0;
     padding:0;
-    font-size:var(--t-h3);
+    font-size:20px;
   }
-  .parte p{margin:6px 0 0;color:var(--mist);font-size:14px;}
+  .parte p{margin:6px 0 0;color:#c9cedd;font-size:14px;}
 </style>
-<link rel="stylesheet" href="/assets/base.css">
 </head>
 <body>
 <header>
   <div class="wrap">
-    {% include cabecera.html lang="es" %}
+    <span class="badge">Don Bigotes</span>
     <h1>Política de Privacidad</h1>
     <p>Última actualización: 3 de noviembre de 2026</p>
   </div>
@@ -273,7 +279,9 @@
 
 </main>
 
-{% include pie.html lang="es" %}
+<footer>
+  © 2026 Don Bigotes · Francisco Javier Ferre Buj
+</footer>
 
 </body>
 </html>
