@@ -271,14 +271,15 @@
 <script defer data-domain="donbigotes.app" src="https://plausible.io/js/script.js"></script>
 <script>window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 </head>
-<body>
+<body class="papel">
 
 <!-- Sello reutilizable (definición SVG) -->
 
 <div class="layer">
-<div class="wrap">{% include cabecera.html lang="es-419" %}</div>
+<div class="night sky">
+<span class="moon"></span>
+<div class="wrap">{% include cabecera.html lang="es-419" %}
 
-<main class="wrap">
   <p class="enlace-region">¿Estás en España? <a href="/cuento-ratoncito-perez/" hreflang="es">Versión para España</a></p>
 
   <!-- HERO -->
@@ -287,7 +288,6 @@
     <h1 class="anim d1">La historia de Don Bigotes</h1>
     <p class="lead anim d2">Un audiocuento para escuchar con tu hijo o hija antes de dormir: se lo cuenta Don Bigotes, el Ratón Pérez, en diez capítulos de cinco minutos, con su voz y con ilustraciones que cambian mientras habla. Los dos primeros capítulos son gratis en la app. Y lee cinco cuentos clásicos; el primero también es gratis.</p>
   </section>
-
   <!-- REPRODUCTOR: CAPÍTULO 1 COMPLETO -->
   <section id="escuchar" style="padding-top:0">
     <div class="reproductor anim d3">
@@ -308,6 +308,10 @@
       <p class="rep-nota">Escúchalo entero aquí. En la app tienes los diez, con el punto de libro para seguir mañana donde lo dejaron.</p>
     </div>
   </section>
+</div>
+</div><!-- /night -->
+
+<main class="wrap">
 
   <!-- BOTONES DE TIENDA -->
   <section style="padding-top:0;text-align:center">

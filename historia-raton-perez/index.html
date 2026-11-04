@@ -196,7 +196,7 @@
 <script defer data-domain="donbigotes.app" src="https://plausible.io/js/script.js"></script>
 <script>window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 </head>
-<body>
+<body class="papel">
 
 <!-- Sello reutilizable (definición SVG) -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -218,9 +218,9 @@
 </svg>
 
 <div class="layer">
-<div class="wrap">{% include cabecera.html lang="es" %}</div>
-
-<main class="wrap">
+<div class="night sky">
+<span class="moon"></span>
+<div class="wrap">{% include cabecera.html lang="es" %}
 
   <!-- HERO -->
   <section class="hero" style="padding-top:64px">
@@ -238,6 +238,10 @@
       <div class="sello-pie">Desde 1894</div>
     </div>
   </section>
+</div>
+</div><!-- /night -->
+
+<main class="wrap">
 
   <!-- ILUSTRACIÓN DE CABECERA -->
   <figure class="hero-ilustracion anim d3">
