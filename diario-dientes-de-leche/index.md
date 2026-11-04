@@ -20,6 +20,8 @@ Gratis y para siempre · Sin cuenta: se queda en tu móvil · Android e iPhone
 
 - Una foto. Del hueco, del diente o de la sonrisa. Se guarda solo en tu móvil.
 
+- El cepillado. Un sello por la mañana y otro por la noche cada vez que se cepilla con [la canción de Don Bigotes](https://donbigotes.app/cancion-cepillado-dientes/).
+
 - Sin carta no pasa nada. Puedes apuntar un diente aunque ese día no hicieras la carta del Ratoncito.
 
 ## La ficha para los abuelos
@@ -109,7 +111,7 @@ Descarga Don Bigotes y empieza el diario con el próximo diente (o con los que y
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, 4,99 € en un único pago.
 
-Última actualización: 27 de septiembre de 2026
+Última actualización: 4 de noviembre de 2026
 
 App no afiliada a ningún titular de marcas relacionadas con el personaje tradicional, que pertenece al folclore español. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

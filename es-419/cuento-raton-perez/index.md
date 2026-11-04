@@ -52,7 +52,7 @@ Don Bigotes lee el libro que encuentra en la mesita de noche, y luego lo deja ex
 
 - La boda del ratón 4:37 Unos padres que buscan al más fuerte del mundo: el Sol, la Nube, el Viento… y el Muro.
 
-El primero es gratis. Los otros cuatro van incluidos en la compra de la historia, al precio de tu tienda: si ya la tienes, los recibes sin pagar nada más.
+El primero es gratis. Los otros cuatro van incluidos en la compra de la historia, al precio de tu tienda: si ya la tienes, los recibes sin pagar nada más. [Escucha el primero y conoce los cinco](https://donbigotes.app/es-419/cuentos-clasicos-para-dormir/).
 
 ## Cómo funciona en la app
 
@@ -114,7 +114,7 @@ Es la voz de Don Bigotes, la misma que en la nota de voz y el video de la app. V
 
 Y cuando se le mueva un diente, en la app Don Bigotes tienes la carta del Ratón Pérez con su nombre y el diario de dientes de leche, gratis y sin cuenta.
 
-Última actualización: 27 de octubre de 2026
+Última actualización: 4 de noviembre de 2026
 
 App no afiliada a ningún titular de marcas relacionadas con el personaje tradicional, que pertenece al folclore español. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 
