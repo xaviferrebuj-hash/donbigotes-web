@@ -7,7 +7,7 @@ Uso: {% include cta-app.html lang="es" medio="web-contenido" campana="editable" 
   ct       campaña de la App Store (web-home, web-producto, web-imprimibles, web-otras, web-existe, web-419).
   titulo   H2. Por defecto, «Crea la experiencia completa en la app Don Bigotes».
   lead     Texto bajo el H2. Por defecto, el del Pack según el idioma.
-  estilo   «noche»: la tarjeta crema de las páginas de fondo noche. Sin él, la banda de papel de la home.
+  estilo   «noche»: la tarjeta blanca de la familia noche (cuerpo en papel, feature/web-papel). Sin él, la banda de papel de la home.
   ancho    Solo con estilo="noche": max-width del H2 en ch (por defecto 16).
   id       id del contenedor de las insignias (p. ej. «descargar», al que apuntan enlaces de la página).
 Los enlaces los vuelve a fijar /js/enlaces-app.js (data-enlace). No escribir comillas dobles dentro de los textos.
@@ -27,10 +27,10 @@ Los enlaces los vuelve a fijar /js/enlaces-app.js (data-enlace). No escribir com
 {%- endcapture -%}
 {%- if include.estilo == "noche" %}
 <section class="wrap" style="position:relative;z-index:1">
-    <div id="cta-app" style="background:var(--crema);color:var(--noche);border-radius:22px;padding:40px 26px;text-align:center;margin:10px 0 6px">
-      <div style="font-family:'Nunito Sans',sans-serif;font-weight:800;letter-spacing:.12em;text-transform:uppercase;font-size:.72rem;color:#b8861f;margin-bottom:6px">La app</div>
-      <h2 style="color:var(--noche);font-size:var(--t-h3);margin:0 auto .4em;max-width:{{ include.ancho | default: 16 }}ch">{{ titulo }}</h2>
-      <p style="max-width:560px;margin:0 auto 1.4em;color:#5a5238">{{ lead }}</p>
+    <div id="cta-app" style="background:#fff;border:1px solid var(--paper-edge);color:var(--ink);border-radius:22px;padding:40px 26px;text-align:center;margin:10px 0 6px">
+      <div style="font-family:'Nunito Sans',sans-serif;font-weight:800;letter-spacing:.12em;text-transform:uppercase;font-size:.72rem;color:var(--enlace);margin-bottom:6px">La app</div>
+      <h2 style="color:var(--ink);font-size:var(--t-h3);margin:0 auto .4em;max-width:{{ include.ancho | default: 16 }}ch">{{ titulo }}</h2>
+      <p style="max-width:560px;margin:0 auto 1.4em;color:var(--ink-soft)">{{ lead }}</p>
       <a class="cta" href="{{ play }}" data-enlace="playstore" target="_blank" rel="noopener" style="text-decoration:none">&#10024; Abrir la app ahora</a>
 {{ insignias }}
     </div>
