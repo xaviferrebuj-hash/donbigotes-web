@@ -256,7 +256,7 @@
       ".banda-and{position:fixed;left:0;right:0;bottom:0;z-index:40;display:flex;align-items:center;gap:8px;" +
       "box-sizing:content-box;padding:8px 10px 8px 4px;padding-bottom:calc(8px + env(safe-area-inset-bottom));" +
       "background:#0B1437;border-top:1px solid rgba(242,193,78,.35);box-shadow:0 -6px 18px rgba(0,0,0,.28);" +
-      "font-family:'Nunito',system-ui,-apple-system,sans-serif;color:#fff}" +
+      "font-family:'Nunito Sans',system-ui,-apple-system,sans-serif;color:#fff}" +
       ".banda-and[hidden]{display:none}" +
       ".banda-and-x{flex:none;width:24px;height:36px;margin-right:-2px;border:0;background:none;color:#C7CEF0;font-size:14px;line-height:1;cursor:pointer;padding:0}" +
       ".banda-and img{flex:none;width:36px;height:36px;border-radius:9px}" +

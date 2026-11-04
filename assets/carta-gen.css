@@ -311,7 +311,7 @@
   text-wrap: balance;
 }
 .gen-paper.edad-t79 .l-office-s {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 500;
   font-size: var(--tj-sub);
   letter-spacing: 0;
@@ -360,7 +360,7 @@
 }
 .gen-paper.edad-t79.ctx-adios .tj-clave { display: none; }
 .gen-paper.edad-t79 .tj-clave-t {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 800;
   font-size: var(--tj-ctit);
   letter-spacing: .14em;
@@ -379,7 +379,7 @@
   width: var(--tj-celda);
   padding-bottom: var(--tj-raya);
   text-align: center;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 800;
   font-size: var(--tj-num);
   line-height: 1;
@@ -404,7 +404,7 @@
   border-radius: 3px;
   background: #F4ECD8;
   text-align: center;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 600;
   font-size: var(--tj-knum);
   line-height: 1.2;
