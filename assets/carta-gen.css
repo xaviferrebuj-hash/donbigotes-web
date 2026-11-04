@@ -254,19 +254,19 @@
   --tj-lado: 18px;
   --tj-logo: 42px;
   --tj-tit: 1rem;
-  --tj-sub: .64rem;
+  --tj-sub: .7rem;
   --tj-raya-cab: 12%;
   --tj-fecha: .92rem;
   --tj-saludo: clamp(1.6rem, 7.4vw, 1.95rem);
   --tj-cuerpo: clamp(1.12rem, 4.9vw, 1.25rem);
-  --tj-ctit: .56rem;
+  --tj-ctit: .7rem;
   --tj-celda: clamp(14px, 4.5vw, 18px);
-  --tj-num: clamp(.6rem, 2.75vw, .72rem);
+  --tj-num: clamp(.7rem, 2.75vw, .72rem);
   --tj-hueco: 9px;
   --tj-raya: 13px;
   --tj-cols: 14;
   --tj-letra: .72rem;
-  --tj-knum: .56rem;
+  --tj-knum: .7rem;
   --tj-oficina: 150px;
   --tj-rosa: 37px;
   --tj-fin: 10px;
@@ -311,7 +311,7 @@
   text-wrap: balance;
 }
 .gen-paper.edad-t79 .l-office-s {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 500;
   font-size: var(--tj-sub);
   letter-spacing: 0;
@@ -360,7 +360,7 @@
 }
 .gen-paper.edad-t79.ctx-adios .tj-clave { display: none; }
 .gen-paper.edad-t79 .tj-clave-t {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 800;
   font-size: var(--tj-ctit);
   letter-spacing: .14em;
@@ -379,7 +379,7 @@
   width: var(--tj-celda);
   padding-bottom: var(--tj-raya);
   text-align: center;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 800;
   font-size: var(--tj-num);
   line-height: 1;
@@ -404,7 +404,7 @@
   border-radius: 3px;
   background: #F4ECD8;
   text-align: center;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 600;
   font-size: var(--tj-knum);
   line-height: 1.2;
