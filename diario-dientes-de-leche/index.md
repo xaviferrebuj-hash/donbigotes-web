@@ -20,6 +20,8 @@ Gratis y para siempre · Sin cuenta: se queda en tu móvil · Android e iPhone
 
 - Una foto. Del hueco, del diente o de la sonrisa. Se guarda solo en tu móvil.
 
+- El cepillado. Un sello por la mañana y otro por la noche cada vez que se cepilla con [la canción de Don Bigotes](https://donbigotes.app/cancion-cepillado-dientes/).
+
 - Sin carta no pasa nada. Puedes apuntar un diente aunque ese día no hicieras la carta del Ratoncito.
 
 ## La ficha para los abuelos

@@ -52,7 +52,11 @@ El Ratón Pérez felicita a tu hijo por su nombre con un video y un pergamino pa
 
 ### La historia de Don Bigotes
 
-Diez capítulos de cinco minutos, contados por Don Bigotes con su voz y sus ilustraciones. Los dos primeros son gratis en la app; la historia completa, una sola compra, sin suscripción. [Escuchar el capítulo 1](https://donbigotes.app/es-419/cuento-raton-perez/).
+Diez capítulos de cinco minutos, contados por Don Bigotes con su voz y sus ilustraciones. Los dos primeros son gratis en la app; la historia completa, una sola compra, sin suscripción. [Escuchar el capítulo 1](https://donbigotes.app/es-419/cuento-raton-perez/). Y cinco [cuentos clásicos para dormir](https://donbigotes.app/es-419/cuentos-clasicos-para-dormir/), con el primero gratis.
+
+### Cepillado de dientes con canción
+
+Dos minutos con Don Bigotes en cuatro zonas de 30 segundos, y un sello en su diario por la mañana y por la noche. [Escuchar la canción](https://donbigotes.app/es-419/cancion-cepillado-dientes/).
 
 ## Tres pasos. Dos minutos.
 

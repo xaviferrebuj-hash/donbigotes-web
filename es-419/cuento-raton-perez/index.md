@@ -52,7 +52,7 @@ Don Bigotes lee el libro que encuentra en la mesita de noche, y luego lo deja ex
 
 - La boda del ratón 4:37 Unos padres que buscan al más fuerte del mundo: el Sol, la Nube, el Viento… y el Muro.
 
-El primero es gratis. Los otros cuatro van incluidos en la compra de la historia, al precio de tu tienda: si ya la tienes, los recibes sin pagar nada más.
+El primero es gratis. Los otros cuatro van incluidos en la compra de la historia, al precio de tu tienda: si ya la tienes, los recibes sin pagar nada más. [Escucha el primero y conoce los cinco](https://donbigotes.app/es-419/cuentos-clasicos-para-dormir/).
 
 ## Cómo funciona en la app
 

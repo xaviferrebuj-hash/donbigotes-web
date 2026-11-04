@@ -52,7 +52,11 @@ El Ratoncito felicita a tu peque por su nombre con un vídeo y un pergamino para
 
 ### La historia de Don Bigotes
 
-Diez capítulos de cinco minutos, contados por Don Bigotes con su voz y sus ilustraciones. Los dos primeros son gratis en la app; la historia entera, 3,99 € de una vez. [Escuchar el capítulo 1](https://donbigotes.app/cuento-ratoncito-perez/).
+Diez capítulos de cinco minutos, contados por Don Bigotes con su voz y sus ilustraciones. Los dos primeros son gratis en la app; la historia entera, 3,99 € de una vez. [Escuchar el capítulo 1](https://donbigotes.app/cuento-ratoncito-perez/). Y cinco [cuentos clásicos para dormir](https://donbigotes.app/cuentos-clasicos-para-dormir/), con el primero gratis.
+
+### Cepillado de dientes con canción
+
+Dos minutos con Don Bigotes en cuatro zonas de 30 segundos, y un sello en su diario por la mañana y por la noche. [Escuchar la canción](https://donbigotes.app/cancion-cepillado-dientes/).
 
 ## Tres pasos. Dos minutos.
 

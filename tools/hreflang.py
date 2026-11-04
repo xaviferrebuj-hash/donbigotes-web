@@ -39,6 +39,8 @@ PAREJAS = [
     ("voz-raton-perez/", "es-419/voz-raton-perez/"),
     ("fotomontaje-ratoncito-perez/", "es-419/fotomontaje-raton-perez/"),
     ("carta-ratoncito-perez-segun-edad/", "es-419/carta-raton-perez-segun-edad/"),
+    ("cancion-cepillado-dientes/", "es-419/cancion-cepillado-dientes/"),
+    ("cuentos-clasicos-para-dormir/", "es-419/cuentos-clasicos-para-dormir/"),
 ]
 
 PAISES = ["MX", "AR", "CO", "CL", "PE", "VE", "EC", "GT", "CU", "BO",
