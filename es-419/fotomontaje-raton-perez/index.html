@@ -63,32 +63,19 @@
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "¿Se puede hacer una foto del Ratón Pérez en casa?", "acceptedAnswer": {"@type": "Answer", "text": "Sí, con un fotomontaje. Tomas una foto de tu sala o de la habitación de tu hijo o hija y la app Don Bigotes coloca encima al Ratón Pérez sorprendido en plena visita. El resultado parece una foto tomada de casualidad esa misma noche."}}, {"@type": "Question", "name": "¿La foto sale del celular?", "acceptedAnswer": {"@type": "Answer", "text": "No. El fotomontaje se genera dentro del propio teléfono. La foto no se sube a ningún servidor, no se pide registro y la app no lleva publicidad ni tracking, solo estadísticas de uso anónimas."}}, {"@type": "Question", "name": "¿Sirve si en casa le dicen Ratón de los Dientes?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Es el mismo fotomontaje, se le llame Ratón Pérez, Ratón de los Dientes o Ratoncito Pérez. La app está en español."}}, {"@type": "Question", "name": "¿Es gratis el fotomontaje del Ratón Pérez?", "acceptedAnswer": {"@type": "Answer", "text": "La app se descarga gratis y el fotomontaje «¡Pillado!» forma parte del Pack Mágico, que se paga una sola vez, al precio local de la tienda. No hay que registrarse ni dejar datos para usarlo."}}]}
 </script>
 <style>
-  :root{--noche:var(--night-1);--noche-2:var(--night-1);--oro:var(--gold);--oro-claro:var(--gold-soft);--crema:var(--paper);--crema-linea:var(--paper-edge);--texto:var(--mist);--texto-tenue:var(--mist-soft);--borde:rgba(242,193,78,.22)}
+  :root{--oro:var(--gold);--oro-claro:var(--gold-soft);--crema:var(--paper);--texto:var(--mist);--texto-tenue:var(--mist-soft);--borde:rgba(242,193,78,.22)}
   *{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth}
   body{
     font-family:'Nunito Sans',system-ui,-apple-system,sans-serif;
-    background:var(--noche);
-    color:var(--texto);
     line-height:1.6;
     -webkit-font-smoothing:antialiased;
     overflow-x:hidden;
   }
   .wrap{max-width:980px;margin:0 auto;padding:0 22px}
-  h1,h2,h3{font-family:'Fraunces',Georgia,serif;color:#fff;line-height:1.15;font-weight:600}
+  h1,h2,h3{font-family:'Fraunces',Georgia,serif;line-height:1.15;font-weight:600}
   a{color:inherit}
 
-  /* fondo estrellado sutil */
-  body::before{
-    content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
-    background:
-      radial-gradient(1px 1px at 20% 30%, rgba(255,255,255,.5), transparent),
-      radial-gradient(1px 1px at 70% 20%, rgba(255,255,255,.4), transparent),
-      radial-gradient(1px 1px at 40% 70%, rgba(255,255,255,.35), transparent),
-      radial-gradient(1.5px 1.5px at 85% 60%, rgba(240,212,137,.6), transparent),
-      radial-gradient(1px 1px at 15% 85%, rgba(255,255,255,.4), transparent),
-      linear-gradient(180deg,var(--noche-2),var(--noche) 30%);
-  }
   .layer{position:relative;z-index:1}
 
   /* header */
@@ -103,7 +90,7 @@
     display:inline-flex;align-items:center;gap:10px;
     background:linear-gradient(180deg,var(--oro-claro),var(--oro));
     color:#3a2a06;font-weight:800;font-size:1.05rem;
-    padding:15px 28px;border-radius:999px;text-decoration:none;border:none;cursor:pointer;
+    padding:15px 28px;border-radius:999px;text-decoration:none;cursor:pointer;
     box-shadow:0 10px 26px -10px rgba(242,193,78,.7);
     transition:transform .15s ease, box-shadow .15s ease;
     font-family:'Nunito Sans',sans-serif;
@@ -129,35 +116,32 @@
 
   /* secciones */
   section{padding:54px 0}
-  .sec-label{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--oro);font-weight:800;margin-bottom:14px;text-align:center}
+  .sec-label{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;font-weight:800;margin-bottom:14px;text-align:center}
   .sec-title{font-size:var(--t-h2);text-align:center;margin-bottom:40px}
 
   /* cápsula de respuesta */
-  .capsula{background:rgba(242,193,78,.08);border:1px solid var(--borde);border-left:4px solid var(--oro);border-radius:14px;padding:26px 28px;max-width:760px;margin:0 auto;color:var(--texto);font-size:1.06rem}
-  .capsula b{color:#fff}
+  .capsula{border:1px solid var(--borde);border-left:4px solid var(--oro);border-radius:14px;padding:26px 28px;max-width:760px;margin:0 auto;font-size:1.06rem}
 
   /* pasos */
   .pasos{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-  .paso{background:rgba(255,255,255,.03);border:1px solid var(--borde);border-radius:16px;padding:26px 22px;text-align:center}
-  .paso .num{font-family:'Fraunces',serif;font-size:2.4rem;color:var(--oro);font-weight:600;line-height:1;margin-bottom:12px}
+  .paso{border:1px solid var(--borde);border-radius:16px;padding:26px 22px;text-align:center}
+  .paso .num{font-family:'Fraunces',serif;font-size:2.4rem;font-weight:600;line-height:1;margin-bottom:12px}
   .paso h3{font-size:1.12rem;margin-bottom:8px}
   .paso p{font-size:.95rem;color:var(--texto-tenue)}
 
   /* texto centrado de sección */
-  .texto{max-width:700px;margin:0 auto;text-align:center;color:var(--texto)}
+  .texto{max-width:700px;margin:0 auto;text-align:center;}
   .texto p+p{margin-top:14px}
-  .texto a{color:var(--oro-claro)}
 
   /* privacidad */
   .privacidad{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:860px;margin:34px auto 0}
-  .priv{background:rgba(255,255,255,.03);border:1px solid var(--borde);border-radius:14px;padding:22px 20px;text-align:center}
+  .priv{border:1px solid var(--borde);border-radius:14px;padding:22px 20px;text-align:center}
   .priv h3{font-size:1.02rem;margin-bottom:6px}
   .priv p{font-size:.92rem;color:var(--texto-tenue)}
 
   /* chips */
   .momentos{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
-  .chip{display:inline-block;background:rgba(255,255,255,.04);border:1px solid var(--borde);border-radius:999px;padding:11px 20px;text-decoration:none;color:var(--texto);font-weight:700;font-size:.95rem;transition:border-color .15s,color .15s}
-  .chip:hover{border-color:var(--oro);color:#fff}
+  .chip{display:inline-block;border:1px solid var(--borde);border-radius:999px;padding:11px 20px;text-decoration:none;font-weight:700;font-size:.95rem;transition:border-color .15s,color .15s}
 
   /* badges de tienda (patrón unificado: Google Play + App Store) */
   .badges{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:30px}
@@ -168,12 +152,12 @@
 
   /* faq */
   .faq{max-width:720px;margin:0 auto}
-  /* Enlace a «¿existe?» bajo las preguntas frecuentes: sobre fondo oscuro, en dorado. */
-  .faq + p a{color:var(--oro);font-weight:700}
+  /* Enlace a «¿existe?» bajo las preguntas frecuentes (color: base.css, body.papel). */
+  .faq + p a{font-weight:700}
   details{border-bottom:1px solid var(--borde);padding:18px 0}
-  summary{font-family:'Fraunces',serif;font-size:1.12rem;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:center}
+  summary{font-family:'Fraunces',serif;font-size:1.12rem;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:center}
   summary::-webkit-details-marker{display:none}
-  summary::after{content:"+";color:var(--oro);font-size:1.5rem;font-weight:400;transition:transform .2s}
+  summary::after{content:"+";font-size:1.5rem;font-weight:400;transition:transform .2s}
   details[open] summary::after{transform:rotate(45deg)}
   details p{margin-top:12px;color:var(--texto-tenue)}
 

@@ -182,32 +182,19 @@
 }
 </script>
 <style>
-  :root{--noche:var(--night-1);--noche-2:var(--night-1);--oro:var(--gold);--oro-claro:var(--gold-soft);--crema:var(--paper);--crema-linea:var(--paper-edge);--texto:var(--mist);--texto-tenue:var(--mist-soft);--borde:rgba(242,193,78,.22)}
+  :root{--noche-2:var(--night-1);--oro:var(--gold);--oro-claro:var(--gold-soft);--texto:var(--mist);--texto-tenue:var(--mist-soft);--borde:rgba(242,193,78,.22)}
   *{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth}
   body{
     font-family:'Nunito Sans',system-ui,-apple-system,sans-serif;
-    background:var(--noche);
-    color:var(--texto);
     line-height:1.6;
     -webkit-font-smoothing:antialiased;
     overflow-x:hidden;
   }
   .wrap{max-width:980px;margin:0 auto;padding:0 22px}
-  h1,h2,h3{font-family:'Fraunces',Georgia,serif;color:#fff;line-height:1.15;font-weight:600}
+  h1,h2,h3{font-family:'Fraunces',Georgia,serif;line-height:1.15;font-weight:600}
   a{color:inherit}
 
-  /* fondo estrellado sutil */
-  body::before{
-    content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
-    background:
-      radial-gradient(1px 1px at 20% 30%, rgba(255,255,255,.5), transparent),
-      radial-gradient(1px 1px at 70% 20%, rgba(255,255,255,.4), transparent),
-      radial-gradient(1px 1px at 40% 70%, rgba(255,255,255,.35), transparent),
-      radial-gradient(1.5px 1.5px at 85% 60%, rgba(240,212,137,.6), transparent),
-      radial-gradient(1px 1px at 15% 85%, rgba(255,255,255,.4), transparent),
-      linear-gradient(180deg,var(--noche-2),var(--noche) 30%);
-  }
   .layer{position:relative;z-index:1}
 
   /* header */
@@ -227,7 +214,6 @@
     font-family:'Nunito Sans',sans-serif;
   }
   .micro{margin-top:14px;font-size:.86rem;color:var(--texto-tenue);letter-spacing:.02em}
-  .micro b{color:var(--texto)}
 
   /* reproductor del capítulo 1 */
   .reproductor{max-width:860px;margin:0 auto}
@@ -246,25 +232,24 @@
   .rep-play:focus-visible{outline:3px solid var(--oro-claro);outline-offset:4px}
   .rep-play svg{width:38px;height:38px;margin-left:6px}
   .rep-marco.sonando .rep-play{opacity:0;pointer-events:none}
-  .rep-etiqueta{margin-top:18px;text-align:center;font-family:'Fraunces',serif;color:#fff;font-size:1.1rem}
+  .rep-etiqueta{margin-top:18px;text-align:center;font-family:'Fraunces',serif;font-size:1.1rem}
   .rep-etiqueta span{color:var(--texto-tenue);font-family:'Nunito Sans',sans-serif;font-size:.95rem}
   .reproductor audio{display:block;width:100%;margin-top:12px;color-scheme:dark}
   .rep-nota{margin-top:10px;text-align:center;font-size:.9rem;color:var(--texto-tenue)}
 
   /* secciones */
   section{padding:54px 0}
-  .sec-label{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--oro);font-weight:800;margin-bottom:14px;text-align:center}
+  .sec-label{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;font-weight:800;margin-bottom:14px;text-align:center}
   .sec-title{font-size:var(--t-h2);text-align:center;margin-bottom:40px}
 
   /* texto centrado de sección */
-  .texto{max-width:700px;margin:0 auto;text-align:center;color:var(--texto)}
+  .texto{max-width:700px;margin:0 auto;text-align:center;}
   .texto p+p{margin-top:14px}
   .texto a{color:var(--oro-claro)}
 
   /* chips */
   .momentos{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
-  .chip{display:inline-block;background:rgba(255,255,255,.04);border:1px solid var(--borde);border-radius:999px;padding:11px 20px;text-decoration:none;color:var(--texto);font-weight:700;font-size:.95rem;transition:border-color .15s,color .15s}
-  .chip:hover{border-color:var(--oro);color:#fff}
+  .chip{display:inline-block;border:1px solid var(--borde);border-radius:999px;padding:11px 20px;text-decoration:none;font-weight:700;font-size:.95rem;transition:border-color .15s,color .15s}
 
   /* lista de capítulos */
   .capitulos{max-width:720px;margin:0 auto;list-style:none;counter-reset:cap}
@@ -281,9 +266,9 @@
   /* faq */
   .faq{max-width:720px;margin:0 auto}
   details{border-bottom:1px solid var(--borde);padding:18px 0}
-  summary{font-family:'Fraunces',serif;font-size:1.12rem;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:center}
+  summary{font-family:'Fraunces',serif;font-size:1.12rem;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:center}
   summary::-webkit-details-marker{display:none}
-  summary::after{content:"+";color:var(--oro);font-size:1.5rem;font-weight:400;transition:transform .2s}
+  summary::after{content:"+";font-size:1.5rem;font-weight:400;transition:transform .2s}
   details[open] summary::after{transform:rotate(45deg)}
   .ans{margin-top:12px;color:var(--texto-tenue)}
 
@@ -302,9 +287,8 @@
   .anim.d1{animation-delay:.08s}.anim.d2{animation-delay:.16s}.anim.d3{animation-delay:.24s}
   @media (prefers-reduced-motion:reduce){.anim{animation:none}.cta{transition:none}.rep-marco img{transition:none}}
   /* listas */
-  .lista{max-width:720px;margin:0 auto;padding-left:1.2em;color:var(--texto)}
+  .lista{max-width:720px;margin:0 auto;padding-left:1.2em;}
   .lista li{margin-bottom:12px}
-  .lista b{color:#fff}
   /* lista de cuentos con portada (cuentos clásicos) */
   .clasicos-lista{max-width:860px;margin:0 auto;list-style:none;display:grid;gap:34px}
   .clasicos-lista li{display:grid;grid-template-columns:minmax(0,320px) 1fr;gap:22px;align-items:start}
@@ -315,14 +299,10 @@
   .clasicos-lista .cap-d{color:var(--texto)}
   .clasicos-lista .donde{margin-top:8px;color:var(--texto-tenue);font-size:.95rem}
   .clasicos-lista a{color:var(--oro-claro)}
-  /* zonas de la canción del cepillado */
-  .zonas .chip.activa{border-color:var(--oro);color:#fff;background:rgba(242,193,78,.14)}
   .letra{max-width:560px;margin:0 auto;text-align:center}
-  .letra h3{font-size:1.05rem;color:var(--oro-claro);margin:26px 0 8px;font-family:'Nunito Sans',sans-serif;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
-  .letra p{color:var(--texto)}
+  .letra h3{font-size:1.05rem;margin:26px 0 8px;font-family:'Nunito Sans',sans-serif;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
   .letra .hablado{font-style:italic;color:var(--texto-tenue)}
   .fuentes{max-width:720px;margin:24px auto 0;font-size:.92rem;color:var(--texto-tenue)}
-  .fuentes a{color:var(--oro-claro)}
   .fuentes p+p{margin-top:10px}
   @media (max-width:760px){.clasicos-lista li{grid-template-columns:1fr;gap:14px}}
 </style>

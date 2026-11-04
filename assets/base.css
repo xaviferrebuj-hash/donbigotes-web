@@ -373,3 +373,55 @@ html .btn-gold:active,html .btn-ghost:active,html .chip:active,html .pc-play:act
 @media (max-width:480px){
   html h1.h1-largo{font-size:1.75rem}
 }
+
+/* ===== Familia «noche» en la maqueta de la home (feature/web-papel, 4-nov-2026) =====
+   <body class="papel">: banda noche arriba (cabecera, aviso de región y hero dentro de <div class="night sky">
+   con la luna, como la home) y cuerpo en <main> sobre papel. Páginas: carta para imprimir, comparativa,
+   cuento, diario, fotomontaje, historia, canción del cepillado y cuentos clásicos (ES y es-419).
+   Los <style> de cada página siguen escritos para la noche: estas reglas, con «body.papel main» delante,
+   les ganan por especificidad dentro del cuerpo y no tocan la banda. Los aterrizajes (/app/, /carta/) no
+   llevan la clase y se quedan en noche. Contraste comprobado (AA, 4,5:1) en tools/contraste_papel.js. */
+body.papel{background:var(--paper);color:var(--ink)}
+body.papel .night{position:relative;z-index:1;overflow:hidden;color:#fff;padding-bottom:24px;background:radial-gradient(120% 90% at 82% -10%,rgba(242,193,78,.16),transparent 55%),linear-gradient(160deg,var(--night-1) 0%,var(--night-2) 58%,var(--night-3) 135%)}
+body.papel .sky::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.6;background-image:
+ radial-gradient(1.4px 1.4px at 12% 22%,#fff,transparent),radial-gradient(1.2px 1.2px at 26% 64%,#fff,transparent),
+ radial-gradient(1px 1px at 38% 14%,#fff,transparent),radial-gradient(1.5px 1.5px at 54% 40%,#fff,transparent),
+ radial-gradient(1px 1px at 66% 72%,#fff,transparent),radial-gradient(1.3px 1.3px at 74% 26%,#fff,transparent),
+ radial-gradient(1px 1px at 88% 56%,#fff,transparent),radial-gradient(1.2px 1.2px at 18% 84%,#fff,transparent),
+ radial-gradient(1px 1px at 46% 90%,#fff,transparent),radial-gradient(1.4px 1.4px at 92% 82%,#fff,transparent)}
+body.papel .moon{position:absolute;top:-66px;right:-30px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle at 38% 36%,#FFF6DD,#F2C14E 60%,rgba(242,193,78,0) 72%);filter:blur(2px);opacity:.85;pointer-events:none}
+body.papel .night > .wrap{position:relative;z-index:1}
+body.papel main{position:relative;z-index:1}
+
+/* Cuerpo sobre papel: los alias de texto y borde de las páginas noche pasan a tinta y borde de papel. */
+body.papel main{--texto:var(--ink);--texto-tenue:var(--ink-soft);--borde:var(--paper-edge);color:var(--ink)}
+body.papel main h1,body.papel main h2,body.papel main h3,body.papel main summary,body.papel main caption,
+body.papel main b,body.papel main thead th,body.papel main tbody th,body.papel main .rep-etiqueta,
+body.papel main .capitulos .cap-t,body.papel main .clasicos-lista .cap-t{color:var(--ink)}
+/* Eyebrows, numerales y signos: dorado oscuro (5,2:1 sobre papel; --gold-deep da 2,2:1). */
+body.papel main .eyebrow,body.papel main .sec-label,body.papel main .paso .num,body.papel main .clasicos-lista .origen,
+body.papel main .cta-app .eyebrow,body.papel main .letra h3{color:var(--enlace)}
+body.papel main summary::after,body.papel main .capitulos li::before,body.papel main .clasicos-lista li::before{color:var(--enlace)}
+/* Enlaces del cuerpo */
+body.papel main .texto a,body.papel main .capitulos a,body.papel main .clasicos-lista a,body.papel main .fuentes a,
+body.papel main .linea-edad a,body.papel main .faq + p a,body.papel main .form-legal a,body.papel main .capsula a,
+body.papel main .carta-intro a,body.papel main .lista a,body.papel main .micro a,body.papel main td.si{color:var(--enlace)}
+/* Tarjetas blancas con borde de papel */
+body.papel main .paso,body.papel main .chip,body.papel main .email-box,body.papel main .priv,body.papel main .camino,
+body.papel main .tabla-scroll{background:#fff;border-color:var(--paper-edge)}
+body.papel main .capsula{background:#FFF8E6;border-color:var(--paper-edge);border-left-color:var(--gold)}
+body.papel main .chip:hover{border-color:var(--gold-deep);color:var(--ink)}
+body.papel main .zonas .chip.activa{border-color:var(--gold-deep);background:#FFF1CC;color:var(--ink)}
+body.papel main .form-ok{color:var(--ink);background:#FFF1CC}
+body.papel main thead th{background:#FFF8E6}
+body.papel main tr.propia th,body.papel main tr.propia td{background:#FFF8E6}
+/* Inputs claros */
+body.papel main .form-row input[type=email],body.papel main .form-row input[type=text]{background:#fff;color:var(--ink);border-color:var(--paper-edge)}
+body.papel main .form-row input:focus{background:#fff;border-color:var(--gold-deep)}
+body.papel main .form-row input::placeholder{color:var(--ink-soft)}
+/* Fantasma del cuerpo: el común (blanco, tinta, borde de papel) */
+body.papel main .btn-ghost{background:#fff;color:var(--ink);border-color:var(--paper-edge)}
+/* Sombras pensadas para la noche, más suaves sobre papel */
+body.papel main .hero-ilustracion img,body.papel main .captura-app img,body.papel main .hoja-prev img,body.papel main .rep-marco{box-shadow:0 18px 40px -22px rgba(58,46,34,.45)}
+body.papel main .reproductor audio{color-scheme:light}
+body.papel main .form-legal{opacity:1;color:var(--ink-soft)}

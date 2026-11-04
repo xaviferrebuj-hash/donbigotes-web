@@ -126,32 +126,19 @@
 }
 </script>
 <style>
-  :root{--noche:var(--night-1);--noche-2:var(--night-1);--oro:var(--gold);--oro-claro:var(--gold-soft);--crema:var(--paper);--crema-linea:var(--paper-edge);--texto:var(--mist);--texto-tenue:var(--mist-soft);--borde:rgba(242,193,78,.22)}
+  :root{--oro:var(--gold);--oro-claro:var(--gold-soft);--crema:var(--paper);--texto:var(--mist);--texto-tenue:var(--mist-soft);--borde:rgba(242,193,78,.22)}
   *{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth}
   body{
     font-family:'Nunito Sans',system-ui,-apple-system,sans-serif;
-    background:var(--noche);
-    color:var(--texto);
     line-height:1.6;
     -webkit-font-smoothing:antialiased;
     overflow-x:hidden;
   }
   .wrap{max-width:980px;margin:0 auto;padding:0 22px}
-  h1,h2,h3{font-family:'Fraunces',Georgia,serif;color:#fff;line-height:1.15;font-weight:600}
+  h1,h2,h3{font-family:'Fraunces',Georgia,serif;line-height:1.15;font-weight:600}
   a{color:inherit}
 
-  /* fondo estrellado sutil */
-  body::before{
-    content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
-    background:
-      radial-gradient(1px 1px at 20% 30%, rgba(255,255,255,.5), transparent),
-      radial-gradient(1px 1px at 70% 20%, rgba(255,255,255,.4), transparent),
-      radial-gradient(1px 1px at 40% 70%, rgba(255,255,255,.35), transparent),
-      radial-gradient(1.5px 1.5px at 85% 60%, rgba(240,212,137,.6), transparent),
-      radial-gradient(1px 1px at 15% 85%, rgba(255,255,255,.4), transparent),
-      linear-gradient(180deg,var(--noche-2),var(--noche) 30%);
-  }
   .layer{position:relative;z-index:1}
 
   /* header */
@@ -166,7 +153,7 @@
     display:inline-flex;align-items:center;gap:10px;
     background:linear-gradient(180deg,var(--oro-claro),var(--oro));
     color:#3a2a06;font-weight:800;font-size:1.05rem;
-    padding:15px 28px;border-radius:999px;text-decoration:none;border:none;cursor:pointer;
+    padding:15px 28px;border-radius:999px;text-decoration:none;cursor:pointer;
     box-shadow:0 10px 26px -10px rgba(242,193,78,.7);
     transition:transform .15s ease, box-shadow .15s ease;
     font-family:'Nunito Sans',sans-serif;
@@ -183,7 +170,7 @@
 
   /* secciones */
   section{padding:54px 0}
-  .sec-label{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--oro);font-weight:800;margin-bottom:14px;text-align:center}
+  .sec-label{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;font-weight:800;margin-bottom:14px;text-align:center}
   .sec-title{font-size:var(--t-h2);text-align:center;margin-bottom:40px}
 
   /* cápsula de respuesta */
@@ -193,14 +180,12 @@
   @media (max-width:760px){.hero .capsula{text-align:left}}
 
   /* texto centrado de sección */
-  .texto{max-width:700px;margin:0 auto;text-align:center;color:var(--texto)}
+  .texto{max-width:700px;margin:0 auto;text-align:center;}
   .texto p+p{margin-top:14px}
-  .texto a{color:var(--oro-claro)}
 
   /* chips */
   .momentos{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
-  .chip{display:inline-block;background:rgba(255,255,255,.04);border:1px solid var(--borde);border-radius:999px;padding:11px 20px;text-decoration:none;color:var(--texto);font-weight:700;font-size:.95rem;transition:border-color .15s,color .15s}
-  .chip:hover{border-color:var(--oro);color:#fff}
+  .chip{display:inline-block;border:1px solid var(--borde);border-radius:999px;padding:11px 20px;text-decoration:none;font-weight:700;font-size:.95rem;transition:border-color .15s,color .15s}
 
   /* ilustración de cabecera */
   .hero-ilustracion{margin:6px 0 0;line-height:0}
@@ -220,8 +205,8 @@
   /* bloque CTA (_includes/cta-app.html) sobre paleta noche */
   .cta-app.cream-band{background:var(--crema);border-radius:22px;padding:40px 26px;margin:10px 0 6px}
   .cta-app .dl-wrap{text-align:center}
-  .cta-app .eyebrow{color:#b8861f;margin-bottom:6px}
-  .cta-app h2{color:var(--noche);font-size:var(--t-h3);margin:0 auto .4em;max-width:22ch}
+  .cta-app .eyebrow{margin-bottom:6px}
+  .cta-app h2{font-size:var(--t-h3);margin:0 auto .4em;max-width:22ch}
   .cta-app p.lead{max-width:560px;margin:0 auto 1.4em;color:#5a5238}
   .cta-app .badges{margin-top:0}
   .btn-gold{display:inline-flex;align-items:center;justify-content:center;gap:10px;text-decoration:none}
@@ -229,9 +214,9 @@
   /* faq */
   .faq{max-width:720px;margin:0 auto}
   details{border-bottom:1px solid var(--borde);padding:18px 0}
-  summary{font-family:'Fraunces',serif;font-size:1.12rem;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:center}
+  summary{font-family:'Fraunces',serif;font-size:1.12rem;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:center}
   summary::-webkit-details-marker{display:none}
-  summary::after{content:"+";color:var(--oro);font-size:1.5rem;font-weight:400;transition:transform .2s}
+  summary::after{content:"+";font-size:1.5rem;font-weight:400;transition:transform .2s}
   details[open] summary::after{transform:rotate(45deg)}
   details p{margin-top:12px;color:var(--texto-tenue)}
   .ans{margin-top:12px;color:var(--texto-tenue)}
@@ -253,19 +238,18 @@
   /* listas y pasos */
   .pasos{max-width:720px;margin:0 auto;padding-left:1.4em;color:var(--texto)}
   .pasos li{margin-bottom:14px}
-  .pasos b,.lista b{color:#fff}
-  .lista{max-width:720px;margin:0 auto;padding-left:1.2em;color:var(--texto)}
+  .lista{max-width:720px;margin:0 auto;padding-left:1.2em;}
   .lista li{margin-bottom:12px}
   .lista li+li{margin-top:0}
   .texto p.nota{font-size:.9rem;color:var(--texto-tenue);margin-top:18px}
 
   /* tabla accesible */
   .tabla-wrap{max-width:760px;margin:0 auto;overflow-x:auto}
-  table{width:100%;border-collapse:collapse;color:var(--texto);font-size:1rem}
-  caption{caption-side:top;text-align:left;font-family:'Fraunces',serif;color:#fff;font-size:1.05rem;padding:0 0 12px}
+  table{width:100%;border-collapse:collapse;font-size:1rem}
+  caption{caption-side:top;text-align:left;font-family:'Fraunces',serif;font-size:1.05rem;padding:0 0 12px}
   th,td{padding:12px 14px;border-bottom:1px solid var(--borde);text-align:left;vertical-align:top}
-  thead th{color:var(--oro-claro);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase}
-  tbody th{font-weight:700;color:#fff}
+  thead th{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase}
+  tbody th{font-weight:700;}
   td.num{text-align:center}
 
   /* dos caminos de captación */
@@ -279,7 +263,7 @@
   /* hoja imprimible */
   .hoja-grid{display:grid;grid-template-columns:auto 1fr;gap:38px;align-items:center;max-width:900px;margin:0 auto}
   .hoja-prev{display:block;flex:0 0 auto}
-  .hoja-prev img{display:block;width:300px;height:auto;border-radius:10px;border:1px solid var(--borde);box-shadow:0 18px 40px -18px rgba(0,0,0,.7)}
+  .hoja-prev img{display:block;width:300px;height:auto;border-radius:10px;border:1px solid var(--borde);}
   .hoja-prev:hover img{border-color:var(--oro)}
   @media (max-width:760px){
     .hoja-grid{grid-template-columns:1fr;gap:26px;justify-items:center;text-align:center}
@@ -290,7 +274,7 @@
   .diario-grid{display:grid;grid-template-columns:1fr auto;gap:38px;align-items:center;max-width:900px;margin:0 auto}
   .diario-grid .lista{margin:0}
   .captura-app{margin:0;flex:0 0 auto}
-  .captura-app img{display:block;width:260px;height:auto;border-radius:18px;border:1px solid var(--borde);box-shadow:0 18px 40px -18px rgba(0,0,0,.7)}
+  .captura-app img{display:block;width:260px;height:auto;border-radius:18px;border:1px solid var(--borde);}
   @media (max-width:760px){
     .diario-grid{grid-template-columns:1fr;gap:28px;justify-items:center}
     .captura-app img{width:220px}
