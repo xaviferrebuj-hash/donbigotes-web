@@ -366,3 +366,10 @@ html .btn-gold:active,html .btn-ghost:active,html .chip:active,html .pc-play:act
 .db-pie a:not(.db-marca):hover{color:#FFE3A3;text-decoration:underline;text-underline-offset:2px}
 .db-pie-aviso{margin:32px 0 0;padding-top:20px;border-top:1px solid rgba(199,206,240,.18);font-size:.8rem;color:#9AA6D6;max-width:90ch}
 @media (max-width:480px){.db-pie-grid{grid-template-columns:1fr 1fr}.db-pie-marca{grid-column:1/-1}}
+
+/* H1 largos en el móvil (4-nov-2026): con la escala común (--t-h1, mín. 2,3rem) algunos H1 pasan de 3 líneas
+   a 390 px. Solo las páginas con la clase h1-largo (las que pasaban de 3). Suelo: 1,75rem. El prefijo html
+   gana a «.hero h1» / «.post-head h1» del <style> de cada página. Escritorio, sin cambios. */
+@media (max-width:480px){
+  html h1.h1-largo{font-size:1.75rem}
+}
