@@ -33,6 +33,8 @@ PAGINAS = [
     "es-419/editable", "es-419/foto-raton-perez", "es-419/voz-raton-perez",
     "es-419/fotomontaje-raton-perez",
     "carta-ratoncito-perez-segun-edad", "es-419/carta-raton-perez-segun-edad",
+    "cancion-cepillado-dientes", "es-419/cancion-cepillado-dientes",
+    "cuentos-clasicos-para-dormir", "es-419/cuentos-clasicos-para-dormir",
     "privacidad",
 ]
 
