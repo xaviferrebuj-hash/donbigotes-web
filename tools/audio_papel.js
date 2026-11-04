@@ -5,7 +5,7 @@ const casos = [['cancion-cepillado-dientes','cepillado-audio'],['es-419/cancion-
   const b = await chromium.launch({ args: ['--autoplay-policy=no-user-gesture-required'] });
   const p = await b.newPage({ viewport: { width: 390, height: 844 } });
   for (const [u, id] of casos) {
-    await p.goto(`http://127.0.0.1:8769/${u}/`, { waitUntil: 'load' });
+    await p.goto(`${process.argv[2] || 'http://127.0.0.1:8769'}/${u}/`, { waitUntil: 'load' });
     const r = await p.evaluate(async (id) => {
       const a = document.getElementById(id); a.muted = true;
       const btn = document.getElementById(id.replace('-audio', '-play'));
