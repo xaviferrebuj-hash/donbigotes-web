@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -240,10 +242,7 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
 <div class="night sky">
 <span class="moon"></span>
 <div class="wrap">
-  <nav class="nav">
-    <img class="logo" src="/assets/img/logo-don-bigotes.jpg" alt="Don Bigotes">
-    <span class="name">Don Bigotes</span>
-  </nav>
+  {% include cabecera.html lang="es" %}
   <p class="enlace-region">¿Estás en Latinoamérica? <a href="/es-419/app-raton-perez/" hreflang="es-419">Versión para México y LATAM</a></p>
   <header class="hero">
     <div class="hero-copy">
@@ -465,30 +464,7 @@ footer{position:relative;z-index:2;border-top:1px solid rgba(255,255,255,.1);pad
   <span class="moon"></span>
   <div class="wrap">
 <p class="fecha-actualizacion">Última actualización: 27 de septiembre de 2026</p>
-    <footer>
-      <div class="foot-grid">
-        <div class="foot-brand">
-          <img src="/assets/img/logo-don-bigotes.jpg" alt="Don Bigotes">
-          <span>Don Bigotes</span>
-        </div>
-        <div class="foot-links">
-          <a href="mailto:hola@donbigotes.app">hola@donbigotes.app</a>
-          <a href="https://wa.me/34696646314" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
-          <a href="/carta-para-imprimir/">Carta del Ratoncito Pérez para imprimir</a>
-          <a href="/primer-diente/">Carta del Ratoncito Pérez para el primer diente</a>
-          <a href="/ultimo-diente/">Carta de despedida del Ratoncito Pérez</a>
-          <a href="/editable/">Carta del Ratoncito Pérez editable</a>
-          <a href="/el-ratoncito-perez-existe/">¿El Ratoncito Pérez existe?</a>
-          <a href="/historia-raton-perez/">Historia del Ratón Pérez</a>
-          <a href="/cumpleanos-raton-perez/">Cumpleaños del Ratoncito Pérez</a>
-          <a href="/diario-dientes-de-leche/">¿Cuándo se caen los dientes de leche?</a>
-          <a href="/cuento-ratoncito-perez/">Cuento del Ratoncito Pérez</a>
-          <a href="/blog/">Blog</a>
-          <a href="/privacidad/">Privacidad</a>
-        </div>
-      </div>
-      <p class="disclaimer">Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.</p>
-    </footer>
+    {% include pie.html lang="es" %}
   </div>
 </div>
 

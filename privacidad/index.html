@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -111,11 +113,12 @@
   }
   .parte p{margin:6px 0 0;color:#c9cedd;font-size:14px;}
 </style>
+<link rel="stylesheet" href="/assets/base.css">
 </head>
 <body>
 <header>
   <div class="wrap">
-    <span class="badge">Don Bigotes</span>
+    {% include cabecera.html lang="es" %}
     <h1>Política de Privacidad</h1>
     <p>Última actualización: 3 de noviembre de 2026</p>
   </div>
@@ -279,9 +282,7 @@
 
 </main>
 
-<footer>
-  © 2026 Don Bigotes · Francisco Javier Ferre Buj
-</footer>
+{% include pie.html lang="es" %}
 
 </body>
 </html>

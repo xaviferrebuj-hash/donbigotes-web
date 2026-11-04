@@ -1,0 +1,94 @@
+# Cabecera y pie comunes de toda la web (feature/web-unificar, 4-nov-2026).
+# Cambiar un enlace aquí lo cambia en todas las páginas: _includes/cabecera.html y _includes/pie.html leen este fichero.
+es:
+  home: /
+  marca_alt: Don Bigotes, inicio
+  menu_etiqueta: Menú
+  region: { texto: Versión para México y LATAM, url: /es-419/, hreflang: es-419 }
+  menu:
+    - { texto: Carta gratis, url: "/#crear" }
+    - { texto: Para imprimir, url: /carta-para-imprimir/ }
+    - { texto: La app, url: /app-raton-perez/ }
+    - { texto: Cuento, url: /cuento-ratoncito-perez/ }
+    - { texto: Blog, url: /blog/ }
+  whatsapp: Escríbenos por WhatsApp
+  columnas:
+    - titulo: Cartas gratis
+      enlaces:
+        - { texto: Carta para imprimir, url: /carta-para-imprimir/ }
+        - { texto: Carta del primer diente, url: /primer-diente/ }
+        - { texto: Carta de despedida, url: /ultimo-diente/ }
+        - { texto: Carta editable, url: /editable/ }
+        - { texto: Carta según la edad, url: /carta-ratoncito-perez-segun-edad/ }
+    - titulo: Para imprimir gratis
+      enlaces:
+        - { texto: Diploma de Valentía, url: /diploma-raton-perez/ }
+        - { texto: Certificado del primer diente, url: /certificado-raton-perez/ }
+        - { texto: Firma y sello, url: /firma-sello-raton-perez/ }
+        - { texto: Diario de dientes de leche, url: /diario-dientes-de-leche/ }
+    - titulo: La app
+      enlaces:
+        - { texto: App del Ratoncito Pérez, url: /app-raton-perez/ }
+        - { texto: Mensaje de voz, url: /voz-raton-perez/ }
+        - { texto: Vídeo desde su Oficina, url: /video-raton-perez/ }
+        - { texto: Foto junto a tu peque, url: /foto-raton-perez/ }
+        - { texto: Fotomontaje «¡Pillado!», url: /fotomontaje-ratoncito-perez/ }
+        - { texto: Cumpleaños, url: /cumpleanos-raton-perez/ }
+        - { texto: Comparativa de apps, url: /comparativa-apps-ratoncito-perez/ }
+    - titulo: El Ratoncito Pérez
+      enlaces:
+        - { texto: ¿El Ratoncito Pérez existe?, url: /el-ratoncito-perez-existe/ }
+        - { texto: Cuento en audio, url: /cuento-ratoncito-perez/ }
+        - { texto: Historia del Ratón Pérez, url: /historia-raton-perez/ }
+        - { texto: El viaje del diente, url: /viaje-del-diente/ }
+        - { texto: Blog, url: /blog/ }
+        - { texto: Prensa, url: /prensa/ }
+  aviso: >-
+    Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de
+    marcas relacionadas con «El Ratoncito Pérez». El personaje del Ratoncito Pérez se utiliza como referencia folclórica
+    de dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
+es-419:
+  home: /es-419/
+  marca_alt: Don Bigotes, inicio
+  menu_etiqueta: Menú
+  region: { texto: Versión para España, url: /, hreflang: es }
+  menu:
+    - { texto: Carta gratis, url: "/es-419/#crear" }
+    - { texto: Para imprimir, url: /es-419/carta-para-imprimir/ }
+    - { texto: La app, url: /es-419/app-raton-perez/ }
+    - { texto: Cuento, url: /es-419/cuento-raton-perez/ }
+    - { texto: Blog, url: /blog/ }
+  whatsapp: Escríbannos por WhatsApp
+  columnas:
+    - titulo: Cartas gratis
+      enlaces:
+        - { texto: Carta para imprimir, url: /es-419/carta-para-imprimir/ }
+        - { texto: Carta del primer diente, url: /es-419/primer-diente/ }
+        - { texto: Carta de despedida, url: /es-419/ultimo-diente/ }
+        - { texto: Carta editable, url: /es-419/editable/ }
+        - { texto: Carta según la edad, url: /es-419/carta-raton-perez-segun-edad/ }
+    - titulo: Para imprimir gratis
+      enlaces:
+        - { texto: Diploma de Valentía, url: /es-419/diploma-raton-perez/ }
+        - { texto: Certificado del primer diente, url: /es-419/certificado-raton-perez/ }
+        - { texto: Firma y sello, url: /es-419/firma-sello-raton-perez/ }
+        - { texto: Diario de dientes de leche, url: /es-419/diario-dientes-de-leche/ }
+    - titulo: La app
+      enlaces:
+        - { texto: App del Ratón Pérez, url: /es-419/app-raton-perez/ }
+        - { texto: Mensaje de voz, url: /es-419/voz-raton-perez/ }
+        - { texto: Video desde su Oficina, url: /video-raton-perez/ }
+        - { texto: Foto junto a tu hijo, url: /es-419/foto-raton-perez/ }
+        - { texto: Fotomontaje «¡Pillado!», url: /es-419/fotomontaje-raton-perez/ }
+        - { texto: Comparativa de apps, url: /es-419/comparativa-apps-ratoncito-perez/ }
+    - titulo: El Ratón Pérez
+      enlaces:
+        - { texto: ¿El Ratón Pérez existe?, url: /es-419/el-ratoncito-perez-existe/ }
+        - { texto: Cuento en audio, url: /es-419/cuento-raton-perez/ }
+        - { texto: Historia del Ratón Pérez, url: /historia-raton-perez/ }
+        - { texto: El viaje del diente, url: /viaje-del-diente/ }
+        - { texto: Blog, url: /blog/ }
+  aviso: >-
+    Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna entidad titular de
+    marcas relacionadas con «El Ratón Pérez». El personaje del Ratón Pérez se utiliza como referencia folclórica de
+    dominio público. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
