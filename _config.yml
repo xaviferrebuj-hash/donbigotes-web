@@ -3,3 +3,7 @@ exclude:
   - tools/
   - tool/
   - README.md
+# GitHub Pages (gem github-pages): sin esto, jekyll-optional-front-matter convierte cada
+# index.md en página y pisa a su index.html, envuelto en el tema primer. Los .md se sirven tal cual.
+optional_front_matter:
+  enabled: false
