@@ -139,7 +139,7 @@ img{display:block;max-width:100%}
 .tl-card p a{color:var(--gold-deep);font-weight:700}
 .tl-img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:12px;margin-top:14px;display:block}
 .tl-fin{text-align:center;margin-top:46px}
-.tag-pill{display:inline-block;font-weight:800;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;padding:5px 11px;border-radius:999px;margin-bottom:14px}
+.tag-pill{display:inline-block;font-weight:800;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;padding:5px 11px;border-radius:999px;margin-bottom:14px}
 .tag-free{background:#E5F2E4;color:#3E7C3A}
 .tag-pack{background:#FBEFD2;color:#9A6A12}
 .tag-new{background:#1E2A4A;color:#F0D489}
@@ -215,7 +215,7 @@ img{display:block;max-width:100%}
 .l-head{display:flex;align-items:center;gap:12px;padding-bottom:10px;border-bottom:1px solid rgba(185,136,47,.75);margin-bottom:12px}
 .l-avatar{width:52px;height:52px;border-radius:50%;object-fit:cover}
 .l-office-t{font-family:'Fraunces',Georgia,serif;font-weight:700;font-size:1.05rem;line-height:1.15;color:var(--ink)}
-.l-office-s{font-size:.6rem;letter-spacing:.09em;text-transform:uppercase;color:#8C7A6B;margin-top:3px}
+.l-office-s{font-size:.7rem;letter-spacing:.09em;text-transform:uppercase;color:#8C7A6B;margin-top:3px}
 .l-date{font-family:'Caveat',cursive;text-align:right;color:#8C7A6B;font-size:1.18rem;margin-bottom:8px}
 .gen-paper .l-greeting{font-size:2.1rem}
 .gen-paper .l-body{font-size:1.28rem;line-height:1.32}
@@ -227,7 +227,7 @@ img{display:block;max-width:100%}
 .hero-prem .l-head{padding-bottom:8px;margin-bottom:8px}
 .hero-prem .l-avatar{width:44px;height:44px}
 .hero-prem .l-office-t{font-size:.92rem}
-.hero-prem .l-office-s{font-size:.53rem}
+.hero-prem .l-office-s{font-size:.7rem}
 .hero-prem .l-date{font-size:1.02rem;margin-bottom:4px}
 .hero-prem .l-greeting{font-size:1.7rem;margin-bottom:6px}
 .hero-prem .l-body{font-size:1.22rem;line-height:1.3}
@@ -495,7 +495,8 @@ img{display:block;max-width:100%}
       <form class="capture" id="cap2">
         <p class="hint">¿Quieres que te avisemos cuando Don Bigotes estrene algo nuevo? Dos o tres correos al año, nada más.</p>
         <div class="form-row">
-          <input type="text" name="contacto" placeholder="Tu email o móvil" autocomplete="email" required>
+          <label class="sr-only" for="avisame-contacto">Tu email o móvil</label>
+          <input id="avisame-contacto" type="text" name="contacto" placeholder="Tu email o móvil" autocomplete="email" required>
           <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off">
           <button type="submit" class="btn-gold">Avísame</button>
         </div>
