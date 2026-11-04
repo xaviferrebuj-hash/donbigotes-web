@@ -333,7 +333,7 @@ html .btn-gold:active,html .btn-ghost:active,html .chip:active,html .pc-play:act
 @media (max-width:820px){.db-menu-ancho{display:none}.db-menu-movil{display:block}}
 .db-marca:focus-visible,.db-cab a:focus-visible,.db-menu-movil summary:focus-visible,.db-pie a:focus-visible{outline:2px solid #F2C14E;outline-offset:2px}
 
-.db-pie{background:#0B1437;color:#C7CEF0;font-family:'Nunito Sans',system-ui,sans-serif;font-size:.92rem;line-height:1.5;margin:0;padding:0;border:0;text-align:left}
+.db-pie{position:relative;z-index:2;background:#0B1437;color:#C7CEF0;font-family:'Nunito Sans',system-ui,sans-serif;font-size:.92rem;line-height:1.5;margin:0;padding:0;border:0;text-align:left}
 .db-pie-in{max-width:1200px;margin:0 auto;padding:44px 20px 36px}
 .db-pie-nota{margin:0 0 28px;font-size:.86rem;color:#9AA6D6;max-width:80ch}
 .db-pie-nota p{margin:0}

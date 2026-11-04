@@ -88,6 +88,8 @@ def edita_reglas(t, fn):
             if jj < len(css) and css[jj] == '\n' and (ii == 0 or css[ii - 1] == '\n'):
                 jj += 1
             cambios.append((ii, jj, ''))
+        elif isinstance(r, tuple):
+            cambios.append((i, j, r[0] + '{' + r[1] + '}'))
         else:
             cambios.append((i, j, sel + '{' + r + '}'))
     for i, j, nuevo in sorted(cambios, reverse=True):
@@ -194,8 +196,58 @@ def paso_estilo():
     print('estilo: hecho en', len(PAGINAS), 'páginas')
 
 
+# ---------------------------------------------------------------- 2. CSS muerto
+CLASES_MUERTAS = r'nav|logo|name|brand|seal-mini|nav-eyebrow|top|disclaimer|discl|foot-[\w-]+'
+
+
+def paso_css_muerto():
+    total = 0
+    for p in PAGINAS:
+        f = fichero(p)
+        t = f.read_text(encoding='utf-8')
+        a, b = bloque_style(t)
+        html = t[:a] + t[b:]
+        # Las clases viejas solo cuentan como vivas si aún salen en el HTML de la página
+        # (la nota de la comparativa usa .discl dentro del pie común).
+        vivas = {c for c in re.findall(r'class="([^"]*)"', html) for c in c.split()}
+        hay_header = '<header' in html  # privacidad conserva su banda <header>
+
+        def muerto(s):
+            for c in re.findall(r'\.(' + CLASES_MUERTAS + r')\b', s):
+                if c not in vivas:
+                    return True
+            if re.search(r'(^|[\s,>+~])footer\b', s) and not re.search(r'\.discl\b', s):
+                return True  # el <footer> del pie común lo estila .db-pie
+            if re.search(r'(^|[\s,>+~])header\b', s) and not hay_header:
+                return True
+            return False
+
+        def fn(sel, cuerpo, ctx):
+            partes = [s.strip() for s in sel.split(',')]
+            quedan = [s for s in partes if not muerto(s)]
+            if len(quedan) == len(partes):
+                return None
+            return '' if not quedan else (','.join(quedan), cuerpo)
+
+        # edita_reglas admite cambiar el selector devolviendo (selector, cuerpo)
+        antes = len(t)
+        t = edita_reglas(t, fn)
+        # @media que se hayan quedado vacíos
+        t = re.sub(r'\n?[ \t]*@media[^{]*\{\s*\}', '', t)
+        # <svg> oculto con el sello si ya nadie lo usa en la página
+        m = re.search(r'[ \t]*<svg width="0" height="0" style="position:absolute" aria-hidden="true">.*?</svg>\n?', t, re.S)
+        if m:
+            ids = re.findall(r'id="([\w-]+)"', m.group(0))
+            resto = t[:m.start()] + t[m.end():]
+            if not any(re.search(r'<use[^>]*href="#' + i + '"', resto) for i in ids):
+                t = resto
+        total += antes - len(t)
+        f.write_text(t, encoding='utf-8')
+    print('css-muerto: fuera', total, 'bytes')
+
+
 if __name__ == '__main__':
-    pasos = {'estilo': paso_estilo}
+    pasos = {'estilo': paso_estilo, 'css-muerto': paso_css_muerto}
     if len(sys.argv) != 2 or sys.argv[1] not in pasos:
         sys.exit(__doc__)
     pasos[sys.argv[1]]()
