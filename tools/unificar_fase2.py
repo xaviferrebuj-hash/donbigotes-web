@@ -298,7 +298,123 @@ def paso_cta():
     print('cta: include en', n, 'páginas')
 
 
+# ---------------------------------------------------------------- 4. imágenes
+WEBP = {'/diploma-valentia.jpg': '/diploma-valentia.webp', '/diploma-valentia-latam.jpg': '/diploma-valentia-latam.webp'}
+
+
+def medidas(src):
+    """(ancho, alto) intrínsecos de una imagen del repo, o None."""
+    f = RAIZ / src.split('?')[0].lstrip('/')
+    if not f.exists():
+        return None
+    if f.suffix == '.svg':
+        s = f.read_text(encoding='utf-8')[:2000]
+        w, h = re.search(r'<svg[^>]*\swidth="([\d.]+)', s), re.search(r'<svg[^>]*\sheight="([\d.]+)', s)
+        if w and h:
+            return round(float(w.group(1))), round(float(h.group(1)))
+        vb = re.search(r'viewBox="[\d.\s-]+?\s([\d.]+)\s([\d.]+)"', s)
+        return (round(float(vb.group(1))), round(float(vb.group(2)))) if vb else None
+    from PIL import Image
+    with Image.open(f) as im:
+        return im.size
+
+
+def con_attr(tag, extra):
+    return re.sub(r'\s*/?>$', lambda m: extra + m.group(0).lstrip(), tag) if extra else tag
+
+
+def paso_imagenes(site, cajas):
+    """site: build de Jekyll del estado actual; cajas: JSON de la medición (390 y 1280 px) de ese build.
+    Añade width/height intrínsecos a las <img> que no los tienen y loading="lazy" a las que no salen
+    en la primera pantalla ni en móvil (844 px) ni en escritorio (800 px)."""
+    import json
+    cajas = json.load(open(cajas))
+    por_include = {}  # tag -> [(extra, página)] de las que salen (también) de un include
+    textos_include = '\n'.join(i.read_text(encoding='utf-8') for i in (RAIZ / '_includes').glob('*.html'))
+    informe = {'wh': 0, 'lazy': 0, 'include': 0, 'picture': 0}
+    for p in PAGINAS:
+        f = fichero(p)
+        t = f.read_text(encoding='utf-8')
+        h = (Path(site) / (p.lstrip('/') + 'index.html')).read_text(encoding='utf-8')
+        h_sin = re.sub(r'<(script|noscript|template)\b.*?</\1>', '', h, flags=re.S)
+        tags = re.findall(r'<img\b[^>]*>', h_sin)
+        m390 = [x for x in cajas[p]['390'] if not x['banda']]
+        m1280 = cajas[p]['1280']
+        if not (len(tags) == len(m390) == len(m1280)):
+            sys.exit(f'{p}: {len(tags)} <img> en el HTML y {len(m1280)} en el navegador')
+        visto = {}
+        cambios = {}  # (tag, ocurrencia en el fuente) -> tag nuevo
+        for k, tag in enumerate(tags):
+            j = visto.get(tag, 0)
+            visto[tag] = j + 1
+            src = re.search(r'\ssrc="([^"]*)"', tag)
+            extra = ''
+            if src and not (re.search(r'\swidth=', tag) and re.search(r'\sheight=', tag)) and not src.group(1).startswith(('http', 'data:')):
+                wh = medidas(src.group(1))
+                if wh and not re.search(r'\swidth=', tag) and not re.search(r'\sheight=', tag):
+                    extra += f' width="{wh[0]}" height="{wh[1]}"'
+            a, b = m390[k], m1280[k]
+            fuera = a['top'] >= 844 and b['top'] >= 800 and (a['vis'] or b['vis'])
+            if src and 'loading=' not in tag and fuera:
+                extra += ' loading="lazy"'
+            n_fuente = t.count(tag)
+            if n_fuente == 0 or tag in textos_include:
+                # sale (también) de un include: se decide una vez para todas sus apariciones
+                por_include.setdefault(tag, []).append((extra, p))
+                continue
+            if n_fuente != tags.count(tag):
+                sys.exit(f'{p}: la etiqueta sale {n_fuente} veces en el fuente y {tags.count(tag)} en el build: {tag[:90]}')
+            if extra:
+                cambios[(tag, j)] = con_attr(tag, extra)
+        # aplicar de atrás adelante por posición en el fuente
+        pos = []
+        for (tag, j), nuevo in cambios.items():
+            i = -1
+            for _ in range(j + 1):
+                i = t.index(tag, i + 1)
+            pos.append((i, tag, nuevo))
+        for i, tag, nuevo in sorted(pos, reverse=True):
+            t = t[:i] + nuevo + t[i + len(tag):]
+            informe['wh'] += 'width=' in nuevo[len(tag) - 1:]
+            informe['lazy'] += 'loading="lazy"' in nuevo[len(tag) - 1:]
+        # WebP de los diplomas con <picture> (el JPEG queda de respaldo)
+        def envuelve(m):
+            informe['picture'] += 1
+            src = re.search(r'\ssrc="([^"]*)"', m.group(0)).group(1)
+            return f'<picture><source srcset="{WEBP[src]}" type="image/webp">{m.group(0)}</picture>'
+        t = re.sub(r'(?<!type="image/webp">)<img\b[^>]*\ssrc="(?:/diploma-valentia\.jpg|/diploma-valentia-latam\.jpg)"[^>]*>', envuelve, t)
+        f.write_text(t, encoding='utf-8')
+    # Imágenes que salen de los includes: se tocan en el include, una vez
+    for tag, usos in por_include.items():
+        extras = {e for e, _ in usos}
+        wh = re.search(r' width="\d+" height="\d+"', ' '.join(extras))
+        lazy = all('loading="lazy"' in e for e, _ in usos)
+        extra = (wh.group(0) if wh else '') + (' loading="lazy"' if lazy else '')
+        if not extra:
+            continue
+        hecho = False
+        nuevo = con_attr(tag, extra)
+        for p in {q for _, q in usos}:  # copias literales en las páginas
+            f = fichero(p)
+            s = f.read_text(encoding='utf-8')
+            if tag in s:
+                f.write_text(s.replace(tag, nuevo), encoding='utf-8')
+        for inc in (RAIZ / '_includes').glob('*.html'):
+            s = inc.read_text(encoding='utf-8')
+            # en el include la etiqueta lleva Liquid o es literal
+            if tag in s:
+                inc.write_text(s.replace(tag, con_attr(tag, extra)), encoding='utf-8')
+                hecho = True
+        informe['include'] += hecho
+        if not hecho:
+            print('AVISO: etiqueta de include sin localizar:', tag[:100], extra, '(', len(usos), 'usos )')
+    print('imagenes:', informe)
+
+
 if __name__ == '__main__':
+    if len(sys.argv) == 4 and sys.argv[1] == 'imagenes':
+        paso_imagenes(sys.argv[2], sys.argv[3])
+        sys.exit()
     pasos = {'estilo': paso_estilo, 'css-muerto': paso_css_muerto, 'cta': paso_cta}
     if len(sys.argv) != 2 or sys.argv[1] not in pasos:
         sys.exit(__doc__)

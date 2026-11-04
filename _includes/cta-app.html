@@ -21,7 +21,7 @@ Los enlaces los vuelve a fijar /js/enlaces-app.js (data-enlace). No escribir com
 {%- assign lead = include.lead | default: lead_def -%}
 {%- capture insignias -%}
       <div class="badges"{% if include.id %} id="{{ include.id }}"{% endif %}>
-        <a href="{{ play }}" target="_blank" rel="noopener"><img src="/assets/img/google-play-badge-es.png" alt="Disponible en Google Play" style="width:186px;height:72px"></a>
+        <a href="{{ play }}" target="_blank" rel="noopener"><img src="/assets/img/google-play-badge-es.png" alt="Disponible en Google Play" style="width:186px;height:72px" width="646" height="250"></a>
         <a href="{{ ios }}" data-enlace="appstore" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;justify-content:center;height:72px"><img src="/assets/img/app-store-badge-es.svg" alt="Cons&iacute;guelo en el App Store" width="165" height="55" style="width:165px;height:55px"></a>
       </div>
 {%- endcapture -%}
