@@ -391,6 +391,9 @@ body.papel .sky::before{content:"";position:absolute;inset:0;pointer-events:none
  radial-gradient(1px 1px at 46% 90%,#fff,transparent),radial-gradient(1.4px 1.4px at 92% 82%,#fff,transparent)}
 body.papel .moon{position:absolute;top:-66px;right:-30px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle at 38% 36%,#FFF6DD,#F2C14E 60%,rgba(242,193,78,0) 72%);filter:blur(2px);opacity:.85;pointer-events:none}
 body.papel .night > .wrap{position:relative;z-index:1}
+/* Dentro de la banda, el texto como estaba con el cuerpo noche: --texto (alias de cada página) y titulares en blanco. */
+body.papel .night{color:var(--texto,var(--mist))}
+body.papel .night h1,body.papel .night h2,body.papel .night h3{color:#fff}
 body.papel main{position:relative;z-index:1}
 
 /* Cuerpo sobre papel: los alias de texto y borde de las páginas noche pasan a tinta y borde de papel. */
