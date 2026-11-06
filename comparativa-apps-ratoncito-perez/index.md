@@ -76,7 +76,7 @@ La comparativa vale igual se le llame como se le llame en tu casa: Ratoncito Pé
 
 Don Bigotes está en español y disponible en 18 países, así que la experiencia funciona igual en Madrid, en Ciudad de México o en Bogotá. De las demás apps, la disponibilidad por país depende de cada ficha y conviene comprobarla en la tienda.
 
-Si solo buscas el imprimible, tienes las dos versiones gratis y sin instalar nada: el [Diploma del Ratoncito Pérez](https://donbigotes.app/diploma-raton-perez/) con el vocabulario de España y el [Certificado del Ratón Pérez](https://donbigotes.app/certificado-raton-perez/) para Latinoamérica.
+Si solo buscas el imprimible, tienes las dos versiones gratis y sin instalar nada: el [certificado del Ratoncito Pérez](https://donbigotes.app/certificado-raton-perez/) con el vocabulario de España y el [certificado del Ratón Pérez](https://donbigotes.app/es-419/certificado-raton-perez/) para Latinoamérica.
 
 ## Preguntas frecuentes
 
@@ -86,7 +86,7 @@ Depende de lo que busques. Si quieres la experiencia completa —carta con el no
 
 **¿Hay apps gratis del Ratoncito Pérez?**
 
-Sí. Llamada del Ratoncito Pérez se descarga gratis con anuncios y un Premium de pago único de 1,99 a 2,99 €; El Ratón Pérez (Vanrock) es un diario de dientes gratis con anuncios; MyToothFairy también es gratis con anuncios y compras de 0,99 a 1,99 €. Don Bigotes se descarga gratis e incluye la carta en PDF y el diario de dientes sin coste; su Pack Mágico cuesta 4,99 € de pago único. Aparte, puedes descargar el [diploma del Ratoncito Pérez en PDF](https://donbigotes.app/diploma-raton-perez/) sin instalar nada.
+Sí. Llamada del Ratoncito Pérez se descarga gratis con anuncios y un Premium de pago único de 1,99 a 2,99 €; El Ratón Pérez (Vanrock) es un diario de dientes gratis con anuncios; MyToothFairy también es gratis con anuncios y compras de 0,99 a 1,99 €. Don Bigotes se descarga gratis e incluye la carta en PDF y el diario de dientes sin coste; su Pack Mágico cuesta 4,99 € de pago único. Aparte, puedes descargar el [certificado del Ratoncito Pérez en PDF](https://donbigotes.app/certificado-raton-perez/) sin instalar nada.
 
 **¿Qué app hace el fotomontaje del Ratoncito Pérez?**
 

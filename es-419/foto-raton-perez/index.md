@@ -2,9 +2,11 @@
 
 # La foto del Ratón Pérez junto a tu hijo
 
-Para hacer una foto del Ratón Pérez en tu casa, junto a tu hijo dormido, se usa la app Don Bigotes (Google Play y App Store): eliges una foto de la habitación, colocas al Ratón Pérez «pillado» en plena visita y la guardas, en un momento. El montaje se hace dentro de tu celular; la foto de tu hijo no se sube a ningún servidor.
+El Ratón Pérez «pillado» en plena visita, junto a tu hijo dormido. El montaje se hace en tu celular.
 
 Pago único · Tus fotos no salen de tu celular · Hecha en España
+
+Para hacer una foto del Ratón Pérez en tu casa, junto a tu hijo dormido, se usa la app Don Bigotes (Google Play y App Store): eliges una foto de la habitación, colocas al Ratón Pérez «pillado» en plena visita y la guardas, en un momento. El montaje se hace dentro de tu celular; la foto de tu hijo no se sube a ningún servidor.
 
 ## El «¡Pillado!»: la prueba de que el Ratón Pérez estuvo ahí
 

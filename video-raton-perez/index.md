@@ -1,8 +1,10 @@
 # El vídeo del Ratoncito Pérez desde su Oficina Mágica
 
-Para conseguir un vídeo del Ratoncito Pérez con el nombre de tu hijo no hay que encargarlo ni esperar: la app Don Bigotes (Google Play y App Store) lo crea en tu móvil en un minuto. El Ratoncito, desde su Oficina, prepara la visita de esta noche y dice su nombre si está entre los más de 200 grabados; si no, dice «Ya sé quién eres». El nombre no sale del móvil. No recopilamos datos personales: solo estadísticas de uso anónimas, sin cuenta ni identificadores.
+Un vídeo desde su Oficina que prepara la visita de esta noche, creado en tu móvil en un minuto.
 
 4,99 € pago único · Sin esperas · Hecho en España
+
+Para conseguir un vídeo del Ratoncito Pérez con el nombre de tu hijo no hay que encargarlo ni esperar: la app Don Bigotes (Google Play y App Store) lo crea en tu móvil en un minuto. El Ratoncito, desde su Oficina, prepara la visita de esta noche y dice su nombre si está entre los más de 200 grabados; si no, dice «Ya sé quién eres». El nombre no sale del móvil. No recopilamos datos personales: solo estadísticas de uso anónimas, sin cuenta ni identificadores.
 
 ## La Oficina del Ratoncito, en vídeo y al instante
 

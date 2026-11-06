@@ -2,9 +2,11 @@
 
 # El mensaje de voz del Ratón Pérez para tu hijo o hija
 
-Para tener una nota de voz del Ratón Pérez (el Ratón de los Dientes) que diga el nombre de tu hijo o hija se usa la app Don Bigotes, en Google Play y App Store. La crea en segundos con voz grabada de más de 200 nombres, se escucha sin conexión y el nombre nunca sale del celular. Si el suyo no está, el Ratón lo llama «cariño», y lo escuchas antes de pagar. No recopilamos datos personales: solo estadísticas de uso anónimas, sin cuenta ni identificadores.
+Una nota de voz que dice su nombre, creada en segundos en tu celular. La escuchas antes de pagar.
 
 Un solo pago · Al instante · Sin suscripciones
+
+Para tener una nota de voz del Ratón Pérez (el Ratón de los Dientes) que diga el nombre de tu hijo o hija se usa la app Don Bigotes, en Google Play y App Store. La crea en segundos con voz grabada de más de 200 nombres, se escucha sin conexión y el nombre nunca sale del celular. Si el suyo no está, el Ratón lo llama «cariño», y lo escuchas antes de pagar. No recopilamos datos personales: solo estadísticas de uso anónimas, sin cuenta ni identificadores.
 
 ## La voz del Ratón Pérez, hablándole solo a tu hijo o hija
 

@@ -2,13 +2,15 @@
 
 # La app del Ratón Pérez para crear su visita en minutos
 
-Don Bigotes es la app del Ratón Pérez con carta personalizada, diario de dientes que se comparte con los abuelos por WhatsApp sin subir nada, y un cuento en diez capítulos contado por el propio Ratón Pérez. La carta, el diario y los dos primeros capítulos son gratis y para siempre. Con el Pack Mágico, pago único: nota de voz que lo nombra, fotomontaje «¡Pillado!», video de la Oficina y Diploma de Valentía. Ratón Pérez o Ratón de los Dientes, como lo llamen en casa: para Android y iPhone, gratis en Google Play y en la App Store. Todo funciona en tu celular. No recopilamos datos personales. Solo estadísticas de uso anónimas, sin cuenta ni identificadores.
+Carta, diario de dientes y cuento, gratis. Voz, foto, video y diploma con su nombre, en el Pack Mágico.
 
 Se paga una sola vez · Tus fotos no salen de tu celular · Hecha en España
 
+Don Bigotes es la app del Ratón Pérez con carta personalizada, diario de dientes que se comparte con los abuelos por WhatsApp sin subir nada, y un cuento en diez capítulos contado por el propio Ratón Pérez. La carta, el diario y los dos primeros capítulos son gratis y para siempre. Con el Pack Mágico, pago único: nota de voz que lo nombra, fotomontaje «¡Pillado!», video de la Oficina y Diploma de Valentía. Ratón Pérez o Ratón de los Dientes, como lo llames en casa: para Android y iPhone, gratis en Google Play y en la App Store. Todo funciona en tu celular. No recopilamos datos personales. Solo estadísticas de uso anónimas, sin cuenta ni identificadores.
+
 ## Toda la magia del Ratón Pérez, en una sola app
 
-Don Bigotes reúne en una app lo que antes había que encargar pieza por pieza y esperar horas. Eliges qué quieres crear, lo personalizas con el nombre y la foto de tu hijo o hija, y lo tienes listo en minutos, sin llenar formularios ni esperar a que alguien te lo monte. Tú diriges la magia; nosotros ponemos las herramientas. Así se encadena todo en [el viaje del diente](https://donbigotes.app/viaje-del-diente/), desde la nota de voz hasta el video final. Si están decidiendo, aquí tienen la [comparativa de apps del Ratón Pérez](https://donbigotes.app/es-419/comparativa-apps-ratoncito-perez/) con lo que incluye cada una.
+Don Bigotes reúne en una app lo que antes había que encargar pieza por pieza y esperar horas. Eliges qué quieres crear, lo personalizas con el nombre y la foto de tu hijo o hija, y lo tienes listo en minutos, sin llenar formularios ni esperar a que alguien te lo monte. Tú diriges la magia; nosotros ponemos las herramientas. Así se encadena todo en [el viaje del diente](https://donbigotes.app/viaje-del-diente/), desde la nota de voz hasta el video final. Si estás decidiendo, aquí tienes la [comparativa de apps del Ratón Pérez](https://donbigotes.app/es-419/comparativa-apps-ratoncito-perez/) con lo que incluye cada una.
 
 ## Qué puedes crear
 

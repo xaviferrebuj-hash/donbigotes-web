@@ -2,7 +2,7 @@
 
 # La carta del Ratoncito Pérez, gratis
 
-Escribe el nombre de tu peque y ten en dos minutos su carta personalizada, con el sello de la Oficina. Lista para imprimir o guardar en PDF.
+Escribe el nombre de tu peque y ten en un minuto su carta personalizada, con el sello de la Oficina. Lista para imprimir o guardar en PDF.
 
 Sin registro · Lista en 1 minuto · Gratis
 
@@ -58,7 +58,7 @@ Diez capítulos de cinco minutos, contados por Don Bigotes con su voz y sus ilus
 
 Dos minutos con Don Bigotes en cuatro zonas de 30 segundos, y un sello en su diario por la mañana y por la noche. [Escuchar la canción](https://donbigotes.app/cancion-cepillado-dientes/).
 
-## Tres pasos. Dos minutos.
+## Tres pasos. Un minuto.
 
 ### Escribe su nombre
 
@@ -80,13 +80,15 @@ Imprímela o guárdala en PDF y déjala lista para la noche del diente.
 
 Carta personalizada · [Diario de dientes gratis](https://donbigotes.app/diario-dientes-de-leche/) · felicitación de cumpleaños.
 
+Los dos primeros capítulos de «La historia de Don Bigotes».
+
 ### Un solo pago de 4,99 € (sin suscripción)
 
 Nota de voz con su nombre · fotomontaje «¡Pillado!» · vídeo desde la Oficina · Diploma de Valentía.
 
-## Ya disponible en Google Play y App Store
+### La historia de Don Bigotes
 
-El Pack Mágico completo, 4,99 € en un único pago, en Android y en iPhone.
+Los otros ocho capítulos del cuento: compra única de 3,99 €, sin suscripción, para todos los peques del móvil. [Escucha el capítulo 1 gratis](https://donbigotes.app/cuento-ratoncito-perez/).
 
 ## Preguntas frecuentes
 

@@ -290,19 +290,26 @@
     function hueco(visible) {
       cuerpo.style.paddingBottom = visible ? (base + banda.offsetHeight) + "px" : "";
     }
-    hueco(true);
-
+    // No sale en el primer pantallazo (6-nov-2026, revisión de Fable): tapaba el botón principal del hero.
+    // Aparece cuando se ha bajado media pantalla y se va si se vuelve arriba del todo.
     // Con el generador abierto, fuera.
     var gen = document.getElementById("gen");
-    if (gen && window.MutationObserver) {
-      var sincroniza = function () {
-        var abierto = gen.classList.contains("open");
-        banda.hidden = abierto;
-        hueco(!abierto);
-      };
-      new MutationObserver(sincroniza).observe(gen, { attributes: true, attributeFilter: ["class"] });
-      sincroniza();
+    var bajado = false;
+    function sincroniza() {
+      var abierto = !!(gen && gen.classList.contains("open"));
+      banda.hidden = abierto || !bajado;
+      hueco(!abierto);
     }
+    function alBajar() {
+      var ahora = (window.scrollY || window.pageYOffset || 0) > window.innerHeight * 0.5;
+      if (ahora !== bajado) { bajado = ahora; sincroniza(); }
+    }
+    window.addEventListener("scroll", alBajar, { passive: true });
+    if (gen && window.MutationObserver) {
+      new MutationObserver(sincroniza).observe(gen, { attributes: true, attributeFilter: ["class"] });
+    }
+    alBajar();
+    sincroniza();
 
     banda.querySelector(".banda-and-x").addEventListener("click", function () {
       try { window.localStorage.setItem(BANDA_CLAVE, String(Date.now())); } catch (e) { /* sin persistencia */ }

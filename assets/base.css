@@ -315,6 +315,17 @@ a:focus-visible,button:focus-visible,summary:focus-visible,[role="button"]:focus
 .geo-capsula a{color:var(--enlace);font-weight:700;text-decoration:underline;text-underline-offset:3px}
 @media (max-width:600px){.geo-capsula{padding:20px;font-size:1rem}}
 
+/* Kickers sobre papel con contraste AA (6-nov-2026): en las páginas de la familia home, el «La app» del bloque
+   de la app salía en --gold-soft (1,2:1) y los de sección en --gold-deep (2,2:1). --enlace da 5,2:1 sobre papel. */
+html .cta-app .eyebrow,html .cta-app .eyebrow::before,
+html .paper-band .s-head .eyebrow,html .paper-band .s-head .eyebrow::before,
+html .cream-band .s-head .eyebrow,html .cream-band .s-head .eyebrow::before{color:var(--enlace)}
+
+/* «Última actualización» legible (6-nov-2026). En papel (familia papel), tinta suave (6:1) en vez de gris
+   noche (2,7:1). Sobre la banda azul del pie, --mist en una píldora noche: en el móvil la luna cae justo detrás. */
+body.papel .fecha-actualizacion{color:var(--ink-soft)}
+html .night .fecha-actualizacion{position:relative;z-index:3;display:table;margin-left:auto;margin-right:auto;padding:3px 12px;border-radius:999px;background:rgba(11,20,55,.82);color:var(--mist)}
+
 /* Enlace entre la versión de España y la de Latinoamérica (arriba de cada página con par es / es-419) */
 .enlace-region{
   position:relative;

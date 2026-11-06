@@ -2,13 +2,13 @@
 
 # La carta del primer diente, gratis
 
-Cuando a su hijo se le cae el primer diente, el Ratón Pérez (el Ratón de los Dientes) quiere celebrarlo. Creen gratis una carta con su nombre y el sello de la Oficina, lista para imprimir o guardar en PDF.
+Cuando a tu hijo se le cae el primer diente, el Ratón Pérez (el Ratón de los Dientes) quiere celebrarlo. Crea gratis una carta con su nombre y el sello de la Oficina, lista para imprimir o guardar en PDF.
 
 Sin registro · Lista en 1 minuto · Gratis
 
-### Ustedes ponen el diente. Él pone la magia.
+### Tú pones el diente. Él pone la magia.
 
-Mientras su hijo duerme, el Ratón Pérez escribe su carta con su nombre. Por la mañana, la sorpresa ya está bajo la almohada.
+Mientras tu hijo duerme, el Ratón Pérez escribe su carta con su nombre. Por la mañana, la sorpresa ya está bajo la almohada.
 
 La carta del Ratón Pérez con su nombre, en un minuto y gratis
 
@@ -20,7 +20,7 @@ Escribe el nombre de tu hijo o hija y descarga la carta lista para imprimir. Sin
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo se paga una sola vez, al precio local de la tienda.
 
-## Una carta gratis. Y, si quieren, mucha más magia.
+## Una carta gratis. Y, si quieres, mucha más magia.
 
 La carta personalizada es siempre gratuita. El Pack Mágico suma una nota de voz, un fotomontaje y un Diploma de Valentía para una noche inolvidable.
 
@@ -30,7 +30,7 @@ Con su nombre y el sello de la Oficina. Lista para imprimir o guardar en PDF.
 
 ### El fotomontaje «¡Pillado!»
 
-El Ratón Pérez «aparece» en una foto de su casa. La prueba de que estuvo ahí.
+El Ratón Pérez «aparece» en una foto de tu casa. La prueba de que estuvo ahí.
 
 ### La nota de voz
 
@@ -40,11 +40,11 @@ Un mensaje del propio Ratón Pérez, con su nombre, para escuchar en la cama.
 
 Un diploma con su nombre y su foto que premia lo valiente que fue. Para imprimir y enmarcar.
 
-## Tres pasos. Dos minutos.
+## Tres pasos. Un minuto.
 
-### Escriban su nombre
+### Escribe su nombre
 
-El nombre de su hijo y un par de detalles del diente que se le cayó.
+El nombre de tu hijo y un par de detalles del diente que se le cayó.
 
 ### La magia sucede
 
@@ -54,17 +54,13 @@ Don Bigotes crea la carta del Ratón Pérez al instante.
 
 Imprímanla o guárdenla en PDF y déjenla lista para la noche del diente.
 
-Y para apuntar este diente y los diecinueve que faltan, impriman la [hoja del diario de dientes](https://donbigotes.app/es-419/diario-dientes-de-leche/#hoja-diario): un A4 gratis, sin dejar su correo.
-
-## Ya disponible en Google Play y App Store
-
-El Pack Mágico completo, en un único pago, en Android y en iPhone.
+Y para apuntar este diente y los diecinueve que faltan, imprime la [hoja del diario de dientes](https://donbigotes.app/es-419/diario-dientes-de-leche/#hoja-diario): un A4 gratis, sin dejar tu correo.
 
 ## Preguntas frecuentes
 
 **¿Qué es la carta del primer diente?**
 
-Es la carta que el Ratón Pérez deja con el primer diente de leche de su hijo. Don Bigotes la personaliza con su nombre para celebrar ese momento.
+Es la carta que el Ratón Pérez deja con el primer diente de leche de tu hijo. Don Bigotes la personaliza con su nombre para celebrar ese momento.
 
 **¿A qué edad se cae el primer diente de leche?**
 
@@ -76,11 +72,11 @@ Sí. La carta con su nombre y el sello de la Oficina es gratuita. La nota de voz
 
 **¿Cómo hago la carta del primer diente?**
 
-Escriben el nombre de su hijo, indican que es el primer diente y la app la genera al instante, lista para imprimir o guardar en PDF.
+Escribes el nombre de tu hijo, indicas que es el primer diente y la app la genera al instante, lista para imprimir o guardar en PDF.
 
 **¿En España se llama distinto?**
 
-Sí: allí el personaje se conoce como Ratoncito Pérez. La carta es la misma, con el nombre que usen en su casa.
+Sí: allí el personaje se conoce como Ratoncito Pérez. La carta es la misma, con el nombre que uses en casa.
 
 ## Que la próxima caída de diente sea inolvidable
 

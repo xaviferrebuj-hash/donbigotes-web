@@ -60,7 +60,7 @@ Un mensaje del propio Ratón Pérez, con su nombre, para escuchar en la cama.
 
 Un diploma con su nombre y su foto que premia lo valiente que fue. Para imprimir y enmarcar.
 
-## Tres pasos. Dos minutos.
+## Tres pasos. Un minuto.
 
 ### Escribe su nombre
 
@@ -73,10 +73,6 @@ Don Bigotes crea la carta del Ratón Pérez personalizada al instante.
 ### Bajo la almohada
 
 Imprímela o guárdala en PDF y déjala lista para la noche del diente.
-
-## Ya disponible en Google Play y App Store
-
-El Pack Mágico completo se paga una sola vez, al precio local de la tienda, en Android y en iPhone.
 
 ## Preguntas frecuentes
 
@@ -102,7 +98,7 @@ Sí, son el mismo personaje. Ratoncito Pérez es la forma cariñosa y diminutiva
 
 **¿Se puede visitar la casa del Ratón Pérez?**
 
-Sí. La [Casita-Museo de Ratón Pérez](https://www.casamuseoratonperez.es/) está en la calle Arenal 8 de Madrid, España, en el edificio donde la tradición sitúa su casa: dentro de una caja de galletas, en la antigua confitería Prast. Es la casa oficial del personaje y, si viajan a Madrid, pueden visitarla con los niños.
+Sí. La [Casita-Museo de Ratón Pérez](https://www.casamuseoratonperez.es/) está en la calle Arenal 8 de Madrid, España, en el edificio donde la tradición sitúa su casa: dentro de una caja de galletas, en la antigua confitería Prast. Es la casa oficial del personaje y, si viajas a Madrid, puedes visitarla con los niños.
 
 ## Que la próxima caída de diente sea inolvidable
 

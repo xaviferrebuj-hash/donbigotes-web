@@ -2,11 +2,13 @@
 
 El día del cumple de tu hijo o hija, el Ratoncito lo felicita por su nombre con un vídeo desde su Oficina engalanada. Tú eliges la fecha; la magia la pone él.
 
+Gratis en la app · Android, iPhone y iPad
+
 ## ¿Puede el Ratoncito Pérez felicitar el cumpleaños de tu hijo?
 
 Sí. Con la app Don Bigotes, el Ratoncito Pérez felicita el cumpleaños al niño con su nombre: un vídeo de celebración desde su Oficina en el que el propio Ratoncito lo felicita por su nombre el día señalado, y un pergamino conmemorativo para imprimir y guardar de recuerdo. Los padres configuran el día y el mes en el perfil del niño, y cuando llega la fecha la app se viste de fiesta y aparece la felicitación. Todo se genera en el móvil, sin registro. No recopilamos datos personales. Solo estadísticas de uso anónimas, sin cuenta ni identificadores. La felicitación de cumpleaños es gratis, siempre.
 
-La felicitación de cumpleaños ya está disponible en Don Bigotes desde agosto de 2026, con la versión 0.7.0 de la app para Android; en iPhone y iPad está disponible desde la versión 1.0.0, publicada en la App Store el 29 de agosto de 2026.
+La felicitación de cumpleaños está en la app Don Bigotes, en Android y en iPhone y iPad, y es gratis siempre.
 
 ## Cómo funciona
 
@@ -28,7 +30,7 @@ Cada cumpleaños queda proclamado por escrito: un pergamino con el nombre de tu 
 
 ## ¿Y cuándo es el cumpleaños del Ratoncito Pérez?
 
-El Día del Ratoncito Pérez se celebra cada 22 de agosto, y muchas familias lo toman como su “cumpleaños” oficial. El personaje nació en 1894, cuando la reina María Cristina encargó su cuento a Luis Coloma para el pequeño Alfonso XIII. Puedes leer la historia completa en [la historia del Ratoncito Pérez](https://donbigotes.app/historia-raton-perez/).
+No tiene un día fijo. Si hay que ponerle una fecha, el personaje nació en 1894, cuando la reina María Cristina encargó su cuento a Luis Coloma para el pequeño Alfonso XIII. Puedes leer la historia completa en [la historia del Ratoncito Pérez](https://donbigotes.app/historia-raton-perez/).
 
 ## Preguntas frecuentes
 

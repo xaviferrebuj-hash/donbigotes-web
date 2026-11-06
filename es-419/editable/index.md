@@ -2,13 +2,13 @@
 
 # La carta editable, gratis
 
-Cambia el nombre, la edad y el diente. Crea una carta del Ratón Pérez personalizada en dos minutos, lista para imprimir o guardar en PDF.
+Cambia el nombre, la edad y el diente. Crea una carta del Ratón Pérez personalizada en un minuto, lista para imprimir o guardar en PDF.
 
 Sin registro · Lista en 1 minuto · Gratis
 
 La carta cambia según la edad de tu hijo o hija: con 3-4 años es corta y llena de dibujos; a partir de 7, trae un mensaje en clave.
 
-La carta editable del Ratón Pérez de donbigotes.app es gratis: escribes el nombre de tu hijo o hija, eliges su edad y el diente, y en dos minutos tienes la carta lista para imprimir o guardar en PDF, sin registro ni descargas. También vale si en tu casa le dicen Ratón de los Dientes o Ratoncito Pérez.
+La carta editable del Ratón Pérez de donbigotes.app es gratis: escribes el nombre de tu hijo o hija, eliges su edad y el diente, y en un minuto tienes la carta lista para imprimir o guardar en PDF, sin registro ni descargas. También vale si en tu casa le dicen Ratón de los Dientes o Ratoncito Pérez.
 
 ### Tú pones el diente. Él pone la magia.
 
@@ -44,7 +44,7 @@ Un mensaje del propio Ratón Pérez, con su nombre, para escuchar en la cama.
 
 Un diploma con su nombre y su foto que premia lo valiente que fue. Para imprimir y enmarcar.
 
-## Tres pasos. Dos minutos.
+## Tres pasos. Un minuto.
 
 ### Escribe su nombre
 
@@ -59,10 +59,6 @@ Don Bigotes crea la carta del Ratón Pérez personalizada al instante.
 Imprímela o guárdala en PDF y déjala lista para la noche del diente.
 
 ¿Qué carta va con su edad? [Así cambia la carta del Ratón Pérez según la edad](https://donbigotes.app/es-419/carta-raton-perez-segun-edad/).
-
-## Ya disponible en Google Play y App Store
-
-El Pack Mágico completo se paga una sola vez, al precio local de la tienda, en Android y en iPhone.
 
 ## Preguntas frecuentes
 

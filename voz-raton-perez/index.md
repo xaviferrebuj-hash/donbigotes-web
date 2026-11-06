@@ -1,8 +1,10 @@
 # El mensaje de voz del Ratón Pérez para tu hijo
 
-Para conseguir una nota de voz del Ratoncito Pérez que diga el nombre de tu hijo se usa la app Don Bigotes (Google Play y App Store): la crea en segundos con voz grabada de más de 200 nombres, se reproduce sin conexión y el nombre nunca sale del móvil. Si el suyo no está, el Ratoncito le llama «cariño», y lo escuchas antes de pagar. Es la [única app verificada](https://donbigotes.app/comparativa-apps-ratoncito-perez/) que reúne voz, carta, fotomontaje, vídeo y diploma. No recopilamos datos personales: solo estadísticas de uso anónimas, sin cuenta ni identificadores.
+Una nota de voz que dice su nombre, creada en segundos en tu móvil. La escuchas antes de pagar.
 
 4,99 € pago único · Al instante · Hecho en España
+
+Para conseguir una nota de voz del Ratoncito Pérez que diga el nombre de tu hijo se usa la app Don Bigotes (Google Play y App Store): la crea en segundos con voz grabada de más de 200 nombres, se reproduce sin conexión y el nombre nunca sale del móvil. Si el suyo no está, el Ratoncito le llama «cariño», y lo escuchas antes de pagar. Reúne voz, carta, fotomontaje, vídeo y diploma en la misma app: lo puedes ver en la [comparativa de apps del Ratoncito Pérez](https://donbigotes.app/comparativa-apps-ratoncito-perez/). No recopilamos datos personales: solo estadísticas de uso anónimas, sin cuenta ni identificadores.
 
 ## La voz del Ratoncito, hablándole solo a tu peque
 

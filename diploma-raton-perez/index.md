@@ -2,11 +2,11 @@
 
 # El Diploma de Valentía del Ratoncito Pérez, con su nombre
 
-Descarga gratis el diploma del Ratoncito Pérez en PDF, listo para imprimir en A4. Descarga directa, sin registro y sin dejar el correo. Vale para el primer diente y para todos los siguientes: el nombre del niño y la fecha se escriben a mano. Incluye el sello de la Oficina del Ratoncito y versión para Latinoamérica («Ratón de los Dientes»).
+El Diploma de Valentía es una de las cuatro sorpresas del Pack Mágico de la app Don Bigotes: lleva el nombre de tu peque, la fecha y su título de Guardián o Guardiana de Sonrisas, con la firma y el sello de la Oficina del Ratoncito Pérez. Si quieres, también su foto, que se procesa en tu móvil y nunca sale de él. Lo guardas, lo imprimes o lo enmarcas de recuerdo.
 
-- [Descargar diploma gratis (PDF, A4)](https://donbigotes.app/descargas/diploma-ratoncito-perez.pdf)
+Pack Mágico · 4,99 € en un único pago, sin suscripción
 
-- [Versión Latinoamérica: Ratón de los Dientes (PDF)](https://donbigotes.app/descargas/diploma-raton-de-los-dientes.pdf)
+¿Lo quieres gratis, para imprimir y rellenar a mano? Es el [certificado del Ratoncito Pérez, en PDF](https://donbigotes.app/certificado-raton-perez/).
 
 La carta con su nombre, en un minuto y gratis
 
@@ -14,15 +14,11 @@ Escribe el nombre de tu peque y descarga la carta del Ratoncito lista para impri
 
 ¿Sin impresora? En la app, el Ratoncito [dice su nombre con su propia voz](https://donbigotes.app/voz-raton-perez/).
 
-Un diploma oficial de la Oficina del Ratoncito, personalizado con el nombre de tu peque y el diente que se le ha caído. Firmado y sellado, listo para enmarcar o guardar de recuerdo.
-
-Incluido en el Pack Mágico · 4,99 € pago único
-
 ## Qué incluye
 
-### Su nombre y su diente
+### Su nombre y su foto
 
-El diploma se personaliza con el nombre de tu peque y el diente exacto que ha perdido.
+Con el nombre de tu peque, la fecha y su título de Guardián o Guardiana de Sonrisas. Y, si quieres, su foto en el óvalo.
 
 ### Sello y firma de la Oficina
 
@@ -38,21 +34,21 @@ El diploma es una de las cuatro sorpresas del Pack Mágico de la app Don Bigotes
 
 ## Preguntas frecuentes
 
-**¿El diploma del Ratoncito Pérez es gratis de verdad?**
+**¿El Diploma de Valentía es gratis?**
 
-Sí. Se descarga en PDF con un clic, sin registro, sin correo y sin marca de agua. Está pensado para imprimir en A4 y rellenar a mano el nombre del niño y la fecha.
-
-**¿Puedo poner el nombre del niño impreso en el diploma?**
-
-En el PDF gratuito el nombre se escribe a mano. Si quieres el diploma con el nombre del niño ya impreso, junto a la carta, la nota de voz y el resto de la experiencia, se genera en la [app Don Bigotes](https://donbigotes.app/app-raton-perez/).
+No: es una de las cuatro sorpresas del Pack Mágico de la app Don Bigotes, 4,99 € en un único pago. Lo gratis es el [certificado del Ratoncito Pérez](https://donbigotes.app/certificado-raton-perez/): un PDF para rellenar a mano o con su nombre ya impreso.
 
 **¿El diploma lleva el nombre de mi hijo o hija?**
 
-Sí. Se genera personalizado con su nombre y el diente que ha perdido, firmado por la Oficina del Ratoncito Pérez.
+Sí. Se genera en la app con su nombre, la fecha y su título de Guardián o Guardiana de Sonrisas, firmado y sellado por la Oficina del Ratoncito Pérez.
+
+**¿Puedo poner su foto en el diploma?**
+
+Sí, si quieres: la foto va en el óvalo y se procesa en tu propio móvil, sin enviarse a ningún servidor. Sin foto, en el óvalo sale el Ratoncito Pérez.
 
 **¿Es lo mismo un diploma que un certificado del Ratoncito Pérez?**
 
-Son la misma idea: un documento de recuerdo por haber perdido un diente. En Don Bigotes lo llamamos Diploma de Valentía y forma parte del Pack Mágico de la app. Si buscas una versión para imprimir directamente, mira el [certificado del Ratoncito Pérez](https://donbigotes.app/certificado-raton-perez/).
+En Don Bigotes, no. El certificado es el gratis de la web: un PDF para rellenar a mano o con su nombre ya impreso. El Diploma de Valentía es el del Pack Mágico de la app, con su nombre y, si quieres, su foto. Si buscas el gratis, mira el [certificado del Ratoncito Pérez](https://donbigotes.app/certificado-raton-perez/).
 
 **¿Cómo es la firma y el sello del Ratón Pérez?**
 
@@ -60,7 +56,7 @@ El diploma lleva el sello de la Oficina y la firma de Don Bigotes. Puedes descar
 
 **¿Cuánto cuesta el diploma?**
 
-Está incluido en el Pack Mágico de la app Don Bigotes: 4,99 € en un único pago. El diploma en PDF para imprimir es gratis siempre.
+Está incluido en el Pack Mágico de la app Don Bigotes: 4,99 € en un único pago, sin suscripción. El certificado en PDF para imprimir es gratis siempre.
 
 **¿Puedo imprimirlo o enmarcarlo?**
 

@@ -40,7 +40,7 @@ Un mensaje del propio Ratoncito Pérez, con su nombre, para escuchar en la cama.
 
 Un diploma con su nombre y su foto que premia lo valiente que ha sido. Para imprimir y enmarcar.
 
-## Tres pasos. Dos minutos.
+## Tres pasos. Un minuto.
 
 ### Escribe su nombre
 
@@ -53,10 +53,6 @@ Don Bigotes crea la carta del Ratoncito Pérez personalizada al instante.
 ### Bajo la almohada
 
 Imprímela o guárdala en PDF y déjala lista para la noche del diente.
-
-## Ya disponible en Google Play y App Store
-
-El Pack Mágico completo, 4,99 € en un único pago, en Android y en iPhone.
 
 ## Preguntas frecuentes
 

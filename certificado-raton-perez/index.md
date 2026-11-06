@@ -28,7 +28,7 @@ Escribe el nombre de tu peque y descarga la carta del Ratoncito lista para impri
 
 Cuando un niño pierde un diente y lo entrega al Ratoncito Pérez, se merece algo más que una moneda: un certificado oficial de la Oficina del Ratoncito, con su nombre, la fecha y su título de Guardián o Guardiana de Sonrisas. Aquí lo tienes gratis, con su nombre ya impreso o en blanco para rellenarlo a mano. Con la app Don Bigotes, además, el Ratoncito dice su nombre con su propia voz.
 
-Certificado gratis · Al instante · Hecho en España
+Gratis en la app: la carta con su nombre, el diario de dientes y los dos primeros capítulos del cuento.
 
 ## Un certificado oficial de la Oficina del Ratoncito
 
@@ -44,7 +44,7 @@ El título que otorga el Ratoncito Pérez a quien entrega un diente con valentí
 
 El sello oficial de la Oficina del Ratoncito, para que no quede ninguna duda. Puedes [descargar el sello y la firma por separado](https://donbigotes.app/firma-sello-raton-perez/).
 
-Y, si quieres, la foto del niño sonriendo. La foto se procesa en tu móvil, nunca sale de él.
+¿Con su foto? Eso es el [Diploma de Valentía](https://donbigotes.app/diploma-raton-perez/) del Pack Mágico, en la app: la foto se procesa en tu móvil y nunca sale de él.
 
 ## Por la tarde, al volver del colegio
 
@@ -54,7 +54,7 @@ El momento ideal es por la tarde, al volver del colegio: el diente ya voló por 
 
 El certificado está pensado para las dos cosas: imprimirlo en A4 y colgarlo en su cuarto, o enseñárselo directamente en el móvil nada más llegar a casa.
 
-¿Buscas el [Diploma de Valentía](https://donbigotes.app/diploma-raton-perez/) con su nombre y su diente ya impresos? Es otra página: este es el certificado gratis, con su nombre o en blanco.
+¿Buscas el [Diploma de Valentía](https://donbigotes.app/diploma-raton-perez/) con su nombre y su foto? Es el del Pack Mágico de la app, en otra página: este es el certificado gratis, con su nombre o en blanco.
 
 ## Preguntas frecuentes
 
@@ -68,7 +68,7 @@ Sí, aquí mismo y gratis: escribe su nombre en el recuadro de arriba y se impri
 
 **¿Cómo consigo un certificado del Ratoncito Pérez personalizado?**
 
-Con su nombre y la fecha, aquí mismo y gratis. Si además quieres el [Diploma de Valentía](https://donbigotes.app/diploma-raton-perez/) con el diente que se le ha caído y su foto, y que el Ratoncito diga su nombre con su propia voz, eso está en la [app Don Bigotes](https://donbigotes.app/app-raton-perez/), dentro del Pack Mágico.
+Con su nombre y la fecha, aquí mismo y gratis. Si además quieres el [Diploma de Valentía](https://donbigotes.app/diploma-raton-perez/) con su nombre y su foto, y que el Ratoncito diga su nombre con su propia voz, eso está en la [app Don Bigotes](https://donbigotes.app/app-raton-perez/), dentro del Pack Mágico.
 
 **¿Puedo añadir la foto de mi hijo al certificado?**
 

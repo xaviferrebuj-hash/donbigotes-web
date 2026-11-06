@@ -1,8 +1,8 @@
 ¿Estás en España? [Versión para España](https://donbigotes.app/certificado-raton-perez/)
 
-# Certificado del Ratón Pérez: el Diploma de Valentía
+# Certificado del Ratón Pérez por su primer diente
 
-Descarga gratis el certificado del Ratón Pérez (también llamado Ratón de los Dientes) por el primer diente caído, en PDF listo para imprimir en A4. Escriban su nombre y la fecha y sale ya impreso, o descarguen el PDF en blanco para llenarlo a mano. Sin registro, con la firma y el sello de la Oficina del Ratón. En España el personaje se conoce como Ratoncito Pérez: también hay una versión con ese nombre para descargar.
+Descarga gratis el certificado del Ratón Pérez (también llamado Ratón de los Dientes) por el primer diente caído, en PDF listo para imprimir en A4. Escribe su nombre y la fecha y sale ya impreso, o descarga el PDF en blanco para llenarlo a mano. Sin registro, con la firma y el sello de la Oficina del Ratón. En España el personaje se conoce como Ratoncito Pérez: también hay una versión con ese nombre para descargar.
 
 ## El certificado del Ratón Pérez, con su nombre
 
@@ -26,9 +26,9 @@ Escribe el nombre de tu hijo o hija y descarga la carta lista para imprimir. Sin
 
 ¿Sin impresora? En la app, el Ratón Pérez [dice su nombre con su propia voz](https://donbigotes.app/es-419/voz-raton-perez/).
 
-Cuando un niño pierde un diente y se lo entrega al Ratón Pérez, se merece algo más que una moneda: un Diploma de Valentía oficial de la Oficina del Ratón, con su nombre, la fecha y su título de Guardián o Guardiana de Sonrisas. Aquí lo tienen gratis, con su nombre ya impreso o en blanco para llenarlo a mano. Con la app Don Bigotes, además, el Ratón Pérez dice su nombre con su propia voz.
+Cuando un niño pierde un diente y se lo entrega al Ratón Pérez, se merece algo más que una moneda: un certificado oficial de la Oficina del Ratón, con su nombre, la fecha y su título de Guardián o Guardiana de Sonrisas. Aquí lo tienes gratis, con su nombre ya impreso o en blanco para llenarlo a mano. Con la app Don Bigotes, además, el Ratón Pérez dice su nombre con su propia voz.
 
-Certificado gratis · Al instante · Hecho en España
+Gratis en la app: la carta con su nombre, el diario de dientes y los dos primeros capítulos del cuento.
 
 ## Un certificado oficial de la Oficina del Ratón
 
@@ -42,37 +42,39 @@ El título que otorga el Ratón Pérez a quien entrega un diente con valentía.
 
 ### El sello de la Oficina
 
-El sello oficial de la Oficina del Ratón, para que no quede ninguna duda. Pueden [descargar el sello y la firma por separado](https://donbigotes.app/es-419/firma-sello-raton-perez/).
+El sello oficial de la Oficina del Ratón, para que no quede ninguna duda. Puedes [descargar el sello y la firma por separado](https://donbigotes.app/es-419/firma-sello-raton-perez/).
 
-Y, si quieren, la foto del niño sonriendo. La foto se procesa en su celular, nunca sale de él.
+¿Con su foto? Eso es el [Diploma de Valentía](https://donbigotes.app/es-419/diploma-raton-perez/) del Pack Mágico, en la app: la foto se procesa en tu celular y nunca sale de él.
 
 ## Por la tarde, al volver de la escuela
 
-El momento ideal es por la tarde, al volver de la escuela: el diente ya voló por la noche y el diploma alarga la magia un día entero. Es la cuarta parada del [viaje del diente](https://donbigotes.app/viaje-del-diente/).
+El momento ideal es por la tarde, al volver de la escuela: el diente ya voló por la noche y el certificado alarga la magia un día entero. Es la cuarta parada del [viaje del diente](https://donbigotes.app/viaje-del-diente/).
 
-## En papel o en pantalla, como prefieran
+## En papel o en pantalla, como prefieras
 
-El diploma está pensado para las dos cosas: imprimirlo en A4 (o tamaño carta) y colgarlo en su cuarto, o mostrárselo directamente en el celular apenas llegan a casa.
+El certificado está pensado para las dos cosas: imprimirlo en A4 (o tamaño carta) y colgarlo en su cuarto, o mostrárselo directamente en el celular apenas llegue a casa.
+
+¿Buscas el [Diploma de Valentía](https://donbigotes.app/es-419/diploma-raton-perez/) con su nombre y su foto? Es el del Pack Mágico de la app, en otra página: este es el certificado gratis, con su nombre o en blanco.
 
 ## Preguntas frecuentes
 
 **¿El certificado del Ratón Pérez es gratis de verdad?**
 
-Sí. Sin registro, sin correo y sin marca de agua. Escriban su nombre arriba y lo imprimen con el nombre y la fecha ya puestos, o descarguen el PDF en blanco y lo llenan a mano. Está pensado para A4.
+Sí. Sin registro, sin correo y sin marca de agua. Escribe su nombre arriba y lo imprimes con el nombre y la fecha ya puestos, o descarga el PDF en blanco y lo llenas a mano. Está pensado para A4.
 
 **¿Puedo poner el nombre del niño impreso en el certificado?**
 
-Sí, aquí mismo y gratis: escriban su nombre en el recuadro de arriba y se imprime con letra manuscrita sobre la línea de «Otorgado a». El nombre no sale de su celular: no se guarda ni se envía a ningún lado.
+Sí, aquí mismo y gratis: escribe su nombre en el recuadro de arriba y se imprime con letra manuscrita sobre la línea de «Otorgado a». El nombre no sale de tu celular: no se guarda ni se envía a ningún lado.
 
 **¿Cómo consigo un certificado del Ratón Pérez personalizado?**
 
-Con su nombre y la fecha, aquí mismo y gratis. Si además quieren el [Diploma de Valentía](https://donbigotes.app/es-419/diploma-raton-perez/) con el diente que se le cayó y su foto, y que el Ratón Pérez diga su nombre con su propia voz, eso está en la [app Don Bigotes](https://donbigotes.app/es-419/app-raton-perez/), dentro del Pack Mágico.
+Con su nombre y la fecha, aquí mismo y gratis. Si además quieres el [Diploma de Valentía](https://donbigotes.app/es-419/diploma-raton-perez/) con su nombre y su foto, y que el Ratón Pérez diga su nombre con su propia voz, eso está en la [app Don Bigotes](https://donbigotes.app/es-419/app-raton-perez/), dentro del Pack Mágico.
 
-**¿Puedo añadir la foto de mi hijo al diploma?**
+**¿Puedo añadir la foto de mi hijo al certificado?**
 
-En este certificado gratis, no. En el Diploma de Valentía de la app Don Bigotes sí, si quieren: la foto se procesa en su propio celular y no se envía a ningún servidor.
+En este certificado gratis, no. En el Diploma de Valentía de la app Don Bigotes sí, si quieres: la foto se procesa en tu propio celular y no se envía a ningún servidor.
 
-**¿El diploma se puede imprimir?**
+**¿El certificado se puede imprimir?**
 
 Sí, está pensado para imprimirse en A4 (o carta) o mostrarse directamente en el celular.
 
