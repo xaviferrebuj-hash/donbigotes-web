@@ -1,0 +1,937 @@
+[
+ {
+  "n": 1,
+  "ruta": "/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/",
+  "redirecciones": [],
+  "titulo": "Carta del Ratoncito Pérez personalizada y gratis | Don Bigotes",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 10668,
+   "desbordan": [
+    "span.moon → right 420",
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 2
+  },
+  "scroll_horizontal": false,
+  "pantallas": 12.6,
+  "jpegs": [
+   "01-home-movil-1de5.jpg",
+   "01-home-movil-2de5.jpg",
+   "01-home-movil-3de5.jpg",
+   "01-home-movil-4de5.jpg",
+   "01-home-movil-5de5.jpg"
+  ]
+ },
+ {
+  "n": 1,
+  "ruta": "/",
+  "modo": "escritorio",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/",
+  "redirecciones": [],
+  "titulo": "Carta del Ratoncito Pérez personalizada y gratis | Don Bigotes",
+  "medidas": {
+   "scrollWidth": 1280,
+   "clientWidth": 1280,
+   "innerWidth": 1280,
+   "scrollX": 0,
+   "alto": 8838,
+   "desbordan": [
+    "span.moon → right 1310",
+    "span.moon → right 1310"
+   ],
+   "n_desbordan": 2
+  },
+  "scroll_horizontal": false,
+  "pantallas": 11.0,
+  "jpegs": [
+   "01-home-escritorio-1de4.jpg",
+   "01-home-escritorio-2de4.jpg",
+   "01-home-escritorio-3de4.jpg",
+   "01-home-escritorio-4de4.jpg"
+  ]
+ },
+ {
+  "n": 2,
+  "ruta": "/es-419/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/es-419/",
+  "redirecciones": [],
+  "titulo": "Carta del Ratón Pérez personalizada y gratis | Don Bigotes",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 10673,
+   "desbordan": [
+    "span.moon → right 420",
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 2
+  },
+  "scroll_horizontal": false,
+  "pantallas": 12.6,
+  "jpegs": [
+   "02-es-419-movil-1de5.jpg",
+   "02-es-419-movil-2de5.jpg",
+   "02-es-419-movil-3de5.jpg",
+   "02-es-419-movil-4de5.jpg",
+   "02-es-419-movil-5de5.jpg"
+  ]
+ },
+ {
+  "n": 3,
+  "ruta": "/app-raton-perez/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/app-raton-perez/",
+  "redirecciones": [],
+  "titulo": "Don Bigotes: carta del Ratoncito Pérez y diario de dientes gratis",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 9019,
+   "desbordan": [
+    "span.moon → right 420",
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 2
+  },
+  "scroll_horizontal": false,
+  "pantallas": 10.7,
+  "jpegs": [
+   "03-app-raton-perez-movil-1de4.jpg",
+   "03-app-raton-perez-movil-2de4.jpg",
+   "03-app-raton-perez-movil-3de4.jpg",
+   "03-app-raton-perez-movil-4de4.jpg"
+  ]
+ },
+ {
+  "n": 4,
+  "ruta": "/video-raton-perez/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/video-raton-perez/",
+  "redirecciones": [],
+  "titulo": "Vídeo del Ratón Pérez personalizado y al instante | Don Bigotes",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 6116,
+   "desbordan": [
+    "span.moon → right 420",
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 2
+  },
+  "scroll_horizontal": false,
+  "pantallas": 7.2,
+  "jpegs": [
+   "04-video-raton-perez-movil-1de3.jpg",
+   "04-video-raton-perez-movil-2de3.jpg",
+   "04-video-raton-perez-movil-3de3.jpg"
+  ]
+ },
+ {
+  "n": 4,
+  "ruta": "/video-raton-perez/",
+  "modo": "escritorio",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/video-raton-perez/",
+  "redirecciones": [],
+  "titulo": "Vídeo del Ratón Pérez personalizado y al instante | Don Bigotes",
+  "medidas": {
+   "scrollWidth": 1280,
+   "clientWidth": 1280,
+   "innerWidth": 1280,
+   "scrollX": 0,
+   "alto": 4989,
+   "desbordan": [
+    "span.moon → right 1310",
+    "span.moon → right 1310"
+   ],
+   "n_desbordan": 2
+  },
+  "scroll_horizontal": false,
+  "pantallas": 6.2,
+  "jpegs": [
+   "04-video-raton-perez-escritorio-1de2.jpg",
+   "04-video-raton-perez-escritorio-2de2.jpg"
+  ]
+ },
+ {
+  "n": 5,
+  "ruta": "/voz-raton-perez/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/voz-raton-perez/",
+  "redirecciones": [],
+  "titulo": "Mensaje de voz del Ratón Pérez personalizado | Don Bigotes",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 6143,
+   "desbordan": [
+    "span.moon → right 420",
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 2
+  },
+  "scroll_horizontal": false,
+  "pantallas": 7.3,
+  "jpegs": [
+   "05-voz-raton-perez-movil-1de3.jpg",
+   "05-voz-raton-perez-movil-2de3.jpg",
+   "05-voz-raton-perez-movil-3de3.jpg"
+  ]
+ },
+ {
+  "n": 6,
+  "ruta": "/carta-para-imprimir/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/carta-para-imprimir/",
+  "redirecciones": [],
+  "titulo": "Carta del Ratoncito Pérez para imprimir (PDF gratis) | Don Bigotes",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 6897,
+   "desbordan": [
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 1
+  },
+  "scroll_horizontal": false,
+  "pantallas": 8.2,
+  "jpegs": [
+   "06-carta-para-imprimir-movil-1de3.jpg",
+   "06-carta-para-imprimir-movil-2de3.jpg",
+   "06-carta-para-imprimir-movil-3de3.jpg"
+  ]
+ },
+ {
+  "n": 7,
+  "ruta": "/editable/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/editable/",
+  "redirecciones": [],
+  "titulo": "Carta del Ratoncito Pérez editable y personalizable | Don Bigotes",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 9551,
+   "desbordan": [
+    "span.moon → right 420",
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 2
+  },
+  "scroll_horizontal": false,
+  "pantallas": 11.3,
+  "jpegs": [
+   "07-editable-movil-1de4.jpg",
+   "07-editable-movil-2de4.jpg",
+   "07-editable-movil-3de4.jpg",
+   "07-editable-movil-4de4.jpg"
+  ]
+ },
+ {
+  "n": 8,
+  "ruta": "/certificado-raton-perez/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/certificado-raton-perez/",
+  "redirecciones": [],
+  "titulo": "Certificado del Ratón Pérez para imprimir gratis (PDF)",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 6976,
+   "desbordan": [
+    "span.moon → right 420",
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 2
+  },
+  "scroll_horizontal": false,
+  "pantallas": 8.3,
+  "jpegs": [
+   "08-certificado-raton-perez-movil-1de3.jpg",
+   "08-certificado-raton-perez-movil-2de3.jpg",
+   "08-certificado-raton-perez-movil-3de3.jpg"
+  ]
+ },
+ {
+  "n": 9,
+  "ruta": "/es-419/certificado-raton-perez/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/es-419/certificado-raton-perez/",
+  "redirecciones": [],
+  "titulo": "Certificado del Ratón Pérez para llenar e imprimir · PDF gratis",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 6823,
+   "desbordan": [
+    "span.moon → right 420",
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 2
+  },
+  "scroll_horizontal": false,
+  "pantallas": 8.1,
+  "jpegs": [
+   "09-es-419-certificado-raton-perez-movil-1de3.jpg",
+   "09-es-419-certificado-raton-perez-movil-2de3.jpg",
+   "09-es-419-certificado-raton-perez-movil-3de3.jpg"
+  ]
+ },
+ {
+  "n": 10,
+  "ruta": "/ultimo-diente/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/ultimo-diente/",
+  "redirecciones": [],
+  "titulo": "Carta de despedida del Ratoncito Pérez (último diente) | Don Bigotes",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 9006,
+   "desbordan": [
+    "span.moon → right 420",
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 2
+  },
+  "scroll_horizontal": false,
+  "pantallas": 10.7,
+  "jpegs": [
+   "10-ultimo-diente-movil-1de4.jpg",
+   "10-ultimo-diente-movil-2de4.jpg",
+   "10-ultimo-diente-movil-3de4.jpg",
+   "10-ultimo-diente-movil-4de4.jpg"
+  ]
+ },
+ {
+  "n": 11,
+  "ruta": "/fotomontaje-ratoncito-perez/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/fotomontaje-ratoncito-perez/",
+  "redirecciones": [],
+  "titulo": "Fotomontaje del Ratoncito Pérez con tu foto | Don Bigotes",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 6268,
+   "desbordan": [
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 1
+  },
+  "scroll_horizontal": false,
+  "pantallas": 7.4,
+  "jpegs": [
+   "11-fotomontaje-ratoncito-perez-movil-1de3.jpg",
+   "11-fotomontaje-ratoncito-perez-movil-2de3.jpg",
+   "11-fotomontaje-ratoncito-perez-movil-3de3.jpg"
+  ]
+ },
+ {
+  "n": 12,
+  "ruta": "/foto-raton-perez/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/foto-raton-perez/",
+  "redirecciones": [],
+  "titulo": "Foto del Ratón Pérez junto a tu hijo dormido",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 5917,
+   "desbordan": [
+    "span.moon → right 420",
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 2
+  },
+  "scroll_horizontal": false,
+  "pantallas": 7.0,
+  "jpegs": [
+   "12-foto-raton-perez-movil-1de3.jpg",
+   "12-foto-raton-perez-movil-2de3.jpg",
+   "12-foto-raton-perez-movil-3de3.jpg"
+  ]
+ },
+ {
+  "n": 13,
+  "ruta": "/firma-sello-raton-perez/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/firma-sello-raton-perez/",
+  "redirecciones": [],
+  "titulo": "Firma del Ratón Pérez: PNG transparente y sello, gratis",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 7663,
+   "desbordan": [
+    "span.moon → right 420",
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 2
+  },
+  "scroll_horizontal": false,
+  "pantallas": 9.1,
+  "jpegs": [
+   "13-firma-sello-raton-perez-movil-1de3.jpg",
+   "13-firma-sello-raton-perez-movil-2de3.jpg",
+   "13-firma-sello-raton-perez-movil-3de3.jpg"
+  ]
+ },
+ {
+  "n": 14,
+  "ruta": "/el-ratoncito-perez-existe/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/el-ratoncito-perez-existe/",
+  "redirecciones": [],
+  "titulo": "¿El Ratón Pérez existe? Sí, y así se lo explicas por edades",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 10903,
+   "desbordan": [
+    "span.moon → right 420",
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 2
+  },
+  "scroll_horizontal": false,
+  "pantallas": 12.9,
+  "jpegs": [
+   "14-el-ratoncito-perez-existe-movil-1de5.jpg",
+   "14-el-ratoncito-perez-existe-movil-2de5.jpg",
+   "14-el-ratoncito-perez-existe-movil-3de5.jpg",
+   "14-el-ratoncito-perez-existe-movil-4de5.jpg",
+   "14-el-ratoncito-perez-existe-movil-5de5.jpg"
+  ]
+ },
+ {
+  "n": 14,
+  "ruta": "/el-ratoncito-perez-existe/",
+  "modo": "escritorio",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/el-ratoncito-perez-existe/",
+  "redirecciones": [],
+  "titulo": "¿El Ratón Pérez existe? Sí, y así se lo explicas por edades",
+  "medidas": {
+   "scrollWidth": 1280,
+   "clientWidth": 1280,
+   "innerWidth": 1280,
+   "scrollX": 0,
+   "alto": 7571,
+   "desbordan": [
+    "span.moon → right 1310",
+    "span.moon → right 1310"
+   ],
+   "n_desbordan": 2
+  },
+  "scroll_horizontal": false,
+  "pantallas": 9.5,
+  "jpegs": [
+   "14-el-ratoncito-perez-existe-escritorio-1de3.jpg",
+   "14-el-ratoncito-perez-existe-escritorio-2de3.jpg",
+   "14-el-ratoncito-perez-existe-escritorio-3de3.jpg"
+  ]
+ },
+ {
+  "n": 15,
+  "ruta": "/es-419/el-ratoncito-perez-existe/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/es-419/el-ratoncito-perez-existe/",
+  "redirecciones": [],
+  "titulo": "¿El Ratón Pérez existe? Qué contestar según su edad",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 10904,
+   "desbordan": [
+    "span.moon → right 420",
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 2
+  },
+  "scroll_horizontal": false,
+  "pantallas": 12.9,
+  "jpegs": [
+   "15-es-419-el-ratoncito-perez-existe-movil-1de5.jpg",
+   "15-es-419-el-ratoncito-perez-existe-movil-2de5.jpg",
+   "15-es-419-el-ratoncito-perez-existe-movil-3de5.jpg",
+   "15-es-419-el-ratoncito-perez-existe-movil-4de5.jpg",
+   "15-es-419-el-ratoncito-perez-existe-movil-5de5.jpg"
+  ]
+ },
+ {
+  "n": 16,
+  "ruta": "/primer-diente/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/primer-diente/",
+  "redirecciones": [],
+  "titulo": "Carta del Ratoncito Pérez para el primer diente | Don Bigotes",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 9106,
+   "desbordan": [
+    "span.moon → right 420",
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 2
+  },
+  "scroll_horizontal": false,
+  "pantallas": 10.8,
+  "jpegs": [
+   "16-primer-diente-movil-1de4.jpg",
+   "16-primer-diente-movil-2de4.jpg",
+   "16-primer-diente-movil-3de4.jpg",
+   "16-primer-diente-movil-4de4.jpg"
+  ]
+ },
+ {
+  "n": 17,
+  "ruta": "/diploma-raton-perez/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/diploma-raton-perez/",
+  "redirecciones": [],
+  "titulo": "Diploma del Ratoncito Pérez para imprimir · PDF gratis",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 6123,
+   "desbordan": [
+    "span.moon → right 420",
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 2
+  },
+  "scroll_horizontal": false,
+  "pantallas": 7.3,
+  "jpegs": [
+   "17-diploma-raton-perez-movil-1de3.jpg",
+   "17-diploma-raton-perez-movil-2de3.jpg",
+   "17-diploma-raton-perez-movil-3de3.jpg"
+  ]
+ },
+ {
+  "n": 18,
+  "ruta": "/cuento-ratoncito-perez/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [
+   "https://donbigotes.app/assets/audio/cuento/cap01.m4a — net::ERR_ABORTED"
+  ],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/cuento-ratoncito-perez/",
+  "redirecciones": [],
+  "titulo": "Cuento del Ratoncito Pérez en audio: 10 capítulos para dormir",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 8865,
+   "desbordan": [
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 1
+  },
+  "scroll_horizontal": false,
+  "pantallas": 10.5,
+  "jpegs": [
+   "18-cuento-ratoncito-perez-movil-1de4.jpg",
+   "18-cuento-ratoncito-perez-movil-2de4.jpg",
+   "18-cuento-ratoncito-perez-movil-3de4.jpg",
+   "18-cuento-ratoncito-perez-movil-4de4.jpg"
+  ]
+ },
+ {
+  "n": 19,
+  "ruta": "/cuentos-clasicos-para-dormir/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [
+   "https://xaviferrebuj-hash.github.io/don-bigotes-config/audio/clasicos/es/1/1/clasico01.m4a — net::ERR_ABORTED"
+  ],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/cuentos-clasicos-para-dormir/",
+  "redirecciones": [],
+  "titulo": "Cuentos clásicos para dormir, contados por Don Bigotes",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 6725,
+   "desbordan": [
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 1
+  },
+  "scroll_horizontal": false,
+  "pantallas": 8.0,
+  "jpegs": [
+   "19-cuentos-clasicos-para-dormir-movil-1de3.jpg",
+   "19-cuentos-clasicos-para-dormir-movil-2de3.jpg",
+   "19-cuentos-clasicos-para-dormir-movil-3de3.jpg"
+  ]
+ },
+ {
+  "n": 20,
+  "ruta": "/cancion-cepillado-dientes/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [
+   "https://xaviferrebuj-hash.github.io/don-bigotes-config/audio/cepillado_es/1/cancion.m4a — net::ERR_ABORTED"
+  ],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/cancion-cepillado-dientes/",
+  "redirecciones": [],
+  "titulo": "Canción para lavarse los dientes: 2 minutos con Don Bigotes",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 7584,
+   "desbordan": [
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 1
+  },
+  "scroll_horizontal": false,
+  "pantallas": 9.0,
+  "jpegs": [
+   "20-cancion-cepillado-dientes-movil-1de3.jpg",
+   "20-cancion-cepillado-dientes-movil-2de3.jpg",
+   "20-cancion-cepillado-dientes-movil-3de3.jpg"
+  ]
+ },
+ {
+  "n": 21,
+  "ruta": "/diario-dientes-de-leche/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/diario-dientes-de-leche/",
+  "redirecciones": [],
+  "titulo": "Diario de dientes de leche: gratis y para siempre",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 10396,
+   "desbordan": [
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 1
+  },
+  "scroll_horizontal": false,
+  "pantallas": 12.3,
+  "jpegs": [
+   "21-diario-dientes-de-leche-movil-1de4.jpg",
+   "21-diario-dientes-de-leche-movil-2de4.jpg",
+   "21-diario-dientes-de-leche-movil-3de4.jpg",
+   "21-diario-dientes-de-leche-movil-4de4.jpg"
+  ]
+ },
+ {
+  "n": 22,
+  "ruta": "/carta-ratoncito-perez-segun-edad/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/carta-ratoncito-perez-segun-edad/",
+  "redirecciones": [],
+  "titulo": "Carta del Ratoncito Pérez según la edad: 3-4, 5-6 y 7+ años",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 6339,
+   "desbordan": [
+    "span.moon → right 420",
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 2
+  },
+  "scroll_horizontal": false,
+  "pantallas": 7.5,
+  "jpegs": [
+   "22-carta-ratoncito-perez-segun-edad-movil-1de3.jpg",
+   "22-carta-ratoncito-perez-segun-edad-movil-2de3.jpg",
+   "22-carta-ratoncito-perez-segun-edad-movil-3de3.jpg"
+  ]
+ },
+ {
+  "n": 23,
+  "ruta": "/cumpleanos-raton-perez/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/cumpleanos-raton-perez/",
+  "redirecciones": [],
+  "titulo": "Felicitación de cumpleaños del Ratoncito Pérez — con su nombre | Don Bigotes",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 6505,
+   "desbordan": [
+    "span.moon → right 420",
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 2
+  },
+  "scroll_horizontal": false,
+  "pantallas": 7.7,
+  "jpegs": [
+   "23-cumpleanos-raton-perez-movil-1de3.jpg",
+   "23-cumpleanos-raton-perez-movil-2de3.jpg",
+   "23-cumpleanos-raton-perez-movil-3de3.jpg"
+  ]
+ },
+ {
+  "n": 24,
+  "ruta": "/carta/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [
+   "https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Dcarta%26utm_medium%3Dotros%26utm_campaign%3Dotros — net::ERR_ABORTED"
+  ],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [
+   "https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Dcarta%26utm_medium%3Dotros%26utm_campaign%3Dotros"
+  ],
+  "status": 200,
+  "url_final": "https://donbigotes.app/carta/",
+  "redirecciones": [],
+  "titulo": "Don Bigotes · la app del Ratón Pérez",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 844,
+   "desbordan": [],
+   "n_desbordan": 0
+  },
+  "scroll_horizontal": false,
+  "pantallas": 1.0,
+  "jpegs": [
+   "24-carta-movil.jpg"
+  ]
+ },
+ {
+  "n": 25,
+  "ruta": "/blog/",
+  "modo": "movil",
+  "consola": [],
+  "fallidas": [],
+  "http_sub": [],
+  "plausible_bloqueadas": 1,
+  "salto_tienda_bloqueado": [],
+  "status": 200,
+  "url_final": "https://donbigotes.app/blog/",
+  "redirecciones": [],
+  "titulo": "Blog de Don Bigotes: la noche del diente | Don Bigotes",
+  "medidas": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "innerWidth": 390,
+   "scrollX": 0,
+   "alto": 2029,
+   "desbordan": [
+    "span.moon → right 420",
+    "span.moon → right 420"
+   ],
+   "n_desbordan": 2
+  },
+  "scroll_horizontal": false,
+  "pantallas": 2.4,
+  "jpegs": [
+   "25-blog-movil.jpg"
+  ]
+ }
+]
