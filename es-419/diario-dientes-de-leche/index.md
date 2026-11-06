@@ -86,7 +86,7 @@ Veinte por hijo. Con hermanos, se pierde la cuenta: para eso está el diario.
 
 Descarga Don Bigotes y empieza el diario con el próximo diente (o con los que ya se cayeron). Gratis y para siempre.
 
-Última actualización: 4 de noviembre de 2026
+Última actualización: 6 de noviembre de 2026
 
 App no afiliada a ningún titular de marcas relacionadas con el personaje tradicional, que pertenece al folclore español. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

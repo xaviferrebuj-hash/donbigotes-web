@@ -72,7 +72,7 @@ No. Don Bigotes es una app independiente inspirada en la tradición popular del 
 
 Voz, foto, video y Diploma de Valentía con su nombre. El Pack Mágico completo, en un solo pago.
 
-Última actualización: 8 de octubre de 2026
+Última actualización: 6 de noviembre de 2026
 
 App no afiliada a ningún titular de marcas relacionadas con el personaje tradicional, que pertenece al folclore español. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

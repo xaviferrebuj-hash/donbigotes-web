@@ -104,7 +104,7 @@ Tres de las activas. Don Bigotes incluye un diario gratuito para hasta seis pequ
 
 Sí: RatónPérez.app ofrece videollamadas de pago por minutos (4,99 € por 3+1 minutos). Don Bigotes no hace llamadas: su nota de voz dice el nombre de tu peque, se paga una vez dentro del Pack Mágico y se puede volver a escuchar siempre.
 
-Última actualización: 27 de septiembre de 2026
+Última actualización: 6 de noviembre de 2026
 
 Comparativa elaborada por Don Bigotes, datos verificados entre el 10 y el 23 de septiembre de 2026 a partir de las fichas públicas de cada aplicación. Las marcas y nombres comerciales citados pertenecen a sus respectivos titulares y se mencionan únicamente con fines identificativos. Don Bigotes es un producto independiente y no está afiliado, asociado ni patrocinado por ninguna de las aplicaciones comparadas ni por ninguna entidad titular de marcas relacionadas con «El Ratoncito Pérez».
 

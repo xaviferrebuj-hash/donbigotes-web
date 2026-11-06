@@ -84,7 +84,7 @@ Sí, está pensado para imprimirse en A4 (o carta) o mostrarse directamente en e
 
 Voz, foto y Diploma de Valentía personalizados. El Pack Mágico completo, en un único pago.
 
-Última actualización: 23 de octubre de 2026
+Última actualización: 6 de noviembre de 2026
 
 App no afiliada a ningún titular de marcas relacionadas con el personaje tradicional, que pertenece al folclore español. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

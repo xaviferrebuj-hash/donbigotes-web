@@ -110,7 +110,7 @@ En Android y en iPhone. Ya está disponible en Google Play y en la App Store. El
 
 ## Que la próxima caída de diente sea inolvidable
 
-Última actualización: 4 de noviembre de 2026
+Última actualización: 6 de noviembre de 2026
 
 App no afiliada a ningún titular de marcas relacionadas con el personaje tradicional, que pertenece al folclore español. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 

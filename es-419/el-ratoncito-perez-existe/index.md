@@ -102,7 +102,7 @@ Sí. La [Casita-Museo de Ratón Pérez](https://www.casamuseoratonperez.es/) est
 
 ## Que la próxima caída de diente sea inolvidable
 
-Última actualización: 8 de octubre de 2026
+Última actualización: 6 de noviembre de 2026
 
 App no afiliada a ningún titular de marcas relacionadas con el personaje tradicional, que pertenece al folclore español. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 
