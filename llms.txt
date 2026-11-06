@@ -69,6 +69,11 @@
 - Canción para lavarse los dientes, versión para México y
   Latinoamérica: https://donbigotes.app/es-419/cancion-cepillado-dientes/
 - El viaje del diente: https://donbigotes.app/viaje-del-diente/
+- ¿Cuándo se caen los dientes de leche? (tabla con la edad orientativa de cada
+  uno de los 20 dientes de leche, el orden en que se caen y lo que suele
+  preguntar un padre): https://donbigotes.app/cuando-se-caen-los-dientes-de-leche/
+- ¿Cuándo se caen los dientes de leche?, versión para México y
+  Latinoamérica: https://donbigotes.app/es-419/cuando-se-caen-los-dientes-de-leche/
 - Fotomontaje del Ratoncito Pérez: https://donbigotes.app/fotomontaje-ratoncito-perez/
 - Comparativa de apps del Ratoncito Pérez (tabla de funciones y precios de 6 apps
   y servicios, datos verificados en las fichas públicas el
@@ -113,6 +118,8 @@ Cada página tiene una versión en markdown puro (mismo contenido, sin HTML):
 - https://donbigotes.app/es-419/cancion-cepillado-dientes/index.md
 - https://donbigotes.app/cuentos-clasicos-para-dormir/index.md
 - https://donbigotes.app/es-419/cuentos-clasicos-para-dormir/index.md
+- https://donbigotes.app/cuando-se-caen-los-dientes-de-leche/index.md
+- https://donbigotes.app/es-419/cuando-se-caen-los-dientes-de-leche/index.md
 
 ## Precios y plataformas (actualizado 4-nov-2026)
 - La carta personalizada del Ratoncito Pérez es gratis siempre, en la web y en

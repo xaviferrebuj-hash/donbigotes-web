@@ -43,6 +43,7 @@ es:
         - { texto: Canción para lavarse los dientes, url: /cancion-cepillado-dientes/ }
         - { texto: Historia del Ratón Pérez, url: /historia-raton-perez/ }
         - { texto: El viaje del diente, url: /viaje-del-diente/ }
+        - { texto: ¿Cuándo se caen los dientes de leche?, url: /cuando-se-caen-los-dientes-de-leche/ }
         - { texto: Blog, url: /blog/ }
         - { texto: Prensa, url: /prensa/ }
   aviso: >-
@@ -90,6 +91,7 @@ es-419:
         - { texto: Canción para lavarse los dientes, url: /es-419/cancion-cepillado-dientes/ }
         - { texto: Historia del Ratón Pérez, url: /historia-raton-perez/ }
         - { texto: El viaje del diente, url: /viaje-del-diente/ }
+        - { texto: ¿Cuándo se caen los dientes de leche?, url: /es-419/cuando-se-caen-los-dientes-de-leche/ }
         - { texto: Blog, url: /blog/ }
   aviso: >-
     App no afiliada a ningún titular de marcas relacionadas con el personaje tradicional, que pertenece al folclore

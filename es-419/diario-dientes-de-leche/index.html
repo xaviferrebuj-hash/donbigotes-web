@@ -209,6 +209,8 @@
   .cta-app h2{font-size:var(--t-h3);margin:0 auto .4em;max-width:22ch}
   .cta-app p.lead{max-width:560px;margin:0 auto 1.4em;color:#5a5238}
   .cta-app .badges{margin-top:0}
+  .hero-badges{justify-content:flex-start;margin-top:20px}
+  @media (max-width:760px){.hero-badges{justify-content:center}}
   .btn-gold{display:inline-flex;align-items:center;justify-content:center;gap:10px;text-decoration:none}
 
   /* faq */
@@ -335,6 +337,10 @@
       <div class="anim d3">
         <a class="cta" data-enlace="playstore" href="https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Dweb%26utm_medium%3Dweb-contenido%26utm_campaign%3Ddiario-dientes-de-leche&hl=es_419" target="_blank" rel="noopener">✨ Empezar el diario gratis</a>
         <p class="micro">Gratis y para siempre · <b>Sin cuenta: se queda en tu celular</b> · Android e iPhone</p>
+        <div class="badges hero-badges">
+          <a href="https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Dweb%26utm_medium%3Dweb-contenido%26utm_campaign%3Ddiario-dientes-de-leche&hl=es_419" target="_blank" rel="noopener"><img src="/assets/img/google-play-badge-es.png" alt="Disponible en Google Play" style="width:186px;height:72px" width="646" height="250"></a>
+          <a href="https://apps.apple.com/app/id6798414411?pt=129172273&ct=web-419&mt=8" data-enlace="appstore" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;justify-content:center;height:72px"><img src="/assets/img/app-store-badge-es.svg" alt="Cons&iacute;guelo en el App Store" width="165" height="55" style="width:165px;height:55px"></a>
+        </div>
       </div>
     </div>
     <div class="sello-vis anim d2">
@@ -346,14 +352,6 @@
 </div><!-- /night -->
 
 <main class="wrap">
-
-  <!-- BOTONES DE TIENDA -->
-  <section style="padding-top:0;text-align:center">
-    <div class="badges">
-      <a href="https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Dweb%26utm_medium%3Dweb-contenido%26utm_campaign%3Ddiario-dientes-de-leche&hl=es_419" target="_blank" rel="noopener"><img src="/assets/img/google-play-badge-es.png" alt="Disponible en Google Play" style="width:186px;height:72px" width="646" height="250"></a>
-      <a href="https://apps.apple.com/app/id6798414411?pt=129172273&ct=web-419&mt=8" data-enlace="appstore" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;justify-content:center;height:72px"><img src="/assets/img/app-store-badge-es.svg" alt="Cons&iacute;guelo en el App Store" width="165" height="55" style="width:165px;height:55px"></a>
-    </div>
-  </section>
 
   <!-- QUÉ APUNTA EL DIARIO -->
   <section id="diario">
@@ -381,7 +379,7 @@
     <h2 class="sec-title">La ficha para los abuelos</h2>
     <div class="texto">
       <p>Cada diente genera una ficha con el nombre del niño, el diente, la fecha, la edad y la foto. Se comparte por la hoja de compartir del celular (WhatsApp, Telegram, correo…). Don Bigotes no sube la ficha a ningún servidor: sale de tu celular al de los abuelos y de ahí no pasa.</p>
-      <p>Es el único diario de dientes de leche que se comparte con los abuelos por WhatsApp sin subir nada a ningún servidor.</p>
+      <p>La ficha se comparte con los abuelos por WhatsApp sin subir nada a ningún servidor. Qué hace cada app de dientes, en la <a href="/es-419/comparativa-apps-ratoncito-perez/">comparativa de apps del Ratón Pérez</a>.</p>
     </div>
   </section>
 
@@ -426,49 +424,14 @@
     </div>
   </section>
 
-  <!-- CALENDARIO -->
+  <!-- CALENDARIO (resumen; la tabla entera y las dudas de cada casa, en /es-419/cuando-se-caen-los-dientes-de-leche/) -->
   <section id="calendario">
     <div class="sec-label">Diente a diente</div>
     <h2 class="sec-title">¿Cuándo se cae cada diente de leche?</h2>
     <div class="texto">
-      <p>Cada niño lleva su ritmo, pero el orden suele ser este. Sirve de guía para saber qué diente toca, no de norma. Los <b>20 dientes de leche</b> se caen entre los 6 y los 12 años, casi siempre en el mismo orden en que salieron.</p>
+      <p>Los <b>20 dientes de leche</b> se caen entre los 6 y los 12 años, casi siempre en el mismo orden en que salieron: primero los incisivos centrales, hacia los 6-7 años; luego los laterales, hacia los 7-8, y al final los molares y los caninos, entre los 9 y los 12.</p>
+      <p><a href="/es-419/cuando-se-caen-los-dientes-de-leche/">La tabla con la edad de cada diente y lo que suele preguntar un padre</a></p>
     </div>
-    <div class="tabla-wrap">
-      <table>
-        <caption>Edad orientativa de caída de cada grupo de dientes de leche</caption>
-        <thead>
-          <tr>
-            <th scope="col">Diente (por arcada)</th>
-            <th scope="col">Cuántos</th>
-            <th scope="col">Se caen a los…</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><th scope="row">Incisivos centrales inferiores</th><td class="num">2</td><td>6-7 años</td></tr>
-          <tr><th scope="row">Incisivos centrales superiores</th><td class="num">2</td><td>6-7 años</td></tr>
-          <tr><th scope="row">Incisivos laterales (superiores e inferiores)</th><td class="num">4</td><td>7-8 años</td></tr>
-          <tr><th scope="row">Primeros molares</th><td class="num">4</td><td>9-11 años</td></tr>
-          <tr><th scope="row">Caninos (colmillos)</th><td class="num">4</td><td>9-12 años</td></tr>
-          <tr><th scope="row">Segundos molares</th><td class="num">4</td><td>10-12 años</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="texto">
-      <p>Los primeros en caer suelen ser los de abajo adelante, hacia los 6 años; los últimos, los molares de atrás, hacia los 12. Si un diente se cae mucho antes de los 5 o no se ha movido a los 8, pregunta al dentista.</p>
-      <p class="nota">Fuente orientativa: tablas de erupción y exfoliación de las asociaciones de odontopediatría; las edades son medias, no plazos.</p>
-    </div>
-  </section>
-
-  <!-- LO QUE PREGUNTA UN PADRE -->
-  <section>
-    <div class="sec-label">Dudas de cada casa</div>
-    <h2 class="sec-title">Lo que suele preguntar un padre</h2>
-    <ul class="lista">
-      <li><b>¿Cuál es el primer diente que se cae?</b> Casi siempre un incisivo central de abajo, hacia los 6 años. A veces el diente definitivo asoma por detrás antes de que caiga el de leche («dientes de tiburón»): es normal y suele resolverse solo.</li>
-      <li><b>¿Y el último?</b> Un segundo molar, entre los 10 y los 12 años. Ahí se despide el Ratón Pérez.</li>
-      <li><b>¿Se mueve y no se cae?</b> Si se mueve, se deja que caiga solo; si duele, sangra mucho o el definitivo ya salió del todo y el de leche sigue firme, dentista.</li>
-      <li><b>¿Cuántas visitas hace el Ratón Pérez?</b> Veinte por hijo. Con hermanos, se pierde la cuenta: para eso está el diario.</li>
-    </ul>
     <div class="momentos" style="margin-top:30px">
       <a class="chip" href="/es-419/primer-diente/">Carta para el primer diente</a>
       <a class="chip" href="/es-419/ultimo-diente/">Carta de despedida, el último diente</a>
@@ -516,17 +479,6 @@
     </div>
   </section>
 
-  <!-- CIERRE -->
-  <section style="text-align:center">
-    <div class="texto">
-      <p>Descarga Don Bigotes y empieza el diario con el próximo diente (o con los que ya se cayeron). <b>Gratis y para siempre.</b></p>
-    </div>
-    <div class="badges" style="margin-top:22px">
-      <a href="https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Dweb%26utm_medium%3Dweb-contenido%26utm_campaign%3Ddiario-dientes-de-leche&hl=es_419" target="_blank" rel="noopener"><img src="/assets/img/google-play-badge-es.png" alt="Disponible en Google Play" style="width:186px;height:72px" width="646" height="250"></a>
-      <a href="https://apps.apple.com/app/id6798414411?pt=129172273&ct=web-419&mt=8" data-enlace="appstore" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;justify-content:center;height:72px"><img src="/assets/img/app-store-badge-es.svg" alt="Cons&iacute;guelo en el App Store" width="165" height="55" style="width:165px;height:55px"></a>
-    </div>
-  </section>
-
 <!-- ============================================================
      BLOQUE CTA  ->  bloque replicado en cada pagina - editar en TODAS a la
      vez, ver BARRIDO-1SEP.md
@@ -534,7 +486,7 @@
      Los enlaces (webapp / playstore / appstore) se fijan desde
      /js/enlaces-app.js  (un solo sitio para editarlos).
      ============================================================ -->
-{% include cta-app.html lang="es-419" medio="web-contenido" campana="diario-dientes-de-leche" ct="web-419" %}
+{% include cta-app.html lang="es-419" medio="web-contenido" campana="diario-dientes-de-leche" ct="web-419" titulo="Empieza el diario con el próximo diente" lead="Descarga Don Bigotes y empieza el diario con el próximo diente (o con los que ya se cayeron). Gratis y para siempre." %}
 
 </main>
 
