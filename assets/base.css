@@ -302,6 +302,11 @@ a:focus-visible,button:focus-visible,summary:focus-visible,[role="button"]:focus
 }
 .form-legal a{color:inherit;text-decoration:underline;}
 
+/* Campo «Tu email o móvil» en el móvil (6-nov-2026): por debajo de 600 px las páginas ponen .form-row en
+   columna, y su flex-basis de 190 px pasaba a ser el ALTO del campo (parecía un textarea). Con la base
+   automática el campo tiene el alto de una línea, como en escritorio. El prefijo html gana al <style> de cada página. */
+@media (max-width:600px){html .form-row input[type=text],html .form-row input[type=email]{flex-basis:auto}}
+
 /* Enlace entre la versión de España y la de Latinoamérica (arriba de cada página con par es / es-419) */
 .enlace-region{
   position:relative;

@@ -149,13 +149,6 @@ img{display:block;max-width:100%}
 .badge .b-top{font-size:.66rem;letter-spacing:.04em;opacity:.82;text-transform:uppercase}
 .badge .b-main{font-family:'Fraunces',serif;font-weight:600;font-size:1.18rem;line-height:1.05}
 .badge .b-txt{text-align:left}
-.dl-capture{max-width:460px;margin:32px auto 0}
-.dl-capture .form-row input[type=text]{border:1.5px solid var(--paper-edge);background:#fff;color:var(--ink)}
-.dl-capture .form-row input::placeholder{color:#a99a80}
-.dl-capture .form-row input:focus{border-color:var(--gold-deep);background:#fff}
-.dl-capture .hint{color:var(--ink-soft)}
-.dl-capture .hint b{color:var(--gold-deep)}
-.dl-capture .form-ok{background:rgba(216,154,44,.12);border-color:rgba(216,154,44,.4);color:#9A6A12}
 .faq{max-width:760px;margin:46px auto 0}
 .faq details{border-bottom:1px solid var(--paper-2);padding:6px 0}
 .faq summary{cursor:pointer;list-style:none;font-family:'Fraunces',serif;font-weight:600;font-size:1.14rem;color:var(--ink);padding:16px 36px 16px 2px;position:relative}
@@ -361,29 +354,6 @@ img{display:block;max-width:100%}
   </div>
 </section>
 
-<section class="section cream-band" id="descarga">
-  <div class="wrap">
-    <div class="dl-wrap">
-      <span class="eyebrow">Descárgala</span>
-      <h2>Ya disponible en Google Play y App Store</h2>
-      <p class="lead">El Pack Mágico completo, 4,99 € en un único pago, en Android y en iPhone.</p>
-      <div class="badges">
-        <a href="https://play.google.com/store/apps/details?id=es.donbigotes.app&referrer=utm_source%3Dweb%26utm_medium%3Dweb-contenido%26utm_campaign%3Dultimo-diente" target="_blank" rel="noopener"><img src="/assets/img/google-play-badge-es.png" alt="Disponible en Google Play" style="width:186px;height:72px" width="646" height="250"></a>
-        <a href="https://apps.apple.com/es/app/id6798414411?pt=129172273&ct=web-imprimibles&mt=8" data-enlace="appstore" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;justify-content:center;height:72px"><img src="/assets/img/app-store-badge-es.svg" alt="Cons&iacute;guelo en el App Store" width="165" height="55" style="width:165px;height:55px"></a>
-      </div>
-      <form class="capture dl-capture" id="cap3">
-        <p class="hint">¿Tienes iPhone? <b>Don Bigotes ya está en la App Store.</b> Déjanos tu contacto y te avisamos de las novedades. El Pack Mágico se paga en un único pago, en los dos sistemas.</p>
-        <div class="form-row">
-          <input type="text" name="contacto" placeholder="Tu email o móvil" autocomplete="email" required>
-          <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off">
-          <button type="submit" class="btn-gold">Avísame</button>
-        </div>
-        <p class="form-legal">Al enviar aceptas nuestra <a href="/privacidad/" target="_blank" rel="noopener">política de privacidad</a>.</p>
-        <div class="form-ok">¡Hecho! Te escribiremos con las novedades. Don Bigotes ya está en la App Store. ✨</div>
-      </form>
-    </div>
-  </div>
-</section>
 <section class="section paper-band" id="faq">
   <div class="wrap">
     <div class="s-head">
@@ -405,14 +375,15 @@ img{display:block;max-width:100%}
     <section class="cta-final">
       <h2>Que su último diente sea inolvidable</h2>
       <form class="capture" id="cap2">
-        <p class="hint">¿Tienes iPhone? <b>Don Bigotes ya está en la App Store.</b> Déjanos tu contacto y te avisamos de las novedades. El Pack Mágico se paga en un único pago, en los dos sistemas.</p>
+        <p class="hint">¿Quieres que te avisemos cuando Don Bigotes estrene algo nuevo? Dos o tres correos al año, nada más.</p>
         <div class="form-row">
-          <input type="text" name="contacto" placeholder="Tu email o móvil" autocomplete="email" required>
+          <label class="sr-only" for="avisame-contacto">Tu email o móvil</label>
+          <input id="avisame-contacto" type="text" name="contacto" placeholder="Tu email o móvil" autocomplete="email" required>
           <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off">
           <button type="submit" class="btn-gold">Avísame</button>
         </div>
         <p class="form-legal">Al enviar aceptas nuestra <a href="/privacidad/" target="_blank" rel="noopener">política de privacidad</a>.</p>
-        <div class="form-ok">¡Hecho! Te escribiremos con las novedades. Don Bigotes ya está en la App Store. ✨</div>
+        <div class="form-ok">¡Hecho! Te avisaremos de las novedades. ✨</div>
       </form>
     </section>
 
