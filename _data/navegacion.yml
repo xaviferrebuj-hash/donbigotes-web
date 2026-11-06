@@ -22,7 +22,6 @@ es:
         - { texto: Carta según la edad, url: /carta-ratoncito-perez-segun-edad/ }
     - titulo: Para imprimir gratis
       enlaces:
-        - { texto: Diploma de Valentía, url: /diploma-raton-perez/ }
         - { texto: Certificado del primer diente, url: /certificado-raton-perez/ }
         - { texto: Firma y sello, url: /firma-sello-raton-perez/ }
         - { texto: Diario de dientes de leche, url: /diario-dientes-de-leche/ }
@@ -33,6 +32,7 @@ es:
         - { texto: Vídeo desde su Oficina, url: /video-raton-perez/ }
         - { texto: Foto junto a tu peque, url: /foto-raton-perez/ }
         - { texto: Fotomontaje «¡Pillado!», url: /fotomontaje-ratoncito-perez/ }
+        - { texto: Diploma de Valentía, url: /diploma-raton-perez/ }
         - { texto: Cumpleaños, url: /cumpleanos-raton-perez/ }
         - { texto: Comparativa de apps, url: /comparativa-apps-ratoncito-perez/ }
     - titulo: El Ratoncito Pérez
@@ -59,7 +59,7 @@ es-419:
     - { texto: La app, url: /es-419/app-raton-perez/ }
     - { texto: Cuento, url: /es-419/cuento-raton-perez/ }
     - { texto: Blog, url: /blog/ }
-  whatsapp: Escríbannos por WhatsApp
+  whatsapp: Escríbenos por WhatsApp
   columnas:
     - titulo: Cartas gratis
       enlaces:
@@ -70,7 +70,6 @@ es-419:
         - { texto: Carta según la edad, url: /es-419/carta-raton-perez-segun-edad/ }
     - titulo: Para imprimir gratis
       enlaces:
-        - { texto: Diploma de Valentía, url: /es-419/diploma-raton-perez/ }
         - { texto: Certificado del primer diente, url: /es-419/certificado-raton-perez/ }
         - { texto: Firma y sello, url: /es-419/firma-sello-raton-perez/ }
         - { texto: Diario de dientes de leche, url: /es-419/diario-dientes-de-leche/ }
@@ -81,6 +80,7 @@ es-419:
         - { texto: Video desde su Oficina, url: /video-raton-perez/ }
         - { texto: Foto junto a tu hijo, url: /es-419/foto-raton-perez/ }
         - { texto: Fotomontaje «¡Pillado!», url: /es-419/fotomontaje-raton-perez/ }
+        - { texto: Diploma de Valentía, url: /es-419/diploma-raton-perez/ }
         - { texto: Comparativa de apps, url: /es-419/comparativa-apps-ratoncito-perez/ }
     - titulo: El Ratón Pérez
       enlaces:

@@ -40,10 +40,11 @@
 - Vídeo del Ratoncito: https://donbigotes.app/video-raton-perez/
 - Nota de voz: https://donbigotes.app/voz-raton-perez/
 - Foto del Ratoncito: https://donbigotes.app/foto-raton-perez/
-- Certificado / Diploma de Valentía: https://donbigotes.app/certificado-raton-perez/
-- Diploma del Ratoncito Pérez para imprimir (PDF gratis en A4, descarga
-  directa sin registro, con versión para Latinoamérica «Ratón de los
-  Dientes»): https://donbigotes.app/diploma-raton-perez/
+- Certificado del Ratoncito Pérez para imprimir (gratis: con su nombre ya
+  impreso o en PDF A4 en blanco para rellenar a mano, sin registro, con versión
+  para Latinoamérica): https://donbigotes.app/certificado-raton-perez/
+- Diploma de Valentía (pieza del Pack Mágico de la app: con su nombre y, si se
+  quiere, su foto): https://donbigotes.app/diploma-raton-perez/
 - Firma y sello del Ratón Pérez (PNG con fondo transparente y PDF A4 para
   imprimir, descarga directa sin
   registro): https://donbigotes.app/firma-sello-raton-perez/
@@ -120,7 +121,7 @@ Cada página tiene una versión en markdown puro (mismo contenido, sin HTML):
   cepillado de dientes con canción.
 - La app admite hasta seis peques, cada uno con su diario de dientes y su
   cumpleaños.
-- Los imprimibles (carta, diploma, certificado, firma y sello, en PDF y PNG) son
+- Los imprimibles (carta, certificado, firma y sello, en PDF y PNG) son
   gratis, sin registro y sin instalar nada.
 - El Pack Mágico reúne la nota de voz, el fotomontaje «¡Pillado!», el vídeo de
   la Oficina y el Diploma de Valentía. Se paga una sola vez, sin suscripciones.
