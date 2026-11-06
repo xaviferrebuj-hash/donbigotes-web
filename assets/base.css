@@ -307,6 +307,14 @@ a:focus-visible,button:focus-visible,summary:focus-visible,[role="button"]:focus
    automática el campo tiene el alto de una línea, como en escritorio. El prefijo html gana al <style> de cada página. */
 @media (max-width:600px){html .form-row input[type=text],html .form-row input[type=email]{flex-basis:auto}}
 
+/* Párrafo largo para buscadores e IA, en tarjeta justo debajo del hero (6-nov-2026, revisión de Fable): el hero
+   queda corto y con el botón arriba. Mismo aspecto que la .capsula de las páginas papel (carta para imprimir,
+   fotomontaje). Contraste: tinta 12,4:1 y enlace 5,4:1 sobre #FFF8E6. */
+.geo-band{padding:clamp(36px,6vw,64px) 0 0}
+.geo-capsula{background:#FFF8E6;border:1px solid var(--paper-edge);border-left:4px solid var(--gold);border-radius:14px;padding:24px 26px;max-width:760px;margin:0 auto;font-size:1.06rem;line-height:1.6;color:var(--ink)}
+.geo-capsula a{color:var(--enlace);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+@media (max-width:600px){.geo-capsula{padding:20px;font-size:1rem}}
+
 /* Enlace entre la versión de España y la de Latinoamérica (arriba de cada página con par es / es-419) */
 .enlace-region{
   position:relative;
