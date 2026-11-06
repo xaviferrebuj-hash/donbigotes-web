@@ -1,0 +1,104 @@
+{
+ "form /editable/": {
+  "formularios": 1,
+  "alto_campo_px": 52,
+  "hint": "¿Quieres que te avisemos cuando Don Bigotes estrene algo nuevo? Dos o tres correos al año, nada más.",
+  "envio": "https://api.web3forms.com/submit",
+  "metodo": "POST",
+  "access_key": "la misma que en main (sin cambios)",
+  "subject": "Aviso iOS - Don Bigotes",
+  "origen": "cap2",
+  "errores": []
+ },
+ "form /el-ratoncito-perez-existe/": {
+  "formularios": 1,
+  "alto_campo_px": 52,
+  "hint": "¿Quieres que te avisemos cuando Don Bigotes estrene algo nuevo? Dos o tres correos al año, nada más.",
+  "envio": "https://api.web3forms.com/submit",
+  "metodo": "POST",
+  "access_key": "la misma que en main (sin cambios)",
+  "subject": "Aviso iOS - Don Bigotes",
+  "origen": "cap2",
+  "errores": []
+ },
+ "form /es-419/primer-diente/": {
+  "formularios": 1,
+  "alto_campo_px": 52,
+  "hint": "¿Quieres que te avisemos cuando Don Bigotes estrene algo nuevo? Dos o tres correos al año, nada más.",
+  "envio": "https://api.web3forms.com/submit",
+  "metodo": "POST",
+  "access_key": "la misma que en main (sin cambios)",
+  "subject": "Aviso iOS - Don Bigotes",
+  "origen": "es419-primer-diente",
+  "errores": []
+ },
+ "form /carta-ratoncito-perez-segun-edad/": {
+  "formularios": 1,
+  "alto_campo_px": 52,
+  "hint": "¿Quieres que te avisemos cuando Don Bigotes estrene algo nuevo? Dos o tres correos al año, nada más.",
+  "envio": "https://api.web3forms.com/submit",
+  "metodo": "POST",
+  "access_key": "la misma que en main (sin cambios)",
+  "subject": "Aviso iOS - Don Bigotes",
+  "origen": "cap2",
+  "errores": []
+ },
+ "form /": {
+  "formularios": 1,
+  "alto_campo_px": 52,
+  "hint": "¿Quieres que te avisemos cuando Don Bigotes estrene algo nuevo? Dos o tres correos al año, nada más.",
+  "envio": "https://api.web3forms.com/submit",
+  "metodo": "POST",
+  "access_key": "la misma que en main (sin cambios)",
+  "subject": "Aviso iOS - Don Bigotes",
+  "origen": "cap2",
+  "errores": []
+ },
+ "banda /editable/": {
+  "al_cargar": false,
+  "tras_bajar": true,
+  "con_generador": false
+ },
+ "banda /carta-para-imprimir/": {
+  "al_cargar": false,
+  "tras_bajar": true
+ },
+ "banda /ultimo-diente/": {
+  "al_cargar": false,
+  "tras_bajar": true,
+  "con_generador": false
+ },
+ "banda /el-ratoncito-perez-existe/": {
+  "al_cargar": false,
+  "tras_bajar": true,
+  "con_generador": false
+ },
+ "banda /": {
+  "al_cargar": null,
+  "tras_bajar": null,
+  "con_generador": null
+ },
+ "carta ¿existe?": {
+  "resultado_visible": true,
+  "saludo": "¡Hola, Lucía!",
+  "errores": []
+ },
+ "certificado /certificado-raton-perez/": {
+  "resultado_visible": true,
+  "nombre": "Mateo",
+  "portada": {
+   "src": "http://127.0.0.1:8402/assets/img/certificado/certificado-ratoncito-perez-para-imprimir-620.webp",
+   "ancho_natural": 260
+  },
+  "errores": []
+ },
+ "certificado /es-419/certificado-raton-perez/": {
+  "resultado_visible": true,
+  "nombre": "Mateo",
+  "portada": {
+   "src": "http://127.0.0.1:8402/assets/img/certificado/certificado-raton-perez-para-imprimir-620.webp",
+   "ancho_natural": 260
+  },
+  "errores": []
+ }
+}
