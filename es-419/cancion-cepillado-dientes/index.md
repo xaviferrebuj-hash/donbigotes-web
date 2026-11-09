@@ -2,7 +2,7 @@
 
 # Canción para lavarse los dientes según la edad, con Don Bigotes
 
-Tres canciones para que tu hijo o hija se cepille los dientes con Don Bigotes, el Ratón Pérez: una para cada edad (3-4, 5-6 y 7-9 años), con cuatro zonas, arriba, abajo, por fuera y por dentro. Escúchalas aquí; en la app son gratis y pueden empezar con su nombre.
+Tres canciones para que tu hijo o hija se cepille los dientes con Don Bigotes, el Ratón Pérez: una para cada edad (de 3 a 4, de 5 a 6 y de 7 a 9 años), con cuatro zonas, arriba, abajo, por fuera y por dentro. Escúchalas aquí; en la app son gratis y pueden empezar con su nombre.
 
 De 3 a 4 años · «Brilla, brilla, mi sonrisa» · 1:38
 
