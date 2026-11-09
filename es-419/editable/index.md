@@ -82,8 +82,6 @@ Escribes el nombre, eliges su edad y el diente, y la carta sale al instante, lis
 
 Sí. La carta es la misma para Ratón Pérez, Ratón de los Dientes y Ratoncito Pérez: se personaliza con el nombre y se imprime gratis desde donbigotes.app.
 
-## Que la próxima caída de diente sea inolvidable
-
 Última actualización: 6 de noviembre de 2026
 
 App no afiliada a ningún titular de marcas relacionadas con el personaje tradicional, que pertenece al folclore español. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.

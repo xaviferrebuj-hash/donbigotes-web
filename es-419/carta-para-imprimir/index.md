@@ -62,12 +62,6 @@ La imprimes para dejarla bajo la almohada o la guardas en PDF.
 
 Junto a la carta pueden imprimir la [hoja del diario de dientes](https://donbigotes.app/es-419/diario-dientes-de-leche/#hoja-diario): un A4 gratis para ir apuntando los 20 dientes, sin dejar su correo.
 
-## ¿Quieres aún más magia esa noche?
-
-Déjanos tu email y te avisamos de cada novedad de la Oficina: la app ya incluye la nota de voz del Ratón Pérez con su nombre, la foto del «¡Pillado!» y el Diploma de Valentía. Descubre [el viaje del diente](https://donbigotes.app/viaje-del-diente/): qué pasa desde que se cae hasta la visita del Ratón Pérez.
-
-Sin spam. Solo un aviso cuando esté listo.
-
 ## Preguntas frecuentes
 
 **¿Es gratis de verdad?**

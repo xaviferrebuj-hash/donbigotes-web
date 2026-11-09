@@ -56,8 +56,6 @@ Sí. Sale en el saludo y otra vez dentro de la carta.
 
 Hay versión para los dos: la del primero lo celebra y la del último es una despedida.
 
-## Que la próxima caída de diente sea inolvidable
-
 Última actualización: 6 de noviembre de 2026
 
 App no afiliada a ningún titular de marcas relacionadas con el personaje tradicional, que pertenece al folclore español. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.

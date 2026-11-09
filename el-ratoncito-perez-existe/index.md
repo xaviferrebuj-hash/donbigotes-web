@@ -100,8 +100,6 @@ Sí, son el mismo personaje. Ratoncito Pérez es la forma cariñosa y diminutiva
 
 Sí. La [Casita-Museo de Ratón Pérez](https://www.casamuseoratonperez.es/) está en la calle Arenal 8 de Madrid, en el edificio donde la tradición sitúa su casa: dentro de una caja de galletas, en la antigua confitería Prast. Es la casa oficial del personaje en Madrid y se visita con niños.
 
-## Que la próxima caída de diente sea inolvidable
-
 Última actualización: 6 de noviembre de 2026
 
 App no afiliada a ningún titular de marcas relacionadas con el personaje tradicional, que pertenece al folclore español. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.

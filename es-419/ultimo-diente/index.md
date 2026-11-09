@@ -76,8 +76,6 @@ Escribes el nombre de tu hijo, indicas que es el último diente y la app genera 
 
 Sí: allí el personaje se conoce como Ratoncito Pérez. La carta es la misma, con el nombre que uses en casa.
 
-## Que su último diente sea inolvidable
-
 Última actualización: 6 de noviembre de 2026
 
 App no afiliada a ningún titular de marcas relacionadas con el personaje tradicional, que pertenece al folclore español. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
