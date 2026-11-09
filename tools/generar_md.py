@@ -37,6 +37,7 @@ PAGINAS = [
     "cuentos-clasicos-para-dormir", "es-419/cuentos-clasicos-para-dormir",
     "cuando-se-caen-los-dientes-de-leche", "es-419/cuando-se-caen-los-dientes-de-leche",
     "privacidad",
+    "terminos",
 ]
 
 # Subárboles que no aportan contenido textual (interfaz, decoración, formularios)
