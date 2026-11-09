@@ -1,26 +1,88 @@
 ¿Estás en España? [Versión para España](https://donbigotes.app/cancion-cepillado-dientes/)
 
-# Canción para lavarse los dientes: 2 minutos con Don Bigotes
+# Canción para lavarse los dientes según la edad, con Don Bigotes
 
-Una canción para que tu hijo o hija se cepille los dientes con Don Bigotes, el Ratón Pérez: dos minutos de cepillado en cuatro zonas de 30 segundos, arriba, abajo, por fuera y por dentro. Escúchala aquí; en la app, es gratis.
+Tres canciones para que tu hijo o hija se cepille los dientes con Don Bigotes, el Ratón Pérez: una para cada edad (3-4, 5-6 y 7-9 años), con cuatro zonas, arriba, abajo, por fuera y por dentro. Escúchalas aquí; en la app son gratis y pueden empezar con su nombre.
 
-«Frota, frota, cepillito» · 2:28
+De 3 a 4 años · «Brilla, brilla, mi sonrisa» · 1:38
 
-Mientras suena, se ilumina la zona que toca. Primero habla Don Bigotes (8 segundos), luego vienen los dos minutos de cepillado y al final, la despedida. Música y voz generadas digitalmente.
+Cuatro zonas de 20 segundos, para los más pequeños.
+
+De 5 a 6 años · «Frota, frota, cepillito» · 2:28
+
+Dos minutos, en cuatro zonas de 30 segundos.
+
+De 7 a 9 años · «Misión Sonrisa» · 2:23
+
+Dos minutos, en cuatro zonas de 30 segundos, con más ritmo.
+
+Mientras suena, se ilumina la zona que toca. Cada canción empieza con Don Bigotes (8 segundos), luego viene el cepillado y al final, la despedida. Música y voz generadas digitalmente.
 
 En la app Don Bigotes, el cepillado con canción y el diario de sus dientes de leche, gratis.
 
 ## Cómo es el cepillado de Don Bigotes
 
-- Dos minutos, cuatro zonas de 30 segundos: arriba, abajo, por fuera y por dentro. Cada zona tiene su estrofa.
+- Una canción para cada edad: «Brilla, brilla, mi sonrisa» de 3 a 4 años, «Frota, frota, cepillito» de 5 a 6 y «Misión Sonrisa» de 7 a 9. La app pone la de su edad, y con «Cambiar» eliges otra.
 
-- La app avisa cuándo cambiar de zona, para que ningún diente se quede sin cepillar.
+- Con su nombre al empezar: «Esta canción es para… Martina», con la voz de Don Bigotes (para la mayoría de los nombres).
 
-- Un sello en su diario por la mañana y otro por la noche. Así se ve de un vistazo qué cepillados están hechos.
+- Cuatro zonas: arriba, abajo, por fuera y por dentro. Cada zona tiene su estrofa y la app avisa cuándo cambiar, para que ningún diente se quede sin cepillar.
+
+- Un sello en su diario por la mañana y otro por la noche. Si un día se cepilla sin la canción, o la detienes antes de terminar, lo marcas como hecho y el sello cuenta igual.
+
+- Al terminar, un chiste o un acertijo de Don Bigotes, uno distinto cada día que se cepilla.
+
+- Compartir la canción con los abuelos o con quien quieras: se envía el audio y el enlace a esta página.
+
+- A los 7 días seguidos, su premio: el diploma «Siete días brillantes», con su foto, y el cuento «La sonrisa de Ñam», que se desbloquea en la app.
 
 - Gratis, sin cuenta: todo se queda en tu celular.
 
-## Letra de la canción
+## Letras de las canciones
+
+### De 3 a 4 años · «Brilla, brilla, mi sonrisa»
+
+### Empieza Don Bigotes
+
+«Soy Don Bigotes. Cepillo en mano… ¡y a brillar!»
+
+### Arriba
+
+Empezamos por arriba, cepillito, a trabajar: en circulitos pequeños, de aquí para allá.
+
+### Estribillo
+
+¡Brilla, brilla, mi sonrisa! Cepilla, cepilla, sin prisa.
+
+### Abajo
+
+Ahora, los de abajo, que también quieren brillar: en circulitos pequeños, ¡y otra vuelta más!
+
+### Estribillo
+
+¡Brilla, brilla, mi sonrisa! Cepilla, cepilla, sin prisa.
+
+### Por fuera
+
+Por fuera, una sonrisa, ¡enséñame los dientes!, de arriba abajo, suave, ¡qué dientes tan relucientes!
+
+### Estribillo
+
+¡Brilla, brilla, mi sonrisa! Cepilla, cepilla, sin prisa.
+
+### Por dentro
+
+Por dentro, abre grande, ¡aaaa, así, muy bien!, y a la lengua, cosquillitas: ¡jiji, jaja, jeje!
+
+### Estribillo
+
+¡Brilla, brilla, mi sonrisa! Cepilla, cepilla, sin prisa.
+
+### Despedida
+
+Escupe la espuma y… ¡a sonreír! ¡Brilla, brilla, mi sonrisa!
+
+### De 5 a 6 años · «Frota, frota, cepillito»
 
 ### Empieza Don Bigotes
 
@@ -66,6 +128,48 @@ Frota, frota, cepillito, despacito y sin parar, que cada diente, uno a uno, como
 
 Escupe la espuma y no enjuagues, la sonrisa ya está aquí. Dos minutos, diente a diente, Don Bigotes cuenta contigo. Y si esta noche se cae uno, ya sabes quién viene a por él. Hasta mañana, cepillito. Hasta mañana, otra vez.
 
+### De 7 a 9 años · «Misión Sonrisa»
+
+### Empieza Don Bigotes
+
+«Soy Don Bigotes. Misión Sonrisa: dos minutos, cuatro zonas. ¡Vamos allá!»
+
+### Arriba
+
+Empieza el viaje por arriba, muelas al fondo, ¡a explorar!, circulitos pequeñitos, que ninguna quede atrás. Las bacterias hacen fiesta donde nadie va a mirar: pues lo siento, señoritas, esta fiesta va a acabar.
+
+### Estribillo
+
+¡Misión Sonrisa, dos minutos!, cuatro zonas que limpiar; la placa corre, la placa huye, ¡pero hoy no va a escapar!
+
+### Abajo
+
+Bajamos al piso de abajo en ascensor, sin parar, de la muela hasta el colmillo y otra vuelta, ¡a repasar! Si una miga de galleta se escondió en un rincón, que vaya haciendo la maleta: ¡llega el cepillo campeón!
+
+### Estribillo
+
+¡Misión Sonrisa, dos minutos!, cuatro zonas que limpiar; la placa corre, la placa huye, ¡pero hoy no va a escapar!
+
+### Por fuera
+
+Ahora por fuera, la fachada, la que sale al sonreír, de la encía hacia el borde, como un pintor, sin presumir. Ni muy fuerte ni muy flojo, que la encía es delicada: quien frota como un bruto no consigue nada de nada.
+
+### Estribillo
+
+¡Misión Sonrisa, dos minutos!, cuatro zonas que limpiar; la placa corre, la placa huye, ¡pero hoy no va a escapar!
+
+### Por dentro
+
+Por dentro, la zona secreta, la que solo ve el dentista, boca abierta de cocodrilo, cepillo en vertical, ¡a la vista! Y un repaso a la lengua, que también tiene su historia: dos minutos de campeones y esta misión es la victoria.
+
+### Estribillo
+
+¡Misión Sonrisa, dos minutos!, cuatro zonas que limpiar; la placa corre, la placa huye, ¡pero hoy no va a escapar!
+
+### Despedida
+
+Escupe la espuma, no enjuagues: el flúor se queda a trabajar. Misión cumplida, Don Bigotes lo apunta: ¡mañana, otra vez más!
+
 ## Cómo lavarles los dientes
 
 - Menos de 3 años: pasta de 1000 ppm de flúor, la cantidad de un grano de arroz.
@@ -104,7 +208,15 @@ Hasta los 8 años, más o menos: hasta entonces, un adulto les ayuda o supervisa
 
 **¿La canción y el cepillado de Don Bigotes son gratis?**
 
-Sí. La canción se escucha gratis en esta página, y el cepillado de la app Don Bigotes (la canción, las cuatro zonas y el sello en el diario) también es gratis, sin cuenta.
+Sí. Las tres canciones se escuchan gratis en esta página, y el cepillado de la app Don Bigotes (la canción de su edad, las cuatro zonas, el sello en el diario y el premio de los 7 días) también es gratis, sin cuenta.
+
+**¿Qué canción le toca a mi hijo?**
+
+La de su edad: «Brilla, brilla, mi sonrisa» de 3 a 4 años, «Frota, frota, cepillito» de 5 a 6 y «Misión Sonrisa» de 7 a 9. La app la elige con la edad que pusiste en su diario o en su carta; si no la sabe, suena la de 5 a 6. Con «Cambiar» puedes ponerle otra cuando quieras. Si se cepillan varios hermanos a la vez, suena la del más pequeño.
+
+**¿Qué pasa a los 7 días seguidos?**
+
+Que se gana su premio: el diploma «Siete días brillantes», con su foto si quieres ponerla, y el cuento «La sonrisa de Ñam», que se desbloquea en la app. Cuenta cada día con al menos un cepillado, de mañana o de noche. Es gratis, y la foto no sale de tu celular.
 
 ## Descarga Don Bigotes y que esta noche se cepille con la canción
 
