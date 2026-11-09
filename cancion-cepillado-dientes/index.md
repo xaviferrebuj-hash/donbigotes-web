@@ -222,7 +222,7 @@ Que se gana su premio: el diploma «Siete días brillantes», con su foto si qui
 
 Y cuando se le mueva un diente, en la app Don Bigotes tienes la carta del Ratoncito Pérez con su nombre y el diario de dientes de leche, gratis y sin cuenta.
 
-Última actualización: 4 de noviembre de 2026
+Última actualización: 9 de noviembre de 2026
 
 App no afiliada a ningún titular de marcas relacionadas con el personaje tradicional, que pertenece al folclore español. Todas las ilustraciones y la marca «Don Bigotes» son propias. © Don Bigotes.
 
