@@ -6,7 +6,7 @@ En corto: Don Bigotes es una app para que madres, padres y tutores vivan la magi
 
 ## 1.Quién ofrece la app y la web
 
-La aplicación Don Bigotes (en adelante, «la app») y el sitio web donbigotes.app (en adelante, «la web») los ofrece Francisco Javier Ferre Buj, con domicilio en Barcelona, España. Contacto: hola@donbigotes.app.
+La aplicación Don Bigotes (en adelante, «la app») y el sitio web donbigotes.app (en adelante, «la web») los ofrece Francisco Javier Ferre Buj, con NIF 46688386L y domicilio en Barcelona, España. Contacto: hola@donbigotes.app.
 
 ## 2.Qué aceptas al usar la app
 

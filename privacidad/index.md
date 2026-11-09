@@ -1,12 +1,12 @@
 # Política de Privacidad
 
-Última actualización: 9 de noviembre de 2026
+Última actualización: 10 de noviembre de 2026
 
 En corto: esta política cubre dos cosas distintas.
 
 La app hace su magia en tu dispositivo. El nombre del niño o la niña y la foto que uses para el fotomontaje se procesan solo en tu móvil. No los enviamos a ningún servidor, no los guardamos en ningún otro sitio y no los compartimos con nadie. No recopilamos datos personales. Solo estadísticas de uso anónimas, sin cuenta ni identificadores: cuándo se abre la app o se completa una compra, para saber qué mejorar.
 
-La web donbigotes.app sí trata algún dato: si nos dejas tu email en un formulario, ese email pasa por un proveedor externo antes de llegar a nuestro buzón. Y medimos las visitas de forma anónima y sin cookies. Lo explicamos todo en la Parte B.
+La web donbigotes.app no tiene formularios ni te pide datos: solo medimos las visitas de forma anónima y sin cookies. Si nos dejaste tu correo en un formulario antes del 9 de noviembre de 2026, en la Parte B te contamos qué pasa con él.
 
 ## 1.Quién es el responsable
 
@@ -144,17 +144,19 @@ Tus datos personales y los del menor no salen del dispositivo, así que no se ex
 
 ## La web donbigotes.app
 
-Esta parte se refiere solo al sitio web: los formularios donde puedes dejarnos tu contacto y la medición de visitas. Nada de esto ocurre dentro de la app.
+Esta parte se refiere solo al sitio web: la medición de visitas y los contactos que nos dejaron en los formularios que tuvo la web hasta el 9 de noviembre de 2026. Nada de esto ocurre dentro de la app.
 
-## 12.Formularios de contacto y de aviso
+## 12.Formularios de contacto y de aviso (retirados)
 
-Qué recogemos. Solo lo que tú escribes: tu dirección de correo electrónico (o tu móvil, si prefieres dejarnos ese) y, cuando el formulario lo incluye, el contenido del mensaje que nos envías. Junto al envío se registra también la página desde la que lo has hecho, para saber qué te interesaba. No pedimos nombre, dirección ni ningún otro dato.
+Desde el 9 de noviembre de 2026 la web no tiene formularios y no recoge correos ni ningún otro dato. Lo que sigue explica cómo tratamos los contactos que se nos dejaron antes de esa fecha.
+
+Qué se recogía. Solo lo que escribías: tu dirección de correo electrónico (o tu móvil, si prefieres dejarnos ese) y, cuando el formulario lo incluye, el contenido del mensaje que nos envías. Junto al envío se registra también la página desde la que lo has hecho, para saber qué te interesaba. No pedimos nombre, dirección ni ningún otro dato.
 
 Para qué lo usamos. Para responderte, y para avisarte de aquello que has pedido que te avisemos (por ejemplo, cuando la app llegue a la App Store). No te mandamos publicidad de otras cosas ni cedemos tu correo a nadie para que te escriba.
 
-Con qué base legal. Con tu consentimiento, que nos das al rellenar el formulario y enviarlo (artículo 6.1.a del RGPD). Puedes retirarlo cuando quieras escribiéndonos a hola@donbigotes.app: dejar de tratar tus datos es tan sencillo como pedírnoslo, y no afecta a lo que hayamos hecho antes.
+Con qué base legal. Con tu consentimiento, que nos diste al rellenar el formulario y enviarlo (artículo 6.1.a del RGPD). Puedes retirarlo cuando quieras escribiéndonos a hola@donbigotes.app: dejar de tratar tus datos es tan sencillo como pedírnoslo, y no afecta a lo que hayamos hecho antes.
 
-Por dónde pasa tu mensaje. Los formularios no se envían directamente a nuestro correo: los gestiona Web3Forms, un servicio operado por Web3Creative, que actúa como encargado del tratamiento por cuenta nuestra bajo un contrato de encargo (DPA). Web3Forms recibe tu envío, lo guarda y nos lo reenvía a nuestro buzón hola@donbigotes.app, alojado en Zoho Mail.
+Por dónde pasó tu mensaje. Los formularios no se enviaban directamente a nuestro correo: los gestiona Web3Forms, un servicio operado por Web3Creative, que actúa como encargado del tratamiento por cuenta nuestra bajo un contrato de encargo (DPA). Web3Forms recibe tu envío, lo guarda y nos lo reenvía a nuestro buzón hola@donbigotes.app, alojado en Zoho Mail.
 
 Transferencia internacional. Web3Creative opera desde India y su infraestructura (Amazon Web Services, Cloudflare y Hetzner) puede procesar los datos en varias regiones. India no cuenta con una decisión de adecuación de la Comisión Europea, de modo que la transferencia se ampara en las Cláusulas Contractuales Tipo aprobadas por la Decisión de Ejecución (UE) 2021/914 de la Comisión, incorporadas por referencia a su contrato de encargo, actuando Web3Creative como importador de datos y nosotros como exportadores.
 
@@ -170,7 +172,7 @@ Usamos Plausible Analytics para saber cuántas personas visitan la web y qué p�
 
 - Los datos son agregados: vemos totales y tendencias («esta página ha tenido X visitas»), nunca el recorrido de una persona concreta.
 
-- Registramos también algunos eventos anónimos de uso, como que alguien ha generado una carta o ha dejado su correo. Son recuentos: no van asociados a ninguna persona ni al correo que hayas escrito.
+- Registramos también algunos eventos anónimos de uso, como que alguien ha generado una carta. Son recuentos: no van asociados a ninguna persona.
 
 - Los datos se procesan y se almacenan en la Unión Europea, sobre infraestructura de empresas europeas. No salen de la UE.
 
@@ -184,7 +186,7 @@ Las tipografías y el resto de recursos de la web se sirven desde nuestro propio
 
 ## 15.Menores y la web
 
-Los formularios están dirigidos a personas adultas. No pedimos ni queremos datos de menores a través de la web. Si crees que un menor nos ha dejado su contacto, escríbenos y lo borramos.
+Los formularios que tuvo la web estaban dirigidos a personas adultas. No pedimos ni queremos datos de menores a través de la web. Si crees que un menor nos ha dejado su contacto, escríbenos y lo borramos.
 
 ## Lo que vale para todo
 
