@@ -111,7 +111,7 @@
   <div class="wrap">
     {% include cabecera.html lang="es" %}
     <h1>Política de Privacidad</h1>
-    <p>Última actualización: 3 de noviembre de 2026</p>
+    <p>Última actualización: 9 de noviembre de 2026</p>
   </div>
 </header>
 
@@ -161,7 +161,7 @@
   <p>La app se conecta a internet en tres casos, y en ninguno viaja un dato personal tuyo ni un dato que identifique al menor (del menor solo llega, anónima y sin identificadores, la franja de edad de la plantilla de carta; punto 9):</p>
   <ul>
     <li><strong>Configuración:</strong> para comprobar si está activo el modo de lanzamiento, lee un archivo alojado en GitHub Pages. Únicamente <strong>lee</strong> una fecha; no envía nada.</li>
-    <li><strong>Estadísticas de uso anónimas:</strong> envía veintinueve eventos sin identificadores, descritos en el punto 9.</li>
+    <li><strong>Estadísticas de uso anónimas:</strong> envía treinta y dos eventos sin identificadores, descritos en el punto 9.</li>
     <li>Algunas voces y sonidos opcionales se descargan la primera vez que abres la función que los usa, desde el mismo servidor que aloja esta página (GitHub Pages). La app solo pide el fichero: no envía ningún dato tuyo ni de tu hijo, ni identificadores del dispositivo. Como en cualquier conexión a internet, el servidor ve la dirección IP; nosotros no la recibimos ni la guardamos.</li>
   </ul>
 
@@ -171,7 +171,7 @@
   <p>Esto se refiere únicamente a la aplicación móvil. <strong>La web donbigotes.app sí utiliza servicios de terceros</strong>, y los detallamos uno a uno en la Parte B.</p>
 
   <h2><span class="n">9.</span>Estadísticas de uso anónimas</h2>
-  <p>Para mejorar la app usamos Plausible Analytics, un servicio de analítica europeo centrado en la privacidad. Registramos únicamente veintinueve eventos de uso anónimos, y ninguno más:</p>
+  <p>Para mejorar la app usamos Plausible Analytics, un servicio de analítica europeo centrado en la privacidad. Registramos únicamente treinta y dos eventos de uso anónimos, y ninguno más:</p>
   <ul>
     <li><code>open</code>: que la app se ha abierto.</li>
     <li><code>first_free_action</code>: que en ese móvil se ha elegido por primera vez la carta gratis. Se envía una sola vez; para recordarlo, la app guarda una marca en el propio dispositivo que nunca se envía.</li>
@@ -192,6 +192,9 @@
     <li><code>clasico_play</code>: que ha empezado a sonar uno de los cuentos clásicos (como mucho, una vez por cuento cada vez que se abre la app). No indica cuál.</li>
     <li><code>cepillado_inicio</code>: que ha empezado a sonar la canción del cepillado de dientes (una vez por cepillado). No indica quién se cepilla ni cuántos niños.</li>
     <li><code>cepillado_completo</code>: que se ha terminado un cepillado y se ha ganado el sello (una vez por cepillado, aunque se cepillen varios hermanos a la vez). No indica quién.</li>
+    <li><code>cepillado_marcado</code>: que se ha marcado un cepillado como hecho sin poner la canción o antes de que acabe (una vez cada vez que se marca). Indica solo cuál de esos dos casos ha sido; no indica quién.</li>
+    <li><code>compartir_cancion</code>: que se ha compartido la canción del cepillado. Indica solo si se ha compartido antes de empezar o al acabar.</li>
+    <li><code>racha_7</code>: que un niño ha llegado por primera vez a siete días seguidos de cepillado y ha ganado su premio (una vez por niño). No indica quién.</li>
     <li><code>carta_t34</code>, <code>carta_t56</code> y <code>carta_t79</code>: que se ha creado una carta gratuita y con qué plantilla, que va según la edad (3-4, 5-6 o 7 años o más). Sin el nombre, la fecha de nacimiento ni nada que identifique al niño.</li>
     <li><code>compartir_diario</code>: que se ha compartido la ficha del diario de dientes.</li>
     <li><code>compartir_carta</code>: que se ha compartido la carta.</li>
