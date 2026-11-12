@@ -8,7 +8,7 @@ De 3 a 4 años · «Brilla, brilla, mi sonrisa» · 1:38
 
 Cuatro zonas de 20 segundos, para los más pequeños.
 
-De 5 a 6 años · «Frota, frota, cepillito» · 2:28
+De 5 a 6 años · «Dos minutos con Don Bigotes» · 2:28
 
 Dos minutos, en cuatro zonas de 30 segundos.
 
@@ -22,7 +22,7 @@ En la app Don Bigotes, el cepillado con canción y el diario de sus dientes de l
 
 ## Cómo es el cepillado de Don Bigotes
 
-- Una canción para cada edad: «Brilla, brilla, mi sonrisa» de 3 a 4 años, «Frota, frota, cepillito» de 5 a 6 y «Misión Sonrisa» de 7 a 9. La app pone la de su edad, y con «Cambiar» eliges otra.
+- Una canción para cada edad: «Brilla, brilla, mi sonrisa» de 3 a 4 años, «Dos minutos con Don Bigotes» de 5 a 6 y «Misión Sonrisa» de 7 a 9. La app pone la de su edad, y con «Cambiar» eliges otra.
 
 - Con su nombre al empezar: «Esta canción es para… Martina», con la voz de Don Bigotes (para la mayoría de los nombres).
 
@@ -82,7 +82,7 @@ Por dentro, abre grande, ¡aaaa, así, muy bien!, y a la lengua, cosquillitas: �
 
 Escupe la espuma y… ¡a sonreír! ¡Brilla, brilla, mi sonrisa!
 
-### De 5 a 6 años · «Frota, frota, cepillito»
+### De 5 a 6 años · «Dos minutos con Don Bigotes»
 
 ### Empieza Don Bigotes
 
@@ -212,7 +212,7 @@ Sí. Las tres canciones se escuchan gratis en esta página, y el cepillado de la
 
 **¿Qué canción le toca a mi hijo?**
 
-La de su edad: «Brilla, brilla, mi sonrisa» de 3 a 4 años, «Frota, frota, cepillito» de 5 a 6 y «Misión Sonrisa» de 7 a 9. La app la elige con la edad que pusiste en su diario o en su carta; si no la sabe, suena la de 5 a 6. Con «Cambiar» puedes ponerle otra cuando quieras. Si se cepillan varios hermanos a la vez, suena la del más pequeño.
+La de su edad: «Brilla, brilla, mi sonrisa» de 3 a 4 años, «Dos minutos con Don Bigotes» de 5 a 6 y «Misión Sonrisa» de 7 a 9. La app la elige con la edad que pusiste en su diario o en su carta; si no la sabe, suena la de 5 a 6. Con «Cambiar» puedes ponerle otra cuando quieras. Si se cepillan varios hermanos a la vez, suena la del más pequeño.
 
 **¿Qué pasa a los 7 días seguidos?**
 
