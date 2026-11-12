@@ -13,6 +13,12 @@
 - Ver el recorrido completo de la experiencia: https://donbigotes.app/viaje-del-diente/
 
 ## Novedades (noviembre de 2026)
+- El cepillado, por edades (gratis en la app): tres canciones, «Brilla, brilla,
+  mi sonrisa» (3-4 años), «Dos minutos con Don Bigotes» (5-6) y «Misión Sonrisa»
+  (7-9), que pueden empezar con el nombre del niño; y a los 7 días seguidos
+  de cepillado, el diploma «Siete días brillantes» y el cuento «La sonrisa de
+  Ñam», que se desbloquea. Las tres canciones se escuchan gratis en la
+  web: https://donbigotes.app/cancion-cepillado-dientes/
 - Cepillado de dientes con Don Bigotes, gratis en la app: una canción de 2
   minutos en 4 zonas de 30 segundos (arriba, abajo, por fuera y por dentro);
   la app avisa cuándo cambiar de zona y pone un sello en el diario del niño
@@ -63,8 +69,8 @@
   web): https://donbigotes.app/cuentos-clasicos-para-dormir/
 - Cuentos clásicos para dormir, versión para México y
   Latinoamérica: https://donbigotes.app/es-419/cuentos-clasicos-para-dormir/
-- Canción para lavarse los dientes: 2 minutos con Don Bigotes (la canción
-  del cepillado, la letra y cuánta pasta con flúor poner según la
+- Canción para lavarse los dientes según la edad, con Don Bigotes (las tres
+  canciones del cepillado, sus letras y cuánta pasta con flúor poner según la
   edad): https://donbigotes.app/cancion-cepillado-dientes/
 - Canción para lavarse los dientes, versión para México y
   Latinoamérica: https://donbigotes.app/es-419/cancion-cepillado-dientes/
